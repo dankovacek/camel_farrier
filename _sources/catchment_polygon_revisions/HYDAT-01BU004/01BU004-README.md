@@ -1,0 +1,47 @@
+---
+hidden: true
+---
+# HYDAT-01BU004
+**Latest revision:** 2022-04-26
+
+## 01BU004: PALMERS CREEK NEAR DORCHESTER
+
+![Catchment Image](resources/01BU004_catchment.png)
+
+### Catchment Attributes
+| Attribute                  | (Arsenault, 2020)             |
+|:---------------------------|:------------------------------|
+| Watershed_ID               | 77                            |
+| Source                     | HYDAT                         |
+| Name                       | PALMERS CREEK NEAR DORCHESTER |
+| Official_ID                | 01BU004                       |
+| Centroid_Lat_deg_N         | 45.88722                      |
+| Centroid_Lon_deg_E         | -64.51639                     |
+| Drainage_Area_km2          | 34.2                          |
+| Drainage_Area_GSIM_km2     | nan                           |
+| Flag_GSIM_boundaries       | 0                             |
+| Flag_Artificial_Boundaries | 1                             |
+| Elevation_m                | 32.9                          |
+| Slope_deg                  | 2.2898                        |
+| Gravelius                  | nan                           |
+| Perimeter                  | nan                           |
+| Flag_Shape_Extraction      | 0                             |
+| Aspect_deg                 | 270.9562                      |
+| Flag_Terrain_Extraction    | 1                             |
+| Land_Use_Forest_frac       | 0.8947                        |
+| Land_Use_Grass_frac        | 0.0                           |
+| Land_Use_Wetland_frac      | 0.0                           |
+| Land_Use_Water_frac        | 0.0                           |
+| Land_Use_Urban_frac        | 0.0                           |
+| Land_Use_Shrubs_frac       | 0.1053                        |
+| Land_Use_Crops_frac        | 0.0                           |
+| Land_Use_Snow_Ice_frac     | 0.0                           |
+| Flag_Land_Use_Extraction   | 1                             |
+| Permeability_logk_m2       | nan                           |
+| Porosity_frac              | nan                           |
+| Flag_Subsoil_Extraction    | 0                             |
+| Reference                  | (Arsenault et al., 2020)      |
+| revision_date              | 2022-04-26                    |
+
+### References
+1. Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.: A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, Scientific Data, 7, 243, [https://doi.org/10.1038/s41597-020-00583-2](https://doi.org/10.1038/s41597-020-00583-2), 2020.

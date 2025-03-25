@@ -1,0 +1,695 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Camel Farrier &#8212; My sample book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=ff57258c" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
+    <script src="_static/searchindex.js?v=85f58a90"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Catchment Polygon Revision Archive" href="index.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="#">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1 current active">
+                <a class="reference internal" href="#">
+                    Camel Farrier
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Catchment Polygon Revision Archive</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Monitored Catchments</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AD002/01AD002-README.html">HYDAT-01AD002</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AD003/01AD003-README.html">HYDAT-01AD003</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AD015/01AD015-README.html">HYDAT-01AD015</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AE001/01AE001-README.html">HYDAT-01AE001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AF006/01AF006-README.html">HYDAT-01AF006</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AF007/01AF007-README.html">HYDAT-01AF007</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AF009/01AF009-README.html">HYDAT-01AF009</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AH005/01AH005-README.html">HYDAT-01AH005</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AJ003/01AJ003-README.html">HYDAT-01AJ003</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AJ004/01AJ004-README.html">HYDAT-01AJ004</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AJ006/01AJ006-README.html">HYDAT-01AJ006</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AJ007/01AJ007-README.html">HYDAT-01AJ007</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AJ010/01AJ010-README.html">HYDAT-01AJ010</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AJ011/01AJ011-README.html">HYDAT-01AJ011</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AK001/01AK001-README.html">HYDAT-01AK001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AK005/01AK005-README.html">HYDAT-01AK005</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AK006/01AK006-README.html">HYDAT-01AK006</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AK007/01AK007-README.html">HYDAT-01AK007</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AL002/01AL002-README.html">HYDAT-01AL002</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AL003/01AL003-README.html">HYDAT-01AL003</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AL004/01AL004-README.html">HYDAT-01AL004</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AL008/01AL008-README.html">HYDAT-01AL008</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AM001/01AM001-README.html">HYDAT-01AM001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AN001/01AN001-README.html">HYDAT-01AN001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AN002/01AN002-README.html">HYDAT-01AN002</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AO009/01AO009-README.html">HYDAT-01AO009</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AP002/01AP002-README.html">HYDAT-01AP002</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AP004/01AP004-README.html">HYDAT-01AP004</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AP006/01AP006-README.html">HYDAT-01AP006</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AP009/01AP009-README.html">HYDAT-01AP009</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AQ001/01AQ001-README.html">HYDAT-01AQ001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AQ008/01AQ008-README.html">HYDAT-01AQ008</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AR007/01AR007-README.html">HYDAT-01AR007</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01AR008/01AR008-README.html">HYDAT-01AR008</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BA001/01BA001-README.html">HYDAT-01BA001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BC001/01BC001-README.html">HYDAT-01BC001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BD002/01BD002-README.html">HYDAT-01BD002</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BD004/01BD004-README.html">HYDAT-01BD004</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BD008/01BD008-README.html">HYDAT-01BD008</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BD009/01BD009-README.html">HYDAT-01BD009</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BE001/01BE001-README.html">HYDAT-01BE001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BF001/01BF001-README.html">HYDAT-01BF001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BF004/01BF004-README.html">HYDAT-01BF004</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BG001/01BG001-README.html">HYDAT-01BG001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BG002/01BG002-README.html">HYDAT-01BG002</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BG003/01BG003-README.html">HYDAT-01BG003</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BG004/01BG004-README.html">HYDAT-01BG004</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BG005/01BG005-README.html">HYDAT-01BG005</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BG006/01BG006-README.html">HYDAT-01BG006</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BG008/01BG008-README.html">HYDAT-01BG008</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BG009/01BG009-README.html">HYDAT-01BG009</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BH001/01BH001-README.html">HYDAT-01BH001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BH002/01BH002-README.html">HYDAT-01BH002</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BH003/01BH003-README.html">HYDAT-01BH003</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BH007/01BH007-README.html">HYDAT-01BH007</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BH008/01BH008-README.html">HYDAT-01BH008</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BH009/01BH009-README.html">HYDAT-01BH009</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BH012/01BH012-README.html">HYDAT-01BH012</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BJ001/01BJ001-README.html">HYDAT-01BJ001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BJ003/01BJ003-README.html">HYDAT-01BJ003</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BJ007/01BJ007-README.html">HYDAT-01BJ007</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BJ010/01BJ010-README.html">HYDAT-01BJ010</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BJ012/01BJ012-README.html">HYDAT-01BJ012</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BK006/01BK006-README.html">HYDAT-01BK006</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BL001/01BL001-README.html">HYDAT-01BL001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BL002/01BL002-README.html">HYDAT-01BL002</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BL003/01BL003-README.html">HYDAT-01BL003</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BO001/01BO001-README.html">HYDAT-01BO001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BO003/01BO003-README.html">HYDAT-01BO003</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BO004/01BO004-README.html">HYDAT-01BO004</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BP001/01BP001-README.html">HYDAT-01BP001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BP002/01BP002-README.html">HYDAT-01BP002</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BQ001/01BQ001-README.html">HYDAT-01BQ001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BS001/01BS001-README.html">HYDAT-01BS001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BT001/01BT001-README.html">HYDAT-01BT001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BU002/01BU002-README.html">HYDAT-01BU002</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BU004/01BU004-README.html">HYDAT-01BU004</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BU005/01BU005-README.html">HYDAT-01BU005</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BU006/01BU006-README.html">HYDAT-01BU006</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BU007/01BU007-README.html">HYDAT-01BU007</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BU008/01BU008-README.html">HYDAT-01BU008</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BU009/01BU009-README.html">HYDAT-01BU009</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BV004/01BV004-README.html">HYDAT-01BV004</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BV005/01BV005-README.html">HYDAT-01BV005</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BV006/01BV006-README.html">HYDAT-01BV006</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BV007/01BV007-README.html">HYDAT-01BV007</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BV008/01BV008-README.html">HYDAT-01BV008</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01BV010/01BV010-README.html">HYDAT-01BV010</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01CA003/01CA003-README.html">HYDAT-01CA003</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01CA004/01CA004-README.html">HYDAT-01CA004</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01CB005/01CB005-README.html">HYDAT-01CB005</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01CB006/01CB006-README.html">HYDAT-01CB006</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01CB007/01CB007-README.html">HYDAT-01CB007</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01CB008/01CB008-README.html">HYDAT-01CB008</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01CB010/01CB010-README.html">HYDAT-01CB010</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01CB012/01CB012-README.html">HYDAT-01CB012</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01CB014/01CB014-README.html">HYDAT-01CB014</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01CB015/01CB015-README.html">HYDAT-01CB015</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01CC004/01CC004-README.html">HYDAT-01CC004</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catchment_polygon_revisions/HYDAT-01CC005/01CC005-README.html">HYDAT-01CC005</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/intro.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Camel Farrier</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#abstract">Abstract</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#large-sample-datasets">Large Sample Datasets</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#opportunities-for-addressing-uncertainty-in-catchment-polygons">Opportunities for Addressing Uncertainty in Catchment Polygons</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#advantages-of-open-source-development-practices">Advantages of Open Source Development Practices</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quantifying-the-effect-of-changes-to-catchment-polygons-on-input-data">Quantifying the effect of changes to catchment polygons on input data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#approach">Approach</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="camel-farrier">
+<h1>Camel Farrier<a class="headerlink" href="#camel-farrier" title="Link to this heading">#</a></h1>
+<section id="abstract">
+<h2>Abstract<a class="headerlink" href="#abstract" title="Link to this heading">#</a></h2>
+<p>Catchment attributes and meteorological forcings of gauged basins are widely used in hydrological modelling.  Recent developments in standardized data processing pipelines for extracting catchment information have significantly improved the consistency and quality of hydrological model inputs.  Harmonization of input datasets has made research more comparable, and has enabled the merging of regional and continental large sample hydrology datasets.  Current standardized LSH dataset development assumes an input dataset of catchment polygons, where the delineation of catchments is to our knowledge outside the scope of standardization.  Catchment boundaries represent an important source of uncertainty in large sample hydrology datasets, and they represent an opportunity to further improve the quality of LSH datasets.  Addressing uncertainty in catchment delineation could result in the incorporation of many monitored catchments currently excluded, thereby expanding LSH sample size and dataset diversity.</p>
+<p>In this paper we introduce Camel Farrier, an open-source repository of catchment polygons that adopts best practices in open-source software development such as version control, bug reporting, community discussion, pull requests, automated testing, and versioning.  Such practices could improve the quality and consistency of monitored catchment polygons that represent a critical first step in the data processing pipeline of large-sample hydrology datasets.</p>
+</section>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h2>
+<p>Recent studies show that machine learning approaches, in particular Long Short-Term Memory networks (LSTMS), are competitive with state of the art process-based models in daily rainfall-runoff modelling.  Both approaches use large samples of monitored catchments for parameter calibration and model training.  If you want to train an LSTM or regionalize rainfall-runoff model parameters to predict runoff in ungauged basins, you must first develop a large sample dataset.  Regardless of the approach, the quality of data describing catchment attributes and meteorological forcings is critical to predictive performance.</p>
+<!-- should the introduction focus on the development of existing large sample hydrology datasets with the aim to highlight the gap in existing processes? or is this the next section? -->
+</section>
+<section id="large-sample-datasets">
+<h2>Large Sample Datasets<a class="headerlink" href="#large-sample-datasets" title="Link to this heading">#</a></h2>
+<p>Do et al. (2018) trace the evolution of large-sample hydrology (LSH) datasets from early collections, like the Global Runoff Database and MOPEX, which provided extensive streamflow and hydrometeorological records, to the incorporation of geospatial attributes in GAGES-II.  These precursor datasets evolved into CAMELS, which combined both data types for numerous US catchments, later expanding regionally with versions from Chile, Brazil, Australia, and Great Britain, and across Europe. The HYSETS dataset covered North America and Mexico, and the recent Caravan dataset unified these diverse resources into a standardized, global framework for hydrological modeling.</p>
+<p>A challenge common to these datasets is the exclusion of small catchments due to uncertainties in catchment delineation, underscoring the need for improved, standardized processes at the first steps of catchment representation.</p>
+<p>(Caravan / Google Earth Engine) represents a significant contribution in the standardization of the workflow used to extract attributes and time series meteorological forcings corresponding to monitored catchments from a growing variety of geospatial data sources.</p>
+<p>The basis of extracting static attributes and forcings is the catchment polygon.  Polygons in North America included in the Caravan dataset come from from the Camels dataset (contiguous USA) and Hysets dataset (North America and Mexico).  Hysets polygons were obtained from governing bodies (WSC, USGS, Conagua), and methods used to generate these polygons are not documented, and catchment polygons are unique to the digital elevation source and to the methodological choices used in delineating catchment polygons.</p>
+<p>Governing bodies like the USGS and WSC do not guarantee the accuracy of catchment polygons, and this information is periodically updated.  Both the catchment polygons and the datasets used to describe attributes and climate forcings are subject to change in ways that materially affect the quality of the input data used to train rainfall-runoff models that are used to support water resources decisions.</p>
+</section>
+<section id="opportunities-for-addressing-uncertainty-in-catchment-polygons">
+<h2>Opportunities for Addressing Uncertainty in Catchment Polygons<a class="headerlink" href="#opportunities-for-addressing-uncertainty-in-catchment-polygons" title="Link to this heading">#</a></h2>
+<p>The quality of large sample hydrology datasets could benefit from standard practice procedures in software development version control and publication in open source repositories using standardized testing and documentation practices.  This would allow for the transparent and documented history of changes to catchment polygons, and a platform for sharing knowledge about uncertainties in catchment delineation.</p>
+<p>LSH datasets have excluded (or flagged) small catchments on the basis of uncertainty in catchment delineation and as well on the basis of the daily observation frequency being insufficient to capture the dynamics of the basin response.  Higher frequency observations are already published by many governing agencies (WSC, USGS), and streamflow forecasting research is already using hourly data.  The inclusion of small catchments in LSH datasets is therefore necessary to improve the quality and diversity of training data for model calibration.</p>
+<p>The smallest catchment in the Caravan dataset is X km2, and the smallest dataset in the HYSETS dataset is X km2, though roughly 1/3 of the catchments in the datset are represented by a square centred at the station location.</p>
+<p>Delineation of small catchments is uncertain in the case of discontinued monitoring stations where recorded geographic coordinates are approximate.  These historical records could add valuable information for model training.</p>
+<p>The water survey of Canada published updates to the streamflow monitoring network catchment polygons in July 2022 and September 2024.  The polygons in this set represent significant changes in X of the catchments included in the HYSETS dataset.</p>
+<p>Catchment polygons are derived by many groups, and there does not exist a platform for sharing knowledge about uncertainties in catchment delineation.  We propose adopting version control and crowd-sourced quality control to catchment polygons.  This will allow for a transparent and documented history of changes to catchment polygons, and a platform for sharing knowledge about uncertainties in catchment delineation.</p>
+<p>These polygons are often created by hand, and are subject to errors and inconsistencies. This project aims to crowd-source the quality control of these polygons, and to provide a version-controlled history of changes to the polygons.</p>
+</section>
+<section id="advantages-of-open-source-development-practices">
+<h2>Advantages of Open Source Development Practices<a class="headerlink" href="#advantages-of-open-source-development-practices" title="Link to this heading">#</a></h2>
+<p>-ability to track changes to catchment polygons
+-platform for sharing knowledge about uncertainties in catchment delineation
+-standardization of catchment delineation methods
+-broader expert knowledge can be applied to review process
+-explicit documentation of decisions made regarding catchment delineation, standardized testing, and review process
+-automated testing can be applied to catchment polygons to identify significant changes with respect to input data and trigger updates to LSH datasets
+-versioning of polygon datasets can be linked to versioning of large sample hydrology datasets</p>
+</section>
+<section id="quantifying-the-effect-of-changes-to-catchment-polygons-on-input-data">
+<h2>Quantifying the effect of changes to catchment polygons on input data<a class="headerlink" href="#quantifying-the-effect-of-changes-to-catchment-polygons-on-input-data" title="Link to this heading">#</a></h2>
+<p>-how many catchments were affected?
+-what was the change in area (magnitude)?
+-what was the change in overlapping area (Jaccard index)?
+-what pct change in area reflects a significant change in input data quality? – depends on magnitude of change but also variability of spatial data within the catchment</p>
+</section>
+<section id="approach">
+<h2>Approach<a class="headerlink" href="#approach" title="Link to this heading">#</a></h2>
+<p>-host the catchment polygons in a public, open-source repository
+-allow users to submit “issue reports” to highlight uncertainties in catchment polygons
+-issue reports should contain a minimum subset of information (similar to template bug reports)
+-guidelines for testing
+-issue reports can trigger a review process
+-include a code to derive the catchment polygon (e.g. to highlight disagreement between data sources)
+-include a polygon manually adjusted based on other information (expert knowledge, historical records, additional survey, etc.)
+-review process can be partially automated
+-a suite of tests can be run on the catchment polygon to identify the significance of changes with respect to input data
+-the review process results in either: 1) no change, or 2) a pull request:
+-pull request is approved by the community
+-pull request is merged into the main branch
+-pull request triggers a new version of the catchment polygon
+-pull request triggers a new version of the input data</p>
+<!-- ## Contents
+
+```{tableofcontents}
+:exclude: catchment_polygon_revisions/**
+``` -->
+</section>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="right-next"
+       href="index.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Catchment Polygon Revision Archive</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#abstract">Abstract</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#large-sample-datasets">Large Sample Datasets</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#opportunities-for-addressing-uncertainty-in-catchment-polygons">Opportunities for Addressing Uncertainty in Catchment Polygons</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#advantages-of-open-source-development-practices">Advantages of Open Source Development Practices</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quantifying-the-effect-of-changes-to-catchment-polygons-on-input-data">Quantifying the effect of changes to catchment polygons on input data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#approach">Approach</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Jupyter Book Community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
