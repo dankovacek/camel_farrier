@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01AN001",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CASTAWAY STREAM NEAR CASTAWAY", "OfficialID": "01AN001", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 34.4 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -65.750096704902731, 46.271967399678864 ], [ -65.750096704902731, 46.324692600321136 ], [ -65.673783295097266, 46.324692600321136 ], [ -65.673783295097266, 46.271967399678864 ], [ -65.750096704902731, 46.271967399678864 ] ] ] } }
+]
+}

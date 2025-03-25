@@ -1,0 +1,47 @@
+---
+hidden: true
+---
+# HYDAT-01AJ010
+**Latest revision:** 2022-04-26
+
+## 01AJ010: BECAGUIMEC STREAM AT COLDSTREAM
+
+![Catchment Image](resources/01AJ010_catchment.png)
+
+### Catchment Attributes
+| Attribute                  | (Arsenault, 2020)               |
+|:---------------------------|:--------------------------------|
+| Watershed_ID               | 13                              |
+| Source                     | HYDAT                           |
+| Name                       | BECAGUIMEC STREAM AT COLDSTREAM |
+| Official_ID                | 01AJ010                         |
+| Centroid_Lat_deg_N         | 46.34089                        |
+| Centroid_Lon_deg_E         | -67.46511                       |
+| Drainage_Area_km2          | 343.5156                        |
+| Drainage_Area_GSIM_km2     | nan                             |
+| Flag_GSIM_boundaries       | 0                               |
+| Flag_Artificial_Boundaries | 0                               |
+| Elevation_m                | 231.7                           |
+| Slope_deg                  | 4.2668                          |
+| Gravelius                  | 1.6341                          |
+| Perimeter                  | 107.298                         |
+| Flag_Shape_Extraction      | 1                               |
+| Aspect_deg                 | 198.6796                        |
+| Flag_Terrain_Extraction    | 1                               |
+| Land_Use_Forest_frac       | 0.8255                          |
+| Land_Use_Grass_frac        | 0.0616                          |
+| Land_Use_Wetland_frac      | 0.0151                          |
+| Land_Use_Water_frac        | 0.004                           |
+| Land_Use_Urban_frac        | 0.0152                          |
+| Land_Use_Shrubs_frac       | 0.031                           |
+| Land_Use_Crops_frac        | 0.0476                          |
+| Land_Use_Snow_Ice_frac     | 0.0                             |
+| Flag_Land_Use_Extraction   | 1                               |
+| Permeability_logk_m2       | -14.2367347639434               |
+| Porosity_frac              | 0.101061223945295               |
+| Flag_Subsoil_Extraction    | 1                               |
+| Reference                  | (Arsenault et al., 2020)        |
+| revision_date              | 2022-04-26                      |
+
+### References
+1. Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.: A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, Scientific Data, 7, 243, [https://doi.org/10.1038/s41597-020-00583-2](https://doi.org/10.1038/s41597-020-00583-2), 2020.

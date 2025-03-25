@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01CB014",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SOUTHWEST BROOK NEAR MIDDLETON", "OfficialID": "01CB014", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 23.4 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -63.665661139701385, 46.312977125813646 ], [ -63.665661139701385, 46.356462874186349 ], [ -63.60267886029861, 46.356462874186349 ], [ -63.60267886029861, 46.312977125813646 ], [ -63.665661139701385, 46.312977125813646 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01AF006",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BLACK BROOK NEAR ST-ANDRE-DE-MADAWASKA", "OfficialID": "01AF006", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 14.2 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -67.756267911061414, 47.07445234836262 ], [ -67.756267911061414, 47.108327651637374 ], [ -67.706512088938595, 47.108327651637374 ], [ -67.706512088938595, 47.07445234836262 ], [ -67.756267911061414, 47.07445234836262 ] ] ] } }
+]
+}

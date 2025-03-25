@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01BU005",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HAYWARD BROOK SITE NO. 1 NEAR PETITCODIAC", "OfficialID": "01BU005", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 4.3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -65.171444958239277, 45.855959413271606 ], [ -65.171444958239277, 45.874600586728391 ], [ -65.144675041760735, 45.874600586728391 ], [ -65.144675041760735, 45.855959413271606 ], [ -65.171444958239277, 45.855959413271606 ] ] ] } }
+]
+}

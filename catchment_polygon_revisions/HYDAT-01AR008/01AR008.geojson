@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01AR008",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BOCABEC RIVER ABOVE TIDE", "OfficialID": "01AR008", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 43.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -67.040714095849694, 45.163585716809145 ], [ -67.040714095849694, 45.222534283190861 ], [ -66.957065904150312, 45.222534283190861 ], [ -66.957065904150312, 45.163585716809145 ], [ -67.040714095849694, 45.163585716809145 ] ] ] } }
+]
+}
