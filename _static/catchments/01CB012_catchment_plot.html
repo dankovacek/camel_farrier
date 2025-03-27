@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HYDAT-01CB012</title>
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"818f221b-0c77-4ac4-9c2e-8c8d1b41cf1c":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p3552","attributes":{"height":400,"x_range":{"type":"object","name":"DataRange1d","id":"p3553"},"y_range":{"type":"object","name":"DataRange1d","id":"p3554"},"x_scale":{"type":"object","name":"LinearScale","id":"p3562"},"y_scale":{"type":"object","name":"LinearScale","id":"p3563"},"title":{"type":"object","name":"Title","id":"p3555","attributes":{"text":"Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p3592","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p3549","attributes":{"selected":{"type":"object","name":"Selection","id":"p3550","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p3551"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"ELMO RIVER NEAR SCALES POND\\", \\"OfficialID\\": \\"01CB012\\", \\"FlagPAVICS\\": 0, \\"Source\\": \\"HYDAT\\", \\"Area\\": 7.9}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-7081709.5089729605, 5832741.9592743525], [-7081709.5089729605, 5836816.006960507], [-7077635.461392316, 5836816.006960507], [-7077635.461392316, 5832741.9592743525], [-7081709.5089729605, 5832741.9592743525]]]}}], \\"crs\\": {\\"type\\": \\"name\\", \\"properties\\": {\\"name\\": \\"urn:ogc:def:crs:EPSG::3857\\"}}}"}},"view":{"type":"object","name":"CDSView","id":"p3593","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p3594"}}},"glyph":{"type":"object","name":"Patches","id":"p3589","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p3590","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p3591","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"TileRenderer","id":"p3596","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p3595","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p3561","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p3574"},{"type":"object","name":"WheelZoomTool","id":"p3575","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p3576","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p3577","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p3583","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p3582","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p3584"},{"type":"object","name":"SaveTool","id":"p3585"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p3569","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p3570","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p3571","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p3572"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p3564","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p3565","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p3566","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p3567"}}}],"center":[{"type":"object","name":"Grid","id":"p3568","attributes":{"axis":{"id":"p3564"}}},{"type":"object","name":"Grid","id":"p3573","attributes":{"dimension":1,"axis":{"id":"p3569"}}}]}}]}}';
+        const render_items = [{"docid":"818f221b-0c77-4ac4-9c2e-8c8d1b41cf1c","roots":{"p3552":"f67ac5ec-04ec-4160-aea9-872060f2f21e"},"root_ids":["p3552"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+    </head>
+    <body>
+        <h1>HYDAT-01CB012</h1>
+        <p><strong>Latest revision:</strong> 2022-04-26</p>
+
+        <h2>01CB012: ELMO RIVER NEAR SCALES POND</h2>
+
+        <div id="f67ac5ec-04ec-4160-aea9-872060f2f21e" data-root-id="p3552" style="display: contents;"></div>
+
+        <h3>Catchment Attributes</h3>
+        <pre>| Attribute                  | (Arsenault, 2020)           |
+|:---------------------------|:----------------------------|
+| Watershed_ID               | 96                          |
+| Source                     | HYDAT                       |
+| Name                       | ELMO RIVER NEAR SCALES POND |
+| Official_ID                | 01CB012                     |
+| Centroid_Lat_deg_N         | 46.33861                    |
+| Centroid_Lon_deg_E         | -63.59778                   |
+| Drainage_Area_km2          | 7.9                         |
+| Drainage_Area_GSIM_km2     | nan                         |
+| Flag_GSIM_boundaries       | 0                           |
+| Flag_Artificial_Boundaries | 1                           |
+| Elevation_m                | 37.2                        |
+| Slope_deg                  | 1.478                       |
+| Gravelius                  | nan                         |
+| Perimeter                  | nan                         |
+| Flag_Shape_Extraction      | 0                           |
+| Aspect_deg                 | 317.9926                    |
+| Flag_Terrain_Extraction    | 1                           |
+| Land_Use_Forest_frac       | 0.3571                      |
+| Land_Use_Grass_frac        | 0.3571                      |
+| Land_Use_Wetland_frac      | 0.0                         |
+| Land_Use_Water_frac        | 0.0                         |
+| Land_Use_Urban_frac        | 0.0                         |
+| Land_Use_Shrubs_frac       | 0.0                         |
+| Land_Use_Crops_frac        | 0.2857                      |
+| Land_Use_Snow_Ice_frac     | 0.0                         |
+| Flag_Land_Use_Extraction   | 1                           |
+| Permeability_logk_m2       | nan                         |
+| Porosity_frac              | nan                         |
+| Flag_Subsoil_Extraction    | 0                           |
+| Reference                  | (Arsenault et al., 2020)    |
+| revision_date              | 2022-04-26                  |</pre>
+
+        <h3>Notes</h3>
+        <ol>
+            <li> <!-- Add note here --> </li>
+        </ol>
+
+        <h3>References</h3>
+        <ol>
+            <li>Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.: 
+                A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, 
+                Scientific Data, 7, 243, 
+                <a href="https://doi.org/10.1038/s41597-020-00583-2" target="_blank">
+                    https://doi.org/10.1038/s41597-020-00583-2
+                </a>, 2020.
+            </li>
+        </ol>
+    </body>
+</html>
