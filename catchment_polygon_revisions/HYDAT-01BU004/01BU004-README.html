@@ -1,0 +1,113 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HYDAT-01BU004</title>
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"833a5295-46fa-41f8-a0ca-a2cd42e57a5a":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p4914","attributes":{"height":400,"x_range":{"type":"object","name":"DataRange1d","id":"p4915"},"y_range":{"type":"object","name":"DataRange1d","id":"p4916"},"x_scale":{"type":"object","name":"LinearScale","id":"p4924"},"y_scale":{"type":"object","name":"LinearScale","id":"p4925"},"title":{"type":"object","name":"Title","id":"p4917","attributes":{"text":"Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p4954","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p4911","attributes":{"selected":{"type":"object","name":"Selection","id":"p4912","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p4913"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"PALMERS CREEK NEAR DORCHESTER\\", \\"OfficialID\\": \\"01BU004\\", \\"FlagPAVICS\\": 0, \\"Source\\": \\"HYDAT\\", \\"Area\\": 34.2}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-64.55415307178767, 45.86093414685866], [-64.55415307178767, 45.91350585314134], [-64.47862692821234, 45.91350585314134], [-64.47862692821234, 45.86093414685866], [-64.55415307178767, 45.86093414685866]]]}}]}"}},"view":{"type":"object","name":"CDSView","id":"p4955","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p4956"}}},"glyph":{"type":"object","name":"Patches","id":"p4951","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p4952","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p4953","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p4923","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p4936"},{"type":"object","name":"WheelZoomTool","id":"p4937","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p4938","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p4939","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p4945","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p4944","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p4946"},{"type":"object","name":"SaveTool","id":"p4947"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p4931","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p4932","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p4933"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p4934"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p4926","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p4927","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p4928"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p4929"}}}],"center":[{"type":"object","name":"Grid","id":"p4930","attributes":{"axis":{"id":"p4926"}}},{"type":"object","name":"Grid","id":"p4935","attributes":{"dimension":1,"axis":{"id":"p4931"}}}]}}]}}';
+        const render_items = [{"docid":"833a5295-46fa-41f8-a0ca-a2cd42e57a5a","roots":{"p4914":"db4857e2-f8da-4777-9135-8e46fea335df"},"root_ids":["p4914"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+    </head>
+    <body>
+        <h1>HYDAT-01BU004</h1>
+        <p><strong>Latest revision:</strong> 2022-04-26</p>
+
+        <h2>01BU004: PALMERS CREEK NEAR DORCHESTER</h2>
+
+        <div id="db4857e2-f8da-4777-9135-8e46fea335df" data-root-id="p4914" style="display: contents;"></div>
+
+        <h3>Catchment Attributes</h3>
+        <pre>| Attribute                  | (Arsenault, 2020)             |
+|:---------------------------|:------------------------------|
+| Watershed_ID               | 77                            |
+| Source                     | HYDAT                         |
+| Name                       | PALMERS CREEK NEAR DORCHESTER |
+| Official_ID                | 01BU004                       |
+| Centroid_Lat_deg_N         | 45.88722                      |
+| Centroid_Lon_deg_E         | -64.51639                     |
+| Drainage_Area_km2          | 34.2                          |
+| Drainage_Area_GSIM_km2     | nan                           |
+| Flag_GSIM_boundaries       | 0                             |
+| Flag_Artificial_Boundaries | 1                             |
+| Elevation_m                | 32.9                          |
+| Slope_deg                  | 2.2898                        |
+| Gravelius                  | nan                           |
+| Perimeter                  | nan                           |
+| Flag_Shape_Extraction      | 0                             |
+| Aspect_deg                 | 270.9562                      |
+| Flag_Terrain_Extraction    | 1                             |
+| Land_Use_Forest_frac       | 0.8947                        |
+| Land_Use_Grass_frac        | 0.0                           |
+| Land_Use_Wetland_frac      | 0.0                           |
+| Land_Use_Water_frac        | 0.0                           |
+| Land_Use_Urban_frac        | 0.0                           |
+| Land_Use_Shrubs_frac       | 0.1053                        |
+| Land_Use_Crops_frac        | 0.0                           |
+| Land_Use_Snow_Ice_frac     | 0.0                           |
+| Flag_Land_Use_Extraction   | 1                             |
+| Permeability_logk_m2       | nan                           |
+| Porosity_frac              | nan                           |
+| Flag_Subsoil_Extraction    | 0                             |
+| Reference                  | (Arsenault et al., 2020)      |
+| revision_date              | 2022-04-26                    |</pre>
+
+        <h3>Notes</h3>
+        <ol>
+            <li> <!-- Add note here --> </li>
+        </ol>
+
+        <h3>References</h3>
+        <ol>
+            <li>Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.: 
+                A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, 
+                Scientific Data, 7, 243, 
+                <a href="https://doi.org/10.1038/s41597-020-00583-2" target="_blank">
+                    https://doi.org/10.1038/s41597-020-00583-2
+                </a>, 2020.
+            </li>
+        </ol>
+    </body>
+    </html>
+    

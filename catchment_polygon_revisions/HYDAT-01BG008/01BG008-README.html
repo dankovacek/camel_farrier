@@ -1,0 +1,113 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HYDAT-01BG008</title>
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"17e041b2-0968-4aa9-b27e-0f0a3eeb8d9b":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1832","attributes":{"height":400,"x_range":{"type":"object","name":"DataRange1d","id":"p1833"},"y_range":{"type":"object","name":"DataRange1d","id":"p1834"},"x_scale":{"type":"object","name":"LinearScale","id":"p1842"},"y_scale":{"type":"object","name":"LinearScale","id":"p1843"},"title":{"type":"object","name":"Title","id":"p1835","attributes":{"text":"Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1872","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p1829","attributes":{"selected":{"type":"object","name":"Selection","id":"p1830","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1831"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"CASCAPEDIA (PETITE RIVIERE) A SAINT-EDGAR\\", \\"OfficialID\\": \\"01BG008\\", \\"FlagPAVICS\\": 1, \\"Source\\": \\"HYDAT\\", \\"Area\\": 1340.0}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-65.68750000000084, 48.195833333332644], [-65.70343017578209, 48.198874918619104], [-65.71374206543052, 48.21000366210869], [-65.7271626790373, 48.21867065429619], [-65.73950398763105, 48.235496012369104], [-65.75958964030032, 48.24497578938733], [-65.76450398763104, 48.2604960123691], [-65.77162882487063, 48.26709798177015], [-65.77837117513104, 48.29540201822848], [-65.79346110026125, 48.30938415527275], [-65.79411214192793, 48.32580973307223], [-65.78866678873783, 48.351837158202436], [-65.81049601237063, 48.360337320962856], [-65.81450398763104, 48.36882934570244], [-65.82690531412844, 48.374682617186814], [-65.82716573079512, 48.38124999999931], [-65.82674051920657, 48.391972859699834], [-65.85648803711021, 48.406011962889934], [-65.86450398763105, 48.41466267903577], [-65.87299601237063, 48.418670654296186], [-65.88533732096438, 48.42716267903577], [-65.9187164306649, 48.441209920246706], [-65.93525797526125, 48.46682535807223], [-65.95338948567792, 48.475382486978475], [-65.95199788411543, 48.51048787434827], [-65.9646626790373, 48.52700398762952], [-65.96951395670656, 48.55241190592379], [-65.97700398763105, 48.5604960123691], [-65.9896626790373, 48.564503987629514], [-65.99599914550865, 48.58451639811129], [-66.01867065429771, 48.59382934570243], [-66.03943379720135, 48.600402832030554], [-66.03980204264407, 48.60968526204358], [-66.02932535807375, 48.62099202473889], [-66.0223531087248, 48.62745259602795], [-66.02316487630293, 48.647929890949825], [-65.99844258626386, 48.65755716959566], [-65.9978190104175, 48.673285929361285], [-66.0105143229175, 48.68504740397066], [-66.01020812988365, 48.69276123046806], [-66.01481526692793, 48.70731404622327], [-66.04765930175864, 48.70601196288993], [-66.04841206868574, 48.724999999999305], [-66.04783426920656, 48.73958333333264], [-66.04814758300864, 48.74750162760347], [-66.04382934570395, 48.75216267903576], [-66.02836812337324, 48.75705769856701], [-66.0186431884774, 48.78480326334566], [-66.01914265950604, 48.797403971353475], [-66.01450398763104, 48.80617065429618], [-66.01013387044355, 48.81997273762951], [-65.99803568522219, 48.84283650716076], [-65.99751281738365, 48.85602823893159], [-66.01033732096438, 48.86791178385347], [-65.99167989095136, 48.87218526204357], [-65.9745768229175, 48.86313578287691], [-65.93952941894615, 48.85395202636649], [-65.91958821614668, 48.86450398762951], [-65.91033732096437, 48.8604960123691], [-65.89534708658938, 48.84005940755139], [-65.86890258789147, 48.8390116373691], [-65.86363627115969, 48.85017191568941], [-65.84150797526125, 48.870674641926385], [-65.82821655273521, 48.88501993815034], [-65.79621582031334, 48.89340413411389], [-65.7787719726571, 48.89409586588472], [-65.77283732096438, 48.87716267903576], [-65.7680104573576, 48.86191711425712], [-65.75169169108158, 48.85421549479097], [-65.74275817871178, 48.82872721354097], [-65.75146687825605, 48.812270100910766], [-65.73946228027428, 48.78958333333264], [-65.74509480794354, 48.778936767577434], [-65.73317464192793, 48.756408691405554], [-65.7271626790373, 48.74367065429618], [-65.71769816080814, 48.73490193684826], [-65.72283732096439, 48.71867065429618], [-65.73950398763105, 48.68717346191337], [-65.72947387695396, 48.674695841470665], [-65.7146626790373, 48.664503987629516], [-65.69835205078209, 48.656806437173785], [-65.69783426920657, 48.64374999999931], [-65.69844055175865, 48.628441365559205], [-65.69324442545657, 48.6174296061191], [-65.67699788411542, 48.5938212076816], [-65.67716878255293, 48.58951212565035], [-65.66867065429771, 48.577162679035766], [-65.6646626790373, 48.568670654296184], [-65.66033732096439, 48.5604960123691], [-65.65632934570397, 48.54783732096285], [-65.64177246093834, 48.53843688964775], [-65.65975036621178, 48.50907491048108], [-65.6396626790373, 48.49367065429618], [-65.63117065429772, 48.48966267903577], [-65.62299601237063, 48.485337320962856], [-65.61033732096439, 48.481329345702434], [-65.60530598958418, 48.46020609537692], [-65.5961568196623, 48.4605692545566], [-65.58625284830813, 48.44185282389254], [-65.6179850260425, 48.43180643717379], [-65.62702534993574, 48.42342936197848], [-65.63486022949303, 48.39868164062431], [-65.64338073730553, 48.38948567708265], [-65.66155497233157, 48.390206909179], [-65.68533732096438, 48.3845418294264], [-65.68132934570397, 48.37700398762952], [-65.67299601237063, 48.3692830403639], [-65.67700398763105, 48.360337320962856], [-65.68156840006594, 48.35171101887952], [-65.65632934570397, 48.33117065429619], [-65.64367065429772, 48.3229960123691], [-65.6396626790373, 48.28533732096285], [-65.6350240071623, 48.27657063802015], [-65.63566182454511, 48.26049092610609], [-65.6271881103524, 48.25263977050713], [-65.62677510579512, 48.24221496581963], [-65.64842936198, 48.23535868326754], [-65.65617065429771, 48.22700398762952], [-65.6646626790373, 48.22299601236911], [-65.67382100423262, 48.208813476561815], [-65.68549601237063, 48.1979960123691], [-65.68750000000084, 48.195833333332644]]]}}]}"}},"view":{"type":"object","name":"CDSView","id":"p1873","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1874"}}},"glyph":{"type":"object","name":"Patches","id":"p1869","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p1870","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p1871","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1841","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1854"},{"type":"object","name":"WheelZoomTool","id":"p1855","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p1856","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1857","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p1863","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p1862","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p1864"},{"type":"object","name":"SaveTool","id":"p1865"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1849","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1850","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1851"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1852"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1844","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1845","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1846"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1847"}}}],"center":[{"type":"object","name":"Grid","id":"p1848","attributes":{"axis":{"id":"p1844"}}},{"type":"object","name":"Grid","id":"p1853","attributes":{"dimension":1,"axis":{"id":"p1849"}}}]}}]}}';
+        const render_items = [{"docid":"17e041b2-0968-4aa9-b27e-0f0a3eeb8d9b","roots":{"p1832":"eac79521-aede-4596-88f3-7ee6a6dc6d69"},"root_ids":["p1832"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+    </head>
+    <body>
+        <h1>HYDAT-01BG008</h1>
+        <p><strong>Latest revision:</strong> 2022-04-26</p>
+
+        <h2>01BG008: CASCAPEDIA (PETITE RIVIERE) A SAINT-EDGAR</h2>
+
+        <div id="eac79521-aede-4596-88f3-7ee6a6dc6d69" data-root-id="p1832" style="display: contents;"></div>
+
+        <h3>Catchment Attributes</h3>
+        <pre>| Attribute                  | (Arsenault, 2020)                         |
+|:---------------------------|:------------------------------------------|
+| Watershed_ID               | 50                                        |
+| Source                     | HYDAT                                     |
+| Name                       | CASCAPEDIA (PETITE RIVIERE) A SAINT-EDGAR |
+| Official_ID                | 01BG008                                   |
+| Centroid_Lat_deg_N         | 48.23083                                  |
+| Centroid_Lon_deg_E         | -65.735                                   |
+| Drainage_Area_km2          | 1340.0                                    |
+| Drainage_Area_GSIM_km2     | 1349.926                                  |
+| Flag_GSIM_boundaries       | 1                                         |
+| Flag_Artificial_Boundaries | 0                                         |
+| Elevation_m                | 412.0                                     |
+| Slope_deg                  | 10.0618                                   |
+| Gravelius                  | 1.8162                                    |
+| Perimeter                  | 245.601                                   |
+| Flag_Shape_Extraction      | 1                                         |
+| Aspect_deg                 | 150.1158                                  |
+| Flag_Terrain_Extraction    | 1                                         |
+| Land_Use_Forest_frac       | 0.9374                                    |
+| Land_Use_Grass_frac        | 0.0231                                    |
+| Land_Use_Wetland_frac      | 0.0081                                    |
+| Land_Use_Water_frac        | 0.0056                                    |
+| Land_Use_Urban_frac        | 0.0086                                    |
+| Land_Use_Shrubs_frac       | 0.0058                                    |
+| Land_Use_Crops_frac        | 0.0113                                    |
+| Land_Use_Snow_Ice_frac     | 0.0                                       |
+| Flag_Land_Use_Extraction   | 1                                         |
+| Permeability_logk_m2       | -14.257400466379                          |
+| Porosity_frac              | 0.154065677999527                         |
+| Flag_Subsoil_Extraction    | 1                                         |
+| Reference                  | (Arsenault et al., 2020)                  |
+| revision_date              | 2022-04-26                                |</pre>
+
+        <h3>Notes</h3>
+        <ol>
+            <li> <!-- Add note here --> </li>
+        </ol>
+
+        <h3>References</h3>
+        <ol>
+            <li>Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.: 
+                A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, 
+                Scientific Data, 7, 243, 
+                <a href="https://doi.org/10.1038/s41597-020-00583-2" target="_blank">
+                    https://doi.org/10.1038/s41597-020-00583-2
+                </a>, 2020.
+            </li>
+        </ol>
+    </body>
+    </html>
+    

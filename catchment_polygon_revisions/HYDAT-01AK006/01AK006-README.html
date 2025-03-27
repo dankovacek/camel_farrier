@@ -1,0 +1,113 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HYDAT-01AK006</title>
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"d89758f1-e22f-471f-9ea3-78677872805a":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1786","attributes":{"height":400,"x_range":{"type":"object","name":"DataRange1d","id":"p1787"},"y_range":{"type":"object","name":"DataRange1d","id":"p1788"},"x_scale":{"type":"object","name":"LinearScale","id":"p1796"},"y_scale":{"type":"object","name":"LinearScale","id":"p1797"},"title":{"type":"object","name":"Title","id":"p1789","attributes":{"text":"Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1826","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p1783","attributes":{"selected":{"type":"object","name":"Selection","id":"p1784","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1785"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"MIDDLE BRANCH NASHWAAKSIS STREAM AT SANDWITH&#x27;S FARM\\", \\"OfficialID\\": \\"01AK006\\", \\"FlagPAVICS\\": 0, \\"Source\\": \\"HYDAT\\", \\"Area\\": 5.110319}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-66.74808915499995, 46.11697054100006], [-66.74651546499996, 46.115003785000056], [-66.74572851799996, 46.114905314000055], [-66.74562638499998, 46.11479911300006], [-66.74396053199996, 46.11338004600003], [-66.74395218999996, 46.11297416200006], [-66.74416398199998, 46.11167411300005], [-66.74455196199995, 46.11130118800003], [-66.74491471599998, 46.10810742100006], [-66.74458471799994, 46.10709077900003], [-66.74437231599995, 46.10688651400005], [-66.74416805099997, 46.10646577800003], [-66.74353898199996, 46.10626151500003], [-66.74312638499998, 46.10604911200005], [-66.74193233199998, 46.10566153900004], [-66.74103898199996, 46.10480318100008], [-66.74072871899995, 46.104163939000046], [-66.73895971599995, 46.10146577800003], [-66.73845149599998, 46.10071585900005], [-66.73812638299995, 46.09938244500006], [-66.73791397999997, 46.098969847000035], [-66.73757360699994, 46.097921263000046], [-66.73687231299994, 46.09688651300007], [-66.73648901099995, 46.09570527900007], [-66.73625138099999, 46.09521577700008], [-66.73569657199994, 46.09413871000004], [-66.73520564399996, 46.09292817900007], [-66.73520501699994, 46.092915996000045], [-66.73518558199999, 46.09290760400006], [-66.73281883999994, 46.087645129000066], [-66.73293497299994, 46.08325398000005], [-66.73291804699994, 46.083245763000036], [-66.73314692799994, 46.08265148400005], [-66.73395564399993, 46.08292817800003], [-66.73501155199995, 46.08313427300004], [-66.73581172399997, 46.08396719900003], [-66.73754980199993, 46.08420991500003], [-66.73848323399994, 46.08466279700008], [-66.73932877499993, 46.08640575800007], [-66.73979304899996, 46.087090775000036], [-66.74051489199996, 46.088191850000044], [-66.74126664099998, 46.088556433000065], [-66.74207230599995, 46.089394853000044], [-66.74395564799994, 46.091204342000026], [-66.74360245799994, 46.094546018000074], [-66.74291804999996, 46.09520357000008], [-66.74372229099998, 46.09645397700007], [-66.74478898099994, 46.09688651300007], [-66.74541805099994, 46.09709077700006], [-66.74663326099994, 46.097506629000065], [-66.74687434999998, 46.09751151300003], [-66.74708471899999, 46.09750724000003], [-66.74770564999994, 46.09792818000005], [-66.74936377199998, 46.09833243600008], [-66.74979305299996, 46.098965777000046], [-66.75008927699997, 46.09957612900007], [-66.75103898499998, 46.10021984600007], [-66.75145971999996, 46.10042411100005], [-66.75277502899996, 46.101528237000025], [-66.75395687299994, 46.10063142700005], [-66.75458065199996, 46.10084484600003], [-66.75520972199996, 46.101049111000066], [-66.75522521299996, 46.10106523300004], [-66.75523927499995, 46.10106360200007], [-66.75969014299994, 46.103740420000065], [-66.76553032399994, 46.106346], [-66.77796650799996, 46.11824164700005], [-66.77797404199998, 46.11984871800007], [-66.77793067799996, 46.11980358900007], [-66.77691830799995, 46.11978283800005], [-66.77645566099994, 46.120007447000035], [-66.77604306299997, 46.12021984900008], [-66.77541399399996, 46.12042411400006], [-66.77500139599994, 46.12063651600005], [-66.77437232599993, 46.12084078000004], [-66.77365638499998, 46.12120943300005], [-66.77250139399996, 46.12000724400008], [-66.77218686099997, 46.12001375400007], [-66.77075090699998, 46.119984457000044], [-66.76791399099994, 46.12021578100007], [-66.76689775599993, 46.12047619700007], [-66.76562639199994, 46.12021578000008], [-66.76374732299996, 46.120011516000034], [-66.76374577099995, 46.12000990200005], [-66.76364519199996, 46.11990531500004], [-66.76364444099994, 46.11990527100005], [-66.76207109299997, 46.11981274500005], [-66.75916826099996, 46.119449993000046], [-66.75768510499995, 46.11963452300006], [-66.75684546599996, 46.119140952000066], [-66.75618974299994, 46.11922253500006], [-66.75561275699994, 46.118979412000044], [-66.75542761799994, 46.11853955200007], [-66.75436275799996, 46.11731274500005], [-66.75393449399996, 46.11660738200004], [-66.75182857699997, 46.116345541000044], [-66.75063594999995, 46.11710441200006], [-66.74936275599998, 46.117289552000045], [-66.74865393399995, 46.11770621800008], [-66.74832108899994, 46.11752107900003], [-66.74808915499995, 46.11697054100006]]]}}]}"}},"view":{"type":"object","name":"CDSView","id":"p1827","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1828"}}},"glyph":{"type":"object","name":"Patches","id":"p1823","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p1824","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p1825","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1795","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1808"},{"type":"object","name":"WheelZoomTool","id":"p1809","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p1810","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1811","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p1817","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p1816","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p1818"},{"type":"object","name":"SaveTool","id":"p1819"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1803","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1804","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1805"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1806"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1798","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1799","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1800"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1801"}}}],"center":[{"type":"object","name":"Grid","id":"p1802","attributes":{"axis":{"id":"p1798"}}},{"type":"object","name":"Grid","id":"p1807","attributes":{"dimension":1,"axis":{"id":"p1803"}}}]}}]}}';
+        const render_items = [{"docid":"d89758f1-e22f-471f-9ea3-78677872805a","roots":{"p1786":"edc4b7ec-da32-4337-adb3-151a6cde439d"},"root_ids":["p1786"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+    </head>
+    <body>
+        <h1>HYDAT-01AK006</h1>
+        <p><strong>Latest revision:</strong> 2022-04-26</p>
+
+        <h2>01AK006: MIDDLE BRANCH NASHWAAKSIS STREAM AT SANDWITH'S FARM</h2>
+
+        <div id="edc4b7ec-da32-4337-adb3-151a6cde439d" data-root-id="p1786" style="display: contents;"></div>
+
+        <h3>Catchment Attributes</h3>
+        <pre>| Attribute                  | (Arsenault, 2020)                                   |
+|:---------------------------|:----------------------------------------------------|
+| Watershed_ID               | 17                                                  |
+| Source                     | HYDAT                                               |
+| Name                       | MIDDLE BRANCH NASHWAAKSIS STREAM AT SANDWITH'S FARM |
+| Official_ID                | 01AK006                                             |
+| Centroid_Lat_deg_N         | 46.08281                                            |
+| Centroid_Lon_deg_E         | -66.73303                                           |
+| Drainage_Area_km2          | 5.1103                                              |
+| Drainage_Area_GSIM_km2     | nan                                                 |
+| Flag_GSIM_boundaries       | 0                                                   |
+| Flag_Artificial_Boundaries | 0                                                   |
+| Elevation_m                | 209.3                                               |
+| Slope_deg                  | 1.6163                                              |
+| Gravelius                  | 1.6523                                              |
+| Perimeter                  | 13.244                                              |
+| Flag_Shape_Extraction      | 1                                                   |
+| Aspect_deg                 | 146.281                                             |
+| Flag_Terrain_Extraction    | 1                                                   |
+| Land_Use_Forest_frac       | 0.7083                                              |
+| Land_Use_Grass_frac        | 0.0085                                              |
+| Land_Use_Wetland_frac      | 0.0168                                              |
+| Land_Use_Water_frac        | 0.0096                                              |
+| Land_Use_Urban_frac        | 0.0585                                              |
+| Land_Use_Shrubs_frac       | 0.068                                               |
+| Land_Use_Crops_frac        | 0.1304                                              |
+| Land_Use_Snow_Ice_frac     | 0.0                                                 |
+| Flag_Land_Use_Extraction   | 1                                                   |
+| Permeability_logk_m2       | -15.1999998092651                                   |
+| Porosity_frac              | 0.189999997615814                                   |
+| Flag_Subsoil_Extraction    | 1                                                   |
+| Reference                  | (Arsenault et al., 2020)                            |
+| revision_date              | 2022-04-26                                          |</pre>
+
+        <h3>Notes</h3>
+        <ol>
+            <li> <!-- Add note here --> </li>
+        </ol>
+
+        <h3>References</h3>
+        <ol>
+            <li>Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.: 
+                A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, 
+                Scientific Data, 7, 243, 
+                <a href="https://doi.org/10.1038/s41597-020-00583-2" target="_blank">
+                    https://doi.org/10.1038/s41597-020-00583-2
+                </a>, 2020.
+            </li>
+        </ol>
+    </body>
+    </html>
+    

@@ -1,0 +1,113 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HYDAT-01AQ008</title>
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"ee9076e1-7348-413e-b6bf-6dfeea4997b9":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p4960","attributes":{"height":400,"x_range":{"type":"object","name":"DataRange1d","id":"p4961"},"y_range":{"type":"object","name":"DataRange1d","id":"p4962"},"x_scale":{"type":"object","name":"LinearScale","id":"p4970"},"y_scale":{"type":"object","name":"LinearScale","id":"p4971"},"title":{"type":"object","name":"Title","id":"p4963","attributes":{"text":"Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p5000","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p4957","attributes":{"selected":{"type":"object","name":"Selection","id":"p4958","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p4959"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"PISKAHEGAN STREAM NEAR PLEASANT MOUNTAIN\\", \\"OfficialID\\": \\"01AQ008\\", \\"FlagPAVICS\\": 1, \\"Source\\": \\"HYDAT\\", \\"Area\\": 197.0}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-66.80000000000082, 45.3958333333327], [-66.8103454589852, 45.398089853921896], [-66.82219136556071, 45.39713795979755], [-66.8382263183602, 45.40850728352802], [-66.84359537760498, 45.41473833719826], [-66.85640462239665, 45.418594996133805], [-66.87164306640707, 45.42419077555275], [-66.89334513346436, 45.40719413757261], [-66.89788614908936, 45.43208936055438], [-66.90640462239665, 45.43942832946714], [-66.91380615234456, 45.46401214599546], [-66.93937784830811, 45.4938734690342], [-66.95223795572998, 45.50192832946714], [-66.95609537760498, 45.51473833719826], [-66.96119689941489, 45.519133504231135], [-66.96859537760498, 45.55282478332456], [-66.95192871093832, 45.56026166280047], [-66.93809611002686, 45.567979176838556], [-66.89363403320394, 45.56440658569272], [-66.88557128906332, 45.56890500386493], [-66.86442871093831, 45.572761662800474], [-66.86057128906332, 45.58140500386492], [-66.85320129394613, 45.58526166280047], [-66.83557128906332, 45.572761662800474], [-66.79959411621176, 45.56863733927346], [-66.79390462239665, 45.543594996133805], [-66.78720499674561, 45.53158683776792], [-66.77009582519614, 45.526435724893574], [-66.76123148600342, 45.506568654377624], [-66.74359537760499, 45.493905003864924], [-66.72723795572999, 45.48025118509865], [-66.73781026204509, 45.47114321390725], [-66.74724222819093, 45.4601950327549], [-66.75312906901124, 45.46066805521584], [-66.77698364257894, 45.45190798441506], [-66.78395284017009, 45.452467981973655], [-66.78973083496176, 45.46541633605894], [-66.81380615234457, 45.437471898396176], [-66.80192871093833, 45.42723833719826], [-66.80000000000082, 45.3958333333327]]]}}]}"}},"view":{"type":"object","name":"CDSView","id":"p5001","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p5002"}}},"glyph":{"type":"object","name":"Patches","id":"p4997","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p4998","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p4999","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p4969","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p4982"},{"type":"object","name":"WheelZoomTool","id":"p4983","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p4984","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p4985","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p4991","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p4990","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p4992"},{"type":"object","name":"SaveTool","id":"p4993"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p4977","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p4978","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p4979"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p4980"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p4972","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p4973","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p4974"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p4975"}}}],"center":[{"type":"object","name":"Grid","id":"p4976","attributes":{"axis":{"id":"p4972"}}},{"type":"object","name":"Grid","id":"p4981","attributes":{"dimension":1,"axis":{"id":"p4977"}}}]}}]}}';
+        const render_items = [{"docid":"ee9076e1-7348-413e-b6bf-6dfeea4997b9","roots":{"p4960":"a198d441-51ec-4a50-8165-b6557116a799"},"root_ids":["p4960"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+    </head>
+    <body>
+        <h1>HYDAT-01AQ008</h1>
+        <p><strong>Latest revision:</strong> 2022-04-26</p>
+
+        <h2>01AQ008: PISKAHEGAN STREAM NEAR PLEASANT MOUNTAIN</h2>
+
+        <div id="a198d441-51ec-4a50-8165-b6557116a799" data-root-id="p4960" style="display: contents;"></div>
+
+        <h3>Catchment Attributes</h3>
+        <pre>| Attribute                  | (Arsenault, 2020)                        |
+|:---------------------------|:-----------------------------------------|
+| Watershed_ID               | 32                                       |
+| Source                     | HYDAT                                    |
+| Name                       | PISKAHEGAN STREAM NEAR PLEASANT MOUNTAIN |
+| Official_ID                | 01AQ008                                  |
+| Centroid_Lat_deg_N         | 45.41806                                 |
+| Centroid_Lon_deg_E         | -66.88694                                |
+| Drainage_Area_km2          | 197.0                                    |
+| Drainage_Area_GSIM_km2     | 217.5833                                 |
+| Flag_GSIM_boundaries       | 1                                        |
+| Flag_Artificial_Boundaries | 0                                        |
+| Elevation_m                | 143.4                                    |
+| Slope_deg                  | 1.9215                                   |
+| Gravelius                  | 1.6166                                   |
+| Perimeter                  | 87.612                                   |
+| Flag_Shape_Extraction      | 1                                        |
+| Aspect_deg                 | 207.7239                                 |
+| Flag_Terrain_Extraction    | 1                                        |
+| Land_Use_Forest_frac       | 0.8872                                   |
+| Land_Use_Grass_frac        | 0.0459                                   |
+| Land_Use_Wetland_frac      | 0.0195                                   |
+| Land_Use_Water_frac        | 0.0129                                   |
+| Land_Use_Urban_frac        | 0.0107                                   |
+| Land_Use_Shrubs_frac       | 0.0236                                   |
+| Land_Use_Crops_frac        | 0.0002                                   |
+| Land_Use_Snow_Ice_frac     | 0.0                                      |
+| Flag_Land_Use_Extraction   | 1                                        |
+| Permeability_logk_m2       | -13.568730605276                         |
+| Porosity_frac              | 0.120959753522378                        |
+| Flag_Subsoil_Extraction    | 1                                        |
+| Reference                  | (Arsenault et al., 2020)                 |
+| revision_date              | 2022-04-26                               |</pre>
+
+        <h3>Notes</h3>
+        <ol>
+            <li> <!-- Add note here --> </li>
+        </ol>
+
+        <h3>References</h3>
+        <ol>
+            <li>Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.: 
+                A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, 
+                Scientific Data, 7, 243, 
+                <a href="https://doi.org/10.1038/s41597-020-00583-2" target="_blank">
+                    https://doi.org/10.1038/s41597-020-00583-2
+                </a>, 2020.
+            </li>
+        </ol>
+    </body>
+    </html>
+    

@@ -1,0 +1,113 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HYDAT-01BG004</title>
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"ac594170-aa8c-44d5-a284-7cbe5c21547f":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p4638","attributes":{"height":400,"x_range":{"type":"object","name":"DataRange1d","id":"p4639"},"y_range":{"type":"object","name":"DataRange1d","id":"p4640"},"x_scale":{"type":"object","name":"LinearScale","id":"p4648"},"y_scale":{"type":"object","name":"LinearScale","id":"p4649"},"title":{"type":"object","name":"Title","id":"p4641","attributes":{"text":"Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p4678","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p4635","attributes":{"selected":{"type":"object","name":"Selection","id":"p4636","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p4637"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"CASCAPEDIA (RIVIERE) EN AMONT DE LA RIVIERE ANGERS\\", \\"OfficialID\\": \\"01BG004\\", \\"FlagPAVICS\\": 1, \\"Source\\": \\"HYDAT\\", \\"Area\\": 2400.0}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-65.97500000000083, 48.31249999999931], [-65.99783732096438, 48.32716267903577], [-66.01049601237062, 48.33117065429619], [-66.02130940755292, 48.336892700194625], [-66.03117065429771, 48.35216267903577], [-66.05846862793052, 48.357374064126915], [-66.08117065429771, 48.3729960123691], [-66.09178568522219, 48.37800598144462], [-66.10652567545657, 48.400831095376915], [-66.13974202474041, 48.41650797525973], [-66.15200398763105, 48.422996012369104], [-66.16466267903729, 48.42700398762952], [-66.16867065429771, 48.4354960123691], [-66.18132934570396, 48.443670654296184], [-66.20205179850343, 48.46053466796806], [-66.22536621093833, 48.45236307779879], [-66.23117065429771, 48.46466267903577], [-66.24902242024822, 48.49544067382743], [-66.29375000000083, 48.49366760253837], [-66.29882965087974, 48.493869018553994], [-66.31570485433026, 48.50279846191337], [-66.32283732096437, 48.5104960123691], [-66.35663808186932, 48.51450398762952], [-66.36488952636802, 48.49702046712171], [-66.40171457926516, 48.498480224608684], [-66.40617065429771, 48.49367065429618], [-66.41882934570395, 48.48966267903577], [-66.44958496093832, 48.47624104817639], [-66.4821238199878, 48.47753092447847], [-66.48950398763104, 48.4854960123691], [-66.49824676513755, 48.493597412108684], [-66.4936706542977, 48.49783732096285], [-66.48966267903728, 48.50694986979097], [-66.50705871582115, 48.53223063150973], [-66.5466995239266, 48.52184346516858], [-66.56459655761802, 48.53556722005139], [-66.5686706542977, 48.53117065429618], [-66.59123179117921, 48.517906697590455], [-66.6169845581063, 48.518928019205035], [-66.62513834635499, 48.53620605468681], [-66.64210611979249, 48.53025817871025], [-66.65259552002036, 48.53580932617118], [-66.6646418253589, 48.53533223469983], [-66.6811706542977, 48.53966267903577], [-66.70643310546957, 48.54448547363212], [-66.7416188557951, 48.54309082031181], [-66.7603947957365, 48.54801127115816], [-66.79021402994874, 48.54356486002535], [-66.79799041748129, 48.53517150878837], [-66.80833333333416, 48.53558146158785], [-66.82090962727948, 48.53508300781181], [-66.83450622558676, 48.563892618814414], [-66.8526819864917, 48.58073323567639], [-66.85192057291749, 48.59993387858004], [-66.80225270589276, 48.61927490234306], [-66.78132934570395, 48.636156209309206], [-66.80215454101645, 48.635331217447224], [-66.81450398763103, 48.64458821614514], [-66.80132649739666, 48.65679829915295], [-66.77708333333416, 48.655836995442016], [-66.76342213948651, 48.656378173827434], [-66.72716267903728, 48.68132934570243], [-66.7186706542977, 48.685337320962844], [-66.71049601237061, 48.68966267903576], [-66.70032094319744, 48.694465128580035], [-66.66025797526125, 48.70400797525972], [-66.64799601237061, 48.7104960123691], [-66.63533732096437, 48.71450398762951], [-66.63122406005942, 48.72749532063733], [-66.60705261230552, 48.7265370686842], [-66.59799601237061, 48.731329345702434], [-66.57326914469483, 48.74095865885347], [-66.56573181152427, 48.788275146483684], [-66.57524312337323, 48.8062499999993], [-66.5686706542977, 48.81867065429618], [-66.56466267903728, 48.831638590494094], [-66.58132934570395, 48.83950398762951], [-66.58950398763103, 48.84382934570243], [-66.59799601237061, 48.847837320962846], [-66.61027882893963, 48.85433654785086], [-66.61450398763104, 48.88997192382743], [-66.59783732096437, 48.89783732096284], [-66.59382934570395, 48.910496012369094], [-66.58533732096437, 48.914503987629516], [-66.57715148925864, 48.91883544921805], [-66.56496632893963, 48.918352254231074], [-66.55216267903728, 48.92716267903576], [-66.52371470133546, 48.93169453938732], [-66.49806976318442, 48.93067830403576], [-66.49367370605552, 48.939993286132115], [-66.47715708414796, 48.939338175455035], [-66.46917368571047, 48.94795532226493], [-66.42915649414145, 48.95274353027274], [-66.40089213053469, 48.951623535155555], [-66.3879786173511, 48.93768615722587], [-66.37298736572349, 48.94800211588472], [-66.36868184407635, 48.94783121744722], [-66.36049601237062, 48.95216267903576], [-66.33905080159589, 48.95617065429617], [-66.33132934570396, 48.94783732096285], [-66.29367065429771, 48.943829345702426], [-66.28549601237063, 48.93950398762951], [-66.27283732096437, 48.93549601236909], [-66.26677398681724, 48.92895202636649], [-66.23536326090579, 48.93552347818941], [-66.22792460123782, 48.92749633788993], [-66.21450398763105, 48.91882934570243], [-66.20216267903729, 48.903833007811805], [-66.2295303344735, 48.88375956217378], [-66.21973012288495, 48.855798339843055], [-66.19390309651776, 48.85682169596284], [-66.1896626790373, 48.847837320962846], [-66.1578028361011, 48.84175415038993], [-66.1439880371102, 48.82684529622326], [-66.11875712076906, 48.81493733723889], [-66.1146626790373, 48.80200398762951], [-66.09367065429771, 48.793829345702434], [-66.08519795735761, 48.784685262043574], [-66.08566487630291, 48.77291666666597], [-66.08469136556073, 48.74837239583264], [-66.04771931966229, 48.74248352050712], [-66.04841206868574, 48.724999999999305], [-66.04765930175864, 48.70601196288993], [-66.01481526692793, 48.70731404622327], [-66.01020812988365, 48.69276123046806], [-66.0105143229175, 48.68504740397066], [-65.9978190104175, 48.673285929361285], [-65.99844258626386, 48.65755716959566], [-66.02316487630293, 48.647929890949825], [-66.0223531087248, 48.62745259602795], [-66.02932535807375, 48.62099202473889], [-66.03980204264407, 48.60968526204358], [-66.03943379720135, 48.600402832030554], [-66.01867065429771, 48.59382934570243], [-65.99599914550865, 48.58451639811129], [-65.9896626790373, 48.564503987629514], [-65.97700398763105, 48.5604960123691], [-65.96951395670656, 48.55241190592379], [-65.9646626790373, 48.52700398762952], [-65.95199788411543, 48.51048787434827], [-65.95274353027428, 48.49166666666598], [-65.95199890136803, 48.472862752277955], [-65.95756937662844, 48.44623514811129], [-65.97350362142011, 48.431471761067016], [-65.97283121744876, 48.41450907389254], [-65.9811920166024, 48.40676269531181], [-65.98602193196699, 48.39150899251233], [-65.97807515462324, 48.36118265787692], [-65.95654907226647, 48.34123738606702], [-65.97500000000083, 48.31249999999931]]]}}]}"}},"view":{"type":"object","name":"CDSView","id":"p4679","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p4680"}}},"glyph":{"type":"object","name":"Patches","id":"p4675","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p4676","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p4677","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p4647","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p4660"},{"type":"object","name":"WheelZoomTool","id":"p4661","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p4662","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p4663","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p4669","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p4668","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p4670"},{"type":"object","name":"SaveTool","id":"p4671"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p4655","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p4656","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p4657"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p4658"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p4650","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p4651","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p4652"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p4653"}}}],"center":[{"type":"object","name":"Grid","id":"p4654","attributes":{"axis":{"id":"p4650"}}},{"type":"object","name":"Grid","id":"p4659","attributes":{"dimension":1,"axis":{"id":"p4655"}}}]}}]}}';
+        const render_items = [{"docid":"ac594170-aa8c-44d5-a284-7cbe5c21547f","roots":{"p4638":"d1304309-21da-480d-b05e-8edb629e16d6"},"root_ids":["p4638"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+    </head>
+    <body>
+        <h1>HYDAT-01BG004</h1>
+        <p><strong>Latest revision:</strong> 2022-04-26</p>
+
+        <h2>01BG004: CASCAPEDIA (RIVIERE) EN AMONT DE LA RIVIERE ANGERS</h2>
+
+        <div id="d1304309-21da-480d-b05e-8edb629e16d6" data-root-id="p4638" style="display: contents;"></div>
+
+        <h3>Catchment Attributes</h3>
+        <pre>| Attribute                  | (Arsenault, 2020)                                  |
+|:---------------------------|:---------------------------------------------------|
+| Watershed_ID               | 47                                                 |
+| Source                     | HYDAT                                              |
+| Name                       | CASCAPEDIA (RIVIERE) EN AMONT DE LA RIVIERE ANGERS |
+| Official_ID                | 01BG004                                            |
+| Centroid_Lat_deg_N         | 48.31778                                           |
+| Centroid_Lon_deg_E         | -65.9725                                           |
+| Drainage_Area_km2          | 2400.0                                             |
+| Drainage_Area_GSIM_km2     | 2370.759                                           |
+| Flag_GSIM_boundaries       | 1                                                  |
+| Flag_Artificial_Boundaries | 0                                                  |
+| Elevation_m                | 464.3                                              |
+| Slope_deg                  | 9.3323                                             |
+| Gravelius                  | 1.6774                                             |
+| Perimeter                  | 288.402                                            |
+| Flag_Shape_Extraction      | 1                                                  |
+| Aspect_deg                 | 148.0851                                           |
+| Flag_Terrain_Extraction    | 1                                                  |
+| Land_Use_Forest_frac       | 0.9531                                             |
+| Land_Use_Grass_frac        | 0.0231                                             |
+| Land_Use_Wetland_frac      | 0.0022                                             |
+| Land_Use_Water_frac        | 0.006                                              |
+| Land_Use_Urban_frac        | 0.0068                                             |
+| Land_Use_Shrubs_frac       | 0.0088                                             |
+| Land_Use_Crops_frac        | 0.0                                                |
+| Land_Use_Snow_Ice_frac     | 0.0                                                |
+| Flag_Land_Use_Extraction   | 1                                                  |
+| Permeability_logk_m2       | -13.9855839878745                                  |
+| Porosity_frac              | 0.140407406651757                                  |
+| Flag_Subsoil_Extraction    | 1                                                  |
+| Reference                  | (Arsenault et al., 2020)                           |
+| revision_date              | 2022-04-26                                         |</pre>
+
+        <h3>Notes</h3>
+        <ol>
+            <li> <!-- Add note here --> </li>
+        </ol>
+
+        <h3>References</h3>
+        <ol>
+            <li>Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.: 
+                A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, 
+                Scientific Data, 7, 243, 
+                <a href="https://doi.org/10.1038/s41597-020-00583-2" target="_blank">
+                    https://doi.org/10.1038/s41597-020-00583-2
+                </a>, 2020.
+            </li>
+        </ol>
+    </body>
+    </html>
+    

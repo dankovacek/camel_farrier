@@ -1,0 +1,113 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HYDAT-01BA001</title>
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"73b81b13-22e4-4e79-b18b-0bfd40e76041":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p2062","attributes":{"height":400,"x_range":{"type":"object","name":"DataRange1d","id":"p2063"},"y_range":{"type":"object","name":"DataRange1d","id":"p2064"},"x_scale":{"type":"object","name":"LinearScale","id":"p2072"},"y_scale":{"type":"object","name":"LinearScale","id":"p2073"},"title":{"type":"object","name":"Title","id":"p2065","attributes":{"text":"Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p2102","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p2059","attributes":{"selected":{"type":"object","name":"Selection","id":"p2060","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p2061"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"RESTIGOUCHE RIVER ABOVE KEDGWICK RIVER\\", \\"OfficialID\\": \\"01BA001\\", \\"FlagPAVICS\\": 1, \\"Source\\": \\"HYDAT\\", \\"Area\\": 1570.0}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-67.75000000000081, 47.30833333333266], [-67.75212504069091, 47.31037495930922], [-67.7580052693693, 47.32249552408787], [-67.78150533040446, 47.32708333333266], [-67.77283833821696, 47.33541056315037], [-67.78833058675211, 47.35582682291599], [-67.80620829264404, 47.34370829264256], [-67.82712504069092, 47.339625040689434], [-67.84001515706461, 47.33521321614516], [-67.85212097168049, 47.33546040852797], [-67.87407430013101, 47.326555379231095], [-67.8888905843107, 47.34915364583266], [-67.8728749593107, 47.36454162597589], [-67.86671040852946, 47.3835388183587], [-67.87295837402425, 47.38954162597589], [-67.87704162597737, 47.3937917073561], [-67.8855443318693, 47.39791666666599], [-67.8853734334318, 47.40628967285089], [-67.89444376627685, 47.414541625975886], [-67.91887257893961, 47.40195719400974], [-67.9353749593107, 47.41045837402277], [-67.9480443318693, 47.41457010904881], [-67.94782714843831, 47.42521158854099], [-67.9228749593107, 47.443708292642555], [-67.91879170735758, 47.45146077473891], [-67.94795837402424, 47.45620829264256], [-67.95620829264404, 47.460458374022764], [-67.97365366617919, 47.46892191568943], [-67.98954162597737, 47.48545837402276], [-67.99795837402425, 47.48954162597589], [-68.00204162597737, 47.51045837402276], [-68.0221415201831, 47.52535807291599], [-68.02908325195394, 47.5396667480462], [-68.04795837402425, 47.55204162597589], [-68.05373026530029, 47.575718180337866], [-68.02768758138102, 47.58206685384047], [-68.02154846191488, 47.61351420084568], [-68.03129170735758, 47.62287495930922], [-68.0353749593107, 47.62712504068943], [-68.05190226237059, 47.63514302571547], [-68.06387227376382, 47.647601318358696], [-68.0728749593107, 47.670977783202446], [-68.0603749593107, 47.67704162597589], [-68.05629170735757, 47.68545837402276], [-68.05204162597737, 47.693708292642555], [-68.04795837402425, 47.702125040689424], [-68.02704162597738, 47.70620829264255], [-68.01509958903075, 47.71863708496026], [-68.00204162597737, 47.722874959309216], [-67.99655965169352, 47.73976847330661], [-67.98537750244222, 47.739539591470674], [-67.96803944905679, 47.751292928059215], [-67.94471995035887, 47.756977335611296], [-67.93129170735757, 47.747874959309215], [-67.9103749593107, 47.735458374022755], [-67.90629170735758, 47.725552368163385], [-67.92987772623779, 47.71789855956963], [-67.91370391845784, 47.71005147298109], [-67.88621877034586, 47.71061299641859], [-67.88072509765706, 47.68247273762953], [-67.8478749593107, 47.677125040689425], [-67.8396219889331, 47.67287292480401], [-67.79435119628987, 47.6737976074212], [-67.78545837402424, 47.664541625975886], [-67.76237080892008, 47.660034179686825], [-67.73226572672607, 47.665169270832656], [-67.72295837402424, 47.660374959309216], [-67.71423543294352, 47.65614318847589], [-67.70425008138102, 47.64574991861912], [-67.68596343994221, 47.62818094889255], [-67.66445515950602, 47.62293701171807], [-67.66463012695394, 47.61438293456963], [-67.65153045654378, 47.601797485350886], [-67.63508351643961, 47.60213216145766], [-67.62159729003987, 47.62993062337172], [-67.60226440429769, 47.639309692382135], [-67.59795837402424, 47.643791707356094], [-67.59370829264404, 47.64787495930922], [-67.58797098795654, 47.677263387043595], [-67.57170817057373, 47.67693074544203], [-67.54362996419353, 47.647706095376925], [-67.53125000000081, 47.647959391275364], [-67.51485188802165, 47.64762471516859], [-67.49375915527425, 47.66465148925714], [-67.48545837402425, 47.660374959309216], [-67.47704162597738, 47.65629170735609], [-67.47295837402424, 47.631208292642555], [-67.46037495931071, 47.62712504068943], [-67.4294143676766, 47.61372985839776], [-67.41443939209066, 47.61885477701755], [-67.4001668294279, 47.60399983723891], [-67.38954162597737, 47.5937917073561], [-67.38545837402425, 47.58954162597588], [-67.36059773763102, 47.58468831380141], [-67.35629170735758, 47.59795837402276], [-67.34370829264404, 47.602041625975886], [-67.33545837402426, 47.60629170735609], [-67.32704162597737, 47.61037495930922], [-67.31462504069093, 47.618791707356095], [-67.28096466064535, 47.62287495930922], [-67.27279357910238, 47.614369710285786], [-67.27312367757243, 47.598195393879536], [-67.26854298909586, 47.589304606119114], [-67.26887359619222, 47.5731140136712], [-67.26399688720785, 47.55886739094984], [-67.2697957356779, 47.53055725097589], [-67.28545837402426, 47.522958374022764], [-67.28978017171306, 47.50964050292902], [-67.28954060872478, 47.49791666666599], [-67.28983001709067, 47.48375142415297], [-67.3067331949878, 47.47266845703058], [-67.31732838948649, 47.46164143880141], [-67.33121134440185, 47.468793741861305], [-67.33587493896566, 47.468698120116514], [-67.35195973714275, 47.451956176757136], [-67.36250000000082, 47.45738627115818], [-67.37384541829509, 47.45154215494724], [-67.38537495931071, 47.43954162597589], [-67.3913309733081, 47.433819580077454], [-67.42259114583415, 47.426198323567036], [-67.40209808349691, 47.40650939941339], [-67.39795837402426, 47.39053751627537], [-67.4194290161141, 47.38530273437433], [-67.42737477620524, 47.38546549479099], [-67.44354960123779, 47.402300008137345], [-67.46270853678467, 47.40190938313735], [-67.46885681152425, 47.38923543294204], [-67.47712504069092, 47.3812917073561], [-67.48120829264404, 47.37704162597589], [-67.49820200602295, 47.372958374022765], [-67.50629018147868, 47.38137715657485], [-67.51748606364013, 47.38114827473891], [-67.52287495931071, 47.36454162597589], [-67.54193420410238, 47.36045837402276], [-67.56658325195394, 47.3771667480462], [-67.58545837402426, 47.38954162597589], [-67.61454366048258, 47.41462707519464], [-67.61879069010497, 47.414539591470685], [-67.6228749593107, 47.42295837402276], [-67.62712504069091, 47.43120829264255], [-67.63120829264405, 47.43962504068943], [-67.67020823160888, 47.45062459309828], [-67.68126424153726, 47.45632019042901], [-67.68923543294352, 47.44802347818943], [-67.69798278808675, 47.44377950032485], [-67.69145609537841, 47.42471211751235], [-67.70841674804768, 47.4084167480462], [-67.71454162597738, 47.40204162597589], [-67.72312011718832, 47.39788004557224], [-67.73569488525472, 47.37196044921808], [-67.73528900146566, 47.35208333333266], [-67.73590240478596, 47.32204182942641], [-67.74795837402425, 47.310458374022765], [-67.75000000000081, 47.30833333333266]]]}}]}"}},"view":{"type":"object","name":"CDSView","id":"p2103","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p2104"}}},"glyph":{"type":"object","name":"Patches","id":"p2099","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p2100","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p2101","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p2071","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p2084"},{"type":"object","name":"WheelZoomTool","id":"p2085","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p2086","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p2087","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p2093","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p2092","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p2094"},{"type":"object","name":"SaveTool","id":"p2095"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p2079","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p2080","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p2081"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p2082"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p2074","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p2075","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p2076"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p2077"}}}],"center":[{"type":"object","name":"Grid","id":"p2078","attributes":{"axis":{"id":"p2074"}}},{"type":"object","name":"Grid","id":"p2083","attributes":{"dimension":1,"axis":{"id":"p2079"}}}]}}]}}';
+        const render_items = [{"docid":"73b81b13-22e4-4e79-b18b-0bfd40e76041","roots":{"p2062":"e6e29766-53d6-4554-85ec-5fed024e44e7"},"root_ids":["p2062"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+    </head>
+    <body>
+        <h1>HYDAT-01BA001</h1>
+        <p><strong>Latest revision:</strong> 2022-04-26</p>
+
+        <h2>01BA001: RESTIGOUCHE RIVER ABOVE KEDGWICK RIVER</h2>
+
+        <div id="e6e29766-53d6-4554-85ec-5fed024e44e7" data-root-id="p2062" style="display: contents;"></div>
+
+        <h3>Catchment Attributes</h3>
+        <pre>| Attribute                  | (Arsenault, 2020)                      |
+|:---------------------------|:---------------------------------------|
+| Watershed_ID               | 35                                     |
+| Source                     | HYDAT                                  |
+| Name                       | RESTIGOUCHE RIVER ABOVE KEDGWICK RIVER |
+| Official_ID                | 01BA001                                |
+| Centroid_Lat_deg_N         | 47.65639                               |
+| Centroid_Lon_deg_E         | -67.49417                              |
+| Drainage_Area_km2          | 1570.0                                 |
+| Drainage_Area_GSIM_km2     | 1575.855                               |
+| Flag_GSIM_boundaries       | 1                                      |
+| Flag_Artificial_Boundaries | 0                                      |
+| Elevation_m                | 310.6                                  |
+| Slope_deg                  | 4.9362                                 |
+| Gravelius                  | 1.9093                                 |
+| Perimeter                  | 269.271                                |
+| Flag_Shape_Extraction      | 1                                      |
+| Aspect_deg                 | 161.704                                |
+| Flag_Terrain_Extraction    | 1                                      |
+| Land_Use_Forest_frac       | 0.8028                                 |
+| Land_Use_Grass_frac        | 0.072                                  |
+| Land_Use_Wetland_frac      | 0.0392                                 |
+| Land_Use_Water_frac        | 0.0024                                 |
+| Land_Use_Urban_frac        | 0.0121                                 |
+| Land_Use_Shrubs_frac       | 0.0354                                 |
+| Land_Use_Crops_frac        | 0.0361                                 |
+| Land_Use_Snow_Ice_frac     | 0.0                                    |
+| Flag_Land_Use_Extraction   | 1                                      |
+| Permeability_logk_m2       | -13.9311004301007                      |
+| Porosity_frac              | 0.141483251593615                      |
+| Flag_Subsoil_Extraction    | 1                                      |
+| Reference                  | (Arsenault et al., 2020)               |
+| revision_date              | 2022-04-26                             |</pre>
+
+        <h3>Notes</h3>
+        <ol>
+            <li> <!-- Add note here --> </li>
+        </ol>
+
+        <h3>References</h3>
+        <ol>
+            <li>Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.: 
+                A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, 
+                Scientific Data, 7, 243, 
+                <a href="https://doi.org/10.1038/s41597-020-00583-2" target="_blank">
+                    https://doi.org/10.1038/s41597-020-00583-2
+                </a>, 2020.
+            </li>
+        </ol>
+    </body>
+    </html>
+    

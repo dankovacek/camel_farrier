@@ -1,15 +1,10 @@
 import os
 import re
 import json
-import pandas as pd
-import geopandas as gpd
-from datetime import datetime
 
-from bokeh.plotting import figure
-from bokeh.io import export_png
-import xyzservices.providers as xyz
+from generate_introduction_page import create_intro
+from generate_catchment_page import process_static_catchment_page_html
 
-tiles = xyz.OpenStreetMap.Mapnik
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -101,75 +96,70 @@ def scan_catchment_folders():
 def generate_index_page(catchment_data):
     """Generate the main index.md file with search functionality."""
 
-    # Count unique source codes and IDs
-    unique_sources = len(set([catchment_data[c]["source_code"] for c in catchment_data.keys()]))
-    total_catchments = len(catchment_data)
+    # # Count unique source codes and IDs
+    # unique_sources = len(set([catchment_data[c]["source_code"] for c in catchment_data.keys()]))
+    # total_catchments = len(catchment_data)
+    
+    # # import the text file "intro_content.txt" to be used as the introduction content
+    # with open('intro_content.md', 'r') as file:
+    #     content = file.read()
 
-    # Create index.md content
-    content = [
-        "# Catchment Polygon Revision Archive",
-        "",
-        "## Introduction",
-        "This repository is intended to serve as a demonstration of the use of version control for editing and open-source publication of catchment polygons used widely in hydrological research.",
-        "Each catchment folder contains geometric data (GeoJSON), attribute data (CSV), and a plot of the catchment polygon.",
-        "Version control of catchment polygons in an open-source repository is multi-purpose:",
-        "1.  **Transparency**: All changes to catchment polygons are tracked and can be reviewed.",
-        "2.  **Reproducibility**: The catchment polygons can be linked to specific versions of the attribute data.",
-        "3.  **Collaboration**: Multiple contributors can suggest changes to catchment polygons by sharing specific knowledge and evidence.",
-        "",
-        "## Dataset Overview",
-        f"* **Total catchments**: {total_catchments}",
-        f"* **Data sources**: {unique_sources}",
-        "",
-        "## Search Catchments",
-        '<div class="search-container">',
-        '  <input type="text" id="catchmentSearch" placeholder="Search by ID, name, or source..." onkeyup="filterCatchments()">',
-        '  <div id="searchResults" class="search-results"></div>',
-        "</div>",
-        "",
-        "## Data Dictionary",
-        "| Source Code | Description |",
-        "|-------------|-------------|",
-    ]
+    # # Create index.md content
+    # content = [
+        
+    #     "## Dataset Overview",
+    #     f"* **Total catchments**: {total_catchments}",
+    #     f"* **Data sources**: {unique_sources}",
+    #     "",
+    #     "## Data Dictionary",
+    #     "| Source Code | Description |",
+    #     "|-------------|-------------|",
+    # ]
 
     # Add source codes (this would need to be customized with actual source descriptions)
-    source_descriptions = {
-        "HYSETS": "HYSETS database (Arsenault et al., 2020)",
-        "USGS": "United States Geological Survey",
-        "WSC": "Water Survey of Canada",
-        # Add more as needed
-    }
+    # source_descriptions = {
+    #     "HYSETS": "HYSETS database (Arsenault et al., 2020)",
+    #     "USGS": "United States Geological Survey",
+    #     "WSC": "Water Survey of Canada",
+    #     # Add more as needed
+    # }
 
-    for source in sorted(set([catchment_data[c]["source_code"] for c in catchment_data.keys()])):
-        desc = source_descriptions.get(source, "No description available")
-        content.append(f"| {source} | {desc} |")
+    # for source in sorted(set([catchment_data[c]["source_code"] for c in catchment_data.keys()])):
+    #     desc = source_descriptions.get(source, "No description available")
+    #     content.append(f"| {source} | {desc} |")
 
     # Add JavaScript for search functionality
-    content.extend(
-        [
-            "",
-            "<script>",
-            "// Catchment data for search",
-            "const catchments = [",
-        ]
-    )
+    # content.extend(
+    #     [
+    #         "",
+    #         "<script>",
+    #         "// Catchment data for search",
+    #         "const catchments = [",
+    #     ]
+    # )
 
     # Add JSON data for each catchment
-    for c in catchment_data.keys():
-        d = catchment_data[c]
-        official_id = d["official_id"]
-        folder = d["folder"] + f"/{official_id}-README.html"
-        content.append(
-            f"  {{id: \"{d['official_id']}\", source: \"{d['source_code']}\", name: \"{d['name']}\", folder: \"catchment_polygon_revisions/{folder}\"}},"
-        )
-    content.append("];</script>")
+    # for c in catchment_data.keys():
+    #     d = catchment_data[c]
+    #     official_id = d["official_id"]
+    #     folder = d["folder"] + f"/{official_id}-README.html"
+    #     content.append(
+    #         f"  {{id: \"{d['official_id']}\", source: \"{d['source_code']}\", name: \"{d['name']}\", folder: \"catchment_polygon_revisions/{folder}\"}},"
+    #     )
+    # content.append("];</script>")
+    
+    # content.extend(["## References",
+    #         "1. Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.: A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, Scientific Data, 7, 243, [https://doi.org/10.1038/s41597-020-00583-2](https://doi.org/10.1038/s41597-020-00583-2), 2020.",
+    #         ])
+    
+    
 
     # Write index.md
-    index_path = os.path.join(BASE_DIR, "index.md")
-    with open(index_path, "w") as f:
-        f.write("\n".join(content))
+    # index_path = os.path.join(BASE_DIR, "index.md")
+    # with open(index_path, "w") as f:
+    #     f.write("\n".join(content))
 
-    print(f"Generated index page at {index_path}")
+    # print(f"Generated index page at {index_path}")
 
 
 def update_catchment_pages():
@@ -179,7 +169,7 @@ def update_catchment_pages():
     # Process each catchment folder
     ws_folder = os.path.join(BASE_DIR, "catchment_polygon_revisions")
     catchment_data = {}
-    for folder in os.listdir(ws_folder):        
+    for folder in os.listdir(ws_folder):
         source_code, official_id = folder.split("-")
         print(source_code, official_id, ws_folder)
         # Find the geojson file
@@ -188,150 +178,165 @@ def update_catchment_pages():
         if not os.path.isfile(geojson_path) or not os.path.isfile(attributes_path):
             print(f"GeoJSON file or attributes not found for {official_id}")
             raise FileNotFoundError
-        # Load the catchment geometry
-        catchment_gdf = gpd.read_file(geojson_path)
-        attrs_df = pd.read_csv(attributes_path)
         
         # Process the catchment page
-        process_static_catchment_page(
-            attrs_df=attrs_df,
-            catchment_gdf=catchment_gdf,
-            revision_date=attrs_df["revision_date"].values[0],
+        # process_static_catchment_page(
+        #     attrs_df=attrs_df,
+        #     catchment_gdf=catchment_gdf,
+        #     revision_date=attrs_df["revision_date"].values[0],
+        # )
+        data = process_static_catchment_page_html(
+            attributes_path,
+            geojson_path,
+            folder_path=os.path.join(ws_folder, folder),
         )
-        catchment_data[official_id] = {
-            "source_code": source_code,
-            "official_id": official_id,
-            "name": attrs_df["Name"].values[0],
-            "folder": folder,
-        }
-
+        catchment_data[official_id] = data
     # Generate the index page
-    generate_index_page(catchment_data)
+    # generate_index_page(catchment_data)
+    base_intro_path = 'templates/intro_content.md'
+    source_descriptions = {
+        "HYSETS": "HYSETS database (Arsenault et al., 2020)",
+        "USGS": "United States Geological Survey",
+        "WSC": "Water Survey of Canada",
+        # Add more as needed (CONAGUA?)
+    }
+    create_intro(catchment_data, base_intro_path, source_descriptions)
+    
     print(f"Processed {len(catchment_data)} catchment folders")
 
 
-def create_catchment_image(catchment_gdf: gpd.GeoDataFrame, img_path: str, source_code: str, official_id: str):
-    # Generate a Bokeh plot of the catchment polygon
-    # First, reproject the catchment polygon to Web Mercator (EPSG:3857) for mapping
-    catchment_3857 = catchment_gdf.to_crs(epsg=3857)
-    poly_3857 = catchment_3857.iloc[0].geometry
-    x, y = poly_3857.exterior.xy
+# def create_catchment_image(catchment_gdf: gpd.GeoDataFrame, img_path: str, source_code: str, official_id: str):
+#     # Generate a Bokeh plot of the catchment polygon
+#     # First, reproject the catchment polygon to Web Mercator (EPSG:3857) for mapping
+#     catchment_3857 = catchment_gdf.to_crs(epsg=3857)
+#     poly_3857 = catchment_3857.iloc[0].geometry
+#     x, y = poly_3857.exterior.xy
 
-    # Set up the figure with appropriate ranges (with a small margin)
-    buffer = 0  # adjust as needed
-    minx, miny, maxx, maxy = poly_3857.bounds
-    p = figure(
-        x_range=(minx - buffer, maxx + buffer),
-        y_range=(miny - buffer, maxy + buffer),
-        x_axis_type="mercator",
-        y_axis_type="mercator",
-        title=f"Catchment: {source_code}-{official_id}",
-        width=800, height=600,
-    )
+#     # Set up the figure with appropriate ranges (with a small margin)
+#     buffer = 0  # adjust as needed
+#     minx, miny, maxx, maxy = poly_3857.bounds
+#     p = figure(
+#         x_range=(minx - buffer, maxx + buffer),
+#         y_range=(miny - buffer, maxy + buffer),
+#         x_axis_type="mercator",
+#         y_axis_type="mercator",
+#         title=f"Catchment: {source_code}-{official_id}",
+#         width=800, height=600,
+#     )
 
-    # Add OpenTopoMap tiles with alpha transparency
-    p.add_tile(tiles, alpha=0.7)
+#     # Add OpenTopoMap tiles with alpha transparency
+#     p.add_tile(tiles, alpha=0.7)
 
-    # Add the catchment polygon as a translucent patch with dashed boundary
-    p.patch(
-        x,
-        y,
-        fill_color="green",
-        fill_alpha=0.3,
-        line_dash="dashed",
-        line_color="blue",
-        line_width=2,
-    )
+#     # Add the catchment polygon as a translucent patch with dashed boundary
+#     p.patch(
+#         x,
+#         y,
+#         fill_color="green",
+#         fill_alpha=0.3,
+#         line_dash="dashed",
+#         line_color="blue",
+#         line_width=2,
+#     )
 
-    # Save the plot as a PNG image in the resources folder
+#     # Save the plot as a PNG image in the resources folder
     
-    try:
-        export_png(p, filename=img_path)
-    except Exception as e:
-        print(
-            f"Failed to export PNG image: {e}. You may need to install additional dependencies (e.g., selenium)."
-        )
+#     try:
+#         export_png(p, filename=img_path)
+#     except Exception as e:
+#         print(
+#             f"Failed to export PNG image: {e}. You may need to install additional dependencies (e.g., selenium)."
+#         )
 
-    print(
-        f"Processed catchment {source_code}-{official_id} successfully."
-    )
+#     print(
+#         f"Processed catchment {source_code}-{official_id} successfully."
+#     )
 
 
-def process_static_catchment_page(
-    attrs_df: pd.DataFrame,
-    catchment_gdf: gpd.GeoDataFrame,
-    revision_date: str = None,
-    folder_path: str = None,
-):
-    """Create a static markdown page for a catchment."""
-    official_id = attrs_df["Official_ID"].values[0]
-    source_code = attrs_df["Source"].values[0]
-    station_name = attrs_df["Name"].values[0]
+# def process_static_catchment_page(
+#     attrs_df: pd.DataFrame,
+#     catchment_gdf: gpd.GeoDataFrame,
+#     revision_date: str = None,
+#     folder_path: str = None,
+# ):
+#     """Create a static markdown page for a catchment."""
+#     official_id = attrs_df["Official_ID"].values[0]
+#     source_code = attrs_df["Source"].values[0]
+#     station_name = attrs_df["Name"].values[0]
 
-    # Use existing folder path if provided
-    if not folder_path:
-        base_folder = "catchment_polygon_revisions"
-        subfolder_name = f"{source_code}-{official_id}"
-        folder_path = os.path.join(base_folder, subfolder_name)
+#     # Use existing folder path if provided
+#     if not folder_path:
+#         base_folder = "catchment_polygon_revisions"
+#         subfolder_name = f"{source_code}-{official_id}"
+#         folder_path = os.path.join(base_folder, subfolder_name)
 
-    # Compute geometric properties for the polygon
-    # geom_props = get_geometric_properties(catchment_gdf)
-    # geom_table_md = geom_props.to_markdown(index=False)
-    # bbox_table_md = catchment_gdf.geometry.bounds.to_markdown(index=False)
+#     # Compute geometric properties for the polygon
+#     # geom_props = get_geometric_properties(catchment_gdf)
+#     # geom_table_md = geom_props.to_markdown(index=False)
+#     # bbox_table_md = catchment_gdf.geometry.bounds.to_markdown(index=False)
 
-    # Convert hysets metadata row to markdown table (drop geometry if present)
-    if not attrs_df.empty:
-        if "geometry" in attrs_df.columns:
-            attrs_df = attrs_df.drop(columns=["geometry"])
-            
-        attrs_table = attrs_df.T.copy()
-        
-        attrs_table.columns = [f"(Arsenault, 2020)"]
-        attrs_table.index.name = "Attribute"
-        
-        hysets_table_md = attrs_table.to_markdown()
-    else:
-        hysets_table_md = "No attribute data available."
+#     # Convert hysets metadata row to markdown table (drop geometry if present)
+#     if not attrs_df.empty:
+#         if "geometry" in attrs_df.columns:
+#             attrs_df = attrs_df.drop(columns=["geometry"])
 
-    # Determine the image path to display
-    img_path = os.path.join(folder_path, "resources", f"{official_id}_catchment.png")
-    if not os.path.exists(img_path):
-        create_catchment_image(catchment_gdf, img_path=img_path, source_code=source_code, official_id=official_id)
+#         attrs_table = attrs_df.T.copy()
 
-    # Create README.md content
-    readme_content = [
-        "---", "hidden: true", "---",
-        f"# {source_code}-{official_id}",
-        f"**Latest revision:** {revision_date}",
-        "",
-        f"## {official_id}: {station_name}",
-    ]
+#         attrs_table.columns = [f"(Arsenault, 2020)"]
+#         attrs_table.index.name = "Attribute"
 
-    # Add image if available
-    if img_path:
-        rel_img_path = os.path.join("resources", f"{official_id}_catchment.png")
-        readme_content.append(f"\n![Catchment Image]({rel_img_path})")
-    else:
-        readme_content.append("*No catchment image available*")
+#         hysets_table_md = attrs_table.to_markdown()
+#     else:
+#         hysets_table_md = "No attribute data available."
 
-    readme_content.extend(
-        [
-            "",
-            "### Catchment Attributes",
-            hysets_table_md,
-            "",
-            "### References",
-            "1. Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.: A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, Scientific Data, 7, 243, [https://doi.org/10.1038/s41597-020-00583-2](https://doi.org/10.1038/s41597-020-00583-2), 2020.",
-        ]
-    )
+#     # Determine the image path to display
+#     img_path = os.path.join(folder_path, "resources", f"{official_id}_catchment.png")
+#     if not os.path.exists(img_path):
+#         create_catchment_image(catchment_gdf, img_path=img_path, source_code=source_code, official_id=official_id)
 
-    # Write the README.md file
-    readme_filepath = os.path.join(folder_path, f"{official_id}-README.md")
-    with open(readme_filepath, "w") as f:
-        f.write("\n".join(readme_content))
+#     # Create README.md content
+#     readme_content = [
+#         "---", "hidden: true", "---",
+#         f"# {source_code}-{official_id}",
+#         f"**Latest revision:** {revision_date}",
+#         "",
+#         f"## {official_id}: {station_name}",
+#     ]
 
-    print(f"Updated README for {source_code}-{official_id}")
+#     # Add image if available
+#     if img_path:
+#         rel_img_path = os.path.join("resources", f"{official_id}_catchment.png")
+#         readme_content.append(f"\n![Catchment Image]({rel_img_path})")
+#     else:
+#         readme_content.append("*No catchment image available*")
 
+#     readme_content.extend(
+#         [
+#             "",
+#             "### Catchment Attributes",
+#             hysets_table_md,
+#             "",
+#             '### Notes\n 1. ',
+#             '',
+#             "### References",
+#             "1. Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.: A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, Scientific Data, 7, 243, [https://doi.org/10.1038/s41597-020-00583-2](https://doi.org/10.1038/s41597-020-00583-2), 2020.",
+#         ]
+#     )
+    
+#     # readme_content = (
+#     #     f"# {source_code}-{official_id}\n**Revision Date:** {revision_date}\n"
+#     # )
+#     # readme_content += f"## {official_id}: {station_name}\n![Catchment Image](resources/{official_id}_catchment.png)\n"
+#     # readme_content += f"### Geometric Properties\n{geom_table_md}\n ### Bounding Box\n{bbox_table_md}\n"
+#     # readme_content += f"### Catchment Attributes\n {hysets_table_md}\n" 
+#     # readme_content += 
+#     # readme_content += f"### References\n1. Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.: A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, Scientific Data, 7, 243, [https://doi.org/10.1038/s41597-020-00583-2](https://doi.org/10.1038/s41597-020-00583-2), 2020."
+
+#     # Write the README.md file
+#     readme_filepath = os.path.join(folder_path, f"{official_id}-README.md")
+#     with open(readme_filepath, "w") as f:
+#         f.write("\n".join(readme_content))
+
+#     print(f"Updated README for {source_code}-{official_id}")
 
 
 def generate_searchindex_js():

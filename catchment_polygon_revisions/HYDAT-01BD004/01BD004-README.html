@@ -1,0 +1,113 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HYDAT-01BD004</title>
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"20c6c568-44f4-462b-8869-c733684a6904":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p4086","attributes":{"height":400,"x_range":{"type":"object","name":"DataRange1d","id":"p4087"},"y_range":{"type":"object","name":"DataRange1d","id":"p4088"},"x_scale":{"type":"object","name":"LinearScale","id":"p4096"},"y_scale":{"type":"object","name":"LinearScale","id":"p4097"},"title":{"type":"object","name":"Title","id":"p4089","attributes":{"text":"Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p4126","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p4083","attributes":{"selected":{"type":"object","name":"Selection","id":"p4084","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p4085"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"MATAPEDIA (LAC) A VAL-BRILLANT\\", \\"OfficialID\\": \\"01BD004\\", \\"FlagPAVICS\\": 1, \\"Source\\": \\"HYDAT\\", \\"Area\\": 558.0}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-67.62916666666747, 48.43333333333264], [-67.65220031738363, 48.439466349283165], [-67.6752161661792, 48.45554300943942], [-67.69154866536539, 48.44666748046806], [-67.71458333333415, 48.44804077148368], [-67.74006652832112, 48.446522013345664], [-67.75615132649821, 48.43528645833264], [-67.77323608398518, 48.43630472818941], [-67.77271067301513, 48.44511922200452], [-67.79295043945393, 48.46320292154879], [-67.81114654541096, 48.46882222493421], [-67.82003885905029, 48.478774007160766], [-67.82696634928466, 48.49386698404879], [-67.83313954671304, 48.505227661132125], [-67.82059885660888, 48.516432698567016], [-67.81273447672606, 48.52523396809827], [-67.79363301595133, 48.531133015949834], [-67.78970031738362, 48.53970031738212], [-67.785299682618, 48.5477996826165], [-67.7813669840503, 48.56348673502535], [-67.80671793619872, 48.57131449381441], [-67.80608266194743, 48.581976318358684], [-67.74363301595133, 48.59363301594983], [-67.71856892903727, 48.60262552897066], [-67.70677693684976, 48.5894276936842], [-67.70000000000081, 48.58983154296806], [-67.69365336100341, 48.58945312499931], [-67.67303365071696, 48.60220031738212], [-67.61570180257243, 48.60891621907483], [-67.61053365071696, 48.614700317382116], [-67.59141896565836, 48.619147745767535], [-67.58553365071695, 48.63015340169201], [-67.60220031738362, 48.63529968261649], [-67.60613301595133, 48.63970031738212], [-67.61755625406983, 48.64494323730399], [-67.62422383626384, 48.6594706217441], [-67.61863301595133, 48.66446634928316], [-67.61470031738362, 48.66886698404879], [-67.56592915852946, 48.67279968261649], [-67.55497334798258, 48.64892883300712], [-67.5202870686857, 48.658218383788366], [-67.51363525390707, 48.65077412923108], [-67.44015299479248, 48.65515340169202], [-67.43553365071696, 48.63529968261649], [-67.42268218994222, 48.629400634764934], [-67.41053365071696, 48.622799682616495], [-67.39681040446045, 48.618561808267536], [-67.39899139404379, 48.58196919759045], [-67.43970031738363, 48.57720031738212], [-67.44789276123129, 48.57274881998629], [-67.47388559977296, 48.58207499186129], [-67.49801279703857, 48.576920572915974], [-67.50367635091227, 48.58925984700451], [-67.51863301595134, 48.58113301594983], [-67.53501586914143, 48.57361348469983], [-67.54224700927816, 48.56552022298108], [-67.53883819580159, 48.508333333332644], [-67.54014689127686, 48.486375935871706], [-67.56104838053467, 48.47992146809827], [-67.60176747640055, 48.48234863281181], [-67.610299682618, 48.4727996826165], [-67.62707773844483, 48.45780843098889], [-67.62916666666747, 48.43333333333264]]]}}]}"}},"view":{"type":"object","name":"CDSView","id":"p4127","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p4128"}}},"glyph":{"type":"object","name":"Patches","id":"p4123","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p4124","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p4125","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p4095","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p4108"},{"type":"object","name":"WheelZoomTool","id":"p4109","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p4110","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p4111","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p4117","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p4116","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p4118"},{"type":"object","name":"SaveTool","id":"p4119"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p4103","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p4104","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p4105"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p4106"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p4098","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p4099","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p4100"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p4101"}}}],"center":[{"type":"object","name":"Grid","id":"p4102","attributes":{"axis":{"id":"p4098"}}},{"type":"object","name":"Grid","id":"p4107","attributes":{"dimension":1,"axis":{"id":"p4103"}}}]}}]}}';
+        const render_items = [{"docid":"20c6c568-44f4-462b-8869-c733684a6904","roots":{"p4086":"f86dfa94-6bbb-407a-93af-5de1467db147"},"root_ids":["p4086"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+    </head>
+    <body>
+        <h1>HYDAT-01BD004</h1>
+        <p><strong>Latest revision:</strong> 2022-04-26</p>
+
+        <h2>01BD004: MATAPEDIA (LAC) A VAL-BRILLANT</h2>
+
+        <div id="f86dfa94-6bbb-407a-93af-5de1467db147" data-root-id="p4086" style="display: contents;"></div>
+
+        <h3>Catchment Attributes</h3>
+        <pre>| Attribute                  | (Arsenault, 2020)              |
+|:---------------------------|:-------------------------------|
+| Watershed_ID               | 38                             |
+| Source                     | HYDAT                          |
+| Name                       | MATAPEDIA (LAC) A VAL-BRILLANT |
+| Official_ID                | 01BD004                        |
+| Centroid_Lat_deg_N         | 48.53389                       |
+| Centroid_Lon_deg_E         | -67.54556                      |
+| Drainage_Area_km2          | 558.0                          |
+| Drainage_Area_GSIM_km2     | 419.7473                       |
+| Flag_GSIM_boundaries       | 1                              |
+| Flag_Artificial_Boundaries | 0                              |
+| Elevation_m                | 262.4                          |
+| Slope_deg                  | 3.5301                         |
+| Gravelius                  | 2.3046                         |
+| Perimeter                  | 157.956                        |
+| Flag_Shape_Extraction      | 1                              |
+| Aspect_deg                 | 347.3496                       |
+| Flag_Terrain_Extraction    | 1                              |
+| Land_Use_Forest_frac       | 0.7512                         |
+| Land_Use_Grass_frac        | 0.0125                         |
+| Land_Use_Wetland_frac      | 0.0027                         |
+| Land_Use_Water_frac        | 0.0977                         |
+| Land_Use_Urban_frac        | 0.0314                         |
+| Land_Use_Shrubs_frac       | 0.0065                         |
+| Land_Use_Crops_frac        | 0.098                          |
+| Land_Use_Snow_Ice_frac     | 0.0                            |
+| Flag_Land_Use_Extraction   | 1                              |
+| Permeability_logk_m2       | -13.4552157611298              |
+| Porosity_frac              | 0.239622308108822              |
+| Flag_Subsoil_Extraction    | 1                              |
+| Reference                  | (Arsenault et al., 2020)       |
+| revision_date              | 2022-04-26                     |</pre>
+
+        <h3>Notes</h3>
+        <ol>
+            <li> <!-- Add note here --> </li>
+        </ol>
+
+        <h3>References</h3>
+        <ol>
+            <li>Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.: 
+                A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, 
+                Scientific Data, 7, 243, 
+                <a href="https://doi.org/10.1038/s41597-020-00583-2" target="_blank">
+                    https://doi.org/10.1038/s41597-020-00583-2
+                </a>, 2020.
+            </li>
+        </ol>
+    </body>
+    </html>
+    

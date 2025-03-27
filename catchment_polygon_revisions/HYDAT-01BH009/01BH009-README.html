@@ -1,0 +1,113 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HYDAT-01BH009</title>
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"c1d9d530-a494-401a-8c14-b94ff3f130c1":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1924","attributes":{"height":400,"x_range":{"type":"object","name":"DataRange1d","id":"p1925"},"y_range":{"type":"object","name":"DataRange1d","id":"p1926"},"x_scale":{"type":"object","name":"LinearScale","id":"p1934"},"y_scale":{"type":"object","name":"LinearScale","id":"p1935"},"title":{"type":"object","name":"Title","id":"p1927","attributes":{"text":"Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1964","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p1921","attributes":{"selected":{"type":"object","name":"Selection","id":"p1922","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1923"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"YORK RIVIERE) EN AMONT DU RUISSEAU D&#x27;ARGENT\\", \\"OfficialID\\": \\"01BH009\\", \\"FlagPAVICS\\": 1, \\"Source\\": \\"HYDAT\\", \\"Area\\": 972.0}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-64.93333333333419, 48.76249999999931], [-64.9926635742196, 48.76678873697847], [-65.00888773600346, 48.78494771321545], [-65.04349873860762, 48.772529093423785], [-65.05521240234461, 48.773226928710244], [-65.06263732910242, 48.79727071126233], [-65.09436543782637, 48.81050720214774], [-65.09324645996179, 48.82927754719982], [-65.1201792399097, 48.841638183593055], [-65.13529968261804, 48.85220031738211], [-65.14739786783939, 48.85775349934826], [-65.1519663492847, 48.84779968261649], [-65.15636698405032, 48.84386698404879], [-65.169029744467, 48.82969462076753], [-65.16812947591231, 48.814583333332635], [-65.16907755533938, 48.79866536458264], [-65.18970031738367, 48.79386698404878], [-65.19363301595138, 48.78946634928316], [-65.22368672688887, 48.78553365071545], [-65.23113301595137, 48.79386698404878], [-65.2445200602222, 48.79779968261649], [-65.25197753906335, 48.789453124999305], [-65.2570699055998, 48.78975626627535], [-65.2644663492847, 48.79803365071545], [-65.26886698405033, 48.80196634928316], [-65.27433980306074, 48.8138895670566], [-65.30973612467533, 48.824819946288365], [-65.3515268961597, 48.82232869466076], [-65.3644663492847, 48.831366984048785], [-65.37720031738365, 48.835299682616494], [-65.38758239746178, 48.8409413655592], [-65.39363301595137, 48.86053365071545], [-65.40361022949304, 48.865113321939404], [-65.41666666666751, 48.86433512369722], [-65.43635457356855, 48.86550801594983], [-65.44363301595136, 48.88136698404878], [-65.4725484212248, 48.88587341308524], [-65.48750000000085, 48.87542928059826], [-65.50198465983158, 48.88554687499931], [-65.51250000000084, 48.88492024739514], [-65.5235026041675, 48.88557535807222], [-65.53113301595137, 48.90220031738212], [-65.53670349121178, 48.91245218912691], [-65.56034240722741, 48.90612182617118], [-65.56519470214928, 48.90641072591076], [-65.56445312500084, 48.91884358723888], [-65.56886698405032, 48.926966349283155], [-65.57279968261803, 48.94079793294201], [-65.55632222493574, 48.95551961262951], [-65.5509643554696, 48.97287089029878], [-65.51863301595137, 48.985299682616485], [-65.51459960937585, 49.00263468424409], [-65.49375000000084, 48.99130452473889], [-65.48052062988366, 48.99849446614513], [-65.46865336100345, 48.997786458332634], [-65.44728088378992, 49.01099955240816], [-65.43541666666752, 49.01029256184826], [-65.42323303222742, 49.01101888020764], [-65.41886698405033, 49.00613301594982], [-65.41029968261803, 49.00220031738211], [-65.40636698405032, 48.99779968261649], [-65.39776102701907, 48.990110270181596], [-65.39816487630293, 48.98333333333264], [-65.39774373372481, 48.97626342773368], [-65.38874511718835, 48.96822306315035], [-65.3899556477873, 48.94791666666597], [-65.38834330240971, 48.92086791992118], [-65.3629506429045, 48.92766927083264], [-65.35220031738366, 48.93970031738212], [-65.31666870117272, 48.94633280436128], [-65.30695597330813, 48.93546142578055], [-65.2769663492847, 48.927200317382116], [-65.273033650717, 48.91446634928316], [-65.25920206705814, 48.91053365071545], [-65.23669840494877, 48.922763061522744], [-65.20892028808679, 48.92922566731701], [-65.20220031738366, 48.94386698404878], [-65.18472086588626, 48.95498453775972], [-65.18577779134199, 48.97271931966076], [-65.17272440592532, 48.989562988280554], [-65.17721354166751, 48.99782307942638], [-65.17658691406335, 49.00833333333264], [-65.17743733724043, 49.02259928385347], [-65.17279968261803, 49.03113301594982], [-65.16586914062586, 49.05357666015555], [-65.1429799397795, 49.06029968261649], [-65.13213094075606, 49.048157755533154], [-65.12720031738367, 49.02696634928316], [-65.117223103842, 49.0223866780592], [-65.0986460367847, 49.02349446614514], [-65.087975056967, 49.01769510904878], [-65.08044942220137, 49.00927225748628], [-65.08149820963627, 48.99166666666597], [-65.08097330729252, 48.982864379882116], [-65.06863301595138, 48.97720031738211], [-65.06470031738367, 48.97279968261649], [-65.05253295898522, 48.967214965819615], [-65.04386698405034, 48.928770955402946], [-65.05686848958419, 48.92280375162691], [-65.04779968261803, 48.91470031738211], [-65.04386698405034, 48.91029968261649], [-65.03946634928471, 48.90636698404878], [-65.035533650717, 48.90196634928316], [-65.02715555826909, 48.89448038736909], [-65.023033650717, 48.88113301594983], [-65.00267639160242, 48.856321207681596], [-64.98174540201909, 48.84803365071545], [-64.97720031738366, 48.87720031738212], [-64.97059936523523, 48.883099365233676], [-64.96379292806076, 48.89071655273368], [-64.96890360514408, 48.91463419596285], [-64.9644663492847, 48.92279968261649], [-64.960533650717, 48.93553365071545], [-64.9558959960946, 48.9440673828118], [-64.9566263834644, 48.95630900065034], [-64.93881327311283, 48.960299682616494], [-64.92882893880294, 48.94912516275972], [-64.8614837646493, 48.94280497233003], [-64.84435526530034, 48.95476989746024], [-64.81694030761804, 48.91699523925712], [-64.78286437988368, 48.91902669270763], [-64.77720031738367, 48.93136698404878], [-64.7652923583993, 48.93683268229097], [-64.754088338217, 48.91921590169201], [-64.73748168945399, 48.914087931314405], [-64.72007548014409, 48.915125528970655], [-64.75011800130294, 48.88828226725191], [-64.73417968750086, 48.86546630859306], [-64.73970031738367, 48.86053365071545], [-64.74363301595137, 48.854526774087844], [-64.70196634928472, 48.84803365071545], [-64.68589680989669, 48.84226786295503], [-64.68064473470137, 48.81969604492118], [-64.66445210774826, 48.8146962483717], [-64.66517842610763, 48.80251668294201], [-64.72720031738368, 48.79803365071545], [-64.73145853678471, 48.79326782226493], [-64.76470031738367, 48.78553365071545], [-64.77279968261804, 48.78113301594983], [-64.78642883300867, 48.77487792968681], [-64.85962524414148, 48.76508789062431], [-64.88129984537846, 48.780227661132116], [-64.91765340169357, 48.7852996826165], [-64.92279968261803, 48.768633015949824], [-64.93136698405033, 48.76470031738212], [-64.93333333333419, 48.76249999999931]]]}}]}"}},"view":{"type":"object","name":"CDSView","id":"p1965","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1966"}}},"glyph":{"type":"object","name":"Patches","id":"p1961","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p1962","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p1963","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1933","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1946"},{"type":"object","name":"WheelZoomTool","id":"p1947","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p1948","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1949","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p1955","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p1954","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p1956"},{"type":"object","name":"SaveTool","id":"p1957"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1941","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1942","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1943"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1944"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1936","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1937","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1938"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1939"}}}],"center":[{"type":"object","name":"Grid","id":"p1940","attributes":{"axis":{"id":"p1936"}}},{"type":"object","name":"Grid","id":"p1945","attributes":{"dimension":1,"axis":{"id":"p1941"}}}]}}]}}';
+        const render_items = [{"docid":"c1d9d530-a494-401a-8c14-b94ff3f130c1","roots":{"p1924":"aea41223-f806-4931-801b-d98637f89dda"},"root_ids":["p1924"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+    </head>
+    <body>
+        <h1>HYDAT-01BH009</h1>
+        <p><strong>Latest revision:</strong> 2022-04-26</p>
+
+        <h2>01BH009: YORK RIVIERE) EN AMONT DU RUISSEAU D'ARGENT</h2>
+
+        <div id="aea41223-f806-4931-801b-d98637f89dda" data-root-id="p1924" style="display: contents;"></div>
+
+        <h3>Catchment Attributes</h3>
+        <pre>| Attribute                  | (Arsenault, 2020)                           |
+|:---------------------------|:--------------------------------------------|
+| Watershed_ID               | 57                                          |
+| Source                     | HYDAT                                       |
+| Name                       | YORK RIVIERE) EN AMONT DU RUISSEAU D'ARGENT |
+| Official_ID                | 01BH009                                     |
+| Centroid_Lat_deg_N         | 48.83167                                    |
+| Centroid_Lon_deg_E         | -64.685                                     |
+| Drainage_Area_km2          | 972.0                                       |
+| Drainage_Area_GSIM_km2     | 966.5558                                    |
+| Flag_GSIM_boundaries       | 1                                           |
+| Flag_Artificial_Boundaries | 0                                           |
+| Elevation_m                | 417.0                                       |
+| Slope_deg                  | 8.0563                                      |
+| Gravelius                  | 2.383                                       |
+| Perimeter                  | 270.765                                     |
+| Flag_Shape_Extraction      | 1                                           |
+| Aspect_deg                 | 95.1964                                     |
+| Flag_Terrain_Extraction    | 1                                           |
+| Land_Use_Forest_frac       | 0.9497                                      |
+| Land_Use_Grass_frac        | 0.0236                                      |
+| Land_Use_Wetland_frac      | 0.0005                                      |
+| Land_Use_Water_frac        | 0.0088                                      |
+| Land_Use_Urban_frac        | 0.0121                                      |
+| Land_Use_Shrubs_frac       | 0.0054                                      |
+| Land_Use_Crops_frac        | 0.0                                         |
+| Land_Use_Snow_Ice_frac     | 0.0                                         |
+| Flag_Land_Use_Extraction   | 1                                           |
+| Permeability_logk_m2       | -13.9813756763278                           |
+| Porosity_frac              | 0.143316026543745                           |
+| Flag_Subsoil_Extraction    | 1                                           |
+| Reference                  | (Arsenault et al., 2020)                    |
+| revision_date              | 2022-04-26                                  |</pre>
+
+        <h3>Notes</h3>
+        <ol>
+            <li> <!-- Add note here --> </li>
+        </ol>
+
+        <h3>References</h3>
+        <ol>
+            <li>Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.: 
+                A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, 
+                Scientific Data, 7, 243, 
+                <a href="https://doi.org/10.1038/s41597-020-00583-2" target="_blank">
+                    https://doi.org/10.1038/s41597-020-00583-2
+                </a>, 2020.
+            </li>
+        </ol>
+    </body>
+    </html>
+    

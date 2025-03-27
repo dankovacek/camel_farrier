@@ -1,0 +1,113 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HYDAT-01AL004</title>
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"4eb65bc3-5d78-4fdf-ba55-ca29128becb5":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p3994","attributes":{"height":400,"x_range":{"type":"object","name":"DataRange1d","id":"p3995"},"y_range":{"type":"object","name":"DataRange1d","id":"p3996"},"x_scale":{"type":"object","name":"LinearScale","id":"p4004"},"y_scale":{"type":"object","name":"LinearScale","id":"p4005"},"title":{"type":"object","name":"Title","id":"p3997","attributes":{"text":"Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p4034","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p3991","attributes":{"selected":{"type":"object","name":"Selection","id":"p3992","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p3993"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"NARROWS MOUNTAIN BROOK NEAR NARROWS MOUNTAIN\\", \\"OfficialID\\": \\"01AL004\\", \\"FlagPAVICS\\": 0, \\"Source\\": \\"HYDAT\\", \\"Area\\": 3.990803}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-67.02156195499998, 46.270738667000046], [-67.02213112699997, 46.27082693600005], [-67.02271511399994, 46.27091750100004], [-67.02484788499999, 46.27074619500007], [-67.02608445799996, 46.27143609600006], [-67.02805833599996, 46.27033481800004], [-67.03078529799996, 46.26963465700004], [-67.03158360799995, 46.26952579600004], [-67.03303507999993, 46.27014267200008], [-67.03570613099998, 46.27056677400003], [-67.03678229699995, 46.27103346700005], [-67.03814765399994, 46.27144464000003], [-67.03859605999997, 46.27196506700005], [-67.03979885899997, 46.272501770000076], [-67.04061673099994, 46.273142232000055], [-67.04125719399997, 46.27333510300008], [-67.04298245399997, 46.27396864800005], [-67.04374173199994, 46.274392232000025], [-67.04417386099993, 46.27458510300005], [-67.04467984199994, 46.274867493000045], [-67.04729886099994, 46.27521010300006], [-67.04837145399995, 46.27550368200008], [-67.04960843399994, 46.27619378700007], [-67.05305773399994, 46.27651076200004], [-67.05374173499996, 46.27689223200008], [-67.05479886499995, 46.277293437000026], [-67.05600898799997, 46.27780308000007], [-67.05766812799993, 46.27897943100004], [-67.05922391499996, 46.28078505500008], [-67.05989530199997, 46.28136366900003], [-67.05959053299995, 46.283142233000035], [-67.05936673699995, 46.28396010400007], [-67.05917386699997, 46.28480890000003], [-67.05796068999996, 46.28622552600007], [-67.05787422399999, 46.287301169000045], [-67.05792508699994, 46.28793369700003], [-67.05681058399995, 46.288186790000054], [-67.05645006999998, 46.28916843800005], [-67.05618029599998, 46.29035577600007], [-67.05434435699993, 46.29248671800008], [-67.05360094799994, 46.292546532000074], [-67.05295010999998, 46.29198602500003], [-67.05258471299999, 46.29116673100003], [-67.05149482799999, 46.28990187800008], [-67.05010708999998, 46.28939223500004], [-67.04874173399998, 46.28958510600006], [-67.04743842999994, 46.28982131200007], [-67.04604113099998, 46.289709007000056], [-67.04429857699995, 46.28984918400005], [-67.04374173199994, 46.289600568000026], [-67.04329678599998, 46.28935235900008], [-67.04011787099995, 46.289783267000075], [-67.03978339799994, 46.28918390100006], [-67.03957404699997, 46.28826206700006], [-67.03915839799998, 46.28751723400006], [-67.03896552599997, 46.28708510600006], [-67.03874172999997, 46.28668390100006], [-67.03850247299994, 46.28588942700003], [-67.03771552599994, 46.284793438000065], [-67.03749172999994, 46.28460056700004], [-67.03700243199995, 46.284032737000075], [-67.03541978899995, 46.28336623300004], [-67.03337755199993, 46.28305495400008], [-67.03228339499998, 46.282725568000046], [-67.03168158699998, 46.28176487400003], [-67.03060126499997, 46.28128269600006], [-67.02979885599996, 46.28083510500005], [-67.02936672699997, 46.28064223400003], [-67.02794623399996, 46.278993470000046], [-67.02603339199999, 46.278558900000064], [-67.02567430199997, 46.27814223300004], [-67.02515570699995, 46.27835321200007], [-67.02463711099995, 46.27895501800003], [-67.02333990999995, 46.279059389000054], [-67.02265346799999, 46.277520895000066], [-67.02084051899993, 46.27728367200007], [-67.02103338999996, 46.27646010400008], [-67.02144191899998, 46.27572788600003], [-67.02147447099998, 46.27532200100006], [-67.02133022499999, 46.27352634700003], [-67.02156195499998, 46.270738667000046]]]}}]}"}},"view":{"type":"object","name":"CDSView","id":"p4035","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p4036"}}},"glyph":{"type":"object","name":"Patches","id":"p4031","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p4032","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p4033","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p4003","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p4016"},{"type":"object","name":"WheelZoomTool","id":"p4017","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p4018","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p4019","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p4025","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p4024","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p4026"},{"type":"object","name":"SaveTool","id":"p4027"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p4011","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p4012","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p4013"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p4014"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p4006","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p4007","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p4008"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p4009"}}}],"center":[{"type":"object","name":"Grid","id":"p4010","attributes":{"axis":{"id":"p4006"}}},{"type":"object","name":"Grid","id":"p4015","attributes":{"dimension":1,"axis":{"id":"p4011"}}}]}}]}}';
+        const render_items = [{"docid":"4eb65bc3-5d78-4fdf-ba55-ca29128becb5","roots":{"p3994":"d8ea0d15-2396-45ff-9e61-32ecf5badd70"},"root_ids":["p3994"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+    </head>
+    <body>
+        <h1>HYDAT-01AL004</h1>
+        <p><strong>Latest revision:</strong> 2022-04-26</p>
+
+        <h2>01AL004: NARROWS MOUNTAIN BROOK NEAR NARROWS MOUNTAIN</h2>
+
+        <div id="d8ea0d15-2396-45ff-9e61-32ecf5badd70" data-root-id="p3994" style="display: contents;"></div>
+
+        <h3>Catchment Attributes</h3>
+        <pre>| Attribute                  | (Arsenault, 2020)                            |
+|:---------------------------|:---------------------------------------------|
+| Watershed_ID               | 21                                           |
+| Source                     | HYDAT                                        |
+| Name                       | NARROWS MOUNTAIN BROOK NEAR NARROWS MOUNTAIN |
+| Official_ID                | 01AL004                                      |
+| Centroid_Lat_deg_N         | 46.27717                                     |
+| Centroid_Lon_deg_E         | -67.02139                                    |
+| Drainage_Area_km2          | 3.9908                                       |
+| Drainage_Area_GSIM_km2     | nan                                          |
+| Flag_GSIM_boundaries       | 0                                            |
+| Flag_Artificial_Boundaries | 0                                            |
+| Elevation_m                | 286.7                                        |
+| Slope_deg                  | 3.9572                                       |
+| Gravelius                  | 1.362                                        |
+| Perimeter                  | 9.646                                        |
+| Flag_Shape_Extraction      | 1                                            |
+| Aspect_deg                 | 96.7267                                      |
+| Flag_Terrain_Extraction    | 1                                            |
+| Land_Use_Forest_frac       | 0.9375                                       |
+| Land_Use_Grass_frac        | 0.0427                                       |
+| Land_Use_Wetland_frac      | 0.0054                                       |
+| Land_Use_Water_frac        | 0.0004                                       |
+| Land_Use_Urban_frac        | 0.0                                          |
+| Land_Use_Shrubs_frac       | 0.014                                        |
+| Land_Use_Crops_frac        | 0.0                                          |
+| Land_Use_Snow_Ice_frac     | 0.0                                          |
+| Flag_Land_Use_Extraction   | 1                                            |
+| Permeability_logk_m2       | -14.5714287076678                            |
+| Porosity_frac              | 0.087142855993339                            |
+| Flag_Subsoil_Extraction    | 1                                            |
+| Reference                  | (Arsenault et al., 2020)                     |
+| revision_date              | 2022-04-26                                   |</pre>
+
+        <h3>Notes</h3>
+        <ol>
+            <li> <!-- Add note here --> </li>
+        </ol>
+
+        <h3>References</h3>
+        <ol>
+            <li>Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.: 
+                A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, 
+                Scientific Data, 7, 243, 
+                <a href="https://doi.org/10.1038/s41597-020-00583-2" target="_blank">
+                    https://doi.org/10.1038/s41597-020-00583-2
+                </a>, 2020.
+            </li>
+        </ol>
+    </body>
+    </html>
+    

@@ -1,0 +1,113 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HYDAT-01BO003</title>
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"c45dea73-29f3-4385-9655-2b51287edc43":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p3028","attributes":{"height":400,"x_range":{"type":"object","name":"DataRange1d","id":"p3029"},"y_range":{"type":"object","name":"DataRange1d","id":"p3030"},"x_scale":{"type":"object","name":"LinearScale","id":"p3038"},"y_scale":{"type":"object","name":"LinearScale","id":"p3039"},"title":{"type":"object","name":"Title","id":"p3031","attributes":{"text":"Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p3068","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p3025","attributes":{"selected":{"type":"object","name":"Selection","id":"p3026","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p3027"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"BARNABY RIVER BELOW SEMIWAGAN RIVER\\", \\"OfficialID\\": \\"01BO003\\", \\"FlagPAVICS\\": 1, \\"Source\\": \\"HYDAT\\", \\"Area\\": 484.0}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-65.6666666666675, 46.66666666666604], [-65.66470031738365, 46.66886698404882], [-65.64154459635502, 46.68359374999935], [-65.61637573242274, 46.704243977863925], [-65.62309773763101, 46.722976684569666], [-65.61863301595136, 46.726966349283195], [-65.61470031738368, 46.734717814126974], [-65.63758341471437, 46.73946634928317], [-65.66446634928471, 46.718633015949855], [-65.68156229655028, 46.71470031738217], [-65.69363301595136, 46.72053324381442], [-65.67051391601646, 46.73523661295505], [-65.66470031738365, 46.76118672688732], [-65.67723897298261, 46.772389729817014], [-65.67671101888101, 46.78124999999935], [-65.67720743815185, 46.7895833333327], [-65.67675577799565, 46.797167968749314], [-65.65613301595137, 46.8019663492832], [-65.65220031738367, 46.80636698404886], [-65.64755045573, 46.810522460936866], [-65.6481404622404, 46.8204274495436], [-65.62635294596438, 46.827155558267535], [-65.6149353027352, 46.83993530273367], [-65.60613301595139, 46.84779968261655], [-65.6022003173837, 46.861186726887354], [-65.61053365071696, 46.86863301594986], [-65.61446634928474, 46.87413126627538], [-65.60196634928468, 46.88529968261655], [-65.57345072428473, 46.91721394856703], [-65.56886698405033, 46.927200317382116], [-65.55841064453209, 46.931999715168594], [-65.54166666666751, 46.931001790363936], [-65.48741760253988, 46.93423461913999], [-65.47720031738363, 46.92279968261655], [-65.47279968261807, 46.91886698404877], [-65.4688669840503, 46.91029968261649], [-65.46041666666748, 46.894747924804015], [-65.41716613769617, 46.88283386230399], [-65.40416666666748, 46.875770060220724], [-65.3888305664071, 46.884104410806664], [-65.36475931803467, 46.865449015298815], [-65.34363301595138, 46.86053365071545], [-65.33970031738369, 46.85711669921806], [-65.36371765136805, 46.841842651366484], [-65.37035929362067, 46.82737121581962], [-65.39386698405029, 46.80636698404886], [-65.40227355957116, 46.7931498209629], [-65.4188812255868, 46.78552754719989], [-65.41770731608156, 46.76584676106701], [-65.40613301595133, 46.76053365071551], [-65.40220031738363, 46.75196634928323], [-65.39779968261807, 46.74803365071545], [-65.39190063476644, 46.73518269856707], [-65.38506266276129, 46.72259928385348], [-65.38640848795657, 46.70001831054618], [-65.40793050130291, 46.68439941406184], [-65.43074035644618, 46.68575846354102], [-65.44363301595132, 46.681133015949854], [-65.47843424479251, 46.67154642740819], [-65.5144663492847, 46.65196634928319], [-65.53553365071696, 46.648033650715504], [-65.54447937011803, 46.64317220052021], [-65.557603963217, 46.64395446777279], [-65.55539143880293, 46.68107198079363], [-65.58532918294355, 46.66862080891858], [-65.59736022949305, 46.66933797200457], [-65.61523437500082, 46.65685221354099], [-65.65196634928465, 46.66470031738219], [-65.6666666666675, 46.66666666666604]]]}}]}"}},"view":{"type":"object","name":"CDSView","id":"p3069","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p3070"}}},"glyph":{"type":"object","name":"Patches","id":"p3065","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p3066","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p3067","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p3037","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p3050"},{"type":"object","name":"WheelZoomTool","id":"p3051","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p3052","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p3053","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p3059","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p3058","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p3060"},{"type":"object","name":"SaveTool","id":"p3061"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p3045","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p3046","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p3047"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p3048"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p3040","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p3041","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p3042"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p3043"}}}],"center":[{"type":"object","name":"Grid","id":"p3044","attributes":{"axis":{"id":"p3040"}}},{"type":"object","name":"Grid","id":"p3049","attributes":{"dimension":1,"axis":{"id":"p3045"}}}]}}]}}';
+        const render_items = [{"docid":"c45dea73-29f3-4385-9655-2b51287edc43","roots":{"p3028":"af207e39-b9c9-4d83-9d10-b8c8071b72c2"},"root_ids":["p3028"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+    </head>
+    <body>
+        <h1>HYDAT-01BO003</h1>
+        <p><strong>Latest revision:</strong> 2022-04-26</p>
+
+        <h2>01BO003: BARNABY RIVER BELOW SEMIWAGAN RIVER</h2>
+
+        <div id="af207e39-b9c9-4d83-9d10-b8c8071b72c2" data-root-id="p3028" style="display: contents;"></div>
+
+        <h3>Catchment Attributes</h3>
+        <pre>| Attribute                  | (Arsenault, 2020)                   |
+|:---------------------------|:------------------------------------|
+| Watershed_ID               | 69                                  |
+| Source                     | HYDAT                               |
+| Name                       | BARNABY RIVER BELOW SEMIWAGAN RIVER |
+| Official_ID                | 01BO003                             |
+| Centroid_Lat_deg_N         | 46.88861                            |
+| Centroid_Lon_deg_E         | -65.59556                           |
+| Drainage_Area_km2          | 484.0                               |
+| Drainage_Area_GSIM_km2     | 510.4116                            |
+| Flag_GSIM_boundaries       | 1                                   |
+| Flag_Artificial_Boundaries | 0                                   |
+| Elevation_m                | 58.8                                |
+| Slope_deg                  | 0.6778                              |
+| Gravelius                  | 1.588                               |
+| Perimeter                  | 128.902                             |
+| Flag_Shape_Extraction      | 1                                   |
+| Aspect_deg                 | 316.6111                            |
+| Flag_Terrain_Extraction    | 1                                   |
+| Land_Use_Forest_frac       | 0.8594                              |
+| Land_Use_Grass_frac        | 0.0239                              |
+| Land_Use_Wetland_frac      | 0.0483                              |
+| Land_Use_Water_frac        | 0.005                               |
+| Land_Use_Urban_frac        | 0.0168                              |
+| Land_Use_Shrubs_frac       | 0.0193                              |
+| Land_Use_Crops_frac        | 0.0273                              |
+| Land_Use_Snow_Ice_frac     | 0.0                                 |
+| Flag_Land_Use_Extraction   | 1                                   |
+| Permeability_logk_m2       | -15.1999998092651                   |
+| Porosity_frac              | 0.189999997615814                   |
+| Flag_Subsoil_Extraction    | 1                                   |
+| Reference                  | (Arsenault et al., 2020)            |
+| revision_date              | 2022-04-26                          |</pre>
+
+        <h3>Notes</h3>
+        <ol>
+            <li> <!-- Add note here --> </li>
+        </ol>
+
+        <h3>References</h3>
+        <ol>
+            <li>Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.: 
+                A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, 
+                Scientific Data, 7, 243, 
+                <a href="https://doi.org/10.1038/s41597-020-00583-2" target="_blank">
+                    https://doi.org/10.1038/s41597-020-00583-2
+                </a>, 2020.
+            </li>
+        </ol>
+    </body>
+    </html>
+    

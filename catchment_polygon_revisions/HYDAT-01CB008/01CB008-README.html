@@ -1,0 +1,113 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HYDAT-01CB008</title>
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"9948bba6-5dab-4ce2-a5d0-c3c77dbae6e5":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1050","attributes":{"height":400,"x_range":{"type":"object","name":"DataRange1d","id":"p1051"},"y_range":{"type":"object","name":"DataRange1d","id":"p1052"},"x_scale":{"type":"object","name":"LinearScale","id":"p1060"},"y_scale":{"type":"object","name":"LinearScale","id":"p1061"},"title":{"type":"object","name":"Title","id":"p1053","attributes":{"text":"Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1090","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p1047","attributes":{"selected":{"type":"object","name":"Selection","id":"p1048","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1049"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"DUNK RIVER NEAR BREADALBANE\\", \\"OfficialID\\": \\"01CB008\\", \\"FlagPAVICS\\": 0, \\"Source\\": \\"HYDAT\\", \\"Area\\": 19.8}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-63.517306617860946, 46.33166946470578], [-63.517306617860946, 46.371670535294214], [-63.45935338213905, 46.371670535294214], [-63.45935338213905, 46.33166946470578], [-63.517306617860946, 46.33166946470578]]]}}]}"}},"view":{"type":"object","name":"CDSView","id":"p1091","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1092"}}},"glyph":{"type":"object","name":"Patches","id":"p1087","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p1088","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p1089","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1059","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1072"},{"type":"object","name":"WheelZoomTool","id":"p1073","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p1074","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1075","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p1081","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p1080","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p1082"},{"type":"object","name":"SaveTool","id":"p1083"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1067","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1068","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1069"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1070"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1062","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1063","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1064"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1065"}}}],"center":[{"type":"object","name":"Grid","id":"p1066","attributes":{"axis":{"id":"p1062"}}},{"type":"object","name":"Grid","id":"p1071","attributes":{"dimension":1,"axis":{"id":"p1067"}}}]}}]}}';
+        const render_items = [{"docid":"9948bba6-5dab-4ce2-a5d0-c3c77dbae6e5","roots":{"p1050":"d695b2f7-ea1c-4bee-bc80-3674f36c2230"},"root_ids":["p1050"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+    </head>
+    <body>
+        <h1>HYDAT-01CB008</h1>
+        <p><strong>Latest revision:</strong> 2022-04-26</p>
+
+        <h2>01CB008: DUNK RIVER NEAR BREADALBANE</h2>
+
+        <div id="d695b2f7-ea1c-4bee-bc80-3674f36c2230" data-root-id="p1050" style="display: contents;"></div>
+
+        <h3>Catchment Attributes</h3>
+        <pre>| Attribute                  | (Arsenault, 2020)           |
+|:---------------------------|:----------------------------|
+| Watershed_ID               | 94                          |
+| Source                     | HYDAT                       |
+| Name                       | DUNK RIVER NEAR BREADALBANE |
+| Official_ID                | 01CB008                     |
+| Centroid_Lat_deg_N         | 46.35167                    |
+| Centroid_Lon_deg_E         | -63.48833                   |
+| Drainage_Area_km2          | 19.8                        |
+| Drainage_Area_GSIM_km2     | nan                         |
+| Flag_GSIM_boundaries       | 0                           |
+| Flag_Artificial_Boundaries | 1                           |
+| Elevation_m                | 72.4                        |
+| Slope_deg                  | 2.8065                      |
+| Gravelius                  | nan                         |
+| Perimeter                  | nan                         |
+| Flag_Shape_Extraction      | 0                           |
+| Aspect_deg                 | 261.8789                    |
+| Flag_Terrain_Extraction    | 1                           |
+| Land_Use_Forest_frac       | 0.2                         |
+| Land_Use_Grass_frac        | 0.0                         |
+| Land_Use_Wetland_frac      | 0.0                         |
+| Land_Use_Water_frac        | 0.0                         |
+| Land_Use_Urban_frac        | 0.0                         |
+| Land_Use_Shrubs_frac       | 0.0                         |
+| Land_Use_Crops_frac        | 0.8                         |
+| Land_Use_Snow_Ice_frac     | 0.0                         |
+| Flag_Land_Use_Extraction   | 1                           |
+| Permeability_logk_m2       | nan                         |
+| Porosity_frac              | nan                         |
+| Flag_Subsoil_Extraction    | 0                           |
+| Reference                  | (Arsenault et al., 2020)    |
+| revision_date              | 2022-04-26                  |</pre>
+
+        <h3>Notes</h3>
+        <ol>
+            <li> <!-- Add note here --> </li>
+        </ol>
+
+        <h3>References</h3>
+        <ol>
+            <li>Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.: 
+                A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, 
+                Scientific Data, 7, 243, 
+                <a href="https://doi.org/10.1038/s41597-020-00583-2" target="_blank">
+                    https://doi.org/10.1038/s41597-020-00583-2
+                </a>, 2020.
+            </li>
+        </ol>
+    </body>
+    </html>
+    
