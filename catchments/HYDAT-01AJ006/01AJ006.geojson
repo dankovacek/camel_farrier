@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "01AJ006",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "features": 1, "Name": "HOLMES BROOK AT MOOSE MOUNTAIN", "OfficialID": "01AJ006", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 7.77 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -67.628799374471896, 46.600250909866269 ], [ -67.628799374471896, 46.625309090133733 ], [ -67.592320625528117, 46.625309090133733 ], [ -67.592320625528117, 46.600250909866269 ], [ -67.628799374471896, 46.600250909866269 ] ] ] } }
-]
-}

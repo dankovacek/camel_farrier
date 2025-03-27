@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "01AR007",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "features": 1, "Name": "BOCABEC RIVER AT OUTLET OF KERR LAKE", "OfficialID": "01AR007", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 12.4 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -67.041905360763451, 45.191672225043462 ], [ -67.041905360763451, 45.223327774956545 ], [ -66.996974639236555, 45.223327774956545 ], [ -66.996974639236555, 45.191672225043462 ], [ -67.041905360763451, 45.191672225043462 ] ] ] } }
-]
-}

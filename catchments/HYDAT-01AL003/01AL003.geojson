@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "01AL003",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "features": 1, "Name": "HAYDEN BROOK NEAR NARROWS MOUNTAIN", "OfficialID": "01AL003", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 6.48 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -67.053500886722716, 46.287448142699247 ], [ -67.053500886722716, 46.310331857300753 ], [ -67.020379113277286, 46.310331857300753 ], [ -67.020379113277286, 46.287448142699247 ], [ -67.053500886722716, 46.287448142699247 ] ] ] } }
-]
-}

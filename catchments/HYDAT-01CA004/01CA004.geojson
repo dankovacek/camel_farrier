@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "01CA004",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "features": 1, "Name": "SMELT CREEK NEAR ELLERSLIE", "OfficialID": "01CA004", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 17.3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -63.964430304856783, 46.582974715621098 ], [ -63.964430304856783, 46.620365284378899 ], [ -63.910009695143223, 46.620365284378899 ], [ -63.910009695143223, 46.582974715621098 ], [ -63.964430304856783, 46.582974715621098 ] ] ] } }
-]
-}

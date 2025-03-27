@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "01CB007",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "features": 1, "Name": "EAST BRANCH DUNK RIVER AT ELLIOTT", "OfficialID": "01CB007", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 10.7 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -63.484635783643341, 46.348357170771486 ], [ -63.484635783643341, 46.377762829228509 ], [ -63.442024216356657, 46.377762829228509 ], [ -63.442024216356657, 46.348357170771486 ], [ -63.484635783643341, 46.348357170771486 ] ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "01BH003",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "features": 1, "Name": "PORPHYRE (RUISSEAU)", "OfficialID": "01BH003", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 30.2 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -65.527049510974237, 48.921129116030144 ], [ -65.527049510974237, 48.970530883969857 ], [ -65.451830489025767, 48.970530883969857 ], [ -65.451830489025767, 48.921129116030144 ], [ -65.527049510974237, 48.921129116030144 ] ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "01CB010",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "features": 1, "Name": "DAMES BROOK NEAR NEWTON", "OfficialID": "01CB010", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 16.2 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -63.581488068975311, 46.328848835133492 ], [ -63.581488068975311, 46.365031164866501 ], [ -63.529071931024696, 46.365031164866501 ], [ -63.529071931024696, 46.328848835133492 ], [ -63.581488068975311, 46.328848835133492 ] ] ] } }
-]
-}

@@ -1,3 +1,5 @@
-data/HYSETS_watershed_boundaries/*
+data/
 _build/
 _superseded/
+__pycache__/
+_static/
