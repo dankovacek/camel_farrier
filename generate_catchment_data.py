@@ -75,7 +75,7 @@ def initialize_catchment_data(
     source_code = data["Source"]
 
     # Define folder structure
-    base_folder = "catchment_polygon_revisions"
+    base_folder = "catchments"
     subfolder_name = f"{source_code}-{official_id}"
     subfolder_path = os.path.join(base_folder, subfolder_name)
     resources_path = os.path.join(subfolder_path, "resources")

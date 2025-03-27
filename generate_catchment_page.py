@@ -16,24 +16,26 @@ tiles = xyz.OpenStreetMap.Mapnik
 
 
 def create_bokeh_plot(gdf: gpd.GeoDataFrame):
-    gdf = gdf.to_crs("EPSG:4326")
+    gdf = gdf.to_crs("EPSG:3857")
     geo_source = GeoJSONDataSource(geojson=gdf.to_json())
 
     p = figure(
         title="Catchment Polygon",
-        x_axis_type="linear",
-        y_axis_type="linear",
+        x_axis_type="mercator",
+        y_axis_type="mercator",
         width=600,
         height=400,
         tools="pan,wheel_zoom,box_zoom,reset,save",
     )
     p.patches('xs', 'ys', source=geo_source, fill_alpha=0.4, line_color="black")
+    p.add_tile(tiles)
     return components(p)
 
 def process_static_catchment_page_html(
     attributes_path: str,
     geojson_path: str,
-    folder_path: str = None,
+    catchment_data_folder: str,
+    static_html_folder: str,
 ):
     catchment_gdf = gpd.read_file(geojson_path)
     attrs_df = pd.read_csv(attributes_path)
@@ -42,12 +44,10 @@ def process_static_catchment_page_html(
     station_name = attrs_df["Name"].values[0]
     revision_date = attrs_df["revision_date"].values[0]
 
-    if not folder_path:
-        base_folder = "catchment_polygon_revisions"
-        subfolder_name = f"{source_code}-{official_id}"
-        folder_path = os.path.join(base_folder, subfolder_name)
+    subfolder_name = f"{source_code}-{official_id}"
+    md_folder_path = os.path.join(catchment_data_folder, subfolder_name)
 
-    os.makedirs(folder_path, exist_ok=True)
+    os.makedirs(md_folder_path, exist_ok=True)
 
     if not attrs_df.empty:
         if "geometry" in attrs_df.columns:
@@ -63,44 +63,8 @@ def process_static_catchment_page_html(
     script, div = create_bokeh_plot(catchment_gdf)
 
     # HTML template
-    html_template = Template("""
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>{{ title }}</title>
-        {{ resources }}
-        {{ script }}
-    </head>
-    <body>
-        <h1>{{ title }}</h1>
-        <p><strong>Latest revision:</strong> {{ revision_date }}</p>
-
-        <h2>{{ station_title }}</h2>
-
-        {{ div | safe }}
-
-        <h3>Catchment Attributes</h3>
-        <pre>{{ hysets_table }}</pre>
-
-        <h3>Notes</h3>
-        <ol>
-            <li> <!-- Add note here --> </li>
-        </ol>
-
-        <h3>References</h3>
-        <ol>
-            <li>Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.: 
-                A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, 
-                Scientific Data, 7, 243, 
-                <a href="https://doi.org/10.1038/s41597-020-00583-2" target="_blank">
-                    https://doi.org/10.1038/s41597-020-00583-2
-                </a>, 2020.
-            </li>
-        </ol>
-    </body>
-    </html>
-    """)
+    with open("templates/catchment_page_template.txt", "r", encoding="utf-8") as f:
+        html_template = Template(f.read())
 
     rendered_html = html_template.render(
         title=f"{source_code}-{official_id}",
@@ -113,16 +77,20 @@ def process_static_catchment_page_html(
     )
 
     # Save HTML
-    html_filename = f"{official_id}-README.html"
-    html_path = os.path.join(folder_path, html_filename)
+    html_filename = f"{official_id}_catchment_plot.html"
+    html_path = os.path.join(static_html_folder, html_filename)
     with open(html_path, "w", encoding="utf-8") as f:
         f.write(rendered_html)
 
     # Save companion .md that embeds iframe to the HTML
-    md_path = os.path.join(folder_path, f"{official_id}.md")
+    md_path = os.path.join(catchment_data_folder, f'{source_code}-{official_id}', f"{official_id}.md")
+    iframe_url = f"/_static/catchments/{official_id}_catchment_plot.html"
     with open(md_path, "w", encoding="utf-8") as f:
         f.write(f"# {source_code}-{official_id}\n\n")
-        f.write(f'<iframe src="{html_filename}" width="100%" height="650px" frameborder="0"></iframe>\n')
+        f.write(f'<iframe src="{iframe_url}" width="100%" height="650px" frameborder="0"></iframe>\n')
+        
+        # print the f string to the console
+        print(f'<iframe src="{iframe_url}" width="100%" height="650px" frameborder="0"></iframe>\n')
 
     print(f"Generated HTML at {html_path} and Markdown wrapper at {md_path}")
 
@@ -130,5 +98,5 @@ def process_static_catchment_page_html(
         "source_code": source_code,
         "official_id": official_id,
         "name": station_name,
-        "folder": folder_path,
+        "folder": catchment_data_folder,
     }

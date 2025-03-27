@@ -2,12 +2,13 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
+root: index
 parts:
-  - caption: Introduction
+  - caption: Camel Farrier
     chapters:
-    - file: index
-  - caption: Monitored Catchments
+    - file: intro
+
+  - caption: Catchments
     chapters:
-    - glob: catchment_polygon_revisions/*/*
+    - glob: catchments/**/*
     

@@ -1,5 +1,4 @@
-# Catchment Polygon Revision Archive
-## Introduction
+# Revision Archive
 
 This repository is intended to serve as a demonstration of the use of version control for 
 editing and open-source publication of catchment polygons used widely in hydrological research.
@@ -27,7 +26,8 @@ The HYSETS dataset (Arsenault et al., 2020) is used as the baseline polygon set 
 The provenance of polygons used to generate catchment attributes and meteorological forcing data in HYSETS is 
 described in the direct quote below.
 
-```{admonition} Arsenault (2020)\n*"The drainage area was made available for most hydrometric gauges by the water management 
+```{admonition} Arsenault (2020)
+*"The drainage area was made available for most hydrometric gauges by the water management 
 agencies that collate and curate those sources of data. However, a filter was applied to remove all stations that did not have an 
 official drainage area value at the hydrometric gauge, as the value is key in determining if the watershed bounds are acceptable or not. 
 The drainage areas were validated using the watershed delineation boundaries as described above in the geospatial analysis software QGIS 3.4. 
@@ -38,7 +38,8 @@ inform users that the boundaries are from GSIM and not from the official agencie
 cases in the dataset, under the “Drainage_Area_GSIM_km2” heading. **For catchments smaller or equal to 50 km2 in size according to the 
 official gauge, a bounding box equal to the surface area around the catchment outlet was provided as the contour of the catchment as at 
 those scales catchment delineations are difficult due to the resolution and hydrometric gauge accuracy**. These catchments are represented 
-by the “flag_artificial_boundaries” indicator in the dataset files."*\n```
+by the “flag_artificial_boundaries” indicator in the dataset files."*
+```
 
 The text quoted in bold above is the subject of the exercise presented here as an example of how to manage 
 catchment polygons in a version-control repository.  These catchments represent a significant proportion of 

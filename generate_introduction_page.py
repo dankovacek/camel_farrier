@@ -1,5 +1,3 @@
-
-
 def load_intro_markdown(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
         return f.read()
@@ -27,16 +25,13 @@ def generate_data_dictionary(catchment_data, source_descriptions):
 
 
 def generate_js_search(catchment_data):
-    lines = [
-        "",
-        "<script>",
-        "// Catchment data for search",
-        "const catchments = ["
-    ]
+    lines = ["", "<script>", "// Catchment data for search", "const catchments = ["]
     for d in catchment_data.values():
-        folder = f'{d["folder"]}/{d["official_id"]}-README.html'
+        src = d["source_code"]
+        oid = d["official_id"]
+        folder = f'{src}-{oid}/{d["official_id"]}.html'
         lines.append(
-            f'  {{id: "{d["official_id"]}", source: "{d["source_code"]}", name: "{d["name"]}", folder: "catchment_polygon_revisions/{folder}"}},'
+            f'  {{id: "{oid}", source: "{src}", name: "{d["name"]}", folder: "catchments/{folder}"}},'
         )
     lines.append("];</script>")
     return lines
@@ -49,10 +44,21 @@ def generate_references():
     ]
 
 
-def create_intro(catchment_data, intro_path, source_descriptions, output_path="intro.md"):
+def create_intro(
+    catchment_data, intro_path, output_path="intro.md"
+):
+    source_descriptions = {
+        "USGS": "United States Geological Survey",
+        "WSC": "Water Survey of Canada",
+        "HYSETS": "HYSETS database (Arsenault et al., 2020)",
+        "HYDAT": "HYDAT database from Water Survey of Canada (WSC)",
+        # Add more as needed (CONAGUA?)
+    }
     content = []
     content.append(load_intro_markdown(intro_path))
-    unique_sources = len(set([catchment_data[c]["source_code"] for c in catchment_data.keys()]))
+    unique_sources = len(
+        set([catchment_data[c]["source_code"] for c in catchment_data.keys()])
+    )
     total_catchments = len(catchment_data)
     content.extend(generate_dataset_overview(total_catchments, unique_sources))
     content.extend(generate_data_dictionary(catchment_data, source_descriptions))
