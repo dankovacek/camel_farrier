@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"b29c3a26-7c8d-4573-97bd-8fe601918bba":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p6345","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p6346"},"y_range":{"type":"object","name":"DataRange1d","id":"p6347"},"x_scale":{"type":"object","name":"LinearScale","id":"p6355"},"y_scale":{"type":"object","name":"LinearScale","id":"p6356"},"title":{"type":"object","name":"Title","id":"p6348","attributes":{"text":"1410787 Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p6385","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p6342","attributes":{"selected":{"type":"object","name":"Selection","id":"p6343","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p6344"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"Great Egg Harbor R tr at Sicklerville NJ\\", \\"OfficialID\\": \\"01410787\\", \\"FlagPAVICS\\": 0, \\"Source\\": \\"USGS\\", \\"Area\\": 4.247559}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-8345909.756256792, 4825232.442089068], [-8345909.756256792, 4825232.442089068], [-8346543.585801638, 4825809.796778892], [-8347199.49252762, 4826114.014396535], [-8347568.803155429, 4826791.586950916], [-8348019.631228796, 4827288.641653244], [-8348559.734684016, 4827924.627528819], [-8348233.857517488, 4828646.917253604], [-8347330.322434647, 4828367.309043157], [-8346473.826648508, 4828058.324921013], [-8345822.605452079, 4827556.450064077], [-8345188.709658663, 4826978.949002368], [-8344537.617724825, 4826477.051953084], [-8344833.961256897, 4825708.727511023], [-8345533.911385653, 4825466.814141645], [-8345909.756256792, 4825232.442089068]]]}}], \\"crs\\": {\\"type\\": \\"name\\", \\"properties\\": {\\"name\\": \\"urn:ogc:def:crs:EPSG::3857\\"}}}"}},"view":{"type":"object","name":"CDSView","id":"p6386","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p6387"}}},"glyph":{"type":"object","name":"Patches","id":"p6382","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p6383","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p6384","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"TileRenderer","id":"p6389","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p6388","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p6354","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p6367"},{"type":"object","name":"WheelZoomTool","id":"p6368","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p6369","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p6370","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p6376","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p6375","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p6377"},{"type":"object","name":"SaveTool","id":"p6378"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p6362","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p6363","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p6364","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p6365"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p6357","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p6358","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p6359","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p6360"}}}],"center":[{"type":"object","name":"Grid","id":"p6361","attributes":{"axis":{"id":"p6357"}}},{"type":"object","name":"Grid","id":"p6366","attributes":{"dimension":1,"axis":{"id":"p6362"}}}]}}]}}';
+        const render_items = [{"docid":"b29c3a26-7c8d-4573-97bd-8fe601918bba","roots":{"p6345":"ef5f95dd-1450-496e-b859-d7543a1d714d"},"root_ids":["p6345"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="ef5f95dd-1450-496e-b859-d7543a1d714d" data-root-id="p6345" style="display: contents;"></div>
+    </body>
+    </html>
+    

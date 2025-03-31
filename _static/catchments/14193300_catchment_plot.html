@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"2aadef62-4661-462f-aef0-ccff950df5ec":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p2376","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p2377"},"y_range":{"type":"object","name":"DataRange1d","id":"p2378"},"x_scale":{"type":"object","name":"LinearScale","id":"p2386"},"y_scale":{"type":"object","name":"LinearScale","id":"p2387"},"title":{"type":"object","name":"Title","id":"p2379","attributes":{"text":"14193300 Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p2416","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p2373","attributes":{"selected":{"type":"object","name":"Selection","id":"p2374","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p2375"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"MILL CREEK NEAR WILLAMINA, OR\\", \\"OfficialID\\": \\"14193300\\", \\"FlagPAVICS\\": 0, \\"Source\\": \\"USGS\\", \\"Area\\": 70.965321}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-13757341.859630935, 5616131.581985483], [-13757341.859630935, 5616131.581985483], [-13756914.561405282, 5616923.28354456], [-13756154.89564477, 5617194.533149136], [-13755703.210209187, 5617904.9916568855], [-13755068.948504413, 5618448.626241228], [-13754021.12064187, 5618495.857913867], [-13753160.042237451, 5618575.794988388], [-13752286.093956612, 5619057.964243591], [-13751444.885702688, 5619353.196271601], [-13750421.170380207, 5619481.402352347], [-13749559.984680505, 5619561.05608022], [-13748797.38610326, 5619079.988919806], [-13748063.394156544, 5618546.126667626], [-13747347.423559088, 5619113.55662666], [-13746470.776378265, 5618843.4216503985], [-13745589.80352606, 5618707.317272048], [-13744610.041474989, 5619131.719308893], [-13743797.174343182, 5619373.580043953], [-13743225.985848749, 5618790.997803142], [-13743232.626858754, 5617771.055433218], [-13742665.962763688, 5617054.492730508], [-13742424.448968908, 5616241.31560057], [-13742589.277458249, 5615307.414518349], [-13742055.758739723, 5614404.290287021], [-13741647.43582192, 5613773.679185249], [-13741654.22570002, 5612754.380431226], [-13741871.752922526, 5611849.4625381995], [-13742563.386297848, 5611201.658148221], [-13742991.525990803, 5610411.105397575], [-13743314.245669777, 5609563.520216567], [-13743988.09459337, 5609451.544543585], [-13744925.334129231, 5609482.222506389], [-13745715.591372633, 5609910.283460155], [-13746253.554508457, 5610678.752179524], [-13746815.768082285, 5611528.522945303], [-13747496.509187194, 5612033.466518766], [-13748264.693646954, 5611495.060122871], [-13748955.912444528, 5610846.866579511], [-13749897.602550663, 5610743.145478654], [-13750770.97328578, 5610261.676729389], [-13751303.859445788, 5609527.899501286], [-13752172.782752063, 5609180.32452467], [-13753280.937857917, 5608893.956048334], [-13754080.007147731, 5609053.483915725], [-13754874.851484632, 5609346.894966498], [-13755779.401085742, 5609563.281379515], [-13756346.55086041, 5610278.467573971], [-13756938.026264267, 5611074.915038763], [-13757075.083631238, 5611830.260067703], [-13757979.890487043, 5612046.525649314], [-13758799.334085237, 5612420.990621764], [-13759362.647356194, 5613270.279432045], [-13760039.913251864, 5613908.544269952], [-13760859.573909258, 5614282.9371010065], [-13761480.073826842, 5615026.750405989], [-13761239.865439566, 5615851.164307836], [-13760451.91861343, 5616175.47468667], [-13759793.720412968, 5616637.997424669], [-13758855.804741368, 5616608.610790946], [-13758092.996784987, 5616128.392548683], [-13757341.859630935, 5616131.581985483]]]}}], \\"crs\\": {\\"type\\": \\"name\\", \\"properties\\": {\\"name\\": \\"urn:ogc:def:crs:EPSG::3857\\"}}}"}},"view":{"type":"object","name":"CDSView","id":"p2417","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p2418"}}},"glyph":{"type":"object","name":"Patches","id":"p2413","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p2414","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p2415","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"TileRenderer","id":"p2420","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p2419","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p2385","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p2398"},{"type":"object","name":"WheelZoomTool","id":"p2399","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p2400","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p2401","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p2407","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p2406","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p2408"},{"type":"object","name":"SaveTool","id":"p2409"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p2393","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p2394","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p2395","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p2396"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p2388","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p2389","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p2390","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p2391"}}}],"center":[{"type":"object","name":"Grid","id":"p2392","attributes":{"axis":{"id":"p2388"}}},{"type":"object","name":"Grid","id":"p2397","attributes":{"dimension":1,"axis":{"id":"p2393"}}}]}}]}}';
+        const render_items = [{"docid":"2aadef62-4661-462f-aef0-ccff950df5ec","roots":{"p2376":"cc30b211-1877-4457-8d22-394d99ff2bad"},"root_ids":["p2376"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="cc30b211-1877-4457-8d22-394d99ff2bad" data-root-id="p2376" style="display: contents;"></div>
+    </body>
+    </html>
+    

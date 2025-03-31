@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"0526c67e-9a72-4688-810b-f3c3b2ce902c":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p2327","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p2328"},"y_range":{"type":"object","name":"DataRange1d","id":"p2329"},"x_scale":{"type":"object","name":"LinearScale","id":"p2337"},"y_scale":{"type":"object","name":"LinearScale","id":"p2338"},"title":{"type":"object","name":"Title","id":"p2330","attributes":{"text":"2298530 Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p2367","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p2324","attributes":{"selected":{"type":"object","name":"Selection","id":"p2325","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p2326"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"COKER CREEK NEAR MYAKKA CITY FL\\", \\"OfficialID\\": \\"02298530\\", \\"FlagPAVICS\\": 0, \\"Source\\": \\"USGS\\", \\"Area\\": 17.067937}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-9152649.356772147, 3177498.754899837], [-9152649.356772147, 3177498.754899837], [-9152428.91881438, 3178086.8802293404], [-9152038.063843124, 3178442.7945206678], [-9152359.426355675, 3179042.3276128154], [-9152214.42989846, 3179814.155523598], [-9151908.71186391, 3180286.216036109], [-9151147.77648314, 3180380.273066464], [-9150798.044307772, 3179741.9527292987], [-9150486.4753058, 3179074.808887907], [-9149831.856913278, 3178667.144488565], [-9149231.616780898, 3179060.85830356], [-9148622.422674593, 3179280.7486373605], [-9147776.373876803, 3179258.409552481], [-9147387.893359669, 3178890.162222669], [-9147066.81288763, 3178290.480402989], [-9147363.798583856, 3177644.8254833505], [-9147556.126336996, 3177018.106943587], [-9147206.716978237, 3176379.7731451867], [-9147228.788666362, 3175520.8285695547], [-9147507.057786407, 3174769.024361618], [-9148266.790710328, 3174916.5419034865], [-9148921.121220594, 3175324.228443806], [-9149547.119328398, 3175693.1767221815], [-9150087.209635034, 3176187.278669048], [-9150857.579551503, 3176025.7870156663], [-9151475.49644795, 3175979.5657838196], [-9151939.473070845, 3176531.2426123256], [-9152747.209197817, 3176582.077534142], [-9152621.698300947, 3177218.7411212274], [-9152649.356772147, 3177498.754899837]]]}}], \\"crs\\": {\\"type\\": \\"name\\", \\"properties\\": {\\"name\\": \\"urn:ogc:def:crs:EPSG::3857\\"}}}"}},"view":{"type":"object","name":"CDSView","id":"p2368","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p2369"}}},"glyph":{"type":"object","name":"Patches","id":"p2364","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p2365","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p2366","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"TileRenderer","id":"p2371","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p2370","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p2336","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p2349"},{"type":"object","name":"WheelZoomTool","id":"p2350","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p2351","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p2352","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p2358","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p2357","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p2359"},{"type":"object","name":"SaveTool","id":"p2360"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p2344","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p2345","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p2346","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p2347"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p2339","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p2340","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p2341","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p2342"}}}],"center":[{"type":"object","name":"Grid","id":"p2343","attributes":{"axis":{"id":"p2339"}}},{"type":"object","name":"Grid","id":"p2348","attributes":{"dimension":1,"axis":{"id":"p2344"}}}]}}]}}';
+        const render_items = [{"docid":"0526c67e-9a72-4688-810b-f3c3b2ce902c","roots":{"p2327":"ad9d3e85-2e50-4cc7-9472-81aeb89e7db5"},"root_ids":["p2327"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="ad9d3e85-2e50-4cc7-9472-81aeb89e7db5" data-root-id="p2327" style="display: contents;"></div>
+    </body>
+    </html>
+    

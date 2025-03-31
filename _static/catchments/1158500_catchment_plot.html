@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"19486efd-ed1b-4928-8eea-0f9fc546ceaa":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p6982","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p6983"},"y_range":{"type":"object","name":"DataRange1d","id":"p6984"},"x_scale":{"type":"object","name":"LinearScale","id":"p6992"},"y_scale":{"type":"object","name":"LinearScale","id":"p6993"},"title":{"type":"object","name":"Title","id":"p6985","attributes":{"text":"1158500 Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p7022","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p6979","attributes":{"selected":{"type":"object","name":"Selection","id":"p6980","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p6981"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"OTTER BROOK NEAR KEENE, NH\\", \\"OfficialID\\": \\"01158500\\", \\"FlagPAVICS\\": 0, \\"Source\\": \\"USGS\\", \\"Area\\": 109.555952}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-8034721.742515903, 5322086.879938174], [-8034721.742515903, 5322086.879938174], [-8033969.297240214, 5322529.270029104], [-8033564.016749194, 5323440.215309815], [-8033069.543336408, 5324201.798523012], [-8032584.231488815, 5325092.561843483], [-8032069.129905342, 5325933.568849592], [-8031188.262521224, 5326047.492511484], [-8030405.683638357, 5326440.003735491], [-8029987.809238264, 5326079.954274946], [-8029743.135404653, 5325214.545135393], [-8029749.4302491555, 5324201.832080698], [-8029404.45619174, 5323395.554939321], [-8028546.410721144, 5323092.4189356165], [-8028060.19909621, 5322503.697872787], [-8027364.152599762, 5321903.7389024645], [-8026907.73199232, 5321364.860897033], [-8026902.949641679, 5320560.938546045], [-8026918.67431863, 5319677.837978461], [-8027550.376751707, 5319374.246360393], [-8028113.531283664, 5318841.986463762], [-8027798.523435842, 5318085.956544368], [-8027793.67441313, 5317282.343698178], [-8027298.61278241, 5316564.977119144], [-8026853.771965242, 5315818.212944286], [-8026969.790676404, 5314876.739048183], [-8027165.581868206, 5313955.708962344], [-8027021.701684088, 5313032.612881196], [-8026777.5757056875, 5312168.458999178], [-8026332.958124579, 5311422.057564107], [-8026638.14483406, 5310571.501538265], [-8026774.612531313, 5309551.448436644], [-8027674.6255024, 5309358.949395265], [-8028146.169443106, 5309015.037187283], [-8028761.643167971, 5309593.721286678], [-8029442.800644047, 5309260.954519229], [-8030094.265098092, 5308878.423809899], [-8030964.506183665, 5308635.930127732], [-8031606.6698101675, 5308124.4532535095], [-8032346.956396844, 5307891.0040318305], [-8033235.51572441, 5307906.10157212], [-8033855.1312152, 5307810.5823032055], [-8034606.527392884, 5307368.96253403], [-8035268.854266663, 5306778.191707027], [-8035871.76768449, 5306088.018189849], [-8036454.195438943, 5305477.006209659], [-8037383.355463246, 5305333.474354405], [-8038240.205264383, 5305635.270181576], [-8038935.79411139, 5306233.377479324], [-8039874.29328309, 5306218.459928734], [-8040671.900652704, 5306420.707237126], [-8041028.234991497, 5307016.996527833], [-8040594.467547582, 5307876.856958832], [-8040340.571094327, 5308698.06981445], [-8040355.690652505, 5309629.763115086], [-8040500.695965308, 5310552.310816387], [-8040256.043006217, 5311502.701237807], [-8040701.653381015, 5312248.528233175], [-8040896.82627639, 5313141.862376958], [-8040314.231953457, 5313753.665533181], [-8040410.934877249, 5314368.98389776], [-8041107.226351688, 5314967.561047124], [-8041753.487189462, 5315595.639050457], [-8041969.198179736, 5316410.051751336], [-8041546.1740628835, 5317062.630268498], [-8040675.4792863615, 5317306.227997648], [-8040101.96041581, 5318047.339359418], [-8039628.6233340055, 5318729.474228523], [-8038936.06667089, 5319271.574418444], [-8038184.000609544, 5319714.115857564], [-8037402.154951879, 5320106.848716098], [-8036739.106978184, 5320698.675335961], [-8036066.711414624, 5321161.427508925], [-8035254.968839658, 5321504.279059898], [-8034721.742515903, 5322086.879938174]]]}}], \\"crs\\": {\\"type\\": \\"name\\", \\"properties\\": {\\"name\\": \\"urn:ogc:def:crs:EPSG::3857\\"}}}"}},"view":{"type":"object","name":"CDSView","id":"p7023","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p7024"}}},"glyph":{"type":"object","name":"Patches","id":"p7019","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p7020","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p7021","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"TileRenderer","id":"p7026","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p7025","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p6991","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p7004"},{"type":"object","name":"WheelZoomTool","id":"p7005","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p7006","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p7007","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p7013","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p7012","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p7014"},{"type":"object","name":"SaveTool","id":"p7015"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p6999","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p7000","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p7001","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p7002"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p6994","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p6995","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p6996","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p6997"}}}],"center":[{"type":"object","name":"Grid","id":"p6998","attributes":{"axis":{"id":"p6994"}}},{"type":"object","name":"Grid","id":"p7003","attributes":{"dimension":1,"axis":{"id":"p6999"}}}]}}]}}';
+        const render_items = [{"docid":"19486efd-ed1b-4928-8eea-0f9fc546ceaa","roots":{"p6982":"e3c4650f-4153-4abd-a128-6f7801733896"},"root_ids":["p6982"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="e3c4650f-4153-4abd-a128-6f7801733896" data-root-id="p6982" style="display: contents;"></div>
+    </body>
+    </html>
+    
