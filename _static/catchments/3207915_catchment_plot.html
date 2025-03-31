@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"c49823e8-eb68-4fdc-a319-2362027d1945":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p3699","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p3700"},"y_range":{"type":"object","name":"DataRange1d","id":"p3701"},"x_scale":{"type":"object","name":"LinearScale","id":"p3709"},"y_scale":{"type":"object","name":"LinearScale","id":"p3710"},"title":{"type":"object","name":"Title","id":"p3702","attributes":{"text":"3207915 Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p3739","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p3696","attributes":{"selected":{"type":"object","name":"Selection","id":"p3697","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p3698"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"ELKFOOT BRANCH LEVISA FORK NEAR HIGH, KY\\", \\"OfficialID\\": \\"03207915\\", \\"FlagPAVICS\\": 0, \\"Source\\": \\"USGS\\", \\"Area\\": 1.812983}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-9159529.564697823, 4495058.663865473], [-9160315.556250697, 4495209.080121318], [-9159861.324760407, 4495940.133232655], [-9159149.323092237, 4496331.019253235], [-9158695.644220391, 4496796.8032262], [-9158049.360757882, 4496742.110009225], [-9158266.639196292, 4496052.923781697], [-9158333.132893566, 4495342.175814202], [-9158819.651114179, 4494653.746665673], [-9159003.280077735, 4494452.620100301], [-9159529.564697823, 4495058.663865473]]]}}], \\"crs\\": {\\"type\\": \\"name\\", \\"properties\\": {\\"name\\": \\"urn:ogc:def:crs:EPSG::3857\\"}}}"}},"view":{"type":"object","name":"CDSView","id":"p3740","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p3741"}}},"glyph":{"type":"object","name":"Patches","id":"p3736","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p3737","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p3738","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"TileRenderer","id":"p3743","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p3742","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p3708","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p3721"},{"type":"object","name":"WheelZoomTool","id":"p3722","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p3723","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p3724","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p3730","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p3729","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p3731"},{"type":"object","name":"SaveTool","id":"p3732"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p3716","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p3717","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p3718","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p3719"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p3711","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p3712","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p3713","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p3714"}}}],"center":[{"type":"object","name":"Grid","id":"p3715","attributes":{"axis":{"id":"p3711"}}},{"type":"object","name":"Grid","id":"p3720","attributes":{"dimension":1,"axis":{"id":"p3716"}}}]}}]}}';
+        const render_items = [{"docid":"c49823e8-eb68-4fdc-a319-2362027d1945","roots":{"p3699":"a94c871b-45b7-4138-9e5e-574815ec9ad7"},"root_ids":["p3699"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="a94c871b-45b7-4138-9e5e-574815ec9ad7" data-root-id="p3699" style="display: contents;"></div>
+    </body>
+    </html>
+    

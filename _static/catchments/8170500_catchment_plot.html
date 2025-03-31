@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"3cc30fed-c4b7-42d2-baea-6e25e7bceef6":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p4140","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p4141"},"y_range":{"type":"object","name":"DataRange1d","id":"p4142"},"x_scale":{"type":"object","name":"LinearScale","id":"p4150"},"y_scale":{"type":"object","name":"LinearScale","id":"p4151"},"title":{"type":"object","name":"Title","id":"p4143","attributes":{"text":"8170500 Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p4180","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p4137","attributes":{"selected":{"type":"object","name":"Selection","id":"p4138","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p4139"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"San Marcos Rv at San Marcos, TX\\", \\"OfficialID\\": \\"08170500\\", \\"FlagPAVICS\\": 0, \\"Source\\": \\"USGS\\", \\"Area\\": 126.649789}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-10913074.759797981, 3498954.110861905], [-10913074.759797981, 3498954.110861905], [-10912354.256535377, 3499282.289003651], [-10911775.17044551, 3499746.4030456087], [-10911125.302992754, 3500142.5033978615], [-10910510.751498302, 3500572.5737703824], [-10909821.038685737, 3500726.195638909], [-10909264.00661497, 3500598.962683977], [-10908634.817968044, 3500334.21799894], [-10907942.195665948, 3500348.773294012], [-10907377.980002936, 3499874.097301584], [-10906678.183207233, 3499541.2294731564], [-10906237.355431834, 3500002.1559455316], [-10905471.193013519, 3499809.583643159], [-10904976.372679232, 3499333.357594143], [-10904378.42983153, 3498893.9996191333], [-10903578.465142358, 3498736.749685555], [-10903285.855214171, 3497978.3533635666], [-10903274.511026774, 3497422.673431709], [-10903294.243133513, 3496692.6608156622], [-10902935.306733279, 3496074.6767519806], [-10902269.810764924, 3495706.157459341], [-10901676.405911533, 3495475.094038622], [-10901023.617449278, 3495731.5647714864], [-10900259.255951587, 3495608.1152608865], [-10899869.407091526, 3495164.3920200313], [-10899924.679403016, 3494468.5092468695], [-10899635.23544973, 3493849.096018632], [-10899725.821585424, 3493187.291372832], [-10899744.395640105, 3492388.034753883], [-10900005.88664219, 3491618.6355854366], [-10899751.813896373, 3491033.348410053], [-10899945.468594646, 3490334.841538134], [-10900068.508361293, 3489568.335178141], [-10900506.373133129, 3488969.1102455235], [-10901234.962877708, 3489058.4844318163], [-10901723.509581065, 3489256.8882517703], [-10902590.511878407, 3489343.346456749], [-10903385.501360571, 3489292.3067035195], [-10903980.01931955, 3489592.6130779674], [-10904566.018572034, 3489476.3349538795], [-10904646.617321372, 3490030.3153640334], [-10905481.255717378, 3490221.3973509585], [-10906075.885000858, 3490521.602414694], [-10906537.90084252, 3491102.391337435], [-10907262.358084293, 3490983.065386131], [-10908019.227088511, 3490758.8186103865], [-10908646.380699243, 3490954.015209922], [-10909142.430564873, 3491499.2599802027], [-10909936.08912472, 3491378.2868863745], [-10910695.861107541, 3491292.7062172717], [-10911169.999260427, 3490796.3853850816], [-10911822.238848569, 3490539.363605218], [-10912584.89139545, 3490592.5083644995], [-10913346.068652015, 3490576.1693785302], [-10914107.243561238, 3490559.7754585156], [-10914975.946114315, 3490714.650806976], [-10915345.317496045, 3490185.6934918333], [-10915975.571973264, 3490519.302937111], [-10916438.129207507, 3491099.6577205667], [-10917060.935631149, 3491086.065534334], [-10917823.653584594, 3491138.8331084526], [-10918555.57126068, 3491365.883823721], [-10918916.776827687, 3492052.5931488154], [-10919648.780898113, 3492279.580540508], [-10920280.823517853, 3492682.4112991826], [-10920506.815802513, 3493511.0666408334], [-10920765.15605812, 3494234.8256321615], [-10921394.285215668, 3494498.7487105243], [-10922089.588113824, 3494622.2037186655], [-10922652.637396429, 3495026.4949290287], [-10922428.092085099, 3495830.563832668], [-10922026.571071388, 3496464.9008815163], [-10921269.591751136, 3496690.2308748593], [-10920581.818427132, 3496913.9739046604], [-10919929.399404543, 3497171.6370222503], [-10919272.380719757, 3497220.8952774885], [-10918544.597316975, 3497202.179669124], [-10917930.516866066, 3497632.6052937577], [-10917528.658810347, 3498266.8404504484], [-10916808.340006016, 3498595.3091122485], [-10916194.108505465, 3499025.670063274], [-10915544.450188972, 3499422.02528894], [-10915104.012652893, 3499883.318842159], [-10914442.329527773, 3499723.8822311903], [-10913979.505489089, 3499143.1361093507], [-10913248.632738832, 3498985.124340961], [-10913074.759797981, 3498954.110861905]]]}}], \\"crs\\": {\\"type\\": \\"name\\", \\"properties\\": {\\"name\\": \\"urn:ogc:def:crs:EPSG::3857\\"}}}"}},"view":{"type":"object","name":"CDSView","id":"p4181","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p4182"}}},"glyph":{"type":"object","name":"Patches","id":"p4177","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p4178","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p4179","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"TileRenderer","id":"p4184","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p4183","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p4149","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p4162"},{"type":"object","name":"WheelZoomTool","id":"p4163","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p4164","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p4165","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p4171","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p4170","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p4172"},{"type":"object","name":"SaveTool","id":"p4173"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p4157","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p4158","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p4159","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p4160"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p4152","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p4153","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p4154","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p4155"}}}],"center":[{"type":"object","name":"Grid","id":"p4156","attributes":{"axis":{"id":"p4152"}}},{"type":"object","name":"Grid","id":"p4161","attributes":{"dimension":1,"axis":{"id":"p4157"}}}]}}]}}';
+        const render_items = [{"docid":"3cc30fed-c4b7-42d2-baea-6e25e7bceef6","roots":{"p4140":"a09cff04-2155-4aae-ad38-532946188b4f"},"root_ids":["p4140"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="a09cff04-2155-4aae-ad38-532946188b4f" data-root-id="p4140" style="display: contents;"></div>
+    </body>
+    </html>
+    

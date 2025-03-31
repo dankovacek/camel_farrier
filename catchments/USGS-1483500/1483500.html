@@ -1,0 +1,866 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>USGS-1483500 &#8212; My sample book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=ff57258c" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'catchments/USGS-1483500/1483500';</script>
+    <script src="../../_static/searchindex.js?v=85f58a90"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="USGS-1484695" href="../USGS-1484695/1484695.html" />
+    <link rel="prev" title="USGS-1473500" href="../USGS-1473500/1473500.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
+    <script>document.write(`<img src="../../_static/logo.png" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../index.html">
+                    Introduction
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Camel Farrier</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../intro.html">Revision Archive</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Catchments</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-01AD015/01AD015.html">HYDAT-01AD015</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-01BF001/01BF001.html">HYDAT-01BF001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-01EJ006/01EJ006.html">HYDAT-01EJ006</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-02ED015/02ED015.html">HYDAT-02ED015</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-02GA045/02GA045.html">HYDAT-02GA045</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-02HC045/02HC045.html">HYDAT-02HC045</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-02HC046/02HC046.html">HYDAT-02HC046</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-02HD018/02HD018.html">HYDAT-02HD018</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-02PJ028/02PJ028.html">HYDAT-02PJ028</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-02UC002/02UC002.html">HYDAT-02UC002</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-02YN003/02YN003.html">HYDAT-02YN003</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-04FB001/04FB001.html">HYDAT-04FB001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-05AB046/05AB046.html">HYDAT-05AB046</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-05DE007/05DE007.html">HYDAT-05DE007</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-06CE001/06CE001.html">HYDAT-06CE001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-06FA001/06FA001.html">HYDAT-06FA001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-07AA007/07AA007.html">HYDAT-07AA007</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-07BA003/07BA003.html">HYDAT-07BA003</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-08BB001/08BB001.html">HYDAT-08BB001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-08HA025/08HA025.html">HYDAT-08HA025</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-08KC002/08KC002.html">HYDAT-08KC002</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-08LF084/08LF084.html">HYDAT-08LF084</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HYDAT-08MH060/08MH060.html">HYDAT-08MH060</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-10133540/10133540.html">USGS-10133540</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-10172765/10172765.html">USGS-10172765</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1022500/1022500.html">USGS-1022500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-10241800/10241800.html">USGS-10241800</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-10243260/10243260.html">USGS-10243260</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-10257800/10257800.html">USGS-10257800</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-10263900/10263900.html">USGS-10263900</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-10309025/10309025.html">USGS-10309025</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-10317450/10317450.html">USGS-10317450</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-10347300/10347300.html">USGS-10347300</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-10353700/10353700.html">USGS-10353700</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1073000/1073000.html">USGS-1073000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-11084500/11084500.html">USGS-11084500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-11133700/11133700.html">USGS-11133700</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-11141300/11141300.html">USGS-11141300</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-11147600/11147600.html">USGS-11147600</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-11171500/11171500.html">USGS-11171500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-11195600/11195600.html">USGS-11195600</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-11202000/11202000.html">USGS-11202000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-11202001/11202001.html">USGS-11202001</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-11208610/11208610.html">USGS-11208610</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-11284700/11284700.html">USGS-11284700</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-11298650/11298650.html">USGS-11298650</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-11313477/11313477.html">USGS-11313477</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-11316000/11316000.html">USGS-11316000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1138000/1138000.html">USGS-1138000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-11389000/11389000.html">USGS-11389000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-11390660/11390660.html">USGS-11390660</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1174565/1174565.html">USGS-1174565</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1192883/1192883.html">USGS-1192883</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-12011000/12011000.html">USGS-12011000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-12051500/12051500.html">USGS-12051500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-12072000/12072000.html">USGS-12072000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-12093900/12093900.html">USGS-12093900</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-12125000/12125000.html">USGS-12125000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-12324660/12324660.html">USGS-12324660</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-12399600/12399600.html">USGS-12399600</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-12414500/12414500.html">USGS-12414500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-12422950/12422950.html">USGS-12422950</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-12434590/12434590.html">USGS-12434590</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-12451000/12451000.html">USGS-12451000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-13019500/13019500.html">USGS-13019500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-13082320/13082320.html">USGS-13082320</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-13117300/13117300.html">USGS-13117300</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-13137500/13137500.html">USGS-13137500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-13337000/13337000.html">USGS-13337000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1334000/1334000.html">USGS-1334000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-13349210/13349210.html">USGS-13349210</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1343060/1343060.html">USGS-1343060</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1370600/1370600.html">USGS-1370600</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-14021980/14021980.html">USGS-14021980</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-14185900/14185900.html">USGS-14185900</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-14203750/14203750.html">USGS-14203750</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1427500/1427500.html">USGS-1427500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-14310700/14310700.html">USGS-14310700</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1454500/1454500.html">USGS-1454500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1467031/1467031.html">USGS-1467031</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1473500/1473500.html">USGS-1473500</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">USGS-1483500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1484695/1484695.html">USGS-1484695</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-15086960/15086960.html">USGS-15086960</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1513500/1513500.html">USGS-1513500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1546400/1546400.html">USGS-1546400</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1555000/1555000.html">USGS-1555000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1570260/1570260.html">USGS-1570260</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1572190/1572190.html">USGS-1572190</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1576105/1576105.html">USGS-1576105</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1576540/1576540.html">USGS-1576540</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1589330/1589330.html">USGS-1589330</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1593500/1593500.html">USGS-1593500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1601000/1601000.html">USGS-1601000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1611500/1611500.html">USGS-1611500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-1674000/1674000.html">USGS-1674000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-2038000/2038000.html">USGS-2038000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-2039000/2039000.html">USGS-2039000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-208273070/208273070.html">USGS-208273070</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-2096700/2096700.html">USGS-2096700</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-209741955/209741955.html">USGS-209741955</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-2105900/2105900.html">USGS-2105900</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-2125696/2125696.html">USGS-2125696</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-214266080/214266080.html">USGS-214266080</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-214677974/214677974.html">USGS-214677974</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-214678230/214678230.html">USGS-214678230</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-2153680/2153680.html">USGS-2153680</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-2174000/2174000.html">USGS-2174000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-2197306/2197306.html">USGS-2197306</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-2223382/2223382.html">USGS-2223382</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-2243960/2243960.html">USGS-2243960</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-2298202/2298202.html">USGS-2298202</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-2306660/2306660.html">USGS-2306660</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-2312200/2312200.html">USGS-2312200</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-2335580/2335580.html">USGS-2335580</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-2351890/2351890.html">USGS-2351890</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-2391860/2391860.html">USGS-2391860</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-2438500/2438500.html">USGS-2438500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-2462000/2462000.html">USGS-2462000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-247100550/247100550.html">USGS-247100550</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-3020500/3020500.html">USGS-3020500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-3037400/3037400.html">USGS-3037400</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-3068607/3068607.html">USGS-3068607</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-3102500/3102500.html">USGS-3102500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-3148150/3148150.html">USGS-3148150</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-3159540/3159540.html">USGS-3159540</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-3207905/3207905.html">USGS-3207905</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-3207915/3207915.html">USGS-3207915</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-3251200/3251200.html">USGS-3251200</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-3260700/3260700.html">USGS-3260700</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-3332300/3332300.html">USGS-3332300</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-3364000/3364000.html">USGS-3364000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-3385500/3385500.html">USGS-3385500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-3403718/3403718.html">USGS-3403718</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-3404900/3404900.html">USGS-3404900</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-3436100/3436100.html">USGS-3436100</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-3498850/3498850.html">USGS-3498850</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-3589250/3589250.html">USGS-3589250</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-3599450/3599450.html">USGS-3599450</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-4083000/4083000.html">USGS-4083000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-4102420/4102420.html">USGS-4102420</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-4164300/4164300.html">USGS-4164300</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-4179500/4179500.html">USGS-4179500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-4211500/4211500.html">USGS-4211500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-4230380/4230380.html">USGS-4230380</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-4235250/4235250.html">USGS-4235250</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-4288230/4288230.html">USGS-4288230</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-5124990/5124990.html">USGS-5124990</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-5294000/5294000.html">USGS-5294000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-5366300/5366300.html">USGS-5366300</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-5378235/5378235.html">USGS-5378235</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-5379288/5379288.html">USGS-5379288</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-5383000/5383000.html">USGS-5383000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-5399550/5399550.html">USGS-5399550</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-5471013/5471013.html">USGS-5471013</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-5528500/5528500.html">USGS-5528500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-5536000/5536000.html">USGS-5536000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-5547755/5547755.html">USGS-5547755</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-5593600/5593600.html">USGS-5593600</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-6023100/6023100.html">USGS-6023100</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-6091000/6091000.html">USGS-6091000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-6217750/6217750.html">USGS-6217750</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-6301850/6301850.html">USGS-6301850</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-6333900/6333900.html">USGS-6333900</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-6364700/6364700.html">USGS-6364700</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-6413650/6413650.html">USGS-6413650</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-6436198/6436198.html">USGS-6436198</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-6798000/6798000.html">USGS-6798000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-6798800/6798800.html">USGS-6798800</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-6818494/6818494.html">USGS-6818494</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-7047950/7047950.html">USGS-7047950</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-7057500/7057500.html">USGS-7057500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-7072500/7072500.html">USGS-7072500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-7074420/7074420.html">USGS-7074420</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-7165700/7165700.html">USGS-7165700</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-7197360/7197360.html">USGS-7197360</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-7233210/7233210.html">USGS-7233210</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-7315200/7315200.html">USGS-7315200</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-7317500/7317500.html">USGS-7317500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-7356000/7356000.html">USGS-7356000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-7364150/7364150.html">USGS-7364150</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-8013000/8013000.html">USGS-8013000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-8049580/8049580.html">USGS-8049580</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-8069000/8069000.html">USGS-8069000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-8170500/8170500.html">USGS-8170500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-8196000/8196000.html">USGS-8196000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-8205500/8205500.html">USGS-8205500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-8313060/8313060.html">USGS-8313060</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-8313300/8313300.html">USGS-8313300</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-8343100/8343100.html">USGS-8343100</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-8381000/8381000.html">USGS-8381000</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-8398500/8398500.html">USGS-8398500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-8411500/8411500.html">USGS-8411500</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-9175900/9175900.html">USGS-9175900</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-9303320/9303320.html">USGS-9303320</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-9310600/9310600.html">USGS-9310600</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-9341350/9341350.html">USGS-9341350</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-9362550/9362550.html">USGS-9362550</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-9367685/9367685.html">USGS-9367685</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USGS-9512100/9512100.html">USGS-9512100</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fcatchments/USGS-1483500/1483500.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/catchments/USGS-1483500/1483500.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>USGS-1483500</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#leipsic-river-near-cheswold-de">1483500: LEIPSIC RIVER NEAR CHESWOLD, DE</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#catchment-attributes">Catchment Attributes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flow-regulation-information">Flow Regulation Information</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="usgs-1483500">
+<h1>USGS-1483500<a class="headerlink" href="#usgs-1483500" title="Link to this heading">#</a></h1>
+<p><strong>Latest revision:</strong> 2022-04-26</p>
+<section id="leipsic-river-near-cheswold-de">
+<h2>1483500: LEIPSIC RIVER NEAR CHESWOLD, DE<a class="headerlink" href="#leipsic-river-near-cheswold-de" title="Link to this heading">#</a></h2>
+<iframe src="/camel_farrier/_static/catchments/1483500_catchment_plot.html" width="100%" height="600" frameborder="0"></iframe>
+<section id="catchment-attributes">
+<h3>Catchment Attributes<a class="headerlink" href="#catchment-attributes" title="Link to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Source</p></th>
+<th class="head text-left"><p>Name</p></th>
+<th class="head text-right"><p>Official_ID</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p>USGS</p></td>
+<td class="text-left"><p>LEIPSIC RIVER NEAR CHESWOLD, DE</p></td>
+<td class="text-right"><p>1483500</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Attribute</p></th>
+<th class="head text-left"><p>(Arsenault, 2020)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p>Watershed_ID</p></td>
+<td class="text-left"><p>3173</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Centroid_Lat_deg_N</p></td>
+<td class="text-left"><p>39.23288938</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Centroid_Lon_deg_E</p></td>
+<td class="text-left"><p>-75.6321503</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Drainage_Area_km2</p></td>
+<td class="text-left"><p>24.2163</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Drainage_Area_GSIM_km2</p></td>
+<td class="text-left"><p>nan</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Flag_GSIM_boundaries</p></td>
+<td class="text-left"><p>0</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Flag_Artificial_Boundaries</p></td>
+<td class="text-left"><p>0</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Elevation_m</p></td>
+<td class="text-left"><p>19.6</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Slope_deg</p></td>
+<td class="text-left"><p>0.4247</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Gravelius</p></td>
+<td class="text-left"><p>1.1904</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Perimeter</p></td>
+<td class="text-left"><p>21.257</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Flag_Shape_Extraction</p></td>
+<td class="text-left"><p>1</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Aspect_deg</p></td>
+<td class="text-left"><p>45.9708</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Flag_Terrain_Extraction</p></td>
+<td class="text-left"><p>1</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Land_Use_Forest_frac</p></td>
+<td class="text-left"><p>0.0551</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Land_Use_Grass_frac</p></td>
+<td class="text-left"><p>0.0</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Land_Use_Wetland_frac</p></td>
+<td class="text-left"><p>0.1606</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Land_Use_Water_frac</p></td>
+<td class="text-left"><p>0.0005</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Land_Use_Urban_frac</p></td>
+<td class="text-left"><p>0.1048</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Land_Use_Shrubs_frac</p></td>
+<td class="text-left"><p>0.0019</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Land_Use_Crops_frac</p></td>
+<td class="text-left"><p>0.6771</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Land_Use_Snow_Ice_frac</p></td>
+<td class="text-left"><p>0.0</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Flag_Land_Use_Extraction</p></td>
+<td class="text-left"><p>1</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Permeability_logk_m2</p></td>
+<td class="text-left"><p>-13.0</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Porosity_frac</p></td>
+<td class="text-left"><p>0.219999998807907</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Flag_Subsoil_Extraction</p></td>
+<td class="text-left"><p>1</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Reference</p></td>
+<td class="text-left"><p>(Arsenault et al., 2020)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>revision_date</p></td>
+<td class="text-left"><p>2022-04-26</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="flow-regulation-information">
+<h3>Flow Regulation Information<a class="headerlink" href="#flow-regulation-information" title="Link to this heading">#</a></h3>
+<p>None</p>
+</section>
+<section id="notes">
+<h3>Notes<a class="headerlink" href="#notes" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li></li>
+</ol>
+</section>
+<section id="references">
+<h3>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.:
+A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, <em>Scientific Data</em>, 7, 243, <a class="reference external" href="https://doi.org/10.1038/s41597-020-00583-2">DOI</a></p></li>
+</ol>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./catchments/USGS-1483500"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../USGS-1473500/1473500.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">USGS-1473500</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../USGS-1484695/1484695.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">USGS-1484695</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#leipsic-river-near-cheswold-de">1483500: LEIPSIC RIVER NEAR CHESWOLD, DE</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#catchment-attributes">Catchment Attributes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flow-regulation-information">Flow Regulation Information</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Jupyter Book Community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

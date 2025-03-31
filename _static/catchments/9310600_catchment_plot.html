@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"c7653754-69ea-4130-accc-7336594df656":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p7892","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p7893"},"y_range":{"type":"object","name":"DataRange1d","id":"p7894"},"x_scale":{"type":"object","name":"LinearScale","id":"p7902"},"y_scale":{"type":"object","name":"LinearScale","id":"p7903"},"title":{"type":"object","name":"Title","id":"p7895","attributes":{"text":"9310600 Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p7932","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p7889","attributes":{"selected":{"type":"object","name":"Selection","id":"p7890","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p7891"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"ECCLES CANYON NEAR SCOFIELD, UTAH\\", \\"OfficialID\\": \\"09310600\\", \\"FlagPAVICS\\": 0, \\"Source\\": \\"USGS\\", \\"Area\\": 14.244864}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-12375715.147782238, 4817859.056154168], [-12375715.147782238, 4817859.056154168], [-12376248.213927101, 4817225.464537417], [-12376736.189082688, 4816559.82849649], [-12377671.828183774, 4816685.676858411], [-12378447.373993818, 4816562.422834682], [-12378997.738970282, 4816278.871437252], [-12379673.247213863, 4816759.593878183], [-12379978.599570056, 4817652.1436091885], [-12380654.24202548, 4818132.872074456], [-12381134.8431034, 4818879.973020362], [-12381039.978453327, 4819757.983250561], [-12381267.95493983, 4820663.122920412], [-12380652.36702916, 4821035.732694249], [-12379849.027526796, 4821477.418598797], [-12379068.109170146, 4821327.021938563], [-12378287.213346114, 4821176.570791615], [-12377448.785464143, 4820917.526612834], [-12376610.399247473, 4820658.423844447], [-12375801.980235558, 4820825.988448106], [-12374898.542462133, 4820655.535400129], [-12374353.206171371, 4819996.78566882], [-12374976.529917601, 4819427.27482102], [-12375329.595579837, 4818665.330405134], [-12375727.638411662, 4817935.501988872], [-12375715.147782238, 4817859.056154168]]]}}], \\"crs\\": {\\"type\\": \\"name\\", \\"properties\\": {\\"name\\": \\"urn:ogc:def:crs:EPSG::3857\\"}}}"}},"view":{"type":"object","name":"CDSView","id":"p7933","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p7934"}}},"glyph":{"type":"object","name":"Patches","id":"p7929","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p7930","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p7931","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"TileRenderer","id":"p7936","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p7935","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p7901","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p7914"},{"type":"object","name":"WheelZoomTool","id":"p7915","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p7916","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p7917","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p7923","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p7922","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p7924"},{"type":"object","name":"SaveTool","id":"p7925"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p7909","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p7910","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p7911","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p7912"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p7904","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p7905","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p7906","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p7907"}}}],"center":[{"type":"object","name":"Grid","id":"p7908","attributes":{"axis":{"id":"p7904"}}},{"type":"object","name":"Grid","id":"p7913","attributes":{"dimension":1,"axis":{"id":"p7909"}}}]}}]}}';
+        const render_items = [{"docid":"c7653754-69ea-4130-accc-7336594df656","roots":{"p7892":"b57e0e24-5f65-4e23-a65a-7118cda58590"},"root_ids":["p7892"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="b57e0e24-5f65-4e23-a65a-7118cda58590" data-root-id="p7892" style="display: contents;"></div>
+    </body>
+    </html>
+    

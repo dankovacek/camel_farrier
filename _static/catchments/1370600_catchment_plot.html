@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"631e8e06-9413-4e94-a824-ffba32ed0c1f":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p5624","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p5625"},"y_range":{"type":"object","name":"DataRange1d","id":"p5626"},"x_scale":{"type":"object","name":"LinearScale","id":"p5634"},"y_scale":{"type":"object","name":"LinearScale","id":"p5635"},"title":{"type":"object","name":"Title","id":"p5627","attributes":{"text":"1370600 Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p5664","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p5621","attributes":{"selected":{"type":"object","name":"Selection","id":"p5622","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p5623"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"CRYSTAL BROOK NEAR MIDDLETOWN NY\\", \\"OfficialID\\": \\"01370600\\", \\"FlagPAVICS\\": 0, \\"Source\\": \\"USGS\\", \\"Area\\": 21.755792}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-8275757.379389966, 5088269.783984268], [-8275757.379389966, 5088269.783984268], [-8275152.305876906, 5088908.296873392], [-8274577.3201325135, 5089594.651498409], [-8273972.097887263, 5090233.191277889], [-8273336.641911715, 5090823.900953571], [-8272761.43163392, 5091510.303548886], [-8272174.236935565, 5092071.213565202], [-8271629.039173638, 5092805.504635811], [-8270933.817592102, 5092768.601569209], [-8270299.770976234, 5092295.4814083055], [-8270887.078801677, 5091734.660313637], [-8271504.475938242, 5091221.689929691], [-8271197.428421686, 5090414.582137905], [-8271421.994884463, 5089811.473246725], [-8271743.32569494, 5089148.800623734], [-8272469.217394701, 5088701.79067816], [-8273044.292392143, 5088015.617108393], [-8273679.59425553, 5087425.108327059], [-8273481.164986728, 5086684.239948559], [-8272834.723884815, 5086617.685835441], [-8272745.03205351, 5085942.7080577435], [-8273120.851158306, 5085047.466075253], [-8273544.972515443, 5084122.508204621], [-8273171.385683444, 5083423.468916099], [-8273776.262799431, 5082785.455043967], [-8274302.571861837, 5082129.448208149], [-8275118.291496228, 5081825.975831048], [-8275516.428900545, 5082244.279608821], [-8276210.400899143, 5082812.145846809], [-8276584.169037026, 5083511.031814597], [-8277381.735116202, 5083284.9344772855], [-8278124.229654518, 5083822.934056844], [-8277942.3096669335, 5084598.9802873125], [-8278038.54786688, 5085070.790632688], [-8278460.8790401, 5085739.968392693], [-8278998.175915684, 5086271.908497327], [-8278514.104137684, 5087101.688640866], [-8277939.438378028, 5087788.086642403], [-8277334.525985558, 5088426.688854314], [-8276391.98609847, 5088210.718192136], [-8275757.379389966, 5088269.783984268]]]}}], \\"crs\\": {\\"type\\": \\"name\\", \\"properties\\": {\\"name\\": \\"urn:ogc:def:crs:EPSG::3857\\"}}}"}},"view":{"type":"object","name":"CDSView","id":"p5665","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p5666"}}},"glyph":{"type":"object","name":"Patches","id":"p5661","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p5662","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p5663","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"TileRenderer","id":"p5668","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p5667","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p5633","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p5646"},{"type":"object","name":"WheelZoomTool","id":"p5647","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p5648","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p5649","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p5655","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p5654","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p5656"},{"type":"object","name":"SaveTool","id":"p5657"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p5641","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p5642","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p5643","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p5644"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p5636","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p5637","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p5638","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p5639"}}}],"center":[{"type":"object","name":"Grid","id":"p5640","attributes":{"axis":{"id":"p5636"}}},{"type":"object","name":"Grid","id":"p5645","attributes":{"dimension":1,"axis":{"id":"p5641"}}}]}}]}}';
+        const render_items = [{"docid":"631e8e06-9413-4e94-a824-ffba32ed0c1f","roots":{"p5624":"c630792d-7475-402b-95f0-b06e67b1ad92"},"root_ids":["p5624"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="c630792d-7475-402b-95f0-b06e67b1ad92" data-root-id="p5624" style="display: contents;"></div>
+    </body>
+    </html>
+    

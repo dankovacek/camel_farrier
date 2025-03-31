@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"861660ad-9c33-4363-9669-2ffb41072397":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p5267","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p5268"},"y_range":{"type":"object","name":"DataRange1d","id":"p5269"},"x_scale":{"type":"object","name":"LinearScale","id":"p5277"},"y_scale":{"type":"object","name":"LinearScale","id":"p5278"},"title":{"type":"object","name":"Title","id":"p5270","attributes":{"text":"1484695 Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p5307","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p5264","attributes":{"selected":{"type":"object","name":"Selection","id":"p5265","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p5266"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"BEAVERDAM DITCH NEAR MILLVILLE, DE\\", \\"OfficialID\\": \\"01484695\\", \\"FlagPAVICS\\": 0, \\"Source\\": \\"USGS\\", \\"Area\\": 5.801545}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-8365351.005274331, 4651812.287267592], [-8365351.005274331, 4654893.112242226], [-8362270.180341266, 4654893.112242226], [-8362270.180341266, 4651812.287267592], [-8365351.005274331, 4651812.287267592]]]}}], \\"crs\\": {\\"type\\": \\"name\\", \\"properties\\": {\\"name\\": \\"urn:ogc:def:crs:EPSG::3857\\"}}}"}},"view":{"type":"object","name":"CDSView","id":"p5308","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p5309"}}},"glyph":{"type":"object","name":"Patches","id":"p5304","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p5305","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p5306","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"TileRenderer","id":"p5311","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p5310","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p5276","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p5289"},{"type":"object","name":"WheelZoomTool","id":"p5290","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p5291","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p5292","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p5298","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p5297","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p5299"},{"type":"object","name":"SaveTool","id":"p5300"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p5284","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p5285","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p5286","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p5287"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p5279","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p5280","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p5281","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p5282"}}}],"center":[{"type":"object","name":"Grid","id":"p5283","attributes":{"axis":{"id":"p5279"}}},{"type":"object","name":"Grid","id":"p5288","attributes":{"dimension":1,"axis":{"id":"p5284"}}}]}}]}}';
+        const render_items = [{"docid":"861660ad-9c33-4363-9669-2ffb41072397","roots":{"p5267":"be867884-175d-4a4c-9d4d-bac2f5370871"},"root_ids":["p5267"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="be867884-175d-4a4c-9d4d-bac2f5370871" data-root-id="p5267" style="display: contents;"></div>
+    </body>
+    </html>
+    

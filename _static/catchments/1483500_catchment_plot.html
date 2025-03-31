@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"20fc7a60-b60a-432e-beff-e47f80eb112f":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p10195","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p10196"},"y_range":{"type":"object","name":"DataRange1d","id":"p10197"},"x_scale":{"type":"object","name":"LinearScale","id":"p10205"},"y_scale":{"type":"object","name":"LinearScale","id":"p10206"},"title":{"type":"object","name":"Title","id":"p10198","attributes":{"text":"1483500 Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p10235","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p10192","attributes":{"selected":{"type":"object","name":"Selection","id":"p10193","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p10194"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"LEIPSIC RIVER NEAR CHESWOLD, DE\\", \\"OfficialID\\": \\"01483500\\", \\"FlagPAVICS\\": 0, \\"Source\\": \\"USGS\\", \\"Area\\": 24.216268}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-8426687.837470567, 4754495.383004018], [-8426687.837470567, 4754495.383004018], [-8426844.10671389, 4755237.307651046], [-8426422.91795893, 4755698.398024579], [-8425729.521279387, 4755943.829192283], [-8425185.480692968, 4756418.021302202], [-8424594.723321477, 4756016.070647363], [-8424405.65519768, 4756329.9481139155], [-8423881.39886363, 4756532.737912025], [-8423144.730638774, 4756611.295976228], [-8422381.497796807, 4756447.880357791], [-8421482.245888768, 4756176.524503374], [-8420656.010637231, 4756117.600194951], [-8420098.655092224, 4755565.047456281], [-8419355.526438944, 4755130.125673351], [-8419073.65915406, 4754597.25348995], [-8419160.082561892, 4754025.289087096], [-8418881.633334992, 4753296.379870017], [-8418666.282495974, 4752462.964106261], [-8417986.497746853, 4751923.535965969], [-8418573.69211093, 4751616.5846318565], [-8419492.44442442, 4751616.848146043], [-8420139.260384941, 4751401.326006409], [-8420786.049592651, 4751185.7695845], [-8421343.274256509, 4750832.942731376], [-8421950.211220615, 4750254.663021869], [-8422457.610402029, 4750127.239881033], [-8423226.972544193, 4749898.4912366755], [-8423817.18253994, 4749395.300249968], [-8424563.358529529, 4749633.641616387], [-8425279.70858631, 4749826.207166156], [-8425638.046585334, 4750374.9717271095], [-8425853.911640953, 4751208.072317727], [-8425947.089595629, 4752054.354002851], [-8425662.026841208, 4752623.0590347955], [-8425695.45747979, 4753377.973099342], [-8426097.13113861, 4754093.592868567], [-8426687.837470567, 4754495.383004018]]]}}], \\"crs\\": {\\"type\\": \\"name\\", \\"properties\\": {\\"name\\": \\"urn:ogc:def:crs:EPSG::3857\\"}}}"}},"view":{"type":"object","name":"CDSView","id":"p10236","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p10237"}}},"glyph":{"type":"object","name":"Patches","id":"p10232","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p10233","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p10234","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"TileRenderer","id":"p10239","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p10238","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p10204","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p10217"},{"type":"object","name":"WheelZoomTool","id":"p10218","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p10219","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p10220","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p10226","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p10225","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p10227"},{"type":"object","name":"SaveTool","id":"p10228"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p10212","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p10213","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p10214","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p10215"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p10207","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p10208","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p10209","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p10210"}}}],"center":[{"type":"object","name":"Grid","id":"p10211","attributes":{"axis":{"id":"p10207"}}},{"type":"object","name":"Grid","id":"p10216","attributes":{"dimension":1,"axis":{"id":"p10212"}}}]}}]}}';
+        const render_items = [{"docid":"20fc7a60-b60a-432e-beff-e47f80eb112f","roots":{"p10195":"e4c61054-b052-4c84-9a03-4239360d423b"},"root_ids":["p10195"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="e4c61054-b052-4c84-9a03-4239360d423b" data-root-id="p10195" style="display: contents;"></div>
+    </body>
+    </html>
+    
