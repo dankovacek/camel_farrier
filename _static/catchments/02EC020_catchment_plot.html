@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"ad704aa4-3481-410c-8531-d31499066e80":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p16145","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p16146"},"y_range":{"type":"object","name":"DataRange1d","id":"p16147"},"x_scale":{"type":"object","name":"LinearScale","id":"p16155"},"y_scale":{"type":"object","name":"LinearScale","id":"p16156"},"title":{"type":"object","name":"Title","id":"p16148","attributes":{"text":"02EC020 Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p16185","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p16142","attributes":{"selected":{"type":"object","name":"Selection","id":"p16143","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p16144"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"HAWKESTONE CREEK AT HAWKESTONE\\", \\"OfficialID\\": \\"02EC020\\", \\"FlagPAVICS\\": 0, \\"Source\\": \\"HYDAT\\", \\"Area\\": 40.2}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-8850781.584658163, 5538227.769893042], [-8850781.584658163, 5547123.030734111], [-8841886.324892117, 5547123.030734111], [-8841886.324892117, 5538227.769893042], [-8850781.584658163, 5538227.769893042]]]}}], \\"crs\\": {\\"type\\": \\"name\\", \\"properties\\": {\\"name\\": \\"urn:ogc:def:crs:EPSG::3857\\"}}}"}},"view":{"type":"object","name":"CDSView","id":"p16186","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p16187"}}},"glyph":{"type":"object","name":"Patches","id":"p16182","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p16183","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p16184","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"TileRenderer","id":"p16189","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p16188","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p16154","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p16167"},{"type":"object","name":"WheelZoomTool","id":"p16168","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p16169","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p16170","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p16176","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p16175","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p16177"},{"type":"object","name":"SaveTool","id":"p16178"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p16162","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p16163","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p16164","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p16165"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p16157","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p16158","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p16159","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p16160"}}}],"center":[{"type":"object","name":"Grid","id":"p16161","attributes":{"axis":{"id":"p16157"}}},{"type":"object","name":"Grid","id":"p16166","attributes":{"dimension":1,"axis":{"id":"p16162"}}}]}}]}}';
+        const render_items = [{"docid":"ad704aa4-3481-410c-8531-d31499066e80","roots":{"p16145":"b3869b63-d53d-4188-9690-8b584b6a0865"},"root_ids":["p16145"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="b3869b63-d53d-4188-9690-8b584b6a0865" data-root-id="p16145" style="display: contents;"></div>
+    </body>
+    </html>
+    

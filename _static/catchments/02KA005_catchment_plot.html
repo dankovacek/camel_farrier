@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"40fd9595-d063-47fd-b454-8d15a636d4f7":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p20555","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p20556"},"y_range":{"type":"object","name":"DataRange1d","id":"p20557"},"x_scale":{"type":"object","name":"LinearScale","id":"p20565"},"y_scale":{"type":"object","name":"LinearScale","id":"p20566"},"title":{"type":"object","name":"Title","id":"p20558","attributes":{"text":"02KA005 Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p20595","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p20552","attributes":{"selected":{"type":"object","name":"Selection","id":"p20553","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p20554"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"PERCH LAKE INLET NO. 2 NEAR CHALK RIVER\\", \\"OfficialID\\": \\"02KA005\\", \\"FlagPAVICS\\": 0, \\"Source\\": \\"HYDAT\\", \\"Area\\": 3.6}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-8614775.504828367, 5784860.10174861], [-8614775.504828367, 5787595.233348389], [-8612040.373260405, 5787595.233348389], [-8612040.373260405, 5784860.10174861], [-8614775.504828367, 5784860.10174861]]]}}], \\"crs\\": {\\"type\\": \\"name\\", \\"properties\\": {\\"name\\": \\"urn:ogc:def:crs:EPSG::3857\\"}}}"}},"view":{"type":"object","name":"CDSView","id":"p20596","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p20597"}}},"glyph":{"type":"object","name":"Patches","id":"p20592","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p20593","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p20594","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"TileRenderer","id":"p20599","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p20598","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p20564","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p20577"},{"type":"object","name":"WheelZoomTool","id":"p20578","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p20579","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p20580","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p20586","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p20585","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p20587"},{"type":"object","name":"SaveTool","id":"p20588"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p20572","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p20573","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p20574","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p20575"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p20567","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p20568","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p20569","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p20570"}}}],"center":[{"type":"object","name":"Grid","id":"p20571","attributes":{"axis":{"id":"p20567"}}},{"type":"object","name":"Grid","id":"p20576","attributes":{"dimension":1,"axis":{"id":"p20572"}}}]}}]}}';
+        const render_items = [{"docid":"40fd9595-d063-47fd-b454-8d15a636d4f7","roots":{"p20555":"b8c2d87a-7a86-415b-9a5a-3037824db4a1"},"root_ids":["p20555"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="b8c2d87a-7a86-415b-9a5a-3037824db4a1" data-root-id="p20555" style="display: contents;"></div>
+    </body>
+    </html>
+    

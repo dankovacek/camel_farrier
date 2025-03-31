@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"154fcc02-3b2a-4c79-b491-b2cd695fc158":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p13352","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p13353"},"y_range":{"type":"object","name":"DataRange1d","id":"p13354"},"x_scale":{"type":"object","name":"LinearScale","id":"p13362"},"y_scale":{"type":"object","name":"LinearScale","id":"p13363"},"title":{"type":"object","name":"Title","id":"p13355","attributes":{"text":"02OA025 Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p13392","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p13349","attributes":{"selected":{"type":"object","name":"Selection","id":"p13350","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p13351"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"BELLE RIVIERE (RIVIERE) A SAINTE-SCHOLASTIQUE\\", \\"OfficialID\\": \\"02OA025\\", \\"FlagPAVICS\\": 0, \\"Source\\": \\"HYDAT\\", \\"Area\\": 28.0}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-8251695.875577521, 5720959.854954594], [-8251695.875577521, 5728535.202496184], [-8244120.528708878, 5728535.202496184], [-8244120.528708878, 5720959.854954594], [-8251695.875577521, 5720959.854954594]]]}}], \\"crs\\": {\\"type\\": \\"name\\", \\"properties\\": {\\"name\\": \\"urn:ogc:def:crs:EPSG::3857\\"}}}"}},"view":{"type":"object","name":"CDSView","id":"p13393","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p13394"}}},"glyph":{"type":"object","name":"Patches","id":"p13389","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p13390","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p13391","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"TileRenderer","id":"p13396","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p13395","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p13361","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p13374"},{"type":"object","name":"WheelZoomTool","id":"p13375","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p13376","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p13377","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p13383","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p13382","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p13384"},{"type":"object","name":"SaveTool","id":"p13385"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p13369","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p13370","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p13371","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p13372"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p13364","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p13365","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p13366","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p13367"}}}],"center":[{"type":"object","name":"Grid","id":"p13368","attributes":{"axis":{"id":"p13364"}}},{"type":"object","name":"Grid","id":"p13373","attributes":{"dimension":1,"axis":{"id":"p13369"}}}]}}]}}';
+        const render_items = [{"docid":"154fcc02-3b2a-4c79-b491-b2cd695fc158","roots":{"p13352":"a74fbd4b-1a86-4690-b498-dae7ab5de68f"},"root_ids":["p13352"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="a74fbd4b-1a86-4690-b498-dae7ab5de68f" data-root-id="p13352" style="display: contents;"></div>
+    </body>
+    </html>
+    

@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"4c73be28-1821-41cf-8006-dc06e21054fb":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p12911","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p12912"},"y_range":{"type":"object","name":"DataRange1d","id":"p12913"},"x_scale":{"type":"object","name":"LinearScale","id":"p12921"},"y_scale":{"type":"object","name":"LinearScale","id":"p12922"},"title":{"type":"object","name":"Title","id":"p12914","attributes":{"text":"02OA062 Catchment Polygon"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p12951","attributes":{"data_source":{"type":"object","name":"GeoJSONDataSource","id":"p12908","attributes":{"selected":{"type":"object","name":"Selection","id":"p12909","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p12910"},"geojson":"{\\"type\\": \\"FeatureCollection\\", \\"features\\": [{\\"id\\": \\"0\\", \\"type\\": \\"Feature\\", \\"properties\\": {\\"features\\": 1, \\"Name\\": \\"TROUT (RIVIERE) A KELVINGROVE\\", \\"OfficialID\\": \\"02OA062\\", \\"FlagPAVICS\\": 1, \\"Source\\": \\"HYDAT\\", \\"Area\\": 409.0}, \\"geometry\\": {\\"type\\": \\"Polygon\\", \\"coordinates\\": [[[-8252948.748686397, 5582249.5941108195], [-8257930.404609837, 5582835.915827001], [-8259725.032793931, 5584627.884512215], [-8259655.729888285, 5585842.427331907], [-8259730.241835859, 5587149.265595384], [-8259581.217940713, 5589763.508123546], [-8259857.297162874, 5594608.5703011835], [-8262906.172051097, 5594263.132572121], [-8263797.144700798, 5595721.293580425], [-8265772.503991769, 5598121.655544197], [-8268040.475551022, 5599549.286228629], [-8268469.881789922, 5600252.401698553], [-8269640.557343125, 5600989.52544112], [-8270789.037848116, 5602870.433949413], [-8271287.294032493, 5603476.313485377], [-8272117.796499817, 5604837.01347763], [-8272644.36269467, 5608108.774667923], [-8273742.79110114, 5608800.882235762], [-8274529.809392371, 5608711.647274891], [-8275427.3499645, 5609418.83454183], [-8276389.437360518, 5610025.153373577], [-8278239.553165145, 5613403.355130153], [-8279387.127749799, 5613273.114767061], [-8280701.844636305, 5613422.395340648], [-8281659.175950562, 5614992.310847326], [-8281417.974661306, 5619233.696018785], [-8283484.152465885, 5620113.275683581], [-8283275.337828614, 5623789.593236726], [-8281075.310294502, 5627764.360578469], [-8279137.9996576095, 5628387.21905685], [-8278182.027223856, 5629142.111032009], [-8277284.939611895, 5629040.092742046], [-8276423.862333257, 5630454.507415286], [-8274363.346530772, 5631756.192688018], [-8273589.237604316, 5631668.173309224], [-8272159.242355153, 5631830.825457908], [-8265769.786230764, 5635847.557661113], [-8264793.657069553, 5633640.398400741], [-8263831.569673535, 5633032.490148546], [-8263402.163434637, 5628910.748353562], [-8264810.416595754, 5627193.785303694], [-8268249.0637082085, 5625022.6282699], [-8269397.544213199, 5623137.099652068], [-8270727.661745404, 5621516.28146137], [-8268799.183831778, 5617670.486215872], [-8267711.173509167, 5614225.000735451], [-8266316.282672993, 5611445.467845194], [-8257171.469848997, 5612483.552786244], [-8255980.864048417, 5608715.005563907], [-8254434.684516262, 5605927.495554623], [-8252113.263657231, 5604465.130272655], [-8249023.395873838, 5600858.105784043], [-8246335.75671929, 5600166.446453569], [-8245098.043061281, 5596253.791706684], [-8244350.6587847145, 5594364.599046339], [-8243858.7440426815, 5590563.137780593], [-8241432.236424765, 5589533.630662287], [-8240210.602852706, 5588048.384759593], [-8242093.7847495675, 5586864.495337464], [-8248109.095775506, 5588013.362831736], [-8248000.385335279, 5586105.072003373], [-8248189.722685341, 5585213.403175537], [-8248988.970901101, 5586520.150660099], [-8251718.96183132, 5588236.420524561], [-8252235.7893825695, 5585818.101381232], [-8252769.149979937, 5584471.741961917], [-8252697.35579337, 5583213.768217645], [-8252948.748686397, 5582249.5941108195]]]}}], \\"crs\\": {\\"type\\": \\"name\\", \\"properties\\": {\\"name\\": \\"urn:ogc:def:crs:EPSG::3857\\"}}}"}},"view":{"type":"object","name":"CDSView","id":"p12952","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p12953"}}},"glyph":{"type":"object","name":"Patches","id":"p12948","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.4}}},"nonselection_glyph":{"type":"object","name":"Patches","id":"p12949","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Patches","id":"p12950","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"TileRenderer","id":"p12955","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p12954","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p12920","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p12933"},{"type":"object","name":"WheelZoomTool","id":"p12934","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p12935","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p12936","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p12942","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p12941","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p12943"},{"type":"object","name":"SaveTool","id":"p12944"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p12928","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p12929","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p12930","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p12931"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p12923","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p12924","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p12925","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p12926"}}}],"center":[{"type":"object","name":"Grid","id":"p12927","attributes":{"axis":{"id":"p12923"}}},{"type":"object","name":"Grid","id":"p12932","attributes":{"dimension":1,"axis":{"id":"p12928"}}}]}}]}}';
+        const render_items = [{"docid":"4c73be28-1821-41cf-8006-dc06e21054fb","roots":{"p12911":"b9c6c999-9b68-45e7-9d19-a123f2648f76"},"root_ids":["p12911"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="b9c6c999-9b68-45e7-9d19-a123f2648f76" data-root-id="p12911" style="display: contents;"></div>
+    </body>
+    </html>
+    
