@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01467031",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Pennypack Creek at Horsham, PA", "OfficialID": "01467031", "FlagPAVICS": 0, "Source": "USGS", "Area": 9.013114 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -75.139605722133112, 40.16372802146234 ], [ -75.139605722133112, 40.190716378537665 ], [ -75.104283077866896, 40.190716378537665 ], [ -75.104283077866896, 40.16372802146234 ], [ -75.139605722133112, 40.16372802146234 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01647725",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MANOR RUN NEAR NORBECK, MD", "OfficialID": "01647725", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.615875 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -77.109070275438626, 39.10283824279751 ], [ -77.109070275438626, 39.117377677202491 ], [ -77.090332324561388, 39.117377677202491 ], [ -77.090332324561388, 39.10283824279751 ], [ -77.109070275438626, 39.10283824279751 ] ] ] } }
+]
+}

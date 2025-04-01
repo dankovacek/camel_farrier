@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05014000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Grinnell Creek nr. Many Glacier MT", "OfficialID": "05014000", "FlagPAVICS": 0, "Source": "USGS", "Area": 8.624618 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -113.718647493132366, 48.756913737558641 ], [ -113.718647493132366, 48.783314042441354 ], [ -113.678591306867631, 48.783314042441354 ], [ -113.678591306867631, 48.756913737558641 ], [ -113.718647493132366, 48.756913737558641 ] ] ] } }
+]
+}

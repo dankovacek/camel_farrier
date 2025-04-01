@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "1523849020",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LOWELL C AB CITY WELLS AT SEWARD AK", "OfficialID": "1523849020", "FlagPAVICS": 0, "Source": "USGS", "Area": 9.660608 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -149.49433500396492, 60.085188822641463 ], [ -149.49433500396492, 60.11312977735853 ], [ -149.438284996035065, 60.11312977735853 ], [ -149.438284996035065, 60.085188822641463 ], [ -149.49433500396492, 60.085188822641463 ] ] ] } }
+]
+}

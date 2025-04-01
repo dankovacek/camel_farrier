@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "0214297160",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BEAVERDAM CREEK AB WINDY GAP ROAD NR SHOPTON, NC", "OfficialID": "0214297160", "FlagPAVICS": 0, "Source": "USGS", "Area": 11.577189 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.006486762865023, 35.15442856956269 ], [ -81.006486762865023, 35.185015830437315 ], [ -80.969068837134984, 35.185015830437315 ], [ -80.969068837134984, 35.15442856956269 ], [ -81.006486762865023, 35.15442856956269 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08EG017",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "DEEP CREEK ABOVE RESERVOIR", "OfficialID": "08EG017", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 12.5 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -128.598225411847181, 54.572718531526732 ], [ -128.598225411847181, 54.604501468473273 ], [ -128.543374588152801, 54.604501468473273 ], [ -128.543374588152801, 54.572718531526732 ], [ -128.598225411847181, 54.572718531526732 ] ] ] } }
+]
+}

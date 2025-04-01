@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01CC004",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WRIGHTS CREEK NEAR AVONLEA ROAD", "OfficialID": "01CC004", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 2.41 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -63.122035359211615, 46.268852215616569 ], [ -63.122035359211615, 46.282807784383429 ], [ -63.101844640788379, 46.282807784383429 ], [ -63.101844640788379, 46.268852215616569 ], [ -63.122035359211615, 46.268852215616569 ] ] ] } }
+]
+}

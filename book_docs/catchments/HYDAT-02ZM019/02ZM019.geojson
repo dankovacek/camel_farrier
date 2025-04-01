@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02ZM019",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "VIRGINIA RIVER AT CARTWRIGHT PLACE", "OfficialID": "02ZM019", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 5.55 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -52.717374158915028, 47.591080986165593 ], [ -52.717374158915028, 47.612259013834404 ], [ -52.685965841084972, 47.612259013834404 ], [ -52.685965841084972, 47.591080986165593 ], [ -52.717374158915028, 47.591080986165593 ] ] ] } }
+]
+}

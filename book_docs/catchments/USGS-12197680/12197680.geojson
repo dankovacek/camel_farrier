@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12197680",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BLACK CREEK NEAR MINKLER, WA", "OfficialID": "12197680", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.227379 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.125285171467709, 48.535901699177664 ], [ -122.125285171467709, 48.54931810082234 ], [ -122.105020628532287, 48.54931810082234 ], [ -122.105020628532287, 48.535901699177664 ], [ -122.125285171467709, 48.535901699177664 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "14142800",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BEAVER CREEK AT TROUTDALE, OR", "OfficialID": "14142800", "FlagPAVICS": 0, "Source": "USGS", "Area": 23.076679 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.419796256265471, 45.497694460274637 ], [ -122.419796256265471, 45.540878739725365 ], [ -122.358163343734532, 45.540878739725365 ], [ -122.358163343734532, 45.497694460274637 ], [ -122.419796256265471, 45.497694460274637 ] ] ] } }
+]
+}

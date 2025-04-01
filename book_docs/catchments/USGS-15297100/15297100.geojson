@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15297100",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HIDDEN BASIN C NR PORT LIONS AK", "OfficialID": "15297100", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.795825 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -153.038148040899813, 57.581689305420561 ], [ -153.038148040899813, 57.606789094579433 ], [ -152.991312359100192, 57.606789094579433 ], [ -152.991312359100192, 57.581689305420561 ], [ -153.038148040899813, 57.581689305420561 ] ] ] } }
+]
+}

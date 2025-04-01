@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15056030",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "KAKUHAN C NR HAINES AK", "OfficialID": "15056030", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.962662 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -135.203083033158094, 58.996001082729862 ], [ -135.203083033158094, 59.013896117270136 ], [ -135.168332966841916, 59.013896117270136 ], [ -135.168332966841916, 58.996001082729862 ], [ -135.203083033158094, 58.996001082729862 ] ] ] } }
+]
+}

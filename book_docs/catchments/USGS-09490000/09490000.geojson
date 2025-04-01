@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09490000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TURKEY C NR FORT APACHE ARIZ", "OfficialID": "09490000", "FlagPAVICS": 0, "Source": "USGS", "Area": 32.892685 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -109.901094813700212, 33.711773237830677 ], [ -109.901094813700212, 33.76333036216932 ], [ -109.839096586299775, 33.76333036216932 ], [ -109.839096586299775, 33.711773237830677 ], [ -109.901094813700212, 33.711773237830677 ] ] ] } }
+]
+}

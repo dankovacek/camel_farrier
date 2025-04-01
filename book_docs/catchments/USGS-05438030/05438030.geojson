@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05438030",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "FRANKLINVILLE CREEK AT FRANKLINVILLE, IL", "OfficialID": "05438030", "FlagPAVICS": 0, "Source": "USGS", "Area": 27.712735 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -88.541979575160113, 42.253004818809387 ], [ -88.541979575160113, 42.300328521190607 ], [ -88.478020424839897, 42.300328521190607 ], [ -88.478020424839897, 42.253004818809387 ], [ -88.541979575160113, 42.253004818809387 ] ] ] } }
+]
+}

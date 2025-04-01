@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01115183",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "QUONAPAUG BK AT RT 116 NR NORTH SCITUATE, RI", "OfficialID": "01115183", "FlagPAVICS": 0, "Source": "USGS", "Area": 5.076351 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -71.59836992707497, 41.787472565429702 ], [ -71.59836992707497, 41.807726754570304 ], [ -71.571201472925026, 41.807726754570304 ], [ -71.571201472925026, 41.787472565429702 ], [ -71.59836992707497, 41.787472565429702 ] ] ] } }
+]
+}

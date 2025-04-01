@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03085213",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Sawmill Run at Duquesne Heights nr Pittsburgh, PA", "OfficialID": "03085213", "FlagPAVICS": 0, "Source": "USGS", "Area": 46.878552 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -80.069929476639004, 40.402072037773749 ], [ -80.069929476639004, 40.463621762226254 ], [ -79.989067123360996, 40.463621762226254 ], [ -79.989067123360996, 40.402072037773749 ], [ -80.069929476639004, 40.402072037773749 ] ] ] } }
+]
+}

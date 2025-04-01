@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09383250",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LEE VALLEY CR BL LEE VALLEY RES NR GREER, AZ.", "OfficialID": "09383250", "FlagPAVICS": 0, "Source": "USGS", "Area": 4.920953 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -109.509887117791919, 33.93174420676614 ], [ -109.509887117791919, 33.951685973233865 ], [ -109.485849482208067, 33.951685973233865 ], [ -109.485849482208067, 33.93174420676614 ], [ -109.509887117791919, 33.93174420676614 ] ] ] } }
+]
+}

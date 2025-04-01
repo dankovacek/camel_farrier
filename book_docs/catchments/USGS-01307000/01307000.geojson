@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01307000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CHAMPLIN CREEK AT ISLIP NY", "OfficialID": "01307000", "FlagPAVICS": 0, "Source": "USGS", "Area": 13.416072 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.223394540658745, 40.72048095737042 ], [ -73.223394540658745, 40.753407922629584 ], [ -73.179938859341263, 40.753407922629584 ], [ -73.179938859341263, 40.72048095737042 ], [ -73.223394540658745, 40.72048095737042 ] ] ] } }
+]
+}

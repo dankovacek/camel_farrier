@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07144486",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CALFSKIN C AT 119TH ST, WICHITA, KS", "OfficialID": "07144486", "FlagPAVICS": 0, "Source": "USGS", "Area": 41.698601 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -97.516948508507767, 37.645141834439848 ], [ -97.516948508507767, 37.703191505560149 ], [ -97.443607091492225, 37.703191505560149 ], [ -97.443607091492225, 37.645141834439848 ], [ -97.516948508507767, 37.645141834439848 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05408476",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WEST FORK KICKAPOO RIVER @ OGDEN AVE AT CASHTON,WI", "OfficialID": "05408476", "FlagPAVICS": 0, "Source": "USGS", "Area": 4.816059 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -90.794649676503212, 43.715802627807179 ], [ -90.794649676503212, 43.735530712192826 ], [ -90.7673503234968, 43.735530712192826 ], [ -90.7673503234968, 43.715802627807179 ], [ -90.794649676503212, 43.715802627807179 ] ] ] } }
+]
+}

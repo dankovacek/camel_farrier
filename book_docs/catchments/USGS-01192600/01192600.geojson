@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01192600",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SOUTH BRANCH SALMON BK AT BUCKINGHAM, CT.", "OfficialID": "01192600", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.434577 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.549205687983118, 41.711141686805341 ], [ -72.549205687983118, 41.725168233194658 ], [ -72.530414112016871, 41.725168233194658 ], [ -72.530414112016871, 41.711141686805341 ], [ -72.549205687983118, 41.711141686805341 ] ] ] } }
+]
+}

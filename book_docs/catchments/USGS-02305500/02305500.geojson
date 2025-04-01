@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02305500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "DR DITCH AT BEARS AVE NEAR SULPHUR SPRINGS FL", "OfficialID": "02305500", "FlagPAVICS": 0, "Source": "USGS", "Area": 31.079703 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.49349765664509, 28.06301343953027 ], [ -82.49349765664509, 28.113129560469734 ], [ -82.436691143354906, 28.113129560469734 ], [ -82.436691143354906, 28.06301343953027 ], [ -82.49349765664509, 28.06301343953027 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08ME013",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TOWN CREEK AT LILLOOET", "OfficialID": "08ME013", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 13.5 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -121.978868023109214, 50.672375101518455 ], [ -121.978868023109214, 50.705404898481547 ], [ -121.926731976890778, 50.705404898481547 ], [ -121.926731976890778, 50.672375101518455 ], [ -121.978868023109214, 50.672375101518455 ] ] ] } }
+]
+}

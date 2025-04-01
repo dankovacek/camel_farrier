@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02326825",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NORTHEAST DD AT HADLEY RD TALLAHASSEE,FL", "OfficialID": "02326825", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.04608 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -84.245416480745888, 30.49710395104119 ], [ -84.245416480745888, 30.509962748958813 ], [ -84.230492119254109, 30.509962748958813 ], [ -84.230492119254109, 30.49710395104119 ], [ -84.245416480745888, 30.49710395104119 ] ] ] } }
+]
+}

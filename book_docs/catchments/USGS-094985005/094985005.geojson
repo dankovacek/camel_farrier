@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "094985005",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "PINTO CREEK ABOVE HAUNTED CANYON NR MIAMI, AZ", "OfficialID": "094985005", "FlagPAVICS": 0, "Source": "USGS", "Area": 43.90008 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -111.034286060366455, 33.376052135109454 ], [ -111.034286060366455, 33.435614464890541 ], [ -110.962936139633555, 33.435614464890541 ], [ -110.962936139633555, 33.376052135109454 ], [ -111.034286060366455, 33.376052135109454 ] ] ] } }
+]
+}

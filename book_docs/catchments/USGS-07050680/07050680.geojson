@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07050680",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Jones Branch near Springfield, MO", "OfficialID": "07050680", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.341068 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -93.211885818852423, 37.178499465446578 ], [ -93.211885818852423, 37.194931134553428 ], [ -93.191260381147586, 37.194931134553428 ], [ -93.191260381147586, 37.178499465446578 ], [ -93.211885818852423, 37.178499465446578 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02OE050",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BIRCHTON (RUISSEAU) PRES DE LA RIVIERE EATON", "OfficialID": "02OE050", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 22.9 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -71.633135791649408, 45.382930675810847 ], [ -71.633135791649408, 45.425949324189155 ], [ -71.571864208350604, 45.425949324189155 ], [ -71.571864208350604, 45.382930675810847 ], [ -71.633135791649408, 45.382930675810847 ] ] ] } }
+]
+}

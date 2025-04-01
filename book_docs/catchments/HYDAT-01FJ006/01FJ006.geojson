@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01FJ006",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "FIFES BROOK NEAR MILL POND", "OfficialID": "01FJ006", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 34.3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -60.403932943910405, 46.274505745299628 ], [ -60.403932943910405, 46.327154254700368 ], [ -60.3277270560896, 46.327154254700368 ], [ -60.3277270560896, 46.274505745299628 ], [ -60.403932943910405, 46.274505745299628 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08FA009",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GENESEE CREEK AT THE MOUTH", "OfficialID": "08FA009", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 17.4 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -126.709423665111345, 51.639580760864241 ], [ -126.709423665111345, 51.677079239135757 ], [ -126.648976334888644, 51.677079239135757 ], [ -126.648976334888644, 51.639580760864241 ], [ -126.709423665111345, 51.639580760864241 ] ] ] } }
+]
+}

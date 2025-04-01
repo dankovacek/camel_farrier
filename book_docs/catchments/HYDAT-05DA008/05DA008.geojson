@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05DA008",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "PEYTO CREEK AT PEYTO GLACIER", "OfficialID": "05DA008", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 23.6 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -116.570826283311803, 51.671774405247227 ], [ -116.570826283311803, 51.715445594752772 ], [ -116.500373716688202, 51.715445594752772 ], [ -116.500373716688202, 51.671774405247227 ], [ -116.570826283311803, 51.671774405247227 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08EE028",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "STATION CREEK ABOVE DIVERSIONS", "OfficialID": "08EE028", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 10.8 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -127.593401989600679, 55.215508625741499 ], [ -127.593401989600679, 55.245051374258502 ], [ -127.541598010399312, 55.245051374258502 ], [ -127.541598010399312, 55.215508625741499 ], [ -127.593401989600679, 55.215508625741499 ] ] ] } }
+]
+}

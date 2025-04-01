@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05379000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GILMORE CREEK AT WINONA, MN", "OfficialID": "05379000", "FlagPAVICS": 0, "Source": "USGS", "Area": 23.180278 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -91.72053375097336, 44.022766847344514 ], [ -91.72053375097336, 44.066047952655481 ], [ -91.660320849026633, 44.066047952655481 ], [ -91.660320849026633, 44.022766847344514 ], [ -91.72053375097336, 44.022766847344514 ] ] ] } }
+]
+}

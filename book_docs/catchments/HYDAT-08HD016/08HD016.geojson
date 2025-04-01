@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HD016",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HYACINTHE CREEK ON QUADRA ISLAND", "OfficialID": "08HD016", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 7.68 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -125.273032759952599, 50.121433683512628 ], [ -125.273032759952599, 50.146346316487374 ], [ -125.234167240047412, 50.146346316487374 ], [ -125.234167240047412, 50.121433683512628 ], [ -125.273032759952599, 50.121433683512628 ] ] ] } }
+]
+}

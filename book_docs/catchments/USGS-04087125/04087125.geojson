@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04087125",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SCHOONMAKER CREEK AT WAUWATOSA, WI", "OfficialID": "04087125", "FlagPAVICS": 0, "Source": "USGS", "Area": 5.024552 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -88.003509712664126, 43.040202486764656 ], [ -88.003509712664126, 43.060353073235348 ], [ -87.975934687335879, 43.060353073235348 ], [ -87.975934687335879, 43.040202486764656 ], [ -88.003509712664126, 43.040202486764656 ] ] ] } }
+]
+}

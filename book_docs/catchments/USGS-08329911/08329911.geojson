@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08329911",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NORTH CAMINO ARROYO AT SUNSET HILLS NR ALBQ., NM", "OfficialID": "08329911", "FlagPAVICS": 0, "Source": "USGS", "Area": 5.335349 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -106.54520461953858, 35.184062214914626 ], [ -106.54520461953858, 35.204826665085371 ], [ -106.519795380461417, 35.204826665085371 ], [ -106.519795380461417, 35.184062214914626 ], [ -106.54520461953858, 35.184062214914626 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01569775",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Alexander Spring Creek near Plainfield, PA", "OfficialID": "01569775", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.978472 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -77.272356988970245, 40.161219976401888 ], [ -77.272356988970245, 40.176734403598111 ], [ -77.252054011029742, 40.176734403598111 ], [ -77.252054011029742, 40.161219976401888 ], [ -77.272356988970245, 40.161219976401888 ] ] ] } }
+]
+}

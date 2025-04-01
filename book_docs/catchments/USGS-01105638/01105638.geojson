@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01105638",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WEIR RIVER AT LEAVITT STREET AT HINGHAM, MA", "OfficialID": "01105638", "FlagPAVICS": 0, "Source": "USGS", "Area": 36.518651 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -70.908675355294392, 42.207660309714697 ], [ -70.908675355294392, 42.261984890285305 ], [ -70.835303044705611, 42.261984890285305 ], [ -70.835303044705611, 42.207660309714697 ], [ -70.908675355294392, 42.207660309714697 ] ] ] } }
+]
+}

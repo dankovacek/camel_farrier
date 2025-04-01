@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02GD022",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NISSOURI CREEK NEAR EMBRO", "OfficialID": "02GD022", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 29.1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -80.996553779223518, 43.105753139231823 ], [ -80.996553779223518, 43.154246860768183 ], [ -80.93010622077648, 43.154246860768183 ], [ -80.93010622077648, 43.105753139231823 ], [ -80.996553779223518, 43.105753139231823 ] ] ] } }
+]
+}

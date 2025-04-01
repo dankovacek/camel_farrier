@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01613030",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WARM SPRINGS RUN NEAR BERKELEY SPRINGS, WV", "OfficialID": "01613030", "FlagPAVICS": 0, "Source": "USGS", "Area": 17.508233 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -78.243367722056476, 39.621775838655161 ], [ -78.243367722056476, 39.659390761344845 ], [ -78.19452107794352, 39.659390761344845 ], [ -78.19452107794352, 39.621775838655161 ], [ -78.243367722056476, 39.621775838655161 ] ] ] } }
+]
+}

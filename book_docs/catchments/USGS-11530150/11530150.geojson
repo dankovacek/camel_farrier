@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11530150",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MAREEP C NR WEITCHPEC CA", "OfficialID": "11530150", "FlagPAVICS": 0, "Source": "USGS", "Area": 9.220312 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -123.808224128710677, 41.258975957271609 ], [ -123.808224128710677, 41.286272762728395 ], [ -123.771904871289323, 41.286272762728395 ], [ -123.771904871289323, 41.258975957271609 ], [ -123.808224128710677, 41.258975957271609 ] ] ] } }
+]
+}

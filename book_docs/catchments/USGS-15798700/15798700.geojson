@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15798700",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NUNAVAK C NR BARROW AK", "OfficialID": "15798700", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.226031 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -156.823579099605922, 71.247220830804096 ], [ -156.823579099605922, 71.271385949195903 ], [ -156.748365300394084, 71.271385949195903 ], [ -156.748365300394084, 71.247220830804096 ], [ -156.823579099605922, 71.247220830804096 ] ] ] } }
+]
+}

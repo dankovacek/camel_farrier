@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10251000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BIG DIP C NR STOVEPIPE WELLS CA", "OfficialID": "10251000", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.460476 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.30277735404303, 36.910943120850924 ], [ -117.30277735404303, 36.925044079149082 ], [ -117.285140045956979, 36.925044079149082 ], [ -117.285140045956979, 36.910943120850924 ], [ -117.30277735404303, 36.910943120850924 ] ] ] } }
+]
+}

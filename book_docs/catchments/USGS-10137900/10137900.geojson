@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10137900",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SPRING CREEK AT HUNTSVILLE, UTAH", "OfficialID": "10137900", "FlagPAVICS": 0, "Source": "USGS", "Area": 18.647822 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -111.791871539694952, 41.245808909822493 ], [ -111.791871539694952, 41.284628690177506 ], [ -111.740226460305038, 41.284628690177506 ], [ -111.740226460305038, 41.245808909822493 ], [ -111.791871539694952, 41.245808909822493 ] ] ] } }
+]
+}

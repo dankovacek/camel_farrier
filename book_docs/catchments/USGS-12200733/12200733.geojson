@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12200733",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "UNNAMED TRIBUTARY LOPEZ SOUND ON LOPEZ ISLAND, WA", "OfficialID": "12200733", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.243188 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.89200481519606, 48.498920340648084 ], [ -122.892207295713462, 48.504273823005988 ], [ -122.890094572791568, 48.510084061056403 ], [ -122.882874941234959, 48.511791598412316 ], [ -122.882175191838044, 48.506252276914239 ], [ -122.883292548516962, 48.500070935274501 ], [ -122.886850055584702, 48.495679246963029 ], [ -122.89200481519606, 48.498920340648084 ] ] ] } }
+]
+}

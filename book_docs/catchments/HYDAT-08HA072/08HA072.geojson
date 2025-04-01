@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HA072",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "COTTONWOOD CREEK HEADWATERS", "OfficialID": "08HA072", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 13.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -124.273969410988272, 48.917313818431033 ], [ -124.273969410988272, 48.94972618156897 ], [ -124.224630589011738, 48.94972618156897 ], [ -124.224630589011738, 48.917313818431033 ], [ -124.273969410988272, 48.917313818431033 ] ] ] } }
+]
+}

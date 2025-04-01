@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01187850",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CLEAR BK NR COLLINSVILLE, CT.", "OfficialID": "01187850", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.528085 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.95866729424931, 41.790097176471654 ], [ -72.95866729424931, 41.80120970352835 ], [ -72.943761685750687, 41.80120970352835 ], [ -72.943761685750687, 41.790097176471654 ], [ -72.95866729424931, 41.790097176471654 ] ] ] } }
+]
+}

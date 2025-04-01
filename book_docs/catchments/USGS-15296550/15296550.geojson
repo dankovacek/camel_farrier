@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15296550",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "EAST FORK UPPER THUMB R BL N FORK NR LARSEN BAY AK", "OfficialID": "15296550", "FlagPAVICS": 0, "Source": "USGS", "Area": 48.691534 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -154.028229309996391, 57.318726088783947 ], [ -154.028229309996391, 57.381454711216051 ], [ -153.911958490003599, 57.381454711216051 ], [ -153.911958490003599, 57.318726088783947 ], [ -154.028229309996391, 57.318726088783947 ] ] ] } }
+]
+}

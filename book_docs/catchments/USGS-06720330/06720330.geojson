@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "06720330",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GRANGE HALL C AT GRANT PARK, AT NORTHGLENN, CO.", "OfficialID": "06720330", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.502186 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -104.989659798091765, 39.882531994680782 ], [ -104.989659798091765, 39.893549945319215 ], [ -104.975300401908243, 39.893549945319215 ], [ -104.975300401908243, 39.882531994680782 ], [ -104.989659798091765, 39.882531994680782 ] ] ] } }
+]
+}

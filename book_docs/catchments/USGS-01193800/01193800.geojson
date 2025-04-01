@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01193800",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HEMLOCK VALLEY BK AT HADLYME, CT.", "OfficialID": "01193800", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.785735 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.438202078942865, 41.416723532435604 ], [ -72.438202078942865, 41.440140867564402 ], [ -72.406969921057126, 41.440140867564402 ], [ -72.406969921057126, 41.416723532435604 ], [ -72.438202078942865, 41.416723532435604 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15059500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WHIPPLE C NR WARD COVE AK", "OfficialID": "15059500", "FlagPAVICS": 0, "Source": "USGS", "Area": 13.700969 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -131.824901565733654, 55.424673110348792 ], [ -131.824901565733654, 55.457947849651205 ], [ -131.766241834266367, 55.457947849651205 ], [ -131.766241834266367, 55.424673110348792 ], [ -131.824901565733654, 55.424673110348792 ] ] ] } }
+]
+}

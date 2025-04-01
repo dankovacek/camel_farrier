@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12361600",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Canyon Creek near Hungry Horse MT", "OfficialID": "12361600", "FlagPAVICS": 0, "Source": "USGS", "Area": 9.790106 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -113.783536051399508, 48.199288978441778 ], [ -113.783536051399508, 48.227416581558224 ], [ -113.741325148600495, 48.227416581558224 ], [ -113.741325148600495, 48.199288978441778 ], [ -113.783536051399508, 48.199288978441778 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04168580",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ECORSE RIVER AT DEARBORN HEIGHTS, MI", "OfficialID": "04168580", "FlagPAVICS": 0, "Source": "USGS", "Area": 25.899752 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.320563988487066, 42.246607825055669 ], [ -83.320563988487066, 42.292357374944338 ], [ -83.258739391512933, 42.292357374944338 ], [ -83.258739391512933, 42.246607825055669 ], [ -83.320563988487066, 42.246607825055669 ] ] ] } }
+]
+}

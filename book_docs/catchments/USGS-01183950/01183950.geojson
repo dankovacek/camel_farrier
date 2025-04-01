@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01183950",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GRAPE BK AT THOMPSONVILLE, CT.", "OfficialID": "01183950", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.526738 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.608320442226599, 41.996668554112865 ], [ -72.608320442226599, 42.01963464588713 ], [ -72.5774125577734, 42.01963464588713 ], [ -72.5774125577734, 41.996668554112865 ], [ -72.608320442226599, 41.996668554112865 ] ] ] } }
+]
+}

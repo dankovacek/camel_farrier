@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11010900",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WILSON C TRIB NR DULZURA CA", "OfficialID": "11010900", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.579885 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -116.709235120668097, 32.717183747351029 ], [ -116.709235120668097, 32.728483052648969 ], [ -116.695804279331895, 32.728483052648969 ], [ -116.695804279331895, 32.717183747351029 ], [ -116.709235120668097, 32.717183747351029 ] ] ] } }
+]
+}

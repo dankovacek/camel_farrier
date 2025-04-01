@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05544800",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LAUDERDALE LAKES OUTLET AT LAUDERDALE, WI", "OfficialID": "05544800", "FlagPAVICS": 0, "Source": "USGS", "Area": 41.439604 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -88.595625394159129, 42.737467494084868 ], [ -88.595625394159129, 42.795336605915139 ], [ -88.516798405840859, 42.795336605915139 ], [ -88.516798405840859, 42.737467494084868 ], [ -88.595625394159129, 42.737467494084868 ] ] ] } }
+]
+}

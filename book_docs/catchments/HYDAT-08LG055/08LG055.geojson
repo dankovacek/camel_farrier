@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LG055",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BETHSAIDA CREEK ABOVE HIGHLAND VALLEY ROAD", "OfficialID": "08LG055", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 15.5 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -121.061108688731522, 50.462304009632298 ], [ -121.061108688731522, 50.497695990367696 ], [ -121.005491311268472, 50.497695990367696 ], [ -121.005491311268472, 50.462304009632298 ], [ -121.061108688731522, 50.462304009632298 ] ] ] } }
+]
+}

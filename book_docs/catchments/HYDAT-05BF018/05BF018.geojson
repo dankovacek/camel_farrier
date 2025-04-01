@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05BF018",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TWIN CREEK NEAR SEEBE", "OfficialID": "05BF018", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 2.64 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -115.183494640259553, 50.951866837104788 ], [ -115.183494640259553, 50.966473162895213 ], [ -115.160305359740434, 50.966473162895213 ], [ -115.160305359740434, 50.951866837104788 ], [ -115.183494640259553, 50.951866837104788 ] ] ] } }
+]
+}

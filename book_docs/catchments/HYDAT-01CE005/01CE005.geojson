@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01CE005",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MONTAGUE RIVER NEAR HEAD OF MONTAGUE", "OfficialID": "01CE005", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 44.4 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -62.769346583439663, 46.125329746046461 ], [ -62.769346583439663, 46.185230253953534 ], [ -62.682873416560334, 46.185230253953534 ], [ -62.682873416560334, 46.125329746046461 ], [ -62.769346583439663, 46.125329746046461 ] ] ] } }
+]
+}

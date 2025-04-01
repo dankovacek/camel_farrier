@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11358020",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LOST C BL DIV TO LOST C PP1 NR OLD STATION CA", "OfficialID": "11358020", "FlagPAVICS": 0, "Source": "USGS", "Area": 19.502514 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -121.440071184991652, 40.739756073061173 ], [ -121.440071184991652, 40.779455506938831 ], [ -121.38765961500836, 40.779455506938831 ], [ -121.38765961500836, 40.739756073061173 ], [ -121.440071184991652, 40.739756073061173 ] ] ] } }
+]
+}

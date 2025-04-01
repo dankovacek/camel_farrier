@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12157005",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "QUILCEDA CREEK AB WEST FORK NEAR MARYSVILLE, WA", "OfficialID": "12157005", "FlagPAVICS": 0, "Source": "USGS", "Area": 45.065569 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.220307787252978, 48.055201599489259 ], [ -122.220307787252978, 48.115549400510737 ], [ -122.129969812747021, 48.115549400510737 ], [ -122.129969812747021, 48.055201599489259 ], [ -122.220307787252978, 48.055201599489259 ] ] ] } }
+]
+}

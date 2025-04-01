@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10284800",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "INYO C NR LONE PINE CA", "OfficialID": "10284800", "FlagPAVICS": 0, "Source": "USGS", "Area": 4.428858 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -118.195483167353473, 36.588252559609224 ], [ -118.195483167353473, 36.607170980390769 ], [ -118.171918832646526, 36.607170980390769 ], [ -118.171918832646526, 36.588252559609224 ], [ -118.195483167353473, 36.588252559609224 ] ] ] } }
+]
+}

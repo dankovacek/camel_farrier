@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ039",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TARRYS CREEK NEAR TARRYS", "OfficialID": "08NJ039", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 1.37 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.576381402339308, 49.377518987814305 ], [ -117.576381402339308, 49.388041012185688 ], [ -117.560218597660679, 49.388041012185688 ], [ -117.560218597660679, 49.377518987814305 ], [ -117.576381402339308, 49.377518987814305 ] ] ] } }
+]
+}

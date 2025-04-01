@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "011058837",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "QUASHNET RIVER AT WAQUOIT VILLAGE, MA", "OfficialID": "011058837", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.682136 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -70.523341486656918, 41.580712805348334 ], [ -70.523341486656918, 41.603950694651665 ], [ -70.492270093343095, 41.603950694651665 ], [ -70.492270093343095, 41.580712805348334 ], [ -70.523341486656918, 41.580712805348334 ] ] ] } }
+]
+}

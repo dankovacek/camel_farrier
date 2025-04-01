@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02YL010",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WEST POND BROOK NEAR CORNER BROOK LAKE", "OfficialID": "02YL010", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 13.1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -57.863872364059795, 48.792341606372844 ], [ -57.863872364059795, 48.824878393627159 ], [ -57.814467635940211, 48.824878393627159 ], [ -57.814467635940211, 48.792341606372844 ], [ -57.863872364059795, 48.792341606372844 ] ] ] } }
+]
+}

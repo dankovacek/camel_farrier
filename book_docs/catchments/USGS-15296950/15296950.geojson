@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15296950",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "AKALURA C AT OLGA BAY AK", "OfficialID": "15296950", "FlagPAVICS": 0, "Source": "USGS", "Area": 47.655544 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -154.285909603196501, 57.134868845607564 ], [ -154.285909603196501, 57.196926554392441 ], [ -154.171455996803502, 57.196926554392441 ], [ -154.171455996803502, 57.134868845607564 ], [ -154.285909603196501, 57.134868845607564 ] ] ] } }
+]
+}

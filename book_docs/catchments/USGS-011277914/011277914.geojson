@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "011277914",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Oil Mill Brook at Gurley Rd nr East Lyme, CT", "OfficialID": "011277914", "FlagPAVICS": 0, "Source": "USGS", "Area": 14.68516 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.214342165360677, 41.3561087311693 ], [ -72.214342165360677, 41.390557868830697 ], [ -72.168435614639321, 41.390557868830697 ], [ -72.168435614639321, 41.3561087311693 ], [ -72.214342165360677, 41.3561087311693 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01307500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "PENATAQUIT CREEK AT BAY SHORE NY", "OfficialID": "01307500", "FlagPAVICS": 0, "Source": "USGS", "Area": 13.59737 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.266037570486901, 40.710370090914864 ], [ -73.266037570486901, 40.74351878908513 ], [ -73.222295829513087, 40.74351878908513 ], [ -73.222295829513087, 40.710370090914864 ], [ -73.266037570486901, 40.710370090914864 ] ] ] } }
+]
+}

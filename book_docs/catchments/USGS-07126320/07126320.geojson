@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07126320",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BURKE ARROYO TRIBUTARY NEAR THATCHER, CO", "OfficialID": "07126320", "FlagPAVICS": 0, "Source": "USGS", "Area": 12.198783 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -103.989601960710232, 37.411412270112294 ], [ -103.989601960710232, 37.442809929887702 ], [ -103.950064639289778, 37.442809929887702 ], [ -103.950064639289778, 37.411412270112294 ], [ -103.989601960710232, 37.411412270112294 ] ] ] } }
+]
+}

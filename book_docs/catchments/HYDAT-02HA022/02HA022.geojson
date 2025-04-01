@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02HA022",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "STONEY CREEK AT STONEY CREEK", "OfficialID": "02HA022", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 20.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -79.778756524357078, 43.205428705703888 ], [ -79.778756524357078, 43.245631294296111 ], [ -79.723583475642926, 43.245631294296111 ], [ -79.723583475642926, 43.205428705703888 ], [ -79.778756524357078, 43.205428705703888 ] ] ] } }
+]
+}

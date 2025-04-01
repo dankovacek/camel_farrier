@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "040871488",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WILSON PARK CK @ ST. LUKES HOSPITAL @ MILWAUKEE,WI", "OfficialID": "040871488", "FlagPAVICS": 0, "Source": "USGS", "Area": 29.370319 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -87.985245858863635, 42.965362981153596 ], [ -87.985245858863635, 43.014081418846409 ], [ -87.918642941136369, 43.014081418846409 ], [ -87.918642941136369, 42.965362981153596 ], [ -87.985245858863635, 42.965362981153596 ] ] ] } }
+]
+}

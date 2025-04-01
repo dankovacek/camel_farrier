@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08KE033",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ALIX CREEK ABOVE ALIX LAKES", "OfficialID": "08KE033", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 37.3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.45083477116215, 52.609488666874142 ], [ -122.45083477116215, 52.664391333125863 ], [ -122.360365228837864, 52.664391333125863 ], [ -122.360365228837864, 52.609488666874142 ], [ -122.45083477116215, 52.609488666874142 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LE078",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ROBBINS CREEK ABOVE DISDERO CREEK", "OfficialID": "08LE078", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 32.1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -120.021499741162614, 50.549533952761209 ], [ -120.021499741162614, 50.600466047238797 ], [ -119.941300258837373, 50.600466047238797 ], [ -119.941300258837373, 50.549533952761209 ], [ -120.021499741162614, 50.549533952761209 ] ] ] } }
+]
+}

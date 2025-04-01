@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "0214657975",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "IRVINS CREEK AT SR3168 NR CHARLOTTE, NC", "OfficialID": "0214657975", "FlagPAVICS": 0, "Source": "USGS", "Area": 21.678093 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -80.738930905882214, 35.137683493587254 ], [ -80.738930905882214, 35.17953870641275 ], [ -80.687735694117791, 35.17953870641275 ], [ -80.687735694117791, 35.137683493587254 ], [ -80.738930905882214, 35.137683493587254 ] ] ] } }
+]
+}

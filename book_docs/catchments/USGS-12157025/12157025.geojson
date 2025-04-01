@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12157025",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "QUILCEDA CR TRIB AB 27TH AVE NE NR MARYSVILLE, WA", "OfficialID": "12157025", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.294988 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.208351150786953, 48.074148944825446 ], [ -122.208351150786953, 48.084378855174556 ], [ -122.193039249213044, 48.084378855174556 ], [ -122.193039249213044, 48.074148944825446 ], [ -122.208351150786953, 48.074148944825446 ] ] ] } }
+]
+}

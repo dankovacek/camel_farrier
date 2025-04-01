@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05427927",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "DORN (SPRING) CREEK @ CT HIGHWAY Q NR WAUNAKEE, WI", "OfficialID": "05427927", "FlagPAVICS": 0, "Source": "USGS", "Area": 25.770254 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -89.503134047439474, 43.122238043655969 ], [ -89.503134047439474, 43.167873076344037 ], [ -89.440588152560522, 43.167873076344037 ], [ -89.440588152560522, 43.122238043655969 ], [ -89.503134047439474, 43.122238043655969 ] ] ] } }
+]
+}

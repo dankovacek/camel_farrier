@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "0212430653",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MCKEE CREEK AT SR2804 NR WILGROVE, NC", "OfficialID": "0212430653", "FlagPAVICS": 0, "Source": "USGS", "Area": 14.918257 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -80.669315314606223, 35.236528156450916 ], [ -80.669315314606223, 35.271249623549082 ], [ -80.62679588539379, 35.271249623549082 ], [ -80.62679588539379, 35.236528156450916 ], [ -80.669315314606223, 35.236528156450916 ] ] ] } }
+]
+}

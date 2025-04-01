@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10268282",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BIRCH C BL DIV DAM NR BISHOP CA", "OfficialID": "10268282", "FlagPAVICS": 0, "Source": "USGS", "Area": 13.001676 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -118.632427128888196, 37.262058443987065 ], [ -118.632427128888196, 37.294472896012941 ], [ -118.591690271111815, 37.294472896012941 ], [ -118.591690271111815, 37.262058443987065 ], [ -118.632427128888196, 37.262058443987065 ] ] ] } }
+]
+}

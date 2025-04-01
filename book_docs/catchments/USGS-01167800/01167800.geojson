@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01167800",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BEAVER BROOK AT WILMINGTON, VT", "OfficialID": "01167800", "FlagPAVICS": 0, "Source": "USGS", "Area": 16.524042 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.876134755182889, 42.842365575886831 ], [ -72.876134755182889, 42.87890798411317 ], [ -72.826282244817108, 42.87890798411317 ], [ -72.826282244817108, 42.842365575886831 ], [ -72.876134755182889, 42.842365575886831 ] ] ] } }
+]
+}

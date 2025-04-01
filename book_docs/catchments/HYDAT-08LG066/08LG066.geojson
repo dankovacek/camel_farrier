@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LG066",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CHATAWAY CREEK NEAR THE MOUTH", "OfficialID": "08LG066", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 32.2 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -120.963055642972776, 50.305604316866038 ], [ -120.963055642972776, 50.356615683133967 ], [ -120.883144357027234, 50.356615683133967 ], [ -120.883144357027234, 50.305604316866038 ], [ -120.963055642972776, 50.305604316866038 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03353180",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BEAN CREEK AT INDIANAPOLIS, IND", "OfficialID": "03353180", "FlagPAVICS": 0, "Source": "USGS", "Area": 11.395891 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -86.140270457915776, 39.714037170869162 ], [ -86.140270457915776, 39.744383989130839 ], [ -86.10081154208423, 39.744383989130839 ], [ -86.10081154208423, 39.714037170869162 ], [ -86.140270457915776, 39.714037170869162 ] ] ] } }
+]
+}

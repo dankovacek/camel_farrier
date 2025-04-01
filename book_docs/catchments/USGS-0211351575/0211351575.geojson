@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "0211351575",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HOGAN CREEK AT SR 2038 NEAR SILOAM, NC", "OfficialID": "0211351575", "FlagPAVICS": 0, "Source": "USGS", "Area": 8.598718 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -80.610247758369866, 36.309041882509653 ], [ -80.610247758369866, 36.335402517490344 ], [ -80.577530021630139, 36.335402517490344 ], [ -80.577530021630139, 36.309041882509653 ], [ -80.610247758369866, 36.309041882509653 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "06645178",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "POLE CREEK NEAR CASPER, WY", "OfficialID": "06645178", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.992933 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -106.195079941688135, 42.684745318275411 ], [ -106.195079941688135, 42.708517481724591 ], [ -106.162734858311865, 42.708517481724591 ], [ -106.162734858311865, 42.684745318275411 ], [ -106.195079941688135, 42.684745318275411 ] ] ] } }
+]
+}

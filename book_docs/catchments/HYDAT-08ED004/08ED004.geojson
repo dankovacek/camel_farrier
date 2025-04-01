@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08ED004",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "THAUTIL CORNER CREEK NEAR MORICE LAKE", "OfficialID": "08ED004", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 4.22 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -127.365506225311904, 54.246596523469897 ], [ -127.365506225311904, 54.265063476530109 ], [ -127.333893774688093, 54.265063476530109 ], [ -127.333893774688093, 54.246596523469897 ], [ -127.365506225311904, 54.246596523469897 ] ] ] } }
+]
+}

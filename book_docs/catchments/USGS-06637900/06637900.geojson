@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "06637900",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SLATE CREEK NEAR ATLANTIC CITY, WY", "OfficialID": "06637900", "FlagPAVICS": 0, "Source": "USGS", "Area": 15.332653 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -108.772324219938668, 42.498188396744858 ], [ -108.772324219938668, 42.533388803255143 ], [ -108.724568380061328, 42.533388803255143 ], [ -108.724568380061328, 42.498188396744858 ], [ -108.772324219938668, 42.498188396744858 ] ] ] } }
+]
+}

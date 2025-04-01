@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HA042",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BINGS CREEK (WEST BRANCH) NEAR DUNCAN", "OfficialID": "08HA042", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 2.25 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -123.777736372116706, 48.796317820927726 ], [ -123.777736372116706, 48.809802179072278 ], [ -123.75726362788329, 48.809802179072278 ], [ -123.75726362788329, 48.796317820927726 ], [ -123.777736372116706, 48.796317820927726 ] ] ] } }
+]
+}

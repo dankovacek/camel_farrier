@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "13237700",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CONTROL CREEK NR SMITHS FERRY ID", "OfficialID": "13237700", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.838882 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -115.814355250722187, 44.331682607455974 ], [ -115.814355250722187, 44.343872952544032 ], [ -115.79731134927782, 44.343872952544032 ], [ -115.79731134927782, 44.331682607455974 ], [ -115.814355250722187, 44.331682607455974 ] ] ] } }
+]
+}

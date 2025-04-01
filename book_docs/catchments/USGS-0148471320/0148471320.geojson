@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "0148471320",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BIRCH BRANCH AT SHOWELL, MD", "OfficialID": "0148471320", "FlagPAVICS": 0, "Source": "USGS", "Area": 16.524042 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -75.23570612391633, 38.391062095886831 ], [ -75.23570612391633, 38.42760450411317 ], [ -75.189071656083669, 38.42760450411317 ], [ -75.189071656083669, 38.391062095886831 ], [ -75.23570612391633, 38.391062095886831 ] ] ] } }
+]
+}

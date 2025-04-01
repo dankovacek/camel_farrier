@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07AD003",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CACHE PERCOTTE CREEK NEAR HINTON", "OfficialID": "07AD003", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 7.15 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.527659261237375, 53.390201174076665 ], [ -117.527659261237375, 53.414238825923334 ], [ -117.487340738762612, 53.414238825923334 ], [ -117.487340738762612, 53.390201174076665 ], [ -117.527659261237375, 53.390201174076665 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HD023",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LITTLE OYSTER RIVER AT YORKE ROAD", "OfficialID": "08HD023", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 38.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -125.275026483010578, 49.883872277944228 ], [ -125.275026483010578, 49.939287722055774 ], [ -125.188973516989421, 49.939287722055774 ], [ -125.188973516989421, 49.883872277944228 ], [ -125.275026483010578, 49.883872277944228 ] ] ] } }
+]
+}

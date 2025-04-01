@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01DH003",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "FRASER BROOK NEAR ARCHIBALD", "OfficialID": "01DH003", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 10.1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -63.188383602435962, 45.328775346474231 ], [ -63.188383602435962, 45.357344653525772 ], [ -63.147736397564032, 45.357344653525772 ], [ -63.147736397564032, 45.328775346474231 ], [ -63.188383602435962, 45.328775346474231 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07349870",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "RED CHUTE BYU TRIB AT SKNL PD, NR SLIGO LA", "OfficialID": "07349870", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.217288 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -93.557439105415966, 32.420194926965742 ], [ -93.557439105415966, 32.430113193034252 ], [ -93.545688894584032, 32.430113193034252 ], [ -93.545688894584032, 32.420194926965742 ], [ -93.557439105415966, 32.420194926965742 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01FB006",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LAKE O'LAW BROOK AT EGYPT ROAD", "OfficialID": "01FB006", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 37.8 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -61.013069910057212, 46.28708528919644 ], [ -61.013069910057212, 46.342354710803562 ], [ -60.933050089942782, 46.342354710803562 ], [ -60.933050089942782, 46.28708528919644 ], [ -61.013069910057212, 46.28708528919644 ] ] ] } }
+]
+}

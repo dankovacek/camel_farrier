@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "0165389205",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ACCOTINK CREEK NEAR RANGER ROAD AT FAIRFAX, VA", "OfficialID": "0165389205", "FlagPAVICS": 0, "Source": "USGS", "Area": 10.334001 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -77.304940892079102, 38.851792487456592 ], [ -77.304940892079102, 38.88069085254341 ], [ -77.267825707920892, 38.88069085254341 ], [ -77.267825707920892, 38.851792487456592 ], [ -77.304940892079102, 38.851792487456592 ] ] ] } }
+]
+}

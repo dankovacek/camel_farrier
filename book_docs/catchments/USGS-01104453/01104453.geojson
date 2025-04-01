@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01104453",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "STONY BROOK UNNAMED TRIB 2 NR WESTON STATION", "OfficialID": "01104453", "FlagPAVICS": 0, "Source": "USGS", "Area": 5.775645 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -71.28989911732981, 42.360586763435656 ], [ -71.28989911732981, 42.382191016564342 ], [ -71.260656442670182, 42.382191016564342 ], [ -71.260656442670182, 42.360586763435656 ], [ -71.28989911732981, 42.360586763435656 ] ] ] } }
+]
+}

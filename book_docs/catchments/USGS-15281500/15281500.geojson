@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15281500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CAMP C NR SHEEP MT LODGE AK", "OfficialID": "15281500", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.823073 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -147.426804940539938, 61.830821519188667 ], [ -147.426804940539938, 61.845925800811337 ], [ -147.394801659460057, 61.845925800811337 ], [ -147.394801659460057, 61.830821519188667 ], [ -147.426804940539938, 61.830821519188667 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10345490",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GRAY C NR FLORISTON CA", "OfficialID": "10345490", "FlagPAVICS": 0, "Source": "USGS", "Area": 45.583564 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -120.070563964871837, 39.342338781738327 ], [ -120.070563964871837, 39.403032418261667 ], [ -119.992050635128152, 39.403032418261667 ], [ -119.992050635128152, 39.342338781738327 ], [ -120.070563964871837, 39.342338781738327 ] ] ] } }
+]
+}

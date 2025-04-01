@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01549100",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Blockhouse Creek Tributary at Liberty, PA", "OfficialID": "01549100", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.797173 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -77.111407034030222, 41.560334521859076 ], [ -77.111407034030222, 41.575369358140918 ], [ -77.091311565969775, 41.575369358140918 ], [ -77.091311565969775, 41.560334521859076 ], [ -77.111407034030222, 41.560334521859076 ] ] ] } }
+]
+}

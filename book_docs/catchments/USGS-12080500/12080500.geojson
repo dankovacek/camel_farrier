@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12080500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WOODWARD CREEK NEAR OLYMPIA, WA", "OfficialID": "12080500", "FlagPAVICS": 0, "Source": "USGS", "Area": 9.841906 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.881401999539165, 47.069328541701843 ], [ -122.881401999539165, 47.097530458298159 ], [ -122.839985400460833, 47.097530458298159 ], [ -122.839985400460833, 47.069328541701843 ], [ -122.881401999539165, 47.069328541701843 ] ] ] } }
+]
+}

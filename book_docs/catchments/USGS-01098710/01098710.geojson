@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01098710",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HAGER POND OUTLET AT MARLBOROUGH, MA", "OfficialID": "01098710", "FlagPAVICS": 0, "Source": "USGS", "Area": 4.661955 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -71.499028812258075, 42.342055934911251 ], [ -71.499028812258075, 42.36146582508875 ], [ -71.472764547741917, 42.36146582508875 ], [ -71.472764547741917, 42.342055934911251 ], [ -71.499028812258075, 42.342055934911251 ] ] ] } }
+]
+}

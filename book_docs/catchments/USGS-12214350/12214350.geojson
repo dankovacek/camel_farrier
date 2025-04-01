@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12214350",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SUMAS RIVER AT SOUTH PASS ROAD AT NOOKSACK, WA", "OfficialID": "12214350", "FlagPAVICS": 0, "Source": "USGS", "Area": 41.180606 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.357941687639936, 48.891273706297348 ], [ -122.357941687639936, 48.94896169370265 ], [ -122.270151312360071, 48.94896169370265 ], [ -122.270151312360071, 48.891273706297348 ], [ -122.357941687639936, 48.891273706297348 ] ] ] } }
+]
+}

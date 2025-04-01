@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07214600",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "VIGIL CANYON NR HOLMAN, NM", "OfficialID": "07214600", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.251931 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -105.418317381080456, 36.035149556840146 ], [ -105.418317381080456, 36.05935794315986 ], [ -105.388376218919532, 36.05935794315986 ], [ -105.388376218919532, 36.035149556840146 ], [ -105.418317381080456, 36.035149556840146 ] ] ] } }
+]
+}

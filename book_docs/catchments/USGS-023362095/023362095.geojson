@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "023362095",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BURNT FORK CR AT MILLWOOD WAY NEAR CLARKSTON, GA", "OfficialID": "023362095", "FlagPAVICS": 0, "Source": "USGS", "Area": 8.443319 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -84.290443240984345, 33.808328214781092 ], [ -84.290443240984345, 33.834449565218911 ], [ -84.259001159015654, 33.834449565218911 ], [ -84.259001159015654, 33.808328214781092 ], [ -84.290443240984345, 33.808328214781092 ] ] ] } }
+]
+}

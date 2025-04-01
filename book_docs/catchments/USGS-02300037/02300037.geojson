@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02300037",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CEDAR CREEK NEAR SARASOTA FL", "OfficialID": "02300037", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.434577 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.489107408212817, 27.407474086805344 ], [ -82.489107408212817, 27.421500633194654 ], [ -82.47330639178719, 27.421500633194654 ], [ -82.47330639178719, 27.407474086805344 ], [ -82.489107408212817, 27.407474086805344 ] ] ] } }
+]
+}

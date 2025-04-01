@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HA069",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "RENFREW CREEK NEAR PORT RENFREW", "OfficialID": "08HA069", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 8.12 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -124.3110819242861, 48.623941831311782 ], [ -124.3110819242861, 48.649558168688216 ], [ -124.272318075713912, 48.649558168688216 ], [ -124.272318075713912, 48.623941831311782 ], [ -124.3110819242861, 48.623941831311782 ] ] ] } }
+]
+}

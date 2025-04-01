@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08KD002",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WILLOW RIVER AT WELLS", "OfficialID": "08KD002", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 50.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -121.622337219434684, 53.070437063053468 ], [ -121.622337219434684, 53.134002936946537 ], [ -121.51646278056532, 53.134002936946537 ], [ -121.51646278056532, 53.070437063053468 ], [ -121.622337219434684, 53.070437063053468 ] ] ] } }
+]
+}

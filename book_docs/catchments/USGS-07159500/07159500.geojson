@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07159500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Bluff Creek ab Lake Hefner nr Oklahoma City, OK", "OfficialID": "07159500", "FlagPAVICS": 0, "Source": "USGS", "Area": 4.19576 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -97.607745204616265, 35.533349580685808 ], [ -97.607745204616265, 35.551763419314199 ], [ -97.585114995383748, 35.551763419314199 ], [ -97.585114995383748, 35.533349580685808 ], [ -97.607745204616265, 35.533349580685808 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09485550",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ARCADIA WASH AT TUCSON,ARIZONA", "OfficialID": "09485550", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.044733 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -110.899471639842332, 32.231756866973157 ], [ -110.899471639842332, 32.255616913026842 ], [ -110.871261160157658, 32.255616913026842 ], [ -110.871261160157658, 32.231756866973157 ], [ -110.899471639842332, 32.231756866973157 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01022840",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Otter Creek near Bar Harbor, Maine", "OfficialID": "01022840", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.496467 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -68.218416749561712, 44.324373051010809 ], [ -68.218416749561712, 44.341182508989192 ], [ -68.194916650438287, 44.341182508989192 ], [ -68.194916650438287, 44.324373051010809 ], [ -68.218416749561712, 44.324373051010809 ] ] ] } }
+]
+}

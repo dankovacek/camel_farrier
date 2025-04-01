@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04240150",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SPAFFORD CREEK AT SAWMILL RD AT OTISCO VALLEY NY", "OfficialID": "04240150", "FlagPAVICS": 0, "Source": "USGS", "Area": 20.8752 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -76.263278523383647, 42.805296898295325 ], [ -76.263278523383647, 42.846369701704674 ], [ -76.207277036616361, 42.846369701704674 ], [ -76.207277036616361, 42.805296898295325 ], [ -76.263278523383647, 42.805296898295325 ] ] ] } }
+]
+}

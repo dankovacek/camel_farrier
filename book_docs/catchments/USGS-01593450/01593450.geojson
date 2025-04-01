@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01593450",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "L PAX RIV TRIB ABOVE LAKE ELKHORN NR GUILFORD, MD", "OfficialID": "01593450", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.397239 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -76.84538982702388, 39.176520333970224 ], [ -76.84538982702388, 39.199257446029783 ], [ -76.816054572976114, 39.199257446029783 ], [ -76.816054572976114, 39.176520333970224 ], [ -76.84538982702388, 39.176520333970224 ] ] ] } }
+]
+}

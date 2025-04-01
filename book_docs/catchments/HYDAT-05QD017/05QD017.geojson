@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05QD017",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LAKE 223 OUTLET NEAR KENORA", "OfficialID": "05QD017", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 2.6 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -93.725095277817445, 49.691642375271215 ], [ -93.725095277817445, 49.706137624728782 ], [ -93.702684722182568, 49.706137624728782 ], [ -93.702684722182568, 49.691642375271215 ], [ -93.725095277817445, 49.691642375271215 ] ] ] } }
+]
+}

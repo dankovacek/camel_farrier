@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10EB003",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LENED CREEK ABOVE LITTLE NAHANNI RIVER", "OfficialID": "10EB003", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 34.3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -128.735061609332377, 62.343115745299627 ], [ -128.735061609332377, 62.395764254700367 ], [ -128.621538390667638, 62.395764254700367 ], [ -128.621538390667638, 62.343115745299627 ], [ -128.735061609332377, 62.343115745299627 ] ] ] } }
+]
+}

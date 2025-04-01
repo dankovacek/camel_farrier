@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02HA016",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "THREE MILE CREEK AT MOUNT HOPE", "OfficialID": "02HA016", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 4.38 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -79.922337221431633, 43.156703109701347 ], [ -79.922337221431633, 43.17551689029866 ], [ -79.896542778568374, 43.17551689029866 ], [ -79.896542778568374, 43.156703109701347 ], [ -79.922337221431633, 43.156703109701347 ] ] ] } }
+]
+}

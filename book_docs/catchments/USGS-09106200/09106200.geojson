@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09106200",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LEWIS WASH NEAR GRAND JUNCTION, CO.", "OfficialID": "09106200", "FlagPAVICS": 0, "Source": "USGS", "Area": 12.224683 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -108.498107680571607, 39.044821653524174 ], [ -108.498107680571607, 39.076252626475828 ], [ -108.457628919428387, 39.076252626475828 ], [ -108.457628919428387, 39.044821653524174 ], [ -108.498107680571607, 39.044821653524174 ] ] ] } }
+]
+}

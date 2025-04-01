@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "361341084253900",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SHACK CREEK AT HEMBREE(034078755), TN", "OfficialID": "361341084253900", "FlagPAVICS": 0, "Source": "USGS", "Area": 13.157074 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -84.447646826506244, 36.211830505748139 ], [ -84.447646826506244, 36.244438094251862 ], [ -84.407224373493747, 36.244438094251862 ], [ -84.407224373493747, 36.211830505748139 ], [ -84.447646826506244, 36.211830505748139 ] ] ] } }
+]
+}

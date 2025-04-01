@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01118668",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WHITFORD BROOK BL WILLIAMS BROOK NR OLD MYSTIC, CT", "OfficialID": "01118668", "FlagPAVICS": 0, "Source": "USGS", "Area": 31.079703 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -71.99653933527371, 41.383373939530266 ], [ -71.99653933527371, 41.43349006046973 ], [ -71.929719064726285, 41.43349006046973 ], [ -71.929719064726285, 41.383373939530266 ], [ -71.99653933527371, 41.383373939530266 ] ] ] } }
+]
+}

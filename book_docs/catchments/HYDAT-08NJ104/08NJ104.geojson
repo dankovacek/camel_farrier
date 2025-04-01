@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ104",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SMALLWOOD CREEK NEAR TAGHUM", "OfficialID": "08NJ104", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 16.6 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.451294980405606, 49.476406849346041 ], [ -117.451294980405606, 49.51303315065396 ], [ -117.394905019594404, 49.51303315065396 ], [ -117.394905019594404, 49.476406849346041 ], [ -117.451294980405606, 49.476406849346041 ] ] ] } }
+]
+}

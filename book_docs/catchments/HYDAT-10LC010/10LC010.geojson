@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10LC010",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BOOT CREEK NEAR INUVIK", "OfficialID": "10LC010", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 28.2 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -133.708628418968573, 68.337241035513571 ], [ -133.708628418968573, 68.384978964486422 ], [ -133.579171581031432, 68.384978964486422 ], [ -133.579171581031432, 68.337241035513571 ], [ -133.708628418968573, 68.337241035513571 ] ] ] } }
+]
+}

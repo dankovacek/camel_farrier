@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MG021",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TWENTYONE MILE CREEK AT 670 M CONTOUR", "OfficialID": "08MG021", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 28.2 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -123.023334729893548, 50.10669103551357 ], [ -123.023334729893548, 50.154428964486435 ], [ -122.948865270106438, 50.154428964486435 ], [ -122.948865270106438, 50.10669103551357 ], [ -123.023334729893548, 50.10669103551357 ] ] ] } }
+]
+}

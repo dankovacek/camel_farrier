@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02190100",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TOMS CREEK (NFBR SWS NO. 11) NR EASTANOLLEE, GA", "OfficialID": "02190100", "FlagPAVICS": 0, "Source": "USGS", "Area": 10.541199 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.266316778485049, 34.476239982392173 ], [ -83.266316778485049, 34.505426617607824 ], [ -83.230905421514962, 34.505426617607824 ], [ -83.230905421514962, 34.476239982392173 ], [ -83.266316778485049, 34.476239982392173 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15106960",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HOOK C NR TENAKEE AK", "OfficialID": "15106960", "FlagPAVICS": 0, "Source": "USGS", "Area": 20.719802 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -135.217818694733808, 57.651975479301782 ], [ -135.217818694733808, 57.692895120698211 ], [ -135.141298905266183, 57.692895120698211 ], [ -135.141298905266183, 57.651975479301782 ], [ -135.217818694733808, 57.651975479301782 ] ] ] } }
+]
+}

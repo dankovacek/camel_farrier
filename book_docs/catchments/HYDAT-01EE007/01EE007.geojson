@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01EE007",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WHITEBURN BROOK BELOW POLLOCK LAKE", "OfficialID": "01EE007", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 9.49 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -65.110194500095403, 44.338933432397745 ], [ -65.110194500095403, 44.36662656760226 ], [ -65.071465499904591, 44.36662656760226 ], [ -65.071465499904591, 44.338933432397745 ], [ -65.110194500095403, 44.338933432397745 ] ] ] } }
+]
+}

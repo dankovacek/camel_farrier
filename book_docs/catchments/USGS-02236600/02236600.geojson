@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02236600",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LITTLE CREEK AT COOPER'S RANCH NR CLERMONT, FLA.", "OfficialID": "02236600", "FlagPAVICS": 0, "Source": "USGS", "Area": 25.640755 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.820958434102877, 28.408077886303747 ], [ -81.820958434102877, 28.453598113696255 ], [ -81.769195165897131, 28.453598113696255 ], [ -81.769195165897131, 28.408077886303747 ], [ -81.820958434102877, 28.408077886303747 ] ] ] } }
+]
+}

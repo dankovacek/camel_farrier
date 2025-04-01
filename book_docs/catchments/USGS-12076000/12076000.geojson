@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12076000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "JOHNS CREEK NEAR SHELTON, WA", "OfficialID": "12076000", "FlagPAVICS": 0, "Source": "USGS", "Area": 45.842562 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -123.133595790725991, 47.219383641300787 ], [ -123.133595790725991, 47.28024945869921 ], [ -123.043929409274, 47.28024945869921 ], [ -123.043929409274, 47.219383641300787 ], [ -123.133595790725991, 47.219383641300787 ] ] ] } }
+]
+}

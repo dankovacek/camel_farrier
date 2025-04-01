@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01596050",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SAVAGE RIVER NEAR AVILTON, MD", "OfficialID": "01596050", "FlagPAVICS": 0, "Source": "USGS", "Area": 20.409005 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -79.046397846456912, 39.622888647746116 ], [ -79.046397846456912, 39.663500232253888 ], [ -78.993657753543076, 39.663500232253888 ], [ -78.993657753543076, 39.622888647746116 ], [ -79.046397846456912, 39.622888647746116 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09171240",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LAKE FORK SAN MIGUEL RV ABV TROUT LAKE NR OPHIR CO", "OfficialID": "09171240", "FlagPAVICS": 0, "Source": "USGS", "Area": 22.066589 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -107.905839269288862, 37.796719002945672 ], [ -107.905839269288862, 37.838947597054322 ], [ -107.852382930711144, 37.838947597054322 ], [ -107.852382930711144, 37.796719002945672 ], [ -107.905839269288862, 37.796719002945672 ] ] ] } }
+]
+}

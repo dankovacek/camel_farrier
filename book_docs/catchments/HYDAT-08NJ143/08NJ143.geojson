@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ143",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "EAGLE CREEK (WEST FORK) NEAR BLEWETT", "OfficialID": "08NJ143", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 2.07 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.388849414348527, 49.453813129013867 ], [ -117.388849414348527, 49.466746870986128 ], [ -117.368950585651476, 49.466746870986128 ], [ -117.368950585651476, 49.453813129013867 ], [ -117.388849414348527, 49.453813129013867 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07254000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SIXMILE CREEK SUBWATERSHED NO. 5 NR. CHISMVILLE,", "OfficialID": "07254000", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.148332 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -93.928801902053891, 35.217240566368616 ], [ -93.928801902053891, 35.241275413631385 ], [ -93.899378097946112, 35.241275413631385 ], [ -93.899378097946112, 35.217240566368616 ], [ -93.928801902053891, 35.217240566368616 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01302050",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ALLEY CREEK NEAR OAKLAND GARDENS NY", "OfficialID": "01302050", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.761183 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.7537079180143, 40.749868288486574 ], [ -73.7537079180143, 40.761798311513424 ], [ -73.737958681985702, 40.761798311513424 ], [ -73.737958681985702, 40.749868288486574 ], [ -73.7537079180143, 40.749868288486574 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15052800",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MONTANA C NR AUKE BAY AK", "OfficialID": "15052800", "FlagPAVICS": 0, "Source": "USGS", "Area": 36.518651 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -134.663062086567976, 58.370566709714694 ], [ -134.663062086567976, 58.424891290285302 ], [ -134.559393113432037, 58.424891290285302 ], [ -134.559393113432037, 58.370566709714694 ], [ -134.663062086567976, 58.370566709714694 ] ] ] } }
+]
+}

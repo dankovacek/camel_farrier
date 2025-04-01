@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07184070",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "DEER C NR HALLOWELL, KS", "OfficialID": "07184070", "FlagPAVICS": 0, "Source": "USGS", "Area": 18.129827 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -95.018999685840399, 37.211478560188112 ], [ -95.018999685840399, 37.249755379811887 ], [ -94.970925714159605, 37.249755379811887 ], [ -94.970925714159605, 37.211478560188112 ], [ -95.018999685840399, 37.211478560188112 ] ] ] } }
+]
+}

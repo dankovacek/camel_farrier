@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05408480",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "W FORK KICKAPOO R AT PEACEFUL VALLEY RD NR CASHTON", "OfficialID": "05408480", "FlagPAVICS": 0, "Source": "USGS", "Area": 14.995957 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -90.811825423100942, 43.682094114922002 ], [ -90.811825423100942, 43.716905885077999 ], [ -90.763674576899064, 43.716905885077999 ], [ -90.763674576899064, 43.682094114922002 ], [ -90.811825423100942, 43.682094114922002 ] ] ] } }
+]
+}

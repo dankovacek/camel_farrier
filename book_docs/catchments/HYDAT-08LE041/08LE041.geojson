@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LE041",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TAPPEN CREEK NEAR TAPPEN", "OfficialID": "08LE041", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 26.9 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.385472133669026, 50.760577697806745 ], [ -119.385472133669026, 50.807202302193254 ], [ -119.311727866330983, 50.807202302193254 ], [ -119.311727866330983, 50.760577697806745 ], [ -119.385472133669026, 50.760577697806745 ] ] ] } }
+]
+}

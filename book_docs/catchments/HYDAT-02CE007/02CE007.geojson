@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02CE007",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MINISTIC CREEK ABOVE AGNEW LAKE", "OfficialID": "02CE007", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 40.6 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.641882577529699, 46.400930064145854 ], [ -81.641882577529699, 46.458209935854143 ], [ -81.5587774224703, 46.458209935854143 ], [ -81.5587774224703, 46.400930064145854 ], [ -81.641882577529699, 46.400930064145854 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02LC043",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SAINT-LOUIS (RUISSEAU) A 0,3 KM DE LA RIVIERE DU DIABLE", "OfficialID": "02LC043", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 39.9 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -74.544481415666681, 46.34632803362576 ], [ -74.544481415666681, 46.403111966374247 ], [ -74.46217858433333, 46.403111966374247 ], [ -74.46217858433333, 46.34632803362576 ], [ -74.544481415666681, 46.34632803362576 ] ] ] } }
+]
+}

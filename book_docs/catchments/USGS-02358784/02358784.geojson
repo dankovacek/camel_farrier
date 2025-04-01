@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02358784",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MUDDY BRANCH NR MARIANNA, FL", "OfficialID": "02358784", "FlagPAVICS": 0, "Source": "USGS", "Area": 26.935742 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -85.235708100078753, 30.809640605237963 ], [ -85.235708100078753, 30.85629617476204 ], [ -85.181373099921259, 30.85629617476204 ], [ -85.181373099921259, 30.809640605237963 ], [ -85.235708100078753, 30.809640605237963 ] ] ] } }
+]
+}

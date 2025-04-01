@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04163400",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "PLUM BROOK AT UTICA, MI", "OfficialID": "04163400", "FlagPAVICS": 0, "Source": "USGS", "Area": 42.734591 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.111234945426318, 42.572039589565541 ], [ -83.111234945426318, 42.630805950434457 ], [ -83.031398054573671, 42.630805950434457 ], [ -83.031398054573671, 42.572039589565541 ], [ -83.111234945426318, 42.572039589565541 ] ] ] } }
+]
+}

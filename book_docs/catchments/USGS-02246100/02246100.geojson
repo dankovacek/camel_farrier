@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02246100",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "JULINGTON CREEK NR GREENLAND, FLA.", "OfficialID": "02246100", "FlagPAVICS": 0, "Source": "USGS", "Area": 23.05078 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.587277606254403, 30.167272420477513 ], [ -81.587277606254403, 30.21043245952249 ], [ -81.537345393745611, 30.21043245952249 ], [ -81.537345393745611, 30.167272420477513 ], [ -81.587277606254403, 30.167272420477513 ] ] ] } }
+]
+}

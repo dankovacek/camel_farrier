@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02247012",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MOULTRIE CREEK TRIB NEAR ST.AUGUSTINE,FL", "OfficialID": "02247012", "FlagPAVICS": 0, "Source": "USGS", "Area": 4.428858 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.35598087060832, 29.853009759609225 ], [ -81.35598087060832, 29.871928180390771 ], [ -81.334165929391688, 29.871928180390771 ], [ -81.334165929391688, 29.853009759609225 ], [ -81.35598087060832, 29.853009759609225 ] ] ] } }
+]
+}

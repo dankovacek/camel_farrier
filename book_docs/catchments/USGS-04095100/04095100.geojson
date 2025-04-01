@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04095100",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "DERBY DITCH AT BEVERLY SHORES, IN", "OfficialID": "04095100", "FlagPAVICS": 0, "Source": "USGS", "Area": 12.017485 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -87.019507477519184, 41.668345034777573 ], [ -87.019507477519184, 41.699508505222425 ], [ -86.977779522480816, 41.699508505222425 ], [ -86.977779522480816, 41.668345034777573 ], [ -87.019507477519184, 41.668345034777573 ] ] ] } }
+]
+}

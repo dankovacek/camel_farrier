@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04282800",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MUNROE BROOK AT SHELBURNE, VT", "OfficialID": "04282800", "FlagPAVICS": 0, "Source": "USGS", "Area": 13.856368 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.240920354276099, 44.38937964456769 ], [ -73.240920354276099, 44.422842555432304 ], [ -73.194079645723903, 44.422842555432304 ], [ -73.194079645723903, 44.38937964456769 ], [ -73.240920354276099, 44.38937964456769 ] ] ] } }
+]
+}

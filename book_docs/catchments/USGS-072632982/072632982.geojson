@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "072632982",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Reece Creek at Little Italy, AR", "OfficialID": "072632982", "FlagPAVICS": 0, "Source": "USGS", "Area": 12.846277 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -92.612705579779515, 34.913889921072141 ], [ -92.612705579779515, 34.946110078927859 ], [ -92.573405620220484, 34.946110078927859 ], [ -92.573405620220484, 34.913889921072141 ], [ -92.612705579779515, 34.913889921072141 ] ] ] } }
+]
+}

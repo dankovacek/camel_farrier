@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02376100",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BAYOU MARCUS CREEK NR PENSACOLA,FLA", "OfficialID": "02376100", "FlagPAVICS": 0, "Source": "USGS", "Area": 27.971733 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -87.318103926431007, 30.424480626550828 ], [ -87.318103926431007, 30.472024953449175 ], [ -87.262953673569001, 30.472024953449175 ], [ -87.262953673569001, 30.424480626550828 ], [ -87.318103926431007, 30.424480626550828 ] ] ] } }
+]
+}

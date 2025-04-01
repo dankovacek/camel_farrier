@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03432504",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ROBINSON BRANCH ABOVE BOSTON, TN", "OfficialID": "03432504", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.476286 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -87.025901375824262, 35.808705392334566 ], [ -87.025901375824262, 35.819627947665431 ], [ -87.012432024175737, 35.819627947665431 ], [ -87.012432024175737, 35.808705392334566 ], [ -87.025901375824262, 35.808705392334566 ] ] ] } }
+]
+}

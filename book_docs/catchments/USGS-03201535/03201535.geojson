@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03201535",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Yost Run near Nelsonville OH", "OfficialID": "03201535", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.372687 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.316968745802981, 39.420914511333507 ], [ -82.316968745802981, 39.431446848666496 ], [ -82.303333654197033, 39.431446848666496 ], [ -82.303333654197033, 39.420914511333507 ], [ -82.316968745802981, 39.420914511333507 ] ] ] } }
+]
+}

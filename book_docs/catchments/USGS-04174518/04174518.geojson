@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04174518",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MALLETTS CREEK AT ANN ARBOR, MI", "OfficialID": "04174518", "FlagPAVICS": 0, "Source": "USGS", "Area": 28.23073 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.720543969763341, 42.240878633825886 ], [ -83.720543969763341, 42.288642566174119 ], [ -83.65600203023665, 42.288642566174119 ], [ -83.65600203023665, 42.240878633825886 ], [ -83.720543969763341, 42.240878633825886 ] ] ] } }
+]
+}

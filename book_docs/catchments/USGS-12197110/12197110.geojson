@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12197110",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MINKLER CREEK NEAR LYMAN, WA", "OfficialID": "12197110", "FlagPAVICS": 0, "Source": "USGS", "Area": 14.762859 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.12733704818065, 48.503395003642623 ], [ -122.12733704818065, 48.537935156357378 ], [ -122.075189151819345, 48.537935156357378 ], [ -122.075189151819345, 48.503395003642623 ], [ -122.12733704818065, 48.503395003642623 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12102025",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "DIRU CREEK BL HATCHERY, PIONEER WY NR PUYALLUP, WA", "OfficialID": "12102025", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.056171 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.349461954557754, 47.185020156762086 ], [ -122.349461954557754, 47.200735643237913 ], [ -122.326335045442235, 47.200735643237913 ], [ -122.326335045442235, 47.185020156762086 ], [ -122.349461954557754, 47.185020156762086 ] ] ] } }
+]
+}

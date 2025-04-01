@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "14211895",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BURNT BRIDGE CREEK AT 112TH AVE AT VANCOUVER, WA", "OfficialID": "14211895", "FlagPAVICS": 0, "Source": "USGS", "Area": 9.323911 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.577232253818295, 45.6444481350334 ], [ -122.577232253818295, 45.671897864966596 ], [ -122.537958746181715, 45.671897864966596 ], [ -122.537958746181715, 45.6444481350334 ], [ -122.577232253818295, 45.6444481350334 ] ] ] } }
+]
+}

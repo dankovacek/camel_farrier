@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01018009",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Pearce Brook at Route 1 at Houlton, Maine", "OfficialID": "01018009", "FlagPAVICS": 0, "Source": "USGS", "Area": 20.693902 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -67.869773948596517, 46.094830750688281 ], [ -67.869773948596517, 46.135724809311718 ], [ -67.81078161140347, 46.135724809311718 ], [ -67.81078161140347, 46.094830750688281 ], [ -67.869773948596517, 46.094830750688281 ] ] ] } }
+]
+}

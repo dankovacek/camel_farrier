@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NL037",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TREHEARNE CREEK NEAR PRINCETON", "OfficialID": "08NL037", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 16.1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -120.420321149170647, 49.571684758497177 ], [ -120.420321149170647, 49.607755241502822 ], [ -120.36467885082935, 49.607755241502822 ], [ -120.36467885082935, 49.571684758497177 ], [ -120.420321149170647, 49.571684758497177 ] ] ] } }
+]
+}

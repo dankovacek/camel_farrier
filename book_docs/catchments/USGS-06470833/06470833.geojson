@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "06470833",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "PILOT DRAIN AT OAKES, ND", "OfficialID": "06470833", "FlagPAVICS": 0, "Source": "USGS", "Area": 13.208874 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -98.120893579908255, 46.108632023191603 ], [ -98.120893579908255, 46.141303736808396 ], [ -98.073754220091757, 46.141303736808396 ], [ -98.073754220091757, 46.108632023191603 ], [ -98.120893579908255, 46.108632023191603 ] ] ] } }
+]
+}

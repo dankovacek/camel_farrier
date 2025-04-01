@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01ER001",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CLAM HARBOUR RIVER NEAR BIRCHTOWN", "OfficialID": "01ER001", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 45.1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -61.503041891518407, 45.438144574990325 ], [ -61.503041891518407, 45.498515425009678 ], [ -61.416958108481595, 45.498515425009678 ], [ -61.416958108481595, 45.438144574990325 ], [ -61.503041891518407, 45.438144574990325 ] ] ] } }
+]
+}

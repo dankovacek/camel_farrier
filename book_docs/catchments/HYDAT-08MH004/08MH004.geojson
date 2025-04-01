@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MH004",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "OR CREEK NEAR PORT COQUITLAM", "OfficialID": "08MH004", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 19.2 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.787135999284018, 49.334474834322002 ], [ -122.787135999284018, 49.373865165678005 ], [ -122.726664000715985, 49.373865165678005 ], [ -122.726664000715985, 49.334474834322002 ], [ -122.787135999284018, 49.334474834322002 ] ] ] } }
+]
+}

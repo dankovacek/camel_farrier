@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09071300",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GRIZZLY CREEK NEAR GLENWOOD SPRINGS, CO.", "OfficialID": "09071300", "FlagPAVICS": 0, "Source": "USGS", "Area": 14.840558 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -107.332843196912904, 39.699333425715842 ], [ -107.332843196912904, 39.733964354284161 ], [ -107.287822003087086, 39.733964354284161 ], [ -107.287822003087086, 39.699333425715842 ], [ -107.332843196912904, 39.699333425715842 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "06720790",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SOUTH WALNUT CREEK AT ROCKY FLATS PLANT, CO.", "OfficialID": "06720790", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.03599 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -105.19067246721923, 39.890966705011131 ], [ -105.19067246721923, 39.900116614988868 ], [ -105.178746332780776, 39.900116614988868 ], [ -105.178746332780776, 39.890966705011131 ], [ -105.19067246721923, 39.890966705011131 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12197020",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CHILDS CREEK NEAR LYMAN, WA", "OfficialID": "12197020", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.682136 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.106863387625268, 48.517657555348336 ], [ -122.106863387625268, 48.540895444651667 ], [ -122.071773412374725, 48.540895444651667 ], [ -122.071773412374725, 48.517657555348336 ], [ -122.106863387625268, 48.517657555348336 ] ] ] } }
+]
+}

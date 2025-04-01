@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03204210",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Spring Branch near Mud, WV", "OfficialID": "03204210", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.372687 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.944466850783016, 38.062511611333505 ], [ -81.944466850783016, 38.073043948666495 ], [ -81.931088749216997, 38.073043948666495 ], [ -81.931088749216997, 38.062511611333505 ], [ -81.944466850783016, 38.062511611333505 ] ] ] } }
+]
+}

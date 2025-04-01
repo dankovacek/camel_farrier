@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09403660",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "THOMPSON CREEK BLW STUDY AREA NR GLENDALE, UTAH", "OfficialID": "09403660", "FlagPAVICS": 0, "Source": "USGS", "Area": 42.993589 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -112.383917299807749, 37.273287564126555 ], [ -112.383917299807749, 37.332231735873442 ], [ -112.309815100192239, 37.332231735873442 ], [ -112.309815100192239, 37.273287564126555 ], [ -112.383917299807749, 37.273287564126555 ] ] ] } }
+]
+}

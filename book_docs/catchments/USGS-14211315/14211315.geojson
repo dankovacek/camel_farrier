@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "14211315",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TRYON CREEK NEAR LAKE OSWEGO, OR", "OfficialID": "14211315", "FlagPAVICS": 0, "Source": "USGS", "Area": 16.265044 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.699536673242108, 45.412547312676743 ], [ -122.699536673242108, 45.448802207323261 ], [ -122.647874726757891, 45.448802207323261 ], [ -122.647874726757891, 45.412547312676743 ], [ -122.699536673242108, 45.412547312676743 ] ] ] } }
+]
+}

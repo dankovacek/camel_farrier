@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08GA049",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MOSQUITO CREEK NEAR NORTH VANCOUVER", "OfficialID": "08GA049", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 5.18 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -123.102401831577524, 49.33394004074367 ], [ -123.102401831577524, 49.354399959256327 ], [ -123.070998168422463, 49.354399959256327 ], [ -123.070998168422463, 49.33394004074367 ], [ -123.102401831577524, 49.33394004074367 ] ] ] } }
+]
+}

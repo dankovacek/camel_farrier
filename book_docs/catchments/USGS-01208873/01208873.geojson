@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01208873",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ROOSTER RIVER AT FAIRFIELD, CT", "OfficialID": "01208873", "FlagPAVICS": 0, "Source": "USGS", "Area": 27.453737 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.250293122270079, 41.156267877761486 ], [ -73.250293122270079, 41.203369922238515 ], [ -73.187711257729916, 41.203369922238515 ], [ -73.187711257729916, 41.156267877761486 ], [ -73.250293122270079, 41.156267877761486 ] ] ] } }
+]
+}

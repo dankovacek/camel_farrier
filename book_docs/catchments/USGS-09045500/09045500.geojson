@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09045500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SPRUCE CREEK NEAR BRECKENRIDGE, CO.", "OfficialID": "09045500", "FlagPAVICS": 0, "Source": "USGS", "Area": 13.54557 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -106.063383629765568, 39.424278091227855 ], [ -106.063383629765568, 39.457363588772147 ], [ -106.020542370234423, 39.457363588772147 ], [ -106.020542370234423, 39.424278091227855 ], [ -106.063383629765568, 39.424278091227855 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HA043",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BINGS CREEK AT DRINKWATER ROAD", "OfficialID": "08HA043", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 2.99 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -123.776200228042882, 48.795287788355907 ], [ -123.776200228042882, 48.810832211644097 ], [ -123.752599771957108, 48.810832211644097 ], [ -123.752599771957108, 48.795287788355907 ], [ -123.776200228042882, 48.795287788355907 ] ] ] } }
+]
+}

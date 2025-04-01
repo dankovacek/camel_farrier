@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11465690",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "COLGAN C NR SANTA ROSA CA", "OfficialID": "11465690", "FlagPAVICS": 0, "Source": "USGS", "Area": 8.805916 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.750063530897052, 38.388797068769421 ], [ -122.750063530897052, 38.415473411230579 ], [ -122.716023269102948, 38.415473411230579 ], [ -122.716023269102948, 38.388797068769421 ], [ -122.750063530897052, 38.388797068769421 ] ] ] } }
+]
+}

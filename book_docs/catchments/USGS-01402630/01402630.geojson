@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01402630",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Royce Brook at Hamilton Road near Manville NJ", "OfficialID": "01402630", "FlagPAVICS": 0, "Source": "USGS", "Area": 21.600393 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -74.650530359928325, 40.485221031924937 ], [ -74.650530359928325, 40.52700116807506 ], [ -74.595580840071676, 40.52700116807506 ], [ -74.595580840071676, 40.485221031924937 ], [ -74.650530359928325, 40.485221031924937 ] ] ] } }
+]
+}

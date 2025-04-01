@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "06818494",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "QUARRY C AT MISSOURI R, FT LEAVENWORTH, KS", "OfficialID": "06818494", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.807264 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -94.924447686796057, 39.347251078835598 ], [ -94.924447686796057, 39.364791721164409 ], [ -94.901762513203934, 39.364791721164409 ], [ -94.901762513203934, 39.347251078835598 ], [ -94.924447686796057, 39.347251078835598 ] ] ] } }
+]
+}

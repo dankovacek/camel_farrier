@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03113950",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Unnamed tributary to Bend Fork near Belmont OH", "OfficialID": "03113950", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.812983 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.06938900610163, 39.983185603420068 ], [ -81.06938900610163, 39.995289796579925 ], [ -81.053590593898377, 39.995289796579925 ], [ -81.053590593898377, 39.983185603420068 ], [ -81.06938900610163, 39.983185603420068 ] ] ] } }
+]
+}

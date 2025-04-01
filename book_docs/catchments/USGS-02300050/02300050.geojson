@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02300050",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WILLIAMS CREEK NEAR BRADENTON FL", "OfficialID": "02300050", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.992933 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.480989850489536, 27.441210818275412 ], [ -82.480989850489536, 27.464982981724585 ], [ -82.454200949510451, 27.464982981724585 ], [ -82.454200949510451, 27.441210818275412 ], [ -82.480989850489536, 27.441210818275412 ] ] ] } }
+]
+}

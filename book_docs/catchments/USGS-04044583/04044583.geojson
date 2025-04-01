@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04044583",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CHERRY CREEK NEAR HARVEY, MI", "OfficialID": "04044583", "FlagPAVICS": 0, "Source": "USGS", "Area": 11.732588 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -87.387214610375707, 46.450373839890858 ], [ -87.387214610375707, 46.481165700109145 ], [ -87.342510189624306, 46.481165700109145 ], [ -87.342510189624306, 46.450373839890858 ], [ -87.387214610375707, 46.450373839890858 ] ] ] } }
+]
+}

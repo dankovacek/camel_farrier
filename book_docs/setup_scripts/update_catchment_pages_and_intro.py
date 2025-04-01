@@ -1,12 +1,14 @@
 import os
-import re
 import json
+
 
 from introduction_page_utils import create_intro
 from catchment_page_utils import process_static_catchment_page_html
 
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+# BOOK_ROOT = os.path.join(PROJECT_ROOT, 'book_docs')
+PROJECT_ROOT = '../'
+BOOK_ROOT = 'book_docs'
 
 #!/usr/bin/env python3
 """
@@ -14,90 +16,25 @@ Generate markdown pages for catchment polygon revisions.
 
 This script creates individual markdown files for each catchment folder
 and a main index page with a search bar for easy navigation.
+
+Specify --mode flag to choose between 'dev' and 'prod' modes.
+In 'prod' mode, the url for inserting the iframe includes 'camel_farrier' 
+to work with the Jupyter book build process.  Running in dev mode allows 
+you to test locally without the Jupyter book build process.
+Usage:
+    (production): python generate_catchment_pages.py --mode prod
+    (development/testing): python generate_catchment_pages.py --mode dev
+Testing: `python3 -m http.server --directory ../build/html 8000`
+Production (to github pages): `ghp-import -n -p -f _build/html`
+
 """
-
-
-def get_geometric_properties(gdf):
-    """Extract geometric properties from a GeoDataFrame."""
-    try:
-        geom = gdf.iloc[0].geometry
-        area = geom.area
-        perimeter = geom.length
-
-        # Create a DataFrame with geometric properties
-        return pd.DataFrame(
-            {
-                "Area (sq km)": [area / 1e6],  # Convert to sq km
-                "Perimeter (km)": [perimeter / 1e3],  # Convert to km
-                "Compactness": [4 * 3.14159 * area / (perimeter**2)],  # Circularity
-            }
-        )
-    except Exception as e:
-        print(f"Error calculating geometric properties: {e}")
-        return pd.DataFrame(
-            {"Area (sq km)": [None], "Perimeter (km)": [None], "Compactness": [None]}
-        )
-
-
-def scan_catchment_folders():
-    """Scan all catchment folders and return metadata for each."""
-    base_folder = "catchments"
-    catchment_data = []
-
-    for folder in os.listdir(base_folder):
-        folder_path = os.path.join(base_folder, folder)        
-        source_code, official_id = folder.split("-")
-
-        # Skip if not a directory or starts with "."
-        if not os.path.isdir(folder_path) or folder.startswith("."):
-            continue
-
-        # Check for geojson and csv files
-        geojson_file = f'{official_id}.geojson'
-        attr_file = f'{official_id}_attributes.csv'
-
-        if not os.path.exists(geojson_file) or not os.path.exists(attr_file):
-            print('    Skipping folder: ', folder)
-            continue
-
-        # Check if resources folder has images
-        resources_path = os.path.join(folder_path, "resources")
-        has_image = os.path.isdir(resources_path) and any(
-            f.endswith(".png") for f in os.listdir(resources_path)
-        )
-
-        # Get name from CSV if available
-        station_name = "Unknown"
-        if attr_file:
-            try:
-                attrs_file = os.path.join(folder_path, attr_file)
-                attrs_df = pd.read_csv(attrs_file)
-                if "Name" in attrs_df.columns:
-                    station_name = attrs_df.loc[0, "Name"]
-            except Exception as e:
-                print(f"Error reading CSV for {folder}: {e}")
-
-        catchment_data.append(
-            {
-                "folder": folder,
-                "source_code": source_code,
-                "official_id": official_id,
-                "name": station_name,
-                "has_image": has_image,
-                "path": folder_path,
-                'polygon_path': geojson_file,
-                'attributes_path': attr_file,
-            }
-        )
-
-    return catchment_data
 
 
 def update_catchment_pages():
     """Update or create README.md files for each catchment folder."""
     # catchment_data = scan_catchment_folders()
     # Process each catchment folder
-    catchment_data_folder = os.path.join(BASE_DIR, "catchments")
+    catchment_data_folder = '../book_docs/catchments' #os.path.join(BOOK_ROOT, "catchments")
     # static_html_folder = os.path.join(BASE_DIR, '_static', 'catchments')
     catchment_data = {}
     for folder in os.listdir(catchment_data_folder):
@@ -108,19 +45,25 @@ def update_catchment_pages():
         if not os.path.isfile(geojson_path) or not os.path.isfile(attributes_path):
             print(f"GeoJSON file or attributes not found for {official_id}")
             raise FileNotFoundError
+        
+        dam_data_path = os.path.join(catchment_data_folder, folder, f"{official_id}_dam_data.geojson")
+        if not os.path.exists(dam_data_path):
+            dam_data_path = None
 
         data = process_static_catchment_page_html(
             attributes_path,
             geojson_path,
+            official_id,
             catchment_data_folder=catchment_data_folder,
-            # static_html_folder=static_html_folder,
+            book_root_path=BOOK_ROOT,
+            dam_data_path=dam_data_path,
         )
         catchment_data[official_id] = data
     return catchment_data
 
 
 def generate_searchindex_js():
-    static_dir = os.path.join(BASE_DIR, "_static")
+    static_dir = '_static/'#os.path.join(BOOK_ROOT, "_static")
     os.makedirs(static_dir, exist_ok=True)
     search_js_path = os.path.join(static_dir, "searchindex.js")
     
@@ -190,7 +133,7 @@ def generate_searchindex_js():
 
 
 def generate_search_css():
-    static_dir = os.path.join(BASE_DIR, "_static")
+    static_dir = os.path.join(BOOK_ROOT, "_static")
     os.makedirs(static_dir, exist_ok=True)
     css_path = os.path.join(static_dir, "custom.css")
     
@@ -236,6 +179,7 @@ def generate_search_css():
 if __name__ == "__main__":
     catchment_data = update_catchment_pages()
     # generate the introduction page
+    # base_intro_path = os.path.join(BOOK_ROOT, 'templates/intro_content.md')
     base_intro_path = 'templates/intro_content.md'
     create_intro(catchment_data, base_intro_path)
     print(f"Processed {len(catchment_data)} catchment folders")

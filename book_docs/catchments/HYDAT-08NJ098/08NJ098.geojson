@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ098",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SELOUS CREEK NEAR NELSON", "OfficialID": "08NJ098", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 14.5 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.290228427736594, 49.435104364648808 ], [ -117.290228427736594, 49.469335635351186 ], [ -117.23757157226342, 49.469335635351186 ], [ -117.23757157226342, 49.435104364648808 ], [ -117.290228427736594, 49.435104364648808 ] ] ] } }
+]
+}

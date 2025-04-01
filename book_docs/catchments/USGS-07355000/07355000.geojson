@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07355000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HEMPHILL CK NR HOT WELLS, LA", "OfficialID": "07355000", "FlagPAVICS": 0, "Source": "USGS", "Area": 46.619554 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -92.772175465944485, 31.266712668952675 ], [ -92.772175465944485, 31.328092131047324 ], [ -92.700343134055515, 31.328092131047324 ], [ -92.700343134055515, 31.266712668952675 ], [ -92.772175465944485, 31.266712668952675 ] ] ] } }
+]
+}

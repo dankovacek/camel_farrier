@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03601630",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LOCKE BRANCH NEAR BENDING CHESTNUT, TN", "OfficialID": "03601630", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.09788 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -87.111929123356674, 35.865499804919097 ], [ -87.111929123356674, 35.878520355080909 ], [ -87.095860876643314, 35.878520355080909 ], [ -87.095860876643314, 35.865499804919097 ], [ -87.111929123356674, 35.865499804919097 ] ] ] } }
+]
+}

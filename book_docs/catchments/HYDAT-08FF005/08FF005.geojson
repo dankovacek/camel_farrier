@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08FF005",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "KILOMETRE 18.9 CREEK NEAR KITIMAT", "OfficialID": "08FF005", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 12.7 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -128.249293657376114, 54.199541904277957 ], [ -128.249293657376114, 54.23157809572205 ], [ -128.194506342623896, 54.23157809572205 ], [ -128.194506342623896, 54.199541904277957 ], [ -128.249293657376114, 54.199541904277957 ] ] ] } }
+]
+}

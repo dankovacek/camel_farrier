@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "06088100",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Spring Coulee near Power MT", "OfficialID": "06088100", "FlagPAVICS": 0, "Source": "USGS", "Area": 47.914542 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -111.750727295867037, 47.63181194232007 ], [ -111.750727295867037, 47.694038057679933 ], [ -111.658333904132959, 47.694038057679933 ], [ -111.658333904132959, 47.63181194232007 ], [ -111.750727295867037, 47.63181194232007 ] ] ] } }
+]
+}

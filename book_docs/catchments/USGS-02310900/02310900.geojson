@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02310900",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "PONY CREEK NR POLK CITY, FLA.", "OfficialID": "02310900", "FlagPAVICS": 0, "Source": "USGS", "Area": 24.604765 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.839277225530438, 28.228827427293378 ], [ -81.839277225530438, 28.273418572706621 ], [ -81.788656174469551, 28.273418572706621 ], [ -81.788656174469551, 28.228827427293378 ], [ -81.839277225530438, 28.228827427293378 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04073462",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WHITE CREEK AT SPRING GROVE ROAD NR GREEN LAKE, WI", "OfficialID": "04073462", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.899424 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -88.945841074506802, 43.80347809262765 ], [ -88.945841074506802, 43.828744107372351 ], [ -88.910825525493209, 43.828744107372351 ], [ -88.910825525493209, 43.80347809262765 ], [ -88.945841074506802, 43.80347809262765 ] ] ] } }
+]
+}

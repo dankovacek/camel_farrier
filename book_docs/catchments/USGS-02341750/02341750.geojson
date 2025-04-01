@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02341750",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "RANDALL CREEK NEAR UPATOI, GA", "OfficialID": "02341750", "FlagPAVICS": 0, "Source": "USGS", "Area": 48.432537 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -84.812315867543958, 32.516636215726422 ], [ -84.812315867543958, 32.579197784273575 ], [ -84.738097732456055, 32.579197784273575 ], [ -84.738097732456055, 32.516636215726422 ], [ -84.812315867543958, 32.516636215726422 ] ] ] } }
+]
+}

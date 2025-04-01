@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ149",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GLADE CREEK NEAR SHOREACRES", "OfficialID": "08NJ149", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 29.3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.574068338284945, 49.352059959362236 ], [ -117.574068338284945, 49.400720040637765 ], [ -117.499331661715047, 49.400720040637765 ], [ -117.499331661715047, 49.352059959362236 ], [ -117.574068338284945, 49.352059959362236 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03513500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NOLAND CREEK NEAR BRYSON CITY, NC", "OfficialID": "03513500", "FlagPAVICS": 0, "Source": "USGS", "Area": 35.741658 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.537052589183489, 35.457945273845816 ], [ -83.537052589183489, 35.511688826154177 ], [ -83.471050410816517, 35.511688826154177 ], [ -83.471050410816517, 35.457945273845816 ], [ -83.537052589183489, 35.457945273845816 ] ] ] } }
+]
+}

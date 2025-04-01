@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "13206400",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "EAGLE DRAIN AT EAGLE, ID", "OfficialID": "13206400", "FlagPAVICS": 0, "Source": "USGS", "Area": 35.845257 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -116.39360629394983, 43.664755977422594 ], [ -116.39360629394983, 43.718577362577399 ], [ -116.319171506050168, 43.718577362577399 ], [ -116.319171506050168, 43.664755977422594 ], [ -116.39360629394983, 43.664755977422594 ] ] ] } }
+]
+}

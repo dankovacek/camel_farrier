@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03353583",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "FALCON CREEK 30TH ST. AT INDIANAPOLIS, IN", "OfficialID": "03353583", "FlagPAVICS": 0, "Source": "USGS", "Area": 10.748397 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -86.251394644229777, 39.794473307063285 ], [ -86.251394644229777, 39.823945392936722 ], [ -86.213028555770222, 39.823945392936722 ], [ -86.213028555770222, 39.794473307063285 ], [ -86.251394644229777, 39.794473307063285 ] ] ] } }
+]
+}

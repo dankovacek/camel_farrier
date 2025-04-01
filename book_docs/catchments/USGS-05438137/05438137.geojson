@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05438137",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "UNNAMED TR TO SB KISHWAUKEE C NR HUNTLEY, IL", "OfficialID": "05438137", "FlagPAVICS": 0, "Source": "USGS", "Area": 11.55129 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -88.44284208453378, 42.179723486110234 ], [ -88.44284208453378, 42.210276513889767 ], [ -88.401602315466207, 42.210276513889767 ], [ -88.401602315466207, 42.179723486110234 ], [ -88.44284208453378, 42.179723486110234 ] ] ] } }
+]
+}

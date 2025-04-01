@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MH129",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MURRAY CREEK AT 216 STREET, LANGLEY", "OfficialID": "08MH129", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 26.2 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.659319614131348, 49.049493017094441 ], [ -122.659319614131348, 49.095506982905555 ], [ -122.589080385868655, 49.095506982905555 ], [ -122.589080385868655, 49.049493017094441 ], [ -122.659319614131348, 49.049493017094441 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "0166818623",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MILL CREEK ABV PEUMANSEND CREEK NR PORT ROYAL, VA", "OfficialID": "0166818623", "FlagPAVICS": 0, "Source": "USGS", "Area": 37.036646 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -77.266941293224534, 38.102256847677587 ], [ -77.266941293224534, 38.156965352322409 ], [ -77.197392106775453, 38.156965352322409 ], [ -77.197392106775453, 38.102256847677587 ], [ -77.266941293224534, 38.102256847677587 ] ] ] } }
+]
+}

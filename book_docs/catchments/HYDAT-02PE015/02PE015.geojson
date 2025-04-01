@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02PE015",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MARE (RUISSEAU DE LA)", "OfficialID": "02PE015", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 2.59 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -70.418742965943991, 47.373596326438587 ], [ -70.418742965943991, 47.388063673561419 ], [ -70.397377034056021, 47.388063673561419 ], [ -70.397377034056021, 47.373596326438587 ], [ -70.418742965943991, 47.373596326438587 ] ] ] } }
+]
+}

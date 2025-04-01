@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09378200",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MONTEZUMA CREEK AT GOLF COURSE AT MONTICELLO, UT", "OfficialID": "09378200", "FlagPAVICS": 0, "Source": "USGS", "Area": 45.583564 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -109.380776988045284, 37.830202851738328 ], [ -109.380776988045284, 37.890896488261667 ], [ -109.303901611954728, 37.890896488261667 ], [ -109.303901611954728, 37.830202851738328 ], [ -109.380776988045284, 37.830202851738328 ] ] ] } }
+]
+}

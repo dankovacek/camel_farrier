@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "054279465",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "S FORK PHEASANT BRANCH @ DEMING WAY @ MIDDLETON,WI", "OfficialID": "054279465", "FlagPAVICS": 0, "Source": "USGS", "Area": 16.057846 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -89.546177401158019, 43.080594554197205 ], [ -89.546177401158019, 43.116617785802788 ], [ -89.496842598841994, 43.116617785802788 ], [ -89.496842598841994, 43.080594554197205 ], [ -89.546177401158019, 43.080594554197205 ] ] ] } }
+]
+}

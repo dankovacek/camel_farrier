@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05357206",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ALLEQUASH CREEK SITE NO. 3 NR BOULDER JUNCTION, WI", "OfficialID": "05357206", "FlagPAVICS": 0, "Source": "USGS", "Area": 9.841906 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -89.628088962518191, 46.018676821701845 ], [ -89.628088962518191, 46.046878738298162 ], [ -89.587466637481796, 46.046878738298162 ], [ -89.587466637481796, 46.018676821701845 ], [ -89.628088962518191, 46.018676821701845 ] ] ] } }
+]
+}

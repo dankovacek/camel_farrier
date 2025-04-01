@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02GA032",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "O.A.C. FARM GAUGE NO. 5 AT GUELPH", "OfficialID": "02GA032", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 2.51 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -80.31482221849835, 43.524268919670192 ], [ -80.31482221849835, 43.538511080329812 ], [ -80.295177781501664, 43.538511080329812 ], [ -80.295177781501664, 43.524268919670192 ], [ -80.31482221849835, 43.524268919670192 ] ] ] } }
+]
+}

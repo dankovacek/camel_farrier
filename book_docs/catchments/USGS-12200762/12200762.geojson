@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12200762",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "UNNAMED TRIBUTARY MASSACRE BAY ON ORCAS ISLAND, WA", "OfficialID": "12200762", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.320887 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.996336608926995, 48.645770028495505 ], [ -122.996336608926995, 48.656101731504492 ], [ -122.980697791073013, 48.656101731504492 ], [ -122.980697791073013, 48.645770028495505 ], [ -122.996336608926995, 48.645770028495505 ] ] ] } }
+]
+}

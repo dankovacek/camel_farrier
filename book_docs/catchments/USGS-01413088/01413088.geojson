@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01413088",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "EAST BRANCH DELAWARE RIVER AT ROXBURY NY", "OfficialID": "01413088", "FlagPAVICS": 0, "Source": "USGS", "Area": 34.964666 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -74.595651692691135, 42.265088583277702 ], [ -74.595651692691135, 42.318244756722294 ], [ -74.523792707308857, 42.318244756722294 ], [ -74.523792707308857, 42.265088583277702 ], [ -74.595651692691135, 42.265088583277702 ] ] ] } }
+]
+}

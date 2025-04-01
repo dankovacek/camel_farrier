@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08330775",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SOUTH DIV CHANNEL ABV TIJERAS ARROYO NR ALBQ., NM", "OfficialID": "08330775", "FlagPAVICS": 0, "Source": "USGS", "Area": 28.489728 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -106.686511122633192, 34.978786513638482 ], [ -106.686511122633192, 35.026769046361522 ], [ -106.627933277366822, 35.026769046361522 ], [ -106.627933277366822, 34.978786513638482 ], [ -106.686511122633192, 34.978786513638482 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE083",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LITTLE CAYUSE CREEK NEAR DEER PARK", "OfficialID": "08NE083", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 24.6 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -118.034264508828386, 49.388816586178287 ], [ -118.034264508828386, 49.433403413821715 ], [ -117.965735491171614, 49.433403413821715 ], [ -117.965735491171614, 49.388816586178287 ], [ -118.034264508828386, 49.388816586178287 ] ] ] } }
+]
+}

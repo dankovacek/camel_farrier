@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02359224",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HUCKLEBERRY CREEK NEAR APALACHICOLA FL", "OfficialID": "02359224", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.330978 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -85.086149195911659, 29.728904467516703 ], [ -85.086149195911659, 29.7426293324833 ], [ -85.070343004088343, 29.7426293324833 ], [ -85.070343004088343, 29.728904467516703 ], [ -85.086149195911659, 29.728904467516703 ] ] ] } }
+]
+}

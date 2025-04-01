@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HA008",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BINGS CREEK NEAR DUNCAN", "OfficialID": "08HA008", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 14.8 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -123.767943811072328, 48.767428212817627 ], [ -123.767943811072328, 48.802011787182373 ], [ -123.715456188927661, 48.802011787182373 ], [ -123.715456188927661, 48.767428212817627 ], [ -123.767943811072328, 48.767428212817627 ] ] ] } }
+]
+}

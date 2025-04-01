@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07380224",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BLACK BYU NR DUPLESSIS, LA", "OfficialID": "07380224", "FlagPAVICS": 0, "Source": "USGS", "Area": 9.479309 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -90.936956823608725, 30.263023003786067 ], [ -90.936956823608725, 30.290700536213933 ], [ -90.904907776391283, 30.290700536213933 ], [ -90.904907776391283, 30.263023003786067 ], [ -90.936956823608725, 30.263023003786067 ] ] ] } }
+]
+}

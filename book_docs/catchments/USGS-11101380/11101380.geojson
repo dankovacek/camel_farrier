@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11101380",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ALHAMBRA WASH A KLINGERMAN ST NR MONTEBELLO CA", "OfficialID": "11101380", "FlagPAVICS": 0, "Source": "USGS", "Area": 39.367624 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -118.123556376484473, 34.035419463403677 ], [ -118.123556376484473, 34.091823296596324 ], [ -118.055470023515525, 34.091823296596324 ], [ -118.055470023515525, 34.035419463403677 ], [ -118.123556376484473, 34.035419463403677 ] ] ] } }
+]
+}

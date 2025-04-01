@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01594963",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NYDEGGER RUN NEAR GORMAN, MD", "OfficialID": "01594963", "FlagPAVICS": 0, "Source": "USGS", "Area": 11.033295 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -79.36945948834807, 39.282597717372902 ], [ -79.36945948834807, 39.312457842627104 ], [ -79.330873911651935, 39.312457842627104 ], [ -79.330873911651935, 39.282597717372902 ], [ -79.36945948834807, 39.282597717372902 ] ] ] } }
+]
+}

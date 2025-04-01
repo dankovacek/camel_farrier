@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02KA009",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TRIBUTARY TO PERCH LAKE INLET NO. 2 NEAR CHALK RIVER", "OfficialID": "02KA009", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 2.88 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -77.393209188722963, 46.03459209513283 ], [ -77.393209188722963, 46.049847904867171 ], [ -77.371230811277044, 46.049847904867171 ], [ -77.371230811277044, 46.03459209513283 ], [ -77.393209188722963, 46.03459209513283 ] ] ] } }
+]
+}

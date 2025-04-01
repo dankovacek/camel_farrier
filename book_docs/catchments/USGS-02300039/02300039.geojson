@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02300039",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NONSENSE CREEK NEAR BRADENTON FL", "OfficialID": "02300039", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.952572 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.47629748418295, 27.427040887057657 ], [ -82.47629748418295, 27.442487712942345 ], [ -82.458893315817036, 27.442487712942345 ], [ -82.458893315817036, 27.427040887057657 ], [ -82.47629748418295, 27.427040887057657 ] ] ] } }
+]
+}

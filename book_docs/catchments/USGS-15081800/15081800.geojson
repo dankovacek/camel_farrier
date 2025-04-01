@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15081800",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NB TROCADERO C NR HYDABURG AK", "OfficialID": "15081800", "FlagPAVICS": 0, "Source": "USGS", "Area": 45.065569 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -132.926950365083997, 55.330863199489258 ], [ -132.926950365083997, 55.391211000510737 ], [ -132.820779634915993, 55.391211000510737 ], [ -132.820779634915993, 55.330863199489258 ], [ -132.926950365083997, 55.330863199489258 ] ] ] } }
+]
+}

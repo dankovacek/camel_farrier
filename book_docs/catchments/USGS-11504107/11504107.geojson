@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11504107",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CROOKED CREEK NEAR FORT KLAMATH, OR", "OfficialID": "11504107", "FlagPAVICS": 0, "Source": "USGS", "Area": 14.711059 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -121.964833921958615, 42.600673248646451 ], [ -121.964833921958615, 42.635152751353552 ], [ -121.917979478041389, 42.635152751353552 ], [ -121.917979478041389, 42.600673248646451 ], [ -121.964833921958615, 42.600673248646451 ] ] ] } }
+]
+}

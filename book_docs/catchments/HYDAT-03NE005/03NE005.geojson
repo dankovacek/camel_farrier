@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03NE005",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BROOK AT OUTLET OF POND 56", "OfficialID": "03NE005", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 17.5 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -61.976163401455729, 56.342586960928308 ], [ -61.976163401455729, 56.380193039071692 ], [ -61.908276598544269, 56.380193039071692 ], [ -61.908276598544269, 56.342586960928308 ], [ -61.976163401455729, 56.342586960928308 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE111",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LITTLE SHEEP CREEK NEAR ROSSLAND", "OfficialID": "08NE111", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 1.27 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.835536185200681, 49.09326463337397 ], [ -117.835536185200681, 49.103395366626025 ], [ -117.820063814799312, 49.103395366626025 ], [ -117.820063814799312, 49.09326463337397 ], [ -117.835536185200681, 49.09326463337397 ] ] ] } }
+]
+}

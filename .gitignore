@@ -3,3 +3,5 @@ _build/
 _superseded/
 __pycache__/
 _static/
+input_data/WSC_basin_polygons_20220721/
+data/HYSETS_watershed_boundaries/

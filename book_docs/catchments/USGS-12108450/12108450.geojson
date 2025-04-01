@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12108450",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NEWAUKUM CREEK TRIBUTARY NEAR BLACK DIAMOND, WA", "OfficialID": "12108450", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.936762 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.040474296492633, 47.244238170917356 ], [ -122.040474296492633, 47.262074629082647 ], [ -122.014196303507376, 47.262074629082647 ], [ -122.014196303507376, 47.244238170917356 ], [ -122.040474296492633, 47.244238170917356 ] ] ] } }
+]
+}

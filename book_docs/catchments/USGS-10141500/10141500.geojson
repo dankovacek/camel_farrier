@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10141500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HOLMES CREEK NEAR KAYSVILLE, UTAH", "OfficialID": "10141500", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.449038 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -111.910354472468512, 41.043529410223414 ], [ -111.910354472468512, 41.066358389776582 ], [ -111.88008052753149, 41.066358389776582 ], [ -111.88008052753149, 41.043529410223414 ], [ -111.910354472468512, 41.043529410223414 ] ] ] } }
+]
+}

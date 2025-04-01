@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05406457",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BLACK EARTH CREEK NR BREWERY RD AT CROSS PLAINS,WI", "OfficialID": "05406457", "FlagPAVICS": 0, "Source": "USGS", "Area": 29.525718 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -89.674288130692887, 43.085298623792177 ], [ -89.674288130692887, 43.134145776207824 ], [ -89.607378469307108, 43.134145776207824 ], [ -89.607378469307108, 43.085298623792177 ], [ -89.674288130692887, 43.085298623792177 ] ] ] } }
+]
+}

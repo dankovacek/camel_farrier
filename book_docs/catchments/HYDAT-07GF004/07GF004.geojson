@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07GF004",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SPRING CREEK (UPPER) NEAR VALLEYVIEW", "OfficialID": "07GF004", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 33.4 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.750809336338435, 54.90346340295433 ], [ -117.750809336338435, 54.955416597045669 ], [ -117.660390663661573, 54.955416597045669 ], [ -117.660390663661573, 54.90346340295433 ], [ -117.750809336338435, 54.90346340295433 ] ] ] } }
+]
+}

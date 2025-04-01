@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15052475",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "JORDAN C BL EGAN DR NR AUKE BAY AK", "OfficialID": "15052475", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.733936 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -134.600130327695183, 58.354398307618979 ], [ -134.600130327695183, 58.377726092381025 ], [ -134.555653272304824, 58.377726092381025 ], [ -134.555653272304824, 58.354398307618979 ], [ -134.600130327695183, 58.354398307618979 ] ] ] } }
+]
+}

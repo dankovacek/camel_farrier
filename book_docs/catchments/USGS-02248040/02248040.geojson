@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02248040",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "B-19 CANAL AT SR415 AT PORT ORANGE, FL", "OfficialID": "02248040", "FlagPAVICS": 0, "Source": "USGS", "Area": 19.683812 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.047048499218818, 29.095319633532284 ], [ -81.047048499218818, 29.135203166467718 ], [ -81.001396500781169, 29.135203166467718 ], [ -81.001396500781169, 29.095319633532284 ], [ -81.047048499218818, 29.095319633532284 ] ] ] } }
+]
+}

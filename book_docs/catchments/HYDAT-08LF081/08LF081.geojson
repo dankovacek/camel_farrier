@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LF081",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "AMBUSTEN CREEK NEAR THE MOUTH", "OfficialID": "08LF081", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 32.9 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -121.616836559583945, 50.711158571737322 ], [ -121.616836559583945, 50.762721428262672 ], [ -121.535363440416049, 50.762721428262672 ], [ -121.535363440416049, 50.711158571737322 ], [ -121.616836559583945, 50.711158571737322 ] ] ] } }
+]
+}

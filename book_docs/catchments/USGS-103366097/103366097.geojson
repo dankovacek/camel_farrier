@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "103366097",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ANGORA CK NR MOUTH AT LAKE TAHOE GOLF COURSE", "OfficialID": "103366097", "FlagPAVICS": 0, "Source": "USGS", "Area": 15.021856 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -120.032376648824851, 38.856329090417624 ], [ -120.032376648824851, 38.891170909582378 ], [ -119.987623351175159, 38.891170909582378 ], [ -119.987623351175159, 38.856329090417624 ], [ -120.032376648824851, 38.856329090417624 ] ] ] } }
+]
+}

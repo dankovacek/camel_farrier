@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05010500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "North Fork Belly River at international boundary", "OfficialID": "05010500", "FlagPAVICS": 0, "Source": "USGS", "Area": 25.07096 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -113.797213147148057, 48.965741397231966 ], [ -113.797213147148057, 49.010753002768041 ], [ -113.728620252851954, 49.010753002768041 ], [ -113.728620252851954, 48.965741397231966 ], [ -113.797213147148057, 48.965741397231966 ] ] ] } }
+]
+}

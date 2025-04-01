@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10142000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "FARMINGTON CR ABV DIV NR FARMINGTON, UTAH", "OfficialID": "10142000", "FlagPAVICS": 0, "Source": "USGS", "Area": 25.899752 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -111.903582387101693, 40.978458395055668 ], [ -111.903582387101693, 41.024207944944337 ], [ -111.842962412898316, 41.024207944944337 ], [ -111.842962412898316, 40.978458395055668 ], [ -111.903582387101693, 40.978458395055668 ] ] ] } }
+]
+}

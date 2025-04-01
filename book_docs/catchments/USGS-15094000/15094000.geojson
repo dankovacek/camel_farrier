@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15094000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "DEER LK OUTLET NR PORT ALEXANDER AK", "OfficialID": "15094000", "FlagPAVICS": 0, "Source": "USGS", "Area": 19.191716 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -134.706901983287736, 56.499388843347724 ], [ -134.706901983287736, 56.53877067665227 ], [ -134.635514016712278, 56.53877067665227 ], [ -134.635514016712278, 56.499388843347724 ], [ -134.706901983287736, 56.499388843347724 ] ] ] } }
+]
+}

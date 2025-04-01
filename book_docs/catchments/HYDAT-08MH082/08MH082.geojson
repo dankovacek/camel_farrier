@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MH082",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MCLENNAN CREEK NEAR MOUNT LEHMAN", "OfficialID": "08MH082", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 9.07 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.384569341364852, 49.073133304255322 ], [ -122.384569341364852, 49.100206695744674 ], [ -122.34323065863515, 49.100206695744674 ], [ -122.34323065863515, 49.073133304255322 ], [ -122.384569341364852, 49.073133304255322 ] ] ] } }
+]
+}

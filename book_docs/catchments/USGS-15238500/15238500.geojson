@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15238500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LOWELL C AT SEWARD AK", "OfficialID": "15238500", "FlagPAVICS": 0, "Source": "USGS", "Area": 10.4117 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -149.474291976694559, 60.083545098945102 ], [ -149.474291976694559, 60.112551901054893 ], [ -149.416105823305458, 60.112551901054893 ], [ -149.416105823305458, 60.083545098945102 ], [ -149.474291976694559, 60.083545098945102 ] ] ] } }
+]
+}

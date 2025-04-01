@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11073493",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "W BR CUCAMONGA CHANNEL AB ELY PERC BASIN A ONTARIO", "OfficialID": "11073493", "FlagPAVICS": 0, "Source": "USGS", "Area": 15.565751 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.64145310150235, 34.019778416061946 ], [ -117.64145310150235, 34.05524538393805 ], [ -117.598653298497652, 34.05524538393805 ], [ -117.598653298497652, 34.019778416061946 ], [ -117.64145310150235, 34.019778416061946 ] ] ] } }
+]
+}

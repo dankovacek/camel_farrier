@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05OD029",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MAIN DRAIN NEAR FREDENSTHAL", "OfficialID": "05OD029", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 29.4 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -97.092181976134185, 49.020628475886866 ], [ -97.092181976134185, 49.069371524113137 ], [ -97.017818023865829, 49.069371524113137 ], [ -97.017818023865829, 49.020628475886866 ], [ -97.092181976134185, 49.020628475886866 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE120",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HILL CREEK AT MILL ROAD BRIDGE", "OfficialID": "08NE120", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 28.2 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.862065383962985, 50.651691035513565 ], [ -117.862065383962985, 50.69942896448643 ], [ -117.786734616037009, 50.69942896448643 ], [ -117.786734616037009, 50.651691035513565 ], [ -117.862065383962985, 50.651691035513565 ] ] ] } }
+]
+}

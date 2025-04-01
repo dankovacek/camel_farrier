@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01644380",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CABIN BRANCH NEAR BOYDS, MD", "OfficialID": "01644380", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.04608 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -77.29688067380917, 39.200181701041195 ], [ -77.29688067380917, 39.213040498958811 ], [ -77.280285926190828, 39.213040498958811 ], [ -77.280285926190828, 39.200181701041195 ], [ -77.29688067380917, 39.200181701041195 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05078730",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "COUNTY DITCH 140 NEAR BENOIT, MN (SW1)", "OfficialID": "05078730", "FlagPAVICS": 0, "Source": "USGS", "Area": 30.561708 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -96.409690056072847, 47.662651634099412 ], [ -96.409690056072847, 47.712348365900588 ], [ -96.335865543927142, 47.712348365900588 ], [ -96.335865543927142, 47.662651634099412 ], [ -96.409690056072847, 47.662651634099412 ] ] ] } }
+]
+}

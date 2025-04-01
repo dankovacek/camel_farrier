@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11215800",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TEAKETTLE C A SITE NO3 NR DINKEY CREEK CA", "OfficialID": "11215800", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.227379 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.035730179537651, 36.954349039177664 ], [ -119.035730179537651, 36.96776544082234 ], [ -119.018939620462348, 36.96776544082234 ], [ -119.018939620462348, 36.954349039177664 ], [ -119.035730179537651, 36.954349039177664 ] ] ] } }
+]
+}

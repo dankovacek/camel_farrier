@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10281800",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "INDEPENDENCE C BL PINYON C NR INDEPENDENCE CA", "OfficialID": "10281800", "FlagPAVICS": 0, "Source": "USGS", "Area": 46.878552 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -118.302963880068575, 36.747768937773749 ], [ -118.302963880068575, 36.809318662226254 ], [ -118.226118519931418, 36.809318662226254 ], [ -118.226118519931418, 36.747768937773749 ], [ -118.302963880068575, 36.747768937773749 ] ] ] } }
+]
+}

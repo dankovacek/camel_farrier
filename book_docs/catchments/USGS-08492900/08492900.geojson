@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08492900",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SACRAMENTO R NEAR SUNSPOT, NM", "OfficialID": "08492900", "FlagPAVICS": 0, "Source": "USGS", "Area": 32.892685 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -105.785337969764754, 32.688205037830677 ], [ -105.785337969764754, 32.73976216216932 ], [ -105.724061030235248, 32.73976216216932 ], [ -105.724061030235248, 32.688205037830677 ], [ -105.785337969764754, 32.688205037830677 ] ] ] } }
+]
+}

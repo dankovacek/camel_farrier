@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02197306",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TIMS BRANCH AT ROAD 2 AT SRS, SC", "OfficialID": "02197306", "FlagPAVICS": 0, "Source": "USGS", "Area": 35.741658 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.745046792910657, 33.291328393845816 ], [ -81.745046792910657, 33.345071946154178 ], [ -81.680732007089333, 33.345071946154178 ], [ -81.680732007089333, 33.291328393845816 ], [ -81.745046792910657, 33.291328393845816 ] ] ] } }
+]
+}

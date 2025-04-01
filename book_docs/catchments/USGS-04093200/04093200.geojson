@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04093200",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LITTLE CALUMET RIVER AT GARY, IN", "OfficialID": "04093200", "FlagPAVICS": 0, "Source": "USGS", "Area": 15.073656 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -87.343641380964925, 41.554529970215221 ], [ -87.343641380964925, 41.589431809784777 ], [ -87.296988819035079, 41.589431809784777 ], [ -87.296988819035079, 41.554529970215221 ], [ -87.343641380964925, 41.554529970215221 ] ] ] } }
+]
+}

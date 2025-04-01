@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01105885",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "RED BROOK BELOW RT 25 NEAR WAREHAM, MA", "OfficialID": "01105885", "FlagPAVICS": 0, "Source": "USGS", "Area": 23.672374 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -70.659634551430926, 41.753791249483776 ], [ -70.659634551430926, 41.797529350516221 ], [ -70.600985448569062, 41.797529350516221 ], [ -70.600985448569062, 41.753791249483776 ], [ -70.659634551430926, 41.753791249483776 ] ] ] } }
+]
+}

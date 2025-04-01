@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MG009",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WEAVER CREEK NEAR HARRISON HOT SPRINGS", "OfficialID": "08MG009", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 42.2 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -121.925895894357822, 49.291911183443162 ], [ -121.925895894357822, 49.350308816556833 ], [ -121.836304105642185, 49.350308816556833 ], [ -121.836304105642185, 49.291911183443162 ], [ -121.925895894357822, 49.291911183443162 ] ] ] } }
+]
+}

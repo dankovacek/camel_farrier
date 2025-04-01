@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15081614",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HALFMILE C AB DIVERSION NR KLAWOCK AK", "OfficialID": "15081614", "FlagPAVICS": 0, "Source": "USGS", "Area": 12.250583 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -133.046435226137874, 55.541140744571422 ], [ -133.046435226137874, 55.572604995428577 ], [ -132.990804173862102, 55.572604995428577 ], [ -132.990804173862102, 55.541140744571422 ], [ -133.046435226137874, 55.541140744571422 ] ] ] } }
+]
+}

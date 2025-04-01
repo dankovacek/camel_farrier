@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HB045",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GRAHAM CREEK AT THE MOUTH", "OfficialID": "08HB045", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 3.37 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -124.74380687509688, 49.498418669655393 ], [ -124.74380687509688, 49.514921330344606 ], [ -124.718393124903116, 49.514921330344606 ], [ -124.718393124903116, 49.498418669655393 ], [ -124.74380687509688, 49.498418669655393 ] ] ] } }
+]
+}

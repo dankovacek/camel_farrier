@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02393419",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ALLATOONA CREEK AT STILESBORO RD, NEAR ACWORTH, GA", "OfficialID": "02393419", "FlagPAVICS": 0, "Source": "USGS", "Area": 38.331633 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -84.726620807242554, 33.967449415215924 ], [ -84.726620807242554, 34.02310614478408 ], [ -84.659490392757434, 34.02310614478408 ], [ -84.659490392757434, 33.967449415215924 ], [ -84.726620807242554, 33.967449415215924 ] ] ] } }
+]
+}

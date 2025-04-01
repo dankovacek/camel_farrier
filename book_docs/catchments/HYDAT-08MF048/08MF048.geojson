@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MF048",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ELK CREEK AT PRAIRIE CENTRAL ROAD", "OfficialID": "08MF048", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 11.9 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -121.857003741486494, 49.130604616764955 ], [ -121.857003741486494, 49.161615383235045 ], [ -121.809596258513494, 49.161615383235045 ], [ -121.809596258513494, 49.130604616764955 ], [ -121.857003741486494, 49.130604616764955 ] ] ] } }
+]
+}

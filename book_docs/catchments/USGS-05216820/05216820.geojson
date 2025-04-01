@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05216820",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "INITIAL TAILINGS BASIN OUTFALL NR KEEWATIN, MN", "OfficialID": "05216820", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.474938 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -93.049859193371006, 47.360719282527839 ], [ -93.049859193371006, 47.383594057472166 ], [ -93.016082406628996, 47.383594057472166 ], [ -93.016082406628996, 47.360719282527839 ], [ -93.049859193371006, 47.360719282527839 ] ] ] } }
+]
+}

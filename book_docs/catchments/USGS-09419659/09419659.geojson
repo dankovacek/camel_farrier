@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09419659",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SLOAN CHANNEL TRIB AT LAS VEGAS BLVD NR N LV", "OfficialID": "09419659", "FlagPAVICS": 0, "Source": "USGS", "Area": 45.350466 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -115.11180439060071, 36.198372542482872 ], [ -115.11180439060071, 36.258910797517132 ], [ -115.036756809399279, 36.258910797517132 ], [ -115.036756809399279, 36.198372542482872 ], [ -115.11180439060071, 36.198372542482872 ] ] ] } }
+]
+}

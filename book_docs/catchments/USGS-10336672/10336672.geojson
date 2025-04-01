@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10336672",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WARD C TRIB NR TAHOE PINES CA", "OfficialID": "10336672", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.305078 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -120.2281589040185, 39.134471398635803 ], [ -120.2281589040185, 39.148119801364196 ], [ -120.210561495981494, 39.148119801364196 ], [ -120.210561495981494, 39.134471398635803 ], [ -120.2281589040185, 39.134471398635803 ] ] ] } }
+]
+}

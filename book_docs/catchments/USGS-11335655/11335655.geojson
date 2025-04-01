@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11335655",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "DEER C NR CAMERON PARK CA", "OfficialID": "11335655", "FlagPAVICS": 0, "Source": "USGS", "Area": 26.676745 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -121.023326270974295, 38.600673528951411 ], [ -121.023326270974295, 38.647104251048596 ], [ -120.963895729025708, 38.647104251048596 ], [ -120.963895729025708, 38.600673528951411 ], [ -121.023326270974295, 38.600673528951411 ] ] ] } }
+]
+}

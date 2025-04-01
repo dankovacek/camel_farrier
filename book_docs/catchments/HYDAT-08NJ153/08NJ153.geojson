@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ153",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SUTHERLAND CREEK ABOVE POWER LINE", "OfficialID": "08NJ153", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 1.86 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.299141679764418, 49.508309929118582 ], [ -117.299141679764418, 49.520570070881419 ], [ -117.280258320235575, 49.520570070881419 ], [ -117.280258320235575, 49.508309929118582 ], [ -117.299141679764418, 49.508309929118582 ] ] ] } }
+]
+}

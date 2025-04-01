@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05OJ013",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TOWNSHIP LINE DRAIN NEAR LIBAU", "OfficialID": "05OJ013", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 12.8 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -96.750138408291988, 50.214478964563106 ], [ -96.750138408291988, 50.246641035436888 ], [ -96.699861591708, 50.246641035436888 ], [ -96.699861591708, 50.214478964563106 ], [ -96.750138408291988, 50.214478964563106 ] ] ] } }
+]
+}

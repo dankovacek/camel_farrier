@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "415311088032902",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SUBMERGED OUTLET OF LAKE ELLYN AT GLEN ELLYN, IL", "OfficialID": "415311088032902", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.201479 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -88.067081167696642, 41.879749064384704 ], [ -88.067081167696642, 41.89308723561529 ], [ -88.049164832303347, 41.89308723561529 ], [ -88.049164832303347, 41.879749064384704 ], [ -88.067081167696642, 41.879749064384704 ] ] ] } }
+]
+}

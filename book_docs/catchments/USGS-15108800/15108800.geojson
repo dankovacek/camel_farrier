@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15108800",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LAWSON C AT DOUGLAS AK", "OfficialID": "15108800", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.718126 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -134.436634613521278, 58.271906963037964 ], [ -134.436634613521278, 58.296881356962032 ], [ -134.389127986478741, 58.296881356962032 ], [ -134.389127986478741, 58.271906963037964 ], [ -134.436634613521278, 58.271906963037964 ] ] ] } }
+]
+}

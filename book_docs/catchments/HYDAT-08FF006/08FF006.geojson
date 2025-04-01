@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08FF006",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "RENEGADE CREEK NEAR KITIMAT", "OfficialID": "08FF006", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 3.19 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -128.7511412185913, 53.940882055420936 ], [ -128.7511412185913, 53.95693794457906 ], [ -128.723858781408723, 53.95693794457906 ], [ -128.723858781408723, 53.940882055420936 ], [ -128.7511412185913, 53.940882055420936 ] ] ] } }
+]
+}

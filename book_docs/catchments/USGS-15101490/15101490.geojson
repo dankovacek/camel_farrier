@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15101490",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GREENS C AT GREENS CREEK MINE NR JUNEAU AK", "OfficialID": "15101490", "FlagPAVICS": 0, "Source": "USGS", "Area": 22.325587 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -134.673615479448898, 58.061760524219743 ], [ -134.673615479448898, 58.104236215780254 ], [ -134.593274120551115, 58.104236215780254 ], [ -134.593274120551115, 58.061760524219743 ], [ -134.673615479448898, 58.061760524219743 ] ] ] } }
+]
+}

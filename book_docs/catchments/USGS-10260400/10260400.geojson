@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10260400",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CUSHENBURY C NR LUCERNE VALLEY CA", "OfficialID": "10260400", "FlagPAVICS": 0, "Source": "USGS", "Area": 16.472242 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -116.867959153024486, 34.329539056616809 ], [ -116.867959153024486, 34.366024143383186 ], [ -116.823768446975521, 34.366024143383186 ], [ -116.823768446975521, 34.329539056616809 ], [ -116.867959153024486, 34.329539056616809 ] ] ] } }
+]
+}

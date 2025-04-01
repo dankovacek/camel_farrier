@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05PD015",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LAKE 240 OUTLET NEAR KENORA", "OfficialID": "05PD015", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 7.25 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -93.744801690180893, 49.635677418178858 ], [ -93.744801690180893, 49.659882581821137 ], [ -93.707418309819118, 49.659882581821137 ], [ -93.707418309819118, 49.635677418178858 ], [ -93.744801690180893, 49.635677418178858 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03111675",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Job Creek at Delphene, PA", "OfficialID": "03111675", "FlagPAVICS": 0, "Source": "USGS", "Area": 17.042037 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -80.407497919955517, 39.818111293250389 ], [ -80.407497919955517, 39.85522204674961 ], [ -80.35916868004449, 39.85522204674961 ], [ -80.35916868004449, 39.818111293250389 ], [ -80.407497919955517, 39.818111293250389 ] ] ] } }
+]
+}

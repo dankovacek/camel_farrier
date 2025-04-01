@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15297482",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "FALLS C NR PORT LIONS AK", "OfficialID": "15297482", "FlagPAVICS": 0, "Source": "USGS", "Area": 11.136894 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -152.963604681850967, 57.653133766954532 ], [ -152.963604681850967, 57.683133753045475 ], [ -152.907511318149005, 57.683133753045475 ], [ -152.907511318149005, 57.653133766954532 ], [ -152.963604681850967, 57.653133766954532 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02248060",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TURNBULL CREEK NEAR NEW SMYRNA BEACH, FL", "OfficialID": "02248060", "FlagPAVICS": 0, "Source": "USGS", "Area": 29.26672 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -80.987314909568511, 29.026780080690827 ], [ -80.987314909568511, 29.075412519309175 ], [ -80.931683290431494, 29.075412519309175 ], [ -80.931683290431494, 29.026780080690827 ], [ -80.987314909568511, 29.026780080690827 ] ] ] } }
+]
+}

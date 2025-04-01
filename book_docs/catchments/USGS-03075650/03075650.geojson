@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03075650",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HAYES RUN NR CRANESVILLE, WV", "OfficialID": "03075650", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.408677 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -79.496589465701888, 39.52505763119575 ], [ -79.496589465701888, 39.539009368804244 ], [ -79.478500134298102, 39.539009368804244 ], [ -79.478500134298102, 39.52505763119575 ], [ -79.496589465701888, 39.52505763119575 ] ] ] } }
+]
+}

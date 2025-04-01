@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15085800",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MAYBESO C AT HOLLIS AK", "OfficialID": "15085800", "FlagPAVICS": 0, "Source": "USGS", "Area": 39.108626 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -132.726540566761969, 55.462090005951502 ], [ -132.726540566761969, 55.518307994048492 ], [ -132.627311433238049, 55.518307994048492 ], [ -132.627311433238049, 55.462090005951502 ], [ -132.726540566761969, 55.462090005951502 ] ] ] } }
+]
+}

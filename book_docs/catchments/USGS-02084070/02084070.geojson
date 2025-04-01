@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02084070",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GREEN MILL RN AT ARLINGTON BLVD AT GREENVILLE, NC", "OfficialID": "02084070", "FlagPAVICS": 0, "Source": "USGS", "Area": 23.568775 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -77.405872835767653, 35.56921774545701 ], [ -77.405872835767653, 35.61286003454299 ], [ -77.352204944232355, 35.61286003454299 ], [ -77.352204944232355, 35.56921774545701 ], [ -77.405872835767653, 35.56921774545701 ] ] ] } }
+]
+}

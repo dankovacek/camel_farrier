@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15303100",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "EAST C NR DILLINGHAM AK", "OfficialID": "15303100", "FlagPAVICS": 0, "Source": "USGS", "Area": 5.490747 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -158.854153516050417, 59.180941442667013 ], [ -158.854153516050417, 59.202006117332992 ], [ -158.813025283949571, 59.202006117332992 ], [ -158.813025283949571, 59.180941442667013 ], [ -158.854153516050417, 59.180941442667013 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01126200",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BUCKS HORN BROOK AT GREENE, RI", "OfficialID": "01126200", "FlagPAVICS": 0, "Source": "USGS", "Area": 14.296663 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -71.766161979112567, 41.676159696515718 ], [ -71.766161979112567, 41.710150103484288 ], [ -71.720642220887427, 41.710150103484288 ], [ -71.720642220887427, 41.676159696515718 ], [ -71.766161979112567, 41.676159696515718 ] ] ] } }
+]
+}

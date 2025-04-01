@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02FF006",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SHIPKA CREEK NEAR GRAND BEND", "OfficialID": "02FF006", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 33.7 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.785836686548464, 43.245847002384572 ], [ -81.785836686548464, 43.298032997615429 ], [ -81.714163313451536, 43.298032997615429 ], [ -81.714163313451536, 43.245847002384572 ], [ -81.785836686548464, 43.245847002384572 ] ] ] } }
+]
+}

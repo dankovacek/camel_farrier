@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "040871473",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WILSON PARK CREEK AT GMIA INFALL AT MILWAUKEE, WI", "OfficialID": "040871473", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.305078 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -87.895433677114866, 42.938175798635804 ], [ -87.895433677114866, 42.951824201364197 ], [ -87.876788522885121, 42.951824201364197 ], [ -87.876788522885121, 42.938175798635804 ], [ -87.895433677114866, 42.938175798635804 ] ] ] } }
+]
+}

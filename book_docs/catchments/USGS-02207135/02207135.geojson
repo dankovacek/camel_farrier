@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02207135",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LITTLE STONE MTN CR NEAR STONE MOUNTAIN, GA", "OfficialID": "02207135", "FlagPAVICS": 0, "Source": "USGS", "Area": 5.697946 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -84.152277286167092, 33.819931359509866 ], [ -84.152277286167092, 33.841389800490134 ], [ -84.126445113832901, 33.841389800490134 ], [ -84.126445113832901, 33.819931359509866 ], [ -84.152277286167092, 33.819931359509866 ] ] ] } }
+]
+}

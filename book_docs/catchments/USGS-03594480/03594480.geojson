@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03594480",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TURKEY CREEK NEAR DECATURVILLE, TN (TVA)", "OfficialID": "03594480", "FlagPAVICS": 0, "Source": "USGS", "Area": 21.755792 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -88.164700080874226, 35.554105772462506 ], [ -88.164700080874226, 35.5960359275375 ], [ -88.11314791912578, 35.5960359275375 ], [ -88.11314791912578, 35.554105772462506 ], [ -88.164700080874226, 35.554105772462506 ] ] ] } }
+]
+}

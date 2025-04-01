@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11437000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CAPLES LK OUTLET NR KIRKWOOD CA", "OfficialID": "11437000", "FlagPAVICS": 0, "Source": "USGS", "Area": 34.964666 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -120.085077470873046, 38.681385173277704 ], [ -120.085077470873046, 38.734541346722295 ], [ -120.016958529126953, 38.734541346722295 ], [ -120.016958529126953, 38.681385173277704 ], [ -120.085077470873046, 38.681385173277704 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03361638",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LEARY-WEBER DITCH AT MOHAWK, IN", "OfficialID": "03361638", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.226031 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -85.840715632388523, 39.830459340804104 ], [ -85.840715632388523, 39.854624459195897 ], [ -85.80924276761148, 39.854624459195897 ], [ -85.80924276761148, 39.830459340804104 ], [ -85.840715632388523, 39.830459340804104 ] ] ] } }
+]
+}

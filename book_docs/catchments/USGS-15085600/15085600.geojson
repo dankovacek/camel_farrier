@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15085600",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "INDIAN C NR HOLLIS AK", "OfficialID": "15085600", "FlagPAVICS": 0, "Source": "USGS", "Area": 22.843582 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -132.734249817388189, 55.427606248266869 ], [ -132.734249817388189, 55.470571871733128 ], [ -132.658491182611812, 55.470571871733128 ], [ -132.658491182611812, 55.427606248266869 ], [ -132.734249817388189, 55.427606248266869 ] ] ] } }
+]
+}

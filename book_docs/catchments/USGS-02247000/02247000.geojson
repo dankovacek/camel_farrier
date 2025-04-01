@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02247000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MOULTRIE CREEK NR ST. AUGUSTINE, FLA.", "OfficialID": "02247000", "FlagPAVICS": 0, "Source": "USGS", "Area": 29.007723 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.376867104589351, 29.803816543680291 ], [ -81.376867104589351, 29.852233316319712 ], [ -81.321056695410661, 29.852233316319712 ], [ -81.321056695410661, 29.803816543680291 ], [ -81.376867104589351, 29.803816543680291 ] ] ] } }
+]
+}

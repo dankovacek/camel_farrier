@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "13075983",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SPRING CREEK AT SHEEPSKIN RD NR FORT HALL ID", "OfficialID": "13075983", "FlagPAVICS": 0, "Source": "USGS", "Area": 46.619554 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -112.591991969723338, 43.011810268952672 ], [ -112.591991969723338, 43.073189731047322 ], [ -112.508008030276656, 43.073189731047322 ], [ -112.508008030276656, 43.011810268952672 ], [ -112.591991969723338, 43.011810268952672 ] ] ] } }
+]
+}

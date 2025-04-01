@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01349541",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SUGARLOAF BROOK SOUTH OF TANNERSVILLE NY", "OfficialID": "01349541", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.900772 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -74.133380468334366, 42.137344636075248 ], [ -74.133380468334366, 42.152655363924758 ], [ -74.112730731665636, 42.152655363924758 ], [ -74.112730731665636, 42.137344636075248 ], [ -74.133380468334366, 42.137344636075248 ] ] ] } }
+]
+}

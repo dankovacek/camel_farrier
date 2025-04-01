@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15081580",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BLACK BEAR LK OUTLET NR KLAWOCK AK", "OfficialID": "15081580", "FlagPAVICS": 0, "Source": "USGS", "Area": 4.713755 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -132.894736276639406, 55.546824887491006 ], [ -132.894736276639406, 55.566342312509001 ], [ -132.860228323360587, 55.566342312509001 ], [ -132.860228323360587, 55.546824887491006 ], [ -132.894736276639406, 55.546824887491006 ] ] ] } }
+]
+}

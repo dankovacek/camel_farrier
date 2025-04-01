@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11119760",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "VICTORIA ST DRAIN A OUTLET NR SANTA BARBARA CA", "OfficialID": "11119760", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.605785 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.718015622465401, 34.413748666972332 ], [ -119.718015622465401, 34.425140213027667 ], [ -119.704206377534604, 34.425140213027667 ], [ -119.704206377534604, 34.413748666972332 ], [ -119.718015622465401, 34.413748666972332 ] ] ] } }
+]
+}

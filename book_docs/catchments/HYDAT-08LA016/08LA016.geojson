@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LA016",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CANDLE CREEK NEAR CLEARWATER STATION", "OfficialID": "08LA016", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 25.1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -120.04052584550422, 51.66776116675679 ], [ -120.04052584550422, 51.712798833243212 ], [ -119.967874154495775, 51.712798833243212 ], [ -119.967874154495775, 51.66776116675679 ], [ -120.04052584550422, 51.66776116675679 ] ] ] } }
+]
+}

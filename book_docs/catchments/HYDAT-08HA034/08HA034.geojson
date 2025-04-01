@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HA034",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CRAIGFLOWER CREEK BELOW BURNSIDE ROAD, VICTORIA", "OfficialID": "08HA034", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 13.5 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -123.463505488203538, 48.446545101518453 ], [ -123.463505488203538, 48.479574898481545 ], [ -123.41369451179645, 48.479574898481545 ], [ -123.41369451179645, 48.446545101518453 ], [ -123.463505488203538, 48.446545101518453 ] ] ] } }
+]
+}

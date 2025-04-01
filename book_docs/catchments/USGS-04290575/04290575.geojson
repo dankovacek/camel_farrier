@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04290575",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "INDIAN BROOK NEAR ESSEX JUNCTION, VT", "OfficialID": "04290575", "FlagPAVICS": 0, "Source": "USGS", "Area": 16.78304 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.143597647672493, 44.488530561371604 ], [ -73.143597647672493, 44.525358238628399 ], [ -73.091957912327501, 44.525358238628399 ], [ -73.091957912327501, 44.488530561371604 ], [ -73.143597647672493, 44.488530561371604 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH070",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HENDRYX CREEK NEAR RIONDEL", "OfficialID": "08NH070", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 5.18 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -116.866938072620457, 49.755880040743669 ], [ -116.866938072620457, 49.776339959256326 ], [ -116.835261927379548, 49.776339959256326 ], [ -116.835261927379548, 49.755880040743669 ], [ -116.866938072620457, 49.755880040743669 ] ] ] } }
+]
+}

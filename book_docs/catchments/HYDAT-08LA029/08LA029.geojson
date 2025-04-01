@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LA029",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "JUDSON CREEK NEAR THE MOUTH", "OfficialID": "08LA029", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 20.1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -120.831320922429015, 51.54984851512814 ], [ -120.831320922429015, 51.590151484871861 ], [ -120.766479077570992, 51.590151484871861 ], [ -120.766479077570992, 51.54984851512814 ], [ -120.831320922429015, 51.54984851512814 ] ] ] } }
+]
+}

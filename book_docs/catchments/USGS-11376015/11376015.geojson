@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11376015",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NF BATTLE C BL N BATTLE C DAM NR MANZANITA LAKE CA", "OfficialID": "11376015", "FlagPAVICS": 0, "Source": "USGS", "Area": 16.575842 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -121.679922177763032, 40.584357980044537 ], [ -121.679922177763032, 40.620957619955469 ], [ -121.631716622236965, 40.620957619955469 ], [ -121.631716622236965, 40.584357980044537 ], [ -121.679922177763032, 40.584357980044537 ] ] ] } }
+]
+}

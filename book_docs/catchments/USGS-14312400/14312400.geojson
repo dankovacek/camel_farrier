@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "14312400",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SILENT CREEK NEAR DIAMOND LAKE, OREG.", "OfficialID": "14312400", "FlagPAVICS": 0, "Source": "USGS", "Area": 21.341396 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.188759654418902, 43.105750849829256 ], [ -122.188759654418902, 43.147279750170746 ], [ -122.131858745581098, 43.147279750170746 ], [ -122.131858745581098, 43.105750849829256 ], [ -122.188759654418902, 43.105750849829256 ] ] ] } }
+]
+}

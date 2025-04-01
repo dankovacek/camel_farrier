@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10259600",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "COTTONWOOD WASH NR COTTONWOOD SPRINGS CA", "OfficialID": "10259600", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.683484 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -115.834228969086183, 33.738629693809486 ], [ -115.834228969086183, 33.750293586190509 ], [ -115.820201830913817, 33.750293586190509 ], [ -115.820201830913817, 33.738629693809486 ], [ -115.834228969086183, 33.738629693809486 ] ] ] } }
+]
+}

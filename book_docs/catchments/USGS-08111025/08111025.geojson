@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08111025",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Burton Ck at Villa Maria Rd, Bryan, TX", "OfficialID": "08111025", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.444667 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -96.359381481996508, 30.63824522056899 ], [ -96.359381481996508, 30.654929699431008 ], [ -96.339988318003492, 30.654929699431008 ], [ -96.339988318003492, 30.63824522056899 ], [ -96.359381481996508, 30.63824522056899 ] ] ] } }
+]
+}

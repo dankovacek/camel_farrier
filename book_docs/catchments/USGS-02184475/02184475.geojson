@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02184475",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HOWARD CREEK NEAR JOCASSEE, SC", "OfficialID": "02184475", "FlagPAVICS": 0, "Source": "USGS", "Area": 5.594347 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.979514200398881, 35.006128035311086 ], [ -82.979514200398881, 35.027390504688917 ], [ -82.95355219960112, 35.027390504688917 ], [ -82.95355219960112, 35.006128035311086 ], [ -82.979514200398881, 35.006128035311086 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ049",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MORLEY CREEK NEAR NELSON", "OfficialID": "08NJ049", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 1.19 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.170666394225393, 49.602036767298351 ], [ -117.170666394225393, 49.611843232701652 ], [ -117.155533605774608, 49.611843232701652 ], [ -117.155533605774608, 49.602036767298351 ], [ -117.170666394225393, 49.602036767298351 ] ] ] } }
+]
+}

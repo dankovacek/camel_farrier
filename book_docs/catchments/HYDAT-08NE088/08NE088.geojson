@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE088",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CHINA CREEK NEAR CHINA CREEK", "OfficialID": "08NE088", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 28.5 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.72844368381449, 49.203784408818706 ], [ -117.72844368381449, 49.2517755911813 ], [ -117.654956316185505, 49.2517755911813 ], [ -117.654956316185505, 49.203784408818706 ], [ -117.72844368381449, 49.203784408818706 ] ] ] } }
+]
+}

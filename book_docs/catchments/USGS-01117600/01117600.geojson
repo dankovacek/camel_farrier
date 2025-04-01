@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01117600",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MEADOW BROOK NEAR CAROLINA, RI", "OfficialID": "01117600", "FlagPAVICS": 0, "Source": "USGS", "Area": 14.322563 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -71.712766339022963, 41.449478309275371 ], [ -71.712766339022963, 41.483499490724633 ], [ -71.667365000977028, 41.483499490724633 ], [ -71.667365000977028, 41.449478309275371 ], [ -71.712766339022963, 41.449478309275371 ] ] ] } }
+]
+}

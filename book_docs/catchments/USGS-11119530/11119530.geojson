@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11119530",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "FRANKLIN C A CARPINTERIA CA", "OfficialID": "11119530", "FlagPAVICS": 0, "Source": "USGS", "Area": 9.220312 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.53555406553221, 34.390513087271607 ], [ -119.53555406553221, 34.417809892728393 ], [ -119.502469934467797, 34.417809892728393 ], [ -119.502469934467797, 34.390513087271607 ], [ -119.53555406553221, 34.390513087271607 ] ] ] } }
+]
+}

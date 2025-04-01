@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05BF017",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MIDDLE FORK CREEK NEAR SEEBE", "OfficialID": "05BF017", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 2.85 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -115.183147037681806, 50.951851927806487 ], [ -115.183147037681806, 50.967028072193514 ], [ -115.159052962318185, 50.967028072193514 ], [ -115.159052962318185, 50.951851927806487 ], [ -115.183147037681806, 50.951851927806487 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11181335",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CALDECOTT C A LK TEMESCAL AT OAKLAND CA", "OfficialID": "11181335", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.149679 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.237202603609049, 37.840002941254831 ], [ -122.237202603609049, 37.853183258745169 ], [ -122.220511396390961, 37.853183258745169 ], [ -122.220511396390961, 37.840002941254831 ], [ -122.237202603609049, 37.840002941254831 ] ] ] } }
+]
+}

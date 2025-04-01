@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LF091",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HELLER CREEK ABOVE DIVERSIONS", "OfficialID": "08LF091", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 46.6 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -120.802367042766207, 50.979596705922553 ], [ -120.802367042766207, 51.04096329407745 ], [ -120.704832957233805, 51.04096329407745 ], [ -120.704832957233805, 50.979596705922553 ], [ -120.802367042766207, 50.979596705922553 ] ] ] } }
+]
+}

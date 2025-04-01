@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05078470",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "JUDICIAL DITCH 64 NEAR MENTOR, MN (SW4)", "OfficialID": "05078470", "FlagPAVICS": 0, "Source": "USGS", "Area": 24.863762 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -96.235826078341418, 47.715365169362151 ], [ -96.235826078341418, 47.760190390637852 ], [ -96.169173921658583, 47.760190390637852 ], [ -96.169173921658583, 47.715365169362151 ], [ -96.235826078341418, 47.715365169362151 ] ] ] } }
+]
+}

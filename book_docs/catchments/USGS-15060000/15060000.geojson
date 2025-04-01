@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15060000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "PERSEVERANCE C NR WACKER AK", "OfficialID": "15060000", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.27783 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -131.691101309573554, 55.398635611473892 ], [ -131.691101309573554, 55.422887188526104 ], [ -131.648381490426431, 55.422887188526104 ], [ -131.648381490426431, 55.398635611473892 ], [ -131.691101309573554, 55.398635611473892 ] ] ] } }
+]
+}

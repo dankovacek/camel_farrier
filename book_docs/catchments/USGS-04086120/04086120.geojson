@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04086120",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WEST BRANCH MILWAUKEE RIVER @ CTH K NEAR LOMIRA,WI", "OfficialID": "04086120", "FlagPAVICS": 0, "Source": "USGS", "Area": 30.30271 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -88.435014289865251, 43.599701587807047 ], [ -88.435014289865251, 43.649187292192948 ], [ -88.366652310134754, 43.649187292192948 ], [ -88.366652310134754, 43.599701587807047 ], [ -88.435014289865251, 43.599701587807047 ] ] ] } }
+]
+}

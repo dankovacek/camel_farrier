@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15086600",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BIG C NR POINT BAKER AK", "OfficialID": "15086600", "FlagPAVICS": 0, "Source": "USGS", "Area": 29.007723 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -133.194044665264244, 56.107102813680285 ], [ -133.194044665264244, 56.155519586319713 ], [ -133.107165934735747, 56.155519586319713 ], [ -133.107165934735747, 56.107102813680285 ], [ -133.194044665264244, 56.107102813680285 ] ] ] } }
+]
+}

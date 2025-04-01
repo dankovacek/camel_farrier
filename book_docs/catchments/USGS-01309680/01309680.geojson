@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01309680",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SEAFORD CREEK AT MASSAPEQUA (SF8)", "OfficialID": "01309680", "FlagPAVICS": 0, "Source": "USGS", "Area": 5.827444 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.496249773400194, 40.658038431531821 ], [ -73.496249773400194, 40.679739348468175 ], [ -73.467639026599812, 40.679739348468175 ], [ -73.467639026599812, 40.658038431531821 ], [ -73.496249773400194, 40.658038431531821 ] ] ] } }
+]
+}

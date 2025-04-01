@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05EB910",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "POINTE-AUX-PINS TRIBUTARY NO. 2 NEAR ARDROSSAN", "OfficialID": "05EB910", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 8.1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -113.169152897889361, 53.578987614643331 ], [ -113.169152897889361, 53.604572385356668 ], [ -113.126047102110633, 53.604572385356668 ], [ -113.126047102110633, 53.578987614643331 ], [ -113.169152897889361, 53.578987614643331 ] ] ] } }
+]
+}

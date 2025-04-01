@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15052495",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NUGGET C AB DIV NR AUKE BAY AK", "OfficialID": "15052495", "FlagPAVICS": 0, "Source": "USGS", "Area": 40.921609 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -134.580299773573046, 58.394533953747271 ], [ -134.580299773573046, 58.452040246252736 ], [ -134.470479426426976, 58.452040246252736 ], [ -134.470479426426976, 58.394533953747271 ], [ -134.580299773573046, 58.394533953747271 ] ] ] } }
+]
+}

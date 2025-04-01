@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08OA005",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TARUNDL CREEK NEAR QUEEN CHARLOTTE", "OfficialID": "08OA005", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 10.6 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -132.172354799041443, 53.22935603686075 ], [ -132.172354799041443, 53.258623963139243 ], [ -132.123445200958543, 53.258623963139243 ], [ -132.123445200958543, 53.22935603686075 ], [ -132.172354799041443, 53.22935603686075 ] ] ] } }
+]
+}

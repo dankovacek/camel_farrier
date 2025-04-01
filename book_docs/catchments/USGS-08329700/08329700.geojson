@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08329700",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CAMPUS WASH AT ALBUQUERQUE, NM", "OfficialID": "08329700", "FlagPAVICS": 0, "Source": "USGS", "Area": 9.841906 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -106.640844989021318, 35.079787931701844 ], [ -106.640844989021318, 35.10798984829816 ], [ -106.606377210978692, 35.10798984829816 ], [ -106.606377210978692, 35.079787931701844 ], [ -106.640844989021318, 35.079787931701844 ] ] ] } }
+]
+}

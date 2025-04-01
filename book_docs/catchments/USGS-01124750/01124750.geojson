@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01124750",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BROWNS BROOK NEAR WEBSTER, MA", "OfficialID": "01124750", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.269088 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -71.837168561773368, 42.051699742714852 ], [ -71.837168561773368, 42.061826837285146 ], [ -71.823529038226624, 42.061826837285146 ], [ -71.823529038226624, 42.051699742714852 ], [ -71.837168561773368, 42.051699742714852 ] ] ] } }
+]
+}

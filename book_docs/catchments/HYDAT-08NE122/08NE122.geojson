@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE122",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MACKENZIE CREEK NEAR 520 M CONTOUR", "OfficialID": "08NE122", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 20.7 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.860054841670745, 50.632609958349377 ], [ -117.860054841670745, 50.67351004165063 ], [ -117.795545158329247, 50.67351004165063 ], [ -117.795545158329247, 50.632609958349377 ], [ -117.860054841670745, 50.632609958349377 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08049565",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Trigg Br at DFW Airport nr Euless, TX", "OfficialID": "08049565", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.785735 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -97.053115063892221, 32.855640812435603 ], [ -97.053115063892221, 32.8790581475644 ], [ -97.025234936107779, 32.8790581475644 ], [ -97.025234936107779, 32.855640812435603 ], [ -97.053115063892221, 32.855640812435603 ] ] ] } }
+]
+}

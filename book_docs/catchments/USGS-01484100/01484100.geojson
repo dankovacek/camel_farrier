@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01484100",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BEAVERDAM BRANCH AT HOUSTON, DE", "OfficialID": "01484100", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.821725 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -75.528904009615459, 38.893207055705687 ], [ -75.528904009615459, 38.918348504294315 ], [ -75.496595990384535, 38.918348504294315 ], [ -75.496595990384535, 38.893207055705687 ], [ -75.528904009615459, 38.893207055705687 ] ] ] } }
+]
+}

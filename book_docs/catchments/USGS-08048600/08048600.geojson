@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08048600",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Dry Br at Fain St, Ft Worth, TX", "OfficialID": "08048600", "FlagPAVICS": 0, "Source": "USGS", "Area": 5.568447 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -97.301241619363452, 32.765634403199797 ], [ -97.301241619363452, 32.7868475968002 ], [ -97.276011580636549, 32.7868475968002 ], [ -97.276011580636549, 32.765634403199797 ], [ -97.301241619363452, 32.765634403199797 ] ] ] } }
+]
+}

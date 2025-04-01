@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM146",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CLARK CREEK NEAR WINFIELD", "OfficialID": "08NM146", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 15.3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.363379656713633, 50.031168547990283 ], [ -119.363379656713633, 50.066331452009713 ], [ -119.308620343286364, 50.066331452009713 ], [ -119.308620343286364, 50.031168547990283 ], [ -119.363379656713633, 50.031168547990283 ] ] ] } }
+]
+}

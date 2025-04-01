@@ -1,0 +1,2 @@
+Official_ID,Name,Status,Etat,ProvTerr,Source,geom_type,crs,path,geometry
+06AB004,WOLF LAKE AT OUTLET,active,en service,AB,WSC,Point,EPSG:4326,input_data/WSC_basin_polygons_20220721/06/06AB004/06AB004_PourPoint_PointExutoire.shp,POINT (-111.00237216624242 54.71264593076512)

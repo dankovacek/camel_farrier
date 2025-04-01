@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08GA062",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "JAMIESON CREEK AT THE MOUTH", "OfficialID": "08GA062", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 2.85 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -123.023589653434996, 49.516581927806484 ], [ -123.023589653434996, 49.531758072193512 ], [ -123.000210346564998, 49.531758072193512 ], [ -123.000210346564998, 49.516581927806484 ], [ -123.023589653434996, 49.516581927806484 ] ] ] } }
+]
+}

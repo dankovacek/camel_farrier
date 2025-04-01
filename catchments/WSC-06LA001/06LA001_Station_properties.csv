@@ -1,0 +1,2 @@
+OBJECTID,Official_ID,Name,Status,Etat,ProvTerr,HYDAT_ver,Source,geom_type,crs,path,geometry
+4569.0,06LA001,KAZAN RIVER AT OUTLET OF ENNADAI LAKE,active,en service,NU,2021-01,WSC,Point,EPSG:4326,input_data/WSC_basin_polygons_20220721/06/06LA001/06LA001_Station.shp,POINT (-100.97389999999984 61.25361000000004)

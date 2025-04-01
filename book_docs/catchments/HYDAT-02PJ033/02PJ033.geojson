@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02PJ033",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TRUITE (RIVIERE A LA)", "OfficialID": "02PJ033", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 48.1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -70.674234936984661, 45.869106787334772 ], [ -70.674234936984661, 45.931453212665232 ], [ -70.584645063015344, 45.931453212665232 ], [ -70.584645063015344, 45.869106787334772 ], [ -70.674234936984661, 45.869106787334772 ] ] ] } }
+]
+}

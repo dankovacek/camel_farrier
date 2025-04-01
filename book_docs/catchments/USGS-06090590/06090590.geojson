@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "06090590",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Anaconda Drain at Belt MT", "OfficialID": "06090590", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.874873 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -110.93974746848356, 47.376109448434633 ], [ -110.93974746848356, 47.39135167156536 ], [ -110.91723593151643, 47.39135167156536 ], [ -110.91723593151643, 47.376109448434633 ], [ -110.93974746848356, 47.376109448434633 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02306660",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "AL LOPEZ PARK OUTFLOW AT TAMPA FL", "OfficialID": "02306660", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.884963 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.514017503659275, 27.984215887759234 ], [ -82.514017503659275, 28.001934612240767 ], [ -82.493951096340723, 28.001934612240767 ], [ -82.493951096340723, 27.984215887759234 ], [ -82.514017503659275, 27.984215887759234 ] ] ] } }
+]
+}

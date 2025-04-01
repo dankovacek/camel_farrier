@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01570260",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Conodoguinet Creek Trib No. 2B near Enola, PA", "OfficialID": "01570260", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.683484 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -76.971510667226696, 40.290645213809491 ], [ -76.971510667226696, 40.302309106190513 ], [ -76.956217932773299, 40.302309106190513 ], [ -76.956217932773299, 40.290645213809491 ], [ -76.971510667226696, 40.290645213809491 ] ] ] } }
+]
+}

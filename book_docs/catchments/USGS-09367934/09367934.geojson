@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09367934",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TEEC-NI-DI-TSO WASH NR BURNHAM, NM", "OfficialID": "09367934", "FlagPAVICS": 0, "Source": "USGS", "Area": 20.823401 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -108.482199098508246, 36.286718193527634 ], [ -108.482199098508246, 36.327740006472368 ], [ -108.431294301491747, 36.327740006472368 ], [ -108.431294301491747, 36.286718193527634 ], [ -108.482199098508246, 36.286718193527634 ] ] ] } }
+]
+}

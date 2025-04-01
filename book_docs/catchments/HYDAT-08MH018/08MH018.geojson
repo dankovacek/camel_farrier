@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MH018",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MAHOOD CREEK NEAR NEWTON", "OfficialID": "08MH018", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 18.4 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.871380849599674, 49.13682951583106 ], [ -122.871380849599674, 49.175390484168936 ], [ -122.812419150400316, 49.175390484168936 ], [ -122.812419150400316, 49.13682951583106 ], [ -122.871380849599674, 49.13682951583106 ] ] ] } }
+]
+}

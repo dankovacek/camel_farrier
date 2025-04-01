@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15743850",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "DAHL C NR KOBUK AK", "OfficialID": "15743850", "FlagPAVICS": 0, "Source": "USGS", "Area": 28.489728 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -156.972883153495331, 66.921569033638477 ], [ -156.972883153495331, 66.969551566361517 ], [ -156.850355446504693, 66.969551566361517 ], [ -156.850355446504693, 66.921569033638477 ], [ -156.972883153495331, 66.921569033638477 ] ] ] } }
+]
+}

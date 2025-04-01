@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "0208739674",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NEUSE R TRIB AT NRWWTP (CMP SITE) NR AUBURN, NC", "OfficialID": "0208739674", "FlagPAVICS": 0, "Source": "USGS", "Area": 5.801545 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -78.515557358955149, 35.710840350512704 ], [ -78.515557358955149, 35.732492989487291 ], [ -78.488887041044862, 35.732492989487291 ], [ -78.488887041044862, 35.710840350512704 ], [ -78.515557358955149, 35.710840350512704 ] ] ] } }
+]
+}

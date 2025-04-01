@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NA039",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MACAULAY CREEK NEAR EDGEWATER", "OfficialID": "08NA039", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 9.84 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -116.108359524640576, 50.683120407100546 ], [ -116.108359524640576, 50.711319592899457 ], [ -116.063840475359427, 50.711319592899457 ], [ -116.063840475359427, 50.683120407100546 ], [ -116.108359524640576, 50.683120407100546 ] ] ] } }
+]
+}

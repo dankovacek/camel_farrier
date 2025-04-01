@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02295850",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "OAK CREEK NEAR ONA FL", "OfficialID": "02295850", "FlagPAVICS": 0, "Source": "USGS", "Area": 38.849629 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.920813576333586, 27.39730323670269 ], [ -81.920813576333586, 27.453334763297306 ], [ -81.85768742366642, 27.453334763297306 ], [ -81.85768742366642, 27.39730323670269 ], [ -81.920813576333586, 27.39730323670269 ] ] ] } }
+]
+}

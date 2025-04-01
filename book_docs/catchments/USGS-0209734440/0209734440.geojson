@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "0209734440",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BOLIN CREEK AT VILLAGE DRIVE AT CHAPEL HILL, NC", "OfficialID": "0209734440", "FlagPAVICS": 0, "Source": "USGS", "Area": 20.460804 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -79.091106459313551, 35.901974015304241 ], [ -79.091106459313551, 35.942637104695756 ], [ -79.040893540686454, 35.942637104695756 ], [ -79.040893540686454, 35.901974015304241 ], [ -79.091106459313551, 35.901974015304241 ] ] ] } }
+]
+}

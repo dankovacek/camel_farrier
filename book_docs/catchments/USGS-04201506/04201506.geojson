@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04201506",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Abram Creek at Middleburg Heights OH", "OfficialID": "04201506", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.755464 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.830494465463303, 41.354067325208817 ], [ -81.830494465463303, 41.371488234791187 ], [ -81.80728331453669, 41.371488234791187 ], [ -81.80728331453669, 41.354067325208817 ], [ -81.830494465463303, 41.354067325208817 ] ] ] } }
+]
+}

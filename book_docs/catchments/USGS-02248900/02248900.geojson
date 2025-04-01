@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02248900",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HORSE CREEK NR MELBOURNE,FL", "OfficialID": "02248900", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.10797 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -80.664319444944468, 28.15347803551694 ], [ -80.664319444944468, 28.169326144483058 ], [ -80.646343355055521, 28.169326144483058 ], [ -80.646343355055521, 28.15347803551694 ], [ -80.664319444944468, 28.15347803551694 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NK028",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MICHEL CREEK ABOVE CORBIN CREEK", "OfficialID": "08NK028", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 35.9 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -114.717278238735162, 49.485288766308976 ], [ -114.717278238735162, 49.539151233691022 ], [ -114.634321761264829, 49.539151233691022 ], [ -114.634321761264829, 49.485288766308976 ], [ -114.717278238735162, 49.485288766308976 ] ] ] } }
+]
+}

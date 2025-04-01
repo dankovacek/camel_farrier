@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07249444",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Mill Creek near Jenny Lind Road in Ft. Smith", "OfficialID": "07249444", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.056171 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -94.421510237687329, 35.296124156762083 ], [ -94.421510237687329, 35.31183964323791 ], [ -94.402253362312678, 35.31183964323791 ], [ -94.402253362312678, 35.296124156762083 ], [ -94.421510237687329, 35.296124156762083 ] ] ] } }
+]
+}

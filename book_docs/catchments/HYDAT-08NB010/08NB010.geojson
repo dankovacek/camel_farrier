@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NB010",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HOSPITAL CREEK ABOVE HOSPITAL CREEK NORTH FORK", "OfficialID": "08NB010", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 21.5 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -116.991155003583344, 51.308878534485132 ], [ -116.991155003583344, 51.350561465514872 ], [ -116.924444996416668, 51.350561465514872 ], [ -116.924444996416668, 51.308878534485132 ], [ -116.991155003583344, 51.308878534485132 ] ] ] } }
+]
+}

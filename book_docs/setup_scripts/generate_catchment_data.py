@@ -24,17 +24,17 @@ that matches the unique identifier of the governing agency.
 """
 
 import os
-import datetime
 import pandas as pd
+import numpy as np
 import geopandas as gpd
 from pyproj import CRS
 import warnings
-from textwrap import dedent
-from bokeh.plotting import figure, save
-from bokeh.io import export_png
-import xyzservices.providers as xyz
 
-tiles = xyz.OpenStreetMap.Mapnik
+# set random seed
+np.random.seed(22)
+
+# PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+# BOOK_ROOT = os.path.join(PROJECT_ROOT, 'book_docs')
 
 
 def get_geometric_properties(poly) -> dict:
@@ -67,6 +67,7 @@ def create_local_crs(polygon) -> str:
 def initialize_catchment_data(
     data: pd.Series,
     attrs_df: pd.DataFrame,
+    dam_data: gpd.GeoDataFrame,
     catchment_gdf: gpd.GeoDataFrame,
     revision_date: str = None,
 ):
@@ -75,60 +76,83 @@ def initialize_catchment_data(
     source_code = data["Source"]
 
     # Define folder structure
-    base_folder = "catchments"
+    # base_folder = "catchments"
     subfolder_name = f"{source_code}-{official_id}"
-    subfolder_path = os.path.join(base_folder, subfolder_name)
+    # subfolder_path = os.path.join(BOOK_ROOT, base_folder, subfolder_name)
+    subfolder_path = os.path.join("./catchments", subfolder_name)
     resources_path = os.path.join(subfolder_path, "resources")
 
     # Create directories if they do not exist
     os.makedirs(resources_path, exist_ok=True)
 
     # Save the polygon to a GeoJSON file
-    poly_filepath = os.path.join(
-        subfolder_path, f"{official_id}.geojson"
-    )
+    poly_filepath = os.path.join(subfolder_path, f"{official_id}.geojson")
     catchment_gdf.to_file(poly_filepath)
+
+    # if there are flow regulation points registered, save them
+    if not dam_data.empty:
+        dam_data.to_file(
+            os.path.join(subfolder_path, f"{official_id}_dam_data.geojson"),
+            driver="GeoJSON",
+        )
 
     # save the attributes to a csv file
     attributes_fname = f"{official_id}_attributes.csv"
     attributes_fpath = os.path.join(subfolder_path, attributes_fname)
-    attrs_df['Reference'] = "(Arsenault et al., 2020)"
-    hs_attrs['revision_date'] = revision_date
+    attrs_df["Reference"] = "(Arsenault et al., 2020)"
+    hs_attrs["revision_date"] = revision_date
     attrs_df.to_csv(attributes_fpath, index=False)
 
     print(
         f"Processed catchment {source_code}-{official_id} successfully. Data saved in {subfolder_path}"
     )
 
-
-# Example usage (for iterative development on a single test case)
+# Example usage (for iterative development on a small set of test cases)
 if __name__ == "__main__":
     # initial date corresponds to HSYETS polygons file date here: https://osf.io/rpc3w/
-    initial_date = '2022-04-26'
+    initial_date = "2022-04-26"
     # For testing purposes, load your hysets_df and catchment_gdf here.
     # For example:
-    data_folder = os.path.join(os.path.dirname(__file__), "data")
+    # data_folder = os.path.join(PROJECT_ROOT, "data")
+    data_folder = "../data/"
     hysets_properties_file = "HYSETS_watershed_properties.txt"
-
-    hs_properties_fpath = os.path.join(data_folder, hysets_properties_file)
+    # hs_properties_fpath = os.path.join(data_folder, hysets_properties_file)
+    hs_properties_fpath = data_folder + hysets_properties_file
+    # print(hs_properties_fpath)
     hysets_df = pd.read_csv(hs_properties_fpath, sep=";")
+    # random_idxs = np.random.choice(range(len(hysets_df)), n_to_add, replace=False)
+    # df = hysets_df.iloc[random_idxs].copy()
 
-    hysets_bounds_folder = os.path.join(data_folder, "HYSETS_watershed_boundaries")
-    hysets_bounds_fpath = os.path.join(
-        hysets_bounds_folder, "HYSETS_watershed_boundaries_20200730.shp"
+    dam_gdf = gpd.read_file(data_folder + "Dam_Points_20240103.gpkg", sep=";")
+
+    # hysets_bounds_folder = os.path.join(data_folder, "HYSETS_watershed_boundaries")
+    hysets_bounds_folder = "../data/HYSETS_watershed_boundaries/"
+    hysets_bounds_fpath = (
+        hysets_bounds_folder + "HYSETS_watershed_boundaries_filtered.shp"
     )
     catchment_gdf = gpd.read_file(hysets_bounds_fpath)
     catchment_gdf.set_crs(
         "EPSG:4326", inplace=True
     )  # by default crs is not set at import
 
-    for i, stn_data in hysets_df[:100].iterrows():
+    for i, stn_data in hysets_df.iterrows():
         official_id = stn_data["Official_ID"]
         source = stn_data["Source"]
-        polygon = catchment_gdf.loc[
-            catchment_gdf["OfficialID"] == official_id
-        ].copy()
+        polygon = catchment_gdf.loc[catchment_gdf["OfficialID"] == official_id].copy()
+        projected_poly = polygon.to_crs(dam_gdf.crs)
+        # assert polygon.crs == dam_data.crs, f"CRS mismatch: {polygon.crs} != {dam_data.crs}"
         hs_attrs = hysets_df[hysets_df["Official_ID"] == official_id].copy()
+        # find dam geometries contained in the polygon
+        # Find dams within the polygon
+        dam_subset = gpd.sjoin(dam_gdf, projected_poly, how="inner", predicate="within")
+        dam_ids = dam_subset['Dam_ID'].values
+
         if hs_attrs.empty:
-            print('No attributes found for station:', official_id)
-        initialize_catchment_data(stn_data, attrs_df=hs_attrs, catchment_gdf=polygon, revision_date=initial_date)
+            print("No attributes found for station:", official_id)
+        initialize_catchment_data(
+            stn_data,
+            attrs_df=hs_attrs,
+            dam_data=dam_gdf[dam_gdf["Dam_ID"].isin(dam_ids)].copy(),
+            catchment_gdf=polygon,
+            revision_date=initial_date,
+        )

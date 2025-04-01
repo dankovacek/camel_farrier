@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09331950",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CHRISTIANSEN WASH NEAR EMERY, UTAH", "OfficialID": "09331950", "FlagPAVICS": 0, "Source": "USGS", "Area": 35.223663 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -111.286928912458066, 38.834688257538836 ], [ -111.286928912458066, 38.888040942461167 ], [ -111.218410887541935, 38.888040942461167 ], [ -111.218410887541935, 38.834688257538836 ], [ -111.286928912458066, 38.834688257538836 ] ] ] } }
+]
+}

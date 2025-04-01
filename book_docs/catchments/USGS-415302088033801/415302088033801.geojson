@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "415302088033801",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MAIN INLET OF LAKE ELLYN AT GLEN ELLYN IL", "OfficialID": "415302088033801", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.787083 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -88.068693812854448, 41.877909448184312 ], [ -88.068693812854448, 41.889926871815689 ], [ -88.052552187145565, 41.889926871815689 ], [ -88.052552187145565, 41.877909448184312 ], [ -88.068693812854448, 41.877909448184312 ] ] ] } }
+]
+}

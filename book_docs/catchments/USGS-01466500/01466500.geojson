@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01466500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "McDonalds Branch in Byrne State Forest NJ", "OfficialID": "01466500", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.086442 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -74.51972907787912, 39.873911041425941 ], [ -74.51972907787912, 39.896088958574055 ], [ -74.49082648212088, 39.896088958574055 ], [ -74.49082648212088, 39.873911041425941 ], [ -74.51972907787912, 39.873911041425941 ] ] ] } }
+]
+}

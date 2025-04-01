@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09132900",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WEST HUBBARD CREEK NEAR PAONIA, CO.", "OfficialID": "09132900", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.060542 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -107.627913318347936, 39.021141340107867 ], [ -107.627913318347936, 39.043272019892136 ], [ -107.599423481652053, 39.043272019892136 ], [ -107.599423481652053, 39.021141340107867 ], [ -107.627913318347936, 39.021141340107867 ] ] ] } }
+]
+}

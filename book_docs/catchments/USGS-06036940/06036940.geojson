@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "06036940",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Tantalus Creek at Norris Junction, YNP", "OfficialID": "06036940", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.719474 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -110.723686779741286, 44.725312725752566 ], [ -110.723686779741286, 44.740137274247438 ], [ -110.702818820258727, 44.740137274247438 ], [ -110.702818820258727, 44.725312725752566 ], [ -110.723686779741286, 44.725312725752566 ] ] ] } }
+]
+}

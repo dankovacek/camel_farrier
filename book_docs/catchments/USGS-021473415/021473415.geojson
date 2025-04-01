@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "021473415",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "FISHING CREEK @ HWY 5 BELOW YORK, SC", "OfficialID": "021473415", "FlagPAVICS": 0, "Source": "USGS", "Area": 43.252586 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.216075961986135, 34.945439276074175 ], [ -81.216075961986135, 35.004560723925827 ], [ -81.143924038013878, 35.004560723925827 ], [ -81.143924038013878, 34.945439276074175 ], [ -81.216075961986135, 34.945439276074175 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08GA027",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "EASTCAP CREEK NEAR THE MOUTH", "OfficialID": "08GA027", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 41.4 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -123.147786056262291, 49.421359273746589 ], [ -123.147786056262291, 49.47920072625341 ], [ -123.058813943737718, 49.47920072625341 ], [ -123.058813943737718, 49.421359273746589 ], [ -123.147786056262291, 49.421359273746589 ] ] ] } }
+]
+}

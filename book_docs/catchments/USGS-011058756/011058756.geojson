@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "011058756",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "EEL RIVER AT RUSSELL MILL RD NEAR PLYMOUTH, MA", "OfficialID": "011058756", "FlagPAVICS": 0, "Source": "USGS", "Area": 14.788759 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -70.649652071459442, 41.900318641091395 ], [ -70.649652071459442, 41.934889078908604 ], [ -70.603193068540563, 41.934889078908604 ], [ -70.603193068540563, 41.900318641091395 ], [ -70.649652071459442, 41.900318641091395 ] ] ] } }
+]
+}

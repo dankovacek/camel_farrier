@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05ED003",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MOOSEHILLS CREEK NEAR ELK POINT", "OfficialID": "05ED003", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 41.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -110.825987691659805, 53.905699326512796 ], [ -110.825987691659805, 53.963260673487206 ], [ -110.728212308340204, 53.963260673487206 ], [ -110.728212308340204, 53.905699326512796 ], [ -110.825987691659805, 53.905699326512796 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09470700",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BANNING CREEK NEAR BISBEE, AZ", "OfficialID": "09470700", "FlagPAVICS": 0, "Source": "USGS", "Area": 22.636384 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -110.030359841894182, 31.482087037916656 ], [ -110.030359841894182, 31.524857362083345 ], [ -109.980195758105822, 31.524857362083345 ], [ -109.980195758105822, 31.482087037916656 ], [ -110.030359841894182, 31.482087037916656 ] ] ] } }
+]
+}

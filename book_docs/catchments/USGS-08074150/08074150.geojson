@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08074150",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Cole Ck at Deihl Rd, Houston, TX", "OfficialID": "08074150", "FlagPAVICS": 0, "Source": "USGS", "Area": 19.424814 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -95.510837135955541, 29.831526763792354 ], [ -95.510837135955541, 29.871147036207645 ], [ -95.465155864044448, 29.871147036207645 ], [ -95.465155864044448, 29.831526763792354 ], [ -95.510837135955541, 29.831526763792354 ] ] ] } }
+]
+}

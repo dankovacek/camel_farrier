@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05MA013",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "RANCH CREEK NEAR ANNAHEIM", "OfficialID": "05MA013", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 40.4 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -104.879237041461337, 52.289490692948455 ], [ -104.879237041461337, 52.34662930705155 ], [ -104.785762958538655, 52.34662930705155 ], [ -104.785762958538655, 52.289490692948455 ], [ -104.879237041461337, 52.289490692948455 ] ] ] } }
+]
+}

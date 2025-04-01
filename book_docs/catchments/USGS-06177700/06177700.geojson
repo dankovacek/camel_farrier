@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "06177700",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Cow Creek Tributary near Vida MT", "OfficialID": "06177700", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.755464 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -105.507474204820994, 47.707070105208814 ], [ -105.507474204820994, 47.724491014791184 ], [ -105.481581395179006, 47.724491014791184 ], [ -105.481581395179006, 47.707070105208814 ], [ -105.507474204820994, 47.707070105208814 ] ] ] } }
+]
+}

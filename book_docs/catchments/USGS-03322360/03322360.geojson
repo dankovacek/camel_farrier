@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03322360",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BEAVERDAM CREEK NEAR CORYDON, KY", "OfficialID": "03322360", "FlagPAVICS": 0, "Source": "USGS", "Area": 37.036646 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -87.732367225140862, 37.676577347677586 ], [ -87.732367225140862, 37.731285852322408 ], [ -87.663219374859139, 37.731285852322408 ], [ -87.663219374859139, 37.676577347677586 ], [ -87.732367225140862, 37.676577347677586 ] ] ] } }
+]
+}

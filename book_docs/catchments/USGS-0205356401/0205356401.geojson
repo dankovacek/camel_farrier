@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "0205356401",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CHINKAPIN CR TR AT SR1432 NR HARRELLSVILLE, NC", "OfficialID": "0205356401", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.968381 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -76.863885870641084, 36.25357205973949 ], [ -76.863885870641084, 36.266184340260516 ], [ -76.848244529358922, 36.266184340260516 ], [ -76.848244529358922, 36.25357205973949 ], [ -76.863885870641084, 36.25357205973949 ] ] ] } }
+]
+}

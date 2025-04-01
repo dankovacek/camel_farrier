@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01168250",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "COLD RIVER AT FLORIDA, MA", "OfficialID": "01168250", "FlagPAVICS": 0, "Source": "USGS", "Area": 16.75714 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.055383993716774, 42.648044815066221 ], [ -73.055383993716774, 42.684844064933777 ], [ -73.005338206283213, 42.684844064933777 ], [ -73.005338206283213, 42.648044815066221 ], [ -73.055383993716774, 42.648044815066221 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "1025125372",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SPLIT WASH AT ANTLER RIDGE, NTS, NV", "OfficialID": "1025125372", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.086442 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -116.451633879487972, 36.830577711425946 ], [ -116.451633879487972, 36.852755628574059 ], [ -116.423921720512041, 36.852755628574059 ], [ -116.423921720512041, 36.830577711425946 ], [ -116.451633879487972, 36.830577711425946 ] ] ] } }
+]
+}

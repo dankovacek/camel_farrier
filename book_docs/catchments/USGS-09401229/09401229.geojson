@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09401229",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "COAL MINE WASH TRIB NO 2 NEAR KAYENTA, ARIZ.", "OfficialID": "09401229", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.468516 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -110.415248965833896, 36.525662993078065 ], [ -110.415248965833896, 36.53655676692194 ], [ -110.401691634166113, 36.53655676692194 ], [ -110.401691634166113, 36.525662993078065 ], [ -110.415248965833896, 36.525662993078065 ] ] ] } }
+]
+}

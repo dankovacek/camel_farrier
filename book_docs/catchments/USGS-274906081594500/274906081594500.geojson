@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "274906081594500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ACHAN POND CSA OUTFALL NEAR BRADLEY JUNCTION FL", "OfficialID": "274906081594500", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.553985 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.990586734797887, 27.811369747340539 ], [ -81.990586734797887, 27.822576052659461 ], [ -81.977916265202111, 27.822576052659461 ], [ -81.977916265202111, 27.811369747340539 ], [ -81.990586734797887, 27.811369747340539 ] ] ] } }
+]
+}

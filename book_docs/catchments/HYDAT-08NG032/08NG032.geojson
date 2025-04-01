@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NG032",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WOLF CREEK NEAR TA TA CREEK", "OfficialID": "08NG032", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 29.5 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -115.710052438802791, 49.813647062901829 ], [ -115.710052438802791, 49.862472937098168 ], [ -115.634347561197217, 49.862472937098168 ], [ -115.634347561197217, 49.813647062901829 ], [ -115.710052438802791, 49.813647062901829 ] ] ] } }
+]
+}

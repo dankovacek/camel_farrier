@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01434092",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SHELTER CREEK BELOW DRY CREEK NR FROST VALLEY NY", "OfficialID": "01434092", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.605785 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -74.522105207965339, 41.964304226972331 ], [ -74.522105207965339, 41.975695773027667 ], [ -74.506783592034665, 41.975695773027667 ], [ -74.506783592034665, 41.964304226972331 ], [ -74.522105207965339, 41.964304226972331 ] ] ] } }
+]
+}

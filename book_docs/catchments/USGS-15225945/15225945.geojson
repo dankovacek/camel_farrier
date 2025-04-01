@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15225945",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ALLISON C AB MOUTH NR VALDEZ AK", "OfficialID": "15225945", "FlagPAVICS": 0, "Source": "USGS", "Area": 19.424814 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -146.394650286294365, 61.061331533792355 ], [ -146.394650286294365, 61.100951806207647 ], [ -146.312717513705621, 61.100951806207647 ], [ -146.312717513705621, 61.061331533792355 ], [ -146.394650286294365, 61.061331533792355 ] ] ] } }
+]
+}

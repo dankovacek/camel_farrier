@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MF014",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "RILEY CREEK NEAR LILLOOET", "OfficialID": "08MF014", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 19.2 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -121.898218923081771, 50.564744834321999 ], [ -121.898218923081771, 50.604135165678002 ], [ -121.836181076918223, 50.604135165678002 ], [ -121.836181076918223, 50.564744834321999 ], [ -121.898218923081771, 50.564744834321999 ] ] ] } }
+]
+}

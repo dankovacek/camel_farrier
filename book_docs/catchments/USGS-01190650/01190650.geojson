@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01190650",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BEAMANS BK AT BLOOMFIELD, CT.", "OfficialID": "01190650", "FlagPAVICS": 0, "Source": "USGS", "Area": 11.862087 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.741145824188564, 41.808507326559138 ], [ -72.741145824188564, 41.839468653440861 ], [ -72.699597975811443, 41.839468653440861 ], [ -72.699597975811443, 41.808507326559138 ], [ -72.741145824188564, 41.808507326559138 ] ] ] } }
+]
+}

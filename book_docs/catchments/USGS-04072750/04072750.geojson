@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04072750",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LAWRENCE CREEK NEAR WESTFIELD, WI", "OfficialID": "04072750", "FlagPAVICS": 0, "Source": "USGS", "Area": 34.705668 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -89.615482220955272, 43.871273433605637 ], [ -89.615482220955272, 43.924232366394364 ], [ -89.541987179044725, 43.924232366394364 ], [ -89.541987179044725, 43.871273433605637 ], [ -89.615482220955272, 43.871273433605637 ] ] ] } }
+]
+}

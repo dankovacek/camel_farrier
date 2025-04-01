@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04237950",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ONONDAGA CREEK AT TULLY VALLEY NY", "OfficialID": "04237950", "FlagPAVICS": 0, "Source": "USGS", "Area": 42.475594 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -76.178221402040819, 42.829384134825624 ], [ -76.178221402040819, 42.887972145174381 ], [ -76.09829599795917, 42.887972145174381 ], [ -76.09829599795917, 42.829384134825624 ], [ -76.178221402040819, 42.829384134825624 ] ] ] } }
+]
+}

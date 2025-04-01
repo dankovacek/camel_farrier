@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15053200",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "DUCK C BL NANCY ST NR AUKE BAY AK", "OfficialID": "15053200", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.366968 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -134.594731975292632, 58.36670378260235 ], [ -134.594731975292632, 58.383199017397651 ], [ -134.563274024707368, 58.383199017397651 ], [ -134.563274024707368, 58.36670378260235 ], [ -134.594731975292632, 58.36670378260235 ] ] ] } }
+]
+}

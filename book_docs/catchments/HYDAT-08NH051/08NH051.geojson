@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH051",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ARGENTA CREEK NEAR ARGENTA", "OfficialID": "08NH051", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 5.7 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -116.91705188714316, 50.153158845391665 ], [ -116.91705188714316, 50.174621154608339 ], [ -116.883548112856843, 50.174621154608339 ], [ -116.883548112856843, 50.153158845391665 ], [ -116.91705188714316, 50.153158845391665 ] ] ] } }
+]
+}

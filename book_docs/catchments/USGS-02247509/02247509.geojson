@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02247509",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ELEVENTH STREET CANAL AT HOLLY HILL, FL", "OfficialID": "02247509", "FlagPAVICS": 0, "Source": "USGS", "Area": 32.892685 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.070989056390331, 29.220035187830682 ], [ -81.070989056390331, 29.271592312169318 ], [ -81.011899943609663, 29.271592312169318 ], [ -81.011899943609663, 29.220035187830682 ], [ -81.070989056390331, 29.220035187830682 ] ] ] } }
+]
+}

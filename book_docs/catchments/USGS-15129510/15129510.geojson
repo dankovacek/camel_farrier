@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15129510",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "OLD SITUK R NR YAKUTAT AK", "OfficialID": "15129510", "FlagPAVICS": 0, "Source": "USGS", "Area": 12.380082 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -139.471245044464126, 59.554441442391997 ], [ -139.471245044464126, 59.586071557608001 ], [ -139.408794355535861, 59.586071557608001 ], [ -139.408794355535861, 59.554441442391997 ], [ -139.471245044464126, 59.554441442391997 ] ] ] } }
+]
+}

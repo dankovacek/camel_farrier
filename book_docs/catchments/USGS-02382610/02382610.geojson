@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02382610",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SUGAR CREEK AT CONISTON ROAD, NEAR CARTERS, GA", "OfficialID": "02382610", "FlagPAVICS": 0, "Source": "USGS", "Area": 37.554641 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -84.775637141838004, 34.609206423403919 ], [ -84.775637141838004, 34.664296176596082 ], [ -84.708680858161998, 34.664296176596082 ], [ -84.708680858161998, 34.609206423403919 ], [ -84.775637141838004, 34.609206423403919 ] ] ] } }
+]
+}

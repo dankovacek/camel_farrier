@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03284552",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WEST HICKMAN CR AT VETERANS PARK NR LEXINGTON, KY", "OfficialID": "03284552", "FlagPAVICS": 0, "Source": "USGS", "Area": 39.082726 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -84.536749603045877, 37.929678095106937 ], [ -84.536749603045877, 37.985877464893065 ], [ -84.465472596954129, 37.985877464893065 ], [ -84.465472596954129, 37.929678095106937 ], [ -84.536749603045877, 37.929678095106937 ] ] ] } }
+]
+}

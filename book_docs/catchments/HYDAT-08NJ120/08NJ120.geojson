@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ120",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WINLAW CREEK NEAR WINLAW", "OfficialID": "08NJ120", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 40.7 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.589247426222911, 49.575494814980701 ], [ -117.589247426222911, 49.632845185019306 ], [ -117.500752573777092, 49.632845185019306 ], [ -117.500752573777092, 49.575494814980701 ], [ -117.589247426222911, 49.575494814980701 ] ] ] } }
+]
+}

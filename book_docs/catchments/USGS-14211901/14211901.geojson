@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "14211901",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "COLD CREEK AT MOUTH AT VANCOUVER, WA", "OfficialID": "14211901", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.018833 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.684636105097397, 45.649597497356105 ], [ -122.684636105097397, 45.673413642643901 ], [ -122.650559294902607, 45.673413642643901 ], [ -122.650559294902607, 45.649597497356105 ], [ -122.684636105097397, 45.649597497356105 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02YS002",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ROCKY POND BROOK AT ROCKY POND", "OfficialID": "02YS002", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 2.31 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -53.969205288043945, 48.520108516651582 ], [ -53.969205288043945, 48.533771483348424 ], [ -53.948574711956049, 48.533771483348424 ], [ -53.948574711956049, 48.520108516651582 ], [ -53.969205288043945, 48.520108516651582 ] ] ] } }
+]
+}

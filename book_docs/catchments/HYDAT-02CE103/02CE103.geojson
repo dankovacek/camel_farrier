@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02CE103",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MINISTIC CREEK NEAR AGNEW LAKE MINE", "OfficialID": "02CE103", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 41.2 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.619622187842168, 46.379479215145842 ], [ -81.619622187842168, 46.437180784854156 ], [ -81.53593781215784, 46.437180784854156 ], [ -81.53593781215784, 46.379479215145842 ], [ -81.619622187842168, 46.379479215145842 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08330200",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SAN JOSE DRAIN AT WOODWARD RD AT ALBQ., NM", "OfficialID": "08330200", "FlagPAVICS": 0, "Source": "USGS", "Area": 4.713755 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -106.660531414589784, 35.039130177491003 ], [ -106.660531414589784, 35.058647602508998 ], [ -106.63669078541021, 35.058647602508998 ], [ -106.63669078541021, 35.039130177491003 ], [ -106.660531414589784, 35.039130177491003 ] ] ] } }
+]
+}

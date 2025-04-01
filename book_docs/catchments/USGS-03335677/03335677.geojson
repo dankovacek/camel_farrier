@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03335677",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MARSHALL DITCH NEAR MONTMORENCI, IN", "OfficialID": "03335677", "FlagPAVICS": 0, "Source": "USGS", "Area": 4.092161 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -87.031417671592578, 40.502608316794543 ], [ -87.031417671592578, 40.520793403205452 ], [ -87.00749852840741, 40.520793403205452 ], [ -87.00749852840741, 40.502608316794543 ], [ -87.031417671592578, 40.502608316794543 ] ] ] } }
+]
+}

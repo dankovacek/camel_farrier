@@ -32,4 +32,7 @@ html:
   use_repository_button: true
   extrafiles:
     - _static/
+# Add a custom url prefix to distinguish between testing and production
+# for testing, use the default blank, 
+# for production, use the url of your book (/camel_farrier)
 

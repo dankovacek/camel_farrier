@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "06154140",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Fifteenmile Cr Tributary nr Harlem MT", "OfficialID": "06154140", "FlagPAVICS": 0, "Source": "USGS", "Area": 5.464848 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -108.724130720672733, 48.314325832447487 ], [ -108.724130720672733, 48.335340767552516 ], [ -108.69252487932728, 48.335340767552516 ], [ -108.69252487932728, 48.314325832447487 ], [ -108.724130720672733, 48.314325832447487 ] ] ] } }
+]
+}

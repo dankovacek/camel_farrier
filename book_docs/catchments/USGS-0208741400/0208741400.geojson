@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "0208741400",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NEUSE R TRIB AT NRWWTP (EASTERN STE) NR AUBURN, NC", "OfficialID": "0208741400", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.346787 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -78.4930909565023, 35.706728188750766 ], [ -78.4930909565023, 35.717160691249241 ], [ -78.480242443497701, 35.717160691249241 ], [ -78.480242443497701, 35.706728188750766 ], [ -78.4930909565023, 35.706728188750766 ] ] ] } }
+]
+}

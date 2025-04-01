@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02ZM021",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SOUTH BROOK AT PEARL TOWN ROAD", "OfficialID": "02ZM021", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 9.21 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -52.793523456989845, 47.493029231476541 ], [ -52.793523456989845, 47.520310768523458 ], [ -52.753136543010157, 47.520310768523458 ], [ -52.753136543010157, 47.493029231476541 ], [ -52.793523456989845, 47.493029231476541 ] ] ] } }
+]
+}

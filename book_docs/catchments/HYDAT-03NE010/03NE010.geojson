@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03NE010",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HEADWATER POND BROOK BELOW HEADWATER POND", "OfficialID": "03NE010", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 3.35 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -62.01983759357045, 56.318443190750756 ], [ -62.01983759357045, 56.334896809249244 ], [ -61.990162406429555, 56.334896809249244 ], [ -61.990162406429555, 56.318443190750756 ], [ -62.01983759357045, 56.318443190750756 ] ] ] } }
+]
+}

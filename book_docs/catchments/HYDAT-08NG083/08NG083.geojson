@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NG083",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MILLER CREEK NEAR 1160 M CONTOUR", "OfficialID": "08NG083", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 6.99 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -115.06253423883193, 49.044786411303122 ], [ -115.06253423883193, 49.068553588696872 ], [ -115.026265761168062, 49.068553588696872 ], [ -115.026265761168062, 49.044786411303122 ], [ -115.06253423883193, 49.044786411303122 ] ] ] } }
+]
+}

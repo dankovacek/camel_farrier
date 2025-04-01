@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05579630",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "KICKAPOO CREEK NEAR BLOOMINGTON, IL", "OfficialID": "05579630", "FlagPAVICS": 0, "Source": "USGS", "Area": 38.331633 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -88.914074014107584, 40.430504935215922 ], [ -88.914074014107584, 40.486161664784078 ], [ -88.840925985892412, 40.486161664784078 ], [ -88.840925985892412, 40.430504935215922 ], [ -88.914074014107584, 40.430504935215922 ] ] ] } }
+]
+}

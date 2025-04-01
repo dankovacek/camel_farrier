@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "14215500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CURLY CREEK NEAR COUGAR, WA", "OfficialID": "14215500", "FlagPAVICS": 0, "Source": "USGS", "Area": 30.043713 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -121.947242896358901, 46.01464407339973 ], [ -121.947242896358901, 46.063917846600269 ], [ -121.876260103641087, 46.063917846600269 ], [ -121.876260103641087, 46.01464407339973 ], [ -121.947242896358901, 46.01464407339973 ] ] ] } }
+]
+}

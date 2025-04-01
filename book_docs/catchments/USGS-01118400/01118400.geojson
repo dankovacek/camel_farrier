@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01118400",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SHUNOCK RIVER NEAR NORTH STONINGTON, CT", "OfficialID": "01118400", "FlagPAVICS": 0, "Source": "USGS", "Area": 44.547574 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -71.884792475261605, 41.380099313909056 ], [ -71.884792475261605, 41.440099286090941 ], [ -71.804791924738396, 41.440099286090941 ], [ -71.804791924738396, 41.380099313909056 ], [ -71.884792475261605, 41.380099313909056 ] ] ] } }
+]
+}

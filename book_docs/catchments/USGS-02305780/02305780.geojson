@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02305780",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CURIOSITY CREEK NEAR SULPHUR SPRINGS FL", "OfficialID": "02305780", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.548266 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.466078538482861, 28.060438942649082 ], [ -82.466078538482861, 28.077372457350915 ], [ -82.446887861517126, 28.077372457350915 ], [ -82.446887861517126, 28.060438942649082 ], [ -82.466078538482861, 28.060438942649082 ] ] ] } }
+]
+}

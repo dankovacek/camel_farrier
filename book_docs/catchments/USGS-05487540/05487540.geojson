@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05487540",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Walnut Creek near Prairie City, IA", "OfficialID": "05487540", "FlagPAVICS": 0, "Source": "USGS", "Area": 17.560032 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -93.321172963118272, 41.582015237514568 ], [ -93.321172963118272, 41.619685762485432 ], [ -93.270797036881731, 41.619685762485432 ], [ -93.270797036881731, 41.582015237514568 ], [ -93.321172963118272, 41.582015237514568 ] ] ] } }
+]
+}

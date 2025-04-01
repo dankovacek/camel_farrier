@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04106190",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "PORTAGE CREEK AT GARDEN LANE NR PORTAGE, MI", "OfficialID": "04106190", "FlagPAVICS": 0, "Source": "USGS", "Area": 48.173539 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -85.628511120142605, 42.179400866303155 ], [ -85.628511120142605, 42.241794933696852 ], [ -85.544272259857394, 42.241794933696852 ], [ -85.544272259857394, 42.179400866303155 ], [ -85.628511120142605, 42.179400866303155 ] ] ] } }
+]
+}

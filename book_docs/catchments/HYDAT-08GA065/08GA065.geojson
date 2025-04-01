@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08GA065",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NOONS CREEK AT MERIDIAN SUBSTATION ROAD", "OfficialID": "08GA065", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 2.59 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.833893542939421, 49.295546326438583 ], [ -122.833893542939421, 49.310013673561414 ], [ -122.811706457060581, 49.310013673561414 ], [ -122.811706457060581, 49.295546326438583 ], [ -122.833893542939421, 49.295546326438583 ] ] ] } }
+]
+}

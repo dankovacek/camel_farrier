@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08KE022",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SOUTH SISTERS CREEK AT HIGHWAY NO. 97", "OfficialID": "08KE022", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 21.5 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.44530969315089, 52.827218534485127 ], [ -122.44530969315089, 52.868901465514867 ], [ -122.3762903068491, 52.868901465514867 ], [ -122.3762903068491, 52.827218534485127 ], [ -122.44530969315089, 52.827218534485127 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08302300",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MF TESUQUE C NR SANTA FE N MEX", "OfficialID": "08302300", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.113689 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -105.813365197537649, 35.762786365708962 ], [ -105.813365197537649, 35.772273194291031 ], [ -105.801673202462354, 35.772273194291031 ], [ -105.801673202462354, 35.762786365708962 ], [ -105.813365197537649, 35.762786365708962 ] ] ] } }
+]
+}

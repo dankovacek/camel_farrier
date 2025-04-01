@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15236000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HOBO C NR WHITTIER AK", "OfficialID": "15236000", "FlagPAVICS": 0, "Source": "USGS", "Area": 14.322563 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -148.275732229217169, 60.944078879275366 ], [ -148.275732229217169, 60.978100060724628 ], [ -148.205643770782842, 60.978100060724628 ], [ -148.205643770782842, 60.944078879275366 ], [ -148.275732229217169, 60.944078879275366 ] ] ] } }
+]
+}

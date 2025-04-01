@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07371000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GARRETT CREEK AT JONESBORO LA", "OfficialID": "07371000", "FlagPAVICS": 0, "Source": "USGS", "Area": 5.542547 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -92.739051018139094, 32.221518838452859 ], [ -92.739051018139094, 32.242682641547141 ], [ -92.714031581860894, 32.242682641547141 ], [ -92.714031581860894, 32.221518838452859 ], [ -92.739051018139094, 32.221518838452859 ] ] ] } }
+]
+}

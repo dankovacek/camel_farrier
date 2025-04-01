@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "401723105400000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ANDREWS CREEK-LOCH VALE-RMNP", "OfficialID": "401723105400000", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.709384 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -105.674370922461961, 40.28412336391311 ], [ -105.674370922461961, 40.295876636086888 ], [ -105.658962477538026, 40.295876636086888 ], [ -105.658962477538026, 40.28412336391311 ], [ -105.674370922461961, 40.28412336391311 ] ] ] } }
+]
+}

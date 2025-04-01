@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02162525",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HAMILTON CREEK (RD 135) NR EASLEY, SC", "OfficialID": "02162525", "FlagPAVICS": 0, "Source": "USGS", "Area": 4.14396 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.56349921159422, 34.827077890022267 ], [ -82.56349921159422, 34.84537770997774 ], [ -82.541203788405781, 34.84537770997774 ], [ -82.541203788405781, 34.827077890022267 ], [ -82.56349921159422, 34.827077890022267 ] ] ] } }
+]
+}

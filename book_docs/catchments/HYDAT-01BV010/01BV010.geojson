@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01BV010",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "DICKSON BROOK AT FUNDY NATIONAL PARK", "OfficialID": "01BV010", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 8.81 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -64.97612520402474, 45.578078735994552 ], [ -64.97612520402474, 45.604761264005447 ], [ -64.937994795975257, 45.604761264005447 ], [ -64.937994795975257, 45.578078735994552 ], [ -64.97612520402474, 45.578078735994552 ] ] ] } }
+]
+}

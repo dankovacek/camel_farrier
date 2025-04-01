@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09233000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CARTER CREEK NEAR MANILA, UTAH", "OfficialID": "09233000", "FlagPAVICS": 0, "Source": "USGS", "Area": 49.209529 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -109.872938752219852, 40.807313458697422 ], [ -109.872938752219852, 40.870374861302579 ], [ -109.78958504778015, 40.870374861302579 ], [ -109.78958504778015, 40.807313458697422 ], [ -109.872938752219852, 40.807313458697422 ] ] ] } }
+]
+}

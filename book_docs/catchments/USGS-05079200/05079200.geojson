@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05079200",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "COUNTY DITCH 72 (BURNHAM CK) NR. MAPLE BAY  (SW3)", "OfficialID": "05079200", "FlagPAVICS": 0, "Source": "USGS", "Area": 27.712735 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -96.315116785078132, 47.614949248809388 ], [ -96.315116785078132, 47.662272951190609 ], [ -96.24488321492187, 47.662272951190609 ], [ -96.24488321492187, 47.614949248809388 ], [ -96.315116785078132, 47.614949248809388 ] ] ] } }
+]
+}

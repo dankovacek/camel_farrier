@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02249000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "EAU GALLIE RIVER NR EAU GALLIE, FLA.", "OfficialID": "02249000", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.967033 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -80.668507348011815, 28.120650229956492 ], [ -80.668507348011815, 28.144378330043505 ], [ -80.641600451988182, 28.144378330043505 ], [ -80.641600451988182, 28.120650229956492 ], [ -80.668507348011815, 28.120650229956492 ] ] ] } }
+]
+}

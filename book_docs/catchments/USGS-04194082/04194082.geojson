@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04194082",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Wolf Ditch at Oregon OH", "OfficialID": "04194082", "FlagPAVICS": 0, "Source": "USGS", "Area": 33.928676 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.418025488890194, 41.626644523400067 ], [ -83.418025488890194, 41.67900727659994 ], [ -83.347945511109813, 41.67900727659994 ], [ -83.347945511109813, 41.626644523400067 ], [ -83.418025488890194, 41.626644523400067 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01180800",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WALKER BROOK NEAR BECKET CENTER, MA", "OfficialID": "01180800", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.614527 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.062973456881835, 42.251296372862932 ], [ -73.062973456881835, 42.276102587137068 ], [ -73.029454143118173, 42.276102587137068 ], [ -73.029454143118173, 42.251296372862932 ], [ -73.062973456881835, 42.251296372862932 ] ] ] } }
+]
+}

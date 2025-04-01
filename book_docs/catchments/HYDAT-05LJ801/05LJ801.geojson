@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05LJ801",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WILSON CREEK NEAR MCCREARY", "OfficialID": "05LJ801", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 23.5 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -99.58859316446916, 50.707650716210821 ], [ -99.58859316446916, 50.751229283789172 ], [ -99.519746835530839, 50.751229283789172 ], [ -99.519746835530839, 50.707650716210821 ], [ -99.58859316446916, 50.707650716210821 ] ] ] } }
+]
+}

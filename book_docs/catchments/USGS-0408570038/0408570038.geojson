@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "0408570038",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "OTTER CREEK #3A AT CT HIGHWAY J NEAR PLYMOUTH, WI", "OfficialID": "0408570038", "FlagPAVICS": 0, "Source": "USGS", "Area": 23.568775 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -87.963654151320995, 43.76872855545701 ], [ -87.963654151320995, 43.81237084454299 ], [ -87.903197248679007, 43.81237084454299 ], [ -87.903197248679007, 43.76872855545701 ], [ -87.963654151320995, 43.76872855545701 ] ] ] } }
+]
+}

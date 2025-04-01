@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MH097",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "YORKSON CREEK NEAR WALNUT GROVE", "OfficialID": "08MH097", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 5.96 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.668185696645921, 49.166246828824399 ], [ -122.668185696645921, 49.188193171175598 ], [ -122.63461430335407, 49.188193171175598 ], [ -122.63461430335407, 49.166246828824399 ], [ -122.668185696645921, 49.166246828824399 ] ] ] } }
+]
+}

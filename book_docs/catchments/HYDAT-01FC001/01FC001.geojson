@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01FC001",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CHETICAMP RIVER BELOW CHETICAMP LAKE", "OfficialID": "01FC001", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 49.2 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -60.708989271696886, 46.619582351821741 ], [ -60.708989271696886, 46.682637648178265 ], [ -60.617130728303117, 46.682637648178265 ], [ -60.617130728303117, 46.619582351821741 ], [ -60.708989271696886, 46.619582351821741 ] ] ] } }
+]
+}

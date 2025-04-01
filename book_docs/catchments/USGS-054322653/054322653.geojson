@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "054322653",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BREWERY CR TRIB-UPSTREAM SITE-NR MINERAL POINT, WI", "OfficialID": "054322653", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.12378 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -90.139772560664923, 42.875116331309691 ], [ -90.139772560664923, 42.888217008690312 ], [ -90.121894039335089, 42.888217008690312 ], [ -90.121894039335089, 42.875116331309691 ], [ -90.139772560664923, 42.875116331309691 ] ] ] } }
+]
+}

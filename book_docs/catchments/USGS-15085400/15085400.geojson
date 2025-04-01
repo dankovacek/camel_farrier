@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15085400",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "VIRGINIA C NR KASAAN AK", "OfficialID": "15085400", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.977124 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -132.455998270148456, 55.417499015113982 ], [ -132.455998270148456, 55.442888984886018 ], [ -132.411251129851536, 55.442888984886018 ], [ -132.411251129851536, 55.417499015113982 ], [ -132.455998270148456, 55.417499015113982 ] ] ] } }
+]
+}

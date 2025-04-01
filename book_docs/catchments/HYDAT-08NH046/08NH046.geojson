@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH046",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WING CREEK NEAR KASLO", "OfficialID": "08NH046", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 1.48 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -116.925198968291937, 49.949531856768878 ], [ -116.925198968291937, 49.960468143231118 ], [ -116.908201031708074, 49.960468143231118 ], [ -116.908201031708074, 49.949531856768878 ], [ -116.925198968291937, 49.949531856768878 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09367936",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BURNHAM WASH NR BURNHAM, NM", "OfficialID": "09367936", "FlagPAVICS": 0, "Source": "USGS", "Area": 22.273787 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -108.481419370550228, 36.331848606399589 ], [ -108.481419370550228, 36.374274993600409 ], [ -108.428740629449763, 36.374274993600409 ], [ -108.428740629449763, 36.331848606399589 ], [ -108.481419370550228, 36.331848606399589 ] ] ] } }
+]
+}

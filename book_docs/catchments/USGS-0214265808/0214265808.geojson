@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "0214265808",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TORRENCE CR AT BRADFORD HILL LN NR HUNTERSVLLE, NC", "OfficialID": "0214265808", "FlagPAVICS": 0, "Source": "USGS", "Area": 18.880919 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -80.906739318927166, 35.384080274757281 ], [ -80.906739318927166, 35.423141925242717 ], [ -80.858816281072833, 35.423141925242717 ], [ -80.858816281072833, 35.384080274757281 ], [ -80.906739318927166, 35.384080274757281 ] ] ] } }
+]
+}

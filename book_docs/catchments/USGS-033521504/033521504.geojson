@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "033521504",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SAND CREEK AT 116TH STREET AT FISHERS, IN", "OfficialID": "033521504", "FlagPAVICS": 0, "Source": "USGS", "Area": 26.676745 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -86.019453112965863, 39.933729078951409 ], [ -86.019453112965863, 39.980159801048593 ], [ -85.958880287034134, 39.980159801048593 ], [ -85.958880287034134, 39.933729078951409 ], [ -86.019453112965863, 39.933729078951409 ] ] ] } }
+]
+}

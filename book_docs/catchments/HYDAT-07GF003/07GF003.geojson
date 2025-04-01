@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07GF003",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WOLVERINE CREEK NEAR VALLEYVIEW", "OfficialID": "07GF003", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 11.1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.834957304379998, 54.90641487302323 ], [ -117.834957304379998, 54.936365126976774 ], [ -117.782842695619991, 54.936365126976774 ], [ -117.782842695619991, 54.90641487302323 ], [ -117.834957304379998, 54.90641487302323 ] ] ] } }
+]
+}

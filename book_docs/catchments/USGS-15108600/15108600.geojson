@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15108600",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HILDA C NR DOUGLAS AK", "OfficialID": "15108600", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.785735 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -134.521232884032173, 58.215182792435598 ], [ -134.521232884032173, 58.238600127564396 ], [ -134.476760315967823, 58.238600127564396 ], [ -134.476760315967823, 58.215182792435598 ], [ -134.521232884032173, 58.215182792435598 ] ] ] } }
+]
+}

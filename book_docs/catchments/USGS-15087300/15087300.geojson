@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15087300",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "FALLS C NR PETERSBURG AK", "OfficialID": "15087300", "FlagPAVICS": 0, "Source": "USGS", "Area": 45.065569 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -132.978875322866656, 56.651695399489263 ], [ -132.978875322866656, 56.712043200510742 ], [ -132.869009677133363, 56.712043200510742 ], [ -132.869009677133363, 56.651695399489263 ], [ -132.978875322866656, 56.651695399489263 ] ] ] } }
+]
+}

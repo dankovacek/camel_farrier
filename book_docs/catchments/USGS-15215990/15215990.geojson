@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15215990",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NICOLET C NR CORDOVA AK", "OfficialID": "15215990", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.942481 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -145.804446416541623, 60.512360784882567 ], [ -145.804446416541623, 60.524889815117426 ], [ -145.778988183458353, 60.524889815117426 ], [ -145.778988183458353, 60.512360784882567 ], [ -145.804446416541623, 60.512360784882567 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01618100",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ROCKYMARSH RUN AT SCRABBLE, WV", "OfficialID": "01618100", "FlagPAVICS": 0, "Source": "USGS", "Area": 41.180606 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -77.869205069943035, 39.454239306297346 ], [ -77.869205069943035, 39.511927293702648 ], [ -77.794461530056964, 39.511927293702648 ], [ -77.794461530056964, 39.454239306297346 ], [ -77.869205069943035, 39.454239306297346 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15056280",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "UPPER CHILKOOT LK OUTLET NR HAINES AK", "OfficialID": "15056280", "FlagPAVICS": 0, "Source": "USGS", "Area": 11.887986 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -135.693129824319158, 59.408344845486525 ], [ -135.693129824319158, 59.439339954513471 ], [ -135.632197775680822, 59.439339954513471 ], [ -135.632197775680822, 59.408344845486525 ], [ -135.693129824319158, 59.408344845486525 ] ] ] } }
+]
+}

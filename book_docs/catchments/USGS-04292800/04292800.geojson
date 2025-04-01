@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04292800",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "STEVENS BROOK NEAR ST ALBANS, VT", "OfficialID": "04292800", "FlagPAVICS": 0, "Source": "USGS", "Area": 26.417747 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.151886510486904, 44.82583070974858 ], [ -73.151886510486904, 44.872035490251427 ], [ -73.086714689513101, 44.872035490251427 ], [ -73.086714689513101, 44.82583070974858 ], [ -73.151886510486904, 44.82583070974858 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01367690",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Franklin Pond Creek at Beaver Lake NJ", "OfficialID": "01367690", "FlagPAVICS": 0, "Source": "USGS", "Area": 14.866458 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -74.582611102611423, 41.087947212822186 ], [ -74.582611102611423, 41.122608347177817 ], [ -74.536611097388572, 41.122608347177817 ], [ -74.536611097388572, 41.087947212822186 ], [ -74.582611102611423, 41.087947212822186 ] ] ] } }
+]
+}

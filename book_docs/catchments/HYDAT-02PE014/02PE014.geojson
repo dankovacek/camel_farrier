@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02PE014",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "DAUPHINE (RIVIERE) A L' ILE D'ORLEANS", "OfficialID": "02PE014", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 24.9 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -70.889256586826249, 46.944241062657547 ], [ -70.889256586826249, 46.989098937342455 ], [ -70.82352341317376, 46.989098937342455 ], [ -70.82352341317376, 46.944241062657547 ], [ -70.889256586826249, 46.944241062657547 ] ] ] } }
+]
+}

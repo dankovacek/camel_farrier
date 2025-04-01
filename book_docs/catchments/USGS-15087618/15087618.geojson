@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15087618",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "STARRIGAVAN C AT UPPER BRIDGE NR SITKA AK", "OfficialID": "15087618", "FlagPAVICS": 0, "Source": "USGS", "Area": 11.110994 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -135.361029552089093, 57.109934238959326 ], [ -135.361029552089093, 57.139899321040673 ], [ -135.305825847910882, 57.139899321040673 ], [ -135.305825847910882, 57.109934238959326 ], [ -135.361029552089093, 57.109934238959326 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ159",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GOOSE CREEK AT PROVINCIAL FOREST ROAD", "OfficialID": "08NJ159", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 26.7 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.688502126333944, 49.394834522325127 ], [ -117.688502126333944, 49.441285477674867 ], [ -117.617097873666054, 49.441285477674867 ], [ -117.617097873666054, 49.394834522325127 ], [ -117.688502126333944, 49.394834522325127 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01373600",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SEELY BROOK NEAR CHESTER NY", "OfficialID": "01373600", "FlagPAVICS": 0, "Source": "USGS", "Area": 33.151683 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -74.274752484567159, 41.323842346429998 ], [ -74.274752484567159, 41.375602053570006 ], [ -74.20580307543284, 41.375602053570006 ], [ -74.20580307543284, 41.323842346429998 ], [ -74.274752484567159, 41.323842346429998 ] ] ] } }
+]
+}

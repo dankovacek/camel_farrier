@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15236210",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WHITTIER C AT WHITTIER AK", "OfficialID": "15236210", "FlagPAVICS": 0, "Source": "USGS", "Area": 10.541199 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -148.7205599958709, 60.757603882392175 ], [ -148.7205599958709, 60.786790517607827 ], [ -148.660786004129108, 60.786790517607827 ], [ -148.660786004129108, 60.757603882392175 ], [ -148.7205599958709, 60.757603882392175 ] ] ] } }
+]
+}

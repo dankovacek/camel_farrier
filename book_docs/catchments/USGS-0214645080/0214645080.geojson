@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "0214645080",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TRIB TO BRIAR CR AT RUNNYMEDE LN AT CHARLOTTE, NC", "OfficialID": "0214645080", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.082071 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -80.846319528646291, 35.159053471483922 ], [ -80.846319528646291, 35.174835408516081 ], [ -80.827013871353699, 35.174835408516081 ], [ -80.827013871353699, 35.159053471483922 ], [ -80.846319528646291, 35.159053471483922 ] ] ] } }
+]
+}

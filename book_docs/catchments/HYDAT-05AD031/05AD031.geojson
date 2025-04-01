@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05AD031",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "STREET CREEK AT INTERNATIONAL BOUNDARY", "OfficialID": "05AD031", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 14.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -113.903429094882299, 48.972072050580842 ], [ -113.903429094882299, 49.005707949419154 ], [ -113.852170905117688, 49.005707949419154 ], [ -113.852170905117688, 48.972072050580842 ], [ -113.903429094882299, 48.972072050580842 ] ] ] } }
+]
+}

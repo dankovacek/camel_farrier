@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08GA037",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MCNAIR CREEK NEAR PORT MELLON", "OfficialID": "08GA037", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 20.5 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -123.526043502628241, 49.491588990610083 ], [ -123.526043502628241, 49.532291009389922 ], [ -123.463356497371748, 49.532291009389922 ], [ -123.463356497371748, 49.491588990610083 ], [ -123.526043502628241, 49.491588990610083 ] ] ] } }
+]
+}

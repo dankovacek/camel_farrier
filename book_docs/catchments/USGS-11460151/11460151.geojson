@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11460151",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "REDWOOD C A HWY 1 BRIDGE A MUIR BEACH CA", "OfficialID": "11460151", "FlagPAVICS": 0, "Source": "USGS", "Area": 18.388824 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.603026345347828, 37.846836472029132 ], [ -122.603026345347828, 37.885385727970863 ], [ -122.554195654652162, 37.885385727970863 ], [ -122.554195654652162, 37.846836472029132 ], [ -122.603026345347828, 37.846836472029132 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05089100",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MIDDLE BRANCH PARK RIVER NR UNION, ND", "OfficialID": "05089100", "FlagPAVICS": 0, "Source": "USGS", "Area": 39.626621 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -98.06255799673356, 48.513922366022683 ], [ -98.06255799673356, 48.570511433977316 ], [ -97.977084803266436, 48.570511433977316 ], [ -97.977084803266436, 48.513922366022683 ], [ -98.06255799673356, 48.513922366022683 ] ] ] } }
+]
+}

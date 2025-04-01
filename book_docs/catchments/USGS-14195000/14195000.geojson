@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "14195000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HASKINS CREEK NEAR MCMINNVILLE, OREG.", "OfficialID": "14195000", "FlagPAVICS": 0, "Source": "USGS", "Area": 17.352834 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -123.393124053822234, 45.294999779750349 ], [ -123.393124053822234, 45.332447400249656 ], [ -123.339872746177761, 45.332447400249656 ], [ -123.339872746177761, 45.294999779750349 ], [ -123.393124053822234, 45.294999779750349 ] ] ] } }
+]
+}

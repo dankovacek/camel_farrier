@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05BH013",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "JUMPINGPOUND CREEK NEAR COX HILL", "OfficialID": "05BH013", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 36.9 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -114.981488257996872, 50.975026255756049 ], [ -114.981488257996872, 51.029633744243952 ], [ -114.894711742003139, 51.029633744243952 ], [ -114.894711742003139, 50.975026255756049 ], [ -114.981488257996872, 50.975026255756049 ] ] ] } }
+]
+}

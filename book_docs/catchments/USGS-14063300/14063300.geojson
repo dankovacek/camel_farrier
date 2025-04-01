@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "14063300",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "PAULINA CREEK NEAR LAPINE, OR.", "OfficialID": "14063300", "FlagPAVICS": 0, "Source": "USGS", "Area": 26.15875 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -121.310437780885977, 43.689909905694833 ], [ -121.310437780885977, 43.735887634305172 ], [ -121.246828219114022, 43.735887634305172 ], [ -121.246828219114022, 43.689909905694833 ], [ -121.310437780885977, 43.689909905694833 ] ] ] } }
+]
+}

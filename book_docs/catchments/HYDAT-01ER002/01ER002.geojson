@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01ER002",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ST. FRANCIS RIVER AT GOOSE HARBOUR LAKE", "OfficialID": "01ER002", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 23.8 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -61.447973970391047, 45.512242076739213 ], [ -61.447973970391047, 45.556097923260793 ], [ -61.38536602960896, 45.556097923260793 ], [ -61.38536602960896, 45.512242076739213 ], [ -61.447973970391047, 45.512242076739213 ] ] ] } }
+]
+}

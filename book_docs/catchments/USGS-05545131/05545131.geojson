@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05545131",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SOUTHWICK CREEK AT WILLIAMS BAY, WI", "OfficialID": "05545131", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.253278 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -88.547873971066252, 42.572436010731167 ], [ -88.547873971066252, 42.585930189268836 ], [ -88.52954802893376, 42.585930189268836 ], [ -88.52954802893376, 42.572436010731167 ], [ -88.547873971066252, 42.572436010731167 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11186340",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SALMON C TRIB B NR FAIRVIEW CA", "OfficialID": "11186340", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.191389 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -118.39086293171944, 35.895597907346705 ], [ -118.39086293171944, 35.905410092653291 ], [ -118.378749668280548, 35.905410092653291 ], [ -118.378749668280548, 35.895597907346705 ], [ -118.39086293171944, 35.895597907346705 ] ] ] } }
+]
+}

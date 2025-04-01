@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LC033",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CREIGHTON CREEK NEAR LUMBY", "OfficialID": "08LC033", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 37.6 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -118.813867497113705, 50.183548493856961 ], [ -118.813867497113705, 50.238671506143035 ], [ -118.727732502886283, 50.238671506143035 ], [ -118.727732502886283, 50.183548493856961 ], [ -118.813867497113705, 50.183548493856961 ] ] ] } }
+]
+}

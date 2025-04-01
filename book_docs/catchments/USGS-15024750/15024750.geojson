@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15024750",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GOAT C NR WRANGELL AK", "OfficialID": "15024750", "FlagPAVICS": 0, "Source": "USGS", "Area": 44.806572 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -132.026976689145499, 56.630691131037665 ], [ -132.026976689145499, 56.690865268962341 ], [ -131.917488510854525, 56.690865268962341 ], [ -131.917488510854525, 56.630691131037665 ], [ -132.026976689145499, 56.630691131037665 ] ] ] } }
+]
+}

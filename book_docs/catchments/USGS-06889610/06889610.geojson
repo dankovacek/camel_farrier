@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "06889610",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SB SHUNGANUNGA C AT SW 37TH ST, TOPEKA, KS", "OfficialID": "06889610", "FlagPAVICS": 0, "Source": "USGS", "Area": 30.043713 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -95.743628874424886, 38.975641913399727 ], [ -95.743628874424886, 39.024915686600266 ], [ -95.68022512557512, 39.024915686600266 ], [ -95.68022512557512, 38.975641913399727 ], [ -95.743628874424886, 38.975641913399727 ] ] ] } }
+]
+}

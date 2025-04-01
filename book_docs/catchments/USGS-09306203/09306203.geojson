@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09306203",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HORSE DRAW AT MOUTH, NEAR RANGELY, CO.", "OfficialID": "09306203", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.433229 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -108.314681173265512, 39.92438413842676 ], [ -108.314681173265512, 39.948893261573247 ], [ -108.282716426734481, 39.948893261573247 ], [ -108.282716426734481, 39.92438413842676 ], [ -108.314681173265512, 39.92438413842676 ] ] ] } }
+]
+}

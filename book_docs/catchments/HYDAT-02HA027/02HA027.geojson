@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02HA027",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WALKER CREEK AT ST. CATHARINES", "OfficialID": "02HA027", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 5.25 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -79.242461639386363, 43.205531151350776 ], [ -79.242461639386363, 43.226128848649218 ], [ -79.214198360613636, 43.226128848649218 ], [ -79.214198360613636, 43.205531151350776 ], [ -79.242461639386363, 43.205531151350776 ] ] ] } }
+]
+}

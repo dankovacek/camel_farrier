@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09152520",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CALLOW CREEK AT WHITEWATER, CO", "OfficialID": "09152520", "FlagPAVICS": 0, "Source": "USGS", "Area": 10.800197 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -108.467704666032532, 38.97437749120467 ], [ -108.467704666032532, 39.003920508795325 ], [ -108.429695733967478, 39.003920508795325 ], [ -108.429695733967478, 38.97437749120467 ], [ -108.467704666032532, 38.97437749120467 ] ] ] } }
+]
+}

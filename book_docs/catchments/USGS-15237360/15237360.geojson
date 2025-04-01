@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15237360",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SAN JUAN R NR SEWARD AK", "OfficialID": "15237360", "FlagPAVICS": 0, "Source": "USGS", "Area": 32.115693 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -147.936034127481747, 59.791926628651439 ], [ -147.936034127481747, 59.842871171348563 ], [ -147.834703872518247, 59.842871171348563 ], [ -147.834703872518247, 59.791926628651439 ], [ -147.936034127481747, 59.791926628651439 ] ] ] } }
+]
+}

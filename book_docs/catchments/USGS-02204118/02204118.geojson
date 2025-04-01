@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02204118",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HONEY CREEK AT HURST ROAD, NEAR CONYERS, GA", "OfficialID": "02204118", "FlagPAVICS": 0, "Source": "USGS", "Area": 16.73124 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -84.106256046877036, 33.643836799749394 ], [ -84.106256046877036, 33.68060760025061 ], [ -84.062077353122959, 33.68060760025061 ], [ -84.062077353122959, 33.643836799749394 ], [ -84.106256046877036, 33.643836799749394 ] ] ] } }
+]
+}

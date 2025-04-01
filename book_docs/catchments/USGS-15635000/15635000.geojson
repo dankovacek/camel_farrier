@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15635000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ELDORADO C NR TELLER AK", "OfficialID": "15635000", "FlagPAVICS": 0, "Source": "USGS", "Area": 15.099556 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -166.243906951073598, 64.940373394450518 ], [ -166.243906951073598, 64.975305205549489 ], [ -166.16138144892642, 64.975305205549489 ], [ -166.16138144892642, 64.940373394450518 ], [ -166.243906951073598, 64.940373394450518 ] ] ] } }
+]
+}

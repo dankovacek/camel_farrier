@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05579610",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "KICKAPOO CREEK AT 2100E ROAD NEAR BLOOMINGTON, IL", "OfficialID": "05579610", "FlagPAVICS": 0, "Source": "USGS", "Area": 18.906819 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -88.889578899360487, 40.44823356372023 ], [ -88.889578899360487, 40.487321996279768 ], [ -88.83819888063951, 40.487321996279768 ], [ -88.83819888063951, 40.44823356372023 ], [ -88.889578899360487, 40.44823356372023 ] ] ] } }
+]
+}

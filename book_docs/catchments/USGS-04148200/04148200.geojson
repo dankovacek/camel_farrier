@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04148200",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SWARTZ CREEK AT ELLIOT ROAD NEAR HOLLY, MI", "OfficialID": "04148200", "FlagPAVICS": 0, "Source": "USGS", "Area": 31.3387 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.662035949812747, 42.80319922756123 ], [ -83.662035949812747, 42.853523732438767 ], [ -83.593417250187258, 42.853523732438767 ], [ -83.593417250187258, 42.80319922756123 ], [ -83.662035949812747, 42.80319922756123 ] ] ] } }
+]
+}

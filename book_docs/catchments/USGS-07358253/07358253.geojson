@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07358253",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Whittington Cr at Tunnel Ent at Hot Springs, AR", "OfficialID": "07358253", "FlagPAVICS": 0, "Source": "USGS", "Area": 5.697946 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -93.070521586902757, 34.506437449509868 ], [ -93.070521586902757, 34.527895890490136 ], [ -93.044478413097252, 34.527895890490136 ], [ -93.044478413097252, 34.506437449509868 ], [ -93.070521586902757, 34.506437449509868 ] ] ] } }
+]
+}

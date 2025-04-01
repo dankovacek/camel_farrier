@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09238700",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "FISH CR TRIB AB LONG LK, NR BUFFALO PASS, CO.", "OfficialID": "09238700", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.113689 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -106.686279322520036, 40.468568825708964 ], [ -106.686279322520036, 40.478055654291033 ], [ -106.673808277479978, 40.478055654291033 ], [ -106.673808277479978, 40.468568825708964 ], [ -106.686279322520036, 40.468568825708964 ] ] ] } }
+]
+}

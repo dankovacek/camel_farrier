@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01063310",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Stony Brook at East Sebago, Maine", "OfficialID": "01063310", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.09788 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -70.648750596184669, 43.849045284919093 ], [ -70.648750596184669, 43.862065835080905 ], [ -70.630693803815319, 43.862065835080905 ], [ -70.630693803815319, 43.849045284919093 ], [ -70.648750596184669, 43.849045284919093 ] ] ] } }
+]
+}

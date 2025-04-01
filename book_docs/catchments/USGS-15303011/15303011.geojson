@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15303011",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WOOD R TR NR ALEKNAGIK AK", "OfficialID": "15303011", "FlagPAVICS": 0, "Source": "USGS", "Area": 8.676417 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -158.695282093338221, 59.193236936802819 ], [ -158.695282093338221, 59.219716403197182 ], [ -158.643558906661781, 59.219716403197182 ], [ -158.643558906661781, 59.193236936802819 ], [ -158.695282093338221, 59.193236936802819 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01362342",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HOLLOW TREE BROOK AT LANESVILLE NY", "OfficialID": "01362342", "FlagPAVICS": 0, "Source": "USGS", "Area": 5.050452 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -74.278623031548065, 42.13212097289103 ], [ -74.278623031548065, 42.152323427108968 ], [ -74.251376968451936, 42.152323427108968 ], [ -74.251376968451936, 42.13212097289103 ], [ -74.278623031548065, 42.13212097289103 ] ] ] } }
+]
+}

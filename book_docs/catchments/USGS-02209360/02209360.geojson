@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02209360",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "EAST BEAR CREEK AT POPLAR ROAD, NR MANSFIELD, GA", "OfficialID": "02209360", "FlagPAVICS": 0, "Source": "USGS", "Area": 17.844929 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.793021740665822, 33.488262558847715 ], [ -83.793021740665822, 33.526237441152283 ], [ -83.747478259334187, 33.526237441152283 ], [ -83.747478259334187, 33.488262558847715 ], [ -83.793021740665822, 33.488262558847715 ] ] ] } }
+]
+}

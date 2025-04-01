@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "023270128",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CENTRAL DRAINAGE DITCH NO.14 @ TENN. ST IN TALLAHA", "OfficialID": "023270128", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.289269 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -84.304911558443493, 30.437603752874068 ], [ -84.304911558443493, 30.45390754712593 ], [ -84.286000041556505, 30.45390754712593 ], [ -84.286000041556505, 30.437603752874068 ], [ -84.304911558443493, 30.437603752874068 ] ] ] } }
+]
+}

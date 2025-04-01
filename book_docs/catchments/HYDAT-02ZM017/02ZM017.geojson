@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02ZM017",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LEARY BROOK AT ST. JOHN'S", "OfficialID": "02ZM017", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 15.3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -52.78911459436074, 47.544358547990285 ], [ -52.78911459436074, 47.579521452009715 ], [ -52.737005405639266, 47.579521452009715 ], [ -52.737005405639266, 47.544358547990285 ], [ -52.78911459436074, 47.544358547990285 ] ] ] } }
+]
+}

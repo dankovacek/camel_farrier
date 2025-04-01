@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "0158935180",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GWYNNS RUN AT BALTIMORE, MD", "OfficialID": "0158935180", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.474938 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -76.666466247047907, 39.266808402527836 ], [ -76.666466247047907, 39.289683177472163 ], [ -76.636915352952087, 39.289683177472163 ], [ -76.636915352952087, 39.266808402527836 ], [ -76.666466247047907, 39.266808402527836 ] ] ] } }
+]
+}

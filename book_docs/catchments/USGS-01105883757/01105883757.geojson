@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01105883757",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "COONAMESSETT R AT SANDWICH RD NR E. FALMOUTH, MA", "OfficialID": "01105883757", "FlagPAVICS": 0, "Source": "USGS", "Area": 4.661955 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -70.584673671245696, 41.589014754911247 ], [ -70.584673671245696, 41.608424645088746 ], [ -70.558718128754293, 41.608424645088746 ], [ -70.558718128754293, 41.589014754911247 ], [ -70.584673671245696, 41.589014754911247 ] ] ] } }
+]
+}

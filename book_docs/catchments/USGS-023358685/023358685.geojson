@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "023358685",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SEWELL MILL CREEK AT GA 120, NEAR MARIETTA, GA", "OfficialID": "023358685", "FlagPAVICS": 0, "Source": "USGS", "Area": 32.555989 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -84.483079463166575, 33.953621314728181 ], [ -84.483079463166575, 34.004913885271819 ], [ -84.421224536833421, 34.004913885271819 ], [ -84.421224536833421, 33.953621314728181 ], [ -84.483079463166575, 33.953621314728181 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01571490",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Cedar Run at Eberlys Mill, PA", "OfficialID": "01571490", "FlagPAVICS": 0, "Source": "USGS", "Area": 32.633688 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -76.939992683518085, 40.199413228807629 ], [ -76.939992683518085, 40.250766971192377 ], [ -76.872732896481921, 40.250766971192377 ], [ -76.872732896481921, 40.199413228807629 ], [ -76.939992683518085, 40.199413228807629 ] ] ] } }
+]
+}

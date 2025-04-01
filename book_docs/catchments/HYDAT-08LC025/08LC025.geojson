@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LC025",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BLURTON CREEK NEAR MARA", "OfficialID": "08LC025", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 19.2 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.07688149240964, 50.659474834321998 ], [ -119.07688149240964, 50.698865165678001 ], [ -119.014718507590359, 50.698865165678001 ], [ -119.014718507590359, 50.659474834321998 ], [ -119.07688149240964, 50.659474834321998 ] ] ] } }
+]
+}

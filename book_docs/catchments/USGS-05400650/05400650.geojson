@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05400650",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LITTLE PLOVER RIVER AT PLOVER, WI", "OfficialID": "05400650", "FlagPAVICS": 0, "Source": "USGS", "Area": 49.209529 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -89.573076170036089, 44.442358188697419 ], [ -89.573076170036089, 44.505419591302577 ], [ -89.484701629963908, 44.505419591302577 ], [ -89.484701629963908, 44.442358188697419 ], [ -89.573076170036089, 44.442358188697419 ] ] ] } }
+]
+}

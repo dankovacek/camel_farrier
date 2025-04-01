@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NN020",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TRAPPING CREEK AT 1220 M CONTOUR", "OfficialID": "08NN020", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 22.8 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -118.942860080428403, 49.64520769078333 ], [ -118.942860080428403, 49.688132309216677 ], [ -118.876539919571599, 49.688132309216677 ], [ -118.876539919571599, 49.64520769078333 ], [ -118.942860080428403, 49.64520769078333 ] ] ] } }
+]
+}

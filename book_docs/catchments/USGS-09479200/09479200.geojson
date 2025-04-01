@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09479200",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "QUEEN C TRIB A APACHE JUNC ARIZ", "OfficialID": "09479200", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.320887 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -111.547709836574839, 33.398494148495509 ], [ -111.547709836574839, 33.408825851504496 ], [ -111.535333763425157, 33.408825851504496 ], [ -111.535333763425157, 33.398494148495509 ], [ -111.547709836574839, 33.398494148495509 ] ] ] } }
+]
+}

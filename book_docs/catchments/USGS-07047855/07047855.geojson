@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07047855",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Whiteman's Crk at Ind Dr at Jonesboro, AR", "OfficialID": "07047855", "FlagPAVICS": 0, "Source": "USGS", "Area": 17.171536 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -90.665189272865959, 35.789985357519129 ], [ -90.665189272865959, 35.827236842480872 ], [ -90.619255127134053, 35.827236842480872 ], [ -90.619255127134053, 35.789985357519129 ], [ -90.665189272865959, 35.789985357519129 ] ] ] } }
+]
+}

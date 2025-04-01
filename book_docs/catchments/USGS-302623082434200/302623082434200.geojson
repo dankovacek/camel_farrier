@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "302623082434200",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "OCCIDENTAL POND NORTH CSA OUTFALL NR WHITE SPGS FL", "OfficialID": "302623082434200", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.838882 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.735253838032833, 30.433848557455967 ], [ -82.735253838032833, 30.446038902544032 ], [ -82.721114541967154, 30.446038902544032 ], [ -82.721114541967154, 30.433848557455967 ], [ -82.735253838032833, 30.433848557455967 ] ] ] } }
+]
+}

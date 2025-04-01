@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15274798",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SB SF CHESTER C NR E20TH AVE AT ANCHORAGE AK", "OfficialID": "15274798", "FlagPAVICS": 0, "Source": "USGS", "Area": 24.319867 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -149.763496628047562, 61.18311708275543 ], [ -149.763496628047562, 61.227449317244563 ], [ -149.671458571952428, 61.227449317244563 ], [ -149.671458571952428, 61.18311708275543 ], [ -149.763496628047562, 61.18311708275543 ] ] ] } }
+]
+}

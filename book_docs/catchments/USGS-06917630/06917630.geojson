@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "06917630",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "East Drywood Creek at Prairie State Park", "OfficialID": "06917630", "FlagPAVICS": 0, "Source": "USGS", "Area": 8.754116 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -94.574854121071382, 37.522062216546161 ], [ -94.574854121071382, 37.548659983453845 ], [ -94.541312478928631, 37.548659983453845 ], [ -94.541312478928631, 37.522062216546161 ], [ -94.574854121071382, 37.522062216546161 ] ] ] } }
+]
+}

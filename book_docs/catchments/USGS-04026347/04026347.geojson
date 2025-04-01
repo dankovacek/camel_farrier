@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04026347",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "PINE CREEK AT MOQUAH, WI", "OfficialID": "04026347", "FlagPAVICS": 0, "Source": "USGS", "Area": 15.280854 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -91.130742726562204, 46.54015104197029 ], [ -91.130742726562204, 46.575291938029707 ], [ -91.079637873437804, 46.575291938029707 ], [ -91.079637873437804, 46.54015104197029 ], [ -91.130742726562204, 46.54015104197029 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11013600",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "JAMUL C A LEE VALLEY NR JAMUL CA", "OfficialID": "11013600", "FlagPAVICS": 0, "Source": "USGS", "Area": 5.853344 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -116.828223920608124, 32.700014216133781 ], [ -116.828223920608124, 32.721763303866226 ], [ -116.80237547939187, 32.721763303866226 ], [ -116.80237547939187, 32.700014216133781 ], [ -116.828223920608124, 32.700014216133781 ] ] ] } }
+]
+}

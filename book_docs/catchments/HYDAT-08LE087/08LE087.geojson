@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LE087",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TAPPEN CREEK AT THE SOURCE", "OfficialID": "08LE087", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 4.4 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.409616241154708, 50.78640165724407 ], [ -119.409616241154708, 50.805258342755934 ], [ -119.379783758845292, 50.805258342755934 ], [ -119.379783758845292, 50.78640165724407 ], [ -119.409616241154708, 50.78640165724407 ] ] ] } }
+]
+}

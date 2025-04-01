@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01306440",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CONNETQUOT BROOK AT CENTRAL ISLIP NY", "OfficialID": "01306440", "FlagPAVICS": 0, "Source": "USGS", "Area": 42.216596 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.204130830070042, 40.763295442378471 ], [ -73.204130830070042, 40.821704557621523 ], [ -73.126980369929967, 40.821704557621523 ], [ -73.126980369929967, 40.763295442378471 ], [ -73.204130830070042, 40.763295442378471 ] ] ] } }
+]
+}

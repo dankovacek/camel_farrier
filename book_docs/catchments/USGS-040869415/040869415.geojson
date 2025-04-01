@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "040869415",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LINCOLN CREEK AT 47TH STREET AT MILWAUKEE, WI", "OfficialID": "040869415", "FlagPAVICS": 0, "Source": "USGS", "Area": 33.825077 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -88.008109763437176, 43.070814495526719 ], [ -88.008109763437176, 43.123097244473286 ], [ -87.936509036562825, 43.123097244473286 ], [ -87.936509036562825, 43.070814495526719 ], [ -88.008109763437176, 43.070814495526719 ] ] ] } }
+]
+}

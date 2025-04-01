@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04087047",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LITTLE MENOMONEE RIVER @ MEQUON RD NR MEQUON, WI", "OfficialID": "04087047", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.510928 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -88.044682181808682, 43.209070446699869 ], [ -88.044682181808682, 43.233707333300131 ], [ -88.010873418191309, 43.233707333300131 ], [ -88.010873418191309, 43.209070446699869 ], [ -88.044682181808682, 43.209070446699869 ] ] ] } }
+]
+}

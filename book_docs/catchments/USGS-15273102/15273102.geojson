@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15273102",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "L RABBIT C AT ANCHORAGE AK", "OfficialID": "15273102", "FlagPAVICS": 0, "Source": "USGS", "Area": 15.384453 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -149.851699210433992, 61.05876017173933 ], [ -149.851699210433992, 61.094019988260676 ], [ -149.778794589566019, 61.094019988260676 ], [ -149.778794589566019, 61.05876017173933 ], [ -149.851699210433992, 61.05876017173933 ] ] ] } }
+]
+}

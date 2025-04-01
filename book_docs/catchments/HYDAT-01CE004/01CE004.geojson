@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01CE004",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BRUDENELL RIVER AT BRUDENELL", "OfficialID": "01CE004", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 33.1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -62.693753058132131, 46.176080327465584 ], [ -62.693753058132131, 46.227799672534417 ], [ -62.619026941867872, 46.227799672534417 ], [ -62.619026941867872, 46.176080327465584 ], [ -62.693753058132131, 46.176080327465584 ] ] ] } }
+]
+}

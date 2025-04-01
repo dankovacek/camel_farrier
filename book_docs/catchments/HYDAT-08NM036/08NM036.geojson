@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM036",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SCOTTY CREEK NEAR RUTLAND", "OfficialID": "08NM036", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 35.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.374610126540645, 49.904798487130982 ], [ -119.374610126540645, 49.957981512869019 ], [ -119.291989873459343, 49.957981512869019 ], [ -119.291989873459343, 49.904798487130982 ], [ -119.374610126540645, 49.904798487130982 ] ] ] } }
+]
+}

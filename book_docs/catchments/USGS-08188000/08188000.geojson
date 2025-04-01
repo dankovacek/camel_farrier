@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08188000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Dry Escondido Ck nr Kenedy, TX", "OfficialID": "08188000", "FlagPAVICS": 0, "Source": "USGS", "Area": 24.423466 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -97.862864767353386, 28.839431880750528 ], [ -97.862864767353386, 28.883858439249469 ], [ -97.81213723264662, 28.883858439249469 ], [ -97.81213723264662, 28.839431880750528 ], [ -97.862864767353386, 28.839431880750528 ] ] ] } }
+]
+}

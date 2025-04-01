@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03212580",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LEFT FORK SANDLICK CREEK AT ELBERT, WV", "OfficialID": "03212580", "FlagPAVICS": 0, "Source": "USGS", "Area": 4.610156 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.589467302608554, 37.326018871878389 ], [ -81.589467302608554, 37.345320628121613 ], [ -81.565191297391451, 37.345320628121613 ], [ -81.565191297391451, 37.326018871878389 ], [ -81.589467302608554, 37.326018871878389 ] ] ] } }
+]
+}

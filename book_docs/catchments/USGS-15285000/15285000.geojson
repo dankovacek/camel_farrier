@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15285000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WASILLA C NR PALMER AK", "OfficialID": "15285000", "FlagPAVICS": 0, "Source": "USGS", "Area": 43.511584 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -149.260754541854936, 61.613423683010261 ], [ -149.260754541854936, 61.672721876989733 ], [ -149.135906458145058, 61.672721876989733 ], [ -149.135906458145058, 61.613423683010261 ], [ -149.260754541854936, 61.613423683010261 ] ] ] } }
+]
+}

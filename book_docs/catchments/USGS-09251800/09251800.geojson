@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09251800",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NORTH FORK LITTLE SNAKE RIVER NEAR ENCAMPMENT, WY", "OfficialID": "09251800", "FlagPAVICS": 0, "Source": "USGS", "Area": 24.967361 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -106.9870002139929, 41.020040744960731 ], [ -106.9870002139929, 41.064959255039263 ], [ -106.927444186007108, 41.064959255039263 ], [ -106.927444186007108, 41.020040744960731 ], [ -106.9870002139929, 41.020040744960731 ] ] ] } }
+]
+}

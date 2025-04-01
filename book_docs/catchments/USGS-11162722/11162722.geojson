@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11162722",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SPRUCE BRANCH A SOUTH SAN FRANCISCO CA", "OfficialID": "11162722", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.812983 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.429560375442392, 37.63999330342007 ], [ -122.429560375442392, 37.652097496579927 ], [ -122.414273424557607, 37.652097496579927 ], [ -122.414273424557607, 37.63999330342007 ], [ -122.429560375442392, 37.63999330342007 ] ] ] } }
+]
+}

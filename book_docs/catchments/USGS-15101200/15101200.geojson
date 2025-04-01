@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15101200",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "KALININ BAY TR NR SITKA AK", "OfficialID": "15101200", "FlagPAVICS": 0, "Source": "USGS", "Area": 5.905144 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -135.798394494194156, 57.292602244669126 ], [ -135.798394494194156, 57.31444735533087 ], [ -135.757954705805844, 57.31444735533087 ], [ -135.757954705805844, 57.292602244669126 ], [ -135.798394494194156, 57.292602244669126 ] ] ] } }
+]
+}

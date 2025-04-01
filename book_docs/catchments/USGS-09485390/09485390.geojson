@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09485390",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ATTERBURY WASH TRIBUTARY AT TUCSON,ARIZONA", "OfficialID": "09485390", "FlagPAVICS": 0, "Source": "USGS", "Area": 12.872177 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -110.841085231513318, 32.169784149250461 ], [ -110.841085231513318, 32.202036770749544 ], [ -110.80297616848668, 32.202036770749544 ], [ -110.80297616848668, 32.169784149250461 ], [ -110.841085231513318, 32.169784149250461 ] ] ] } }
+]
+}

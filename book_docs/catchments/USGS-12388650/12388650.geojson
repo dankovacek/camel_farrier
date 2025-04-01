@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12388650",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Camas Creek near Hot Springs MT", "OfficialID": "12388650", "FlagPAVICS": 0, "Source": "USGS", "Area": 11.55129 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -114.718257068109864, 47.473034586110231 ], [ -114.718257068109864, 47.503587613889763 ], [ -114.673042931890137, 47.503587613889763 ], [ -114.673042931890137, 47.473034586110231 ], [ -114.718257068109864, 47.473034586110231 ] ] ] } }
+]
+}

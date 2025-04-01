@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01109439",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "KETTLE BROOK AT ROCKLAND ST NEAR AUBURN MA", "OfficialID": "01109439", "FlagPAVICS": 0, "Source": "USGS", "Area": 47.137549 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -71.880350020638858, 42.184511711440798 ], [ -71.880350020638858, 42.246231228559203 ], [ -71.797015579361144, 42.246231228559203 ], [ -71.797015579361144, 42.184511711440798 ], [ -71.880350020638858, 42.184511711440798 ] ] ] } }
+]
+}

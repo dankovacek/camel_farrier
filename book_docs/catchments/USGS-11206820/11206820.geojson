@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11206820",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MARBLE FORK KAWEAH R AB HORSE C NR LODGEPOLE CA", "OfficialID": "11206820", "FlagPAVICS": 0, "Source": "USGS", "Area": 21.755792 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -118.72778502639359, 36.590701592462501 ], [ -118.72778502639359, 36.632631747537495 ], [ -118.675548373606418, 36.632631747537495 ], [ -118.675548373606418, 36.590701592462501 ], [ -118.72778502639359, 36.590701592462501 ] ] ] } }
+]
+}

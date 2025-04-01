@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11428400",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "L RUBICON R BL BUCK ISLAND DAM CA", "OfficialID": "11428400", "FlagPAVICS": 0, "Source": "USGS", "Area": 15.539851 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -120.279103519648928, 38.987188315518466 ], [ -120.279103519648928, 39.022625764481532 ], [ -120.233500880351059, 39.022625764481532 ], [ -120.233500880351059, 38.987188315518466 ], [ -120.279103519648928, 38.987188315518466 ] ] ] } }
+]
+}

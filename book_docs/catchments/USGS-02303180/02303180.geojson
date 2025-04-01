@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02303180",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "PEMBERTON CK AT WALLACE BRANCH RD NR PLANT CITY FL", "OfficialID": "02303180", "FlagPAVICS": 0, "Source": "USGS", "Area": 18.725521 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.176290914168618, 28.021125044585922 ], [ -82.176290914168618, 28.060025615414077 ], [ -82.132216685831395, 28.060025615414077 ], [ -82.132216685831395, 28.021125044585922 ], [ -82.176290914168618, 28.021125044585922 ] ] ] } }
+]
+}

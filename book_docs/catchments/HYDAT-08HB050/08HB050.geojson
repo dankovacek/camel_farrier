@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HB050",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BEAVER CREEK ABOVE 180 M CONTOUR", "OfficialID": "08HB050", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 3.89 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -124.898608545111728, 49.341134896204913 ], [ -124.898608545111728, 49.35886510379509 ], [ -124.871391454888283, 49.35886510379509 ], [ -124.871391454888283, 49.341134896204913 ], [ -124.898608545111728, 49.341134896204913 ] ] ] } }
+]
+}

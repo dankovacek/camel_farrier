@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02HA015",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WELLAND RIVER NEAR MOUNT HOPE", "OfficialID": "02HA015", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 2.08 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -79.956388375803016, 43.164077527372413 ], [ -79.956388375803016, 43.177042472627591 ], [ -79.938611624196994, 43.177042472627591 ], [ -79.938611624196994, 43.164077527372413 ], [ -79.956388375803016, 43.164077527372413 ] ] ] } }
+]
+}

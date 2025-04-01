@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08160000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Dry Ck at Buescher Lk nr Smithville, TX", "OfficialID": "08160000", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.833163 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -97.169875832535411, 30.03364189837243 ], [ -97.169875832535411, 30.051242101627572 ], [ -97.149544167464597, 30.051242101627572 ], [ -97.149544167464597, 30.03364189837243 ], [ -97.169875832535411, 30.03364189837243 ] ] ] } }
+]
+}

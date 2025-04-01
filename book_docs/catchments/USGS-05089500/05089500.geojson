@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05089500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CART CREEK AT MOUNTAIN, ND", "OfficialID": "05089500", "FlagPAVICS": 0, "Source": "USGS", "Area": 43.770581 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -97.906798631367153, 48.647201292572362 ], [ -97.906798631367153, 48.706675707427635 ], [ -97.81672736863284, 48.706675707427635 ], [ -97.81672736863284, 48.647201292572362 ], [ -97.906798631367153, 48.647201292572362 ] ] ] } }
+]
+}

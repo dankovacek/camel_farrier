@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03259813",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "W Fk Mill Creek at Hille Park at Cincinnati OH", "OfficialID": "03259813", "FlagPAVICS": 0, "Source": "USGS", "Area": 24.630664 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -84.576265218028041, 39.127692695867829 ], [ -84.576265218028041, 39.172307304132168 ], [ -84.518734781971958, 39.172307304132168 ], [ -84.518734781971958, 39.127692695867829 ], [ -84.576265218028041, 39.127692695867829 ] ] ] } }
+]
+}

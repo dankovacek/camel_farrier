@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09044000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HOOSIER CREEK NEAR HOOSIER PASS, CO.", "OfficialID": "09044000", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.978472 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -106.064498088313655, 39.365286676401887 ], [ -106.064498088313655, 39.38080110359811 ], [ -106.044428511686334, 39.38080110359811 ], [ -106.044428511686334, 39.365286676401887 ], [ -106.064498088313655, 39.365286676401887 ] ] ] } }
+]
+}

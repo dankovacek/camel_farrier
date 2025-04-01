@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03538230",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "EAST FORK POPLAR CR BELOW NS PIPE AT OAK RIDGE, TN", "OfficialID": "03538230", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.330978 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -84.258402107780157, 35.979882637516695 ], [ -84.258402107780157, 35.9936075024833 ], [ -84.241440092219833, 35.9936075024833 ], [ -84.241440092219833, 35.979882637516695 ], [ -84.258402107780157, 35.979882637516695 ] ] ] } }
+]
+}

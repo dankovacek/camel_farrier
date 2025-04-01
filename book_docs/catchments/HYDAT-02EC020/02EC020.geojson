@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02EC020",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HAWKESTONE CREEK AT HAWKESTONE", "OfficialID": "02EC020", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 40.2 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -79.507923739020256, 44.468471496792255 ], [ -79.507923739020256, 44.52546850320774 ], [ -79.428016260979732, 44.52546850320774 ], [ -79.428016260979732, 44.468471496792255 ], [ -79.507923739020256, 44.468471496792255 ] ] ] } }
+]
+}

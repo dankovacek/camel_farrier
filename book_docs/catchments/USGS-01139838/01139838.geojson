@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01139838",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "PIKE HILL BROOK @ PIKE HILL ROAD, NR BRADFORD, VT", "OfficialID": "01139838", "FlagPAVICS": 0, "Source": "USGS", "Area": 9.42751 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.272075284668219, 44.039597846418481 ], [ -72.272075284668219, 44.067199653581518 ], [ -72.233669675331768, 44.067199653581518 ], [ -72.233669675331768, 44.039597846418481 ], [ -72.272075284668219, 44.039597846418481 ] ] ] } }
+]
+}

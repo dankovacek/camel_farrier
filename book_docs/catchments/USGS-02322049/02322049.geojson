@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02322049",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BAD DOG BRANCH NEAR ALACHUA, FL", "OfficialID": "02322049", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.269088 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.474004862214983, 29.82073404271485 ], [ -82.474004862214983, 29.830861137285151 ], [ -82.462331537785005, 29.830861137285151 ], [ -82.462331537785005, 29.82073404271485 ], [ -82.474004862214983, 29.82073404271485 ] ] ] } }
+]
+}

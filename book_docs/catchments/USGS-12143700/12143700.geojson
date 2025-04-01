@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12143700",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BOXLEY CREEK NEAR CEDAR FALLS, WA", "OfficialID": "12143700", "FlagPAVICS": 0, "Source": "USGS", "Area": 4.066261 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -121.765729617149319, 47.423539146338371 ], [ -121.765729617149319, 47.441666593661623 ], [ -121.738931982850673, 47.441666593661623 ], [ -121.738931982850673, 47.423539146338371 ], [ -121.765729617149319, 47.423539146338371 ] ] ] } }
+]
+}

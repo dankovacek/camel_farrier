@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02246150",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BIG DAVIS CREEK AT BAYARD, FL", "OfficialID": "02246150", "FlagPAVICS": 0, "Source": "USGS", "Area": 35.223663 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.557048532380804, 30.124954527538836 ], [ -81.557048532380804, 30.178307212461167 ], [ -81.4953476676192, 30.178307212461167 ], [ -81.4953476676192, 30.124954527538836 ], [ -81.557048532380804, 30.124954527538836 ] ] ] } }
+]
+}

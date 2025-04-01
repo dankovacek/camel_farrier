@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05341375",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "RICE CREEK NEAR BALSAM LAKE, WI", "OfficialID": "05341375", "FlagPAVICS": 0, "Source": "USGS", "Area": 32.37469 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -92.505292731589435, 45.465216174127228 ], [ -92.505292731589435, 45.516365725872767 ], [ -92.432328668410577, 45.516365725872767 ], [ -92.432328668410577, 45.465216174127228 ], [ -92.505292731589435, 45.465216174127228 ] ] ] } }
+]
+}

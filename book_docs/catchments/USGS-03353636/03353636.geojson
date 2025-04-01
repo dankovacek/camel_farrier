@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03353636",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LITTLE BUCK CREEK AT SOUTHPORT, IN", "OfficialID": "03353636", "FlagPAVICS": 0, "Source": "USGS", "Area": 27.971733 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -86.16725659759048, 39.641273286550827 ], [ -86.16725659759048, 39.688817613449174 ], [ -86.105493802409526, 39.688817613449174 ], [ -86.105493802409526, 39.641273286550827 ], [ -86.16725659759048, 39.641273286550827 ] ] ] } }
+]
+}

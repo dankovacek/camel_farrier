@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01484654",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BUNDICKS BRANCH AT ROBINSONVILLE, DE", "OfficialID": "01484654", "FlagPAVICS": 0, "Source": "USGS", "Area": 17.870829 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -75.230374021147512, 38.702499954858858 ], [ -75.230374021147512, 38.740502385141149 ], [ -75.181665178852498, 38.740502385141149 ], [ -75.181665178852498, 38.702499954858858 ], [ -75.230374021147512, 38.702499954858858 ] ] ] } }
+]
+}

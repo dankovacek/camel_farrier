@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03049676",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Squaw Run at Old Freeport Road near Blawnox, PA", "OfficialID": "03049676", "FlagPAVICS": 0, "Source": "USGS", "Area": 20.9011 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -79.90451909336781, 40.467506422541106 ], [ -79.90451909336781, 40.508604697458892 ], [ -79.850480906632185, 40.508604697458892 ], [ -79.850480906632185, 40.467506422541106 ], [ -79.90451909336781, 40.467506422541106 ] ] ] } }
+]
+}

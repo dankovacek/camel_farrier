@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04294140",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ROCK RIVER NEAR HIGHGATE CENTER, VT", "OfficialID": "04294140", "FlagPAVICS": 0, "Source": "USGS", "Area": 29.26672 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.026310574896044, 44.938739340690823 ], [ -73.026310574896044, 44.987371779309179 ], [ -72.957578225103944, 44.987371779309179 ], [ -72.957578225103944, 44.938739340690823 ], [ -73.026310574896044, 44.938739340690823 ] ] ] } }
+]
+}

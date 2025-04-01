@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05CJ011",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NATURAL FLOW B NEAR PRINCESS", "OfficialID": "05CJ011", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 1.99 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -111.515597819842895, 50.632549323993324 ], [ -111.515597819842895, 50.645230676006683 ], [ -111.495602180157107, 50.645230676006683 ], [ -111.495602180157107, 50.632549323993324 ], [ -111.515597819842895, 50.632549323993324 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04001000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WASHINGTON CREEK AT WINDIGO, MI", "OfficialID": "04001000", "FlagPAVICS": 0, "Source": "USGS", "Area": 34.187673 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -89.185136406675142, 47.894998084461363 ], [ -89.185136406675142, 47.947560315538638 ], [ -89.106702993324845, 47.947560315538638 ], [ -89.106702993324845, 47.894998084461363 ], [ -89.185136406675142, 47.894998084461363 ] ] ] } }
+]
+}

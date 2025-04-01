@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11144200",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SALSIPUEDES C NR POZO CA", "OfficialID": "11144200", "FlagPAVICS": 0, "Source": "USGS", "Area": 15.306754 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -120.474484989079926, 35.275166418064167 ], [ -120.474484989079926, 35.310337081935835 ], [ -120.431394810920082, 35.310337081935835 ], [ -120.431394810920082, 35.275166418064167 ], [ -120.474484989079926, 35.275166418064167 ] ] ] } }
+]
+}

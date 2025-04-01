@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "06610500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Indian Creek at Council Bluffs, IA", "OfficialID": "06610500", "FlagPAVICS": 0, "Source": "USGS", "Area": 20.693902 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -95.860558085244264, 41.271772660688285 ], [ -95.860558085244264, 41.312666719311721 ], [ -95.806130914755727, 41.312666719311721 ], [ -95.806130914755727, 41.271772660688285 ], [ -95.860558085244264, 41.271772660688285 ] ] ] } }
+]
+}

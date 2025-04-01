@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01190620",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TUMBLEDOWN BK NR BLOOMFIELD, CT.", "OfficialID": "01190620", "FlagPAVICS": 0, "Source": "USGS", "Area": 18.052127 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.774886593205025, 41.798224145100917 ], [ -72.774886593205025, 41.83641885489908 ], [ -72.723637406794978, 41.83641885489908 ], [ -72.723637406794978, 41.798224145100917 ], [ -72.774886593205025, 41.798224145100917 ] ] ] } }
+]
+}

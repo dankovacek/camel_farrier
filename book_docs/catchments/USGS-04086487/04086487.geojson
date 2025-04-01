@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04086487",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CEDARBURG BOG NEAR SAUKVILLE, WI", "OfficialID": "04086487", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.916582 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -88.005044704015646, 43.396556728464013 ], [ -88.005044704015646, 43.409001951535991 ], [ -87.987915295984365, 43.409001951535991 ], [ -87.987915295984365, 43.396556728464013 ], [ -88.005044704015646, 43.396556728464013 ] ] ] } }
+]
+}

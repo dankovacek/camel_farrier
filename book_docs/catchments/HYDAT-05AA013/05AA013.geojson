@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05AA013",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MCGILLIVRAY CREEK NEAR COLEMAN", "OfficialID": "05AA013", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 32.6 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -114.559625010245426, 49.608776385430382 ], [ -114.559625010245426, 49.660103614569614 ], [ -114.480374989754566, 49.660103614569614 ], [ -114.480374989754566, 49.608776385430382 ], [ -114.559625010245426, 49.608776385430382 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05428665",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "OLBRICH PARK STORM DITCH AT MADISON, WI", "OfficialID": "05428665", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.656236 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -89.340441262099844, 43.078399494544435 ], [ -89.340441262099844, 43.101592305455561 ], [ -89.308682537900168, 43.101592305455561 ], [ -89.308682537900168, 43.078399494544435 ], [ -89.340441262099844, 43.078399494544435 ] ] ] } }
+]
+}

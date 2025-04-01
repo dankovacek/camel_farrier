@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "06928200",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Laquey Branch near Hazelgreen, MO", "OfficialID": "06928200", "FlagPAVICS": 0, "Source": "USGS", "Area": 4.092161 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -92.37611768837958, 37.764559256794549 ], [ -92.37611768837958, 37.782744343205458 ], [ -92.353111311620424, 37.782744343205458 ], [ -92.353111311620424, 37.764559256794549 ], [ -92.37611768837958, 37.764559256794549 ] ] ] } }
+]
+}

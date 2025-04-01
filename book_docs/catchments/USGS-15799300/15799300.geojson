@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15799300",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ESATKUAT LAGOON OUTLET AT BARROW AK", "OfficialID": "15799300", "FlagPAVICS": 0, "Source": "USGS", "Area": 9.116713 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -156.814127147572066, 71.280455290293219 ], [ -156.814127147572066, 71.307598309706776 ], [ -156.729493452427931, 71.307598309706776 ], [ -156.729493452427931, 71.280455290293219 ], [ -156.814127147572066, 71.280455290293219 ] ] ] } }
+]
+}

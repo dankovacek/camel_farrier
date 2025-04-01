@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09362550",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WILSON GULCH NEAR DURANGO, CO", "OfficialID": "09362550", "FlagPAVICS": 0, "Source": "USGS", "Area": 16.70534 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -107.865933251434839, 37.20829550544665 ], [ -107.865933251434839, 37.245037834553351 ], [ -107.819788948565147, 37.245037834553351 ], [ -107.819788948565147, 37.20829550544665 ], [ -107.865933251434839, 37.20829550544665 ] ] ] } }
+]
+}

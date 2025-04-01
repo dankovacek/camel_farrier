@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NL035",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SOUKUP CREEK NEAR HEDLEY", "OfficialID": "08NL035", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 22.3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -120.295419352728558, 49.383774327664298 ], [ -120.295419352728558, 49.426225672335704 ], [ -120.230180647271439, 49.426225672335704 ], [ -120.230180647271439, 49.383774327664298 ], [ -120.295419352728558, 49.383774327664298 ] ] ] } }
+]
+}

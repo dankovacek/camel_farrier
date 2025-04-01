@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02204037",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "POLE BRIDGE CR AT EVANS MILL RD NEAR LITHONIA, GA", "OfficialID": "02204037", "FlagPAVICS": 0, "Source": "USGS", "Area": 41.698601 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -84.185903438187637, 33.639417364439851 ], [ -84.185903438187637, 33.697467035560152 ], [ -84.116153961812358, 33.697467035560152 ], [ -84.116153961812358, 33.639417364439851 ], [ -84.185903438187637, 33.639417364439851 ] ] ] } }
+]
+}

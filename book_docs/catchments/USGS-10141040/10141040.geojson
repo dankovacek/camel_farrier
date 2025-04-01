@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10141040",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HOOPER SLOUGH NEAR HOOPER, UTAH", "OfficialID": "10141040", "FlagPAVICS": 0, "Source": "USGS", "Area": 33.669678 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -112.187378765630157, 41.164417793753799 ], [ -112.187378765630157, 41.2165803062462 ], [ -112.118062034369856, 41.2165803062462 ], [ -112.118062034369856, 41.164417793753799 ], [ -112.187378765630157, 41.164417793753799 ] ] ] } }
+]
+}

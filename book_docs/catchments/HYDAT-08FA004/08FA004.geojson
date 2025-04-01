@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08FA004",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WADHAMS CREEK AT WADHAMS CANNERY", "OfficialID": "08FA004", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 4.92 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -127.529319949773978, 51.502530082248825 ], [ -127.529319949773978, 51.522469917751181 ], [ -127.497280050226024, 51.522469917751181 ], [ -127.497280050226024, 51.502530082248825 ], [ -127.529319949773978, 51.502530082248825 ] ] ] } }
+]
+}

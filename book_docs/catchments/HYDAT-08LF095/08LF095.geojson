@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LF095",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MCDONALD CREEK NEAR BRIDGE LAKE", "OfficialID": "08LF095", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 20.4 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -120.647863177253569, 51.411638687898886 ], [ -120.647863177253569, 51.452241312101108 ], [ -120.58273682274644, 51.452241312101108 ], [ -120.58273682274644, 51.411638687898886 ], [ -120.647863177253569, 51.411638687898886 ] ] ] } }
+]
+}

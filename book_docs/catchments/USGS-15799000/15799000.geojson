@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15799000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ESATKUAT C NR BARROW AK", "OfficialID": "15799000", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.781364 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -156.759588270334973, 71.265842160766297 ], [ -156.759588270334973, 71.283323039233707 ], [ -156.705136329665038, 71.283323039233707 ], [ -156.705136329665038, 71.265842160766297 ], [ -156.759588270334973, 71.265842160766297 ] ] ] } }
+]
+}

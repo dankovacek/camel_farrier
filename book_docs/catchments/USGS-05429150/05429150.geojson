@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05429150",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MURPHY CREEK AT MADISON, WI", "OfficialID": "05429150", "FlagPAVICS": 0, "Source": "USGS", "Area": 20.797501 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -89.420716657729869, 43.028279633035233 ], [ -89.420716657729869, 43.069275926964771 ], [ -89.364616742270144, 43.069275926964771 ], [ -89.364616742270144, 43.028279633035233 ], [ -89.420716657729869, 43.028279633035233 ] ] ] } }
+]
+}

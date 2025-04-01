@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12070045",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NORTH FORK JOHNSON CREEK NEAR POULSBO, WA", "OfficialID": "12070045", "FlagPAVICS": 0, "Source": "USGS", "Area": 5.283549 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.679122443563898, 47.723651596991019 ], [ -122.679122443563898, 47.744315003008978 ], [ -122.64839955643609, 47.744315003008978 ], [ -122.64839955643609, 47.723651596991019 ], [ -122.679122443563898, 47.723651596991019 ] ] ] } }
+]
+}

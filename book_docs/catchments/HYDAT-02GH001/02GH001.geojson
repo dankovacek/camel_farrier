@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02GH001",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "STURGEON CREEK NEAR LEAMINGTON", "OfficialID": "02GH001", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 14.2 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.597528195737823, 42.028622348362624 ], [ -82.597528195737823, 42.062497651637379 ], [ -82.551911804262176, 42.062497651637379 ], [ -82.551911804262176, 42.028622348362624 ], [ -82.597528195737823, 42.028622348362624 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "06711618",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WEIR GULCH UPSTREAM FROM 1ST AVE. AT DENVER, CO", "OfficialID": "06711618", "FlagPAVICS": 0, "Source": "USGS", "Area": 14.374363 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -105.064165498297001, 39.700205876475742 ], [ -105.064165498297001, 39.734288523524263 ], [ -105.019856701702992, 39.734288523524263 ], [ -105.019856701702992, 39.700205876475742 ], [ -105.064165498297001, 39.700205876475742 ] ] ] } }
+]
+}

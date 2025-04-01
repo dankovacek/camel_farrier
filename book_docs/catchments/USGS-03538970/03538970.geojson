@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03538970",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BASSES CREEK AT LAKE TANSI NR CROSSVILLE,TN", "OfficialID": "03538970", "FlagPAVICS": 0, "Source": "USGS", "Area": 20.9011 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -85.08007446251041, 35.830284162541105 ], [ -85.08007446251041, 35.871382437458891 ], [ -85.029369937489591, 35.871382437458891 ], [ -85.029369937489591, 35.830284162541105 ], [ -85.08007446251041, 35.830284162541105 ] ] ] } }
+]
+}

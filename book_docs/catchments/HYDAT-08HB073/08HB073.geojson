@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HB073",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BEAR CREEK AT SOMERS ROAD NEAR ALBERNI", "OfficialID": "08HB073", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 1.65 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -124.958267068246457, 49.36700634278197 ], [ -124.958267068246457, 49.378553657218028 ], [ -124.940532931753538, 49.378553657218028 ], [ -124.940532931753538, 49.36700634278197 ], [ -124.958267068246457, 49.36700634278197 ] ] ] } }
+]
+}

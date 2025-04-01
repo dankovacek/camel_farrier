@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02LA013",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SAWMILL CREEK AT OTTAWA", "OfficialID": "02LA013", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 20.4 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -75.703346693056574, 45.367478687898888 ], [ -75.703346693056574, 45.40808131210111 ], [ -75.645533306943435, 45.40808131210111 ], [ -75.645533306943435, 45.367478687898888 ], [ -75.703346693056574, 45.367478687898888 ] ] ] } }
+]
+}

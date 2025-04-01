@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08181410",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Ranch Ck nr Helotes, TX", "OfficialID": "08181410", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.01009 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -98.729386134505901, 29.597376133905634 ], [ -98.729386134505901, 29.606410946094364 ], [ -98.718995065494099, 29.606410946094364 ], [ -98.718995065494099, 29.597376133905634 ], [ -98.729386134505901, 29.597376133905634 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15274300",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NF CAMPBELL C NR ANCHORAGE AK", "OfficialID": "15274300", "FlagPAVICS": 0, "Source": "USGS", "Area": 34.705668 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -149.819052122949159, 61.142413933605638 ], [ -149.819052122949159, 61.195372866394365 ], [ -149.709231077050816, 61.195372866394365 ], [ -149.709231077050816, 61.142413933605638 ], [ -149.819052122949159, 61.142413933605638 ] ] ] } }
+]
+}

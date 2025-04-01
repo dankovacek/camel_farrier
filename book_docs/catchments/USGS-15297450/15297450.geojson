@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15297450",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MF PILLAR C NR KODIAK AK", "OfficialID": "15297450", "FlagPAVICS": 0, "Source": "USGS", "Area": 5.23175 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -152.471473985286195, 57.788414667337626 ], [ -152.471473985286195, 57.808976532662378 ], [ -152.432888814713806, 57.808976532662378 ], [ -152.432888814713806, 57.788414667337626 ], [ -152.471473985286195, 57.788414667337626 ] ] ] } }
+]
+}

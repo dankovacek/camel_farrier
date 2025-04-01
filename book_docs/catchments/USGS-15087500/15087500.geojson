@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15087500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "EF HOBO C NR PETERSBURG AK", "OfficialID": "15087500", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.165489 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -132.88363381370462, 56.788687827455618 ], [ -132.88363381370462, 56.798392772544375 ], [ -132.865912986295399, 56.798392772544375 ], [ -132.865912986295399, 56.788687827455618 ], [ -132.88363381370462, 56.788687827455618 ] ] ] } }
+]
+}

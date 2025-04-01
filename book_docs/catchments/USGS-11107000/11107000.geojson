@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11107000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HONDA BARRANCA NR SOMIS CA", "OfficialID": "11107000", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.656236 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.063857766291292, 34.25729579454444 ], [ -119.063857766291292, 34.280488605455567 ], [ -119.035793033708714, 34.280488605455567 ], [ -119.035793033708714, 34.25729579454444 ], [ -119.063857766291292, 34.25729579454444 ] ] ] } }
+]
+}

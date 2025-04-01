@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02309848",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SOUTH BRANCH ANCLOTE RIVER NEAR ODESSA FL", "OfficialID": "02309848", "FlagPAVICS": 0, "Source": "USGS", "Area": 44.288577 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.587297851931552, 28.155531790298426 ], [ -82.587297851931552, 28.215357089701577 ], [ -82.519424348068455, 28.215357089701577 ], [ -82.519424348068455, 28.155531790298426 ], [ -82.587297851931552, 28.155531790298426 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE076",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MERRY CREEK NEAR KINNAIRD", "OfficialID": "08NE076", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 3.63 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.673431072745274, 49.285876282414932 ], [ -117.673431072745274, 49.303003717585071 ], [ -117.647168927254739, 49.303003717585071 ], [ -117.647168927254739, 49.285876282414932 ], [ -117.673431072745274, 49.285876282414932 ] ] ] } }
+]
+}

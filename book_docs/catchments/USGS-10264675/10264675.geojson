@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10264675",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ROGERS LK TRIB A EDWARDS AFB CA", "OfficialID": "10264675", "FlagPAVICS": 0, "Source": "USGS", "Area": 4.480657 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.903899702051561, 34.958794133396047 ], [ -117.903899702051561, 34.977822866603951 ], [ -117.880678897948442, 34.977822866603951 ], [ -117.880678897948442, 34.958794133396047 ], [ -117.903899702051561, 34.958794133396047 ] ] ] } }
+]
+}

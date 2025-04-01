@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01484600",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BLACKWATER CREEK NEAR CLARKESVILLE, DE", "OfficialID": "01484600", "FlagPAVICS": 0, "Source": "USGS", "Area": 8.987214 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -75.180469443842242, 38.531915793598237 ], [ -75.180469443842242, 38.558865346401767 ], [ -75.146012156157752, 38.558865346401767 ], [ -75.146012156157752, 38.531915793598237 ], [ -75.180469443842242, 38.531915793598237 ] ] ] } }
+]
+}

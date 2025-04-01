@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01112382",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "PETERS RIVER RT 114 BRIDGE AT WOONSOCKET, RI", "OfficialID": "01112382", "FlagPAVICS": 0, "Source": "USGS", "Area": 32.633688 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -71.527398780358794, 41.989699078807625 ], [ -71.527398780358794, 42.041052821192373 ], [ -71.458278799641192, 42.041052821192373 ], [ -71.458278799641192, 41.989699078807625 ], [ -71.527398780358794, 41.989699078807625 ] ] ] } }
+]
+}

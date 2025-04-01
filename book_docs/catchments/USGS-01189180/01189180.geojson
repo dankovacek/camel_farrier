@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01189180",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HOP BK AT WEST SIMSBURY, CT.", "OfficialID": "01189180", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.574166 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.872622778421942, 41.866044268257859 ], [ -72.872622778421942, 41.883039471742144 ], [ -72.849798421578072, 41.883039471742144 ], [ -72.849798421578072, 41.866044268257859 ], [ -72.872622778421942, 41.866044268257859 ] ] ] } }
+]
+}

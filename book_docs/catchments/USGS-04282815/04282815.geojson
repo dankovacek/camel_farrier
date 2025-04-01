@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04282815",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ENGLESBY BROOK AT BURLINGTON, VT", "OfficialID": "04282815", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.330978 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.228908398717579, 44.450964767516695 ], [ -73.228908398717579, 44.464689632483299 ], [ -73.209679601282431, 44.464689632483299 ], [ -73.209679601282431, 44.450964767516695 ], [ -73.228908398717579, 44.450964767516695 ] ] ] } }
+]
+}

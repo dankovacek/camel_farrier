@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02266200",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WHITTENHORSE CREEK NEAR VINELAND, FL", "OfficialID": "02266200", "FlagPAVICS": 0, "Source": "USGS", "Area": 32.115693 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.645416431556527, 28.359535218651438 ], [ -81.645416431556527, 28.410479761348562 ], [ -81.58750996844347, 28.410479761348562 ], [ -81.58750996844347, 28.359535218651438 ], [ -81.645416431556527, 28.359535218651438 ] ] ] } }
+]
+}

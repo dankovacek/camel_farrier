@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04166040",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "FRANKLIN BRANCH AT SOUTHFIELD, MI", "OfficialID": "04166040", "FlagPAVICS": 0, "Source": "USGS", "Area": 44.029579 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.319273490610669, 42.471598742432882 ], [ -83.319273490610669, 42.531248857567114 ], [ -83.238365709389342, 42.531248857567114 ], [ -83.238365709389342, 42.471598742432882 ], [ -83.319273490610669, 42.471598742432882 ] ] ] } }
+]
+}

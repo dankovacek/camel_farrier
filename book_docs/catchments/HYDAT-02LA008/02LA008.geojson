@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02LA008",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BLACK RAPIDS CREEK TRIBUTARY AT OTTAWA", "OfficialID": "02LA008", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 1.63 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -75.748158855493458, 45.297591441327398 ], [ -75.748158855493458, 45.309068558672607 ], [ -75.731841144506532, 45.309068558672607 ], [ -75.731841144506532, 45.297591441327398 ], [ -75.748158855493458, 45.297591441327398 ] ] ] } }
+]
+}

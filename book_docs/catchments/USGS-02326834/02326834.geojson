@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02326834",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MCCORD PARK DRAINAGE DITCH TALLAHASSEE,FLA", "OfficialID": "02326834", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.237469 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -84.273449174716291, 30.460168245759373 ], [ -84.273449174716291, 30.476343154240627 ], [ -84.254682825283709, 30.476343154240627 ], [ -84.254682825283709, 30.460168245759373 ], [ -84.273449174716291, 30.460168245759373 ] ] ] } }
+]
+}

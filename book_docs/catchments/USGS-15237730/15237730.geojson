@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15237730",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GROUSE C AT GROUSE LK OUTLET NR SEWARD AK", "OfficialID": "15237730", "FlagPAVICS": 0, "Source": "USGS", "Area": 16.109646 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -149.411782020687582, 60.179733246594488 ], [ -149.411782020687582, 60.215814533405513 ], [ -149.339184979312421, 60.215814533405513 ], [ -149.339184979312421, 60.179733246594488 ], [ -149.411782020687582, 60.179733246594488 ] ] ] } }
+]
+}

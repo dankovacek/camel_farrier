@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01482298",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "RED LION CREEK NEAR RED LION, DE", "OfficialID": "01482298", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.977124 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -75.684462695352209, 39.59186147511398 ], [ -75.684462695352209, 39.617251444886016 ], [ -75.651508504647779, 39.617251444886016 ], [ -75.651508504647779, 39.59186147511398 ], [ -75.684462695352209, 39.59186147511398 ] ] ] } }
+]
+}

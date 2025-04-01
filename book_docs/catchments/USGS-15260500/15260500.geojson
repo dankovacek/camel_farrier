@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15260500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "STETSON C NR COOPER LANDING AK", "OfficialID": "15260500", "FlagPAVICS": 0, "Source": "USGS", "Area": 22.273787 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -149.896532025033594, 60.419867076399591 ], [ -149.896532025033594, 60.46229346360041 ], [ -149.810529974966414, 60.46229346360041 ], [ -149.810529974966414, 60.419867076399591 ], [ -149.896532025033594, 60.419867076399591 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08JB013",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NORTH BEACH CREEK ABOVE ALLIN CREEK", "OfficialID": "08JB013", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 9.08 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -125.951413232788582, 54.113395843965009 ], [ -125.951413232788582, 54.140484156034987 ], [ -125.905186767211404, 54.140484156034987 ], [ -125.905186767211404, 54.113395843965009 ], [ -125.951413232788582, 54.113395843965009 ] ] ] } }
+]
+}

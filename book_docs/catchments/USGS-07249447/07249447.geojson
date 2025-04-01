@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07249447",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Mill Creek at Fort Smith, Arkansas", "OfficialID": "07249447", "FlagPAVICS": 0, "Source": "USGS", "Area": 25.899752 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -94.450480350641953, 35.319995165055666 ], [ -94.450480350641953, 35.365744714944334 ], [ -94.39439444935806, 35.365744714944334 ], [ -94.39439444935806, 35.319995165055666 ], [ -94.450480350641953, 35.319995165055666 ] ] ] } }
+]
+}

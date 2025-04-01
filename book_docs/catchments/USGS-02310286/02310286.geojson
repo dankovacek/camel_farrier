@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02310286",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "FIVEMILE CR BL SUNCOAST PKWY NR FIVAY JUNCTION FL", "OfficialID": "02310286", "FlagPAVICS": 0, "Source": "USGS", "Area": 22.791782 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.578092229654416, 28.272680449019735 ], [ -82.578092229654416, 28.315597330980264 ], [ -82.529352170345575, 28.315597330980264 ], [ -82.529352170345575, 28.272680449019735 ], [ -82.578092229654416, 28.272680449019735 ] ] ] } }
+]
+}

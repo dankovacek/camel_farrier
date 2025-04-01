@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10145000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MILL C AT MUELLER PARK, NR BOUNTIFUL, UTAH", "OfficialID": "10145000", "FlagPAVICS": 0, "Source": "USGS", "Area": 22.765882 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -111.865238549015288, 40.842388154781439 ], [ -111.865238549015288, 40.885280645218565 ], [ -111.808522450984725, 40.885280645218565 ], [ -111.808522450984725, 40.842388154781439 ], [ -111.865238549015288, 40.842388154781439 ] ] ] } }
+]
+}

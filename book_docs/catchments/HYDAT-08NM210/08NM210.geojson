@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM210",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "POOLEY CREEK ABOVE POOLEY DITCH", "OfficialID": "08NM210", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 18.1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.366794436082614, 49.728377339638456 ], [ -119.366794436082614, 49.766622660361548 ], [ -119.307605563917377, 49.766622660361548 ], [ -119.307605563917377, 49.728377339638456 ], [ -119.366794436082614, 49.728377339638456 ] ] ] } }
+]
+}

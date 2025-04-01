@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LE066",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NEWSOME CREEK AT SORRENTO", "OfficialID": "08LE066", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 18.9 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.499066186843123, 50.854069308594674 ], [ -119.499066186843123, 50.893150691405324 ], [ -119.43713381315689, 50.893150691405324 ], [ -119.43713381315689, 50.854069308594674 ], [ -119.499066186843123, 50.854069308594674 ] ] ] } }
+]
+}

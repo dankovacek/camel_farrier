@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15297200",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MYRTLE C NR KODIAK AK", "OfficialID": "15297200", "FlagPAVICS": 0, "Source": "USGS", "Area": 12.276483 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -152.434916561099499, 57.586815753198131 ], [ -152.434916561099499, 57.618313246801868 ], [ -152.376129438900477, 57.618313246801868 ], [ -152.376129438900477, 57.586815753198131 ], [ -152.434916561099499, 57.586815753198131 ] ] ] } }
+]
+}

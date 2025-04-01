@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12361880",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Wounded Buck Creek near Hungry Horse MT", "OfficialID": "12361880", "FlagPAVICS": 0, "Source": "USGS", "Area": 41.180606 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -113.981185268700713, 48.249317106297347 ], [ -113.981185268700713, 48.307005093702649 ], [ -113.894503531299293, 48.307005093702649 ], [ -113.894503531299293, 48.249317106297347 ], [ -113.981185268700713, 48.249317106297347 ] ] ] } }
+]
+}

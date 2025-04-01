@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02OA090",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "QUINCHIEN (RIVIERE) A DORION", "OfficialID": "02OA090", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 33.9 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -74.088093822467755, 45.362159689629614 ], [ -74.088093822467755, 45.414500310370393 ], [ -74.013566177532255, 45.414500310370393 ], [ -74.013566177532255, 45.362159689629614 ], [ -74.088093822467755, 45.362159689629614 ] ] ] } }
+]
+}

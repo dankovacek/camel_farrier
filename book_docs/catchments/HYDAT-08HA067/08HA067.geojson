@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HA067",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HANDYSEN CREEK NEAR MILL BAY", "OfficialID": "08HA067", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 3.49 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -123.582108534644419, 48.635773046704301 ], [ -123.582108534644419, 48.652566953295704 ], [ -123.556691465355584, 48.652566953295704 ], [ -123.556691465355584, 48.635773046704301 ], [ -123.582108534644419, 48.635773046704301 ] ] ] } }
+]
+}

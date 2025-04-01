@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03039930",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "South Fork Bens Creek near Thomasdale, PA", "OfficialID": "03039930", "FlagPAVICS": 0, "Source": "USGS", "Area": 8.495119 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -79.063853784152073, 40.215029822619371 ], [ -79.063853784152073, 40.241231177380627 ], [ -79.029535415847917, 40.241231177380627 ], [ -79.029535415847917, 40.215029822619371 ], [ -79.063853784152073, 40.215029822619371 ] ] ] } }
+]
+}

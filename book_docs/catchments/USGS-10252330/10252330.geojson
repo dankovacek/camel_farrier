@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10252330",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WHEATON WASH NR MOUNTAIN PASS CA", "OfficialID": "10252330", "FlagPAVICS": 0, "Source": "USGS", "Area": 26.417747 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -115.515305415426681, 35.443547289748579 ], [ -115.515305415426681, 35.489752070251427 ], [ -115.458574384573311, 35.489752070251427 ], [ -115.458574384573311, 35.443547289748579 ], [ -115.515305415426681, 35.443547289748579 ] ] ] } }
+]
+}

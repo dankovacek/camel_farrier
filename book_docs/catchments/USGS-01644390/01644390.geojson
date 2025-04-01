@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01644390",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TEN MILE CREEK NEAR BOYDS, MD", "OfficialID": "01644390", "FlagPAVICS": 0, "Source": "USGS", "Area": 11.603089 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -77.336178394582547, 39.200689272150491 ], [ -77.336178394582547, 39.231310727849511 ], [ -77.296655005417463, 39.231310727849511 ], [ -77.296655005417463, 39.200689272150491 ], [ -77.336178394582547, 39.200689272150491 ] ] ] } }
+]
+}

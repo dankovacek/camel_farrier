@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05540091",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SPRING BK AT FOREST PRESERVE NR WARRENVILLE, IL", "OfficialID": "05540091", "FlagPAVICS": 0, "Source": "USGS", "Area": 17.689531 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -88.208150854242533, 41.81637319353166 ], [ -88.208150854242533, 41.854182366468336 ], [ -88.157404745757461, 41.854182366468336 ], [ -88.157404745757461, 41.81637319353166 ], [ -88.208150854242533, 41.81637319353166 ] ] ] } }
+]
+}

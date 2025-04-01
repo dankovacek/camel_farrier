@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "072632962",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Bringle Creek at Martindale, AR", "OfficialID": "072632962", "FlagPAVICS": 0, "Source": "USGS", "Area": 22.532785 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -92.707120020561604, 34.859774930334005 ], [ -92.707120020561604, 34.902447269665991 ], [ -92.655102179438387, 34.902447269665991 ], [ -92.655102179438387, 34.859774930334005 ], [ -92.707120020561604, 34.859774930334005 ] ] ] } }
+]
+}

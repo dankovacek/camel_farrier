@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08329839",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NF HAHN ARROYO IN ALBUQUERQUE, NM", "OfficialID": "08329839", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.910863 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -106.577812525589053, 35.117777825607064 ], [ -106.577812525589053, 35.135555514392934 ], [ -106.556076274410941, 35.135555514392934 ], [ -106.556076274410941, 35.117777825607064 ], [ -106.577812525589053, 35.117777825607064 ] ] ] } }
+]
+}

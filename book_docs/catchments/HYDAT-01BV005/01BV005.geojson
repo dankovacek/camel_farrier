@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01BV005",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "RATCLIFFE BROOK BELOW OTTER LAKE", "OfficialID": "01BV005", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 29.3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -65.846300880012052, 45.343449959362239 ], [ -65.846300880012052, 45.392110040637768 ], [ -65.777039119987961, 45.392110040637768 ], [ -65.777039119987961, 45.343449959362239 ], [ -65.846300880012052, 45.343449959362239 ] ] ] } }
+]
+}

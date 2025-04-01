@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12125900",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NORTH CREEK BELOW PENNY CREEK NEAR BOTHELL, WA", "OfficialID": "12125900", "FlagPAVICS": 0, "Source": "USGS", "Area": 36.777648 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.25350173458267, 47.792839029713903 ], [ -122.25350173458267, 47.847355910286097 ], [ -122.172310265417337, 47.847355910286097 ], [ -122.172310265417337, 47.792839029713903 ], [ -122.25350173458267, 47.792839029713903 ] ] ] } }
+]
+}

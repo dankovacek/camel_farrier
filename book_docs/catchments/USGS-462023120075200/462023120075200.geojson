@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "462023120075200",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "DR 2 AT YAKIMA VALLEY HIGHWAY NEAR GRANGER, WA", "OfficialID": "462023120075200", "FlagPAVICS": 0, "Source": "USGS", "Area": 10.748397 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -120.153487299425592, 46.324735747063279 ], [ -120.153487299425592, 46.354207832936716 ], [ -120.110797900574397, 46.354207832936716 ], [ -120.110797900574397, 46.324735747063279 ], [ -120.153487299425592, 46.324735747063279 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03433641",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "KELLEY CREEK NEAR KINGFIELD, TN", "OfficialID": "03433641", "FlagPAVICS": 0, "Source": "USGS", "Area": 5.646146 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -87.110969517163525, 35.894662260039659 ], [ -87.110969517163525, 35.916022939960335 ], [ -87.084597882836462, 35.916022939960335 ], [ -87.084597882836462, 35.894662260039659 ], [ -87.110969517163525, 35.894662260039659 ] ] ] } }
+]
+}

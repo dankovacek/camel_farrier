@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04280910",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MOON BROOK BELOW MUSSEY BROOK AT RUTLAND, VT", "OfficialID": "04280910", "FlagPAVICS": 0, "Source": "USGS", "Area": 21.470895 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.010146471024839, 43.57361708617055 ], [ -73.010146471024839, 43.615271793829443 ], [ -72.952631308975171, 43.615271793829443 ], [ -72.952631308975171, 43.57361708617055 ], [ -73.010146471024839, 43.57361708617055 ] ] ] } }
+]
+}

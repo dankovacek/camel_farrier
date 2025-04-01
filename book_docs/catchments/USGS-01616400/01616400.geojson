@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01616400",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MILL CREEK AT BUNKER HILL, WV", "OfficialID": "01616400", "FlagPAVICS": 0, "Source": "USGS", "Area": 47.655544 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -78.093553187588142, 39.303596145607564 ], [ -78.093553187588142, 39.365653854392441 ], [ -78.013319012411856, 39.365653854392441 ], [ -78.013319012411856, 39.303596145607564 ], [ -78.093553187588142, 39.303596145607564 ] ] ] } }
+]
+}

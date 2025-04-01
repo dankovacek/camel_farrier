@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LE067",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "FOWLER CREEK NEAR FALKLAND", "OfficialID": "08LE067", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 15.8 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.403403614289985, 50.507693578825645 ], [ -119.403403614289985, 50.543426421174352 ], [ -119.347196385710006, 50.543426421174352 ], [ -119.347196385710006, 50.507693578825645 ], [ -119.403403614289985, 50.507693578825645 ] ] ] } }
+]
+}

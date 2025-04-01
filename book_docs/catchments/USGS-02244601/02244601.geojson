@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02244601",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SAND HILL LAKE OUTLET NR KEYSTONE HEIGHTS, FL", "OfficialID": "02244601", "FlagPAVICS": 0, "Source": "USGS", "Area": 29.784715 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.037547073001505, 29.813767736733542 ], [ -82.037547073001505, 29.862828663266459 ], [ -81.980988326998485, 29.862828663266459 ], [ -81.980988326998485, 29.813767736733542 ], [ -82.037547073001505, 29.813767736733542 ] ] ] } }
+]
+}

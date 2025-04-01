@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05078520",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CYR CREEK NEAR MARCOUX CORNERS, MN (SW5)", "OfficialID": "05078520", "FlagPAVICS": 0, "Source": "USGS", "Area": 29.525718 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -96.313028952974207, 47.779187523792174 ], [ -96.313028952974207, 47.828034676207821 ], [ -96.240304447025807, 47.828034676207821 ], [ -96.240304447025807, 47.779187523792174 ], [ -96.313028952974207, 47.779187523792174 ] ] ] } }
+]
+}

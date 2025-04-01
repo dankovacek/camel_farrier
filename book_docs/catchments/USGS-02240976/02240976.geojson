@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02240976",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TUMBLIN CREEK AT GAINESVILLE,FL", "OfficialID": "02240976", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.589975 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.347870875307336, 29.626900841021214 ], [ -82.347870875307336, 29.641368118978786 ], [ -82.331226524692653, 29.641368118978786 ], [ -82.331226524692653, 29.626900841021214 ], [ -82.347870875307336, 29.626900841021214 ] ] ] } }
+]
+}

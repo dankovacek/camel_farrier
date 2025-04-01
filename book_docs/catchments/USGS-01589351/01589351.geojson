@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01589351",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MAIDENS CHOICE RUN AT WILKENS AVE AT BALTIMORE, MD", "OfficialID": "01589351", "FlagPAVICS": 0, "Source": "USGS", "Area": 11.447691 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -76.685451166961002, 39.260264344947132 ], [ -76.685451166961002, 39.290680055052874 ], [ -76.646160033038996, 39.290680055052874 ], [ -76.646160033038996, 39.260264344947132 ], [ -76.685451166961002, 39.260264344947132 ] ] ] } }
+]
+}

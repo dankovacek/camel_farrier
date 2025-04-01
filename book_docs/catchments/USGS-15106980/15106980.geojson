@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15106980",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TONALITE C NR TENAKEE AK", "OfficialID": "15106980", "FlagPAVICS": 0, "Source": "USGS", "Area": 37.554641 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -135.274687352210634, 57.650445323403922 ], [ -135.274687352210634, 57.705535076596085 ], [ -135.171653647789384, 57.705535076596085 ], [ -135.171653647789384, 57.650445323403922 ], [ -135.274687352210634, 57.650445323403922 ] ] ] } }
+]
+}

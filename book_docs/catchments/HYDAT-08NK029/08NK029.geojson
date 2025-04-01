@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NK029",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "KILMARNOCK CREEK NEAR THE MOUTH", "OfficialID": "08NK029", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 43.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -114.906815693586481, 50.13941571680914 ], [ -114.906815693586481, 50.198364283190855 ], [ -114.814784306413515, 50.198364283190855 ], [ -114.814784306413515, 50.13941571680914 ], [ -114.906815693586481, 50.13941571680914 ] ] ] } }
+]
+}

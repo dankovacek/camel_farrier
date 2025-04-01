@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05288470",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "COUNTY DITCH 58 NEAR COON RAPIDS, MN", "OfficialID": "05288470", "FlagPAVICS": 0, "Source": "USGS", "Area": 27.453737 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -93.288949351489094, 45.210303147761486 ], [ -93.288949351489094, 45.257405192238515 ], [ -93.222063448510909, 45.257405192238515 ], [ -93.222063448510909, 45.210303147761486 ], [ -93.288949351489094, 45.210303147761486 ] ] ] } }
+]
+}

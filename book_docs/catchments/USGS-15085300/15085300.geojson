@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15085300",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CABIN C NR KASAAN AK", "OfficialID": "15085300", "FlagPAVICS": 0, "Source": "USGS", "Area": 22.869481 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -132.51733055060734, 55.400366083252159 ], [ -132.51733055060734, 55.443356056747838 ], [ -132.441581249392669, 55.443356056747838 ], [ -132.441581249392669, 55.400366083252159 ], [ -132.51733055060734, 55.400366083252159 ] ] ] } }
+]
+}

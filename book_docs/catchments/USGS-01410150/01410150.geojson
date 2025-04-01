@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01410150",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "East Branch Bass River near New Gretna NJ", "OfficialID": "01410150", "FlagPAVICS": 0, "Source": "USGS", "Area": 21.004699 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -74.468133223634425, 39.60245555826166 ], [ -74.468133223634425, 39.643655561738335 ], [ -74.414644556365573, 39.643655561738335 ], [ -74.414644556365573, 39.60245555826166 ], [ -74.468133223634425, 39.60245555826166 ] ] ] } }
+]
+}

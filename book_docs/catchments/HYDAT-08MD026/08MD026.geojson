@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MD026",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "FOUNTAIN CREEK ABOVE KWOTLENEMO LAKE", "OfficialID": "08MD026", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 29.8 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -121.839816871364988, 50.648243243322625 ], [ -121.839816871364988, 50.697316756677381 ], [ -121.762383128635022, 50.697316756677381 ], [ -121.762383128635022, 50.648243243322625 ], [ -121.839816871364988, 50.648243243322625 ] ] ] } }
+]
+}

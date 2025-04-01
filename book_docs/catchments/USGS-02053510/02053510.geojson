@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02053510",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "AHOSKIE CREEK TRIBUTARY AT POORTOWN, NC", "OfficialID": "02053510", "FlagPAVICS": 0, "Source": "USGS", "Area": 5.283549 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -77.023052404353834, 36.264546246991017 ], [ -77.023052404353834, 36.285209653008977 ], [ -76.997421395646157, 36.285209653008977 ], [ -76.997421395646157, 36.264546246991017 ], [ -77.023052404353834, 36.264546246991017 ] ] ] } }
+]
+}

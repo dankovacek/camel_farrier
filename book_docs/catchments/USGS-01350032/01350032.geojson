@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01350032",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TOAD HOLLOW BROOK NEAR GRAND GORGE NY", "OfficialID": "01350032", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.968381 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -74.502141603551777, 42.326471639739488 ], [ -74.502141603551777, 42.339083920260514 ], [ -74.485080596448213, 42.339083920260514 ], [ -74.485080596448213, 42.326471639739488 ], [ -74.502141603551777, 42.326471639739488 ] ] ] } }
+]
+}

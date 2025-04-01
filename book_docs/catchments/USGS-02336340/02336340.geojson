@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02336340",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NANCY CREEK AT JOHNSON FERRY RD, AT CHAMBLEE, GA", "OfficialID": "02336340", "FlagPAVICS": 0, "Source": "USGS", "Area": 46.101559 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -84.382249127646574, 33.867361603715025 ], [ -84.382249127646574, 33.928399116284979 ], [ -84.308712872353439, 33.928399116284979 ], [ -84.308712872353439, 33.867361603715025 ], [ -84.382249127646574, 33.867361603715025 ] ] ] } }
+]
+}

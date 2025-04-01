@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05127207",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BJORKMAN'S CREEK NEAR ELY, MN", "OfficialID": "05127207", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.522366 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -91.903286558920726, 47.91674519981801 ], [ -91.903286558920726, 47.933616800181994 ], [ -91.878108841079282, 47.933616800181994 ], [ -91.878108841079282, 47.91674519981801 ], [ -91.903286558920726, 47.91674519981801 ] ] ] } }
+]
+}

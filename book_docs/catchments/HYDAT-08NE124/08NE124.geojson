@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE124",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HILL CREEK ABOVE SPAWNING CHANNEL", "OfficialID": "08NE124", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 15.1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.838663188258195, 50.660593837443614 ], [ -117.838663188258195, 50.695526162556391 ], [ -117.783536811741797, 50.695526162556391 ], [ -117.783536811741797, 50.660593837443614 ], [ -117.838663188258195, 50.660593837443614 ] ] ] } }
+]
+}

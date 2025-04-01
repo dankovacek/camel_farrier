@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04079700",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SPAULDING CREEK NEAR BIG FALLS, WI", "OfficialID": "04079700", "FlagPAVICS": 0, "Source": "USGS", "Area": 14.426162 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -89.04632320407535, 44.619851079000824 ], [ -89.04632320407535, 44.653995080999181 ], [ -88.99833939592466, 44.653995080999181 ], [ -88.99833939592466, 44.619851079000824 ], [ -89.04632320407535, 44.619851079000824 ] ] ] } }
+]
+}

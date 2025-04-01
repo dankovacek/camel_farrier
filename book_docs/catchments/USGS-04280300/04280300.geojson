@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04280300",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "METTAWEE RIVER TRIBUTARY NEAR PAWLET, VT", "OfficialID": "04280300", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.640427 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.188852449372703, 43.314038517049703 ], [ -73.188852449372703, 43.338886882950298 ], [ -73.154694550627298, 43.338886882950298 ], [ -73.154694550627298, 43.314038517049703 ], [ -73.188852449372703, 43.314038517049703 ] ] ] } }
+]
+}

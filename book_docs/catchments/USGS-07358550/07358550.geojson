@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07358550",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Gulpha Creek at Hot Springs, AR", "OfficialID": "07358550", "FlagPAVICS": 0, "Source": "USGS", "Area": 21.496794 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -93.034456679385201, 34.488048978223176 ], [ -93.034456679385201, 34.529728801776827 ], [ -92.983876720614788, 34.529728801776827 ], [ -92.983876720614788, 34.488048978223176 ], [ -93.034456679385201, 34.488048978223176 ] ] ] } }
+]
+}

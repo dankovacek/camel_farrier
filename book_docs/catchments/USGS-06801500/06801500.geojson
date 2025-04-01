@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "06801500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SALT C SWS NO 12 NR ROCA NEBR", "OfficialID": "06801500", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.900772 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -96.654830605603919, 40.647901216075248 ], [ -96.654830605603919, 40.663211943924757 ], [ -96.634648794396085, 40.663211943924757 ], [ -96.634648794396085, 40.647901216075248 ], [ -96.654830605603919, 40.647901216075248 ] ] ] } }
+]
+}

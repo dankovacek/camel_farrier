@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02231268",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ALLIGATOR CREEK AT CALLAHAN, FL", "OfficialID": "02231268", "FlagPAVICS": 0, "Source": "USGS", "Area": 36.259653 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.864874004425502, 30.539559331281772 ], [ -81.864874004425502, 30.593690928718225 ], [ -81.802006195574506, 30.593690928718225 ], [ -81.802006195574506, 30.539559331281772 ], [ -81.864874004425502, 30.539559331281772 ] ] ] } }
+]
+}

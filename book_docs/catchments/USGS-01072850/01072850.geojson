@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01072850",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MOHAWK BROOK NEAR CENTER STRAFFORD, NH", "OfficialID": "01072850", "FlagPAVICS": 0, "Source": "USGS", "Area": 19.010418 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -71.123642786955443, 43.243539211072338 ], [ -71.123642786955443, 43.28273458892766 ], [ -71.069818793044547, 43.28273458892766 ], [ -71.069818793044547, 43.243539211072338 ], [ -71.123642786955443, 43.243539211072338 ] ] ] } }
+]
+}

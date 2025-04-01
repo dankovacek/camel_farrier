@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05403040",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WEST BRANCH LITTLE YELLOW RIVER NEAR FINLEY, WI", "OfficialID": "05403040", "FlagPAVICS": 0, "Source": "USGS", "Area": 10.049104 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -90.242795196097816, 44.213215153661686 ], [ -90.242795196097816, 44.241712386338314 ], [ -90.203026603902188, 44.241712386338314 ], [ -90.203026603902188, 44.213215153661686 ], [ -90.242795196097816, 44.213215153661686 ] ] ] } }
+]
+}

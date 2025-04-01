@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05AD033",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BELLY RIVER (NORTH BRANCH) AT INTERNATIONAL BOUNDARY", "OfficialID": "05AD033", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 25.1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -113.798216746913965, 48.966371166756787 ], [ -113.798216746913965, 49.011408833243209 ], [ -113.729583253086048, 49.011408833243209 ], [ -113.729583253086048, 48.966371166756787 ], [ -113.798216746913965, 48.966371166756787 ] ] ] } }
+]
+}

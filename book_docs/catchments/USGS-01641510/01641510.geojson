@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01641510",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "FISHING CREEK TRIBUTARY NEAR LEWISTOWN, MD", "OfficialID": "01641510", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.03599 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -77.458151456024112, 39.532286067850102 ], [ -77.458151456024112, 39.532286067850102 ], [ -77.461482807513875, 39.537425187309736 ], [ -77.45596604670817, 39.540689772691763 ], [ -77.449187351837452, 39.537761272196434 ], [ -77.447379536188322, 39.533669308556824 ], [ -77.455250585216177, 39.532396074019871 ], [ -77.458151456024112, 39.532286067850102 ] ] ] } }
+]
+}

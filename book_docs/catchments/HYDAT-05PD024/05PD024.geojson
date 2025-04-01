@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05PD024",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LAKE 239, LOWER EAST INLET, NEAR KENORA", "OfficialID": "05PD024", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 1.7 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -93.722383480555294, 49.654419515996764 ], [ -93.722383480555294, 49.666140484003236 ], [ -93.704276519444704, 49.666140484003236 ], [ -93.704276519444704, 49.654419515996764 ], [ -93.722383480555294, 49.654419515996764 ] ] ] } }
+]
+}

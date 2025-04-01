@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09092500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BEAVER CREEK NEAR RIFLE, CO.", "OfficialID": "09092500", "FlagPAVICS": 0, "Source": "USGS", "Area": 20.460804 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -107.858904075146299, 39.451592545304244 ], [ -107.858904075146299, 39.492255634695759 ], [ -107.806227324853708, 39.492255634695759 ], [ -107.806227324853708, 39.451592545304244 ], [ -107.858904075146299, 39.451592545304244 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "011277696",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Jordan Brk blw Waterford Pky South nr Waterford", "OfficialID": "011277696", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.200131 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.164681043361682, 41.352105783573478 ], [ -72.164681043361682, 41.376227556426528 ], [ -72.132541156638311, 41.376227556426528 ], [ -72.132541156638311, 41.352105783573478 ], [ -72.164681043361682, 41.352105783573478 ] ] ] } }
+]
+}

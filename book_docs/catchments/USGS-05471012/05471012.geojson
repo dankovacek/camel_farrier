@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05471012",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Walnut Creek at Kelley, IA", "OfficialID": "05471012", "FlagPAVICS": 0, "Source": "USGS", "Area": 25.511256 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -93.669635364137562, 41.93172843409166 ], [ -93.669635364137562, 41.977133565908339 ], [ -93.608580435862436, 41.977133565908339 ], [ -93.608580435862436, 41.93172843409166 ], [ -93.669635364137562, 41.93172843409166 ] ] ] } }
+]
+}

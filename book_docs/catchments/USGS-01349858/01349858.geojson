@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01349858",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SILVER LAKE OUTLET AT HENSONVILLE NY", "OfficialID": "01349858", "FlagPAVICS": 0, "Source": "USGS", "Area": 17.249235 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -74.238156927344392, 42.276694965392039 ], [ -74.238156927344392, 42.31403063460796 ], [ -74.187681872655617, 42.31403063460796 ], [ -74.187681872655617, 42.276694965392039 ], [ -74.238156927344392, 42.276694965392039 ] ] ] } }
+]
+}

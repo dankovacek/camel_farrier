@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02YO009",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "UNKNOWN RIVER AT LEWISPORTE", "OfficialID": "02YO009", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 15.5 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -55.093210657454534, 49.216194009632304 ], [ -55.093210657454534, 49.251585990367701 ], [ -55.039009342545469, 49.251585990367701 ], [ -55.039009342545469, 49.216194009632304 ], [ -55.093210657454534, 49.216194009632304 ] ] ] } }
+]
+}

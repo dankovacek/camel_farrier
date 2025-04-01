@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11182030",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "RHEEM C A SAN PABLO CA", "OfficialID": "11182030", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.859063 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.365061663676968, 37.968315518350131 ], [ -122.365061663676968, 37.985975081649862 ], [ -122.342658336323026, 37.985975081649862 ], [ -122.342658336323026, 37.968315518350131 ], [ -122.365061663676968, 37.968315518350131 ] ] ] } }
+]
+}

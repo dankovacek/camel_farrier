@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07010016",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "River Des Peres at Hafner Pl University City, MO", "OfficialID": "07010016", "FlagPAVICS": 0, "Source": "USGS", "Area": 14.60746 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -90.367675306373172, 38.657039359246355 ], [ -90.367675306373172, 38.691397240753645 ], [ -90.323666893626836, 38.691397240753645 ], [ -90.323666893626836, 38.657039359246355 ], [ -90.367675306373172, 38.657039359246355 ] ] ] } }
+]
+}

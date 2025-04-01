@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ069",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CHRISTIAN CREEK NEAR PERRY SIDING", "OfficialID": "08NJ069", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 2.59 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.508375022408018, 49.653876326438585 ], [ -117.508375022408018, 49.668343673561417 ], [ -117.486024977591995, 49.668343673561417 ], [ -117.486024977591995, 49.653876326438585 ], [ -117.508375022408018, 49.653876326438585 ] ] ] } }
+]
+}

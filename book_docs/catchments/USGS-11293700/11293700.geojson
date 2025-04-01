@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11293700",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HOBART C AT NF DIV TUNNL OUTLT NR SPICER MDWS CA", "OfficialID": "11293700", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.926672 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -120.004442597890005, 38.403889436289887 ], [ -120.004442597890005, 38.419268363710117 ], [ -119.984815802110006, 38.419268363710117 ], [ -119.984815802110006, 38.403889436289887 ], [ -120.004442597890005, 38.403889436289887 ] ] ] } }
+]
+}

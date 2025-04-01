@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15087565",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GUNNUK C NR KAKE AK", "OfficialID": "15087565", "FlagPAVICS": 0, "Source": "USGS", "Area": 39.885619 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -133.982118924961696, 56.950640930821535 ], [ -133.982118924961696, 57.00741462917847 ], [ -133.877936675038313, 57.00741462917847 ], [ -133.877936675038313, 56.950640930821535 ], [ -133.982118924961696, 56.950640930821535 ] ] ] } }
+]
+}

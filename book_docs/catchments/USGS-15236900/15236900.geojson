@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15236900",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WOLVERINE C NR LAWING AK", "OfficialID": "15236900", "FlagPAVICS": 0, "Source": "USGS", "Area": 24.630664 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -148.943882562200486, 60.347651275867833 ], [ -148.943882562200486, 60.392265884132172 ], [ -148.853642237799534, 60.392265884132172 ], [ -148.853642237799534, 60.347651275867833 ], [ -148.943882562200486, 60.347651275867833 ] ] ] } }
+]
+}

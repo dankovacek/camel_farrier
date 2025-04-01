@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04052500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WALSH CREEK NEAR SENEY, MI", "OfficialID": "04052500", "FlagPAVICS": 0, "Source": "USGS", "Area": 31.079703 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -86.213395429116446, 46.320466609530271 ], [ -86.213395429116446, 46.370582730469735 ], [ -86.140795750883541, 46.370582730469735 ], [ -86.140795750883541, 46.320466609530271 ], [ -86.213395429116446, 46.320466609530271 ] ] ] } }
+]
+}

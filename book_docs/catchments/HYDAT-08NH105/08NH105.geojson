@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH105",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "OKELL CREEK NEAR ERICKSON", "OfficialID": "08NH105", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 12.7 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -116.493391802983453, 49.138701904277951 ], [ -116.493391802983453, 49.170738095722044 ], [ -116.444408197016557, 49.170738095722044 ], [ -116.444408197016557, 49.138701904277951 ], [ -116.493391802983453, 49.138701904277951 ] ] ] } }
+]
+}

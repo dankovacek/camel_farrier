@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01056480",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Townsend Brook near Auburn, Maine", "OfficialID": "01056480", "FlagPAVICS": 0, "Source": "USGS", "Area": 4.869153 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -70.250996269975644, 44.156570623931486 ], [ -70.250996269975644, 44.176407156068507 ], [ -70.223342530024354, 44.176407156068507 ], [ -70.223342530024354, 44.156570623931486 ], [ -70.250996269975644, 44.156570623931486 ] ] ] } }
+]
+}

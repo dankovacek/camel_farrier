@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03296800",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "PLUM CREEK SWS NO 17 NR WATERFORD, KY", "OfficialID": "03296800", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.346787 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -85.419912827279134, 38.06345864875076 ], [ -85.419912827279134, 38.073891151249235 ], [ -85.406661372720876, 38.073891151249235 ], [ -85.406661372720876, 38.06345864875076 ], [ -85.419912827279134, 38.06345864875076 ] ] ] } }
+]
+}

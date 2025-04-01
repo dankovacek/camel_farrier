@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03NE004",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HEADWATER STREAM ABOVE POND 55", "OfficialID": "03NE004", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 4.88 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -62.00210505345904, 56.373960693080562 ], [ -62.00210505345904, 56.39381930691944 ], [ -61.966234946540958, 56.39381930691944 ], [ -61.966234946540958, 56.373960693080562 ], [ -62.00210505345904, 56.373960693080562 ] ] ] } }
+]
+}

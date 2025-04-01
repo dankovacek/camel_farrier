@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05013900",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Grinnell C at G Glacier nr Many Glacier MT", "OfficialID": "05013900", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.657584 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -113.73344748755413, 48.751888088816969 ], [ -113.73344748755413, 48.763461911183029 ], [ -113.715891312445862, 48.763461911183029 ], [ -113.715891312445862, 48.751888088816969 ], [ -113.73344748755413, 48.751888088816969 ] ] ] } }
+]
+}

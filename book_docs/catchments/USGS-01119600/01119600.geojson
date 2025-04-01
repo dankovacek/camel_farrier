@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01119600",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ASH BK NR N COVENTRY, CT.", "OfficialID": "01119600", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.226031 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.415174543503738, 41.7677384208041 ], [ -72.415174543503738, 41.791903539195893 ], [ -72.382769056496258, 41.791903539195893 ], [ -72.382769056496258, 41.7677384208041 ], [ -72.415174543503738, 41.7677384208041 ] ] ] } }
+]
+}

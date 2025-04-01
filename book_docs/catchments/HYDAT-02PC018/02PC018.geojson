@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02PC018",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "DECHARGE DU LAC CLAIR", "OfficialID": "02PC018", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 1.68 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -71.676596728471708, 46.958614091425382 ], [ -71.676596728471708, 46.970265908574625 ], [ -71.659523271528286, 46.970265908574625 ], [ -71.659523271528286, 46.958614091425382 ], [ -71.676596728471708, 46.958614091425382 ] ] ] } }
+]
+}

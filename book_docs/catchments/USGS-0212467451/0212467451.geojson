@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "0212467451",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GOOSE CR AT SR1524 NEAR INDIAN TRAIL, NC", "OfficialID": "0212467451", "FlagPAVICS": 0, "Source": "USGS", "Area": 22.01479 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -80.656965794423925, 35.109334299545019 ], [ -80.656965794423925, 35.151513300454987 ], [ -80.605392405576069, 35.151513300454987 ], [ -80.605392405576069, 35.109334299545019 ], [ -80.656965794423925, 35.109334299545019 ] ] ] } }
+]
+}

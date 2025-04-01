@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05429120",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LAKE WINGRA OUTLET AT MADISON, WI", "OfficialID": "05429120", "FlagPAVICS": 0, "Source": "USGS", "Area": 15.539851 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -89.430480613335718, 43.040055555518464 ], [ -89.430480613335718, 43.07549300448153 ], [ -89.381980386664296, 43.07549300448153 ], [ -89.381980386664296, 43.040055555518464 ], [ -89.430480613335718, 43.040055555518464 ] ] ] } }
+]
+}

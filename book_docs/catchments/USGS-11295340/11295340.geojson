@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11295340",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MILL C BL HUNTER RES A HATHAWAY PINES CA", "OfficialID": "11295340", "FlagPAVICS": 0, "Source": "USGS", "Area": 31.597698 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -120.392150052064565, 38.172789545255291 ], [ -120.392150052064565, 38.223321574744709 ], [ -120.327849947935434, 38.223321574744709 ], [ -120.327849947935434, 38.172789545255291 ], [ -120.392150052064565, 38.172789545255291 ] ] ] } }
+]
+}

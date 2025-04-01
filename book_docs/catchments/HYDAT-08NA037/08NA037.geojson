@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NA037",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CARBONATE CREEK NEAR MCMURDO", "OfficialID": "08NA037", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 8.03 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -116.760001938650049, 51.130323010324247 ], [ -116.760001938650049, 51.15579698967575 ], [ -116.719398061349949, 51.15579698967575 ], [ -116.719398061349949, 51.130323010324247 ], [ -116.760001938650049, 51.130323010324247 ] ] ] } }
+]
+}

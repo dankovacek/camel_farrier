@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "023301191",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HOSFORD BRNCH AT HOSFORD 15-MIN DATA", "OfficialID": "023301191", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.864782 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -84.815919017992101, 30.390724723790537 ], [ -84.815919017992101, 30.403000616209464 ], [ -84.801686782007906, 30.403000616209464 ], [ -84.801686782007906, 30.390724723790537 ], [ -84.815919017992101, 30.390724723790537 ] ] ] } }
+]
+}

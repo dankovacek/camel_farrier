@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15294410",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CAPPS C BL N CAPPS C NR TYONEK AK", "OfficialID": "15294410", "FlagPAVICS": 0, "Source": "USGS", "Area": 27.19474 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -151.716602473211736, 61.305164830736295 ], [ -151.716602473211736, 61.352044169263699 ], [ -151.618893526788241, 61.352044169263699 ], [ -151.618893526788241, 61.305164830736295 ], [ -151.716602473211736, 61.305164830736295 ] ] ] } }
+]
+}

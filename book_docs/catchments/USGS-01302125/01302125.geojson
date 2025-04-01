@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01302125",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GABBLERS CREEK AT LITTLE NECK NY", "OfficialID": "01302125", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.346787 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.751221249870056, 40.767950418750765 ], [ -73.751221249870056, 40.778382921249239 ], [ -73.737445350129931, 40.778382921249239 ], [ -73.737445350129931, 40.767950418750765 ], [ -73.751221249870056, 40.767950418750765 ] ] ] } }
+]
+}

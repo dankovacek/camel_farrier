@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MH020",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MAHOOD CREEK NEAR SULLIVAN", "OfficialID": "08MH020", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 34.4 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.839700957827461, 49.118917399678864 ], [ -122.839700957827461, 49.171642600321135 ], [ -122.759099042172551, 49.171642600321135 ], [ -122.759099042172551, 49.118917399678864 ], [ -122.839700957827461, 49.118917399678864 ] ] ] } }
+]
+}

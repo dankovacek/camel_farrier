@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02234400",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GEE CREEK NEAR LONGWOOD, FL", "OfficialID": "02234400", "FlagPAVICS": 0, "Source": "USGS", "Area": 33.151683 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.320127881594146, 28.678283046429993 ], [ -81.320127881594146, 28.730042753570007 ], [ -81.26111631840584, 28.730042753570007 ], [ -81.26111631840584, 28.678283046429993 ], [ -81.320127881594146, 28.678283046429993 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02309425",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CURLEW CREEK AT COUNTY ROAD 1 NEAR OZONA FL", "OfficialID": "02309425", "FlagPAVICS": 0, "Source": "USGS", "Area": 10.592999 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.775288243350943, 28.032332670515974 ], [ -82.775288243350943, 28.061590929484023 ], [ -82.74213675664906, 28.061590929484023 ], [ -82.74213675664906, 28.032332670515974 ], [ -82.775288243350943, 28.032332670515974 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09470750",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "RAMSEY CANYON NEAR SIERRA VISTA, AZ", "OfficialID": "09470750", "FlagPAVICS": 0, "Source": "USGS", "Area": 10.644798 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -110.323022849000637, 31.432001816092857 ], [ -110.323022849000637, 31.461331523907141 ], [ -110.28864375099937, 31.461331523907141 ], [ -110.28864375099937, 31.432001816092857 ], [ -110.323022849000637, 31.432001816092857 ] ] ] } }
+]
+}

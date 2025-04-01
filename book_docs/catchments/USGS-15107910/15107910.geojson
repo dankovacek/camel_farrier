@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15107910",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WF INDIAN R NR TENAKEE AK", "OfficialID": "15107910", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.821725 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -135.350692418648435, 57.853197175705688 ], [ -135.350692418648435, 57.878338624294315 ], [ -135.303425581351547, 57.878338624294315 ], [ -135.303425581351547, 57.853197175705688 ], [ -135.350692418648435, 57.853197175705688 ] ] ] } }
+]
+}

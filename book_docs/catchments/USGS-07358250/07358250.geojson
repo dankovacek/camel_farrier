@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07358250",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Whittington Cr at Whitt. Pk at Hot Springs, AR", "OfficialID": "07358250", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.149679 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -93.088414530897694, 34.506854281254832 ], [ -93.088414530897694, 34.52003459874517 ], [ -93.072418869102307, 34.52003459874517 ], [ -93.072418869102307, 34.506854281254832 ], [ -93.088414530897694, 34.506854281254832 ] ] ] } }
+]
+}

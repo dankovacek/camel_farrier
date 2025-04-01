@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01403500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Green Brook at Plainfield NJ", "OfficialID": "01403500", "FlagPAVICS": 0, "Source": "USGS", "Area": 25.252259 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -74.46142167750466, 40.592412969528176 ], [ -74.46142167750466, 40.637587030471828 ], [ -74.401911722495328, 40.637587030471828 ], [ -74.401911722495328, 40.592412969528176 ], [ -74.46142167750466, 40.592412969528176 ] ] ] } }
+]
+}

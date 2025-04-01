@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03076800",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MILL RUN AT MINERAL SPRING, MD", "OfficialID": "03076800", "FlagPAVICS": 0, "Source": "USGS", "Area": 39.108626 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -79.400899511991426, 39.680835445951509 ], [ -79.400899511991426, 39.737053434048498 ], [ -79.327822688008567, 39.737053434048498 ], [ -79.327822688008567, 39.680835445951509 ], [ -79.400899511991426, 39.680835445951509 ] ] ] } }
+]
+}

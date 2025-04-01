@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04010505",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MAUD CREEK NEAR GRAND PORTAGE, MN", "OfficialID": "04010505", "FlagPAVICS": 0, "Source": "USGS", "Area": 4.14396 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -89.751535300277411, 47.965458690022267 ], [ -89.751535300277411, 47.98375850997774 ], [ -89.72420009972258, 47.98375850997774 ], [ -89.72420009972258, 47.965458690022267 ], [ -89.751535300277411, 47.965458690022267 ] ] ] } }
+]
+}

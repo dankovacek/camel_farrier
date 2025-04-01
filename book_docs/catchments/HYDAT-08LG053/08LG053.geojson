@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LG053",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WALLOPER CREEK ABOVE WALLOPER LAKE", "OfficialID": "08LG053", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 19.4 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -120.575514771817808, 50.46576252108455 ], [ -120.575514771817808, 50.50535747891545 ], [ -120.513285228182184, 50.50535747891545 ], [ -120.513285228182184, 50.46576252108455 ], [ -120.575514771817808, 50.46576252108455 ] ] ] } }
+]
+}

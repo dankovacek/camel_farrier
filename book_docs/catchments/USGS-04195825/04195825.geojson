@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04195825",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Lacarpe Creek near Oak Harbor OH", "OfficialID": "04195825", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.640427 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.219572427053308, 41.508459317049699 ], [ -83.219572427053308, 41.533307682950294 ], [ -83.186384372946705, 41.533307682950294 ], [ -83.186384372946705, 41.508459317049699 ], [ -83.219572427053308, 41.508459317049699 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01472186",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Pigeon Run at Rapps Corner, PA", "OfficialID": "01472186", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.745374 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -75.601046029294679, 40.0754350128501 ], [ -75.601046029294679, 40.090329987149893 ], [ -75.58157837070533, 40.090329987149893 ], [ -75.58157837070533, 40.0754350128501 ], [ -75.601046029294679, 40.0754350128501 ] ] ] } }
+]
+}

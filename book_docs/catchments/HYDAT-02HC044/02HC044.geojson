@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02HC044",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BROUGHAM CREEK AT BROUGHAM", "OfficialID": "02HC044", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 3.63 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -79.118278116279654, 43.90726628241493 ], [ -79.118278116279654, 43.924393717585069 ], [ -79.094501883720355, 43.924393717585069 ], [ -79.094501883720355, 43.90726628241493 ], [ -79.118278116279654, 43.90726628241493 ] ] ] } }
+]
+}

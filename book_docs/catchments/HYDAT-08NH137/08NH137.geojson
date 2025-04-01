@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH137",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TEETZEL CREEK ABOVE DIVERSIONS", "OfficialID": "08NH137", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 6.94 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -116.658884932637648, 49.087878989686871 ], [ -116.658884932637648, 49.111561010313125 ], [ -116.62271506736235, 49.111561010313125 ], [ -116.62271506736235, 49.087878989686871 ], [ -116.658884932637648, 49.087878989686871 ] ] ] } }
+]
+}

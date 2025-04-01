@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15215992",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HENEY C AT CANYON MOUTH NR CORDOVA AK", "OfficialID": "15215992", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.962662 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -145.781564267301349, 60.514402542729862 ], [ -145.781564267301349, 60.532297577270135 ], [ -145.745197332698638, 60.532297577270135 ], [ -145.745197332698638, 60.514402542729862 ], [ -145.781564267301349, 60.514402542729862 ] ] ] } }
+]
+}

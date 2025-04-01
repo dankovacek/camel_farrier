@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "022409424",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MOORES POND TRIB. NEAR MICANOPY, FL.", "OfficialID": "022409424", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.06189 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.319587696927769, 29.46256060109301 ], [ -82.319587696927769, 29.471824178906992 ], [ -82.308947703072235, 29.471824178906992 ], [ -82.308947703072235, 29.46256060109301 ], [ -82.319587696927769, 29.46256060109301 ] ] ] } }
+]
+}

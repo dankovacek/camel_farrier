@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01489000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "FAULKNER BRANCH AT FEDERALSBURG, MD", "OfficialID": "01489000", "FlagPAVICS": 0, "Source": "USGS", "Area": 18.388824 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -75.817134994879538, 38.693061772029132 ], [ -75.817134994879538, 38.731611027970864 ], [ -75.76773160512046, 38.731611027970864 ], [ -75.76773160512046, 38.693061772029132 ], [ -75.817134994879538, 38.693061772029132 ] ] ] } }
+]
+}

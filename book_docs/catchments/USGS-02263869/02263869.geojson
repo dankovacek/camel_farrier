@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02263869",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SOUTH LAKE OUTLET AT S-15, NEAR VINELAND, FL", "OfficialID": "02263869", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.630337 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.551009813151381, 28.401210737633942 ], [ -81.551009813151381, 28.424358382366055 ], [ -81.524691986848609, 28.424358382366055 ], [ -81.524691986848609, 28.401210737633942 ], [ -81.551009813151381, 28.401210737633942 ] ] ] } }
+]
+}

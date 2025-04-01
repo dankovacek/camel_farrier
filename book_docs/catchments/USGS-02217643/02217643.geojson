@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02217643",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "PARKS CREEK AT LYLE FIELD RD NR JEFFERSON, GA", "OfficialID": "02217643", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.899424 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -83.540361748532476, 34.149425292627647 ], [ -83.540361748532476, 34.174691307372349 ], [ -83.509827051467525, 34.174691307372349 ], [ -83.509827051467525, 34.149425292627647 ], [ -83.540361748532476, 34.149425292627647 ] ] ] } }
+]
+}

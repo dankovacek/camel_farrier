@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01EJ006",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MCINTOSH RUN AT OLD SAMBRO ROAD", "OfficialID": "01EJ006", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 13.9 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -63.646600745144411, 44.596572222328021 ], [ -63.646600745144411, 44.630087777671974 ], [ -63.599519254855593, 44.630087777671974 ], [ -63.599519254855593, 44.596572222328021 ], [ -63.646600745144411, 44.596572222328021 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07FB011",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WINDREM CREEK NEAR CHETWYND", "OfficialID": "07FB011", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 22.9 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -121.668165102859703, 55.674320675810847 ], [ -121.668165102859703, 55.717339324189155 ], [ -121.591834897140288, 55.717339324189155 ], [ -121.591834897140288, 55.674320675810847 ], [ -121.668165102859703, 55.674320675810847 ] ] ] } }
+]
+}

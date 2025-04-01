@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05357215",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ALLEQUASH CREEK @ CT HWY M NR BOULDER JUNCTION, WI", "OfficialID": "05357215", "FlagPAVICS": 0, "Source": "USGS", "Area": 21.833491 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -89.683025122061125, 46.002886408190953 ], [ -89.683025122061125, 46.044891371809051 ], [ -89.622530477938867, 46.044891371809051 ], [ -89.622530477938867, 46.002886408190953 ], [ -89.683025122061125, 46.002886408190953 ] ] ] } }
+]
+}

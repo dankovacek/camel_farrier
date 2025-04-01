@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07358284",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Hot Springs Cr DS of Grand Ave at Hot Springs, AR", "OfficialID": "07358284", "FlagPAVICS": 0, "Source": "USGS", "Area": 10.877896 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -93.068544401584674, 34.487953231505138 ], [ -93.068544401584674, 34.517602328494867 ], [ -93.032566798415317, 34.517602328494867 ], [ -93.032566798415317, 34.487953231505138 ], [ -93.068544401584674, 34.487953231505138 ] ] ] } }
+]
+}

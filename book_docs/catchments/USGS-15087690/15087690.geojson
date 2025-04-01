@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15087690",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "INDIAN R NR SITKA AK", "OfficialID": "15087690", "FlagPAVICS": 0, "Source": "USGS", "Area": 26.15875 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -135.339047854126335, 57.043593605694831 ], [ -135.339047854126335, 57.08957133430517 ], [ -135.254477745873686, 57.08957133430517 ], [ -135.254477745873686, 57.043593605694831 ], [ -135.339047854126335, 57.043593605694831 ] ] ] } }
+]
+}

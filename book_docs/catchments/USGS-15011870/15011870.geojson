@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15011870",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "WHITE C NR KETCHIKAN AK", "OfficialID": "15011870", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.992933 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -130.483189692399861, 55.401956418275411 ], [ -130.483189692399861, 55.425728581724591 ], [ -130.441311107600114, 55.425728581724591 ], [ -130.441311107600114, 55.401956418275411 ], [ -130.483189692399861, 55.401956418275411 ] ] ] } }
+]
+}

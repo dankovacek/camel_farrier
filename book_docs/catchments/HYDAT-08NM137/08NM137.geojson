@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM137",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "DAVES CREEK NEAR RUTLAND", "OfficialID": "08NM137", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 31.1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.313089525606799, 49.8429937585516 ], [ -119.313089525606799, 49.8931262414484 ], [ -119.235310474393188, 49.8931262414484 ], [ -119.235310474393188, 49.8429937585516 ], [ -119.313089525606799, 49.8429937585516 ] ] ] } }
+]
+}

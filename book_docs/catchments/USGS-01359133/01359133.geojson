@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01359133",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "PATROON CR AT NORTHERN BLVD AT ALBANY NY", "OfficialID": "01359133", "FlagPAVICS": 0, "Source": "USGS", "Area": 33.928676 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.791164256244045, 42.645207513400067 ], [ -73.791164256244045, 42.697570266599939 ], [ -73.719946943755943, 42.697570266599939 ], [ -73.719946943755943, 42.645207513400067 ], [ -73.791164256244045, 42.645207513400067 ] ] ] } }
+]
+}

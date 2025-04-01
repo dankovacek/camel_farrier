@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "06740000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "DRY CREEK NEAR PINEWOOD, CO.", "OfficialID": "06740000", "FlagPAVICS": 0, "Source": "USGS", "Area": 18.414724 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -105.252525999925126, 40.353473703123569 ], [ -105.252525999925126, 40.392050096876432 ], [ -105.201890600074876, 40.392050096876432 ], [ -105.201890600074876, 40.353473703123569 ], [ -105.252525999925126, 40.353473703123569 ] ] ] } }
+]
+}

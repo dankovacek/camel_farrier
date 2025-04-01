@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02PL012",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BULLARD (RUISSEAU) A SAINT-JEAN-DE-BREBEUF", "OfficialID": "02PL012", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 25.7 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -71.490686868003948, 46.152773606875876 ], [ -71.490686868003948, 46.198346393124119 ], [ -71.424873131996051, 46.198346393124119 ], [ -71.424873131996051, 46.152773606875876 ], [ -71.490686868003948, 46.152773606875876 ] ] ] } }
+]
+}

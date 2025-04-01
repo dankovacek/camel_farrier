@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LB065",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CHRISTIAN CREEK NEAR HEFFLEY CREEK", "OfficialID": "08LB065", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 7.51 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -120.029205337383047, 50.826572317865832 ], [ -120.029205337383047, 50.851207682134167 ], [ -119.990194662616943, 50.851207682134167 ], [ -119.990194662616943, 50.826572317865832 ], [ -120.029205337383047, 50.826572317865832 ] ] ] } }
+]
+}

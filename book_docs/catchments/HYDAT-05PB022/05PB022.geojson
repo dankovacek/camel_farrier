@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05PB022",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "EYE RIVER NEAR COULSON LAKE NORTH OF ATIKOKAN", "OfficialID": "05PB022", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 27.9 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -91.703611828037538, 48.870698337565187 ], [ -91.703611828037538, 48.918181662434819 ], [ -91.63138817196247, 48.918181662434819 ], [ -91.63138817196247, 48.870698337565187 ], [ -91.703611828037538, 48.870698337565187 ] ] ] } }
+]
+}

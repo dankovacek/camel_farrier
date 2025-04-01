@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "0232683603",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MCCORD PARK DD BL CENTERVILLE RD TALLAHASSEE,FLA", "OfficialID": "0232683603", "FlagPAVICS": 0, "Source": "USGS", "Area": 8.909515 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -84.264909180993953, 30.45539499835532 ], [ -84.264909180993953, 30.482227801644679 ], [ -84.233777219006043, 30.482227801644679 ], [ -84.233777219006043, 30.45539499835532 ], [ -84.264909180993953, 30.45539499835532 ] ] ] } }
+]
+}

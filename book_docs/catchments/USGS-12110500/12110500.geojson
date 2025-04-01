@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12110500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "JENKINS CREEK NEAR AUBURN, WA", "OfficialID": "12110500", "FlagPAVICS": 0, "Source": "USGS", "Area": 34.964666 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.16878303932188, 47.313244813277706 ], [ -122.16878303932188, 47.366400986722297 ], [ -122.090340960678134, 47.366400986722297 ], [ -122.090340960678134, 47.313244813277706 ], [ -122.16878303932188, 47.313244813277706 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02300017",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GAMBLE CREEK AT COUNTY ROAD 675 NEAR PARRISH FL", "OfficialID": "02300017", "FlagPAVICS": 0, "Source": "USGS", "Area": 36.259653 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.427923432195684, 27.548711981281773 ], [ -82.427923432195684, 27.602843578718225 ], [ -82.36685434780432, 27.602843578718225 ], [ -82.36685434780432, 27.548711981281773 ], [ -82.427923432195684, 27.548711981281773 ] ] ] } }
+]
+}

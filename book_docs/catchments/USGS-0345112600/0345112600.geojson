@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "0345112600",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NASTY BRANCH AT ASHEVILLE, NC", "OfficialID": "0345112600", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.082071 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.569272140423621, 35.571109931483917 ], [ -82.569272140423621, 35.586891868516076 ], [ -82.549867659576378, 35.586891868516076 ], [ -82.549867659576378, 35.571109931483917 ], [ -82.569272140423621, 35.571109931483917 ] ] ] } }
+]
+}

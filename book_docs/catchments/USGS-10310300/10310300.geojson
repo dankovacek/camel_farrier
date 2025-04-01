@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10310300",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "FREDERICKSBURG CYN CK NR FREDERICKSBURG, CA", "OfficialID": "10310300", "FlagPAVICS": 0, "Source": "USGS", "Area": 9.608808 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.817784470029409, 38.813195077346336 ], [ -119.817784470029409, 38.841061022653662 ], [ -119.782014929970586, 38.841061022653662 ], [ -119.782014929970586, 38.813195077346336 ], [ -119.817784470029409, 38.813195077346336 ] ] ] } }
+]
+}

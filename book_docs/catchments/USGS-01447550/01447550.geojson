@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01447550",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Beaver Creek near Pocono Pines, PA", "OfficialID": "01447550", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.486376 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -75.459868453520883, 41.091889410207386 ], [ -75.459868453520883, 41.106064389792607 ], [ -75.441058146479108, 41.106064389792607 ], [ -75.441058146479108, 41.091889410207386 ], [ -75.459868453520883, 41.091889410207386 ] ] ] } }
+]
+}

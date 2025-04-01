@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ131",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SANDY CREEK NEAR BLEWETT", "OfficialID": "08NJ131", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 10.9 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.375937508572235, 49.459330397321807 ], [ -117.375937508572235, 49.489009602678195 ], [ -117.33026249142776, 49.489009602678195 ], [ -117.33026249142776, 49.459330397321807 ], [ -117.375937508572235, 49.459330397321807 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05CH009",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "NATURAL FLOW A NEAR POLLOCKVILLE", "OfficialID": "05CH009", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 3.5 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -111.810604974179867, 51.140201025290416 ], [ -111.810604974179867, 51.15701897470958 ], [ -111.78379502582014, 51.15701897470958 ], [ -111.78379502582014, 51.140201025290416 ], [ -111.810604974179867, 51.140201025290416 ] ] ] } }
+]
+}

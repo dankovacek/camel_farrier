@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05LJ032",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "EASTERN TRIBUTARY TO EDWARDS CREEK", "OfficialID": "05LJ032", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 13.9 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -100.08631929123608, 50.967412222328022 ], [ -100.08631929123608, 51.000927777671976 ], [ -100.033080708763933, 51.000927777671976 ], [ -100.033080708763933, 50.967412222328022 ], [ -100.08631929123608, 50.967412222328022 ] ] ] } }
+]
+}

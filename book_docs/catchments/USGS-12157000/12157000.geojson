@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12157000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "QUILCEDA CREEK NEAR MARYSVILLE, WA", "OfficialID": "12157000", "FlagPAVICS": 0, "Source": "USGS", "Area": 39.885619 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.205704494460065, 48.076155850821536 ], [ -122.205704494460065, 48.132929549178471 ], [ -122.120685105539934, 48.132929549178471 ], [ -122.120685105539934, 48.076155850821536 ], [ -122.205704494460065, 48.076155850821536 ] ] ] } }
+]
+}

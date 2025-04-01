@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01115265",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HEMLOCK BROOK AT KING ROAD NR FOSTER, RI", "OfficialID": "01115265", "FlagPAVICS": 0, "Source": "USGS", "Area": 22.584584 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -71.727328068318442, 41.769294120079323 ], [ -71.727328068318442, 41.812015479920674 ], [ -71.670028931681557, 41.812015479920674 ], [ -71.670028931681557, 41.769294120079323 ], [ -71.727328068318442, 41.769294120079323 ] ] ] } }
+]
+}

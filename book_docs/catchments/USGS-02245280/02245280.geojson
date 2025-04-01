@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02245280",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MOCCASIN BRANCH AT ARMSTRONG, FL", "OfficialID": "02245280", "FlagPAVICS": 0, "Source": "USGS", "Area": 37.295643 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.484201638686415, 29.747797070066802 ], [ -81.484201638686415, 29.802696529933201 ], [ -81.420951961313591, 29.802696529933201 ], [ -81.420951961313591, 29.747797070066802 ], [ -81.484201638686415, 29.747797070066802 ] ] ] } }
+]
+}

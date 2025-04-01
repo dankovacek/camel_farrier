@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03212703",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ELKHORN CREEK TRIBUTARY AT WELCH, WV", "OfficialID": "03212703", "FlagPAVICS": 0, "Source": "USGS", "Area": 1.631684 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -81.57428101587368, 37.423816567056434 ], [ -81.57428101587368, 37.435299612943567 ], [ -81.559820584126328, 37.435299612943567 ], [ -81.559820584126328, 37.423816567056434 ], [ -81.57428101587368, 37.423816567056434 ] ] ] } }
+]
+}

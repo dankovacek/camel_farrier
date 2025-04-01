@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08329720",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "EMBUDO ARROYO AT ALBUQUERQUE, NM", "OfficialID": "08329720", "FlagPAVICS": 0, "Source": "USGS", "Area": 9.841906 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -106.509735650624521, 35.088121241701842 ], [ -106.509735650624521, 35.116323158298158 ], [ -106.475264349375493, 35.116323158298158 ], [ -106.475264349375493, 35.088121241701842 ], [ -106.509735650624521, 35.088121241701842 ] ] ] } }
+]
+}

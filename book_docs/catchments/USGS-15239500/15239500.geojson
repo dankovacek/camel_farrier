@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15239500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "FRITZ C NR HOMER AK", "OfficialID": "15239500", "FlagPAVICS": 0, "Source": "USGS", "Area": 26.935742 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -151.391431257864753, 59.684399915237961 ], [ -151.391431257864753, 59.731055484762038 ], [ -151.298936142135261, 59.731055484762038 ], [ -151.298936142135261, 59.684399915237961 ], [ -151.391431257864753, 59.684399915237961 ] ] ] } }
+]
+}

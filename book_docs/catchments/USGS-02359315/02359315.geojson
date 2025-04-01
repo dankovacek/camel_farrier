@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02359315",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MARTIN BAYOU AT US 98 AT SPRINGFIELD, FL", "OfficialID": "02359315", "FlagPAVICS": 0, "Source": "USGS", "Area": 10.256302 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -85.632126459261855, 30.12080728018309 ], [ -85.632126459261855, 30.149596799816909 ], [ -85.598837740738134, 30.149596799816909 ], [ -85.598837740738134, 30.12080728018309 ], [ -85.632126459261855, 30.12080728018309 ] ] ] } }
+]
+}

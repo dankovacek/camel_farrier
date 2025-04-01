@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08GA057",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MASHITER CREEK NEAR SQUAMISH", "OfficialID": "08GA057", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 38.9 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -123.148379391593338, 49.712526080313715 ], [ -123.148379391593338, 49.768593919686289 ], [ -123.06162060840667, 49.768593919686289 ], [ -123.06162060840667, 49.712526080313715 ], [ -123.148379391593338, 49.712526080313715 ] ] ] } }
+]
+}

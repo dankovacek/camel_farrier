@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02303348",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TROUT CREEK AT WESLEY CHAPEL FL", "OfficialID": "02303348", "FlagPAVICS": 0, "Source": "USGS", "Area": 44.029579 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.396055112040628, 28.141508272432887 ], [ -82.396055112040628, 28.201158387567112 ], [ -82.328389287959382, 28.201158387567112 ], [ -82.328389287959382, 28.141508272432887 ], [ -82.396055112040628, 28.141508272432887 ] ] ] } }
+]
+}

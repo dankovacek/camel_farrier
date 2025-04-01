@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09484200",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BEAR CREEK NEAR TUCSON, ARIZ.", "OfficialID": "09484200", "FlagPAVICS": 0, "Source": "USGS", "Area": 42.216596 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -110.836030859491174, 32.276982142378472 ], [ -110.836030859491174, 32.335391257621524 ], [ -110.766924340508822, 32.335391257621524 ], [ -110.766924340508822, 32.276982142378472 ], [ -110.836030859491174, 32.276982142378472 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01393800",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Ef EB Rahway R at West Orange NJ", "OfficialID": "01393800", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.149679 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -74.252034978291832, 40.762854281254832 ], [ -74.252034978291832, 40.77603459874517 ], [ -74.234631621708175, 40.77603459874517 ], [ -74.234631621708175, 40.762854281254832 ], [ -74.252034978291832, 40.762854281254832 ] ] ] } }
+]
+}

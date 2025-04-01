@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03085221",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Unnamed Trib #1 to Chartiers Cr at Lagonda, PA", "OfficialID": "03085221", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.330978 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -80.261536279722236, 40.122375807516697 ], [ -80.261536279722236, 40.136100672483302 ], [ -80.243585720277764, 40.136100672483302 ], [ -80.243585720277764, 40.122375807516697 ], [ -80.261536279722236, 40.122375807516697 ] ] ] } }
+]
+}

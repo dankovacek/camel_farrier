@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02303410",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CYPRESS CREEK TRIBUTARY NR WESLEY CHAPEL FL", "OfficialID": "02303410", "FlagPAVICS": 0, "Source": "USGS", "Area": 19.942809 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.408899733410138, 28.239288566449385 ], [ -82.408899733410138, 28.279433633550614 ], [ -82.36332246658985, 28.279433633550614 ], [ -82.36332246658985, 28.239288566449385 ], [ -82.408899733410138, 28.239288566449385 ] ] ] } }
+]
+}

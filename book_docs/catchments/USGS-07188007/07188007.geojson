@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07188007",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Beaver Creek abv Spring River near Quapaw, Ok", "OfficialID": "07188007", "FlagPAVICS": 0, "Source": "USGS", "Area": 16.316844 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -94.773269589000435, 36.914343710260212 ], [ -94.773269589000435, 36.950656289739783 ], [ -94.727841610999562, 36.950656289739783 ], [ -94.727841610999562, 36.914343710260212 ], [ -94.773269589000435, 36.914343710260212 ] ] ] } }
+]
+}

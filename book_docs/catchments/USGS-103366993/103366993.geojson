@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "103366993",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "INCLINE CK ABV TYROL VILLAGE NR INCLINE VILLAGE NV", "OfficialID": "103366993", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.381429 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.939015382897551, 39.246585201896089 ], [ -119.939015382897551, 39.271008778103912 ], [ -119.907472417102454, 39.271008778103912 ], [ -119.907472417102454, 39.246585201896089 ], [ -119.939015382897551, 39.246585201896089 ] ] ] } }
+]
+}

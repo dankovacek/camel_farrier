@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02OA030",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MASCOUCHE (RIVIERE) PRES DE SAINT-JANVIER", "OfficialID": "02OA030", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 18.9 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.966034446195636, 45.672129308594677 ], [ -73.966034446195636, 45.711210691405327 ], [ -73.91008555380435, 45.711210691405327 ], [ -73.91008555380435, 45.672129308594677 ], [ -73.966034446195636, 45.672129308594677 ] ] ] } }
+]
+}

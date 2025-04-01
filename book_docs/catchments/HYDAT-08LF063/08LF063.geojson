@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LF063",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GLADWIN CREEK NEAR LYTTON", "OfficialID": "08LF063", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 5.7 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -121.500981062045412, 50.236208845391666 ], [ -121.500981062045412, 50.257671154608339 ], [ -121.467418937954591, 50.257671154608339 ], [ -121.467418937954591, 50.236208845391666 ], [ -121.500981062045412, 50.236208845391666 ] ] ] } }
+]
+}

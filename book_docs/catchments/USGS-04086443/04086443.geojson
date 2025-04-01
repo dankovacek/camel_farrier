@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04086443",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CEDAR CREEK TRIBUTARY @ CT HIGHWAY P AT JACKSON,WI", "OfficialID": "04086443", "FlagPAVICS": 0, "Source": "USGS", "Area": 8.805916 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -88.199811830581183, 43.294443028769422 ], [ -88.199811830581183, 43.32111937123058 ], [ -88.16315236941881, 43.32111937123058 ], [ -88.16315236941881, 43.294443028769422 ], [ -88.199811830581183, 43.294443028769422 ] ] ] } }
+]
+}

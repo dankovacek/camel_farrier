@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12212430",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "UNNAMED TRIB TO BERTRAND CR NR H ST NR LYNDEN, WA", "OfficialID": "12212430", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.330978 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.511734499923719, 48.991309167516697 ], [ -122.511734499923719, 49.005034032483302 ], [ -122.49081510007629, 49.005034032483302 ], [ -122.49081510007629, 48.991309167516697 ], [ -122.511734499923719, 48.991309167516697 ] ] ] } }
+]
+}

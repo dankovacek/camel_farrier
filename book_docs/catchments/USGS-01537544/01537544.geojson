@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01537544",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Espy Run at Nanticoke, PA", "OfficialID": "01537544", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.614527 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -75.998152287937316, 41.192319092862931 ], [ -75.998152287937316, 41.217125307137067 ], [ -75.965181112062695, 41.217125307137067 ], [ -75.965181112062695, 41.192319092862931 ], [ -75.998152287937316, 41.192319092862931 ] ] ] } }
+]
+}

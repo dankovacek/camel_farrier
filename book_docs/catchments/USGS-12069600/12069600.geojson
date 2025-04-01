@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12069600",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "DEVILS HOLE CREEK NEAR BANGOR, WA", "OfficialID": "12069600", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.759835 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.750311307552948, 47.725629278583177 ], [ -122.750311307552948, 47.749001881416824 ], [ -122.715558092447054, 47.749001881416824 ], [ -122.715558092447054, 47.725629278583177 ], [ -122.750311307552948, 47.725629278583177 ] ] ] } }
+]
+}

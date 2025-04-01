@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01ED009",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ROGERS BROOK NEAR JAKES LANDING", "OfficialID": "01ED009", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 8.74 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -65.235283226092847, 44.432821843312567 ], [ -65.235283226092847, 44.459398156687428 ], [ -65.19805677390714, 44.459398156687428 ], [ -65.19805677390714, 44.432821843312567 ], [ -65.235283226092847, 44.432821843312567 ] ] ] } }
+]
+}

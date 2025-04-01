@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10264870",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "LITTLE LAKE C NR LITTLE LAKE CA", "OfficialID": "10264870", "FlagPAVICS": 0, "Source": "USGS", "Area": 21.470895 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.938860891052684, 35.938285546170555 ], [ -117.938860891052684, 35.979940253829447 ], [ -117.887399508947311, 35.979940253829447 ], [ -117.887399508947311, 35.938285546170555 ], [ -117.938860891052684, 35.938285546170555 ] ] ] } }
+]
+}

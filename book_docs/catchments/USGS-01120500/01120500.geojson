@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01120500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SAFFORD BK NR WOODSTOCK VALLEY, CT.", "OfficialID": "01120500", "FlagPAVICS": 0, "Source": "USGS", "Area": 10.748397 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.076826136183243, 41.911750107063284 ], [ -72.076826136183243, 41.941222192936721 ], [ -72.037213263816753, 41.941222192936721 ], [ -72.037213263816753, 41.911750107063284 ], [ -72.076826136183243, 41.911750107063284 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ106",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "AIREY CREEK NEAR NELSON", "OfficialID": "08NJ106", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 2.78 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -117.219661369370939, 49.585005693994731 ], [ -117.219661369370939, 49.599994306005271 ], [ -117.196538630629064, 49.599994306005271 ], [ -117.196538630629064, 49.585005693994731 ], [ -117.219661369370939, 49.585005693994731 ] ] ] } }
+]
+}

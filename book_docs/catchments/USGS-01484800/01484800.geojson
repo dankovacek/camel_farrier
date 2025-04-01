@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01484800",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "GUY CREEK NEAR NASSAWADOX, VA", "OfficialID": "01484800", "FlagPAVICS": 0, "Source": "USGS", "Area": 4.920953 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -75.885000153724604, 37.493774496766136 ], [ -75.885000153724604, 37.51371626323386 ], [ -75.859862846275405, 37.51371626323386 ], [ -75.859862846275405, 37.493774496766136 ], [ -75.885000153724604, 37.493774496766136 ] ] ] } }
+]
+}

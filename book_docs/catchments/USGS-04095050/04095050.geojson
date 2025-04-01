@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04095050",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "DUNES CREEK NR DUNE ACRES, IN", "OfficialID": "04095050", "FlagPAVICS": 0, "Source": "USGS", "Area": 8.805916 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -87.080940242658158, 41.640310698769419 ], [ -87.080940242658158, 41.666987041230577 ], [ -87.045237357341847, 41.666987041230577 ], [ -87.045237357341847, 41.640310698769419 ], [ -87.080940242658158, 41.640310698769419 ] ] ] } }
+]
+}

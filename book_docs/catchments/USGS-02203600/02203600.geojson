@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02203600",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SOUTH RIVER AT HARLAN DRIVE, AT EAST POINT, GA", "OfficialID": "02203600", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.962662 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -84.431513101113623, 33.671716542729861 ], [ -84.431513101113623, 33.689611577270135 ], [ -84.410008298886382, 33.689611577270135 ], [ -84.410008298886382, 33.671716542729861 ], [ -84.431513101113623, 33.671716542729861 ] ] ] } }
+]
+}

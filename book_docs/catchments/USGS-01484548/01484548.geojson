@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01484548",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "VINES CREEK AT OMAR, DE", "OfficialID": "01484548", "FlagPAVICS": 0, "Source": "USGS", "Area": 35.223663 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -75.236231595348471, 38.502325707538837 ], [ -75.236231595348471, 38.555678392461168 ], [ -75.168031204651527, 38.555678392461168 ], [ -75.168031204651527, 38.502325707538837 ], [ -75.236231595348471, 38.502325707538837 ] ] ] } }
+]
+}

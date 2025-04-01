@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "03575930",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BROGLAN BRANCH AT HOLMES AVE AT HUNTSVILLE AL", "OfficialID": "03575930", "FlagPAVICS": 0, "Source": "USGS", "Area": 22.97308 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -86.634817951318411, 34.707714031998265 ], [ -86.634817951318411, 34.750801268001737 ], [ -86.582391028681599, 34.750801268001737 ], [ -86.582391028681599, 34.707714031998265 ], [ -86.634817951318411, 34.707714031998265 ] ] ] } }
+]
+}

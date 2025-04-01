@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15086960",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SUNRISE LK OUTLET NR WRANGELL AK", "OfficialID": "15086960", "FlagPAVICS": 0, "Source": "USGS", "Area": 3.030271 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -132.507499965141989, 56.40405132312614 ], [ -132.507499965141989, 56.419700076873866 ], [ -132.479213234858008, 56.419700076873866 ], [ -132.479213234858008, 56.40405132312614 ], [ -132.507499965141989, 56.40405132312614 ] ] ] } }
+]
+}

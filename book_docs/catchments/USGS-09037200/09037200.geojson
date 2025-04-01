@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09037200",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SKYLARK CREEK NEAR PARSHALL, CO.", "OfficialID": "09037200", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.26774 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -106.184137087079066, 39.894010598615978 ], [ -106.184137087079066, 39.916516401384015 ], [ -106.154798512920948, 39.916516401384015 ], [ -106.154798512920948, 39.894010598615978 ], [ -106.184137087079066, 39.894010598615978 ] ] ] } }
+]
+}

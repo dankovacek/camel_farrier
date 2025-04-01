@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH085",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "THOMPSON CREEK NEAR KITCHENER", "OfficialID": "08NH085", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 8.29 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -116.412581305957147, 49.125668450153825 ], [ -116.412581305957147, 49.151551549846175 ], [ -116.373018694042841, 49.151551549846175 ], [ -116.373018694042841, 49.125668450153825 ], [ -116.412581305957147, 49.125668450153825 ] ] ] } }
+]
+}

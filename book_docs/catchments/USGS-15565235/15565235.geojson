@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15565235",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "OPHIR C NR TAKOTNA AK", "OfficialID": "15565235", "FlagPAVICS": 0, "Source": "USGS", "Area": 16.031947 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -156.563037426856653, 63.126373915555604 ], [ -156.563037426856653, 63.162368084444395 ], [ -156.483359173143327, 63.162368084444395 ], [ -156.483359173143327, 63.126373915555604 ], [ -156.563037426856653, 63.126373915555604 ] ] ] } }
+]
+}

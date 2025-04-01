@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02308865",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "ROOSEVELT CANAL AT STR 23-8 NR PINELLAS PARK FL", "OfficialID": "02308865", "FlagPAVICS": 0, "Source": "USGS", "Area": 11.913886 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.693211031819075, 27.892008052803781 ], [ -82.693211031819075, 27.92303690719622 ], [ -82.658098768180921, 27.92303690719622 ], [ -82.658098768180921, 27.892008052803781 ], [ -82.693211031819075, 27.892008052803781 ] ] ] } }
+]
+}

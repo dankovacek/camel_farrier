@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01392000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Weasel Brook at Clifton NJ", "OfficialID": "01392000", "FlagPAVICS": 0, "Source": "USGS", "Area": 11.52539 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -74.16629022600489, 40.854740621857509 ], [ -74.16629022600489, 40.885259378142486 ], [ -74.125931973995108, 40.885259378142486 ], [ -74.125931973995108, 40.854740621857509 ], [ -74.16629022600489, 40.854740621857509 ] ] ] } }
+]
+}

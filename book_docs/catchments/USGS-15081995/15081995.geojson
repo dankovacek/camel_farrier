@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15081995",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "REYNOLDS C BL LK MELLEN NR HYDABURG AK", "OfficialID": "15081995", "FlagPAVICS": 0, "Source": "USGS", "Area": 13.467871 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -132.611132081592359, 55.201207465204696 ], [ -132.611132081592359, 55.234197934795297 ], [ -132.553300718407627, 55.234197934795297 ], [ -132.553300718407627, 55.201207465204696 ], [ -132.611132081592359, 55.201207465204696 ] ] ] } }
+]
+}

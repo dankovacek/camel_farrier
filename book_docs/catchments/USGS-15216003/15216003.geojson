@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15216003",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "MIDDLE ARM EYAK LK TR NR CORDOVA AK", "OfficialID": "15216003", "FlagPAVICS": 0, "Source": "USGS", "Area": 7.510928 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -145.65592592273839, 60.54519165669987 ], [ -145.65592592273839, 60.569828543300133 ], [ -145.605805077261607, 60.569828543300133 ], [ -145.605805077261607, 60.54519165669987 ], [ -145.65592592273839, 60.54519165669987 ] ] ] } }
+]
+}

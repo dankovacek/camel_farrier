@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08DB012",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "PATSY CREEK NEAR THE MOUTH", "OfficialID": "08DB012", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 4.68 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -129.432932105267668, 55.409166291058618 ], [ -129.432932105267668, 55.428613708941377 ], [ -129.398667894732313, 55.428613708941377 ], [ -129.398667894732313, 55.409166291058618 ], [ -129.432932105267668, 55.409166291058618 ] ] ] } }
+]
+}

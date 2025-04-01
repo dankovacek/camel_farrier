@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10143500",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "CENTERVILLE CREEK ABV DIV NR CENTERVILLE, UT", "OfficialID": "10143500", "FlagPAVICS": 0, "Source": "USGS", "Area": 8.158422 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -111.879982645992698, 40.90349545440381 ], [ -111.879982645992698, 40.929172325596184 ], [ -111.846003554007297, 40.929172325596184 ], [ -111.846003554007297, 40.90349545440381 ], [ -111.879982645992698, 40.90349545440381 ] ] ] } }
+]
+}

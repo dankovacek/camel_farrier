@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05078770",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "JUDICIAL DITCH 66 NEAR MARCOUX CORNERS, MN (SW6)", "OfficialID": "05078770", "FlagPAVICS": 0, "Source": "USGS", "Area": 36.777648 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -96.37195483169188, 47.754685959713903 ], [ -96.37195483169188, 47.809202840286098 ], [ -96.290822968308106, 47.809202840286098 ], [ -96.290822968308106, 47.754685959713903 ], [ -96.37195483169188, 47.754685959713903 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04095158",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "KINTZELE DITCH AT BEVERLY SHORES, IN", "OfficialID": "04095158", "FlagPAVICS": 0, "Source": "USGS", "Area": 32.633688 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -86.974576793246484, 41.675659228807625 ], [ -86.974576793246484, 41.727012971192373 ], [ -86.905795406753526, 41.727012971192373 ], [ -86.905795406753526, 41.675659228807625 ], [ -86.974576793246484, 41.675659228807625 ] ] ] } }
+]
+}

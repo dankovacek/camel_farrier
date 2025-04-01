@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "15238860",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "TUTKA LAGOON C NR HOMER AK", "OfficialID": "15238860", "FlagPAVICS": 0, "Source": "USGS", "Area": 27.971733 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -151.458842622322265, 59.408669236550828 ], [ -151.458842622322265, 59.456213563449175 ], [ -151.365353377677707, 59.456213563449175 ], [ -151.365353377677707, 59.408669236550828 ], [ -151.458842622322265, 59.408669236550828 ] ] ] } }
+]
+}

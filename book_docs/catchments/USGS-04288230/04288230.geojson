@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04288230",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "RANCH BROOK AT RANCH CAMP, NEAR STOWE, VT", "OfficialID": "04288230", "FlagPAVICS": 0, "Source": "USGS", "Area": 9.841906 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -72.801559632237272, 44.489840341701843 ], [ -72.801559632237272, 44.518042258298159 ], [ -72.762016967762733, 44.518042258298159 ], [ -72.762016967762733, 44.489840341701843 ], [ -72.801559632237272, 44.489840341701843 ] ] ] } }
+]
+}

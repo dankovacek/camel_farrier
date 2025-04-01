@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM126",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HAYNES CREEK NEAR OSOYOOS", "OfficialID": "08NM126", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 17.6 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.414556318475064, 49.005313314488127 ], [ -119.414556318475064, 49.043026685511869 ], [ -119.357043681524942, 49.043026685511869 ], [ -119.357043681524942, 49.005313314488127 ], [ -119.414556318475064, 49.005313314488127 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05079250",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "COUNTY DITCH 65 NEAR MAPLE BAY, MN (SW2)", "OfficialID": "05079250", "FlagPAVICS": 0, "Source": "USGS", "Area": 26.935742 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -96.313770036297811, 47.58861661523796 ], [ -96.313770036297811, 47.635272184762037 ], [ -96.244563363702198, 47.635272184762037 ], [ -96.244563363702198, 47.58861661523796 ], [ -96.313770036297811, 47.58861661523796 ] ] ] } }
+]
+}

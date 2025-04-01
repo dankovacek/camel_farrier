@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NB009",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "HOSPITAL CREEK NORTH FORK NEAR GOLDEN", "OfficialID": "08NB009", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 25.1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -116.985748664121203, 51.318871166756786 ], [ -116.985748664121203, 51.363908833243208 ], [ -116.913651335878811, 51.363908833243208 ], [ -116.913651335878811, 51.318871166756786 ], [ -116.985748664121203, 51.318871166756786 ] ] ] } }
+]
+}

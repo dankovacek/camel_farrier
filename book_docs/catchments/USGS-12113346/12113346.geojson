@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "12113346",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "SPRINGBROOK CREEK AT ORILLIA, WA", "OfficialID": "12113346", "FlagPAVICS": 0, "Source": "USGS", "Area": 21.859391 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.258686658671323, 47.410196154894976 ], [ -122.258686658671323, 47.45222602510502 ], [ -122.196555941328668, 47.45222602510502 ], [ -122.196555941328668, 47.410196154894976 ], [ -122.258686658671323, 47.410196154894976 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01049218",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "COLD BROOK NEAR NORTH BELGRADE, ME", "OfficialID": "01049218", "FlagPAVICS": 0, "Source": "USGS", "Area": 2.201479 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -69.79369623648634, 44.537394804384704 ], [ -69.79369623648634, 44.55073297561529 ], [ -69.774981543513661, 44.55073297561529 ], [ -69.774981543513661, 44.537394804384704 ], [ -69.79369623648634, 44.537394804384704 ] ] ] } }
+]
+}

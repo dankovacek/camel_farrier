@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02322016",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BLUES CREEK NEAR GAINSVILLE, FL", "OfficialID": "02322016", "FlagPAVICS": 0, "Source": "USGS", "Area": 13.260673 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -82.450346480576655, 29.711931483441425 ], [ -82.450346480576655, 29.744667196558574 ], [ -82.412649319423338, 29.744667196558574 ], [ -82.412649319423338, 29.711931483441425 ], [ -82.450346480576655, 29.711931483441425 ] ] ] } }
+]
+}

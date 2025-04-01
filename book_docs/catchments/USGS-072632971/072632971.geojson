@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "072632971",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "Yount Creek near Martindale, AR", "OfficialID": "072632971", "FlagPAVICS": 0, "Source": "USGS", "Area": 6.474938 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -92.660610405936879, 34.878284812527838 ], [ -92.660610405936879, 34.901159587472165 ], [ -92.632722994063116, 34.901159587472165 ], [ -92.632722994063116, 34.878284812527838 ], [ -92.660610405936879, 34.878284812527838 ] ] ] } }
+]
+}

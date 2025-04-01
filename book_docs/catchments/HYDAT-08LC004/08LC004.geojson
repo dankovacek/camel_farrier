@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LC004",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "features": 1, "Name": "BRASH CREEK NEAR ENDERBY", "OfficialID": "08LC004", "FlagPAVICS": 0, "Source": "HYDAT", "Area": 32.6 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.082103693193247, 50.541006385430386 ], [ -119.082103693193247, 50.592333614569618 ], [ -119.001296306806765, 50.592333614569618 ], [ -119.001296306806765, 50.541006385430386 ], [ -119.082103693193247, 50.541006385430386 ] ] ] } }
+]
+}
