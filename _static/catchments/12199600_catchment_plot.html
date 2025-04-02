@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"a4b74163-75ce-4a1a-87fb-de9fddf3ff23":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p10382","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p10383"},"y_range":{"type":"object","name":"DataRange1d","id":"p10384"},"x_scale":{"type":"object","name":"LinearScale","id":"p10392"},"y_scale":{"type":"object","name":"LinearScale","id":"p10393"},"title":{"type":"object","name":"Title","id":"p10385","attributes":{"text":"12199600 NOOKACHAMPS CREEK AT BAKER HEIGHTS, WA"}},"renderers":[{"type":"object","name":"TileRenderer","id":"p10417","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p10416","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}},{"type":"object","name":"GlyphRenderer","id":"p10425","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p10419","attributes":{"selected":{"type":"object","name":"Selection","id":"p10420","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p10421"},"data":{"type":"map","entries":[["x",{"type":"typed_array","array":{"type":"bytes","data":"4Uc3dQrzacHhRzd1CvNpwSRxAB1L82nBgtWtIhHzacEAbBIP3vJpwar6LLGy8mnBw2IbTmbyacHnHizuGfJpwd1i00TV8WnBymJ9KqzxacEraPevN/FpwUYtlmoP8WnB7UeVA83wacEwoCKjTvBpwWAKePvM72nBCtLboo3vacHkHevLhO9pwa+rHNEw72nBIFcsQuzuacHm4N1VHu9pwa6F8R4n72nB01U/zJDvacGJ86geD/BpwQGTlFh28GnB65BKkbzwacEB9d89E/FpwbEG6i8L8WnBwT1wRTDxacGGFSmE//BpwRrc42Zp8WnBS6643HzxacEEsi9P1vFpwWysmF0P8mnBYDNJDmvyacF4I20k1vJpwWMRYNMf82nBHaDMn1LzacEKk8nEcPNpwfbTtgP982nBzYTOZ2D0acFEp4vmmPRpwcSgTU/89GnBuxsNf/f0acEmdxHEXvVpwfIKROMy9WnBI1UMO/n0acFyx0oF9vRpwZ1YPM6g9GnBBltqrKP0acHQbfD6CvVpwRd6vEsw9WnB59ZTJkD1acFibK4PlfVpwT7kLGzO9WnBYJuMUGX1acGZY71LI/VpwUSwJ5/c9GnBW6ZGmQb1acGiVc7SMvVpwZwyeDVb9WnBVSNBSl31acFD7vKjgvVpwd2OmZb19WnBxFGg7Xf2acGgVNVFyPZpwYdJuSUo92nBI52SduH2acHAz1QujPZpwYG1YpNL9mnB2HoGYO/1acGZ/ihEjPVpwaoeNiUp9WnB9jd2s8H0acEkNr62TvRpwdrN5tby82nBaWIsw4bzacFyQv/CTPNpwWP0/boP82nB4Uc3dQrzacE="},"order":"little","dtype":"float64"}],["y",{"type":"typed_array","array":{"type":"bytes","data":"bx3O4ByOV0FvHc7gHI5XQX+WtDtRjVdBTPrH8VWMV0FKkSuQYotXQapV4wVTildBk6heOnqJV0FEt05zoYhXQaqW9YOsh1dBn72xG9eGV0HJYjRR04ZXQVFLjeLZhVdBHH/+Ah+FV0Gj3xlZ/YRXQbhldM5rhVdBDUI+3saEV0E7gR/r3oNXQQZ1aWAig1dB9Ftkji2CV0HOWJihdoFXQR6kzniQgFdBeo/gjJqAV0GfttQ6vIBXQYCM81AygVdBwcjeBN+BV0GL/bNhiYFXQWIEOYh9gFdBRUgz3ZJ/V0FVHbTU2X5XQYfx/uE9fldBtn8Ln1F9V0F/D87ct31XQSNk4qfWfldBBD2y13Z/V0Efpem83n9XQWG/yFFVf1dBL+rtYXp+V0EC8Zfjh31XQXj4dygTfVdB8E20F5d9V0H5VdjhM35XQXZ8a9C3fldBDIxa249/V0HaOQi5BYBXQbr4v5vogFdBnMKSzLuBV0E2UxnjS4JXQXg93qn/gldB1vHUq7uDV0H+vwmfMYRXQY79wPoUhVdBf6Bu0ASGV0Efz6kvnYZXQUd6exoWh1dBW80UYo6HV0FbaSzY+4dXQS5HeXSbiFdB8PDuzUyJV0HpuhUzOIpXQdYo+7gxi1dB6Et2BhKMV0EDwf6i9YxXQau2hWRBjVdBp5YTtVSNV0GdgzhkH45XQVf2C1MLjldBYhSBIauOV0EGg+xKX49XQS9izBQrkFdBbSwlY9eQV0Gjh/fRe5FXQcaty0AgkldBys4tEqqRV0G1Hkw2XpFXQZDARa69kFdBT3gfrXmQV0FAnklHfo9XQRFhke1sjldBbx3O4ByOV0E="},"order":"little","dtype":"float64"}]]}}},"view":{"type":"object","name":"CDSView","id":"p10426","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p10427"}}},"glyph":{"type":"object","name":"Patch","id":"p10422","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"fill_color":"#1f77b4","fill_alpha":0.3}},"nonselection_glyph":{"type":"object","name":"Patch","id":"p10423","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_alpha":0.1,"fill_color":"#1f77b4","fill_alpha":0.1,"hatch_alpha":0.1}},"muted_glyph":{"type":"object","name":"Patch","id":"p10424","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_alpha":0.2,"fill_color":"#1f77b4","fill_alpha":0.2,"hatch_alpha":0.2}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p10391","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p10404"},{"type":"object","name":"WheelZoomTool","id":"p10405","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p10406","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p10407","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p10413","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p10412","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p10414"},{"type":"object","name":"SaveTool","id":"p10415"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p10399","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p10400","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p10401","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p10402"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p10394","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p10395","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p10396","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p10397"}}}],"center":[{"type":"object","name":"Grid","id":"p10398","attributes":{"axis":{"id":"p10394"}}},{"type":"object","name":"Grid","id":"p10403","attributes":{"dimension":1,"axis":{"id":"p10399"}}},{"type":"object","name":"Legend","id":"p10428","attributes":{"background_fill_alpha":0.75,"click_policy":"hide","items":[{"type":"object","name":"LegendItem","id":"p10429","attributes":{"label":{"type":"value","value":"Catchment (2022-04-26 00:00:00)"},"renderers":[{"id":"p10425"}]}}]}}]}}]}}';
+        const render_items = [{"docid":"a4b74163-75ce-4a1a-87fb-de9fddf3ff23","roots":{"p10382":"c3436718-655b-418d-b6db-bb8531121f84"},"root_ids":["p10382"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="c3436718-655b-418d-b6db-bb8531121f84" data-root-id="p10382" style="display: contents;"></div>
+    </body>
+    </html>
+    
