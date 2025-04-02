@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"6434ce5f-9da8-4a2c-b808-7c5976b4e694":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p6796","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p6797"},"y_range":{"type":"object","name":"DataRange1d","id":"p6798"},"x_scale":{"type":"object","name":"LinearScale","id":"p6806"},"y_scale":{"type":"object","name":"LinearScale","id":"p6807"},"title":{"type":"object","name":"Title","id":"p6799","attributes":{"text":"12392400 RAPID LIGHTNING CREEK NR SAMUELS ID"}},"renderers":[{"type":"object","name":"TileRenderer","id":"p6831","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p6830","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}},{"type":"object","name":"GlyphRenderer","id":"p6839","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p6833","attributes":{"selected":{"type":"object","name":"Selection","id":"p6834","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p6835"},"data":{"type":"map","entries":[["x",{"type":"typed_array","array":{"type":"bytes","data":"P6wIJ8+taME/rAgnz61owTX+Iq94rWjBhezp7B2taMG6HarOnKxowU9i6clBrGjB6+q4N96raMGl/ALpnKtowVjqqGAkq2jBEK12Y9KqaMFAD1jO6qpowXJiSuvQqmjBuMvvgAqraME14FstMKtowZktCB4sq2jBrpvyg0SraMGOX67oXKtowU7w4HSWq2jBBv4qeLWraMFj5qS+MaxowZX/3M2wrGjB8x2A1xytaMHNAZmMdK1owZmmYUCGrWjB62Z58KCtaMFW5JOv561owTwgNYcarmjBaYHe0zuuaMFv8mDcT65owT4DmaWdrmjBnBvbm/GuaMEZ0gvuPq9owQnHSjOwr2jBGpMWLi+waME3KIqkkrBowREumMXgsGjBBvcBYCaxaMFfU44ej7FowU/v2OL2sWjB4qZBZtGxaMHvgKps9LFoweVnWnxXsmjBVng3bdiyaMHN8/e1LrNowWkjo16is2jB9fEURPazaMF7ZESzW7RowVif/+V8tGjBH/oaIsu0aMHc3N6rE7VowUTedhMWtWjBPU1M7P20aMFtb0x82LRowSaRrGastGjB1fXHrji0aMEqq42UDLRowVqOLES/s2jB8NuyyZmzaMExLL32qLNowevNDR1As2jBMTQsaPmyaMHSdYRi+bJowZN5+W7lsmjBANNxfH2yaMG9zQ5RUbJowVMbXuj6sWjBPxGUoJmxaMHbyQ+yC7FowVhG6rOjsGjBVsiAUzGwaME2u/CWvK9owTcT/6pBr2jBF5ebKu+uaME1nT67h65owWOCny8PrmjBP6wIJ8+taME="},"order":"little","dtype":"float64"}],["y",{"type":"typed_array","array":{"type":"bytes","data":"g0pBspKSV0GDSkGykpJXQR4AzuMtk1dBydCDrNaTV0Ezh+eo7JNXQdfxSw5Ok1dBtdktn8qSV0FWQO2F2pFXQTudYkPVkVdBZLumwlWRV0H3aKOAVZBXQXUIE8hfj1dBn12OZIuOV0E6TlbAnI1XQZvHK4CdjFdBWM/kaZ2LV0FxS9NcnYpXQWbFYRvJiVdBZx3d3tGIV0Hn85pWj4hXQQyu20mdiFdBPnfbXAWJV0EOViL9GIlXQRQFz0MQiFdB8VppoSaHV0F77X3pY4ZXQY9k3PyGhVdBluPBK6aEV0FIUiTos4NXQcbVniU0g1dBdZis+oKCV0HsJAUWyYFXQX41EEaLgVdB16PBCJmBV0G9NCz5G4JXQQvW6bbigldBYwuamMSDV0Gs3CzPoYNXQVuMpioXhFdBFSr5lAWFV0Hw4zrlGYZXQVMnC61ihldB666+cEyGV0EH6NNZsYVXQbJ2vp+JhVdBjizhOtiEV0GZpbU2N4VXQTbKf19vhldBqInfHTaHV0HelfzmW4dXQb538NN+iFdB5ubu5H6JV0FU2UGKbYpXQfQzYXxTi1dBQuEhS3uLV0EzF2ZDYYxXQRthWZYbjVdBoGq9VgqOV0FT7m/GBI9XQbTdz7Qnj1dBAlgO0uqPV0GXCcrF95BXQSPHdonqkVdBeiDz/oGSV0GlqR4raJNXQVbz+ogDlFdBFblFqJaTV0FqiCqo1ZNXQSBG3RRtlFdBC3bXhTaUV0GeX0CZ6ZNXQQHf5C/Ok1dBnhM5gBSTV0H2yMsK2ZJXQW5iuuvTkldBg0pBspKSV0E="},"order":"little","dtype":"float64"}]]}}},"view":{"type":"object","name":"CDSView","id":"p6840","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p6841"}}},"glyph":{"type":"object","name":"Patch","id":"p6836","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"fill_color":"#1f77b4","fill_alpha":0.3}},"nonselection_glyph":{"type":"object","name":"Patch","id":"p6837","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_alpha":0.1,"fill_color":"#1f77b4","fill_alpha":0.1,"hatch_alpha":0.1}},"muted_glyph":{"type":"object","name":"Patch","id":"p6838","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_alpha":0.2,"fill_color":"#1f77b4","fill_alpha":0.2,"hatch_alpha":0.2}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p6805","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p6818"},{"type":"object","name":"WheelZoomTool","id":"p6819","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p6820","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p6821","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p6827","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p6826","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p6828"},{"type":"object","name":"SaveTool","id":"p6829"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p6813","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p6814","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p6815","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p6816"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p6808","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p6809","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p6810","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p6811"}}}],"center":[{"type":"object","name":"Grid","id":"p6812","attributes":{"axis":{"id":"p6808"}}},{"type":"object","name":"Grid","id":"p6817","attributes":{"dimension":1,"axis":{"id":"p6813"}}},{"type":"object","name":"Legend","id":"p6842","attributes":{"background_fill_alpha":0.75,"click_policy":"hide","items":[{"type":"object","name":"LegendItem","id":"p6843","attributes":{"label":{"type":"value","value":"Catchment (20220426)"},"renderers":[{"id":"p6839"}]}}]}}]}}]}}';
+        const render_items = [{"docid":"6434ce5f-9da8-4a2c-b808-7c5976b4e694","roots":{"p6796":"eecdec62-aa96-4378-a15b-36a8b3373b7b"},"root_ids":["p6796"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="eecdec62-aa96-4378-a15b-36a8b3373b7b" data-root-id="p6796" style="display: contents;"></div>
+    </body>
+    </html>
+    

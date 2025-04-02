@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"83917610-0c19-4474-8282-993f4bc724fa":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p4703","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p4704"},"y_range":{"type":"object","name":"DataRange1d","id":"p4705"},"x_scale":{"type":"object","name":"LinearScale","id":"p4713"},"y_scale":{"type":"object","name":"LinearScale","id":"p4714"},"title":{"type":"object","name":"Title","id":"p4706","attributes":{"text":"12105000 SMAY CREEK NEAR LESTER, WA"}},"renderers":[{"type":"object","name":"TileRenderer","id":"p4738","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p4737","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}},{"type":"object","name":"GlyphRenderer","id":"p4746","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p4740","attributes":{"selected":{"type":"object","name":"Selection","id":"p4741","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p4742"},"data":{"type":"map","entries":[["x",{"type":"typed_array","array":{"type":"bytes","data":"UfdkQ2zRacFR92RDbNFpwREmXGIIzmnBESZcYgjOacFR92RDbNFpwQ=="},"order":"little","dtype":"float64"}],["y",{"type":"typed_array","array":{"type":"bytes","data":"vNHmNz/RVkGtGQH6BthWQa0ZAfoG2FZBvNHmNz/RVkG80eY3P9FWQQ=="},"order":"little","dtype":"float64"}]]}}},"view":{"type":"object","name":"CDSView","id":"p4747","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p4748"}}},"glyph":{"type":"object","name":"Patch","id":"p4743","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"fill_color":"#1f77b4","fill_alpha":0.3}},"nonselection_glyph":{"type":"object","name":"Patch","id":"p4744","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_alpha":0.1,"fill_color":"#1f77b4","fill_alpha":0.1,"hatch_alpha":0.1}},"muted_glyph":{"type":"object","name":"Patch","id":"p4745","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_alpha":0.2,"fill_color":"#1f77b4","fill_alpha":0.2,"hatch_alpha":0.2}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p4712","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p4725"},{"type":"object","name":"WheelZoomTool","id":"p4726","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p4727","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p4728","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p4734","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p4733","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p4735"},{"type":"object","name":"SaveTool","id":"p4736"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p4720","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p4721","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p4722","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p4723"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p4715","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p4716","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p4717","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p4718"}}}],"center":[{"type":"object","name":"Grid","id":"p4719","attributes":{"axis":{"id":"p4715"}}},{"type":"object","name":"Grid","id":"p4724","attributes":{"dimension":1,"axis":{"id":"p4720"}}},{"type":"object","name":"Legend","id":"p4749","attributes":{"background_fill_alpha":0.75,"click_policy":"hide","items":[{"type":"object","name":"LegendItem","id":"p4750","attributes":{"label":{"type":"value","value":"Catchment (20220426)"},"renderers":[{"id":"p4746"}]}}]}}]}}]}}';
+        const render_items = [{"docid":"83917610-0c19-4474-8282-993f4bc724fa","roots":{"p4703":"d18cd1d4-65f7-409c-be3d-bdeac98b81c1"},"root_ids":["p4703"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="d18cd1d4-65f7-409c-be3d-bdeac98b81c1" data-root-id="p4703" style="display: contents;"></div>
+    </body>
+    </html>
+    

@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"71e101cf-f254-4a79-b410-a0ddaf83aac6":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p5422","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p5423"},"y_range":{"type":"object","name":"DataRange1d","id":"p5424"},"x_scale":{"type":"object","name":"LinearScale","id":"p5432"},"y_scale":{"type":"object","name":"LinearScale","id":"p5433"},"title":{"type":"object","name":"Title","id":"p5425","attributes":{"text":"12073000 BURLEY CREEK AT BURLEY, WA"}},"renderers":[{"type":"object","name":"TileRenderer","id":"p5457","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p5456","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}},{"type":"object","name":"GlyphRenderer","id":"p5465","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p5459","attributes":{"selected":{"type":"object","name":"Selection","id":"p5460","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p5461"},"data":{"type":"map","entries":[["x",{"type":"typed_array","array":{"type":"bytes","data":"uEgZzBQLasG4SBnMFAtqwRLHLffpCmrBnKZwIL8KasGK+U0XmwpqwY5Jn+ltCmrBsj2p+fcJasEEJxXSrglqwSV/cmxpCWrBLBDzGioJasEFd/If+QhqwZT5UWqVCGrBTTwvhi4IasHZz8cLSAhqwV6LYWhMCGrB4CybinMIasFG9uzcsghqwSiypkRUCGrBaD2tWlkIasG2P/vRbwhqwUYT+7UoCGrB1gd4nRUIasF9l2bqVAhqwe2H0DFTCGrBH2XWrIsIasEmW9qJtghqweChO2/kCGrBzLymtE8JasHSveOw5glqwSxDvyVBCmrBAU2sraEKasFOwSe/Bwtqwf/QEhU/C2rBjZ9015YLasHS7vs7ZQtqwfhhC206C2rB7KJJnA8LasF75Ov63QpqwVMqWWNPC2rBb/2pU0cLasG4SBnMFAtqwQ=="},"order":"little","dtype":"float64"}],["y",{"type":"typed_array","array":{"type":"bytes","data":"AGJ1wYryVkEAYnXBivJWQbE45oBp81ZBBEiORkj0VkEdty+4LvVWQYvux7zU9VZBYyd0qLz1VkH7qCFlZ/ZWQT8Buk0E91ZBBI1WM8z3VkH/NYcXgPhWQXUWeefo+FZBp9/xYJn4VkGQwdwJufdWQc20KRXl9lZBQHtwGhT2VkEPhq1FTPVWQUIiJNG99FZBCKT3o8bzVkHhsff40PJWQVStj/xu8lZB+xBqw27xVkGVKjQSp/BWQYGPYWOo71ZBIHDjF9nuVkFyPgKH+u1WQYCRBXIx7VZB3e9/uE/tVkFUcuu3Du1WQTJM0Khl7FZBQIbGgufrVkF7XpkRWuxWQVWFtHEW7VZB0gB/AJ3tVkEn5YD3c+5WQfN1uZdS71ZBmBUmPjHwVkGk9lhGCPFWQehQ1mtR8VZB9/vnCzPyVkEAYnXBivJWQQ=="},"order":"little","dtype":"float64"}]]}}},"view":{"type":"object","name":"CDSView","id":"p5466","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p5467"}}},"glyph":{"type":"object","name":"Patch","id":"p5462","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"fill_color":"#1f77b4","fill_alpha":0.3}},"nonselection_glyph":{"type":"object","name":"Patch","id":"p5463","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_alpha":0.1,"fill_color":"#1f77b4","fill_alpha":0.1,"hatch_alpha":0.1}},"muted_glyph":{"type":"object","name":"Patch","id":"p5464","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_alpha":0.2,"fill_color":"#1f77b4","fill_alpha":0.2,"hatch_alpha":0.2}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p5431","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p5444"},{"type":"object","name":"WheelZoomTool","id":"p5445","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p5446","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p5447","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p5453","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p5452","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p5454"},{"type":"object","name":"SaveTool","id":"p5455"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p5439","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p5440","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p5441","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p5442"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p5434","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p5435","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p5436","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p5437"}}}],"center":[{"type":"object","name":"Grid","id":"p5438","attributes":{"axis":{"id":"p5434"}}},{"type":"object","name":"Grid","id":"p5443","attributes":{"dimension":1,"axis":{"id":"p5439"}}},{"type":"object","name":"Legend","id":"p5468","attributes":{"background_fill_alpha":0.75,"click_policy":"hide","items":[{"type":"object","name":"LegendItem","id":"p5469","attributes":{"label":{"type":"value","value":"Catchment (20220426)"},"renderers":[{"id":"p5465"}]}}]}}]}}]}}';
+        const render_items = [{"docid":"71e101cf-f254-4a79-b410-a0ddaf83aac6","roots":{"p5422":"b6ebc046-4293-48b9-b8a0-5891e97cbc1f"},"root_ids":["p5422"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="b6ebc046-4293-48b9-b8a0-5891e97cbc1f" data-root-id="p5422" style="display: contents;"></div>
+    </body>
+    </html>
+    

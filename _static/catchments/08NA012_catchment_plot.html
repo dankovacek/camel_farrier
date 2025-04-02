@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"3ff89248-c8fe-4270-8a69-9c4ae7cc5f9c":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p4215","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p4216"},"y_range":{"type":"object","name":"DataRange1d","id":"p4217"},"x_scale":{"type":"object","name":"LinearScale","id":"p4225"},"y_scale":{"type":"object","name":"LinearScale","id":"p4226"},"title":{"type":"object","name":"Title","id":"p4218","attributes":{"text":"08NA012 TOBY CREEK NEAR ATHALMER"}},"renderers":[{"type":"object","name":"TileRenderer","id":"p4250","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p4249","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}},{"type":"object","name":"GlyphRenderer","id":"p4258","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p4252","attributes":{"selected":{"type":"object","name":"Selection","id":"p4253","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p4254"},"data":{"type":"map","entries":[["x",{"type":"typed_array","array":{"type":"bytes","data":"gEBIK3q7aMFmvO3MmLtowehW1X7Pu2jBuPUgJhq8aMFHi1Nnxb1owTY06SGTvmjB7HQdd4K/aMHXNenHLr9oweXpbQA8v2jB4NX7XTO/aMFl9524RL9owanpcQW7vmjBwUjG5sS+aMFnJ61aDcBowULjRb3twGjB8AWI7IrCaMFsjCOFNcNowRDvdD6pwmjBXSqwGhLDaMHfxJfMSMNowam84g+Gw2jB1kTxevPDaMFGY0Lho8RowVPsUbAQw2jBeRUzVKLBaMGgT+oklL1owScq7LG6vGjBIfbnQYa7aMGIwO58z7powRuhrJlpumjBxVgTcn26aMGzDQuq/7lowTNzI/jIuWjBdMNEB2G3aMF9iU6X8rZowSp3A7WztWjBzqOUjQS1aMFJBZKE5bNowfEfUvO4smjBPAVhqk+yaMElsaNSwbFowQi8ltV/sGjBxHIzSwyvaMEyUYaf4a1owfIcFJm2qmjBl4oiZSKqaMF3ZGHbW6lowdQ4dW3HqGjBEz5zfH6maMEMvlqPs6VowelNQflEpGjBG/AmMxyjaMHywgSvJaNowV0pDenypGjBBA2OlWOlaMH2TXLT2qVowQ1mmIJvpmjBUXM+22ynaMFV3hky9qhowQfEhynrqWjBGdOsNnapaMHZkpZgBapowfkEbGdiqmjBcZLPRJmqaMEd55B09KpowWJW6/j0q2jBeKqoUIOsaMH/Bj3p0a1owb3BGj/DrWjBhGoBorqsaME1RYz9Oq1owXI5APKKrmjBfFZNrSCvaMEvBTDQubBowQcelxN8sWjBdepu0DS0aMEOJXRpibVowcK86+l8t2jBPcdjY8i3aMFX2OdWTblowRBUnE4EumjB1lIhckO7aMGAQEgrertowQ=="},"order":"little","dtype":"float64"}],["y",{"type":"typed_array","array":{"type":"bytes","data":"E4lreSK0WEGI4A7qd7RYQYHn+mhWt1hBkpmefgO5WEEeD7UeOrpYQf3jgtATulhB9mGt5li9WEENqs5DOr9YQTqttM7vwVhBxVUBPLXDWEHn6nn5Q8dYQU+brmBQy1hBq63wU1fNWEFDRo4CGs1YQQlhrhacy1hBPouJOOnLWEEgfgiaddBYQfzuLmb+0VhBXz02M1vUWEHAGuv30NVYQXW3UmIy11hBEcpeHYrbWEErTdrxhN9YQQtGkPTJ4VhB20IYPBreWEG6We1y6NxYQbH6qaN121hBkV4k8MnaWEFQbFLTS91YQV2OX5Zp3lhBy/ZMeX7iWEFf530AtORYQbNd8IYq5lhBK6JmeNbmWEE4RO9x4uNYQYgG7xwe5FhBp28mWP3jWEHpJb1edOVYQVxQFKgk5lhBKKiq45bnWEFNuyg6ZOhYQS4kcRMm61hBEYEP3TXsWEFTJZD1xe5YQf2/quwt7lhBCXglpzfwWEFo9z9tEvBYQTJ020Eu8FhBCMpPO0/yWEFGG00mKfJYQfdauGyr7lhBldPoOP3tWEGtR+0QCOxYQS4kcRMm61hB1Dt1kmXqWEGqdZeNuelYQWSZKo676FhBkc3ypkDlWEHZTT2uSOZYQXl1GgaE5FhBNt5oF+DhWEHNjDaNXN9YQY8hg65X3lhBH/q955bdWEH+LRX3p91YQbH6qaN121hBoxg9oajaWEGmNWyKy9dYQSb7eWPJ1FhBw9qhOeTRWEFAw93UfNBYQYW61q+ZzlhBVQB0wozMWEFAnt9f4ctYQRKgSW44ylhBo8ZWheTIWEEsNyIRJMlYQdHNJo1oxFhB5/d/DGzBWEFcv/dzmL9YQdQXpl5cuFhBZhgFseG0WEETiWt5IrRYQQ=="},"order":"little","dtype":"float64"}]]}}},"view":{"type":"object","name":"CDSView","id":"p4259","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p4260"}}},"glyph":{"type":"object","name":"Patch","id":"p4255","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"fill_color":"#1f77b4","fill_alpha":0.3}},"nonselection_glyph":{"type":"object","name":"Patch","id":"p4256","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_alpha":0.1,"fill_color":"#1f77b4","fill_alpha":0.1,"hatch_alpha":0.1}},"muted_glyph":{"type":"object","name":"Patch","id":"p4257","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_alpha":0.2,"fill_color":"#1f77b4","fill_alpha":0.2,"hatch_alpha":0.2}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p4224","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p4237"},{"type":"object","name":"WheelZoomTool","id":"p4238","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p4239","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p4240","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p4246","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p4245","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p4247"},{"type":"object","name":"SaveTool","id":"p4248"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p4232","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p4233","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p4234","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p4235"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p4227","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p4228","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p4229","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p4230"}}}],"center":[{"type":"object","name":"Grid","id":"p4231","attributes":{"axis":{"id":"p4227"}}},{"type":"object","name":"Grid","id":"p4236","attributes":{"dimension":1,"axis":{"id":"p4232"}}},{"type":"object","name":"Legend","id":"p4261","attributes":{"background_fill_alpha":0.75,"click_policy":"hide","items":[{"type":"object","name":"LegendItem","id":"p4262","attributes":{"label":{"type":"value","value":"Catchment (20220426)"},"renderers":[{"id":"p4258"}]}}]}}]}}]}}';
+        const render_items = [{"docid":"3ff89248-c8fe-4270-8a69-9c4ae7cc5f9c","roots":{"p4215":"fa9a58bd-3008-46af-8ded-19b96e437b68"},"root_ids":["p4215"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="fa9a58bd-3008-46af-8ded-19b96e437b68" data-root-id="p4215" style="display: contents;"></div>
+    </body>
+    </html>
+    

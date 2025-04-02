@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"aa0c28fb-22a0-4239-8225-a885b5f21126":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p4603","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p4604"},"y_range":{"type":"object","name":"DataRange1d","id":"p4605"},"x_scale":{"type":"object","name":"LinearScale","id":"p4613"},"y_scale":{"type":"object","name":"LinearScale","id":"p4614"},"title":{"type":"object","name":"Title","id":"p4606","attributes":{"text":"08FB005 NUSATSUM RIVER NEAR HAGENSBORG"}},"renderers":[{"type":"object","name":"TileRenderer","id":"p4638","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p4637","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}},{"type":"object","name":"GlyphRenderer","id":"p4646","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p4640","attributes":{"selected":{"type":"object","name":"Selection","id":"p4641","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p4642"},"data":{"type":"map","entries":[["x",{"type":"typed_array","array":{"type":"bytes","data":"2b80vB7OasEmxOTDK89qwXi2D3S00GrBULQWR2XRasEAOGNXldJqwdGPExGp02rBjILfUyHUasEuugyWodRqwWsm9g0q1WrBL4Jvm8fWasFJpBquWdhqwVzj5oGf2mrBoLQ8ZOjaasEe3uOSNNtqwQr7/uKC3GrBXlS/KXzcasH0al7QAdtqwUCQH4d622rBcUJAQ13casFJUdvw3NxqwXpro2mu2mrBtcj7qZvZasG/1TNsothqwfE7XHQD12rB1GcZdOjVasGEXmJ48dVqwbCgVNdn1WrBIMTSun7VasFJf+TnndRqwatGehZv02rBcCW0nsfSasEpt3Ag+dFqwYQegC8r0WrBoe4PtGvPasE8ObPKJc9qwVz9TY1zzmrBohRO4D3OasGuiI3UKs1qwYPEdSVOy2rBiBTsKxLLasF+QwTgv8xqwb7Or1GHzWrBfMu05QPOasHZvzS8Hs5qwQ=="},"order":"little","dtype":"float64"}],["y",{"type":"typed_array","array":{"type":"bytes","data":"TvoliXIQWkH9flqbEhFaQUQkOGHdE1pBxDNhT0QSWkHuyLixGRFaQe8qj40PE1pB6NNNpL4TWkFJQN4nqBRaQUiHXHeOGFpBKZ0uXNEUWkHXMR0H+hZaQVgkw8hbFVpBd2+zHHQaWkGpLFocMhxaQXvGFXAZHlpB5ZvZ8SofWkHaU2pfVCNaQcosmtgXJlpBVQPk0ZYoWkEHRvtRxi9aQUTKOH58MlpBY/sFZJE2WkEhYZBahzdaQRQTEBEaN1pBHkIccMU1WkGS4xljVTRaQVnEHn7ZMVpBk/6xiDQuWkEGRGl6uitaQfu47UYAKlpBePzyjc4oWkEIfXgdoSdaQcxZE1qTJFpBhbaWfwYiWkF/JMXzGB5aQe0aOXcxG1pBg9mcXOsYWkEsR5EB3RdaQSBNCwlaGFpBYJY01j0XWkEC9YqXKRVaQXCuqj82ElpB0pyUIdgQWkFO+iWJchBaQQ=="},"order":"little","dtype":"float64"}]]}}},"view":{"type":"object","name":"CDSView","id":"p4647","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p4648"}}},"glyph":{"type":"object","name":"Patch","id":"p4643","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"fill_color":"#1f77b4","fill_alpha":0.3}},"nonselection_glyph":{"type":"object","name":"Patch","id":"p4644","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_alpha":0.1,"fill_color":"#1f77b4","fill_alpha":0.1,"hatch_alpha":0.1}},"muted_glyph":{"type":"object","name":"Patch","id":"p4645","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_alpha":0.2,"fill_color":"#1f77b4","fill_alpha":0.2,"hatch_alpha":0.2}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p4612","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p4625"},{"type":"object","name":"WheelZoomTool","id":"p4626","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p4627","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p4628","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p4634","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p4633","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p4635"},{"type":"object","name":"SaveTool","id":"p4636"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p4620","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p4621","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p4622","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p4623"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p4615","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p4616","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p4617","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p4618"}}}],"center":[{"type":"object","name":"Grid","id":"p4619","attributes":{"axis":{"id":"p4615"}}},{"type":"object","name":"Grid","id":"p4624","attributes":{"dimension":1,"axis":{"id":"p4620"}}},{"type":"object","name":"Legend","id":"p4649","attributes":{"background_fill_alpha":0.75,"click_policy":"hide","items":[{"type":"object","name":"LegendItem","id":"p4650","attributes":{"label":{"type":"value","value":"Catchment (20220426)"},"renderers":[{"id":"p4646"}]}}]}}]}}]}}';
+        const render_items = [{"docid":"aa0c28fb-22a0-4239-8225-a885b5f21126","roots":{"p4603":"db33830e-11ec-4e54-94f8-b5f54bf72ff7"},"root_ids":["p4603"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="db33830e-11ec-4e54-94f8-b5f54bf72ff7" data-root-id="p4603" style="display: contents;"></div>
+    </body>
+    </html>
+    
