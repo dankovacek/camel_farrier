@@ -14,7 +14,7 @@ Where:
 - \( |A \cup B| \) is the area of their union A Jaccard index of 1 indicates that the two sets are identical, 
 while an index of 0 indicates that they are completely disjoint.
 
-<iframe src="/camel_farrier/_static/jaccard_cdf_plot.html" width="100%" height="600" frameborder="0"></iframe>
+<iframe src="/camel_farrier/_static/jaccard_cdf_plot.html" width="100%" height="450" frameborder="0"></iframe>
 
 ## Search Catchments
 
