@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
+            <script type="text/javascript">
+        (function() {
+  const fn = function() {
+    Bokeh.safely(function() {
+      (function(root) {
+        function embed_document(root) {
+        const docs_json = '{"64e58488-ec84-4b3f-9894-1712c073a5a9":{"version":"3.6.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p4591","attributes":{"width":700,"height":550,"x_range":{"type":"object","name":"DataRange1d","id":"p4592"},"y_range":{"type":"object","name":"DataRange1d","id":"p4593"},"x_scale":{"type":"object","name":"LinearScale","id":"p4600"},"y_scale":{"type":"object","name":"LinearScale","id":"p4601"},"title":{"type":"object","name":"Title","id":"p4598"},"renderers":[{"type":"object","name":"TileRenderer","id":"p4625","attributes":{"tile_source":{"type":"object","name":"WMTSTileSource","id":"p4624","attributes":{"url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","max_zoom":19,"attribution":"&amp;copy; &lt;a href=\\"https://www.openstreetmap.org/copyright\\"&gt;OpenStreetMap&lt;/a&gt; contributors"}}}},{"type":"object","name":"GlyphRenderer","id":"p4633","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p4627","attributes":{"selected":{"type":"object","name":"Selection","id":"p4628","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p4629"},"data":{"type":"map","entries":[["x",{"type":"typed_array","array":{"type":"bytes","data":"s8GT6pL1Z8GzwZPqkvVnwQgthtQd9WfBTQdHmKD0Z8EmT09nMPRnwcOAmGT182fBPeTdWtPzZ8HjYdmSnvNnwSaLc30282fBSJgvSP7yZ8GkHS74wPJnwSTqgm2Z8mfBUwpEmdzyZ8FWuvl9tPJnwf3Wn2M48mfBPVA4pvjxZ8GLOmSkA/JnwXOGAIsa8mfBqIZS1BzyZ8Gec9CKwPFnwaA7/Vl08WfBZ7kNuvfwZ8EBqlWs6/Bnwak6BUmH8GfBBlSx9I3wZ8GCrGmQffBnwee3HwLe8GfBW71cMwjxZ8G6H5UN4vBnwSpZE7vM8GfB+8amgQvxZ8EvgVEydPFnwRCaqQbU8WfBZYCDjkbyZ8FL1DXyt/JnwTkGTggy82fBSLnV5YbzZ8GVQavP6PNnwUQI+uB+9GfBEsMY4Pr0Z8Fgs495YfVnwSE3QePS9WfBJIuUJmX2Z8GfcJYyxfZnwXAu8IdI92fBK6v3grf3Z8Hv1r7cN/hnwW+7582s+GfBvUGCc8j4Z8EPDlDoCvlnwSi+OeN5+WfBjPgJ7Iz5Z8FVkWKQ6vlnwcQO5yoh+mfBWeVJAyv6Z8EAI72mbvpnwfLo2QNs+mfB4ASWuZP6Z8HwQGPQs/pnwdCvFnTE+mfBCrl+Ksb6Z8Gn3oID+fpnwdsS+DvV+mfBjIdVnG76Z8FvAoH5IPpnwcCc3UPi+WfB7OYfJnP5Z8FJcloSEflnwQrm/R2B+GfBweuJSBX4Z8H8FI6usvdnwey2ttZ192fBJJyTZC73Z8Fvp7PxuvZnwb+tVORY9mfBQbw8Mvv1Z8FgbYKCnfVnwbPBk+qS9WfB"},"order":"little","dtype":"float64"}],["y",{"type":"typed_array","array":{"type":"bytes","data":"mCk2RVgMVkGYKTZFWAxWQemfM3W5DFZBQ+vtjvwMVkFOo3nwGQ1WQTk/TzDfDVZB4aFlescOVkH2HVuFlQ9WQQQmXfTQD1ZBuE+TH4IPVkGlmoEYvA5WQeCsz0K3DVZBoImfHxANVkG3nLSLQgxWQfv/xiAXDFZB5VMnDHMLVkGjhVAtfQpWQRT8jwbQCVZB/U2nUfMIVkEYs+Z9vAhWQUh29vYGCFZBWtpUrRIIVkHPzYs1DwdWQfQVRku6BlZBKi++IdEFVkESICFJ2gRWQV2cONxJBFZBDah2+n8DVkFSGgntxwJWQWZLS9gUAlZBsCfjjXoBVkFNOPvYwgFWQWx6DZBpAVZBHtMhgCoBVkE7Ei2nWQFWQUq0lbJvAVZBw5rW6wsCVkHvf9KAggJWQZR69n1iAlZBoyBrvo0CVkHzSoHuBQJWQUMU0vM0AlZBuwsjQuoBVkHr1SdxSwJWQYK2yxARAlZBlbax12ECVkEy0z1igAJWQUF27S8fAlZBd4kYfy4BVkFBEhmXvgBWQeZ85kYPAVZB6vPPGeQBVkFg5x0CZwJWQbEAKvJaA1ZBlU4bGIAEVkEm6XFnTgVWQZaKnSpiBlZBRmA4oGYHVkHK2lXqFQhWQcIPVM0MCVZB0+tYIRQKVkHQOMmu3QpWQd03UqmwC1ZBnM3R3TgMVkG/kiUF5AxWQVRfesR+DVZBVtL49i0NVkGcqAFttwxWQeW5un3gDFZBw/sKePEMVkFFqj0VsgxWQds8oRViDVZBZKQE7BUOVkFwzDWR0Q1WQXlfEOpaDVZB1ZWBr9cMVkG9+tJzVAxWQZgpNkVYDFZB"},"order":"little","dtype":"float64"}]]}}},"view":{"type":"object","name":"CDSView","id":"p4634","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p4635"}}},"glyph":{"type":"object","name":"Patch","id":"p4630","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"#1f77b4","fill_color":"#1f77b4","fill_alpha":0.3}},"nonselection_glyph":{"type":"object","name":"Patch","id":"p4631","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"#1f77b4","line_alpha":0.1,"fill_color":"#1f77b4","fill_alpha":0.1,"hatch_alpha":0.1}},"muted_glyph":{"type":"object","name":"Patch","id":"p4632","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"#1f77b4","line_alpha":0.2,"fill_color":"#1f77b4","fill_alpha":0.2,"hatch_alpha":0.2}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p4599","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p4612"},{"type":"object","name":"WheelZoomTool","id":"p4613","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p4614","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p4615","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p4621","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p4620","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p4622"},{"type":"object","name":"SaveTool","id":"p4623"}]}},"left":[{"type":"object","name":"MercatorAxis","id":"p4607","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p4608","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p4609","attributes":{"dimension":"lat"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p4610"}}}],"below":[{"type":"object","name":"MercatorAxis","id":"p4602","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p4603","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p4604","attributes":{"dimension":"lon"}},"major_label_policy":{"type":"object","name":"AllLabels","id":"p4605"}}}],"center":[{"type":"object","name":"Grid","id":"p4606","attributes":{"axis":{"id":"p4602"}}},{"type":"object","name":"Grid","id":"p4611","attributes":{"dimension":1,"axis":{"id":"p4607"}}},{"type":"object","name":"Legend","id":"p4636","attributes":{"background_fill_alpha":0.75,"click_policy":"hide","items":[{"type":"object","name":"LegendItem","id":"p4637","attributes":{"label":{"type":"value","value":"Catchment (2022-04-26)"},"renderers":[{"id":"p4633"}]}}]}}]}}]}}';
+        const render_items = [{"docid":"64e58488-ec84-4b3f-9894-1712c073a5a9","roots":{"p4591":"cc8aa61f-4385-448f-84b9-4e10f25b2fde"},"root_ids":["p4591"]}];
+        root.Bokeh.embed.embed_items(docs_json, render_items);
+        }
+        if (root.Bokeh !== undefined) {
+          embed_document(root);
+        } else {
+          let attempts = 0;
+          const timer = setInterval(function(root) {
+            if (root.Bokeh !== undefined) {
+              clearInterval(timer);
+              embed_document(root);
+            } else {
+              attempts++;
+              if (attempts > 100) {
+                clearInterval(timer);
+                console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+              }
+            }
+          }, 10, root)
+        }
+      })(window);
+    });
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();
+    </script>
+
+        <style> body { margin: 0; } </style>
+    </head>
+    <body>
+        <div id="cc8aa61f-4385-448f-84b9-4e10f25b2fde" data-root-id="p4591" style="display: contents;"></div>
+    </body>
+    </html>
+    
