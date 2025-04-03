@@ -58,6 +58,8 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'revision_summary';</script>
     <script src="_static/searchindex.js?v=85f58a90"></script>
     <link rel="index" title="Index" href="genindex.html" />
@@ -601,11 +603,21 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="summary-of-revision-changes">
 <h1>Summary of Revision Changes<a class="headerlink" href="#summary-of-revision-changes" title="Link to this heading">#</a></h1>
-<p>For catchments with registered revisions, the following table represents the degree to which the polygon has changed,
-based on the Jaccard index. The Jaccard index is a measure of similarity between two sets, defined as the intersecting
-area divided by the union of the two polygons. A Jaccard index of 1 indicates that the two sets are identical,
-while an index of 0 indicates that they are completely disjoint.</p>
-<iframe src="" width="100%" height="600" frameborder="0"></iframe>
+<p>For catchments with registered revisions, the information presented below describes overall changes to the set of
+catchments in the dataset.  The degree to which a catchment polygon has changed is described by the
+<strong>Jaccard Similarity Index</strong> (JSI).  For geometries ( A ) and ( B ), the JSI is defined as the intersecting
+area divided by the union of the two polygons:</p>
+<div class="math notranslate nohighlight">
+\[
+J(A, B) = \frac{|A \cap B|}{|A \cup B|}
+\]</div>
+<p>Where:</p>
+<ul class="simple">
+<li><p>( |A \cap B| ) is the area of intersection between the two geometries</p></li>
+<li><p>( |A \cup B| ) is the area of their union A Jaccard index of 1 indicates that the two sets are identical,
+while an index of 0 indicates that they are completely disjoint.</p></li>
+</ul>
+<iframe src="/camel_farrier/_static/catchments/jaccard_distribution_plot.html" width="100%" height="600" frameborder="0"></iframe>
 <section id="search-catchments">
 <h2>Search Catchments<a class="headerlink" href="#search-catchments" title="Link to this heading">#</a></h2>
 <div class="search-container">

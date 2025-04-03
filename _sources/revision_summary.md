@@ -1,11 +1,20 @@
 # Summary of Revision Changes
 
-For catchments with registered revisions, the following table represents the degree to which the polygon has changed, 
-based on the Jaccard index. The Jaccard index is a measure of similarity between two sets, defined as the intersecting
-area divided by the union of the two polygons. A Jaccard index of 1 indicates that the two sets are identical, 
+For catchments with registered revisions, the information presented below describes overall changes to the set of 
+catchments in the dataset.  The degree to which a catchment polygon has changed is described by the 
+**Jaccard Similarity Index** (JSI).  For geometries \( A \) and \( B \), the JSI is defined as the intersecting 
+area divided by the union of the two polygons:
+
+$$
+J(A, B) = \frac{|A \cap B|}{|A \cup B|}
+$$
+
+Where:
+- \( |A \cap B| \) is the area of intersection between the two geometries
+- \( |A \cup B| \) is the area of their union A Jaccard index of 1 indicates that the two sets are identical, 
 while an index of 0 indicates that they are completely disjoint.
 
-<iframe src="" width="100%" height="600" frameborder="0"></iframe>
+<iframe src="/camel_farrier/_static/catchments/jaccard_distribution_plot.html" width="100%" height="600" frameborder="0"></iframe>
 
 ## Search Catchments
 
