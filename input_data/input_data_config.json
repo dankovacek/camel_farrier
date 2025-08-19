@@ -1,0 +1,14 @@
+{
+  "version_info": {
+    "Title": "WSC Revised Station Geometries",
+    "Date": "2022-07-21",
+    "url": "https://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/HydrometricNetworkBasinPolygons/",
+    "last_accessed": "2024-09-05",
+    "version_check_col": "HYDAT_ver",
+    "source_code": "HYDAT"
+  },
+  "remap_cols": {
+    "Official_ID": "StationNum",
+    "Name": "NameNom"
+  }
+}

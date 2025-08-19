@@ -1,0 +1,16 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: Camel Farrier
+    chapters:
+    - file: intro
+    - file: revision_summary
+
+  - caption: Streamflow Monitoring Stations
+    chapters:
+    - file: station_pages/index
+    - glob: station_pages/stations/*
+

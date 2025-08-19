@@ -1,0 +1,7 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10KB001,8.0,,LogarithmicTable,Provisional/Provisoire,(3.12);
+10KB001,7.0,,LogarithmicTable,Provisional/Provisoire,(2.8);
+10KB001,6.0,Revert to Curve No. 4 for 2002. Confirmed by mmts.,LinearTable,Provisional/Provisoire,
+10KB001,5.0,"Same as #3, used log plot for high end.",LinearTable,Final/Finales,
+10KB001,4.0,,LinearTable,Final/Finales,
+10KB001,3.0,,LinearTable,Final/Finales,

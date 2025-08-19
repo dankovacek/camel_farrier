@@ -1,0 +1,35 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08HF013,29.00,Measurements since the brige collapse on Oct 12 2022,LogarithmicTable,Provisional/Provisoire,(0.04);
+08HF013,28.00,Mmnts after the large event in Nov 2021 and until the bridge collapse of Oct 2022,LogarithmicTable,Final/Finales,(0.405);
+08HF013,27.00,"Best error stats using all measurements collected, weighting through highest measurement for top definition",LogarithmicTable,Final/Finales,(0.58725);
+08HF013,26.00,,LogarithmicTable,Provisional/Provisoire,(0.5874);
+08HF013,24.000,Mean curve using all measurements for period of record,LogarithmicTable,Final/Finales,(0.567);
+08HF013,23.000,,LogarithmicTable,Final/Finales,(0.445);
+08HF013,22.1,Approved; Qs > 32.3cms (GH 1.822) are estimates,LinearTable,Final/Finales,
+08HF013,22.000,Approved; Qs > 32.3cms (GH 1.822) are estimates,LinearTable,Final/Finales,
+08HF013,21.000,Approved;Qs>32.2 (GHt 1.821) are estimates,LinearTable,Final/Finales,
+08HF013,20.000,Approved; Qs >32.3 cms (g ht 1.822) are estimates,LinearTable,Final/Finales,
+08HF013,19.000,approve coincident to #18 above 1.4m,LinearTable,Final/Finales,
+08HF013,18.000,approved coincident w #17 AB GH .800m,LinearTable,Final/Finales,
+08HF013,17.000,APPROVED,LinearTable,Final/Finales,
+08HF013,17.000-SC3,,LinearTable,Final/Finales,
+08HF013,17.000-SC2,,LinearTable,Final/Finales,
+08HF013,16.000,APPROVED- Coinc. w/ #15 at and above GH=0.9800m,LinearTable,Final/Finales,
+08HF013,15.000,PRELIMINARY- coinc.to #14 at and above GH=0.900m.,LinearTable,Final/Finales,
+08HF013,14.000-SC1,,LinearTable,Final/Finales,
+08HF013,14.000,Coincident to #13 at and above GH=0.960m.,LinearTable,Final/Finales,
+08HF013,13.000,"2004 data needs revision using 13, see 2005 SR",LinearTable,Final/Finales,
+08HF013,12.000,"ran to Dec 31 preserving 2004 data, needs revision",LinearTable,Final/Finales,
+08HF013,11.000,Coincident to #10 ab. GH=0.930m.,LinearTable,Final/Finales,
+08HF013,10.000,Coincident to #9 ab.	 1.40 m.,LinearTable,Final/Finales,
+08HF013,9.000,Coincident to #8 ab. 0.93 m.,LinearTable,Final/Finales,
+08HF013,8.000,Coincident to #4 ab. 1.03 m. Extended to 2.00 m.,LinearTable,Final/Finales,
+08HF013,7.000,Coincident to #4 above 0.88 m.,LinearTable,Final/Finales,
+08HF013,6.000,Coincident to #4 above 0.97 m.,LinearTable,Final/Finales,
+08HF013,4.010,,LinearTable,Final/Finales,
+08HF013,5.000,Coincident to #2 below 0.83 m and above 0.93 m.,LinearTable,Final/Finales,
+08HF013,2.010,,LinearTable,Final/Finales,
+08HF013,4.000,,LinearTable,Final/Finales,
+08HF013,3.000,Coincident to #2 above 0.86 m.,LinearTable,Final/Finales,
+08HF013,2.000,,LinearTable,Final/Finales,
+08HF013,1.000,,LinearTable,Final/Finales,

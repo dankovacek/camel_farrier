@@ -1,0 +1,70 @@
+---
+orphan: true
+jupytext:
+  formats: ipynb,md:myst
+kernelspec:
+  name: python3
+  display_name: Python 3
+  language: python
+---
+
+# {{ official_id }}: {{ stn.STATION_NAME }}
+
+:::{bokeh-plot}
+import sys
+sys.path.insert(0, "/home/danbot/Documents/code/25/camel_farrier/book_docs")
+from bokeh.io import show
+from setup_scripts.station_plot_functions import plot_station_geometries
+show(plot_station_geometries("{{ official_id }}"))
+:::
+
+## Estimated Runoff
+
+:::{bokeh-plot}
+from bokeh.io import show
+from setup_scripts.station_plot_functions import plot_station_timeseries
+show(plot_station_timeseries("{{ official_id }}"))
+:::
+
+## Flow Duration and Monthly Hydrograph
+
+:::{bokeh-plot}
+from bokeh.io import show
+from setup_scripts.station_plot_functions import plot_distributions
+show(plot_distributions("{{ official_id }}"))
+:::
+
+## Annual Exceedance Probability Plots
+
+:::{bokeh-plot}
+from bokeh.io import show
+from setup_scripts.station_plot_functions import plot_aep_figures
+show(plot_aep_figures("{{ official_id }}"))
+:::
+
+## Station Metadata
+
+{{ station_data_table | safe }}
+
+## Station Remarks
+
+{{ remarks_table | safe }}
+
+## Datum Information
+
+{{ datum_table | safe }}
+
+## Data Ranges
+
+{{ data_ranges_table | safe }}
+
+## Auxiliary Data
+
+{{ auxiliary_data_table | safe }}
+
+### References
+
+1. "Hydrometric Network Basin Polygons." Water Survey of Canada, Government of Canada, 21 July 2022, collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/HydrometricNetworkBasinPolygons/.
+Last accessed 5 September 2024.
+
+

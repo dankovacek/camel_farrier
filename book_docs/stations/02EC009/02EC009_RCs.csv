@@ -1,0 +1,15 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02EC009,19.00,"Redefinition to draw through top measurement and all 2016-2018 measurements. Reverted back to two segments since more representative. Started in Jan (ice) covers most of year, previous curve may have been drawn in error.",LogarithmicTable,Provisional/Provisoire,(7.46:7.25);(7.352);
+02EC009,18,High end extension and adjustment to incorporate historical upper end measurements.,LogarithmicTable,Final/Finales,(7.46:7.25);(7.374);
+02EC009,17,High end extension of Rating 16,LogarithmicTable,Final/Finales,(7.46:7.25);(7.37);
+02EC009,16,New HWS curve,LogarithmicTable,Final/Finales,(7.46:7.25);(7.37);
+02EC009,15,New HWS curve,LogarithmicTable,Final/Finales,(7.46:7.21);(7.37);
+02EC009,14.000,Same as Table No. 13 below 7.35 m and above 7.60 m,LinearTable,Final/Finales,
+02EC009,13.000,Same as Table no. 12 below 7.41 m and above 8.6 m,LinearTable,Final/Finales,
+02EC009,12.000,Same as Table no. 11 below 7.23 m and above 8.26 m,LinearTable,Final/Finales,
+02EC009,11.000-SC3,,LinearTable,Final/Finales,
+02EC009,11.000-SC2,,LinearTable,Final/Finales,
+02EC009,11.000,,LinearTable,Final/Finales,
+02EC009,10.000,,LinearTable,Final/Finales,
+02EC009,10.000-SC1,,LinearTable,Final/Finales,
+02EC009,9.000,,LinearTable,Final/Finales,

@@ -1,0 +1,59 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: My sample book
+author: The Jupyter Book Community
+logo: logo.png
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: force
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/dankovacek/camel_farrier  # Online location of your book
+  path_to_book: book_docs  # Optional path to your book, relative to the repository root
+  branch: main  # Which branch of the repository should be used when creating links (optional)
+
+# Add GitHub buttons to your book
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  use_issues_button: true
+  use_repository_button: true
+  navbar_number_sections: true  # optional, for numbered sections
+  collapse_navigation: false
+  navigation_depth: 4  # or higher if you want more nesting
+  extra_js:
+    - https://code.jquery.com/jquery-3.6.0.min.js
+    - https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js
+    - _static/searchindex.js
+  extra_css:
+    - https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css
+    - _static/custom.css
+  extrafiles:
+    - _static/
+# Add a custom url prefix to distinguish between testing and production
+# for testing, use the default blank,
+# for production, use the url of your book (/camel_farrier)
+
+sphinx:
+  extra_extensions:
+    - bokeh.sphinxext.bokeh_plot
+  config:
+    myst_enable_extensions:
+      - colon_fence
+
+
+only_build_toc_files: true
+exclude_patterns: [ss/*, superseded/*, __pycache__/*, .ipynb_checkpoints/*, catchments/, .pytest_cache/*]
+

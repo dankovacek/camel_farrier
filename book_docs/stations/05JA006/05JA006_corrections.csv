@@ -1,0 +1,114 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+05JA006,AdjustableTrim,HG,2024-01-28T23:05:00,2024-02-07T10:00:00,2024-02-12T17:15:50,-6,Removed Spikes,"UpperThresholdPoints:(Time:2024-01-28T23:05:00Z,Value:6.240545811796916);(Time:2024-01-30T08:37:48.794Z,Value:6.251598762704445);(Time:2024-02-07T10:00:00Z,Value:6.25230053736524),TrimAction:Delete",Normal
+05JA006,SinglePoint,QR,2024-01-01T05:59:59,2024-01-01T05:59:59,2024-01-25T16:58:35,-6,Zero flow.,Value:0,Normal
+05JA006,AdjustableTrim,HG,2023-12-22T03:25:00,2023-12-23T03:15:00,2024-01-02T17:50:41,-6,Removed Spike,"UpperThresholdPoints:(Time:2023-12-22T03:25:00Z,Value:24525.718856756957);(Time:2023-12-23T03:15:00Z,Value:24525.718856756957),TrimAction:Delete",Normal
+05JA006,DeleteRegion,HG,2023-11-16T13:20:00,2023-12-08T05:20:00,2024-01-12T17:19:53,-6,"Invalid Spike - No connection, temps dropping.",,Normal
+05JA006,FillGaps,QR,2023-09-22T20:00:00,2024-01-01T05:59:59,2024-01-25T16:59:23,-6,Zero flow. Channel dry.,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+05JA006,SinglePoint,QR,2023-09-22T20:00:00,2023-09-22T20:00:00,2024-01-12T18:10:47,-6,Zero flow.,Value:0,Normal
+05JA006,FillGaps,QR,2023-09-12T20:00:00,2023-09-22T20:00:00,2024-01-12T18:11:07,-6,Zero flow.,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+05JA006,SinglePoint,QR,2023-09-12T20:00:00,2023-09-12T20:00:00,2024-01-12T18:09:08,-6,Zero flow - site visit.,Value:0,Normal
+05JA006,FillGaps,QR,2023-08-03T21:30:00,2023-09-12T20:00:00,2024-01-12T18:10:14,-6,Zero flow.,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+05JA006,FillGaps,QR,2023-07-27T22:15:00,2023-07-30T08:40:00,2024-01-12T18:06:33,-6,Zero flow.,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+05JA006,FillGaps,QR,2023-07-27T01:20:00,2023-07-27T08:20:00,2024-01-12T18:06:17,-6,Zero flow.,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+05JA006,AdjustableTrim,HG,2023-07-26T20:50:00,2024-02-01T06:00:00,2024-01-10T20:09:51,-6,SENSOR OUT OF WATER,"LowerThresholdPoints:(Time:2023-07-26T20:50:00Z,Value:6.23);(Time:2023-08-03T20:14:51.234Z,Value:6.2299433272053895);(Time:2023-08-05T21:45:21.915Z,Value:6.234346275888478);(Time:2023-08-14T03:47:24.641Z,Value:6.2410988938981955);(Time:2023-10-16T17:45:30.717Z,Value:6.236339536649664);(Time:2023-10-30T14:13:35.665Z,Value:6.23);(Time:2024-02-01T06:00:00Z,Value:6.23),TrimAction:Delete",Normal
+05JA006,Drift,HG,2023-05-30T17:20:00,2023-08-03T21:30:00,2023-05-30T21:38:39,-6,SRC Projected,"DriftPoints:(Offset:0.005,Time:2023-05-30T17:20:00Z);(Offset:0.005,Time:2023-08-03T21:30:00Z)",Normal
+05JA006,Drift,HG,2023-04-17T16:30:00,2023-05-30T17:15:00,2023-05-30T21:38:10,-6,SRC - Visit to visit.,"DriftPoints:(Offset:0,Time:2023-04-17T16:30:00Z);(Offset:0.005,Time:2023-05-30T17:15:00Z)",Normal
+05JA006,DeleteRegion,HG,2023-04-17T16:25:00,2023-04-17T16:35:00,2024-01-25T16:51:35,-6,Site visit - Purge,,Normal
+05JA006,Drift,HG,2023-04-10T21:15:00,2023-04-17T16:25:00,2023-04-17T19:56:45,-6,SRC - Visit to visit.,"DriftPoints:(Offset:0,Time:2023-04-10T21:15:00Z);(Offset:-0.01,Time:2023-04-17T16:25:00Z)",Normal
+05JA006,Drift,HG,2023-04-05T19:30:00,2023-04-10T21:15:00,2023-04-06T15:13:06,-6,SRC Visit - Visit. NO RESET,"DriftPoints:(Offset:-0.006,Time:2023-04-05T19:30:00Z);(Offset:0,Time:2023-04-10T21:15:00Z)",Normal
+05JA006,DeleteRegion,HG,2023-04-03T06:45:00,2023-04-03T09:00:00,2023-04-04T23:14:53,-6,SENSOR ISSUE ,,Normal
+05JA006,CopyPaste,QR,2023-04-03T05:25:00,2023-04-03T09:15:00,2023-04-06T15:16:59,-6,"EST FOR REALTIME, SNOW/SLUSHOverride: Freehand‌Override: Freehand‌Override: Freehand‌Override: Freehand‌Override: Freehand‌",,Normal
+05JA006,AdjustableTrim,QR,2023-04-03T05:25:00,2023-04-03T05:55:00,2024-01-12T18:04:37,-6,Spike,"UpperThresholdPoints:(Time:2023-04-03T05:25:00Z,Value:0.18400387799048695);(Time:2023-04-03T05:55:00Z,Value:0.18400387799048695),TrimAction:Delete",Normal
+05JA006,CopyPaste,HG,2023-03-28T18:10:00,2023-03-29T12:25:00,2023-04-06T15:08:07,-6,"Logged dataOverride: Copy & Paste‌Source Data Set: Stage.Logger@05JA006, time shift: 00:00 minutes.‌",,PreProcessing
+05JA006,Drift,HG,2023-02-23T21:55:00,2023-04-05T19:25:00,2023-04-06T15:09:33,-6,SRC Carried back to Feb visit ,"DriftPoints:(Offset:-0.006,Time:2023-02-23T21:55:00Z);(Offset:-0.006,Time:2023-04-05T19:25:00Z)",Normal
+05JA006,DeleteRegion,HG,2023-01-01T06:00:00,2023-02-23T21:50:00,2023-01-03T15:36:17,-6,DR - invalid stage,,Normal
+05JA006,SinglePoint,QR,2023-01-01T06:00:00,2023-01-01T06:00:00,2023-03-06T17:08:35,-6,,Value:0,Normal
+05JA006,CopyPaste,QR,2023-01-01T06:00:00,2023-02-23T21:55:00,2023-03-06T17:08:51,-6,NO FLOW Override: Linear‌Q(t) = (0)t + 0‌,,Normal
+05JA006,SinglePoint,QR,2023-01-01T05:59:00,2023-01-01T05:59:00,2023-03-06T17:07:30,-6,,Value:0,Normal
+05JA006,CopyPaste,QR,2022-11-07T01:50:00,2023-01-01T05:59:00,2023-03-06T17:07:49,-6,NO FLOWOverride: Linear‌Q(t) = (0)t + 0‌,,Normal
+05JA006,DeleteRegion,HG,2022-11-07T00:00:00,2023-01-01T05:59:59,2023-06-22T12:04:02,-6,"Orifice frozen, stage cannot be verified.",,Normal
+05JA006,CopyPaste,QR,2022-11-06T23:50:00,2023-01-01T05:59:59,2022-12-19T19:24:30,-6,Override: Linear‌Q(t) = (0)t + 0‌,,Normal
+05JA006,DeleteRegion,HG,2022-10-24T15:10:00,2022-10-24T15:10:00,2022-11-07T17:13:51,-6,sensor malfunction - invalid,,Normal
+05JA006,DeleteRegion,HG,2022-08-09T14:45:00,2022-11-05T19:45:00,2023-06-21T13:01:45,-6,"Orifice atmospheric, minor fluctuations most likely due to atmospheric pressure changes",,Normal
+05JA006,DeleteRegion,HG,2022-07-23T01:15:00,2022-08-09T14:40:00,2022-08-09T15:05:03,-6,INVALID ORIFICE OUT OF WATER.,,Normal
+05JA006,FillGaps,QR,2022-07-23T01:10:00,2022-11-05T19:50:00,2023-06-22T13:07:27,-6,,"ResamplePeriod:PT1H,GapLimit:MaxDuration",Normal
+05JA006,DeleteRegion,HG,2022-07-16T23:30:00,2022-07-19T04:40:00,2022-08-09T15:04:13,-6,INVALID ORIFICE OUT OF WATER.,,Normal
+05JA006,FillGaps,QR,2022-07-16T22:55:00,2022-07-19T04:50:00,2023-06-22T12:45:56,-6,Atmospheric orifice - zero flow,"ResamplePeriod:PT1H,GapLimit:MaxDuration",Normal
+05JA006,AdjustableTrim,HG,2022-06-25T15:45:00,2022-06-25T18:05:00,2022-06-27T19:44:03,-6,REMOVED SPIKE ,"UpperThresholdPoints:(Time:2022-06-25T15:45:00Z,Value:9626.91967019489);(Time:2022-06-25T18:05:00Z,Value:9626.91967019489),TrimAction:Delete",Normal
+05JA006,AdjustableTrim,HG,2022-05-30T23:10:00,2022-08-07T18:00:00,2022-06-06T16:29:38,-6,Invalid spike,"UpperThresholdPoints:(Time:2022-05-30T23:10:00Z,Value:39766.69481210468);(Time:2022-08-07T18:00:00Z,Value:42386.94136378993),TrimAction:Delete",Normal
+05JA006,Drift,HG,2022-03-24T17:25:00,2022-05-03T20:20:00,2022-05-04T13:38:52,-6,SRC VISIT TO VISIT RS,"DriftPoints:(Offset:0,Time:2022-03-24T17:25:00Z);(Offset:-0.036,Time:2022-05-03T20:20:00Z)",Normal
+05JA006,DeleteRegion,HG,2022-03-19T19:10:00,2022-03-19T19:10:00,2022-03-20T16:17:15,-6,SPIKE,,Normal
+05JA006,CopyPaste,QR,2022-03-16T16:55:00,2022-03-17T14:00:00,2023-12-18T22:44:13,-6,Est snow pack saturated and moving out with weed BW remaining behind. Override: Freehand‌Override: Freehand‌,,Normal
+05JA006,SinglePoint,QR,2022-03-16T12:20:00,2022-03-16T12:20:00,2022-03-29T00:46:14,-6,estimating starting point of flow,Value:0,Normal
+05JA006,DeleteRegion,HG,2022-03-15T03:45:00,2022-03-15T15:20:00,2022-03-15T18:28:12,-6,orifice line obstructed,,Normal
+05JA006,DeleteRegion,HG,2022-03-14T11:20:00,2022-03-14T19:35:00,2022-03-15T18:26:55,-6,orifice line obstructed,,Normal
+05JA006,DeleteRegion,HG,2022-03-13T05:45:00,2022-03-14T11:15:00,2022-03-14T14:55:23,-6,considered invalid due to obstruction of orifice by ice or slush ice,,Normal
+05JA006,DeleteRegion,QR,2022-03-13T00:55:00,2022-03-16T12:20:00,2022-03-29T00:45:31,-6,snowpack saturating - pooling in channel,,Normal
+05JA006,Offset,HG,2022-01-01T06:00:00,2022-03-19T17:50:00,2022-01-03T17:59:36,-6,SRC found,Offset:6.261,Normal
+05JA006,SinglePoint,QR,2022-01-01T06:00:00,2022-01-01T06:00:00,2022-03-29T00:44:22,-6,orifice out of water or snowpack saturating in channel with no flow,Value:0,Normal
+05JA006,FillGaps,QR,2022-01-01T06:00:00,2022-03-16T12:20:00,2022-03-29T00:46:47,-6,,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+05JA006,DeleteRegion,HG,2022-01-01T06:00:00,2022-03-13T00:50:00,2022-03-14T15:03:33,-6,invalid - channel dry and orifice out of water,,Normal
+05JA006,Offset,HG,2021-10-06T23:45:00,2022-01-01T05:59:59,2021-10-12T16:05:56,-6,bringing stage up to last reading to better detect and compute valid flow,Offset:6.225,Normal
+05JA006,DeleteRegion,HG,2021-06-16T18:40:00,2022-01-01T05:59:00,2022-03-14T15:04:48,-6,invalid - channel dry - orifice out of water,,Normal
+05JA006,CopyPaste,QR,2021-06-16T16:47:06,2022-01-01T06:00:00,2022-04-21T21:09:49,-6,Channel dry for this part of 2021.Override: Linear‌Q(t) = (0)t + 0‌,,Normal
+05JA006,CopyPaste,QR,2021-04-14T14:35:00,2021-04-14T19:15:00,2022-04-21T21:03:00,-6,Hydrograph interpolation.  Ice formation on edges due to cold temperatures.Override: Log Linear‌Q(t) = 0.03548012084187711e^(3.050401526027365t)‌,,Normal
+05JA006,CopyPaste,QR,2021-04-13T16:10:00,2021-04-13T21:35:00,2022-04-21T21:01:59,-6,Hydrograph interpolation.  Ice formation on edges due to cold temperatures.Override: Log Linear‌Q(t) = 0.02509478527245321e^(1.9790301727513662t)‌with freehand adjustment‌,,Normal
+05JA006,CopyPaste,QR,2021-04-13T02:50:00,2021-04-13T13:20:00,2022-04-21T21:00:07,-6,Hydrograph interpolation.  Ice formation on edges due to cold temperatures.Override: Log Linear‌Q(t) = 0.04955754446605158e^(-1.9059244721186184t)‌,,Normal
+05JA006,CopyPaste,QR,2021-04-01T15:00:00,2021-04-01T19:45:00,2022-04-21T20:56:49,-6,Hydrograph interpolation.  Ice formation on edges due to cold temperatures.Override: Log Linear‌Q(t) = 0.01447456302952569e^(5.997392866077094t)‌,,Normal
+05JA006,CopyPaste,QR,2021-03-29T21:05:00,2021-03-30T20:05:00,2022-04-21T20:52:18,-6,hydrograph interpolation. Last of bottom ice lifting and flushing downstream.Override: Log Linear‌Q(t) = 0.0583925539253657e^(-1.0254860891505997t)‌,,Normal
+05JA006,Drift,HG,2021-03-10T22:50:00,2021-05-20T17:15:00,2021-05-21T21:50:54,-6,"SRC: reset applied to sensor March 10 was in error.  Drift Correction of (Date/Time, Diff): (2021-03-10 16:50:00, -0.100m), (2021-03-18 10:30:00, -0.105m), (2021-05-20 11:15:00, -0.100m)","DriftPoints:(Offset:-0.1,Time:2021-03-10T22:50:00Z);(Offset:-0.105,Time:2021-03-18T16:30:00Z);(Offset:-0.1,Time:2021-05-20T17:15:00Z)",Normal
+05JA006,CopyPaste,QR,2021-03-04T02:10:00,2021-03-04T17:35:00,2022-04-21T20:35:19,-6,Hydrograph interpolationOverride: Log Linear‌Q(t) = 0.08660482315591331e^(0.34101855934352093t)‌,,Normal
+05JA006,Drift,QR,2021-03-04T02:10:00,2021-03-04T17:35:00,2022-04-21T20:36:10,-6,Fine tune hydrograph interpolation,"DriftPoints:(Offset:0,Time:2021-03-04T02:10:00Z);(Offset:-0.015969893710206934,Time:2021-03-04T05:35:00Z);(Offset:-0.02781192886595628,Time:2021-03-04T10:25:00Z);(Offset:-0.028760516424529897,Time:2021-03-04T12:40:00Z);(Offset:-0.019477631083211655,Time:2021-03-04T15:25:00Z);(Offset:0,Time:2021-03-04T17:35:00Z)",Normal
+05JA006,CopyPaste,QR,2021-03-01T18:15:00,2021-03-03T03:45:00,2022-04-21T20:32:46,-6,hydrograph interpolationOverride: Log Linear‌Q(t) = 0.001e^(2.9711200954315027t)‌,,Normal
+05JA006,AdjustableTrim,HG,2021-02-22T23:05:00,2021-02-23T13:55:00,2021-05-21T21:40:21,-6,"considered invalid due to sensor in ice or otherwise obstructed by ice.  Adjustable trim with Upper threshold: (2021-02-22 17:05:00, 6.222m), (2021-02-22 19:05:00, 6.187m), (2021-02-23 00:40:00, 6.142m), (2021-02-23 04:50:00, 6.166m), (2021-02-23 07:35:00, 6.168m), (2021-02-23 07:55:00, 6.169m)","UpperThresholdPoints:(Time:2021-02-22T23:05:00Z,Value:6.222185185185185);(Time:2021-02-23T01:05:00Z,Value:6.186604938271605);(Time:2021-02-23T06:40:00Z,Value:6.141725308641975);(Time:2021-02-23T10:50:00Z,Value:6.166388888888889);(Time:2021-02-23T13:35:00Z,Value:6.168277777777778);(Time:2021-02-23T13:55:00Z,Value:6.16874074074074),TrimAction:Delete",Normal
+05JA006,DeleteRegion,HG,2021-02-22T22:05:00,2021-03-04T20:50:00,2022-04-21T19:28:33,-6,ORIFICE FROZEN OR AFFECTED BY SLUSH,,Normal
+05JA006,DeleteRegion,HG,2021-02-03T09:45:00,2021-02-22T22:00:00,2022-12-09T19:38:58,-6,INVALID. CANNOT VALIDATE WITH WATER LEVEL,,Normal
+05JA006,CopyPaste,QR,2021-01-01T06:00:00,2021-03-01T18:10:00,2022-04-21T19:05:00,-6,Ice conditions. Channel glaciated (from photo Feb. 25)Override: Linear‌Q(t) = (0)t + 0‌,,Normal
+05JA006,DeleteRegion,HG,2021-01-01T06:00:00,2021-02-03T09:40:00,2021-03-01T16:55:22,-6,channel dry.  no connection.  invalid.  Delete region,,Normal
+05JA006,DeleteRegion,QR,2021-01-01T05:59:00,2021-01-01T05:59:00,2021-03-05T16:45:44,-6,,,Normal
+05JA006,SinglePoint,QR,2021-01-01T05:59:00,2021-01-01T05:59:00,2021-01-26T14:17:43,-6,zero flow,Value:0,Normal
+05JA006,DeleteRegion,HG,2020-11-08T14:50:00,2020-11-08T19:05:00,2020-11-09T13:27:27,-6,Erroneous  Delete region,,Normal
+05JA006,AdjustableTrim,HG,2020-11-08T10:55:00,2021-02-02T12:40:00,2020-11-30T13:55:44,-6,ATMOSPHERIC,"UpperThresholdPoints:(Time:2020-11-08T10:55:00Z,Value:6.25);(Time:2021-02-02T12:40:00Z,Value:6.25),TrimAction:Delete",Normal
+05JA006,FillGaps,QR,2020-11-08T01:35:00,2021-03-01T03:35:00,2020-12-07T14:12:41,-6,,"ResamplePeriod:PT1H,GapLimit:MaxDuration",Normal
+05JA006,DeleteRegion,HG,2020-11-03T10:06:16,2021-01-01T05:59:59,2021-01-26T13:36:59,-6,Invalid  Delete region,,Normal
+05JA006,DeleteRegion,HG,2020-08-06T18:15:00,2020-11-09T20:30:00,2021-01-26T13:28:27,-6,"Invalid, orifice not under water   Delete region",,Normal
+05JA006,DeleteRegion,HG,2020-08-06T10:23:58,2020-08-06T18:12:06,2020-08-31T16:53:46,-6,"Orifice almost out of water, wind blowing on top, no precip in Assiniboia   Delete region",,Normal
+05JA006,FillGaps,QR,2020-08-06T10:20:00,2021-01-01T05:59:59,2021-01-26T14:18:19,-6,Zero flow period  Fill Data Gaps with gap resample period of 60 minutes,"ResamplePeriod:PT1H,GapLimit:MaxDuration",Normal
+05JA006,DeleteRegion,HG,2020-07-28T17:30:00,2020-07-28T17:45:00,2020-07-29T18:37:42,-6,Erroneous  Delete region,,Normal
+05JA006,DeleteRegion,HG,2020-07-22T02:40:00,2020-07-22T03:20:00,2020-07-27T13:51:47,-6,Erroneous  Delete region,,Normal
+05JA006,DeleteRegion,HG,2020-07-13T18:00:00,2020-07-13T18:10:00,2020-07-20T14:20:42,-6,"Site visit, purging  delete region",,Normal
+05JA006,DeleteRegion,HG,2020-06-26T15:35:00,2020-06-26T16:35:00,2020-06-29T00:26:20,-6,Erroneous  Delete region,,Normal
+05JA006,Drift,HG,2020-05-05T15:40:00,2020-05-27T18:30:00,2020-06-01T13:46:58,-6,"SRC  Drift Correction of (Date/Time, Diff): (2020-05-05 09:40:00, -0.010m), (2020-05-27 12:30:00, -0.014m)","DriftPoints:(Offset:-0.01,Time:2020-05-05T15:40:00Z);(Offset:-0.014,Time:2020-05-27T18:30:00Z)",Normal
+05JA006,CopyPaste,QR,2020-04-14T10:45:00,2020-04-15T00:30:00,2021-02-26T21:06:21,-6,some ice in channel Override: Freehand‌,,Normal
+05JA006,CopyPaste,QR,2020-04-14T01:20:33,2020-04-14T09:54:25,2020-05-12T16:18:47,-6,Slush overnight (-12C)  Freehand Correction generating points every 15.0 minutes.,,Normal
+05JA006,CopyPaste,QR,2020-04-13T12:10:00,2020-04-13T22:15:00,2021-02-26T21:04:08,-6,ice b/w?Override: Freehand‌,,Normal
+05JA006,CopyPaste,QR,2020-04-12T19:33:14,2020-04-13T10:12:41,2020-05-12T15:51:19,-6,Slush effect (-9C)  Freehand Correction generating points every 15.0 minutes.,,Normal
+05JA006,CopyPaste,QR,2020-04-09T01:42:07,2020-04-09T13:30:17,2020-05-12T15:49:13,-6,Slush building overnight (-8C)  Freehand Correction generating points every 15.0 minutes.,,Normal
+05JA006,CopyPaste,QR,2020-04-08T03:44:52,2020-04-08T15:18:10,2020-05-12T15:47:59,-6,Slush building overnight (-2C)  Freehand Correction generating points every 15.0 minutes.,,Normal
+05JA006,CopyPaste,QR,2020-04-07T01:27:44,2020-04-07T13:47:38,2020-05-12T15:46:37,-6,Slush building overnight (-4C)  Freehand Correction generating points every 15.0 minutes.,,Normal
+05JA006,CopyPaste,QR,2020-04-06T02:41:25,2020-04-06T14:41:35,2020-05-12T15:45:33,-6,Slush building overnight (-4C)  Freehand Correction generating points every 15.0 minutes.,,Normal
+05JA006,CopyPaste,QR,2020-04-05T04:04:20,2020-04-05T13:30:47,2020-05-12T15:42:41,-6,Slush building overnight (-6C)  Freehand Correction generating points every 15.0 minutes.,,Normal
+05JA006,CopyPaste,QR,2020-04-04T14:35:00,2020-04-04T22:55:00,2021-02-26T20:58:09,-6,ice through channelOverride: Freehand‌,,Normal
+05JA006,CopyPaste,QR,2020-04-04T02:06:16,2020-04-04T11:40:11,2020-05-12T15:39:23,-6,Overnight slush on control (-11C)  Freehand Correction generating points every 15.0 minutes.,,Normal
+05JA006,CopyPaste,QR,2020-04-03T03:29:46,2020-04-03T15:43:55,2020-05-12T15:38:04,-6,Overnight slush on control (-15C)  Freehand Correction generating points every 15.0 minutes.,,Normal
+05JA006,CopyPaste,QR,2020-04-02T05:34:15,2020-04-02T15:49:09,2020-05-12T15:37:02,-6,Overnight slush on control  Freehand Correction generating points every 15.0 minutes.,,Normal
+05JA006,CopyPaste,QR,2020-03-29T14:03:35,2020-03-29T19:21:22,2020-05-12T15:29:53,-6,Slush ice affected  Freehand Correction generating points every 15.0 minutes.,,Normal
+05JA006,CopyPaste,QR,2020-03-28T18:49:27,2020-03-29T01:33:29,2020-05-12T15:28:09,-6,Slush ice affected  Freehand Correction generating points every 15.0 minutes.,,Normal
+05JA006,CopyPaste,QR,2020-03-26T18:29:17,2020-03-26T20:22:18,2020-05-12T15:19:44,-6,Slush in channel  Freehand Correction generating points every 15.0 minutes.,,Normal
+05JA006,CopyPaste,QR,2020-03-25T14:19:59,2020-03-25T23:43:33,2020-05-12T15:16:14,-6,Slush ice in channel (Picture)  Freehand Correction generating points every 15.0 minutes.,,Normal
+05JA006,CopyPaste,QR,2020-03-14T10:35:53,2020-03-14T16:04:32,2020-05-12T14:54:44,-6,Slush affected  Freehand Correction generating points every 15.0 minutes.,,Normal
+05JA006,CopyPaste,QR,2020-03-13T15:51:53,2020-03-13T22:58:29,2020-05-12T14:51:40,-6,Ice in channel  Freehand Correction generating points every 15.0 minutes.,,Normal
+05JA006,Drift,HG,2020-03-11T18:30:00,2020-05-05T15:35:00,2020-05-11T13:42:06,-6,"SRC  Drift Correction of (Date/Time, Diff): (2020-03-11 12:30:00, 0.036m), (2020-05-05 09:35:00, -0.010m)","DriftPoints:(Offset:0.036,Time:2020-03-11T18:30:00Z);(Offset:-0.01,Time:2020-05-05T15:35:00Z)",Normal
+05JA006,DeleteRegion,HG,2020-03-11T18:19:23,2020-03-11T18:29:54,2020-03-17T16:16:48,-6,Site visit  Delete region,,Normal
+05JA006,CopyPaste,QR,2020-03-07T17:03:54,2020-03-07T18:38:42,2020-05-12T14:48:24,-6,Slush affected  Freehand Correction generating points every 15.0 minutes.,,Normal
+05JA006,CopyPaste,QR,2020-03-06T18:27:26,2020-03-06T21:25:48,2020-05-12T14:13:22,-6,Slush affected  Freehand Correction generating points every 15.0 minutes.,,Normal
+05JA006,CopyPaste,QR,2020-03-05T18:46:38,2020-03-05T22:37:02,2020-05-12T14:12:01,-6,Slush in channel  Freehand Correction generating points every 15.0 minutes.,,Normal
+05JA006,CopyPaste,QR,2020-03-03T22:54:06,2020-03-04T07:48:36,2020-05-12T14:09:04,-6,Slush affected  Freehand Correction generating points every 15.0 minutes.,,Normal
+05JA006,Drift,HG,2020-02-26T06:00:00,2020-03-11T18:15:00,2020-03-17T16:12:52,-6,"SRC  Drift Correction of (Date/Time, Diff): (2020-02-26 00:00:00, -0.007m), (2020-02-26 15:55:00, -0.007m), (2020-03-11 12:15:00, 0.036m)","DriftPoints:(Offset:-0.007,Time:2020-02-26T06:00:00Z);(Offset:-0.007,Time:2020-02-26T21:55:00Z);(Offset:0.036,Time:2020-03-11T18:15:00Z)",Normal
+05JA006,DeleteRegion,HG,2020-02-25T06:05:00,2020-02-26T06:00:00,2020-02-28T15:04:56,-6,Outside of operating period  Delete region,,Normal
+05JA006,DeleteRegion,HG,2020-01-03T18:41:10,2020-02-25T06:00:00,2020-01-06T15:41:51,-6,Outside of operating period  Delete region,,Normal
+05JA006,DeleteRegion,HG,2020-01-02T18:42:06,2020-02-25T06:00:00,2020-01-06T15:22:11,-6,Outside of operating period  Delete region,,Normal
+05JA006,DeleteRegion,HG,2019-12-05T08:45:00,2020-01-08T06:00:00,2019-12-10T21:28:49,-6,Outside of operating period  Delete region,,Normal
+05JA006,CopyPaste,QR,2019-11-04T15:45:00,2019-11-04T20:00:00,2020-02-19T14:24:36,-6,Slush on control  Freehand Correction without generating points.,,Normal
+05JA006,AdjustableTrim,QR,2019-05-14T17:05:00,2019-05-14T19:10:00,2020-06-15T21:56:16,-6,"REMOVED SPIKE - Adjustable trim with Upper threshold: (2019-05-14 11:05:00, 0.093m^3/s), (2019-05-14 13:10:00, 0.093m^3/s)","UpperThresholdPoints:(Time:2019-05-14T17:05:00Z,Value:0.09342546473517593);(Time:2019-05-14T19:10:00Z,Value:0.09342546473517593),TrimAction:Delete",Normal
+05JA006,USGSMultiPoint,QR,2018-04-25T23:33:00,2018-04-26T18:38:00,2020-05-19T19:06:59,-6,adjust estimated portion of a partial day of record.Advanced: Point‌,"StartShiftPoints:(Value:0,Offset:0),EndShiftPoints:(Value:0,Offset:-0.057),UsgsType:Set 2",Normal
