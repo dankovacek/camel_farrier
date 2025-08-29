@@ -1,0 +1,32 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02YL005,38.0,Curve # 38.00 is a clone of curve 37.00.  This curve was based on 5 open water measurements collected during 2023. All other measurmens were deleted beolow 0.533m were removed.  An adjustment to the upper end of the curve was also completed.,LogarithmicTable,Provisional/Provisoire,(0.533:0.042);(0.01);
+02YL005,37.0,Curve # 37.00 is a high-water refinement above 0.600m and a complete change below 0.600m based on 2022 open water Measurements. Only 2022 measurements used below 0.600m,LogarithmicTable,Final/Finales,(0.38:-0.002);(0.01);
+02YL005,36.0,Curve # 36 is a slight curve adjustment based on mms obtained during 2020.,LogarithmicTable,Final/Finales,(0.31:0.028);(0.1);
+02YL005,35.01,Curve # 35.01 is an extension of Curve # 35.00 to cover range for 2019,LogarithmicTable,Final/Finales,(0.3293:0.028);(0.05);
+02YL005,35.0,"CURVE # 3.00, is a low water change of  # 33.00 below 0.329M based on 2018 open Water MM taken in July. 3 other open water MM's obtained during 2018 taken at higher stages plot on the rating. Only 2018 MM below 0.329 M.",LogarithmicTable,Final/Finales,(0.3293:0.028);(0.05);
+02YL005,34.0,"CURVE # 34, is a refinement of  # 33.  Here we have a medium water change between 0.216 meters and 0.603meters.  This was based on mms collected during 2017.",LogarithmicTable,Final/Finales,(0.2161:0.028);(0.05);
+02YL005,33.0,"CURVE # 33, IS A REFINEMENT OF # 32, BELOW GAUGE HEIGHT (BREAK POINT 0.590M) BASED ON 2016 MM RESULTS. ONLY 2015 AND 2016 MM'S PLOTTED AND USED BELOW GAUGE HEIGHT 0.500 METERS, START DATE APR 02, 08:15 2016, HIGH WATER AND ICE OUT",LogarithmicTable,Final/Finales,(0.59:0.028);(0.176);
+02YL005,32.0,"CURVE # 32 REFINEMENT OF # 31 BASED ON 2015 mm RESULTS. ONLY 2015 MM'S PLOTTED AND USED BELOW GAUGE HEIGHT 0.280 METERS, START DATE APR 15 2015",LogarithmicTable,Final/Finales,(0.59:0.028);(0.176);
+02YL005,31.0,CURVE CHANGE USING 2014 DISCHARGE MM'S ONLY BELOW GH 1.2.,LogarithmicTable,Final/Finales,(0.013);
+02YL005,30.0,COMPLETE CURVE CHANGE USING 2013 DISCHARGE MM'S ONLY.,LogarithmicTable,Final/Finales,(0.03);
+02YL005,29.0,LOW WATER CURVE CHANGE BASED ON 2012 MM,LogarithmicTable,Final/Finales,(0.405:0.01);(0.07);
+02YL005,28.0,,LogarithmicTable,Final/Finales,(0.392:0.03);(0);
+02YL005,27.0,CURVE CHANGE BASED ON 2010 MM.,LinearTable,Final/Finales,
+02YL005,26.0,Curve change below G.H. 0.400 based on 2009 MM,LinearTable,Final/Finales,
+02YL005,25.0,NEW CURVE USING 2008 ADV MM ONLY,LinearTable,Final/Finales,
+02YL005,24.0,,LinearTable,Final/Finales,
+02YL005,23.0,low-med change based on 2006 mm results,LinearTable,Final/Finales,
+02YL005,22.0,,LinearTable,Final/Finales,
+02YL005,21.0,,LinearTable,Final/Finales,
+02YL005,20.0,,LinearTable,Final/Finales,
+02YL005,19.0,Curve change based on 2002 mm results.,LinearTable,Final/Finales,
+02YL005,18.0,,LinearTable,Final/Finales,
+02YL005,17.0,,LinearTable,Final/Finales,
+02YL005,16.0,,LinearTable,Final/Finales,
+02YL005,15.0,,LinearTable,Final/Finales,
+02YL005,14.0,,LinearTable,Final/Finales,
+02YL005,13.0,,LinearTable,Final/Finales,
+02YL005,12.0,,LinearTable,Final/Finales,
+02YL005,11.0,,LinearTable,Final/Finales,
+02YL005,10.0,,LinearTable,Final/Finales,
+02YL005,9.0,,LinearTable,Final/Finales,

@@ -1,0 +1,10 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+04KA001,10.00,Curve #10.00 drawn only to mmts post Sept 2008 when the gauge was relocated 300m downstream.  Drawn to fit midwater discharge mmts from 2015 and 2016,LogarithmicTable,Provisional/Provisoire,(10.22934:9.84);(9.92);
+04KA001,9.000,,LogarithmicTable,Final/Finales,(9.834);
+04KA001,8.000,Curve shifted right due to dwnstrm relocation.,LinearTable,Final/Finales,
+04KA001,7.000,,LinearTable,Final/Finales,
+04KA001,6.000-SC2,,LinearTable,Final/Finales,
+04KA001,6.000,,LinearTable,Final/Finales,
+04KA001,6.000-SC1,,LinearTable,Final/Finales,
+04KA001,5.000,,LinearTable,Final/Finales,
+04KA001,4.000,,LinearTable,Final/Finales,

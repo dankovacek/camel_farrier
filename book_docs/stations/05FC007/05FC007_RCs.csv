@@ -1,0 +1,6 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05FC007,6.00,New curve approved for 2016 computations,LogarithmicTable,Provisional/Provisoire,(1.525:0.612);(0.65);
+05FC007,5.000,HQFIT1.0,LinearTable,Final/Finales,
+05FC007,4.000,,LinearTable,Final/Finales,
+05FC007,4.000-SC1,,LinearTable,Final/Finales,
+05FC007,3.000,,LinearTable,Final/Finales,

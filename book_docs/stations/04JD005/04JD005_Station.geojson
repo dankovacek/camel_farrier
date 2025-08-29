@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "04JD005_Station",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "04JD005", "NameNom": "PAGWACHUAN RIVER AT HIGHWAY NO. 11", "Status": "active", "Etat": "en service", "ProvTerr": "ON", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -85.22619, 49.76419 ] } }
+]
+}

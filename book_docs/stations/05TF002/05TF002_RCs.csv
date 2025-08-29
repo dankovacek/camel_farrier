@@ -1,0 +1,7 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05TF002,15.0,New curve for 2022 - KSP,LogarithmicTable,Provisional/Provisoire,(29.3:28.85);(29.14);
+05TF002,14.0,New curve to accomodate all time high msmt (May 29/17) as well as creation of second lower segment to better capture lower flows,LogarithmicTable,Final/Finales,(28.697);
+05TF002,13.0,LOG LOG CURVE,LogarithmicTable,Final/Finales,(27.81);
+05TF002,12.0,2015 S/D Relationship,LinearTable,Final/Finales,
+05TF002,11.0,,LinearTable,Final/Finales,
+05TF002,10.0,,LinearTable,Final/Finales,

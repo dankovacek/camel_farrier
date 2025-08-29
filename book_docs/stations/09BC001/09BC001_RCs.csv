@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+09BC001,17.0,,LogarithmicTable,Provisional/Provisoire,(0.23);
+09BC001,16.0,Complete new curve; one equation.,LogarithmicTable,Final/Finales,(0);
+09BC001,15.0,APPROVED Coincides with HQ Table #14 above 1.9m.,LinearTable,Final/Finales,
+09BC001,14.0,,LinearTable,Final/Finales,

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05NG020_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "05NG020", "NameNom": "MEDORA CREEK NEAR NAPINKA", "Status": "active", "Etat": "en service", "ProvTerr": "MB" }, "geometry": { "type": "Point", "coordinates": [ -100.70401, 49.32574 ] } }
+]
+}

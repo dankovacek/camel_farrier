@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10LC007_Station",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10LC007", "NameNom": "CARIBOU CREEK ABOVE HIGHWAY NO. 8 (DEMPSTER HIGHWAY)", "Status": "active", "Etat": "en service", "ProvTerr": "NT", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -133.4923, 68.08728 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02AB019_Station",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "02AB019", "NameNom": "MCVICAR CREEK AT THUNDER BAY", "Status": "active", "Etat": "en service", "ProvTerr": "ON", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -89.21861, 48.4492 ] } }
+]
+}

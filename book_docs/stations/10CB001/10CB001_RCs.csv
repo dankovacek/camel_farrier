@@ -1,0 +1,23 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10CB001,55.0,Curve 55.00 was created using 2023 open water measurements. The upper end of the curve was defined using a high water measurement from 2001. The low end of the curve was defined using a low-water measurement from September 2023. A breakpoint was added at 1.870m because this is an estimated elevation where the river channel comes into contact with a defined shelf of rip rap on the left bank.,LogarithmicTable,Provisional/Provisoire,(1.87:0.08);(-1.9);
+10CB001,54.01,"Same as Curver 54.0, but has different estimate grade at lower end.",LogarithmicTable,Final/Finales,(0.187);
+10CB001,54.0,"For historic high-flows and 2018 + 2017 low measurements.  Measurements around ~40-50 cms, are in backwater from debris on LB piers, so these measurements are shifted to.",LogarithmicTable,Final/Finales,(0.187);
+10CB001,53.0,,LogarithmicTable,Final/Finales,(0.26);
+10CB001,52.0,Shifted rating under ice,LogarithmicTable,Final/Finales,(0.33);
+10CB001,51.0,new curve created using 2013 and 2014 open water measurements for the lower section.  The upper section has the breakpoint at the same stage as curve 50.000 and uses the same offset and upper rating point as curve 50.000.,LogarithmicTable,Final/Finales,(2.165:-0.2);(1.54);
+10CB001,50.0,CHANGE TO#50 AFTER MAX INST,LogarithmicTable,Final/Finales,(2.165:-0.163);(1.54);
+10CB001,49.0,,LogarithmicTable,Final/Finales,(0.5);
+10CB001,48.0,Coincident with table #47 at & above 2.00m,LinearTable,Provisional/Provisoire,
+10CB001,47.0,COINCIDENT TO TABLE #46 AT AND ABOVE 1.300 m,LinearTable,Final/Finales,
+10CB001,46.0,COIN.@BEL.1.10M @ABV2.20M,LinearTable,Final/Finales,
+10CB001,45.0,,LinearTable,Final/Finales,
+10CB001,44.0,,LinearTable,Final/Finales,
+10CB001,43.0,,LinearTable,Final/Finales,
+10CB001,42.0,,LinearTable,Final/Finales,
+10CB001,41.0,,LinearTable,Final/Finales,
+10CB001,40.0,,LinearTable,Final/Finales,
+10CB001,39.0,,LinearTable,Final/Finales,
+10CB001,38.0,,LinearTable,Final/Finales,
+10CB001,37.0,,LinearTable,Final/Finales,
+10CB001,36.0,,LinearTable,Final/Finales,
+10CB001,34.0,,LinearTable,Final/Finales,

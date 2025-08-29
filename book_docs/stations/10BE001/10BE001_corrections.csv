@@ -1,0 +1,106 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+10BE001,CopyPaste,HG,2024-01-07T01:55:00,2024-02-10T17:00:00,2024-02-12T19:30:50,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger2@10BE001, time shift: 00:00 minutes.‌",,PreProcessing
+10BE001,Drift,HG,2024-01-07T01:55:00,2024-02-10T17:35:00,2024-02-12T19:31:49,-8,SRC - VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2024-01-07T01:55:00Z);(Offset:0.033,Time:2024-02-10T17:35:00Z)",Normal
+10BE001,CopyPaste,QR,2023-11-22T08:00:00,2023-12-02T08:00:00,2024-01-08T15:47:34,-8,Override: Moving Average Filter‌Window: 333.‌Iterations: 1.‌,,Normal
+10BE001,CopyPaste,QR,2023-10-24T20:00:00,2024-05-01T08:00:00,2024-01-08T15:25:45,-8,Override: Log Linear‌Q(t) = 490e^(-0.0047t)‌,,Normal
+10BE001,Drift,HG,2023-10-03T22:10:00,2024-01-07T01:50:00,2024-01-08T20:33:45,-8,SRC - VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2023-10-03T22:10:00Z);(Offset:-0.023,Time:2024-01-07T01:50:00Z)",Normal
+10BE001,CopyPaste,HG,2023-10-03T22:10:00,2024-01-07T01:50:00,2024-01-08T20:11:35,-8,,,PreProcessing
+10BE001,Drift,HG,2023-08-13T23:10:00,2023-10-03T21:45:00,2023-10-06T15:52:19,-8,RFT - SRC visit to visit.,"DriftPoints:(Offset:0,Time:2023-08-13T23:10:00Z);(Offset:0.018,Time:2023-10-03T21:45:00Z)",Normal
+10BE001,CopyPaste,HG,2023-06-05T23:45:00,2023-08-13T22:30:00,2023-08-15T21:52:23,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10BE001, time shift: 00:00 minutes.‌",,PreProcessing
+10BE001,Drift,HG,2023-06-05T23:45:00,2023-08-13T23:00:00,2023-08-15T21:53:42,-8,SRC - VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2023-06-05T23:45:00Z);(Offset:0.046,Time:2023-08-13T23:00:00Z)",Normal
+10BE001,AdjustableTrim,HG,2023-05-19T00:10:00,2023-05-21T14:45:00,2023-06-07T21:19:40,-8,RFT - coarse debris correction,"UpperThresholdPoints:(Time:2023-05-19T00:10:00Z,Value:12.434289797101727);(Time:2023-05-19T14:46:17.879Z,Value:12.559776633538572);(Time:2023-05-20T07:37:43.272Z,Value:12.765118729526135);(Time:2023-05-20T17:08:10.674Z,Value:12.909618722998868);(Time:2023-05-21T14:45:00Z,Value:13.152987133058202),TrimAction:Delete",Normal
+10BE001,CopyPaste,QR,2023-05-04T08:00:00,2023-05-09T15:00:00,2024-02-09T20:24:42,-8,Override: Moving Average Filter‌Window: 22.‌Iterations: 1.‌,,Normal
+10BE001,CopyPaste,QR,2023-04-29T08:00:00,2023-05-09T15:00:00,2024-02-09T20:22:35,-8,Override: Log Linear‌Q(t) = 579.114329279308e^(0.10488738510735138t)‌,,Normal
+10BE001,CopyPaste,HG,2023-04-02T00:05:00,2023-06-05T23:20:00,2023-06-07T21:16:22,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10BE001, time shift: 00:00 minutes.‌",,PreProcessing
+10BE001,Drift,HG,2023-04-01T20:35:00,2023-06-05T23:40:00,2023-06-07T21:17:30,-8,SRC - VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2023-04-01T20:35:00Z);(Offset:-0.049,Time:2023-06-05T23:40:00Z)",Normal
+10BE001,DeleteRegion,HG,2023-04-01T20:25:00,2023-04-01T20:30:00,2023-04-03T18:31:16,-8,RFT - MAINTENANCE (RESETS),,Normal
+10BE001,CopyPaste,QR,2023-03-15T14:30:00,2023-04-30T16:30:00,2024-02-09T20:19:41,-8,Override: Log Linear‌Q(t) = 179.68915533962002e^(0.02616349826999063t)‌,,Normal
+10BE001,CopyPaste,QR,2023-03-11T05:00:00,2023-03-19T22:45:00,2024-02-09T20:21:24,-8,Override: Moving Average Filter‌Window: 333.‌Iterations: 1.‌,,Normal
+10BE001,Drift,HG,2023-02-16T00:00:00,2023-04-01T20:20:00,2023-04-03T18:29:56,-8,SRC - VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2023-02-16T00:00:00Z);(Offset:0.013,Time:2023-04-01T20:20:00Z)",Normal
+10BE001,CopyPaste,HG,2023-02-16T00:00:00,2023-04-01T20:20:00,2023-04-03T18:29:00,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10BE001, time shift: 00:00 minutes.‌",,PreProcessing
+10BE001,Drift,HG,2023-01-05T21:55:00,2023-02-15T23:55:00,2023-02-16T23:26:13,-8,SRC - visit to visit and just prior to the reset.,"DriftPoints:(Offset:0,Time:2023-01-05T21:55:00Z);(Offset:0.014,Time:2023-02-15T23:55:00Z)",Normal
+10BE001,CopyPaste,QR,2022-11-23T08:00:00,2022-11-28T08:00:00,2024-02-09T20:14:19,-8,Override: Moving Average Filter‌Window: 333.‌Iterations: 1.‌,,Normal
+10BE001,CopyPaste,QR,2022-11-13T17:40:00,2022-11-25T18:15:00,2024-02-09T20:13:05,-8,Override: Log Linear‌Q(t) = 448.0966706607874e^(-0.039457222635548204t)‌,,Normal
+10BE001,CopyPaste,QR,2022-11-03T08:00:00,2023-05-08T08:00:00,2023-04-05T18:45:10,-8,Override: Log Linear‌Q(t) = 305e^(-0.004t)‌,,Normal
+10BE001,CopyPaste,QR,2022-11-01T20:40:00,2022-11-15T08:00:00,2024-02-09T20:02:02,-8,Override: Moving Average Filter‌Window: 33.‌Iterations: 1.‌,,Normal
+10BE001,CopyPaste,HG,2022-10-21T19:20:00,2022-10-21T21:25:00,2023-01-10T14:31:25,-8,"Filling telemetry gapsOverride: Copy & Paste‌Source Data Set: Stage.Logger@10BE001, time shift: 00:00 minutes.‌",,PreProcessing
+10BE001,Drift,HG,2022-10-06T19:55:00,2023-01-05T21:50:00,2023-01-10T14:25:28,-8,SRC,"DriftPoints:(Offset:0,Time:2022-10-06T19:55:00Z);(Offset:-0.039,Time:2023-01-05T21:50:00Z)",Normal
+10BE001,Drift,HG,2022-10-06T17:00:00,2022-10-06T19:50:00,2022-10-07T18:10:10,-8,SRC,"DriftPoints:(Offset:0.068,Time:2022-10-06T17:00:00Z);(Offset:0.074,Time:2022-10-06T19:50:00Z)",Normal
+10BE001,CopyPaste,HG,2022-07-25T00:05:00,2022-10-06T16:55:00,2022-10-07T18:12:33,-8,"filling data gapsOverride: Copy & Paste‌Source Data Set: Stage.Logger@10BE001, time shift: 00:00 minutes.‌",,PreProcessing
+10BE001,Drift,HG,2022-07-24T23:05:00,2022-10-06T16:55:00,2022-10-07T18:08:44,-8,SRC,"DriftPoints:(Offset:0,Time:2022-07-24T23:05:00Z);(Offset:0.068,Time:2022-10-06T16:55:00Z)",Normal
+10BE001,DeleteRegion,HG,2022-07-24T23:00:00,2022-07-24T23:00:00,2022-07-29T21:55:12,-8,DISREGARD - Data spike. ,,Normal
+10BE001,Drift,HG,2022-06-15T22:55:00,2022-07-24T22:50:00,2022-07-29T21:56:14,-8,SRC- Originally DWL on 06-15 thought to be erroneous but further investigation reveals that old Tavis sensor line may have been drifting upwards from the point that the stage reached above 9.8m. SRC reapplied and DWL is further trusted after comparing it to the HWM ,"DriftPoints:(Offset:0,Time:2022-06-15T22:55:00Z);(Offset:0.167,Time:2022-07-24T22:50:00Z)",Normal
+10BE001,CopyPaste,HG,2022-06-11T10:15:00,2022-06-13T22:00:00,2024-02-09T21:03:04,-8,Override: Moving Average Filter‌Window: 333.‌Iterations: 1.‌,,Normal
+10BE001,Drift,HG,2022-05-24T15:15:00,2022-06-15T22:50:00,2023-11-16T18:03:49,-8,SRC- Originally DWL on 06-15 thought to be erroneous but further investigation reveals that old Tavis sensor line may have been drifting upwards from the point that the stage reached above 9.8m. SRC reapplied and DWL is further trusted after comparing it to the HWM ,"DriftPoints:(Offset:0,Time:2022-05-24T15:15:00Z);(Offset:-0.176,Time:2022-06-15T22:50:00Z)",Normal
+10BE001,CopyPaste,HG,2022-05-09T13:20:00,2022-05-09T15:25:00,2022-06-05T19:50:53,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10BE001, time shift: 00:00 minutes.‌",,Normal
+10BE001,CopyPaste,QR,2022-04-26T20:45:00,2022-05-07T04:00:00,2024-02-09T17:51:37,-8,Override: Moving Average Filter‌Window: 122.‌Iterations: 1.‌,,Normal
+10BE001,CopyPaste,QR,2022-04-10T06:30:00,2022-05-12T15:00:00,2024-02-09T17:46:40,-8,Override: Moving Average Filter‌Window: 22.‌Iterations: 1.‌,,Normal
+10BE001,CopyPaste,QR,2022-04-06T08:00:00,2022-04-26T08:00:00,2024-02-09T17:48:41,-8,Override: Moving Average Filter‌Window: 333.‌Iterations: 1.‌,,Normal
+10BE001,Drift,HG,2022-03-25T20:50:00,2022-05-24T15:05:00,2022-06-05T19:52:56,-8,SENSOR RESET CORRECTION - Sensor movement likely occurred during one of the low stage ice flows. HWM was unobtainable on field visit (non-discernible). Therefore drift correction applied. ,"DriftPoints:(Offset:0,Time:2022-03-25T20:50:00Z);(Offset:-0.067,Time:2022-05-24T15:05:00Z)",Normal
+10BE001,DeleteRegion,HG,2022-03-12T11:50:00,2022-03-13T12:55:00,2022-03-15T15:33:14,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2022-02-24T05:50:00,2022-02-24T15:25:00,2022-02-24T18:26:15,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2022-02-22T22:45:00,2022-02-23T07:55:00,2022-02-24T18:26:02,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2022-02-22T04:30:00,2022-02-22T14:00:00,2022-02-22T23:03:12,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2022-02-21T13:55:00,2022-02-21T20:05:00,2022-02-22T23:02:57,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2022-02-21T00:45:00,2022-02-21T09:00:00,2022-02-21T18:17:57,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2022-02-19T21:45:00,2022-02-20T16:50:00,2022-02-21T18:17:36,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2022-02-18T11:00:00,2022-02-19T08:05:00,2022-02-21T18:17:17,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2022-02-15T23:40:00,2022-02-16T20:00:00,2022-02-17T15:53:44,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2022-02-05T13:55:00,2022-02-05T19:50:00,2022-02-11T03:18:41,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2022-02-05T03:30:00,2022-02-05T08:40:00,2022-02-11T03:18:23,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2022-02-04T14:00:00,2022-02-04T23:00:00,2022-02-11T03:18:03,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2022-02-04T02:00:00,2022-02-04T08:00:00,2022-02-11T03:17:44,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2022-02-02T21:30:00,2022-02-03T07:40:00,2022-02-03T16:40:47,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2022-02-02T11:00:00,2022-02-02T18:50:00,2022-02-03T16:40:24,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2022-02-02T00:35:00,2022-02-02T08:35:00,2022-02-03T16:39:56,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2022-02-01T14:20:00,2022-02-01T18:10:00,2022-02-01T22:15:59,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2022-02-01T14:15:00,2022-02-01T22:00:00,2022-02-03T16:39:31,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2022-01-31T17:00:00,2022-02-01T09:55:00,2022-02-01T22:14:57,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2022-01-13T16:40:00,2022-01-13T16:40:00,2022-02-24T18:24:07,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,AdjustableTrim,HG,2022-01-01T08:00:00,2023-01-01T08:00:00,2022-05-10T15:27:03,-8,DISREGARD - 99999 maintenance. ,"UpperThresholdPoints:(Time:2022-01-01T08:00:00Z,Value:99998);(Time:2023-01-01T08:00:00Z,Value:99998),TrimAction:Delete",Normal
+10BE001,CopyPaste,QR,2021-11-22T18:45:00,2022-05-09T03:20:00,2022-05-10T14:32:39,-8,The slow recession was calculated by the averaging of historical recession constants between winter measurements (See '10BE001_HISTORICAL_RECESSION' sheet). Placement of the recession line (recession constant k = 0.0056; standard deviation = 0.0014) sought to minimize the percent difference from the winter measurements acquired. Override: Log Linear‌Q(t) = 458e^(-0.0042t)‌,,Normal
+10BE001,CopyPaste,HG,2021-11-19T16:20:00,2021-11-19T18:25:00,2022-01-14T23:00:09,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10BE001, time shift: 00:00 minutes.‌",,Normal
+10BE001,CopyPaste,HG,2021-11-04T07:20:00,2021-11-04T09:25:00,2022-01-14T22:59:43,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10BE001, time shift: 00:00 minutes.‌",,Normal
+10BE001,CopyPaste,QR,2021-10-31T08:00:00,2021-11-28T13:45:00,2022-05-10T14:55:29,-8,The slow recession is theorized to begin around 11-28. This intersection is determined by extending the control clear (fast) recession constant (0.015) until it intersects the slow recession constant.Override: Log Linear‌Q(t) = 682.7340509168699e^(-0.014998847925764051t)‌,,Normal
+10BE001,CopyPaste,HG,2021-10-12T10:20:00,2021-10-12T12:25:00,2022-01-14T22:59:16,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10BE001, time shift: 00:00 minutes.‌",,Normal
+10BE001,Drift,HG,2021-10-05T22:15:00,2022-01-13T16:40:00,2022-01-14T23:01:26,-8,SENSOR RESET CORRECTION - Sensor drift. ,"DriftPoints:(Offset:0,Time:2021-10-05T22:15:00Z);(Offset:-0.013,Time:2022-01-13T16:40:00Z)",Normal
+10BE001,DeleteRegion,HG,2021-10-05T21:55:00,2021-10-05T22:10:00,2021-10-06T02:24:32,-8,DISREGARD - Sensor maintenance. ,,Normal
+10BE001,Offset,HG,2021-09-18T00:30:00,2021-10-05T21:50:00,2021-10-06T02:26:32,-8,SENSOR RESET CORRECTION - Direct water level. ,Offset:0.307,Normal
+10BE001,DeleteRegion,HG,2021-09-12T23:40:00,2021-09-18T00:25:00,2021-09-30T16:38:34,-8,DISREGARD - Sensor out of water. ,,Normal
+10BE001,CopyPaste,QR,2021-09-12T23:35:00,2021-09-18T00:30:00,2022-01-21T15:04:46,-8,Override: Log Linear‌Q(t) = 1529.320491415273e^(-0.00692249074638434t)‌,,Normal
+10BE001,DeleteRegion,HG,2021-08-17T21:00:00,2021-08-17T21:15:00,2021-08-18T03:03:43,-8,DISREGARD - Sensor maintenance. ,,Normal
+10BE001,CopyPaste,HG,2021-06-20T04:50:00,2021-08-17T09:35:00,2021-08-20T05:18:57,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10BE001, time shift: 00:00 minutes.‌",,PreProcessing
+10BE001,Drift,HG,2021-06-19T21:55:00,2021-08-17T20:55:00,2021-08-18T03:04:54,-8,SENSOR RESET CORRECTION - Sensor drift. ,"DriftPoints:(Offset:0,Time:2021-06-19T21:55:00Z);(Offset:0.137,Time:2021-08-17T20:55:00Z)",Normal
+10BE001,DeleteRegion,HG,2021-06-19T21:50:00,2021-06-19T21:50:00,2021-06-24T18:18:34,-8,DISREGARD - Gas cylinder change & pressure stabilizing. ,,Normal
+10BE001,Drift,HG,2021-05-11T19:45:00,2021-06-19T21:45:00,2021-06-24T18:20:07,-8,SENSOR RESET CORRECTION - Theorized sensor movement. ,"DriftPoints:(Offset:0.041,Time:2021-05-11T19:45:00Z);(Offset:0,Time:2021-06-19T21:45:00Z)",Normal
+10BE001,Drift,HG,2021-05-11T17:25:00,2021-06-19T21:45:00,2021-06-21T18:52:52,-8,SENSOR RESET CORRECTION - Sensor drift. ,"DriftPoints:(Offset:0,Time:2021-05-11T17:25:00Z);(Offset:-0.119,Time:2021-06-19T21:45:00Z)",Normal
+10BE001,Offset,HG,2021-05-06T17:35:00,2021-05-11T17:20:00,2021-05-18T23:04:02,-8,SENSOR RESET CORRECTION - Theorized sensor movement. ,Offset:0.653,Normal
+10BE001,DeleteRegion,HG,2021-05-06T16:10:00,2021-05-06T17:30:00,2021-05-18T23:05:43,-8,DISREGARD - Data spike. ,,Normal
+10BE001,CopyPaste,QR,2021-04-13T12:00:00,2021-05-11T21:25:00,2022-02-25T22:47:04,-8,Override: Log Linear‌Q(t) = 211.09385908210535e^(0.06896167885509541t)‌,,Normal
+10BE001,DeleteRegion,HG,2021-01-17T21:00:00,2021-01-17T21:00:00,2021-02-20T23:21:26,-8,DISREGARD - Spike. ,,Normal
+10BE001,Drift,HG,2021-01-11T22:05:00,2021-02-23T22:05:00,2021-03-08T16:21:59,-8,SENSOR RESET CORRECTION - Sensor drift. ,"DriftPoints:(Offset:0,Time:2021-01-11T22:05:00Z);(Offset:0.02,Time:2021-02-23T22:05:00Z)",Normal
+10BE001,Deviation,HG,2020-12-19T19:00:00,2020-12-23T02:45:00,2021-01-22T15:51:39,-8,DISREGARD - Sensor affected by slush/ice. ,"DeviationValue:0.01,DeviationType:DeviationFromAverage,WindowSizeInMinutes:60",Normal
+10BE001,DeleteRegion,HG,2020-12-19T09:55:00,2020-12-22T21:40:00,2022-02-24T20:00:57,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,AdjustableTrim,HG,2020-12-15T22:55:00,2020-12-16T13:45:00,2020-12-17T17:10:49,-8,"Cleaning up record that is painting""""","UpperThresholdPoints:(Time:2020-12-15T22:55:00Z,Value:10.503648095311496);(Time:2020-12-16T13:45:00Z,Value:10.547138261541987),TrimAction:Delete",Normal
+10BE001,Drift,HG,2020-12-15T22:05:00,2021-01-11T22:00:00,2021-01-12T16:41:35,-8,SENSOR RESET CORRECTION - Sensor drift. ,"DriftPoints:(Offset:0,Time:2020-12-15T22:05:00Z);(Offset:0.034,Time:2021-01-11T22:00:00Z)",Normal
+10BE001,DeleteRegion,HG,2020-12-15T22:00:00,2020-12-16T14:25:00,2022-02-24T19:41:29,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2020-12-15T18:05:00,2020-12-15T20:10:00,2022-02-24T19:49:57,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2020-12-14T17:50:00,2020-12-14T17:50:00,2022-02-24T19:48:48,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2020-12-14T09:50:00,2020-12-14T12:00:00,2022-02-24T19:48:27,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,DeleteRegion,HG,2020-12-13T08:20:00,2020-12-13T20:10:00,2022-02-24T19:49:21,-8,DISREGARD - Sensor affected by slush/ice. ,,Normal
+10BE001,CopyPaste,QR,2020-11-12T23:15:00,2021-05-02T19:20:00,2022-02-24T21:36:12,-8,Override: Log Linear‌Q(t) = 532e^(-0.0061t)‌,,Normal
+10BE001,CopyPaste,QR,2020-10-18T08:00:00,2020-11-27T23:00:00,2022-02-28T17:05:28,-8,Override: Log Linear‌Q(t) = 893.0177289319541e^(-0.015t)‌,,Normal
+10BE001,Drift,HG,2020-09-20T21:10:00,2020-12-15T21:55:00,2022-02-24T19:47:05,-8,SENSOR RESET CORRECTION - Sensor drift. ,"DriftPoints:(Offset:0,Time:2020-09-20T21:10:00Z);(Offset:-0.037,Time:2020-12-15T21:55:00Z)",Normal
+10BE001,DeleteRegion,HG,2020-09-20T21:05:00,2020-09-20T21:05:00,2020-10-02T20:17:04,-8,DISREGARD - Spike. ,,Normal
+10BE001,Drift,HG,2020-09-20T21:00:00,2020-12-15T21:55:00,2020-12-17T17:08:29,-8,SENSOR RESET CORRECTION - Sensor drift. ,"DriftPoints:(Offset:0,Time:2020-09-20T21:00:00Z);(Offset:0,Time:2020-12-15T21:55:00Z)",Normal
+10BE001,DeleteRegion,HG,2020-06-21T19:25:00,2020-06-21T19:25:00,2023-06-22T16:28:33,-8,,,Normal
+10BE001,Offset,HG,2020-06-21T19:25:00,2020-09-20T20:55:00,2023-06-22T16:24:44,-8,SRC- sensor set to an erroneous DWL,Offset:0.171,Normal
+10BE001,CopyPaste,HG,2020-05-14T01:20:00,2020-05-14T03:25:00,2022-02-24T18:10:10,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10BE001, time shift: 00:00 minutes.‌",,PreProcessing
+10BE001,Drift,HG,2020-05-10T17:10:00,2020-09-20T20:55:00,2023-06-22T16:26:08,-8,SRC- distributed SRC after the offset was applied to account for the incorrect SRC,"DriftPoints:(Offset:0,Time:2020-05-10T17:10:00Z);(Offset:-0.017,Time:2020-09-20T20:55:00Z)",Normal
+10BE001,CopyPaste,QR,2020-04-17T20:00:00,2020-05-07T21:05:00,2022-02-24T21:14:41,-8,"The end of slow recession is theorized to have occurred on 2020-04-17. The rising limb used model produced control-clear discharge, measurements and air temperature for manipulation. Override: Log Linear‌Q(t) = 180.91789225710227e^(0.09011382626007912t)‌",,Normal
+10BE001,Drift,HG,2020-02-29T21:55:00,2020-05-10T17:10:00,2020-05-20T16:53:13,-8,SRC-FIELD VISIT.,"DriftPoints:(Offset:0.028,Time:2020-02-29T21:55:00Z);(Offset:-0.03,Time:2020-05-10T17:10:00Z)",Normal
+10BE001,DeleteRegion,HG,2020-02-29T21:05:00,2020-02-29T21:05:00,2020-05-20T15:39:59,-8,ORIFICE PURGE.,,Normal
+10BE001,CopyPaste,HG,2020-02-20T10:20:00,2020-02-21T08:05:00,2020-05-20T15:38:41,-8,"Override: Copy & Paste‌Source signal: Stage.Logger@10BE001, time shift: 0 minutes.‌",,Normal
+10BE001,Drift,HG,2020-01-08T19:35:00,2020-02-29T21:50:00,2020-11-17T19:32:27,-8,SENSOR RESET CORRECTION - Sensor drift. ,"DriftPoints:(Offset:0,Time:2020-01-08T19:35:00Z);(Offset:0.028,Time:2020-02-29T21:50:00Z)",Normal
+10BE001,CopyPaste,QR,2019-11-29T20:00:00,2020-05-01T20:00:00,2020-03-30T18:07:44,-8,PRELIMINARY. Override: Log Linear‌Q(t) = 408e^(-0.005808742t)‌,,Normal
+10BE001,CopyPaste,QR,2019-11-04T08:50:00,2019-12-05T09:15:00,2022-02-24T21:26:44,-8,Override: Log Linear‌Q(t) = 629.0563502632482e^(-0.015t)‌,,Normal

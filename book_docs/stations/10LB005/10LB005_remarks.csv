@@ -1,0 +1,11 @@
+STATION_NUMBER,REMARK_TYPE_CODE,YEAR,REMARK_EN,REMARK_FR
+10LB005,2,2004,2004 ALL DISCHARGES ABOVE 25.0 M3/S CONSIDERED ESTIMATES.,"TOUS LES DEBITS SUPERIEURS A 25,0 M3/S SONT CONSIDERES ESTIMES."
+10LB005,2,2005,2005 DISCHARGES ABOVE 14.0 M3/S ARE TO BE USED WITH DISCRETION.,"UTILISER DEBITS SUPERIEUR A 14,0 M3/S AVEC PRUDENCE."
+10LB005,2,2006,OPEN WATER RECORD IS CONSIDERED GOOD.,ENREGISTREMENT EN EAU LIBRE DE BONNE QUALITE
+10LB005,2,2007,OPEN WATER RECORD IS CONSIDERED GOOD.,ENREGISTREMENT EN EAU LIBRE DE BONNE QUALITE
+10LB005,2,2008,OPEN WATER RECORD IS CONSIDERED GOOD.,ENREGISTREMENT EN EAU LIBRE DE BONNE QUALITE
+10LB005,2,2009,2009 OPEN WATER RECORD IS CONSIDERED GOOD.,ENREGISTREMENT EN EAU LIBRE DE BONNE QUALITE
+10LB005,2,2010,2010 OPEN WATER RECORD IS CONSIDERED GOOD. USE WINTER RECORD WITH DISCRETION.,ENREGISTREMENT EN EAU LIBRE DE BONNE QUALITE. UTILISER LES ENREGISTREMENTS HIVERNAUX AVEC CIRCONSPECTION
+10LB005,2,2011,(Water Level) Open water record is good. There is missing data during winter due to frozen orifice. (Discharge) There was a period of zero flow in February.,
+10LB005,2,2012,(Water Level) There was a period of missing record during winter due to frozen orifice. There is extensive silting from Jun 2 to Jul 23 so this record was cleaned up using adjustable trim correction. Open water record is fair to poor due to silting. (Discharge) Maximum instantaneous and daily discharge is undetermined.,
+10LB005,2,2013,"(Water Level) There was a period of missing data from Jan 1 ? May 29 during winter when orifice was frozen. Open water record is fair to poor due to silting. Minimum water levels are underdetermined due to occurrence outside period of usable record.  (Discharge) A mmnt on Mar 26, 2014 confirmed zero flow but discharge was not produced after Dec 17/13. Minimum instantaneous and daily discharges are invalid due to updated record.",

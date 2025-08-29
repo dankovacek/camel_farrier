@@ -1,0 +1,46 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+09AA013,Offset,HG,2023-12-15T19:00:00,10000-01-01T00:00:00,2023-12-19T00:13:39,-8,SRC - PROJECTED,Offset:-0.004,Normal
+09AA013,CopyPaste,HG,2023-09-05T19:30:00,2023-12-15T18:55:00,2023-12-19T00:10:49,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@09AA013, time shift: 00:00 minutes.‌",,PreProcessing
+09AA013,Drift,HG,2023-09-05T19:30:00,2023-12-15T18:55:00,2023-12-19T00:13:03,-8,SRC - VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2023-09-05T19:30:00Z);(Offset:-0.004,Time:2023-12-15T18:55:00Z)",Normal
+09AA013,CopyPaste,HG,2023-07-10T18:45:00,2023-09-05T16:55:00,2023-09-06T21:23:14,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@09AA013, time shift: 00:00 minutes.‌",,PreProcessing
+09AA013,Drift,HG,2023-07-10T18:45:00,2023-09-05T16:55:00,2023-09-06T21:24:04,-8,SRC - VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2023-07-10T18:45:00Z);(Offset:-0.009,Time:2023-09-05T16:55:00Z)",Normal
+09AA013,Drift,HG,2023-05-18T22:10:00,2023-07-10T18:40:00,2023-07-12T03:47:06,-8,SRC,"DriftPoints:(Offset:0,Time:2023-05-18T22:10:00Z);(Offset:0.012,Time:2023-07-10T18:40:00Z)",Normal
+09AA013,Drift,HG,2023-05-18T20:40:00,2023-05-18T22:10:00,2023-05-19T22:33:37,-8,SRC - during visit just prior to reset,"DriftPoints:(Offset:-0.007,Time:2023-05-18T20:40:00Z);(Offset:-0.008,Time:2023-05-18T22:10:00Z)",Normal
+09AA013,CopyPaste,HG,2023-03-10T17:05:00,2023-05-18T20:35:00,2023-05-19T22:29:46,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@09AA013, time shift: 00:00 minutes.‌",,PreProcessing
+09AA013,Drift,HG,2023-03-10T17:00:00,2023-05-18T20:35:00,2023-05-19T22:32:18,-8,SRC - visit to visit as found,"DriftPoints:(Offset:0,Time:2023-03-10T17:00:00Z);(Offset:-0.007,Time:2023-05-18T20:35:00Z)",Normal
+09AA013,DeleteRegion,HG,2023-02-27T16:10:00,2023-02-27T16:10:00,2023-03-13T16:40:01,-8,Invalid data,,Normal
+09AA013,Drift,HG,2023-01-17T18:55:00,2023-03-10T17:20:00,2023-03-14T00:37:17,-8,SRC - visit to visit,"DriftPoints:(Offset:-0.004,Time:2023-01-17T18:55:00Z);(Offset:0,Time:2023-03-10T17:20:00Z)",Normal
+09AA013,FillGaps,QR,2023-01-01T15:10:00,2023-09-06T05:35:00,2023-09-08T15:37:04,-8,Filling gaps created by removing spikes,"ResamplePeriod:PT15M,GapLimit:MaxDuration",Normal
+09AA013,Deviation,QR,2023-01-01T08:00:00,10000-01-01T00:00:00,2023-04-18T19:27:07,-8,Removing false wind way spikes from Q,"DeviationValue:0.5,DeviationType:DeviationFromAverage,WindowSizeInMinutes:60",Normal
+09AA013,Drift,HG,2022-12-09T18:10:00,2023-01-17T18:50:00,2023-01-19T23:29:38,-8,SRC - VISIT TO VISIT,"DriftPoints:(Offset:-0.014,Time:2022-12-09T18:10:00Z);(Offset:-0.004,Time:2023-01-17T18:50:00Z)",Normal
+09AA013,Drift,HG,2022-10-07T20:10:00,2022-12-09T18:05:00,2022-12-12T14:50:51,-8,SRC- VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2022-10-07T20:10:00Z);(Offset:-0.014,Time:2022-12-09T18:05:00Z)",Normal
+09AA013,Drift,HG,2022-10-07T17:50:00,2022-10-07T20:05:00,2022-10-13T17:50:19,-8,"SRC- DURING VISIT, Sensor settling after repositioning","DriftPoints:(Offset:-0.029,Time:2022-10-07T17:50:00Z);(Offset:0.032,Time:2022-10-07T18:05:00Z);(Offset:0.032,Time:2022-10-07T20:05:00Z)",Normal
+09AA013,DeleteRegion,HG,2022-10-07T17:35:00,2022-10-07T17:40:00,2022-10-12T16:35:36,-8,Invalid data,,Normal
+09AA013,Offset,HG,2022-05-25T14:30:00,2022-10-07T17:30:00,2022-05-27T16:11:19,-8,SENSOR RESET CORRECTION - Theorized sensor movement. ,Offset:0.192,Normal
+09AA013,Drift,HG,2022-03-21T20:00:00,2022-10-07T17:30:00,2022-10-13T17:39:21,-8,SRC- VISIT TO VISIT (MINUS OM),"DriftPoints:(Offset:0.009,Time:2022-03-21T20:00:00Z);(Offset:0.037,Time:2022-10-07T17:30:00Z)",Normal
+09AA013,Drift,HG,2022-01-12T18:50:00,2022-03-21T19:55:00,2022-03-25T15:54:03,-8,SRC- Jan 12 to March 21 Visits,"DriftPoints:(Offset:0.004,Time:2022-01-12T18:50:00Z);(Offset:0.009,Time:2022-03-21T19:55:00Z)",Normal
+09AA013,Drift,HG,2021-10-19T18:00:00,2022-01-12T18:45:00,2022-02-07T19:02:07,-8,SRC - BR tweaking RFT correction,"DriftPoints:(Offset:0,Time:2021-10-19T18:00:00Z);(Offset:-0.014,Time:2022-01-12T18:45:00Z)",Normal
+09AA013,CopyPaste,HG,2021-07-22T05:10:00,2021-07-22T14:15:00,2021-10-21T18:16:48,-8,"FILLED DATA GAP FROM STAGE LOGEROverride: Copy & Paste‌Source Data Set: Stage.Logger@09AA013, time shift: 00:00 minutes.‌",,PreProcessing
+09AA013,Drift,HG,2021-06-08T19:45:00,2021-10-19T17:55:00,2021-11-16T17:51:59,-8,,"DriftPoints:(Offset:0.013,Time:2021-06-08T19:45:00Z);(Offset:0.013,Time:2021-10-19T17:55:00Z)",Normal
+09AA013,USGSMultiPoint,HG,2021-03-24T16:43:23,2021-06-08T19:40:00,2021-06-09T22:17:45,-8,Advanced: Point‌,"StartShiftPoints:(Value:0,Offset:-0.018),EndShiftPoints:(Value:0,Offset:0.013),UsgsType:Set 2",Normal
+09AA013,Drift,HG,2021-01-21T18:30:00,2021-03-24T16:40:00,2021-03-25T19:25:38,-8,SRC RFT,"DriftPoints:(Offset:0,Time:2021-01-21T18:30:00Z);(Offset:-0.018,Time:2021-03-24T16:40:00Z)",Normal
+09AA013,CopyPaste,HG,2021-01-14T05:10:00,2021-01-21T16:15:00,2022-07-05T17:02:09,-8,"DATA GAP FILLOverride: Copy & Paste‌Source Data Set: Stage.Logger@09AA013, time shift: 00:00 minutes.‌",,PreProcessing
+09AA013,CopyPaste,HG,2021-01-11T02:10:00,2021-01-13T22:15:00,2022-07-05T17:08:30,-8,"DATA GAP FILLOverride: Copy & Paste‌Source Data Set: Stage.Logger@09AA013, time shift: 00:00 minutes.‌",,PreProcessing
+09AA013,CopyPaste,HG,2021-01-10T06:10:00,2021-01-10T19:15:00,2022-07-05T17:04:37,-8,"DATA GAP FILLOverride: Copy & Paste‌Source Data Set: Stage.Logger@09AA013, time shift: 00:00 minutes.‌",,PreProcessing
+09AA013,Drift,HG,2020-12-10T18:35:00,2021-01-21T18:30:00,2021-01-24T22:56:00,-8,SRC - December (0.004) to January (0.037) visits.,"DriftPoints:(Offset:0.004,Time:2020-12-10T18:35:00Z);(Offset:0.037,Time:2021-01-21T18:30:00Z)",Normal
+09AA013,CopyPaste,HG,2020-12-01T20:10:00,2020-12-01T23:15:00,2020-12-15T17:56:37,-8,"Override: Copy & Paste‌Source signal: Stage.Logger@09AA013, time shift: 00:00 minutes.‌",,Normal
+09AA013,Drift,HG,2020-08-28T16:30:00,2020-12-10T18:30:00,2023-02-14T17:22:06,-8,SRC - Drift btwn visits,"DriftPoints:(Offset:0,Time:2020-08-28T16:30:00Z);(Offset:0.004,Time:2020-12-10T18:30:00Z)",Normal
+09AA013,Drift,HG,2020-08-11T21:20:00,2020-08-28T16:10:00,2020-12-15T17:54:01,-8,SRC august 11 (0.000) to August 28 (-0.012)  visits,"DriftPoints:(Offset:0,Time:2020-08-11T21:20:00Z);(Offset:-0.016,Time:2020-08-28T16:10:00Z)",Normal
+09AA013,Drift,HG,2020-08-11T18:20:00,2020-08-11T21:10:00,2020-08-12T13:41:26,-8,reset never took place in field,"DriftPoints:(Offset:-1.544,Time:2020-08-11T18:20:00Z);(Offset:-1.536,Time:2020-08-11T21:10:00Z)",Normal
+09AA013,Offset,HG,2020-08-11T18:15:00,2020-08-11T21:10:00,2023-02-14T17:15:34,-8,Small period btwn resets,Offset:0.004,Normal
+09AA013,DeleteRegion,HG,2020-07-04T21:15:00,2020-07-04T21:15:00,2020-07-05T00:37:37,-8,SPIKE,,Normal
+09AA013,Drift,HG,2020-06-29T17:35:00,2020-08-11T18:13:35,2023-02-14T17:02:40,-8,SRC - drift corr between visits,"DriftPoints:(Offset:-0.007,Time:2020-06-29T17:35:00Z);(Offset:0,Time:2020-08-11T18:13:35Z)",Normal
+09AA013,DeleteRegion,HG,2020-05-24T21:35:00,2020-06-15T01:10:00,2021-05-03T15:55:07,-8,flat lining - BR,,Normal
+09AA013,CopyPaste,QR,2020-05-24T21:30:00,2020-06-29T17:45:00,2023-10-25T19:05:54,-8,Override: Moving Average Filter‌Window: 250.‌Iterations: 1.‌,,Normal
+09AA013,CopyPaste,HG,2020-02-19T23:40:00,2020-02-21T17:20:00,2023-02-15T15:38:39,-8,"Filling in missing dataOverride: Copy & Paste‌Source Data Set: Stage.Logger@09AA013, time shift: 00:00 minutes.‌",,PreProcessing
+09AA013,Offset,HG,2019-12-09T18:52:58,2020-05-29T03:22:02,2023-02-14T16:57:19,-8,"SRC - offset applied due to no valid HG data at next field visit, no orifice movements observed, offset corr probably accurate.",Offset:0.005,Normal
+09AA013,DeleteRegion,HG,2019-09-24T16:55:00,2019-09-24T16:55:00,2023-02-14T16:42:35,-8,Invalid data,,Normal
+09AA013,Drift,HG,2019-09-24T16:30:00,2019-12-09T18:50:00,2023-02-14T16:52:37,-8,"SRC btwn visits, used 1st DWL Dec 9th for corr, large change in stage on 2nd dwl, assumming 1st is more accurate.","DriftPoints:(Offset:0,Time:2019-09-24T16:30:00Z);(Offset:0.005,Time:2019-12-09T18:50:00Z)",Normal
+09AA013,Drift,HG,2019-03-27T18:30:00,2019-04-26T20:21:19,2023-02-14T16:32:01,-8,SRC - Drift btwn visits,"DriftPoints:(Offset:0.008,Time:2019-03-27T18:30:00Z);(Offset:-0.048,Time:2019-04-26T20:21:19Z)",Normal
+09AA013,PersistenceGapFill,QR,2019-03-19T15:35:00,2019-07-19T21:30:00,2023-02-14T21:17:06,-8,Filling gaps in Q record due to missing Stage record,"ResamplePeriod:PT2H,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+09AA013,Drift,HG,2019-02-11T19:56:24,2019-03-27T18:32:14,2023-02-14T16:16:15,-8,"SRC - Drift btwn visits, no logger data from time of DWL, trusting value written on note for SRC","DriftPoints:(Offset:0.006,Time:2019-02-11T19:56:24Z);(Offset:0.008,Time:2019-03-27T18:32:14Z)",Normal

@@ -1,0 +1,25 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+01BU002,36.00,New rating for 2020 to line up 2019 to 2022 mmt's. Suspected scour from removal of dam as curve was moving to the right each year after the dam was removed.,LogarithmicTable,Provisional/Provisoire,(0.56464:0.2331);(2.4133:0.298);(0.364);
+01BU002,35.01,Increased shift right at low end due to Jan 2018 rain event.,LogarithmicTable,Final/Finales,(0.5576:0.261);(2.4225:0.364);(0.364);
+01BU002,35.00,New rating based primarly on 2015 mmt results,LogarithmicTable,Final/Finales,(0.5576:0.261);(2.4225:0.364);(0.364);
+01BU002,34.000-SC7,,LinearTable,Final/Finales,
+01BU002,34.000-SC6,,LinearTable,Final/Finales,
+01BU002,34.000-SC5,,LinearTable,Final/Finales,
+01BU002,34.000,2010 use SBS# 7 from Jan 1/10 to Dec 31/10,LinearTable,Final/Finales,
+01BU002,33.000-SC4,,LinearTable,Final/Finales,
+01BU002,33.000,Low medium curve change,LinearTable,Final/Finales,
+01BU002,32.000,"Low water change, same as tbl 31 above 0.65 m",LinearTable,Final/Finales,
+01BU002,31.000,Low Water Curve Change and High Water Refinement,LinearTable,Final/Finales,
+01BU002,30.000,Same as curve 29 below 0.600 meters,LinearTable,Final/Finales,
+01BU002,29.000,LOW END REFINEMENT ONLY SAME AS 29 ABOVE 0.550M,LinearTable,Final/Finales,
+01BU002,28.000,LOW WATER CHANGE BELOW 0.80 BASED ON 2000 MM,LinearTable,Final/Finales,
+01BU002,27.000,,LinearTable,Final/Finales,
+01BU002,27.000-SC3,,LinearTable,Final/Finales,
+01BU002,26.000,,LinearTable,Final/Finales,
+01BU002,26.000-SC2,,LinearTable,Final/Finales,
+01BU002,25.000,,LinearTable,Final/Finales,
+01BU002,25.000-SC1,,LinearTable,Final/Finales,
+01BU002,24.000,,LinearTable,Final/Finales,
+01BU002,23.000,,LinearTable,Final/Finales,
+01BU002,22.000,,LinearTable,Final/Finales,
+01BU002,21.000,,LinearTable,Final/Finales,

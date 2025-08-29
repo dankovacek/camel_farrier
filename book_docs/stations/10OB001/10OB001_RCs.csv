@@ -1,0 +1,12 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10OB001,6.000,,LogarithmicTable,Provisional/Provisoire,(1.01);
+10OB001,5.0,,LogarithmicTable,Provisional/Provisoire,(1.45);
+10OB001,4.000,Same as 3 above 5.6 m. Log-Log used  to define top,LinearTable,Final/Finales,
+10OB001,4.000-SC5,,LinearTable,Provisional/Provisoire,
+10OB001,4.000-SC3,,LinearTable,Final/Finales,
+10OB001,3.000-SC2,,LinearTable,Final/Finales,
+10OB001,3.000-SC1,,LinearTable,Final/Finales,
+10OB001,3.000,,LinearTable,Final/Finales,
+10OB001,2.100,,LinearTable,Final/Finales,
+10OB001,2.000,,LinearTable,Final/Finales,
+10OB001,1.000,,LinearTable,Final/Finales,

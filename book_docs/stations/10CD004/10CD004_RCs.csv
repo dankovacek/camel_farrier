@@ -1,0 +1,31 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10CD004,47.0,Created using 2023 open water measurements. The upper end is defined by the historic 2017 high water measurement. The lower end is defined by a historic low water measurement collected in September 2023.,LogarithmicTable,Provisional/Provisoire,(1.37);
+10CD004,46.0,Created using 2021 and May 2022 open water measurements.  The upper end is defined by the historic 2017 high water measurement.,LogarithmicTable,Final/Finales,(1.439);
+10CD004,45.0,Curve for the only 3 open-water mmts.in 2018 before a beaver started building a dam in August 2018.,LogarithmicTable,Final/Finales,(1.618);
+10CD004,44.0,"This curve has been constructed due to a new gauging pool ~80m U/S - it is originally a cloned curve made by Kirt Shuman in 2016, but ammended to take into account 2017 measurements taken the following year.",LogarithmicTable,Final/Finales,(1.589);
+10CD004,43.0,"Curve 44.000 was created to meet changing conditions for the 2015/2016 years up until the documented gauge pool change on July 24th, 2016. The curve was built using 2015 and 2016 open water measurements.",LogarithmicTable,Final/Finales,(1.66:1.3);(1.55);
+10CD004,42.0,Shift during Ice. Breakpoint based on convergence of measurements and assumed influence of gravel bar on control.,LogarithmicTable,Final/Finales,(1.8:1.32);(1.64);
+10CD004,41.0,Curve change after orifice moved upstream,LogarithmicTable,Final/Finales,(1.621:1.289);(1.33);
+10CD004,40.0,APPROVED Coinc w/ table #39. ab 2.150m,LinearTable,Final/Finales,
+10CD004,39.0,Coinicdent with table #37. at & above 1.45m,LinearTable,Final/Finales,
+10CD004,38.0,Coincident with table #37. at & above 2.05m,LinearTable,Final/Finales,
+10CD004,37.0,Coincident with table #25 and  #26 above 1.800 m,LinearTable,Final/Finales,
+10CD004,36.0,Coincident to table $35 at and above 1.800m,LinearTable,Final/Finales,
+10CD004,35.0,,LinearTable,Final/Finales,
+10CD004,34.0,COINCIDENT# 33 BEL.1.55 ABV.1.95,LinearTable,Final/Finales,
+10CD004,33.0,,LinearTable,Final/Finales,
+10CD004,32.0,,LinearTable,Final/Finales,
+10CD004,31.0,,LinearTable,Final/Finales,
+10CD004,30.0,,LinearTable,Final/Finales,
+10CD004,29.0,,LinearTable,Final/Finales,
+10CD004,28.0,,LinearTable,Final/Finales,
+10CD004,27.0,,LinearTable,Final/Finales,
+10CD004,26.0,,LinearTable,Final/Finales,
+10CD004,25.0,,LinearTable,Final/Finales,
+10CD004,24.0,,LinearTable,Final/Finales,
+10CD004,23.0,,LinearTable,Final/Finales,
+10CD004,22.0,,LinearTable,Final/Finales,
+10CD004,21.0,,LinearTable,Final/Finales,
+10CD004,20.0,,LinearTable,Final/Finales,
+10CD004,19.0,,LinearTable,Final/Finales,
+10CD004,18.0,,LinearTable,Final/Finales,

@@ -1,0 +1,9 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07DA008,9.000,New Curve,LogarithmicTable,Provisional/Provisoire,(1.8165:1.1);(0.65);
+07DA008,8.000,Same as 7.0 below 3.500m,LinearTable,Final/Finales,
+07DA008,7.000,HQFIT1.0,LinearTable,Final/Finales,
+07DA008,6.000,,LinearTable,Final/Finales,
+07DA008,6.000-SC2,,LinearTable,Final/Finales,
+07DA008,5.000,,LinearTable,Final/Finales,
+07DA008,5.000-SC1,,LinearTable,Final/Finales,
+07DA008,4.000,,LinearTable,Final/Finales,

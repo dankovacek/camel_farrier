@@ -1,0 +1,22 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08EE013,43.000,clone of curve 42.000 and slightly adjusted rating points for 2018 data which indicated filling of control had occurred,LogarithmicTable,Provisional/Provisoire,(0.159);
+08EE013,42.000,"clone of curve 41.000, with extended range and slightly adjusted rating points for 2017 and 2018 data",LogarithmicTable,Final/Finales,(0.168);
+08EE013,41.000,Shift to left during ice period.,LogarithmicTable,Final/Finales,(0.168);
+08EE013,40.000,New curve created during ice period - lower end adjusted for low flow observed in 2014 - removed rating point at mid stage (limited supporting evidence),LogarithmicTable,Final/Finales,(1.5:0.131);(0.15);
+08EE013,39.00,,LogarithmicTable,Final/Finales,(0.472:0.204);(0.217);
+08EE013,38.00,Shift to new curve at peak,LogarithmicTable,Final/Finales,(0.208);
+08EE013,37.00,Extend curve 37.00,LinearTable,Final/Finales,
+08EE013,37.000,Approved: Shift during ice,LinearTable,Final/Finales,
+08EE013,36.000,APPROVED Shift during ice period,LinearTable,Final/Finales,
+08EE013,35.000,APPROVED: Shift during ice period with TB SC,LinearTable,Final/Finales,
+08EE013,34.000,APPROVED- SHIFT DURING ICE PERIOD,LinearTable,Final/Finales,
+08EE013,33.000,APPROVED,LinearTable,Final/Finales,
+08EE013,32.000,,LinearTable,Final/Finales,
+08EE013,31.000,,LinearTable,Final/Finales,
+08EE013,30.000,,LinearTable,Final/Finales,
+08EE013,29.000,,LinearTable,Final/Finales,
+08EE013,28.000,,LinearTable,Final/Finales,
+08EE013,27.000,,LinearTable,Final/Finales,
+08EE013,27.000-SC1,,LinearTable,Final/Finales,
+08EE013,26.000,,LinearTable,Final/Finales,
+08EE013,25.000,,LinearTable,Final/Finales,

@@ -1,0 +1,18 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02GE008,11.000,Rating Curve 10.000 has a low to medium end curve change as a result of scour.,LogarithmicTable,Provisional/Provisoire,(5.3106:4.465);(4.57);
+02GE008,10.000,Rating Curve 10.000 has a low end curve change as a result of the spring freshet in March of 2015. This event had scoured the control at the low end. Minor adjustments were made at the high end to accomodate for a easier transition.,LogarithmicTable,Final/Finales,(5.3371:4.475);(4.57);
+02GE008,9.00,HWS Curve (Scour),LogarithmicTable,Final/Finales,(5.36189:4.535);(4.57);
+02GE008,8.000,Same as #7 above 4.89 m.,LinearTable,Final/Finales,
+02GE008,8.000-SC7,,LinearTable,Final/Finales,
+02GE008,7.000,Same as #6 above 4.89 m.,LinearTable,Final/Finales,
+02GE008,6.000,Same as #5 above 5.20 m.,LinearTable,Final/Finales,
+02GE008,5.000,Same as #4 above 4.80 m.,LinearTable,Final/Finales,
+02GE008,5.000-SC6,,LinearTable,Final/Finales,
+02GE008,4.000-SC5,,LinearTable,Final/Finales,
+02GE008,4.000,,LinearTable,Final/Finales,
+02GE008,4.000-SC3,,LinearTable,Final/Finales,
+02GE008,3.000,,LinearTable,Final/Finales,
+02GE008,3.000-SC2,,LinearTable,Final/Finales,
+02GE008,2.000-SC1,,LinearTable,Final/Finales,
+02GE008,2.000,,LinearTable,Final/Finales,
+02GE008,1.000,,LinearTable,Final/Finales,

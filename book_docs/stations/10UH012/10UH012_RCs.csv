@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10UH012,3.0,,LogarithmicTable,Provisional/Provisoire,(9.876:9.629);(9.76);
+10UH012,2.1,"HQ FIT, zero flow estimate of 9.54 from 11/04/2010.  Curve extended as a result of high, open water mmnts on June 22, 2011",LinearTable,Provisional/Provisoire,
+10UH012,2.0,"HQ FIT, zero flow estimate of 9.54 from 11/04/2010",LinearTable,Provisional/Provisoire,
+10UH012,1.0,Preliminary Curve using HQ FIT,LinearTable,Final/Finales,

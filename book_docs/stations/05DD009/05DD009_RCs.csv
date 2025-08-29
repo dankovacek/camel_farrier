@@ -1,0 +1,9 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05DD009,12.001,Extending the previous curve based on high water in June 2023. graded as estimated above 3.38m,LogarithmicTable,Provisional/Provisoire,(1.276:0.7);(0.753);
+05DD009,12.0,"New curve as the log jam on right bank grew, natural deposition and a first log-log rating. MDF",LogarithmicTable,Final/Finales,(1.276:0.7);(0.753);
+05DD009,11.0,Curve #11 is the same as Curve #9,LinearTable,Final/Finales,
+05DD009,10.0,Curve No10 same asNo 9 Below GHT 0.795 Above 2.035,LinearTable,Final/Finales,
+05DD009,9.0,,LinearTable,Final/Finales,
+05DD009,8.0,,LinearTable,Final/Finales,
+05DD009,7.0,,LinearTable,Final/Finales,
+05DD009,6.0,,LinearTable,Final/Finales,

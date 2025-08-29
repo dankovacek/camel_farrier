@@ -1,0 +1,11 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07GB003,7.000,"Channel scoured in 2020, lowered section control segment. No change to section control from Curve 6.01.",LogarithmicTable,Provisional/Provisoire,(2.05:0.98);(1.06);
+07GB003,6.01,Needed to slightly lower the bottom end of curve; used  Q HG calc.- no change.,LogarithmicTable,Final/Finales,(2.05:0.98);(1.06);
+07GB003,6.00,,LogarithmicTable,Final/Finales,(2.05:0.98);(1.06);
+07GB003,5.000,Same as Table #4 below 1.210m and above 3.253m.,LinearTable,Final/Finales,
+07GB003,5.001,Same as Table #4 below 1.210m and above 3.253m. Changed number from C5.0 to 5.001,LinearTable,Final/Finales,
+07GB003,5.000-SC2,,LinearTable,Final/Finales,
+07GB003,5.000-SC1,,LinearTable,Final/Finales,
+07GB003,4.000,,LinearTable,Final/Finales,
+07GB003,3.000,,LinearTable,Final/Finales,
+07GB003,2.000,,LinearTable,Final/Finales,

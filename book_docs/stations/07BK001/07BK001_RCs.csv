@@ -1,0 +1,6 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07BK001,7.00,,LogarithmicTable,Provisional/Provisoire,(575.5);
+07BK001,6.000,,LinearTable,Final/Finales,
+07BK001,6.000-SC1,,LinearTable,Final/Finales,
+07BK001,5.000,,LinearTable,Final/Finales,
+07BK001,4.000,,LinearTable,Final/Finales,

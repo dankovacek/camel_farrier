@@ -1,0 +1,10 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10ED007,9.000,"Formerly rating curve 10.000, renamed after Curve 9.000 developed during COVID in 2020 was ultimately decomissioned after being found insufficient compared to the then rating curve 10.000 developed with data collected in 2021. Rating curve 9.000 is a single equation curve that fits well with measurements both recent and historical. There is a little bit of uncertainty and spread with a large number of measurements plotting just outside of the curves limits. The low end of the curve also requires further development.",LogarithmicTable,Provisional/Provisoire,(3.245);
+10ED007,8.0,,LogarithmicTable,Final/Finales,(3.4477:3.03);(3.305);
+10ED007,7.0,,LogarithmicTable,Provisional/Provisoire,(3.4477:3.03);(3.305);
+10ED007,6.0,,LogarithmicTable,Provisional/Provisoire,(-3.1);
+10ED007,5.000,HQFIT1.0.  Top confirmed by log-log. ZF = 3.1m,LinearTable,Provisional/Provisoire,
+10ED007,4.000,Same as 3 below 5.4 m. E above 260 m3/s,LinearTable,Final/Finales,
+10ED007,3.000,Log-log for top,LinearTable,Final/Finales,
+10ED007,3.000-SC1,,LinearTable,Final/Finales,
+10ED007,2.000,,LinearTable,Final/Finales,

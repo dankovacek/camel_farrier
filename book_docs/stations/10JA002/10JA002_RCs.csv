@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10JA002,5.01,Clone of 5.0 to adjust curve confidence grading,LogarithmicTable,Provisional/Provisoire,(1.43);
+10JA002,5.0,,LogarithmicTable,Provisional/Provisoire,(1.43);
+10JA002,4.0,Upper end refined using 2012 high water measurements.,LinearTable,Provisional/Provisoire,
+10JA002,3.0,High water extension determined by log plot.,LinearTable,Provisional/Provisoire,

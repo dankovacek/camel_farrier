@@ -1,0 +1,44 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+05PJ001,CopyPaste,HG,2023-11-06T01:15:00,2023-11-06T07:20:00,2024-01-19T14:57:45,-6,"FILL TX GAP WITH LOGGER DATAOverride: Copy & Paste‌Source Data Set: Stage.Logger@05PJ001, time shift: 00:00 minutes.‌",,PreProcessing
+05PJ001,Drift,HG,2023-10-25T16:20:00,2024-01-18T16:55:00,2024-01-19T14:55:24,-6,"SRC OCT TO JAN, RESET","DriftPoints:(Offset:0,Time:2023-10-25T16:20:00Z);(Offset:0.008,Time:2024-01-18T16:55:00Z)",Normal
+05PJ001,Drift,HG,2023-05-16T15:35:00,2023-10-25T16:15:00,2023-10-26T18:26:08,-6,SRC - VISIT TO VISIT - RESET,"DriftPoints:(Offset:0,Time:2023-05-16T15:35:00Z);(Offset:0.01,Time:2023-10-25T16:15:00Z)",Normal
+05PJ001,Drift,HG,2023-03-01T16:45:00,2023-05-16T15:30:00,2023-05-17T17:00:21,-6,SRC Reset May 16,"DriftPoints:(Offset:0,Time:2023-03-01T16:45:00Z);(Offset:0.013,Time:2023-05-16T15:30:00Z)",Normal
+05PJ001,Drift,HG,2023-01-26T17:40:00,2023-03-01T16:40:00,2023-01-26T23:27:23,-6,SRC Reset Mar 1,"DriftPoints:(Offset:0.004,Time:2023-01-26T17:40:00Z);(Offset:0,Time:2023-03-01T16:40:00Z)",Normal
+05PJ001,DeleteRegion,HG,2022-12-03T20:35:00,2022-12-03T20:35:00,2022-12-05T14:11:13,-6,spike,,Normal
+05PJ001,DeleteRegion,HG,2022-10-28T16:45:00,2022-10-28T16:45:00,2022-10-31T13:27:15,-6,spike,,Normal
+05PJ001,Drift,HG,2022-10-24T19:55:00,2023-01-26T17:35:00,2023-01-26T23:26:37,-6,SRC - visit to visit,"DriftPoints:(Offset:0,Time:2022-10-24T19:55:00Z);(Offset:0.004,Time:2023-01-26T17:35:00Z)",Normal
+05PJ001,DeleteRegion,HG,2022-10-24T19:40:00,2022-10-24T19:40:00,2022-10-26T13:20:39,-6,spike,,Normal
+05PJ001,DeleteRegion,HG,2022-10-05T23:55:00,2022-10-24T19:50:00,2022-10-27T17:07:46,-6,sensor Atmospheric,,Normal
+05PJ001,CopyPaste,QR,2022-10-05T16:50:00,2022-10-24T19:55:00,2023-08-03T13:02:03,-6,Estimating short period of missing record when orifice was atmoshpericOverride: Freehand‌,,Normal
+05PJ001,DeleteRegion,HG,2022-07-31T15:05:00,2022-07-31T15:05:00,2022-08-02T18:01:28,-6,INVALID: SPIKE,,Normal
+05PJ001,DeleteRegion,HG,2022-06-27T12:20:00,2022-06-29T16:10:00,2022-06-30T13:31:03,-6,atmospheric,,Normal
+05PJ001,DeleteRegion,HG,2022-06-21T16:30:00,2022-06-27T12:15:00,2022-06-27T14:45:33,-6,invalid - atmospheric,,Normal
+05PJ001,DeleteRegion,HG,2022-06-07T20:50:00,2022-06-21T16:25:00,2023-11-27T16:20:24,-6,"INVALID WATER LEVEL, DOES NOT TREND PROPERLY WHEN COMPARED TO 05RA001 AND DOESNT MAKE SENSE SINCE IT WAS ATMOSPHERIC JUNE 21. ",,Normal
+05PJ001,CopyPaste,QR,2022-06-07T20:45:00,2022-06-29T16:15:00,2023-11-27T17:01:43,-6,"ESTIMATED DISCHARGE DURING PERIOD OF INVALID WATER LEVEL, USED 05RA001 AS COMPARISON.Override: Freehand‌",,Normal
+05PJ001,CopyPaste,QR,2022-05-08T18:30:00,2022-05-10T15:30:00,2023-11-27T17:05:27,-6,"ADJUSTED DISCHARGE AT PEAK, BLENDING BETWEEN 2 SHIFTS. Override: Freehand‌",,Normal
+05PJ001,DeleteRegion,HG,2022-05-05T18:35:00,2022-05-05T18:45:00,2022-05-05T19:28:38,-6,"DELETE REGION, MAINTENANCE",,Normal
+05PJ001,Drift,HG,2022-05-05T16:55:00,2022-05-24T19:00:00,2022-05-25T12:49:32,-6,SRC- visit to visit. Block possibly pulled during high water. Distributed error over time with drift correction,"DriftPoints:(Offset:0,Time:2022-05-05T16:55:00Z);(Offset:-0.068,Time:2022-05-24T19:00:00Z)",Normal
+05PJ001,DeleteRegion,HG,2022-05-05T16:15:00,2022-05-05T16:50:00,2022-05-05T17:33:08,-6,"DELETE REGION, MAINTENANCE",,Normal
+05PJ001,DeleteRegion,HG,2022-05-04T10:35:00,2022-05-04T11:20:00,2022-05-05T20:46:42,-6,"DELETE REGION, GAUGE SUBMERGED",,Normal
+05PJ001,FillGaps,QR,2022-05-04T10:30:00,2022-05-05T16:55:00,2023-10-30T20:19:27,-6,FILLING SHOORT PERIOD OF RECORD,"ResamplePeriod:PT5M,GapLimit:MaxDuration",Normal
+05PJ001,Drift,HG,2022-04-29T16:50:00,2022-05-04T10:35:00,2022-04-29T18:06:49,-6,SRC - carried to when gauge is flooded/equipment flooded.,"DriftPoints:(Offset:0.005,Time:2022-04-29T16:50:00Z);(Offset:0.005,Time:2022-05-04T10:35:00Z)",Normal
+05PJ001,Drift,HG,2022-04-29T15:50:00,2022-04-29T16:45:00,2023-11-27T14:58:20,-6,SRC DURING VISIT,"DriftPoints:(Offset:-0.006,Time:2022-04-29T15:50:00Z);(Offset:0.005,Time:2022-04-29T16:45:00Z)",Normal
+05PJ001,Drift,HG,2022-03-10T18:55:00,2022-04-29T15:45:00,2022-04-29T18:06:08,-6,SRC VISIT TO VISIT NR,"DriftPoints:(Offset:-0.006,Time:2022-03-10T18:55:00Z);(Offset:-0.006,Time:2022-04-29T15:45:00Z)",Normal
+05PJ001,Offset,HG,2022-01-01T06:00:00,2022-03-10T18:50:00,2023-10-30T19:52:16,-6,SRC - applied back to start of operation,Offset:-0.006,Normal
+05PJ001,ThresholdSuppression,HG,2021-11-01T06:00:00,2022-01-01T05:59:00,2021-11-01T14:24:13,-6,out of operation 2021 ThresholdAbove 0 out of operation 2021,"Threshold:0,ThresholdTrimType:TrimValuesAboveThreshold",Suppression
+05PJ001,Offset,HG,2021-10-20T14:40:00,2021-11-01T05:59:59,2021-10-21T17:12:59,-6,SRC PROJECTED TO END OF 2021 OPERATING PERIOD,Offset:-0.002,Normal
+05PJ001,Drift,HG,2021-08-12T13:45:00,2021-10-20T14:35:00,2021-10-21T17:11:54,-6,SRC VISIT TO VISIT,"DriftPoints:(Offset:-0.003,Time:2021-08-12T13:45:00Z);(Offset:-0.002,Time:2021-10-20T14:35:00Z)",Normal
+05PJ001,Drift,HG,2021-06-15T16:50:00,2021-08-12T13:40:00,2021-08-13T21:03:19,-6,SRC VISIT TO VISIT - BLENDED,"DriftPoints:(Offset:0.001,Time:2021-06-15T16:50:00Z);(Offset:-0.003,Time:2021-08-12T13:40:00Z)",Normal
+05PJ001,Drift,HG,2021-03-10T17:30:00,2021-06-15T16:45:00,2021-03-11T16:39:30,-6,"SRC VISIT TO VISIT - NR - Drift Correction of (Date/Time, Diff): (2021-03-10 11:30:00, -0.003m), (2021-06-15 10:45:00, 0.001m)","DriftPoints:(Offset:-0.003,Time:2021-03-10T17:30:00Z);(Offset:0.001,Time:2021-06-15T16:45:00Z)",Normal
+05PJ001,SinglePoint,QR,2021-03-01T05:59:59,2021-03-01T05:59:59,2021-03-11T16:50:16,-6,Use point as start of estimate for period March 01-10,Value:1.75,PreProcessing
+05PJ001,DeleteRegion,QR,2021-03-01T05:59:59,2021-03-01T05:59:59,2023-01-13T20:24:30,-6,erroneous estimation date,,Normal
+05PJ001,CopyPaste,QR,2021-03-01T05:59:59,2021-03-10T17:30:00,2021-03-11T16:52:56,-6,Estimate flow for early March due to dead battery. Estimate based upon March 10 discharge measurementOverride: Freehand‌,,Normal
+05PJ001,AdjustableTrim,HG,2020-11-23T14:39:40,2021-02-27T09:48:16,2020-12-24T14:07:57,-6,TEMPORARY,"UpperThresholdPoints:(Time:2020-11-23T14:39:40.0000002Z,Value:-0.5277);(Time:2021-02-27T09:48:15.9999999Z,Value:-0.5277),TrimAction:Delete",Normal
+05PJ001,ThresholdSuppression,HG,2020-11-01T06:00:00,2021-03-01T06:00:00,2020-11-02T15:12:43,-6,out of operation 2020 ThresholdAbove 0 out of operation,"Threshold:0,ThresholdTrimType:TrimValuesAboveThreshold",Suppression
+05PJ001,Drift,HG,2020-09-11T20:20:00,2020-11-01T06:00:00,2020-09-29T16:29:35,-6,"SRC CARRIED FWD TO END OF OPERATING PERIOD      Drift Correction of (Date/Time, Diff): (2020-09-11 14:20:00, 0.002m), (2020-11-01 00:00:00, 0.002m)","DriftPoints:(Offset:0.002,Time:2020-09-11T20:20:00Z);(Offset:0.002,Time:2020-11-01T06:00:00Z)",Normal
+05PJ001,DeleteRegion,HG,2020-09-11T19:40:00,2020-09-11T19:40:00,2020-09-14T13:36:05,-6,Delete region,,Normal
+05PJ001,Drift,HG,2020-07-21T20:45:00,2020-09-11T20:15:00,2020-07-23T20:02:13,-6,"BLENDED SRC; VISIT TO VISIT    SRC   Drift Correction of (Date/Time, Diff): (2020-07-21 14:45:00, 0.000m), (2020-10-22 07:30:00, 0.000m)","DriftPoints:(Offset:0,Time:2020-07-21T20:45:00Z);(Offset:0.002,Time:2020-09-11T20:15:00Z)",Normal
+05PJ001,Drift,HG,2020-04-27T17:20:00,2020-07-21T20:40:00,2020-07-23T19:59:20,-6,"BLENDED SRC, VISIT TO VISIT   Drift Correction of (Date/Time, Diff): (2020-04-27 11:20:00, 0.000m), (2020-07-21 14:40:00, 0.000m)","DriftPoints:(Offset:0,Time:2020-04-27T17:20:00Z);(Offset:0,Time:2020-07-21T20:40:00Z)",Normal
+05PJ001,CopyPaste,HG,2020-03-10T09:15:00,2020-03-10T11:20:00,2021-02-25T14:49:03,-6,FILL TELEMETRY GAP   Copy and Paste from Stage.Logger@05PJ001,,PreProcessing
+05PJ001,Drift,HG,2020-02-27T20:41:00,2020-04-27T17:16:00,2020-07-23T19:56:43,-6,"BLENDED SRC, VISIT TO VISIT   Drift Correction of (Date/Time, Diff): (2020-02-27 14:41:00, 0.000m), (2020-04-27 11:16:00, 0.002m)","DriftPoints:(Offset:0,Time:2020-02-27T20:41:00Z);(Offset:0.002,Time:2020-04-27T17:16:00Z)",Normal
+05PJ001,ThresholdSuppression,HG,2019-11-11T06:00:00,2020-03-01T06:00:00,2019-12-10T21:08:08,-6,2019 operating period ThresholdAbove 0 8 month only station out of operation,"Threshold:0,ThresholdTrimType:TrimValuesAboveThreshold",Suppression

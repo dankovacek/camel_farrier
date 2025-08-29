@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05PC023_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "05PC023", "NameNom": "PINEWOOD RIVER AT HIGHWAY NO. 617", "Status": "active", "Etat": "en service", "ProvTerr": "ON" }, "geometry": { "type": "Point", "coordinates": [ -94.18491, 48.79807 ] } }
+]
+}

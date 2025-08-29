@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07CE003_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07CE003", "NameNom": "PONY CREEK NEAR CHARD", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -110.91689, 55.8699 ] } }
+]
+}

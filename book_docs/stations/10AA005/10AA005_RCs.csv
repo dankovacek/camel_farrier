@@ -1,0 +1,14 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10AA005,16.0,"- Two rating point, single segment, logarithmic curve.  - Covers historical range of stage and discharge.  - Estimated grade applied at upper end. Applied above 248cms/6.5m (153cms X 2 = 306cms/6.918m). While the 2012-06-08 measurement appears to have no backwater influence at a gauge height of 6.223m, it is assumed that at some point backwater effects due to shore vegetation will take place. BM 5 (Bolt on RB D/S abutment below BM 6) is at an elevation of 6.980m and the shelter is at approximately 5.5m. Due to the value of 6.223m appearing to still act as control-clear, the value of 6.5m has been chosen as the point in which to apply the 'Estimated' grade.  - Estimated grade applied at lower end. Applied below 0.505cms (1.01cms / 2 = 0.505cms) and curve extended to 0.1cms/3.055m.  - 32 of 47 control-clear measurements since 2012 plot within 5% (outlier measurements excluded: 2017-05-16, 2017-09-28, & 2019-07-02; other measurements on this field trip with this unit are obvious outliers; see 2019-07-04 10BE009 - TEETER CREEK NEAR THE MOUTH).  - RMS (residual mean squares) for control-clear measurements is 4.5.",LogarithmicTable,Provisional/Provisoire,(3);
+10AA005,15.0,new relationship...top to bottom,LogarithmicTable,Final/Finales,(3.11);
+10AA005,14.0,,LogarithmicTable,Final/Finales,(3.11);
+10AA005,13.0,,LogarithmicTable,Final/Finales,(3.11);
+10AA005,12.0,,LogarithmicTable,Final/Finales,(3.12);
+10AA005,11.0,APPROVED coincidence with table # 10 @ 3.375m,LinearTable,Final/Finales,
+10AA005,10.0,no coincidence but intersect @ ~ 3.600m & 3.700m,LinearTable,Final/Finales,
+10AA005,9.0,concurs w/table 8 @/above3.960m,LinearTable,Final/Finales,
+10AA005,8.0,,LinearTable,Final/Finales,
+10AA005,7.0,,LinearTable,Final/Finales,
+10AA005,6.0,,LinearTable,Final/Finales,
+10AA005,5.0,,LinearTable,Final/Finales,
+10AA005,4.0,,LinearTable,Final/Finales,

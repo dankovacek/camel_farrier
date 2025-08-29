@@ -1,0 +1,11 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02CG003,11.00,Extending curve 10.00 to cover high water,LogarithmicTable,Provisional/Provisoire,(8.12519:7.57);(7.62);
+02CG003,10.000,Testing breakpoint,LogarithmicTable,Final/Finales,(8.12294:7.57);(7.62);
+02CG003,9.000,,LogarithmicTable,Final/Finales,(7.599);
+02CG003,8.000,,LogarithmicTable,Final/Finales,(8.01218:7.769);(7.87);
+02CG003,7.000,,LinearTable,Final/Finales,
+02CG003,6.000-SC1,,LinearTable,Final/Finales,
+02CG003,6.000,,LinearTable,Final/Finales,
+02CG003,5.000,Station discontinued.,LinearTable,Final/Finales,
+02CG003,4.000,,LinearTable,Final/Finales,
+02CG003,3.000,,LinearTable,Final/Finales,

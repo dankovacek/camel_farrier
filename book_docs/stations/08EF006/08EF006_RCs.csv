@@ -1,0 +1,29 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08EF006,25.00,Curve created using high water mmts obtained in 2022 which suggested the curve has shifted to the left,LogarithmicTable,Provisional/Provisoire,(2.913);
+08EF006,24.00,Shift during non-operational period.,LogarithmicTable,Final/Finales,(2.9);
+08EF006,23.02,Shift during non-operational period.,LogarithmicTable,Final/Finales,(2.865);
+08EF006,23.01,Shift during non-operational period.,LogarithmicTable,Final/Finales,(2.865);
+08EF006,23.000,Shift during non-operational period.,LogarithmicTable,Final/Finales,(2.865);
+08EF006,22.0,Shift during non-operational period.,LogarithmicTable,Final/Finales,(2.924);
+08EF006,21.0,New curve for 2013 and 2014 data.,LogarithmicTable,Final/Finales,(2.954);
+08EF006,20.000,Shift during non-operational period,LogarithmicTable,Final/Finales,(2.924);
+08EF006,19.000,Shift during non-operational period,LogarithmicTable,Final/Finales,(2.909);
+08EF006,18.000,Approved - Shift at HW,LinearTable,Final/Finales,
+08EF006,17.000,prelim - Shift during non-operational period.,LinearTable,Final/Finales,
+08EF006,16.000,Approved - Shift during non-operational period.,LinearTable,Final/Finales,
+08EF006,15.000,Approved: Shift during non-operational period.,LinearTable,Final/Finales,
+08EF006,14.000,APPROVED: Shift at HW due to scour.,LinearTable,Final/Finales,
+08EF006,13.000,APPROVED Shift at ighWater.Extended curve 07-11-24,LinearTable,Final/Finales,
+08EF006,12.000,Shift during non-operational period,LinearTable,Final/Finales,
+08EF006,11.000,Shift during non-operational period.,LinearTable,Final/Finales,
+08EF006,10.000,Shift during non-operational period.,LinearTable,Final/Finales,
+08EF006,9.000,,LinearTable,Final/Finales,
+08EF006,8.000-SC1,,LinearTable,Final/Finales,
+08EF006,8.000,,LinearTable,Final/Finales,
+08EF006,7.000,Highwater shift from curve 6,LinearTable,Final/Finales,
+08EF006,6.000,Highwater shift to curve 7,LinearTable,Final/Finales,
+08EF006,5.000,,LinearTable,Final/Finales,
+08EF006,4.000,,LinearTable,Final/Finales,
+08EF006,3.000,,LinearTable,Final/Finales,
+08EF006,2.000,,LinearTable,Final/Finales,
+08EF006,1.000,,LinearTable,Final/Finales,

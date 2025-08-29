@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10UH001,8.0,,LogarithmicTable,Provisional/Provisoire,(2.05);
+10UH001,7.0,Renamed 6.10.  High end based on log-log.,LinearTable,Provisional/Provisoire,
+10UH001,6.1,,LinearTable,Final/Finales,
+10UH001,6.0,,LinearTable,Final/Finales,

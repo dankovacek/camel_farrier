@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NG077_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NG077", "NameNom": "ST. MARY RIVER BELOW MORRIS CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -116.43503, 49.73751 ] } }
+]
+}

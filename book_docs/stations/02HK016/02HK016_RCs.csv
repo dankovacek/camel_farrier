@@ -1,0 +1,7 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02HK016,3.00,Curve drawn using control clear measurements.  Offsets and slopes reflect conditions better that first RDT curve.,LogarithmicTable,Provisional/Provisoire,(2.26872:1.946);(1.97);
+02HK016,2.000,First curve using RDT.,LogarithmicTable,Final/Finales,(1.9);
+02HK016,1.000-SC4,,LinearTable,Final/Finales,
+02HK016,1.000-SC2,,LinearTable,Final/Finales,
+02HK016,1.000-SC1,,LinearTable,Final/Finales,
+02HK016,1.000,Curve above HG 2.600 estimated from log/log plot.,LinearTable,Final/Finales,

@@ -1,0 +1,94 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+10ED009,CopyPaste,HG,2023-10-18T16:25:00,2023-12-19T12:40:00,2024-01-11T23:51:35,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10ED009, time shift: 00:00 minutes.‌",,PreProcessing
+10ED009,CopyPaste,QR,2023-05-04T21:30:00,2023-05-05T08:15:00,2023-10-17T20:15:55,-7,Estimated Start of Open Water TransitionOverride: Linear‌Q(t) = (2.188660676828656)t + 1.1074744264455845‌,,Normal
+10ED009,CopyPaste,QR,2023-04-30T01:45:00,2023-05-04T22:00:00,2023-10-17T20:14:15,-7,Estimated End of Zero FlowOverride: Linear‌Q(t) = (0.4856500548080006)t + 0‌,,Normal
+10ED009,CopyPaste,HG,2023-04-05T16:45:00,2023-06-02T16:50:00,2023-06-05T23:07:15,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10ED009, time shift: 00:00 minutes.‌",,PreProcessing
+10ED009,Drift,HG,2023-04-05T16:45:00,2023-06-02T16:50:00,2023-06-05T23:08:28,-7,SRC - VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2023-04-05T16:45:00Z);(Offset:-0.007,Time:2023-06-02T16:50:00Z)",Normal
+10ED009,CopyPaste,QR,2023-04-05T16:15:00,2023-04-30T07:00:00,2023-10-17T20:12:48,-7,Assumed Zero Flow Trend ContinuesOverride: Linear‌Q(t) = (0)t + 0‌,,Normal
+10ED009,AdjustableTrim,HG,2023-02-25T18:55:00,2023-03-15T09:50:00,2023-03-15T15:16:25,-7,,"LowerThresholdPoints:(Time:2023-02-25T18:55:00Z,Value:3.3279422704987254);(Time:2023-03-15T09:50:00Z,Value:3.2896398370518245),TrimAction:Delete",Normal
+10ED009,DeleteRegion,HG,2023-01-30T00:50:00,2023-01-30T00:50:00,2023-02-06T15:19:57,-7,deleting telemetry spikes,,Normal
+10ED009,DeleteRegion,HG,2023-01-27T23:00:00,2023-01-27T23:10:00,2023-02-06T15:19:22,-7,deleting telemetry spikes,,Normal
+10ED009,DeleteRegion,HG,2023-01-27T19:25:00,2023-01-27T19:25:00,2023-02-06T15:19:03,-7,Deleting telemetry Spikes,,Normal
+10ED009,CopyPaste,QR,2023-01-17T13:15:00,2023-04-05T16:45:00,2023-10-17T20:06:17,-7,Zero Flow Estimate 2023Override: Linear‌Q(t) = (0)t + 0‌,,Normal
+10ED009,SinglePoint,QR,2023-01-17T13:10:00,2023-01-17T13:10:00,2023-10-17T19:57:28,-7,Estimated point of zero flow.,Value:0,Normal
+10ED009,CopyPaste,HG,2023-01-13T19:05:00,2023-04-05T16:55:00,2023-04-11T19:39:49,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10ED009, time shift: 00:00 minutes.‌",,PreProcessing
+10ED009,CopyPaste,QR,2023-01-13T18:00:00,2023-01-17T13:10:00,2023-10-17T20:04:51,-7,Estimate transition from 0.002 to 0.0 flow.Override: Linear‌Q(t) = (-0.0005265082266910421)t + 0.002‌,,Normal
+10ED009,SinglePoint,QR,2023-01-13T18:00:00,2023-01-13T18:00:00,2023-10-17T19:48:44,-7,Single Point Correction for Discharge Override,Value:0.002,Normal
+10ED009,CopyPaste,QR,2022-11-30T15:25:00,2023-01-13T18:00:00,2023-10-17T19:55:14,-7,Override: Linear‌Q(t) = (null)t + 0.002‌,,Normal
+10ED009,CopyPaste,QR,2022-11-01T09:10:00,2022-11-30T15:35:00,2023-02-07T21:55:09,-7,Override: Log Linear‌Q(t) = 0.028524417950259253e^(-0.0908046782896386t)‌,,Normal
+10ED009,CopyPaste,HG,2022-11-01T07:00:00,2023-01-13T11:25:00,2023-01-16T17:18:10,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10ED009, time shift: 00:00 minutes.‌",,PreProcessing
+10ED009,Drift,HG,2022-09-14T20:25:00,2023-01-13T18:55:00,2023-01-16T17:19:39,-7,SRC,"DriftPoints:(Offset:0.006,Time:2022-09-14T20:25:00Z);(Offset:0.01,Time:2023-01-13T18:55:00Z)",Normal
+10ED009,CopyPaste,HG,2022-09-09T12:50:00,2022-09-09T15:55:00,2023-10-11T18:59:34,-7,"Gap Fill - Missing DataOverride: Copy & Paste‌Source Data Set: Stage.Logger@10ED009, time shift: 00:00 minutes.‌",,PreProcessing
+10ED009,Offset,HG,2022-07-29T23:00:00,2022-09-14T20:20:00,2022-08-09T20:35:17,-7,SRC ,Offset:0.006,Normal
+10ED009,Drift,HG,2022-06-15T17:50:00,2022-07-29T22:55:00,2022-08-09T20:23:15,-7,DWL to DWL,"DriftPoints:(Offset:0.004,Time:2022-06-15T17:50:00Z);(Offset:0.006,Time:2022-07-29T22:55:00Z)",Normal
+10ED009,Drift,HG,2022-05-29T19:50:00,2022-06-15T17:45:00,2022-06-17T14:54:14,-7,SRC DWL to DWL,"DriftPoints:(Offset:0.011,Time:2022-05-29T19:50:00Z);(Offset:0.004,Time:2022-06-15T17:45:00Z)",Normal
+10ED009,SinglePoint,QR,2022-04-15T22:25:00,2022-04-15T22:25:00,2022-04-07T16:17:27,-7,Single point for recession drawing.,Value:1e-05,Normal
+10ED009,CopyPaste,QR,2022-04-15T22:25:00,2022-05-13T19:25:00,2023-02-21T22:25:40,-7,Override: Log Linear‌Q(t) = 0.0001048447152009061e^(0.41402941550837036t)‌with freehand adjustment‌,,Normal
+10ED009,CopyPaste,QR,2022-04-15T22:10:00,2022-04-17T15:40:00,2023-10-17T19:40:00,-7,Override - Winter Back Water due to ice - Zero flow into rising limbOverride: Linear‌Q(t) = (0.00012352626600646633)t + 0‌,,Normal
+10ED009,CopyPaste,HG,2022-04-12T04:10:00,2022-04-18T14:00:00,2023-01-25T17:06:39,-7,"filling gaps with logger dataOverride: Copy & Paste‌Source Data Set: Stage.Logger@10ED009, time shift: 00:00 minutes.‌",,PreProcessing
+10ED009,Drift,HG,2022-04-06T22:30:00,2022-05-29T19:45:00,2022-06-02T15:31:23,-7,SRC TO SRC - 0.004 to 0.011,"DriftPoints:(Offset:0.004,Time:2022-04-06T22:30:00Z);(Offset:0.011,Time:2022-05-29T19:45:00Z)",Normal
+10ED009,SinglePoint,QR,2022-02-22T17:40:00,2022-02-22T17:40:00,2022-04-07T16:19:22,-7,"Single point for recession, Confirmed Zero Flow",Value:0.0001,Normal
+10ED009,CopyPaste,QR,2022-02-22T17:40:00,2022-04-15T22:25:00,2022-04-07T16:28:58,-7,Zero Flow EstimateOverride: Linear‌Q(t) = (0)t + 0‌,,Normal
+10ED009,DeleteRegion,HG,2022-02-04T12:55:00,2022-02-04T12:55:00,2022-02-25T23:36:10,-7,,,Normal
+10ED009,AdjustableTrim,HG,2022-01-03T22:00:00,2022-01-07T03:10:00,2022-03-17T22:31:58,-7,,"LowerThresholdPoints:(Time:2022-01-03T22:00:00Z,Value:2.114746246946508);(Time:2022-01-07T03:10:00Z,Value:2.114746246946508),TrimAction:Delete",Normal
+10ED009,AdjustableTrim,HG,2022-01-03T06:40:00,2022-01-10T22:15:00,2022-03-17T22:32:44,-7,,"LowerThresholdPoints:(Time:2022-01-03T06:40:00Z,Value:2.9057037221265123);(Time:2022-01-10T22:15:00Z,Value:2.9057037221265123),TrimAction:Delete",Normal
+10ED009,CopyPaste,HG,2021-12-10T03:50:00,2022-04-06T13:20:00,2022-04-13T14:33:11,-7,"Copy and paste from stage loggerOverride: Copy & Paste‌Source Data Set: Stage.Logger@10ED009, time shift: 00:00 minutes.‌",,PreProcessing
+10ED009,Drift,HG,2021-12-08T21:30:00,2022-04-06T22:25:00,2022-04-07T18:03:25,-7,SRC DWL to DWL,"DriftPoints:(Offset:-0.001,Time:2021-12-08T21:30:00Z);(Offset:0.004,Time:2022-04-06T22:25:00Z)",Normal
+10ED009,SinglePoint,QR,2021-12-08T21:20:00,2021-12-08T21:20:00,2022-02-25T23:09:46,-7,creating single point to help with drawing recession,Value:0.0256,Normal
+10ED009,CopyPaste,QR,2021-12-08T21:10:00,2022-02-22T17:40:00,2022-04-07T16:25:10,-7,Override: Log Linear‌Q(t) = 0.025609980954900118e^(-0.07310827464384263t)‌,,Normal
+10ED009,CopyPaste,HG,2021-11-02T01:45:00,2021-12-08T17:40:00,2022-05-31T20:57:06,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10ED009, time shift: 00:00 minutes.‌",,PreProcessing
+10ED009,CopyPaste,QR,2021-10-21T22:40:00,2021-12-08T21:20:00,2022-02-25T23:34:02,-7,Override: Log Linear‌Q(t) = 0.37758908722189366e^(-0.05613192963620421t)‌,,Normal
+10ED009,CopyPaste,QR,2021-10-17T08:10:00,2021-10-21T22:50:00,2022-02-25T23:21:14,-7,Free hand to deal with ice jamingOverride: Freehand‌,,Normal
+10ED009,Drift,HG,2021-08-10T21:20:00,2021-12-08T21:25:00,2021-12-09T19:23:38,-7,SRC - DWL to DWL.,"DriftPoints:(Offset:-0.003,Time:2021-08-10T21:20:00Z);(Offset:-0.001,Time:2021-12-08T21:25:00Z)",Normal
+10ED009,CopyPaste,HG,2021-07-22T03:50:00,2021-07-22T12:55:00,2022-05-31T21:01:53,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10ED009, time shift: 00:00 minutes.‌",,PreProcessing
+10ED009,Drift,HG,2021-06-15T22:45:00,2021-08-10T21:15:00,2021-08-11T16:27:05,-7,CDP - DWL TO DWL,"DriftPoints:(Offset:0.015,Time:2021-06-15T22:45:00Z);(Offset:-0.003,Time:2021-08-10T21:15:00Z)",Normal
+10ED009,SinglePoint,QR,2021-04-16T18:45:00,2021-04-16T18:45:00,2021-08-23T18:59:56,-7,zero flow. noted while driving past,Value:1e-05,Normal
+10ED009,CopyPaste,QR,2021-04-15T17:25:00,2021-05-07T08:00:00,2023-01-23T22:25:13,-7,Override: Log Linear‌Q(t) = 0.00001e^(0.6210535393354552t)‌,,Normal
+10ED009,Drift,HG,2021-03-31T19:55:00,2021-06-15T22:40:00,2021-06-16T23:08:33,-7,,"DriftPoints:(Offset:0.008,Time:2021-03-31T19:55:00Z);(Offset:0.015,Time:2021-06-15T22:40:00Z)",Normal
+10ED009,SinglePoint,QR,2021-02-09T00:05:00,2021-02-09T00:05:00,2021-08-23T19:49:01,-7,art of Zero Flow- Trace becomes erractict  after this point and it is believed that sensor is in ice.,Value:0,Normal
+10ED009,SinglePoint,QR,2021-02-08T23:55:00,2021-02-08T23:55:00,2023-01-23T21:57:05,-7,Single point added for point of suspected zero flow.,Value:0,Normal
+10ED009,CopyPaste,QR,2021-02-08T23:55:00,2021-04-15T17:21:15,2023-01-23T22:01:09,-7,Override: Log Linear‌Q(t) = 0e^(0t)‌,,Normal
+10ED009,CopyPaste,HG,2020-12-15T18:30:00,2021-06-14T22:35:00,2021-06-16T23:18:07,-7,Copy and Paste from Stage.Logger@10ED009,,PreProcessing
+10ED009,Drift,HG,2020-12-11T22:25:00,2021-03-31T19:50:00,2021-04-02T05:27:59,-7,CDP - DWL to DWL ,"DriftPoints:(Offset:0.006,Time:2020-12-11T22:25:00Z);(Offset:0.008,Time:2021-03-31T19:50:00Z)",Normal
+10ED009,CopyPaste,QR,2020-12-11T21:50:00,2021-02-09T00:05:00,2021-10-28T16:08:43,-7,Override: Log Linear‌Q(t) = 0.0462986578295358e^(-0.14282869437287635t)‌,,Normal
+10ED009,SinglePoint,QR,2020-12-11T21:50:00,2020-12-11T21:50:00,2021-06-18T16:55:24,-7,Single point addition for recession curve drawing,Value:0.0463,Normal
+10ED009,FillGaps,QR,2020-11-06T09:20:00,2020-11-06T10:20:00,2023-09-28T23:20:01,-7,Gap Fill by Approver for missed data gap during discharge computation,"ResamplePeriod:PT5M,GapLimit:MaxDuration",Normal
+10ED009,DeleteRegion,HG,2020-10-22T20:35:00,2020-10-22T20:55:00,2023-01-25T17:03:17,-7,Deleting eroneus data,,Normal
+10ED009,CopyPaste,HG,2020-10-22T18:50:00,2021-01-04T00:55:00,2023-01-25T17:01:52,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10ED009, time shift: 00:00 minutes.‌",,PreProcessing
+10ED009,SinglePoint,QR,2020-10-21T20:10:00,2020-10-21T20:10:00,2021-06-18T16:49:12,-7,Override: Log Linear‌Q(t) = 0.8007254682352105e^(-0.1563034207086026t)‌,Value:0.39,Normal
+10ED009,CopyPaste,QR,2020-10-21T20:05:00,2020-12-11T21:50:00,2021-06-18T17:05:50,-7,Override: Log Linear‌Q(t) = 0.39038628546642484e^(-0.04174413568944765t)‌,,Normal
+10ED009,CopyPaste,QR,2020-10-15T23:05:00,2020-10-21T20:10:00,2021-06-18T17:00:22,-7,Override: Log Linear‌Q(t) = 0.8007539421122631e^(-0.12237992205847235t)‌,,Normal
+10ED009,Drift,HG,2020-10-15T22:45:00,2020-12-11T22:20:00,2020-12-15T15:16:30,-7,DWL to DWL (CDP ENTRY),"DriftPoints:(Offset:0.003,Time:2020-10-15T22:45:00Z);(Offset:0.006,Time:2020-12-11T22:20:00Z)",Normal
+10ED009,Drift,HG,2020-09-01T19:00:00,2020-10-15T22:40:00,2020-10-16T22:39:27,-7,"SRC - BETWEEN VISITS TO DWL - Drift Correction of (Date/Time, Diff): (2020-09-01 12:00:00, -0.001m), (2020-10-15 15:40:00, 0.003m)","DriftPoints:(Offset:-0.001,Time:2020-09-01T19:00:00Z);(Offset:0.003,Time:2020-10-15T22:40:00Z)",Normal
+10ED009,CopyPaste,QR,2020-04-16T22:30:00,2020-05-06T19:00:00,2021-09-08T21:29:51,-7,temp correctionOverride: Log Linear‌Q(t) = 0.061431557595791685e^(0.22985395054139343t)‌with freehand adjustment‌,,Normal
+10ED009,Offset,QR,2020-04-12T23:45:00,2020-04-12T23:45:00,2020-12-18T18:20:31,-7,Makes Q zero,Offset:-0.0105,Normal
+10ED009,Offset,QR,2020-04-12T19:30:00,2020-04-12T19:30:00,2023-09-29T01:13:07,-7,Removing negative Q value.,Offset:3.833412023582015e-05,Normal
+10ED009,CopyPaste,QR,2020-04-12T19:30:00,2020-04-13T00:00:00,2022-07-25T15:13:06,-7,Override: Freehand‌,,Normal
+10ED009,CopyPaste,HG,2020-03-12T09:45:00,2020-04-06T09:15:00,2023-01-25T16:59:54,-7,"filling in logger dataOverride: Copy & Paste‌Source Data Set: Stage.Logger@10ED009, time shift: 00:00 minutes.‌",,PreProcessing
+10ED009,Drift,HG,2020-02-14T22:30:00,2020-09-01T18:45:00,2020-09-16T23:27:04,-7,"SRC - BETWEEN VISITS TO DWL - Drift Correction of (Date/Time, Diff): (2020-02-14 15:30:00, 0.001m), (2020-09-01 11:45:00, -0.001m)","DriftPoints:(Offset:0.001,Time:2020-02-14T22:30:00Z);(Offset:-0.001,Time:2020-09-01T18:45:00Z)",Normal
+10ED009,DeleteRegion,HG,2020-02-14T21:45:00,2020-02-14T22:15:00,2020-09-16T23:25:37,-7,Delete region,,Normal
+10ED009,CopyPaste,HG,2020-02-14T21:30:00,2020-03-11T11:30:00,2020-09-16T23:25:00,-7,Copy and Paste from Stage.Logger@10ED009,,PreProcessing
+10ED009,SinglePoint,QR,2020-02-14T21:30:00,2020-02-14T21:30:00,2020-06-04T00:31:32,-7,,Value:0,Normal
+10ED009,CopyPaste,QR,2020-02-14T21:30:00,2020-04-12T23:45:00,2020-12-18T18:22:41,-7,Updated by approver to generate true zero flow.Override: Linear‌Q(t) = (0)t + 0‌,,Normal
+10ED009,Offset,HG,2020-02-14T21:30:00,2020-02-14T21:30:00,2020-09-16T23:26:37,-7,Offset Correction with value of 0.005m,Offset:0.005,Normal
+10ED009,SinglePoint,QR,2020-01-19T07:00:00,2020-01-19T07:00:00,2020-06-04T00:24:44,-7,,Value:0,Normal
+10ED009,CopyPaste,QR,2020-01-19T07:00:00,2020-02-14T21:30:00,2020-06-04T00:32:45,-7,zero flow - Adjusted by approver for true zero flowOverride: Linear‌Q(t) = (0)t + 0‌,,Normal
+10ED009,CopyPaste,QR,2019-12-22T08:15:00,2020-03-01T21:00:00,2020-06-04T00:23:30,-7,Override: Linear‌Q(t) = (0.00021125387682764733)t + 0.0104‌,,Normal
+10ED009,SinglePoint,QR,2019-12-09T18:30:00,2019-12-09T18:30:00,2020-06-04T00:08:45,-7,,Value:0.013,Normal
+10ED009,CopyPaste,QR,2019-12-09T18:30:00,2020-01-19T07:00:00,2020-06-04T00:29:47,-7,Override: Log Linear‌Q(t) = 0.013e^(0t)‌,,Normal
+10ED009,CopyPaste,QR,2019-11-05T03:00:00,2019-12-09T18:30:00,2020-06-04T00:18:09,-7,estimated winter recessionOverride: Log Linear‌Q(t) = 0.109e^(-0.06137530318030375t)‌,,Normal
+10ED009,CopyPaste,QR,2019-10-24T04:45:00,2019-10-29T03:00:00,2020-06-04T00:11:31,-7,perceived backwater/ice jamming in control and then clearingOverride: Log Linear‌Q(t) = 0.374e^(-0.11521411032406317t)‌,,Normal
+10ED009,CopyPaste,QR,2019-06-23T08:45:00,2019-06-23T16:00:00,2020-12-18T18:13:58,-7,Override: Linear‌Q(t) = (1.12551724137931)t + 2.27‌,,Normal
+10ED009,CopyPaste,QR,2019-04-29T03:30:00,2019-04-29T04:45:00,2020-12-18T18:11:46,-7,Override: Linear‌Q(t) = (0.03840000000000003)t + 0.335‌,,Normal
+10ED009,CopyPaste,QR,2019-04-28T01:30:00,2019-04-28T04:45:00,2020-12-18T18:10:12,-7,Override: Linear‌Q(t) = (0.029538461538461565)t + 0.224‌,,Normal
+10ED009,CopyPaste,QR,2019-04-27T19:50:00,2019-04-27T23:00:00,2020-12-18T18:09:52,-7,Override: Linear‌Q(t) = (0.13642105263157886)t + 0.194‌,,Normal
+10ED009,CopyPaste,QR,2019-04-26T20:35:00,2019-04-27T00:30:00,2020-12-18T18:08:12,-7,Override: Linear‌Q(t) = (0.06740425531914883)t + 0.131‌,,Normal
+10ED009,CopyPaste,QR,2019-03-23T23:00:00,2019-03-24T21:15:00,2020-12-18T18:31:45,-7,Override: Linear‌Q(t) = (0.0015101123595505639)t + 0.0207‌,,Normal
+10ED009,CopyPaste,HG,2019-02-05T18:45:00,2019-02-05T22:00:00,2020-03-30T20:56:13,-7,"Override: Copy & Paste‌Source signal: Stage.Logger@10ED009, time shift: 0 minutes.‌",,PreProcessing
+10ED009,FillGaps,QR,2019-02-05T18:45:00,2019-02-05T22:00:00,2020-03-31T00:35:45,-7,,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+10ED009,CopyPaste,QR,2019-01-16T09:15:00,2019-01-16T12:30:00,2020-03-30T23:54:57,-7,Override: Linear‌Q(t) = (0)t + 0‌,,Normal
+10ED009,SinglePoint,QR,2018-12-12T21:30:00,2018-12-12T21:30:00,2020-03-30T23:24:19,-7,,Value:0.004,Normal
+10ED009,CopyPaste,QR,2018-12-12T21:30:00,2018-12-29T07:15:00,2020-03-30T23:35:38,-7,WINTER RECESSION - ESTIMATED ZER FLOWOverride: Log Linear‌Q(t) = 0.004e^(0t)‌,,Normal
+10ED009,CopyPaste,QR,2018-11-02T13:30:00,2018-12-12T21:30:00,2020-03-30T23:25:33,-7,WINTER RECESSIONOverride: Log Linear‌Q(t) = 0.0798e^(-0.0742122928099803t)‌,,Normal
+10ED009,FillGaps,QR,2018-09-11T03:45:00,2018-09-11T06:45:00,2020-03-31T00:33:26,-7,,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+10ED009,FillGaps,QR,2018-06-19T22:00:00,2018-06-20T01:00:00,2020-03-31T00:29:43,-7,,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal

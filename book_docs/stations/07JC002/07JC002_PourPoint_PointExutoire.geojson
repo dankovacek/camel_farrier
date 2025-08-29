@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07JC002_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07JC002", "NameNom": "REDEARTH CREEK NEAR RED EARTH CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -115.24041, 56.54717 ] } }
+]
+}

@@ -1,0 +1,20 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+01EJ001,29.0,Redeveloped low-end based of shift trend seen in 2018/2019/2019. Lowend maybe mm may be affected by some minor vegitation however mm alignment is consistiant over 3 years. Likelihood that the 2016 lowwater mms used for R28.00 were also affected vegitation is high due to vegatation. Low end range adjusted to a more realistic value. T. Andrews.,LogarithmicTable,Provisional/Provisoire,(0.4062:0.243);(0.9574:0.317);(0.325);
+01EJ001,28.0,"Curve change based on 2016mmt results and Jan 11, 2016 rain event.",LogarithmicTable,Final/Finales,(0.99071:0.285);(0.385);
+01EJ001,27.0,New curve based on 2015 measurements,LogarithmicTable,Final/Finales,(0.338);
+01EJ001,26.0,High end extension 2.993m and above of curve No. 25.000,LogarithmicTable,Final/Finales,(0.339);
+01EJ001,25.0,New log-log curve based on 2010mmts. Slight change from curve 24.000 due to change from arithmetic to log-log.,LogarithmicTable,Final/Finales,(0.339);
+01EJ001,24.0,No Curve Change based on 2010 mm's,LinearTable,Final/Finales,
+01EJ001,23.0,New curve 23 between .550-.800. Based on 2008 MM.,LinearTable,Final/Finales,
+01EJ001,22.0,,LinearTable,Final/Finales,
+01EJ001,21.0,,LinearTable,Final/Finales,
+01EJ001,20.0,,LinearTable,Final/Finales,
+01EJ001,19.0,,LinearTable,Final/Finales,
+01EJ001,18.0,,LinearTable,Final/Finales,
+01EJ001,17.0,,LinearTable,Final/Finales,
+01EJ001,16.0,,LinearTable,Final/Finales,
+01EJ001,15.0,,LinearTable,Final/Finales,
+01EJ001,14.0,,LinearTable,Final/Finales,
+01EJ001,13.0,,LinearTable,Final/Finales,
+01EJ001,12.0,,LinearTable,Final/Finales,
+01EJ001,11.0,,LinearTable,Final/Finales,

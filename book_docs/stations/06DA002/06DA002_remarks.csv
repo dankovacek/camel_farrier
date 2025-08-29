@@ -1,0 +1,4 @@
+STATION_NUMBER,REMARK_TYPE_CODE,YEAR,REMARK_EN,REMARK_FR
+06DA002,2,2008,"HOURLY VALUES INVALID JAN 01 - NOV 07,DUE TO ""PAINTING"" EXHIBITED IN CHART TRACE. DAILY VALUES",VALEURS HORAIRES INVALIDES DU 1ER JANVIER AU 7 NOVEMBRE EN RAISON DE LA FLUCTUATION APPARAISSANT SUR LE GRAPHIQUE. VALEURS QUOTIDIENNES
+06DA002,2,2011,"Daily water levels and discharges for period October 01 - 20 are valid, however hourly values for this period are considered invalid, due to ""painting"" of water level trace.","Les niveaux d'eau et les debits quotidiens pour la periode du 1er au 20 octobre sont valides; toutefois, les valeurs horaires pour cette periode ne sont pas considerees comme valides, en raison de la < peinture > du trace du niveau d'eau."
+06DA002,2,2024,MINIMUM DISCHARGE PEAK NOT VALID- OCCURRED UNDER ICE ,

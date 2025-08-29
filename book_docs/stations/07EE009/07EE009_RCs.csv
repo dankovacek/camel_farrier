@@ -1,0 +1,19 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07EE009,36.0,Lower end of curve uses mmt. from 2022. Upper end of curve uses historic high measurements.,LogarithmicTable,Provisional/Provisoire,(2.622);
+07EE009,35.0,Created using 2021 open water measurements which includes the new historic high measurement.,LogarithmicTable,Final/Finales,(2.551);
+07EE009,34.0,Shift during ice period,LogarithmicTable,Final/Finales,(2.614);
+07EE009,33.0,Coincident to #32 at  and above 3.950 m.,LinearTable,Final/Finales,
+07EE009,32.0,Coincident to #31 below 2.845m and above 3.330m,LinearTable,Final/Finales,
+07EE009,31.0,coincident to table #30 below 2.93m & above 3.50m,LinearTable,Final/Finales,
+07EE009,30.0,coincident to table #29 below 3.25m and above 4.1m,LinearTable,Final/Finales,
+07EE009,29.0,coincident to table #28 at and above 4.200m,LinearTable,Final/Finales,
+07EE009,28.0,,LinearTable,Final/Finales,
+07EE009,27.0,,LinearTable,Final/Finales,
+07EE009,26.0,,LinearTable,Final/Finales,
+07EE009,25.0,,LinearTable,Final/Finales,
+07EE009,24.0,,LinearTable,Final/Finales,
+07EE009,23.0,,LinearTable,Final/Finales,
+07EE009,22.0,,LinearTable,Final/Finales,
+07EE009,21.0,,LinearTable,Final/Finales,
+07EE009,20.0,,LinearTable,Final/Finales,
+07EE009,19.0,,LinearTable,Final/Finales,

@@ -1,0 +1,9 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+04LA006,7.00,"CURVE DEVELOPED USING OPEN WATER MEASUREMENTS FROM 2017, 2018, AND 2019.  HIGH WATER MEASUREMENTS FROM 2019 BETTER DEFINED THE TOP END OF THE CURVE.",LogarithmicTable,Provisional/Provisoire,(8.3);
+04LA006,6.00,"The two culverts making up the control were replaced Nov 24&25, 2014.  The curve is created from 9 discharge mmts (5) since the culverts were replaced. With the number of mmts and how they line up, we now have confidence in producing accurate Q",LogarithmicTable,Final/Finales,(8.3);
+04LA006,5.000,"New curve due to bent culvert (May 2nd, 2013) ~ 40 mm",LogarithmicTable,Final/Finales,(10.456:8.375);(8.375);
+04LA006,4.000,,LogarithmicTable,Final/Finales,(9.08:8.38);(9.05);
+04LA006,3.000,,LinearTable,Final/Finales,
+04LA006,2.000-SC1,,LinearTable,Final/Finales,
+04LA006,2.000,Culvert control causes broken back,LinearTable,Final/Finales,
+04LA006,1.000,Culvert control causes broken back,LinearTable,Final/Finales,

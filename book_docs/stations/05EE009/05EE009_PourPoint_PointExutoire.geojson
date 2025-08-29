@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05EE009_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "05EE009", "NameNom": "VERMILION RIVER AT VEGREVILLE", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -112.04014, 53.49102 ] } }
+]
+}

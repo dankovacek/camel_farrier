@@ -1,0 +1,10 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05CC007,15.000,first log-log rating. beavers common. increase roughness at high flows from bridge and riparian zone. MDF,LogarithmicTable,Provisional/Provisoire,(0.885);
+05CC007,14.000,Same as Curve No 13 above Ght 6.60m,LinearTable,Final/Finales,
+05CC007,13.000,,LinearTable,Final/Finales,
+05CC007,13.000-SC3,,LinearTable,Final/Finales,
+05CC007,13.000-SC2,,LinearTable,Final/Finales,
+05CC007,13.000-SC1,,LinearTable,Final/Finales,
+05CC007,12.000,,LinearTable,Final/Finales,
+05CC007,10.000,,LinearTable,Final/Finales,
+05CC007,11.000,,LinearTable,Final/Finales,

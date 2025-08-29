@@ -1,0 +1,19 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05LL027,20.000,"EXTEND UPPER END - Poor overall relationship, approved - CJK",LogarithmicTable,Provisional/Provisoire,(1.533);
+05LL027,19.010,"EXTEND UPPER END - Poor overall relationship, approved - CJK",LogarithmicTable,Final/Finales,(1.559);
+05LL027,19.000,Approved - GCD,LogarithmicTable,Final/Finales,(1.559);
+05LL027,18.000,Variable bed conditions led to dynamic stage/discharge relationship. 2012/2013 fairly stable - new curve.,LogarithmicTable,Final/Finales,(1.716);
+05LL027,17.000,,LinearTable,Provisional/Provisoire,
+05LL027,14.010,,LinearTable,Final/Finales,
+05LL027,14.010-SC4,,LinearTable,Final/Finales,
+05LL027,14.010-SC3,,LinearTable,Final/Finales,
+05LL027,14.010-SC2,,LinearTable,Final/Finales,
+05LL027,14.010-SC1,,LinearTable,Final/Finales,
+05LL027,15.050,Same as Table 15 below 1.350,LinearTable,Final/Finales,
+05LL027,15.000,,LinearTable,Final/Finales,
+05LL027,14.000,,LinearTable,Final/Finales,
+05LL027,16.000,,LinearTable,Final/Finales,
+05LL027,13.000,,LinearTable,Final/Finales,
+05LL027,12.000,,LinearTable,Final/Finales,
+05LL027,11.000,,LinearTable,Final/Finales,
+05LL027,10.000,,LinearTable,Final/Finales,

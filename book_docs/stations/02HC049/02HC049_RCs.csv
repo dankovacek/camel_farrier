@@ -1,0 +1,18 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02HC049,13,"extended top end and marked as estimated to capture peak flow on Jan 11-12, 2020",LogarithmicTable,Provisional/Provisoire,(0.82:0.52);(1.006:0.52);(0.539);
+02HC049,12.01,"extended top end and marked as estimated to capture peak flow on Jan 11-12, 2020",LogarithmicTable,Final/Finales,(0.8316:0.594);(1.182:0.515);(0.765);
+02HC049,12,revised new curve with defined low end segment thought to be associated with center of channel.,LogarithmicTable,Final/Finales,(0.8316:0.594);(1.182:0.515);(0.765);
+02HC049,11,new curve with defined low end segment thought to be associated with center of channel.,LogarithmicTable,Final/Finales,(0.8316:0.594);(1.182:0.515);(0.765);
+02HC049,10,,LogarithmicTable,Final/Finales,(1.182:0.515);(0.765);
+02HC049,9.000,Same as Table 8.0 at and above 1.70 m,LinearTable,Final/Finales,
+02HC049,9.000-SC3,,LinearTable,Final/Finales,
+02HC049,8.000-SC2,,LinearTable,Final/Finales,
+02HC049,8.000-SC1,,LinearTable,Final/Finales,
+02HC049,8.000,Low/High extension 0f curve #7,LinearTable,Final/Finales,
+02HC049,7.000,,LinearTable,Final/Finales,
+02HC049,6.000,,LinearTable,Final/Finales,
+02HC049,5.000,,LinearTable,Final/Finales,
+02HC049,4.000,,LinearTable,Final/Finales,
+02HC049,3.000,,LinearTable,Final/Finales,
+02HC049,2.000,,LinearTable,Final/Finales,
+02HC049,1.000,,LinearTable,Final/Finales,

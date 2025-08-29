@@ -1,0 +1,12 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02AD010,16.000,New curve drawn to better define the lower end of the rating and segmentsbelow 301.215m after obtaining several low end measurements in 2021.,LogarithmicTable,Provisional/Provisoire,(301.2229:300.424);(302.29858:300.51);(300.65);
+02AD010,15.000,New curve drawn to better define the rating and segments as well as mmt's ran through Qrev.,LogarithmicTable,Final/Finales,(301.22656:300.403);(302.29858:300.51);(300.65);
+02AD010,14.000,Lower end adjustment made to T Micklea's #14 as it was drawn to a BW mmt slight fine tuning troughout the rest of the curve,LogarithmicTable,Final/Finales,(301.0093:300.61);(302.3508:300.603);(300.603);
+02AD010,13.000,,LogarithmicTable,Final/Finales,(300.6281);
+02AD010,12.000,Adjusted by hand from Table #11 300.724-300.794,LinearTable,Final/Finales,
+02AD010,11.000,Re Drawn by hand from Table 10 from 2.100 to 3.000,LinearTable,Final/Finales,
+02AD010,10.000,,LinearTable,Final/Finales,
+02AD010,10.000-SC1,,LinearTable,Final/Finales,
+02AD010,9.000,,LinearTable,Final/Finales,
+02AD010,8.000,,LinearTable,Final/Finales,
+02AD010,7.000,,LinearTable,Final/Finales,

@@ -1,0 +1,9 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05AB005,8.01,Low end extension to Rating 8.00 to covering extreme low water conditions. Rating parameters and assumptions remain unchanged.,LogarithmicTable,Provisional/Provisoire,(0.6425:0.3);(0.458);
+05AB005,8.0,New rating required as control and channel appear to have changed over time.,LogarithmicTable,Final/Finales,(0.6425:0.3);(0.458);
+05AB005,7.01,Extension of No 7.000  Same as curve 7.000 below GH of 3.160m,LinearTable,Final/Finales,
+05AB005,7.0,HQFIT1.0,LinearTable,Final/Finales,
+05AB005,6.0,,LinearTable,Final/Finales,
+05AB005,5.0,Same as Curve #4 above 1.15m,LinearTable,Final/Finales,
+05AB005,4.0,,LinearTable,Final/Finales,
+05AB005,3.0,,LinearTable,Final/Finales,

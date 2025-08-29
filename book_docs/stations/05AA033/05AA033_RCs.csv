@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05AA033,2.00,New model developed to updated standards. Significant scatter present due to variable debris and vegetation. Estimated above highest measurement.,LogarithmicTable,Provisional/Provisoire,(8.085:7.85);(7.787);
+05AA033,1.000,,LinearTable,Final/Finales,
+05AA033,1.000-SC2,,LinearTable,Final/Finales,
+05AA033,1.000-SC1,,LinearTable,Final/Finales,

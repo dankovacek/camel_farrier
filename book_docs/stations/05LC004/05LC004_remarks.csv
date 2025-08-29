@@ -1,0 +1,10 @@
+STATION_NUMBER,REMARK_TYPE_CODE,YEAR,REMARK_EN,REMARK_FR
+05LC004,2,2012,"Stage data for March 01- September 27, unavailable as station activated September 28.
+Discharge data unavailable, as valid stage-discharge relation yet to be developed.",
+05LC004,2,2013,"Water level data for 2013 is referenced to BM located approx. 215m below gauging site. 
+Discharge data unavailable, as valid stage-discharge relation yet to be developed.",
+05LC004,2,2016,"Use water level/discharge data with caution for period April 25 to May 18, due to an unstable/moving orifice block.",
+05LC004,4,-999,"PRIOR TO 1987 PUBLISHED AS MOUTH, LAKE WINNIPEGOSIS.
+
+MINIMUM PEAK AND EXTREME NOT VALID- STATION OPERATED SEASONALLY ","AVANT 1987, DONNEES PUBLIEES SOUS < MOUTH, LAKE WINNIPEGOSIS >"
+05LC004,5,-999,MINIMUM PEAK AND EXTREME NOT VALID- STATION OPERATED SEASONALLY ,

@@ -1,0 +1,23 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02ZG003,31.00,NEW CURVE # 31.00 developed FOR 2021 THIS IS A low to medium refinement / change to better FIT THE 2021 MMNT.,LogarithmicTable,Provisional/Provisoire,(1.3229:0.8);(0.85);
+02ZG003,30.00.,NEW CURVE # 30.00 FOR 2020 THIS IS A COMPLETLY NEW CURVE TO FIT THE 2020 MMNT.,LogarithmicTable,Final/Finales,(1.326:0.83);(0.7);
+02ZG003,29.00,"NEW CURVE # 29.00 FOR 2019 THIS IS A COMPLETLY NEW CURVE TO FIT THE 2019 MMNT. ANY MMNT TAKEN BEFORE 2017 THAT COMPETED WITH MORE RESENT MMNT WERE NOT USED DURING CURVE DEVELOPMENT. CURVE STATED DURING HIGH WATER EVENT IN FEB 11, 2019.",LogarithmicTable,Final/Finales,(1.03946:0.83);(1.30052:0.754);(0.75);
+02ZG003,28.01,Curve #28.01 Is an extention of the lower end of the curve to account for the lower water levels of 2017,LogarithmicTable,Final/Finales,(1.21837:0.852);(1.02);
+02ZG003,28.00,"New curve develope based on 2015 mmts. Change is based on April 11, 2015 rain event.",LogarithmicTable,Final/Finales,(1.21837:0.852);(1.02);
+02ZG003,27.000,"LOW WATER CHANGE OF CURVE #26 BASED ON 2014 METER MEASUREMENT RESULTS below 1.022 meters, only 2014 MM results used below 1.022",LogarithmicTable,Final/Finales,(1.0526:0.67);(0.71);
+02ZG003,26.000,LOW WATER CHANGE OF CURVE #25 BASED ON 2013 METER MEASUREMENT RESULTS below 1.100 meters,LogarithmicTable,Final/Finales,(1.022:0.67);(0.72);
+02ZG003,25.000.,LOW WATER CHANGE OF CURVE #24 BASED ON 2012 METER MEASUREMENT RESULTS,LogarithmicTable,Final/Finales,(1.022:0.67);(0.72);
+02ZG003,24.000,,LogarithmicTable,Final/Finales,(1.003:0.7);(0.72);
+02ZG003,23.000,HQFIT1.0,LinearTable,Final/Finales,
+02ZG003,22.000,HQFIT1.0,LinearTable,Final/Finales,
+02ZG003,21.000,LOW AND MEDIUM WATER REFINEMENT,LinearTable,Final/Finales,
+02ZG003,20.000,LOW WATER CHANGE,LinearTable,Final/Finales,
+02ZG003,19.000,LOW WATER CHANGE,LinearTable,Final/Finales,
+02ZG003,18.000,LOW  WATER CHANGE,LinearTable,Final/Finales,
+02ZG003,17.000,Low Water Change,LinearTable,Final/Finales,
+02ZG003,16.000,,LinearTable,Final/Finales,
+02ZG003,15.000,,LinearTable,Final/Finales,
+02ZG003,14.000,,LinearTable,Final/Finales,
+02ZG003,13.000,,LinearTable,Final/Finales,
+02ZG003,12.000,,LinearTable,Final/Finales,
+02ZG003,10.000,,LinearTable,Final/Finales,

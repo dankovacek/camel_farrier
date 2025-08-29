@@ -1,0 +1,20 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08AB001,25.0,"Created an average curve using mmnts from 2010 to 2019, used to Breakpoints as is suggested by channel geometry. Considerable scouring and deposition from year to year at site, shifted to open water mmnts",LogarithmicTable,Provisional/Provisoire,(7.52:5.3);(9.67:6.5);(7.5);
+08AB001,25.0_B,"trying only one break point on bottom end, seems a little biased L in mid area",LogarithmicTable,Final/Finales,(7.58:5.4);(6.1);
+08AB001,24.0,Required to adjust low end and extend based on record high year.,LogarithmicTable,Final/Finales,(5.884);
+08AB001,23.0,"Latest Curve 23.0 developed due to channel scour affecting low end, and based on more recent 2015/2016 ADCP mmnts.",LogarithmicTable,Provisional/Provisoire,(5.923);
+08AB001,22.2,APPROVED. Late season fill creates left shift,LinearTable,Final/Finales,
+08AB001,22.000,APPROVED. Late season fill creates left shift,LinearTable,Final/Finales,
+08AB001,21.000,"mid-winter scour, entire range",LinearTable,Final/Finales,
+08AB001,20.000,"Scour mid-btm end, = #19 abv 9.200m",LinearTable,Final/Finales,
+08AB001,19.000-SC1,,LinearTable,Final/Finales,
+08AB001,19.000,significant LB scour,LinearTable,Final/Finales,
+08AB001,18.000,coincides with #17 above 8.100,LinearTable,Final/Finales,
+08AB001,17.000,,LinearTable,Final/Finales,
+08AB001,16.000,coincides with #15 below 8.300 m,LinearTable,Final/Finales,
+08AB001,15.000,,LinearTable,Final/Finales,
+08AB001,14.000,,LinearTable,Final/Finales,
+08AB001,13.000,,LinearTable,Final/Finales,
+08AB001,12.000,,LinearTable,Final/Finales,
+08AB001,1.000,,LinearTable,Final/Finales,
+08AB001,10.000,,LinearTable,Final/Finales,

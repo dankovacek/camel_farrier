@@ -1,0 +1,15 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08AC001,15.0,,LogarithmicTable,Provisional/Provisoire,(28.612);
+08AC001,14.0,,LogarithmicTable,Provisional/Provisoire,(28.62);
+08AC001,C13.6,APPROVED micro right shift 28.95m to 29.15m,LinearTable,Provisional/Provisoire,
+08AC001,13.500,APPROVED micro right shift 28.95m to 29.15m,LinearTable,Final/Finales,
+08AC001,13.400,extend table 13.3 from 60.3 to 118m3/s,LinearTable,Final/Finales,
+08AC001,13.300,"APPROVED. flatten high end, smooth low end",LinearTable,Final/Finales,
+08AC001,13.200,extend top end of table 13.1 and btm zero flow,LinearTable,Final/Finales,
+08AC001,13.100,coincides with table 13 above 29.050 m,LinearTable,Final/Finales,
+08AC001,13.000,coincides with table 12 below 28.920 m,LinearTable,Final/Finales,
+08AC001,12.000,Coincides with curve 11 at ~ 28.870m,LinearTable,Final/Finales,
+08AC001,11.000,,LinearTable,Final/Finales,
+08AC001,10.000,,LinearTable,Final/Finales,
+08AC001,9.000,,LinearTable,Final/Finales,
+08AC001,4.000,,LinearTable,Final/Finales,

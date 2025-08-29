@@ -1,0 +1,71 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+02BF001,CopyPaste,HG,2024-01-12T05:10:00,2024-01-12T07:05:00,2024-01-31T15:04:52,-5,"COPY & PASTE: from Stage.Logger for Telemetry Gap FillOverride: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,CopyPaste,HG,2023-12-17T14:35:00,2023-12-17T15:10:00,2024-01-31T15:08:55,-5,"COPY & PASTE: from Stage.Logger for Telemetry Gap FillOverride: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,CopyPaste,HG,2023-11-05T05:25:00,2023-11-05T06:10:00,2024-01-31T15:07:54,-5,"COPY & PASTE: from Stage.Logger for Telemetry Gap FillOverride: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,CopyPaste,HG,2023-11-01T07:45:00,2023-11-02T10:30:00,2024-01-31T14:56:10,-5,"COPY & PASTE: from Stage.Logger for Telemetry Gap FillOverride: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,CopyPaste,HG,2023-10-28T09:35:00,2023-10-28T10:30:00,2024-01-31T15:07:15,-5,"COPY & PASTE: from Stage.Logger for Telemetry Gap FillOverride: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,Drift,HG,2023-09-27T16:35:00,2024-01-30T15:00:00,2024-01-31T15:01:44,-5,SRC: Drift of +0.007m applied visit to visit,"DriftPoints:(Offset:0,Time:2023-09-27T16:35:00Z);(Offset:0.007,Time:2024-01-30T15:00:00Z)",Normal
+02BF001,CopyPaste,HG,2023-09-27T16:25:00,2023-09-27T17:25:00,2024-01-31T15:06:19,-5,"COPY & PASTE: from Stage.Logger for Telemetry Gap FillOverride: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,DeleteRegion,HG,2023-05-09T13:20:00,2023-05-09T13:40:00,2023-07-10T19:14:34,-5,Flushing well,,Normal
+02BF001,CopyPaste,HG,2023-03-28T21:35:00,2023-03-29T09:30:00,2023-05-10T16:53:43,-5,"COPY PASTE:Override: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,CopyPaste,QR,2023-02-28T17:00:00,2023-04-13T18:05:00,2023-05-25T16:47:01,-5,ICE: Override: Linear‌Q(t) = (1.3989424037579876)t + 12‌,,Normal
+02BF001,CopyPaste,QR,2023-01-24T14:00:00,2023-02-28T17:00:00,2023-04-06T11:07:28,-5,ICE: Override: Linear‌Q(t) = (0.01197233820365795)t + 11.579471620596514‌,,Normal
+02BF001,CopyPaste,QR,2023-01-07T20:00:00,2023-01-14T17:15:00,2023-05-08T14:03:06,-5,,,Normal
+02BF001,CopyPaste,QR,2022-12-01T04:45:00,2023-01-24T14:10:00,2023-02-09T13:09:37,-5,ICE: Override: Linear‌Q(t) = (-0.3950003296049131)t + 36.48500056687835‌,,Normal
+02BF001,CopyPaste,QR,2022-11-18T11:40:00,2022-11-26T17:35:00,2023-02-09T13:01:52,-5,ICE: Override: Linear‌Q(t) = (-1.9567102115587702)t + 36.55710456779827‌,,Normal
+02BF001,CopyPaste,QR,2022-10-27T19:00:00,2022-10-28T12:45:00,2023-02-09T19:16:37,-5,Override: Linear‌Q(t) = (0)t + 30.147711706335212‌,,Normal
+02BF001,CopyPaste,QR,2022-10-22T10:20:00,2022-10-24T15:25:00,2023-02-09T19:19:42,-5,ESTIMATION: Q estimated for dragging frost plugsOverride: Linear‌Q(t) = (0.19467163176239038)t + 15.671991556141341‌,,Normal
+02BF001,CopyPaste,HG,2022-10-12T10:25:00,2022-10-12T11:35:00,2022-10-19T19:45:40,-5,"Copy & Paste from Stage.Logger - Gap FillOverride: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,CopyPaste,HG,2022-09-09T14:50:00,2022-09-09T17:10:00,2022-10-19T19:41:56,-5,"Copy & Paste from Stage.Logger - Gap FillOverride: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,CopyPaste,HG,2022-07-12T16:25:00,2022-07-18T04:35:00,2022-10-19T19:39:47,-5,"Copy & Paste from Stage.Logger - Gap FillOverride: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,Drift,HG,2022-07-12T14:30:00,2022-10-18T13:05:00,2022-10-19T19:43:07,-5,SRC: Drift of +.003m applied visit to visit,"DriftPoints:(Offset:0,Time:2022-07-12T14:30:00Z);(Offset:0.003,Time:2022-10-18T13:05:00Z)",Normal
+02BF001,DeleteRegion,HG,2022-07-12T12:50:00,2022-07-12T13:05:00,2022-09-21T13:17:23,-5,Flushing well,,Normal
+02BF001,Drift,HG,2022-07-01T01:50:00,2022-07-12T12:45:00,2022-09-21T13:50:59,-5,"SRC: tape slipped off pins, assumed to have happened during June 30th rain event.","DriftPoints:(Offset:-0.008,Time:2022-07-01T01:50:00Z);(Offset:-0.018,Time:2022-07-12T12:45:00Z)",Normal
+02BF001,CopyPaste,HG,2022-06-16T10:35:00,2022-07-12T13:05:00,2022-09-21T13:11:14,-5,"Override: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,CopyPaste,HG,2022-06-15T16:35:00,2022-06-15T17:15:00,2022-09-21T13:12:52,-5,"Override: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,CopyPaste,HG,2022-05-12T19:25:00,2022-05-16T03:25:00,2022-09-21T13:06:25,-5,"Override: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,DeleteRegion,HG,2022-05-12T14:55:00,2022-05-12T15:15:00,2022-09-21T13:07:24,-5,"Flushing well, invalid data",,Normal
+02BF001,CopyPaste,HG,2022-05-05T17:00:00,2022-05-12T20:15:00,2022-09-21T13:05:19,-5,"Override: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,CopyPaste,HG,2022-04-30T19:05:00,2022-05-01T00:35:00,2022-09-21T13:04:29,-5,"Override: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,CopyPaste,HG,2022-04-25T08:35:00,2022-04-25T17:50:00,2022-09-21T13:02:38,-5,"Override: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,CopyPaste,HG,2022-04-24T20:35:00,2022-04-24T22:40:00,2022-09-21T13:01:38,-5,"Override: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,CopyPaste,HG,2022-04-22T13:30:00,2022-04-23T12:00:00,2022-09-21T13:03:37,-5,"Override: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,CopyPaste,HG,2022-04-20T14:35:00,2022-04-21T03:30:00,2022-09-21T12:58:25,-5,"Override: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,CopyPaste,HG,2022-04-20T01:35:00,2022-04-20T05:40:00,2022-09-21T12:57:07,-5,"Override: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,CopyPaste,QR,2022-03-06T10:10:00,2022-04-14T04:25:00,2022-09-21T15:34:18,-5,ICE: Override: Linear‌Q(t) = (2.5272096976282072)t + 5.799316977476991‌,,Normal
+02BF001,CopyPaste,QR,2022-03-05T14:10:00,2022-03-12T20:25:00,2023-05-08T13:32:21,-5,,,Normal
+02BF001,CopyPaste,QR,2022-02-19T00:40:00,2022-03-02T22:25:00,2022-05-18T21:06:36,-5,,,Normal
+02BF001,CopyPaste,QR,2022-02-18T18:40:00,2022-03-06T11:50:00,2022-04-27T15:35:18,-5,ICE:Override: Linear‌Q(t) = (2.8957804040924677)t + 6.248384593074924‌,,Normal
+02BF001,CopyPaste,QR,2022-02-16T12:25:00,2022-03-06T10:10:00,2022-05-18T20:53:58,-5,,,Normal
+02BF001,CopyPaste,QR,2022-01-26T19:55:00,2022-02-18T18:50:00,2022-04-27T15:32:11,-5,ICE:Override: Linear‌Q(t) = (1.470914758643833)t + 7.259359922491846‌,,Normal
+02BF001,CopyPaste,QR,2021-12-20T05:10:00,2022-01-26T20:00:00,2022-04-27T15:08:33,-5,ICE:Override: Linear‌Q(t) = (0.8697067829652498)t + 16.430101077624872‌,,Normal
+02BF001,CopyPaste,QR,2021-11-26T07:10:00,2021-12-20T05:10:00,2022-04-27T14:59:22,-5,ICE:Override: Linear‌Q(t) = (1.2375500597902158)t + 11.731045309448138‌,,Normal
+02BF001,CopyPaste,QR,2021-11-23T16:40:00,2021-11-26T16:10:00,2022-05-18T21:01:19,-5,Override: Linear‌Q(t) = (-0.8408401932621544)t + 11.449615880640359‌,,Normal
+02BF001,CopyPaste,QR,2021-11-22T10:25:00,2021-11-23T15:10:00,2022-05-18T20:59:26,-5,,,Normal
+02BF001,CopyPaste,QR,2021-11-21T19:55:00,2021-11-23T23:35:00,2022-04-27T14:21:46,-5,ICE:Override: Linear‌Q(t) = (-0.1369375523480859)t + 12.441020725003535‌,,Normal
+02BF001,CopyPaste,QR,2021-11-21T19:45:00,2021-11-22T09:55:00,2022-05-18T21:10:03,-5,,,Normal
+02BF001,CopyPaste,HG,2021-11-19T18:25:00,2021-11-19T20:55:00,2022-01-26T15:29:09,-5,"Override: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,CopyPaste,QR,2021-11-19T06:35:00,2021-11-19T17:55:00,2022-05-18T20:37:24,-5,Override: Log Linear‌Q(t) = 13.302197954830996e^(0.006960235735671914t)‌,,Normal
+02BF001,CopyPaste,QR,2021-11-18T14:10:00,2021-11-19T00:20:00,2022-05-18T20:36:09,-5,Override: Log Linear‌Q(t) = 12.483414667441629e^(0.12661268100059947t)‌,,Normal
+02BF001,Drift,HG,2021-06-24T16:05:00,2021-08-31T12:28:00,2021-09-07T17:42:13,-5,SENSOR RESET CORRECTION - ,"DriftPoints:(Offset:0,Time:2021-06-24T16:05:00Z);(Offset:0.004,Time:2021-08-31T12:28:00Z)",Normal
+02BF001,DeleteRegion,HG,2021-06-24T15:15:00,2021-06-24T16:20:00,2021-06-25T00:00:25,-5,flushing well,,Normal
+02BF001,CopyPaste,QR,2021-03-25T00:50:00,2021-04-04T20:30:00,2021-07-06T18:18:12,-5,ICE - Override: Linear‌Q(t) = (-3.393778857446556)t + 60.97606552475552‌,,Normal
+02BF001,CopyPaste,QR,2021-03-02T15:50:00,2021-03-25T21:45:00,2021-03-26T18:49:08,-5,ICE - Override: Linear‌Q(t) = (2.3179141453072014)t + 24.846527424659502‌,,Normal
+02BF001,CopyPaste,HG,2021-01-26T13:35:00,2021-01-26T14:40:00,2021-03-22T18:55:20,-5,"Override: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,CopyPaste,QR,2020-12-12T14:00:00,2021-03-02T15:45:00,2021-03-26T18:42:48,-5,ICE - Override: Linear‌Q(t) = (-0.08174180622103559)t + 11.485304837719799‌,,Normal
+02BF001,CopyPaste,QR,2020-12-02T16:40:00,2020-12-11T02:10:00,2021-03-26T18:32:01,-5,ICE - Override: Linear‌Q(t) = (-0.3404746090787407)t + 16.780230561139685‌,,Normal
+02BF001,DeleteRegion,HG,2020-11-03T19:10:00,2020-11-04T12:35:00,2020-11-04T15:28:14,-5,erroneous,,Normal
+02BF001,CopyPaste,QR,2020-11-03T19:05:00,2020-11-04T13:40:00,2020-11-10T19:40:57,-5,Estimated Q due to sensor failureOverride: Linear‌Q(t) = (-2.5829596412556053)t + 33.6‌,,PreProcessing
+02BF001,CopyPaste,HG,2020-10-04T06:35:00,2020-11-03T15:40:00,2020-11-10T19:29:18,-5,"Override: Copy & Paste‌Source signal: Stage.Logger@02BF001, time shift: 0 minutes.‌",,PreProcessing
+02BF001,DeleteRegion,HG,2020-08-11T13:30:00,2020-08-11T14:20:00,2020-08-17T11:06:02,-5,"Flushing well, invalid data",,Normal
+02BF001,CopyPaste,QR,2020-02-20T17:10:00,2020-04-02T22:05:00,2020-09-17T14:15:11,-5,Override: Linear‌Q(t) = (0.9738214726450021)t + 5.9‌,,Normal
+02BF001,CopyPaste,HG,2020-01-29T04:25:00,2020-01-29T05:40:00,2021-06-14T20:38:57,-5,"FILL GAPS Override: Copy & Paste‌Source Data Set: Stage.Logger@02BF001, time shift: 00:00 minutes.‌",,PreProcessing
+02BF001,DeleteRegion,HG,2020-01-28T14:45:00,2020-01-28T14:45:00,2020-02-10T15:35:16,-5,Data Spike,,Normal
+02BF001,DeleteRegion,HG,2020-01-28T14:30:00,2020-01-28T14:50:00,2020-02-10T15:37:04,-5,Data Spike,,Normal
+02BF001,CopyPaste,QR,2020-01-06T07:10:00,2020-01-28T23:10:00,2020-05-19T16:55:56,-5,ICE - Override: Log Linear‌Q(t) = 12.4e^(-0.01593943631448648t)‌,,Normal
+02BF001,CopyPaste,QR,2019-12-25T17:10:00,2020-01-06T07:10:00,2020-05-19T16:53:16,-5,ICE - Override: Freehand‌,,Normal
+02BF001,CopyPaste,HG,2019-12-16T08:35:00,2019-12-16T09:40:00,2020-04-24T13:51:16,-5,"COPY PASTEOverride: Copy & Paste‌Source signal: Stage.Logger@02BF001, time shift: 0 minutes.‌",,PreProcessing
+02BF001,CopyPaste,HG,2019-12-12T14:35:00,2019-12-12T15:40:00,2020-04-24T13:50:13,-5,"COPY PASTEOverride: Copy & Paste‌Source signal: Stage.Logger@02BF001, time shift: 0 minutes.‌",,PreProcessing
+02BF001,CopyPaste,QR,2019-12-10T13:10:00,2020-02-21T14:30:00,2020-02-25T14:17:54,-5,BW ICE ADJUSTMENTOverride: Freehand‌,,Normal
+02BF001,CopyPaste,QR,2019-11-21T09:10:00,2019-11-27T19:10:00,2020-05-19T16:41:42,-5,ICE - Override: Freehand‌,,Normal
+02BF001,CopyPaste,QR,2019-11-05T21:10:00,2019-12-24T21:10:00,2020-02-26T18:49:54,-5,BW ICEOverride: Freehand‌,,Normal

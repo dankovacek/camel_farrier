@@ -1,0 +1,14 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02ZH001,15.00,Curve # 15.00 was created for 202. It is a low water refinement of Curve  #14.00 due to five open water mmnts obtained in 2021. Only measurements below 0.540 (from Curve #14.00) was used in the development of Curve #15.00. Start  date of Curve # 15.00 was after high water Apr 13 2021.,LogarithmicTable,Provisional/Provisoire,(0.58772:0.14);(0.08);
+02ZH001,14.00,Curve # 14.00 was created for 2020 due to a low water refinement of # 13.00 below GH of 1.230m.  This curve was created to reflect a change what was indicated by an applied shift that stayed true since 2018.  So it was decided that shift no longer required as a proven curve change had occurred.,LogarithmicTable,Final/Finales,(0.592:0.06);(0.06);
+02ZH001,13.00,Curve # 13.00 low water refinement of # 12.00 below gh 0.592 BASED ON 2018 MEASUREMENT RESULTS ( 2 LOW MEASUREMENTS) ONLY 2018 MM'S USED BELOW GH 0.498.,LogarithmicTable,Final/Finales,(0.592:0.06);(0.06);
+02ZH001,12.00,Curve # 12 low water refinement of # 11 below 0.40 CMS based on 3; 2017 MM results,LogarithmicTable,Final/Finales,(0.592:0.06);(0.06);
+02ZH001,11.000,Curve # 11 low water refinement of # 10 below 0.560 based on 3; 2014 MM results,LogarithmicTable,Final/Finales,(0.592:0.06);(0.06);
+02ZH001,10.000,,LogarithmicTable,Final/Finales,(0.06);
+02ZH001,9.000,extended to 5.043 as a result of Hurricane IGOR,LinearTable,Final/Finales,
+02ZH001,8.000,LOW WATER CHANGE,LinearTable,Final/Finales,
+02ZH001,7.000,,LinearTable,Final/Finales,
+02ZH001,6.000,,LinearTable,Final/Finales,
+02ZH001,5.000,,LinearTable,Final/Finales,
+02ZH001,4.000-SC1,,LinearTable,Final/Finales,
+02ZH001,4.000,,LinearTable,Final/Finales,

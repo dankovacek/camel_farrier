@@ -1,0 +1,13 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05KE010,7.03,"Revised Curve Number 7.02 to reflect the grade change resulting from the low flow measurement made on July 28, 2021. Approved for use in 2021 on May 9, 2023. K. Epp.",LogarithmicTable,Provisional/Provisoire,(3.4431:1.808);(1.797);
+05KE010,7.02,Adding estimated grades to upper and lower end of curve 7.01. Curve is approved for 2018 computations May 13 2019.  S.Pow.,LogarithmicTable,Final/Finales,(3.4431:1.808);(1.797);
+05KE010,7.01,"Lower end extension, stage at 0.001m3/s was calculated to reflect same equation as curve #7.00.  New relationship to implement adopted standard practices for rating curve development by Water Survey of Canada in 2016.  (As per document qSOP-NA049-01-2016)",LogarithmicTable,Final/Finales,(3.4431:1.808);(1.797);
+05KE010,7.00,New relationship to implement adopted standard practices for rating curve development by Water Survey of Canada in 2016.  (As per document qSOP-NA049-01-2016),LogarithmicTable,Final/Finales,(3.4431:1.808);(1.797);
+05KE010,6.000,New curve drawn for 2014,LogarithmicTable,Final/Finales,(1);
+05KE010,5.000,,LogarithmicTable,Final/Finales,(0);
+05KE010,4.000,same as curve # 3.000 below 3.000m stage,LinearTable,Final/Finales,
+05KE010,3.000,,LinearTable,Final/Finales,
+05KE010,3.000-SC2,,LinearTable,Final/Finales,
+05KE010,2.000,CURVE #2 SIMILAR TO CURVE #1 ABOVE 3.550M.,LinearTable,Final/Finales,
+05KE010,2.000-SC1,,LinearTable,Final/Finales,
+05KE010,1.000,,LinearTable,Final/Finales,

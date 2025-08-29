@@ -1,0 +1,14 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02HB022,13.0,Curve redefinition based on 2015--2018 mmts. High and low changes.  Started at beginning of Jan during ice period.  Marked very bottom estimated b/c <1/2 the Q of lowest mmt.,LogarithmicTable,Provisional/Provisoire,(2.7315:2.186);(2.205);
+02HB022,12.01,extended in low end,LogarithmicTable,Final/Finales,(2.3845:2.18);(3.4076:2.207);(2.222);
+02HB022,12.0,curve redefinition,LogarithmicTable,Final/Finales,(2.3845:2.18);(3.4076:2.207);(2.222);
+02HB022,11.0,new HWS curve,LogarithmicTable,Final/Finales,(2.33383:2.18);(2.481:2.235);(2.257);
+02HB022,10.0,new HWS curve,LogarithmicTable,Final/Finales,(2.481:2.24);(2.257);
+02HB022,9.0,,LinearTable,Final/Finales,
+02HB022,8.0,,LinearTable,Final/Finales,
+02HB022,7.0,,LinearTable,Final/Finales,
+02HB022,6.0,,LinearTable,Final/Finales,
+02HB022,5.0,,LinearTable,Final/Finales,
+02HB022,4.0,,LinearTable,Final/Finales,
+02HB022,3.0,,LinearTable,Final/Finales,
+02HB022,2.0,,LinearTable,Final/Finales,

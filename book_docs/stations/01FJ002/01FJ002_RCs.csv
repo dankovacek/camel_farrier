@@ -1,0 +1,25 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+01FJ002,31.01,New rating based on 2020 and 2021 measurements. Extended upper end of rating. Stage reached higher than upper range of Rating 31.00 during Jul-22-2023 rain event.,LogarithmicTable,Provisional/Provisoire,(0.998:0.65);(0.65);
+01FJ002,31.00,New rating based on 2020 and 2021 measurements,LogarithmicTable,Final/Finales,(0.998:0.65);(0.65);
+01FJ002,30.01,Curve 30.00 based on 2018 MM. Scour to the right of the curve at the low to mid range. Rating 30.01 created in order to add the rating grade and to extend bottom of rating to cover low flow conditions.Due to GUI issues bottom of rating can only be viewed in rating Zoom 2.,LogarithmicTable,Provisional/Provisoire,(1.1391:0.75);(2.6738:0.824);(2.5);
+01FJ002,30.00,Curve 30.00 based on 2018 MM. Scour to the right of the curve at the low to mid range.,LogarithmicTable,Final/Finales,(1.1391:0.75);(2.6738:0.824);(2.5);
+01FJ002,29.00,Curve 29.00 same as 28.00 abve .915m. Had to change the offset at low end and extend.,LogarithmicTable,Final/Finales,(0.9151:0.79);(2.6738:0.824);(2.5);
+01FJ002,28.00,"New curve based Historic rain event on Oct 10, 2016. River scoured out.",LogarithmicTable,Final/Finales,(0.9151:0.814);(2.6738:0.824);(2.5);
+01FJ002,27.000,New curve 27.000 based on 2014 MM.,LogarithmicTable,Final/Finales,(0.82);
+01FJ002,26.000,New curve based on 2012 MM. Switch to Log-Log,LogarithmicTable,Final/Finales,(0.83);
+01FJ002,25.000,Refinement low end. .920 -.970m. Stage Based Shift,LinearTable,Final/Finales,
+01FJ002,25.000-SC3,,LinearTable,Final/Finales,
+01FJ002,24.000,Change between .830 - 1.450m. Based on 2009 MM.,LinearTable,Final/Finales,
+01FJ002,23.000,Curve refinement .860-.920. Curve change .940-1.20,LinearTable,Final/Finales,
+01FJ002,22.000,No change based on 2007 MM. Shift applied.,LinearTable,Final/Finales,
+01FJ002,22.000-SC2,,LinearTable,Final/Finales,
+01FJ002,22.000-SC1,,LinearTable,Final/Finales,
+01FJ002,21.000,Curve refinement at low end based on 2005 MM.,LinearTable,Final/Finales,
+01FJ002,20.000,,LinearTable,Final/Finales,
+01FJ002,19.000,,LinearTable,Final/Finales,
+01FJ002,18.000,,LinearTable,Final/Finales,
+01FJ002,17.000,,LinearTable,Final/Finales,
+01FJ002,16.000,,LinearTable,Final/Finales,
+01FJ002,15.000,,LinearTable,Final/Finales,
+01FJ002,14.000,,LinearTable,Final/Finales,
+01FJ002,13.000,,LinearTable,Final/Finales,

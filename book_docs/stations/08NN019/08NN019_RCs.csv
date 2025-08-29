@@ -1,0 +1,20 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08NN019,45.0,,LogarithmicTable,Provisional/Provisoire,(1.37:0.459);(0.459);
+08NN019,44.0,,LogarithmicTable,Final/Finales,(0.544);
+08NN019,43.0,,LogarithmicTable,Final/Finales,(0.577);
+08NN019,42.0,,LogarithmicTable,Final/Finales,(0.608);
+08NN019,41.0,,LogarithmicTable,Final/Finales,(0.554);
+08NN019,40.0,Use top end w/ discretion; same as #39 AB 1.50m.,LinearTable,Final/Finales,
+08NN019,39.0,Use top end w/ discretion; same as #38 AB 1.40m.,LinearTable,Final/Finales,
+08NN019,38.0,Coincident w. #37 abv. 1.170 m,LinearTable,Final/Finales,
+08NN019,37.0,,LinearTable,Final/Finales,
+08NN019,36.0,,LinearTable,Final/Finales,
+08NN019,35.0,,LinearTable,Final/Finales,
+08NN019,34.0,,LinearTable,Final/Finales,
+08NN019,33.0,,LinearTable,Final/Finales,
+08NN019,31.0,,LinearTable,Final/Finales,
+08NN019,30.0,,LinearTable,Final/Finales,
+08NN019,29.0,,LinearTable,Final/Finales,
+08NN019,28.0,,LinearTable,Final/Finales,
+08NN019,27.0,,LinearTable,Final/Finales,
+08NN019,26.0,,LinearTable,Final/Finales,

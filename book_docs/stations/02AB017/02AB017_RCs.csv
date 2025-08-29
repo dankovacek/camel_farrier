@@ -1,0 +1,19 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02AB017,18.00,New rating taking into account high water measurements from 2022 as well as extreme low water measurements in August 2021.,LogarithmicTable,Provisional/Provisoire,(0.887:0.189);(0.44);
+02AB017,17.00,Adjusted low end of 16.00 after several low water measurements,LogarithmicTable,Final/Finales,(0.5152:0.278);(0.306);
+02AB017,16.00,Adjusting curve to new channel profile due to significant high water event. Using open water measurements from 2016 and 2017 for reference.,LogarithmicTable,Final/Finales,(0.5152:0.278);(0.306);
+02AB017,15.01,"Extended Curve to Max Dischaerge of 220 m3/s to capture July 14, 2015 flood event. discharge over 98 m3/s is  graded as estimated",LogarithmicTable,Final/Finales,(0.5206:0.238);(0.276);
+02AB017,15.000,adjusted curve for better slope and new bridge construciton,LogarithmicTable,Final/Finales,(0.5206:0.238);(0.276);
+02AB017,14.000,,LogarithmicTable,Final/Finales,(0.51477:0.22);(1.0557:0.24);(0.3);
+02AB017,13.000,,LinearTable,Final/Finales,
+02AB017,12.000-SC5,,LinearTable,Final/Finales,
+02AB017,12.000,,LinearTable,Final/Finales,
+02AB017,12.000-SC3,,LinearTable,Final/Finales,
+02AB017,11.000,,LinearTable,Final/Finales,
+02AB017,10.000,same as curve #9 above .440,LinearTable,Final/Finales,
+02AB017,9.000,,LinearTable,Final/Finales,
+02AB017,9.000-SC2,,LinearTable,Final/Finales,
+02AB017,8.000,,LinearTable,Final/Finales,
+02AB017,8.000-SC1,,LinearTable,Final/Finales,
+02AB017,7.000,,LinearTable,Final/Finales,
+02AB017,6.000,,LinearTable,Final/Finales,

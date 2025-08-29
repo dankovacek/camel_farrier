@@ -1,0 +1,7 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05OD004,20.000,Scour evident from 19.00,LogarithmicTable,Provisional/Provisoire,(294.135:292.195);(292.195);
+05OD004,19.000,,LinearTable,Final/Finales,
+05OD004,18.000,Channel changes after high water,LinearTable,Final/Finales,
+05OD004,18.000-SC2,,LinearTable,Final/Finales,
+05OD004,17.000,Curve #17 is curve #16 converted to GSC,LinearTable,Final/Finales,
+05OD004,17.000-SC1,,LinearTable,Final/Finales,

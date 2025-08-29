@@ -1,0 +1,7 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02HD020,6.0,Control scours. Extended top end to cover 2015-04-20 event.,LogarithmicTable,Provisional/Provisoire,(1.02);
+02HD020,5.0,Control scours. Extended top end to cover 2015-04-20 event.,LogarithmicTable,Final/Finales,(1.02);
+02HD020,4.0,,LogarithmicTable,Final/Finales,(1.4808:1.133);(1.22);
+02HD020,3.0,,LinearTable,Final/Finales,
+02HD020,2.0,,LinearTable,Final/Finales,
+02HD020,1.0,,LinearTable,Final/Finales,

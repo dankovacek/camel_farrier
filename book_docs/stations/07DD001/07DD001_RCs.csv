@@ -1,0 +1,6 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07DD001,3.0,"Deposition on low end of curve, extension required on high end of curve",LogarithmicTable,Provisional/Provisoire,(209.821);
+07DD001,2.02,Curve Extension for 2020,LogarithmicTable,Final/Finales,(210.2);
+07DD001,2.1,Curve Extension for 2018,LogarithmicTable,Final/Finales,(210.2);
+07DD001,2.0,New curve for 2017,LogarithmicTable,Final/Finales,(210.2);
+07DD001,1.0,NEW curve for 2015,LogarithmicTable,Final/Finales,(213.95:209.47);(209.9);

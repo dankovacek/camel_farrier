@@ -1,0 +1,12 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+01AN002,19.01,Clone of 19 due to low end extension,LogarithmicTable,Provisional/Provisoire,(10.2241:9.86);(11.2423:9.874);(9.95);
+01AN002,19.00,New rating based on 2015/2016 early 2017 discharge measurements. Scour,LogarithmicTable,Final/Finales,(10.2241:9.86);(11.2423:9.874);(9.95);
+01AN002,18.01,Curve extension to cover range of stage,LinearTable,Final/Finales,
+01AN002,18.000,No Change in 2009 SBS #3 Used low water,LinearTable,Final/Finales,
+01AN002,18.000-SC3,,LinearTable,Final/Finales,
+01AN002,18.000-SC2,,LinearTable,Final/Finales,
+01AN002,18.000-SC1,,LinearTable,Final/Finales,
+01AN002,17.000,,LinearTable,Final/Finales,
+01AN002,16.000,,LinearTable,Final/Finales,
+01AN002,15.000,,LinearTable,Final/Finales,
+01AN002,14.000,,LinearTable,Final/Finales,

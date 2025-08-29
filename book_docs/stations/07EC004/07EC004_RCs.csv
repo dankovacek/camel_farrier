@@ -1,0 +1,13 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07EC004,17.0,"Created for 2021 data, and plots 2021, 2020, and 2019 open water measurements.. Used some historic high and low measurements. Curve 17.00 is very similar to Curve 16.0, but was changed explicitly on the low end of the curve, so that 2022 100% ice measurement plotted left of the curve.",LogarithmicTable,Provisional/Provisoire,(1.593);
+07EC004,16.0,Created for 2020 data. Used some historic high and low measurements. Used the two summer mmts of 2019. Did not use October 2019 because it was not deemed good measurement. Did not use May 2019 mmt because it did not match recent mmt. and hisotric mmt.,LogarithmicTable,Final/Finales,(1.63);
+07EC004,15.0,,LogarithmicTable,Final/Finales,(1.591);
+07EC004,14.0,FITS 2013/2014 OPEN WATER MEASUREMENTS,LogarithmicTable,Final/Finales,(1.571);
+07EC004,13.0,First curve created in HWS,LogarithmicTable,Final/Finales,(1.578);
+07EC004,12.0,APPROVED Same as T11 @& ab 2.499.Redefine low end,LinearTable,Final/Finales,
+07EC004,11.01,Same as T11 @ & above 2.499.  Redefine low end,LinearTable,Final/Finales,
+07EC004,11.0,Same as curve #10 fr 1.880 to 2.080 & 3.050 to 5.5,LinearTable,Final/Finales,
+07EC004,10.0,,LinearTable,Final/Finales,
+07EC004,9.0,,LinearTable,Final/Finales,
+07EC004,8.0,,LinearTable,Final/Finales,
+07EC004,7.0,,LinearTable,Final/Finales,

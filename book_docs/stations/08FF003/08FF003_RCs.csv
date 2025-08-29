@@ -1,0 +1,24 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08FF003,61.0,Shift during ice period.,LogarithmicTable,Provisional/Provisoire,(0.328);
+08FF003,60.0,Adjust offsets and upper rating point based on new measurements; Breakpoint assigned based on estimated flood channel elevation.,LogarithmicTable,Final/Finales,(1.18:0.446);(0.66);
+08FF003,59.0,Adjust offsets and upper rating point based on new measurements. Shift from curve 58.000 during ice.,LogarithmicTable,Final/Finales,(1.47:0.375);(0.53);
+08FF003,58.0,"new curve for 2014 starts in ice period, WL reference point switched to LB near orifice",LogarithmicTable,Final/Finales,(1.4:0.425);(0);
+08FF003,57.0,Shift at HW peak due to scouring.,LogarithmicTable,Final/Finales,(0.425);
+08FF003,56.0,Shift during ice period.,LogarithmicTable,Final/Finales,(0.42);
+08FF003,55.0,Approved: Shift during ice.,LinearTable,Final/Finales,
+08FF003,54.0,Approved.- Shift at HW.,LinearTable,Final/Finales,
+08FF003,51.01,Approved. - Shift during ice.,LinearTable,Final/Finales,
+08FF003,53.0,APPROVED HW shift,LinearTable,Final/Finales,
+08FF003,52.0,APPROVED - co-incident with Table #31 abv. 1.800m,LinearTable,Final/Finales,
+08FF003,51.0,,LinearTable,Final/Finales,
+08FF003,50.0,HW shift,LinearTable,Final/Finales,
+08FF003,49.0,,LinearTable,Final/Finales,
+08FF003,48.0,Moved Station Site approx. 1km d/s.,LinearTable,Final/Finales,
+08FF003,47.0,HW shift,LinearTable,Final/Finales,
+08FF003,46.0,Redefinition of upper  curve45.Shift during HW.,LinearTable,Final/Finales,
+08FF003,45.0,Shift to curve 46 during HighWater.,LinearTable,Final/Finales,
+08FF003,44.0,,LinearTable,Final/Finales,
+08FF003,43.0,,LinearTable,Final/Finales,
+08FF003,42.0,,LinearTable,Final/Finales,
+08FF003,41.0,,LinearTable,Final/Finales,
+08FF003,40.0,,LinearTable,Final/Finales,

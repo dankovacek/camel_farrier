@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07JD002,7.0,"Section control: riffles D/S of bridge; based on 22 open mmnts, 1993-2016.  Channel control: bend D/S of bridge; based on 5 open mmnts,1974-1997. (lowest open mmnt 5.83cms.) Transition 2.6m-2.9m. P:Record07JD002Curves 07JD002_20170220_Curve.7.0.docx",LogarithmicTable,Provisional/Provisoire,(0.94);
+07JD002,6.0,Clone of 5.000 to circumvent locked shift,LinearTable,Final/Finales,
+07JD002,5.0,,LinearTable,Final/Finales,
+07JD002,4.0,,LinearTable,Final/Finales,

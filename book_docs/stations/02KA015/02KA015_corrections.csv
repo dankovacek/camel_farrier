@@ -1,0 +1,129 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+02KA015,DeleteRegion,HG,2023-12-14T15:05:00,2023-12-14T15:05:00,2023-12-14T16:11:16,-5,DISREGARD: DUE TO FROZEN LINE AFTER N2 TANK CHANGE,,Normal
+02KA015,DeleteRegion,HG,2023-12-14T14:40:00,2023-12-14T14:50:00,2023-12-14T16:09:01,-5,DISREGARD: DUE TO FROZEN ORIFICE LINE AFTER N2 TANK CHANGE,,Normal
+02KA015,Offset,HG,2023-10-30T19:50:00,2023-12-11T08:30:00,2023-12-14T16:12:17,-5,SRC APPLIED DUE TO SUSPECTE LINE MOVEMENT: -0.033m,Offset:-0.033,Normal
+02KA015,Drift,HG,2023-10-24T16:35:00,2023-12-14T14:30:00,2023-12-14T16:07:06,-5,SRC APPLIED VISIT TO VISIT: -0.004m,"DriftPoints:(Offset:0,Time:2023-10-24T16:35:00Z);(Offset:-0.004,Time:2023-12-14T14:30:00Z)",Normal
+02KA015,CopyPaste,HG,2023-10-24T16:35:00,2023-12-14T14:30:00,2023-12-14T16:08:15,-5,"COPY PASTE:Override: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,HG,2023-10-15T07:25:00,2023-10-15T08:30:00,2023-10-24T18:38:20,-5,"COPY PASTE:Override: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,QR,2023-10-10T23:10:00,2023-10-15T07:10:00,2023-11-15T14:05:30,-5,Override: Log Linear‌Q(t) = 1.8419958599727693e^(-0.04469114143205201t)‌,,Normal
+02KA015,CopyPaste,HG,2023-10-10T19:25:00,2023-10-10T20:30:00,2023-10-24T18:37:51,-5,"COPY PASTE:Override: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,QR,2023-10-09T18:10:00,2023-10-10T23:20:00,2023-11-15T13:53:09,-5,Override: Log Linear‌Q(t) = 1.3643413567764553e^(0.24360581664379427t)‌,,Normal
+02KA015,CopyPaste,HG,2023-08-08T06:25:00,2023-08-08T07:10:00,2023-10-27T13:13:29,-5,"Copy and paste from loggerOverride: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,Drift,HG,2023-06-20T16:00:00,2023-10-24T16:30:00,2023-11-14T19:13:22,-5,-Apply SRC visit to visit,"DriftPoints:(Offset:0,Time:2023-06-20T16:00:00Z);(Offset:-0.003,Time:2023-10-24T16:30:00Z)",Normal
+02KA015,CopyPaste,HG,2023-06-20T14:26:43,2023-06-20T15:06:43,2023-06-20T16:28:04,-5,"COPY PASTE:Override: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,Deviation,HG,2023-06-13T14:45:00,2023-06-20T15:00:00,2023-06-26T19:43:29,-5,,"DeviationValue:0.005,DeviationType:DeviationFromMinimum,WindowSizeInMinutes:60",Normal
+02KA015,Deviation,HG,2023-06-12T16:30:00,2023-06-13T15:00:00,2023-06-26T19:44:19,-5,,"DeviationValue:0.008,DeviationType:DeviationFromMinimum,WindowSizeInMinutes:30",Normal
+02KA015,Deviation,HG,2023-06-10T21:25:00,2023-06-12T16:30:00,2023-06-26T19:45:31,-5,,"DeviationValue:0.005,DeviationType:DeviationFromAverage,WindowSizeInMinutes:60",Normal
+02KA015,Deviation,HG,2023-05-21T07:40:00,2023-06-10T21:10:00,2023-06-26T19:46:32,-5,,"DeviationValue:0.005,DeviationType:DeviationFromMinimum,WindowSizeInMinutes:60",Normal
+02KA015,Deviation,HG,2023-05-20T21:15:00,2023-05-21T08:05:00,2023-06-26T19:47:13,-5,,"DeviationValue:0.01,DeviationType:DeviationFromMinimum,WindowSizeInMinutes:30",Normal
+02KA015,Deviation,HG,2023-05-02T00:40:00,2023-05-20T21:20:00,2023-06-26T19:48:10,-5,,"DeviationValue:0.005,DeviationType:DeviationFromMinimum,WindowSizeInMinutes:60",Normal
+02KA015,CopyPaste,QR,2023-03-30T04:45:00,2023-04-10T14:30:00,2023-11-15T13:47:54,-5,,,Normal
+02KA015,CopyPaste,HG,2023-03-28T21:25:00,2023-03-29T09:30:00,2023-06-20T16:29:03,-5,"COPY PASTE:Override: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,QR,2023-03-15T05:30:00,2023-03-31T03:50:00,2023-11-15T13:46:09,-5,,,Normal
+02KA015,CopyPaste,QR,2023-03-11T20:05:00,2023-04-13T03:45:00,2023-06-19T13:52:43,-5,"ICE: Estimated using air temperature, discharge from 02EA005 Burk's Falls and precipitation from 02EA016 Doe Lake.Override: Linear‌Q(t) = (0.20433569078757252)t + 1.0078065297700296‌",,Normal
+02KA015,CopyPaste,QR,2023-02-15T03:05:00,2023-02-24T14:35:00,2023-11-15T13:42:22,-5,,,Normal
+02KA015,Drift,HG,2023-02-13T16:30:00,2023-06-20T15:05:00,2023-06-26T19:36:36,-5,,"DriftPoints:(Offset:0,Time:2023-02-13T16:30:00Z);(Offset:-0.012,Time:2023-06-20T15:05:00Z)",PreProcessing
+02KA015,CopyPaste,HG,2023-02-13T16:27:00,2023-06-20T14:56:00,2023-06-20T16:29:59,-5,"COPY PASTE: for multiple missing data points and erroneous transmissionsOverride: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,QR,2023-02-07T03:20:00,2023-02-15T06:35:00,2023-11-15T13:39:29,-5,,,Normal
+02KA015,CopyPaste,QR,2023-02-02T14:20:00,2023-03-13T02:50:00,2023-11-14T21:23:51,-5,,,Normal
+02KA015,CopyPaste,QR,2023-01-08T05:05:00,2023-02-07T09:55:00,2023-11-14T21:19:44,-5,,,Normal
+02KA015,CopyPaste,QR,2022-12-29T06:20:00,2023-01-20T06:50:00,2023-11-14T21:13:47,-5,,,Normal
+02KA015,CopyPaste,QR,2022-12-17T20:05:00,2023-01-01T05:50:00,2023-11-14T21:10:25,-5,,,Normal
+02KA015,CopyPaste,QR,2022-12-09T13:20:00,2022-12-18T06:20:00,2023-11-14T21:07:33,-5,,,Normal
+02KA015,CopyPaste,QR,2022-12-01T21:10:00,2022-12-02T09:25:00,2023-11-14T20:59:14,-5,,,Normal
+02KA015,CopyPaste,QR,2022-12-01T15:25:00,2023-04-12T09:40:00,2023-03-17T15:50:53,-5,Override: Moving Average Filter‌Window: 100.‌Iterations: 1.‌,,Normal
+02KA015,CopyPaste,QR,2022-12-01T11:00:00,2022-12-01T18:20:00,2023-11-14T20:57:12,-5,,,Normal
+02KA015,CopyPaste,QR,2022-11-29T10:10:00,2022-11-29T17:25:00,2023-11-14T20:53:51,-5,,,Normal
+02KA015,CopyPaste,QR,2022-11-18T07:35:00,2022-11-24T11:20:00,2023-03-17T14:51:23,-5,Override: Moving Average Filter‌Window: 100.‌Iterations: 1.‌,,Normal
+02KA015,CopyPaste,HG,2022-10-24T15:30:00,2022-10-24T17:50:00,2022-10-26T16:47:00,-5,"Copy & Paste from Stage.Logger - Gap FillOverride: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,HG,2022-09-09T14:45:00,2022-09-09T16:50:00,2022-10-26T16:46:03,-5,"Copy & Paste from Stage.Logger - Gap FillOverride: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,Drift,HG,2022-09-07T19:40:00,2022-10-26T14:05:00,2022-10-26T16:50:48,-5,SRC: Drift of +.008m applied visit to visit,"DriftPoints:(Offset:0,Time:2022-09-07T19:40:00Z);(Offset:0.008,Time:2022-10-26T14:05:00Z)",Normal
+02KA015,CopyPaste,HG,2022-09-03T09:25:00,2022-09-07T18:05:00,2022-09-08T18:08:16,-5,"Copy & Paste from Stage.Logger - Gap FillOverride: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,HG,2022-08-15T17:50:00,2022-08-15T19:50:00,2022-09-08T18:07:09,-5,"Copy & Paste from Stage.Logger - Gap FillOverride: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,HG,2022-07-30T12:40:00,2022-07-30T16:05:00,2022-09-08T18:06:28,-5,"Copy & Paste from Stage.Logger - Gap FillOverride: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,HG,2022-07-27T07:55:00,2022-07-27T12:55:00,2022-09-08T18:05:57,-5,"Copy & Paste from Stage.Logger - Gap FillOverride: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,HG,2022-06-26T06:45:00,2022-06-26T09:00:00,2022-07-07T12:51:25,-5,"Copy & Paste from Stage.Logger - Gap FillOverride: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,DeleteRegion,HG,2022-05-25T15:15:00,2022-05-25T15:15:00,2022-05-26T12:17:24,-5,Orifice purged,,Normal
+02KA015,CopyPaste,HG,2022-03-14T11:20:00,2022-03-14T14:05:00,2022-04-25T13:37:29,-5,"Copy & Paste from Stage.Logger - Gap FillOverride: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,HG,2022-03-06T04:00:00,2022-03-06T17:45:00,2022-04-25T13:36:35,-5,"Copy & Paste from Stage.Logger - Gap FillOverride: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,FillGaps,QR,2022-03-05T10:40:00,2022-03-07T07:25:00,2023-11-14T20:45:09,-5,,"ResamplePeriod:PT5M,GapLimit:MaxDuration",Normal
+02KA015,CopyPaste,QR,2022-02-18T11:55:00,2022-02-22T00:25:00,2023-11-14T20:42:48,-5,,,Normal
+02KA015,CopyPaste,QR,2022-02-04T18:25:00,2022-02-11T22:40:00,2023-11-14T20:40:21,-5,,,Normal
+02KA015,CopyPaste,QR,2022-01-11T18:25:00,2022-02-04T10:10:00,2023-11-14T20:38:08,-5,,,Normal
+02KA015,CopyPaste,QR,2022-01-10T15:55:00,2022-04-06T23:35:00,2022-04-11T16:11:36,-5,"ICE: Estimated using on-site air temp, precip data from 02DD024, weather records from North Bay Airport, and discharge from 02EA005 for comparison.Override: Log Linear‌Q(t) = 0.8255666137712334e^(0.01800597946471927t)‌",,Normal
+02KA015,Drift,HG,2022-01-10T14:30:00,2022-02-23T17:35:00,2022-02-24T14:35:36,-5,SRC - visit to visit,"DriftPoints:(Offset:0,Time:2022-01-10T14:30:00Z);(Offset:0.02,Time:2022-02-23T17:35:00Z)",Normal
+02KA015,CopyPaste,QR,2021-12-17T20:10:00,2021-12-18T17:40:00,2022-04-25T15:53:51,-5,,,Normal
+02KA015,CopyPaste,QR,2021-12-16T12:40:00,2021-12-16T23:55:00,2022-04-25T15:52:42,-5,,,Normal
+02KA015,CopyPaste,QR,2021-12-13T23:10:00,2021-12-16T17:55:00,2022-04-25T15:49:40,-5,,,Normal
+02KA015,CopyPaste,HG,2021-12-11T11:20:00,2021-12-11T12:30:00,2022-04-08T18:55:41,-5,"COPY PASTE: Fill gapOverride: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,QR,2021-12-03T20:55:00,2021-12-06T18:55:00,2022-04-25T15:46:33,-5,Override: Linear‌Q(t) = (-0.0761112413603308)t + 1.7016144338888226‌,,Normal
+02KA015,CopyPaste,HG,2021-11-30T16:05:00,2021-11-30T16:30:00,2022-01-10T18:29:12,-5,"Override: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,Drift,HG,2021-11-30T16:00:00,2022-01-10T14:25:00,2022-01-10T18:32:19,-5,Sensor Reset Correction,"DriftPoints:(Offset:0,Time:2021-11-30T16:00:00Z);(Offset:-0.027,Time:2022-01-10T14:25:00Z)",Normal
+02KA015,CopyPaste,HG,2021-11-30T15:45:00,2021-11-30T16:00:00,2021-12-08T16:23:24,-5,"COPY PASTE:  Fill gap.Override: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,DeleteRegion,HG,2021-11-30T15:05:00,2021-11-30T16:25:00,2021-12-02T15:36:18,-5,DISREGARD:  Spike due to dropped tx,,PreProcessing
+02KA015,CopyPaste,QR,2021-11-24T03:40:00,2022-01-10T15:56:00,2022-04-11T15:58:35,-5,"ICE: Estimated using on-site air temp, precip data from 02DD024, weather records from North Bay Airport, and discharge from 02EA005 for comparison.Override: Log Linear‌Q(t) = 1.7700635705780017e^(-0.005266755267471892t)‌",,Normal
+02KA015,CopyPaste,HG,2021-11-19T18:25:00,2021-11-19T20:30:00,2021-12-08T16:14:41,-5,"COPY PASTE: Fill gap.Override: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,HG,2021-11-18T00:25:00,2021-11-18T05:30:00,2021-12-08T16:12:39,-5,"COPY PASTE: Fill gap.Override: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,HG,2021-11-10T18:25:00,2021-11-10T19:00:00,2021-11-18T18:33:00,-5,"COPY PASTE: Fill gap due to logger restart.Override: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,Drift,HG,2021-11-10T18:00:00,2021-11-30T16:00:00,2021-12-08T16:28:37,-5,SRC: +0.013m applied visit-to-visit.,"DriftPoints:(Offset:0,Time:2021-11-10T18:00:00Z);(Offset:0.013,Time:2021-11-30T16:00:00Z)",Normal
+02KA015,DeleteRegion,HG,2021-11-10T17:40:00,2021-11-10T17:55:00,2021-12-03T19:33:51,-5,DISREGARD: Purge & installing temp sensor,,PreProcessing
+02KA015,Drift,HG,2021-08-25T13:26:00,2021-11-10T17:48:00,2021-11-18T18:29:29,-5,SRC: -0.008m applied visit-to-visit.,"DriftPoints:(Offset:0,Time:2021-08-25T13:26:00Z);(Offset:-0.008,Time:2021-11-10T17:48:00Z)",Normal
+02KA015,Offset,HG,2021-07-06T12:40:00,2021-07-06T14:55:00,2021-07-07T17:37:03,-5,SENSOR RESET CORRECTION - Offset -0.003m,Offset:-0.003,Normal
+02KA015,CopyPaste,QR,2021-06-11T11:50:00,2021-06-12T03:45:00,2021-08-31T14:12:19,-5,ESTIMATION: Backwater event on June 10th; possible log jam or beaver dam burst.Override: Linear‌Q(t) = (-0.015822099392599803)t + 0.222534480173973‌,,Normal
+02KA015,CopyPaste,QR,2021-05-01T00:22:30,2021-06-21T05:02:30,2021-08-04T16:50:10,-5,ESTIMATION: Due to paintingOverride: Moving Average Filter‌Window: 50.‌Iterations: 1.‌,,Normal
+02KA015,CopyPaste,QR,2021-03-23T21:45:00,2021-03-24T22:30:00,2021-08-31T14:15:52,-5,ESTIMATION: Backwater event due to ice jam or other debris on controlOverride: Linear‌Q(t) = (-0.5253750301353458)t + 5.962195531739421‌,,Normal
+02KA015,Drift,HG,2021-03-10T14:35:00,2021-07-06T12:35:00,2021-07-07T17:33:28,-5,SENSOR RESET CORRECTION - Value = -0.018m,"DriftPoints:(Offset:0,Time:2021-03-10T14:35:00Z);(Offset:-0.018,Time:2021-07-06T12:35:00Z)",Normal
+02KA015,CopyPaste,HG,2021-03-10T14:25:00,2021-03-10T14:55:00,2021-03-15T17:36:37,-5,"COPY PASTE - Fill gap.Override: Copy & Paste‌Source Data Set: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,QR,2021-02-28T21:55:00,2021-03-11T03:55:00,2021-11-10T17:07:22,-5,,,Normal
+02KA015,CopyPaste,QR,2021-02-04T15:55:00,2021-03-21T19:55:00,2021-03-24T18:36:41,-5,"ICE - Discharge under ice estimated using air temp from 02JE027, precip data from 02DD024, and discharge from 02EA005 for comparison.Override: Freehand‌",,PreProcessing
+02KA015,CopyPaste,HG,2020-12-26T23:25:00,2020-12-27T00:30:00,2021-02-22T17:18:57,-5,"COPY PASTE - Fill gap.Override: Copy & Paste‌Source signal: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,HG,2020-12-17T08:25:00,2020-12-17T09:30:00,2021-02-22T17:17:50,-5,"COPY PASTE - Fill gap.Override: Copy & Paste‌Source signal: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,QR,2020-12-17T01:00:00,2020-12-25T03:00:00,2021-04-30T18:41:24,-5,Override: Freehand‌,,Normal
+02KA015,CopyPaste,HG,2020-12-12T10:25:00,2020-12-12T11:30:00,2021-02-22T17:15:17,-5,"COPY PASTE - Fill gap.Override: Copy & Paste‌Source signal: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,Offset,HG,2020-12-10T15:25:00,2020-12-10T15:25:00,2021-03-25T13:32:20,-5,SENSOR RESET CORRECTION - Offset of +0.013m applied to data point @ 10:25 to bring in line with trace values. Appears reset occurred just after point was recorded at 10:25.,Offset:0.013,PreProcessing
+02KA015,Drift,HG,2020-12-10T15:25:00,2021-02-04T14:20:00,2021-03-25T13:37:51,-5,SENSOR RESET CORRECTION - Value -0.014m,"DriftPoints:(Offset:0,Time:2020-12-10T15:25:00Z);(Offset:-0.014,Time:2021-02-04T14:20:00Z)",Normal
+02KA015,DeleteRegion,HG,2020-12-10T14:50:00,2020-12-10T15:15:00,2021-02-22T17:55:47,-5,DISREGARD - Delete spikes due to purge.,,PreProcessing
+02KA015,CopyPaste,HG,2020-12-10T14:45:00,2020-12-10T15:30:00,2021-02-22T17:53:42,-5,"COPY PASTE - Fill gap.Override: Copy & Paste‌Source signal: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,QR,2020-12-04T21:35:00,2020-12-05T14:20:00,2020-12-22T12:20:48,-5,ESTIMATION - Logger outage due to failing battery. Discharge data from 02EA005 and precip data from Petawawa AWOS 2 used for comparison.Override: Linear‌Q(t) = (0.05731343283582095)t + 2.16‌,,PreProcessing
+02KA015,CopyPaste,QR,2020-12-04T11:35:00,2020-12-04T17:50:00,2020-12-21T20:48:48,-5,ESTIMATION - Logger outage due to failing battery. Discharge data from 02EA005 and precip data from Petawawa AWOS 2 used for comparison.Override: Linear‌Q(t) = (-0.192000000000001)t + 2.22‌,,PreProcessing
+02KA015,CopyPaste,QR,2020-12-02T09:35:00,2020-12-02T15:10:00,2020-12-21T20:45:25,-5,ESTIMATION - Logger outage due to failing battery. Discharge data from 02EA005 and precip data from Petawawa AWOS 2 used for comparison.Override: Linear‌Q(t) = (0.04298507462686475)t + 2.29‌,,PreProcessing
+02KA015,CopyPaste,QR,2020-11-30T06:35:00,2020-12-01T16:05:00,2020-12-21T20:39:05,-5,ESTIMATION - Logger outage due to failing battery. Discharge data from 02EA005 and precip data from Petawawa AWOS 2 used for comparison.Override: Linear‌Q(t) = (0.35820895522388063)t + 1.73‌,,PreProcessing
+02KA015,CopyPaste,QR,2020-11-25T01:00:00,2021-02-04T15:50:00,2021-03-24T17:17:59,-5,"ICE - Discharge under ice estimated using air temp from 02JE027, precip data from 02DD024, and discharge from 02EA005 for comparison.Override: Linear‌Q(t) = (0.00528046031703875)t + 1.2278876106416785‌",,PreProcessing
+02KA015,CopyPaste,QR,2020-11-22T23:35:00,2020-11-23T13:45:00,2020-12-21T19:54:37,-5,ESTIMATION - Logger outage due to failing battery. Discharge data from 02EA005 and precip data from Petawawa AWOS 2 used for comparison.Override: Linear‌Q(t) = (-0.01694117647058825)t + 1.29‌,,PreProcessing
+02KA015,CopyPaste,HG,2020-11-22T23:20:00,2020-12-10T14:45:00,2020-12-14T15:39:50,-5,"COPY PASTE - Fill gaps.Override: Copy & Paste‌Source signal: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,HG,2020-11-22T13:25:00,2020-11-22T14:45:00,2020-12-14T15:38:50,-5,"COPY PASTE - Fill gap.Override: Copy & Paste‌Source signal: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,QR,2020-11-20T12:35:00,2020-11-20T15:35:00,2020-12-21T19:53:08,-5,ESTIMATION - Logger outage due to failing battery. Discharge data from 02EA005 and precip data from Petawawa AWOS 2 used for comparison.Override: Linear‌Q(t) = (-0.08000000000000007)t + 1.43‌,,PreProcessing
+02KA015,CopyPaste,HG,2020-11-20T12:25:00,2020-11-20T15:35:00,2020-12-14T15:37:00,-5,"COPY PASTE - Fill gap.Override: Copy & Paste‌Source signal: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,QR,2020-11-19T09:35:00,2020-11-19T13:20:00,2020-12-21T19:51:45,-5,ESTIMATION - Logger outage due to failing battery. Discharge data from 02EA005 and precip data from Petawawa AWOS 2 used for comparison.Override: Linear‌Q(t) = (-0.1280000000000001)t + 1.51‌,,PreProcessing
+02KA015,CopyPaste,HG,2020-11-19T09:25:00,2020-11-19T13:30:00,2020-12-14T15:34:28,-5,"COPY PASTE - Fill gaps.Override: Copy & Paste‌Source signal: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,QR,2020-11-16T16:35:00,2020-11-17T14:55:00,2020-12-21T19:19:25,-5,ESTIMATION - Logger outage due to failing battery. Discharge data from 02EA005 and precip data from Petawawa AWOS 2 used for comparison.Override: Freehand‌,,PreProcessing
+02KA015,CopyPaste,HG,2020-11-16T16:25:00,2020-11-16T16:35:00,2020-12-14T15:29:40,-5,"COPY PASTE - Fill gapOverride: Copy & Paste‌Source signal: Stage.Logger@02KA015, time shift: 00:00 minutes.‌",,PreProcessing
+02KA015,CopyPaste,QR,2020-11-15T09:25:00,2020-11-16T15:35:00,2020-12-21T19:16:23,-5,ESTIMATION - Logger outage due to failing battery. Discharge data from 02EA005 and precip data from Petawawa AWOS 2 used for comparison.Override: Freehand‌,,PreProcessing
+02KA015,CopyPaste,HG,2020-05-21T21:25:00,2020-05-21T21:35:00,2020-08-14T13:09:35,-5,"COPY PASTE - Fill data gapsOverride: Copy & Paste‌Source signal: Stage.Logger@02KA015, time shift: 0 minutes.‌",,PreProcessing
+02KA015,CopyPaste,HG,2020-04-21T11:25:00,2020-04-21T12:30:00,2020-08-14T13:08:01,-5,"COPY PASTE - Fill data gapsOverride: Copy & Paste‌Source signal: Stage.Logger@02KA015, time shift: 0 minutes.‌",,PreProcessing
+02KA015,CopyPaste,HG,2020-04-12T08:25:00,2020-04-12T09:35:00,2020-08-14T13:07:14,-5,"COPY PASTE - Fill data gapsOverride: Copy & Paste‌Source signal: Stage.Logger@02KA015, time shift: 0 minutes.‌",,PreProcessing
+02KA015,CopyPaste,HG,2020-03-04T16:25:00,2020-03-04T17:10:00,2020-08-14T13:04:28,-5,"COPY PASTE - Fill data gapsOverride: Copy & Paste‌Source signal: Stage.Logger@02KA015, time shift: 0 minutes.‌",,PreProcessing
+02KA015,CopyPaste,QR,2020-03-04T09:05:00,2020-03-09T18:10:00,2020-11-03T18:39:09,-5,ICE - Override: Freehand‌,,PreProcessing
+02KA015,CopyPaste,QR,2020-02-25T17:05:00,2020-03-02T19:05:00,2020-04-23T13:11:56,-5,ICE - Override: Log Linear‌Q(t) = 0.3025715351085931e^(-0.047964284373620124t)‌,,Normal
+02KA015,CopyPaste,QR,2020-02-11T11:05:00,2020-02-23T03:05:00,2020-04-23T13:28:06,-5,ICE - Override: Log Linear‌Q(t) = 0.63e^(-0.03293682003921955t)‌,,Normal
+02KA015,USGSMultiPoint,QR,2020-01-18T03:05:00,2020-03-04T09:05:00,2020-04-23T13:16:11,-5,ICE - Offset: 0.2‌,"StartShiftPoints:(Value:9007199254740991,Offset:0.2),UsgsType:Set 2",Normal
+02KA015,CopyPaste,QR,2020-01-17T17:05:00,2020-03-04T11:00:00,2020-04-23T13:00:50,-5,ICE - Override: Freehand‌,,Normal
+02KA015,CopyPaste,QR,2020-01-17T03:05:00,2020-01-23T13:05:00,2020-04-23T13:19:06,-5,ICE - Override: Log Linear‌Q(t) = 0.951e^(-0.07161617589594041t)‌,,Normal
+02KA015,CopyPaste,QR,2020-01-17T01:50:00,2020-01-17T10:35:00,2021-01-26T19:32:24,-5,Override: Linear‌Q(t) = (-0.06857142857142863)t + 0.914‌,,Normal
+02KA015,CopyPaste,QR,2020-01-15T21:20:00,2020-01-17T15:05:00,2021-01-26T19:54:04,-5,Override: Freehand‌,,Normal
+02KA015,CopyPaste,QR,2020-01-13T16:20:00,2020-01-17T11:05:00,2021-01-26T19:31:11,-5,Override: Freehand‌,,Normal
+02KA015,CopyPaste,QR,2020-01-11T09:05:00,2020-01-19T09:05:00,2021-01-26T19:56:30,-5,Override: Freehand‌,,Normal
+02KA015,CopyPaste,QR,2020-01-10T18:20:00,2020-01-17T03:05:00,2021-01-26T19:26:54,-5,Override: Linear‌Q(t) = (0.05860556464811784)t + 0.578‌,,Normal
+02KA015,CopyPaste,QR,2019-12-20T00:35:00,2020-01-11T01:05:00,2021-01-26T19:23:30,-5,Override: Freehand‌,,Normal
+02KA015,CopyPaste,QR,2019-12-12T00:10:00,2020-01-10T19:05:00,2021-01-26T19:10:31,-5,Override: Log Linear‌Q(t) = 0.923e^(-0.015878494141248208t)‌,,Normal
+02KA015,CopyPaste,QR,2019-12-11T23:05:00,2020-01-10T23:05:00,2021-01-26T19:13:43,-5,Override: Freehand‌,,Normal
+02KA015,CopyPaste,HG,2019-11-27T15:25:00,2019-11-27T21:30:00,2020-04-22T18:39:44,-5,"COPY PASTEOverride: Copy & Paste‌Source signal: Stage.Logger@02KA015, time shift: 0 minutes.‌",,PreProcessing
+02KA015,CopyPaste,QR,2019-11-21T21:05:00,2019-12-08T15:05:00,2020-04-23T12:55:52,-5,ICE - Override: Log Linear‌Q(t) = 0.7e^(-0.010105332396257102t)‌,,Normal
+02KA015,CopyPaste,QR,2019-11-21T19:25:00,2019-12-08T15:05:00,2021-01-26T19:08:22,-5,Override: Freehand‌,,Normal
+02KA015,FillGaps,QR,2019-11-21T19:25:00,2019-11-21T23:05:00,2020-04-23T16:03:00,-5,ICE - ,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+02KA015,CopyPaste,QR,2019-11-21T19:05:00,2020-01-18T01:55:00,2020-04-23T12:49:15,-5,ICE - Override: Freehand‌,,Normal
+02KA015,CopyPaste,QR,2019-11-11T07:25:00,2019-11-21T21:05:00,2020-04-23T15:59:58,-5,ICE - Override: Log Linear‌Q(t) = 1.57e^(-0.07642318075890189t)‌,,Normal
+02KA015,CopyPaste,QR,2019-11-04T00:25:00,2019-11-04T01:30:00,2020-04-23T15:56:20,-5,"ESTIMATION - Override: Copy & Paste‌Source signal: Discharge.Historical.Working@02KA015, time shift: 0 minutes.‌",,Normal
+02KA015,CopyPaste,QR,2019-08-22T07:10:00,2019-09-04T19:25:00,2020-04-23T15:53:22,-5,"ESTIMATION - Override: Copy & Paste‌Source signal: Discharge.Historical.Working@02KA015, time shift: 0 minutes.‌",,Normal
+02KA015,CopyPaste,QR,2019-08-22T02:40:00,2019-09-04T19:45:00,2021-01-26T18:59:38,-5,Override: Freehand‌,,Normal
+02KA015,CopyPaste,QR,2019-04-21T03:45:00,2019-04-21T18:55:00,2021-01-27T19:03:19,-5,Override: Freehand‌,,Normal

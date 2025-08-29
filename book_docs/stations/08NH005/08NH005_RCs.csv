@@ -1,0 +1,22 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08NH005,33.02,change curve confidence to include april 2023 low water mmt,LogarithmicTable,Provisional/Provisoire,(1.304);
+08NH005,33.01,extend 33.00 for low water in winter,LogarithmicTable,Final/Finales,(1.304);
+08NH005,33.0,,LogarithmicTable,Final/Finales,(1.304);
+08NH005,32.0,new curve since cableway being fixed and getting highwater measurements,LogarithmicTable,Final/Finales,(1.343);
+08NH005,31.001,cloned from 31.000 to add curve confidence grades,LogarithmicTable,Final/Finales,(2.723:1.346);(2.1);
+08NH005,31.0,Coincides with C 29 above breakpoint.,LogarithmicTable,Final/Finales,(2.723:1.346);(2.1);
+08NH005,30.0,,LogarithmicTable,Final/Finales,(2.7:1.01);(2.15);
+08NH005,29.0,copy of curve 28.0 with lower end extension,LogarithmicTable,Final/Finales,(2.723:1.229);(2.1);
+08NH005,28.0,,LogarithmicTable,Final/Finales,(2.723:1.229);(2.1);
+08NH005,27.0,,LogarithmicTable,Final/Finales,(2.723:1.183);(2.146);
+08NH005,26.0,"From Max HW, slight  low end left shift",LogarithmicTable,Final/Finales,
+08NH005,25.0,Minor peak co-incid @ 3.1m with  #24,LinearTable,Final/Finales,
+08NH005,24.0,Ice movement co-incid @ 2.1m with  #23,LinearTable,Final/Finales,
+08NH005,23.0,Co-incident With #22 @> 3.2m.,LinearTable,Final/Finales,
+08NH005,22.0,Co-incident With #21 @> 2.5m.,LinearTable,Final/Finales,
+08NH005,21.0,coincident with #20 at & above 2.090 & bel. 1.83 m,LinearTable,Final/Finales,
+08NH005,20.0,,LinearTable,Final/Finales,
+08NH005,19.0,,LinearTable,Final/Finales,
+08NH005,18.0,,LinearTable,Final/Finales,
+08NH005,17.0,,LinearTable,Final/Finales,
+08NH005,16.0,,LinearTable,Final/Finales,

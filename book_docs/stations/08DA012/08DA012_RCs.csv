@@ -1,0 +1,29 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08DA012,27.0,Curve defined using late 2020 and 2021 data which indicates scour of channel.,LogarithmicTable,Provisional/Provisoire,(0.742);
+08DA012,26.01,Curve defined using 2018 Open-Water data and historic high water measurements,LogarithmicTable,Final/Finales,(1.175:0.959);(1.122);
+08DA012,26.0,Curve defined using 2018 Open-Water data and historic high water measurements,LogarithmicTable,Final/Finales,(1.175:0.959);(1.122);
+08DA012,25.0,Curve defined using 2016-2017 Open-Water data,LogarithmicTable,Final/Finales,(1.1035:0.91);(1.05);
+08DA012,24.0,curve for 2013-2015 with shifts applied.,LogarithmicTable,Final/Finales,(1.32:0.97);(0.97);
+08DA012,23.0,,LogarithmicTable,Final/Finales,(1.139:1.025);(1.031);
+08DA012,22.0,,LogarithmicTable,Final/Finales,(1.27:1.01);(1.04);
+08DA012,21.0,APPROVED Shift during non operational period,LinearTable,Final/Finales,
+08DA012,20.0,APPROVED Shift after high water peak,LinearTable,Final/Finales,
+08DA012,19.0,APPROVRED Shift during non-operational period,LinearTable,Final/Finales,
+08DA012,18.0,APPROVED Shift during non-operational period,LinearTable,Final/Finales,
+08DA012,17.0,APPROVED HW shift to the right at lower end only.,LinearTable,Final/Finales,
+08DA012,16.0,Shift during non operational period,LinearTable,Final/Finales,
+08DA012,15.0,APPROVED,LinearTable,Final/Finales,
+08DA012,14.0,,LinearTable,Final/Finales,
+08DA012,13.0,,LinearTable,Final/Finales,
+08DA012,12.0,,LinearTable,Final/Finales,
+08DA012,11.0,,LinearTable,Final/Finales,
+08DA012,10.0,,LinearTable,Final/Finales,
+08DA012,9.0,,LinearTable,Final/Finales,
+08DA012,8.0,,LinearTable,Final/Finales,
+08DA012,7.0,,LinearTable,Final/Finales,
+08DA012,6.0,,LinearTable,Final/Finales,
+08DA012,5.0,,LinearTable,Final/Finales,
+08DA012,4.0,,LinearTable,Final/Finales,
+08DA012,3.0,,LinearTable,Final/Finales,
+08DA012,2.0,,LinearTable,Final/Finales,
+08DA012,1.0,,LinearTable,Final/Finales,

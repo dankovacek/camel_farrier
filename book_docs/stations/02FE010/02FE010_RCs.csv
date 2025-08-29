@@ -1,0 +1,11 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02FE010,11.000,Low End Curve Definition,LogarithmicTable,Final/Finales,(6.1507:3.005);(3.06);
+02FE010,10.00,NEW HWS CURVE,LogarithmicTable,Final/Finales,(6.1507:3.029);(3.06);
+02FE010,9.000,EXTENDED FROM 6.90 TO 7.20 (03/24/2009),LinearTable,Final/Finales,
+02FE010,9.000-SC3,,LinearTable,Final/Finales,
+02FE010,8.000,Same as #7 below 3.50 m.,LinearTable,Final/Finales,
+02FE010,8.000-SC2,,LinearTable,Final/Finales,
+02FE010,8.000-SC1,,LinearTable,Final/Finales,
+02FE010,7.000,,LinearTable,Final/Finales,
+02FE010,6.000,,LinearTable,Final/Finales,
+02FE010,5.000,tp pnt chng'd at 6.7 & and ext'd to 7.0 for 2003,LinearTable,Final/Finales,

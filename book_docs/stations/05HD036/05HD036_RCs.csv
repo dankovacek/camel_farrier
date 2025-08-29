@@ -1,0 +1,6 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05HD036,6.010,Extended in 2017. Same as curve 6.000 below 4.418m,LogarithmicTable,Provisional/Provisoire,(2.461:1.606);(1.643);
+05HD036,6.000,,LogarithmicTable,Final/Finales,(2.461:1.606);(1.643);
+05HD036,4.000,Originally used 1991 to 1997,LinearTable,Final/Finales,
+05HD036,4.000-SC1,,LinearTable,Final/Finales,
+05HD036,5.000,,LinearTable,Final/Finales,

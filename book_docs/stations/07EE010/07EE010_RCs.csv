@@ -1,0 +1,17 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07EE010,16.01,"Clone of curve 16.00 created for 2021/2022 open water, with low Estimated range removed. This curve is defined by open water measurements from 2021 and 2022, and historical high measurements from 1997 and 2011.",LogarithmicTable,Provisional/Provisoire,(-0.105);
+07EE010,16.0,Created for 2021/2022 open water,LogarithmicTable,Final/Finales,(-0.105);
+07EE010,15.0,,LogarithmicTable,Final/Finales,(-0.11);
+07EE010,14.001,SAME AS CURVE 14.001.  Only the Grades changed.  curve with the cottonwood tree in the river. Base curve created using 2015 open water measurements. A single shift was created for each of 2016 and 2017.,LogarithmicTable,Final/Finales,(0.51);
+07EE010,14.0,curve with the cottonwood tree in the river. Base curve created using 2015 open water measurements. A single shift was created for each of 2016 and 2017.,LogarithmicTable,Final/Finales,(0.51);
+07EE010,13.0,DEVELOPED FOR OPEN WATER MMNTS CONDUCTED IN 2014,LogarithmicTable,Final/Finales,(0);
+07EE010,12.0,Curve changes dramatically at each freshet peak from low to 2.2 meters then remains stable at discharges in excess of 150 cms,LogarithmicTable,Final/Finales,(0.001);
+07EE010,11.0,Shift at 2011 High Water Peak,LogarithmicTable,Final/Finales,(1.324:0.4);(0.4);
+07EE010,10.0,Coinc. to Table #9 above 2.400 m.,LinearTable,Final/Finales,
+07EE010,9.0,Coinc. to #8 above 1.15m. Describes low 2009 QMs,LinearTable,Final/Finales,
+07EE010,8.0,Coinc #7 below 0.95m.Better describes 2009 high QM,LinearTable,Final/Finales,
+07EE010,7.0,Coincident with table #6 below .465 and above .97,LinearTable,Final/Finales,
+07EE010,6.0,,LinearTable,Final/Finales,
+07EE010,5.0,,LinearTable,Final/Finales,
+07EE010,4.0,,LinearTable,Final/Finales,
+07EE010,3.0,,LinearTable,Final/Finales,

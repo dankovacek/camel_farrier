@@ -1,0 +1,8 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08CE001,21.0,Update curve to logarithmic. Shift from curve 20 under ice.,LogarithmicTable,Provisional/Provisoire,(-0.3);
+08CE001,20.0,APPROVED Shift during ice period,LinearTable,Final/Finales,
+08CE001,19.0,APPROVED Shift to #19 during ice period-ice scour,LinearTable,Final/Finales,
+08CE001,18.0,APPROVED Shift at HW peak,LinearTable,Final/Finales,
+08CE001,17.0,APPROVED,LinearTable,Final/Finales,
+08CE001,16.0,,LinearTable,Final/Finales,
+08CE001,15.0,,LinearTable,Final/Finales,

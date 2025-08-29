@@ -1,0 +1,17 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07FB003,29.0,"created using open water measurements from 2020-2022.  The historical max measurement from 2002 was used to help define the top end, but the grading is based off the 2022 meausurements.",LogarithmicTable,Provisional/Provisoire,(1.28);
+07FB003,28.0,,LogarithmicTable,Final/Finales,(1.4);
+07FB003,27.0,,LogarithmicTable,Final/Finales,(1.341);
+07FB003,26.0,,LogarithmicTable,Final/Finales,(1.317);
+07FB003,25.0,,LogarithmicTable,Final/Finales,(1.55);
+07FB003,24.0,Coincident with Table 22,LinearTable,Final/Finales,
+07FB003,23.0,Coincident with #22 below 1.65 and above 2.6,LinearTable,Final/Finales,
+07FB003,22.0,Coincident with #21 below 1.683m & above 2.305m,LinearTable,Final/Finales,
+07FB003,21.0,Coincident with table #20 @ and above 3.0m,LinearTable,Final/Finales,
+07FB003,20.0,coicident with curve #19 from 1.95 to 4.8,LinearTable,Final/Finales,
+07FB003,19.0,,LinearTable,Final/Finales,
+07FB003,18.0,,LinearTable,Final/Finales,
+07FB003,17.0,,LinearTable,Final/Finales,
+07FB003,16.0,,LinearTable,Final/Finales,
+07FB003,15.0,,LinearTable,Final/Finales,
+07FB003,14.0,,LinearTable,Final/Finales,

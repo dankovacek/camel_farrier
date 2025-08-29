@@ -1,0 +1,117 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+05MH007,DeleteRegion,HG,2024-01-01T06:00:00,2024-02-29T05:59:59,2023-11-01T13:40:34,-6,OUT OF OPERATION,,Normal
+05MH007,DeleteRegion,HG,2023-11-01T06:00:00,2024-01-01T05:59:59,2023-11-01T13:39:41,-6,OUT OF OPERATION,,Normal
+05MH007,DeleteRegion,HG,2023-10-16T17:30:00,2023-10-16T17:35:00,2023-10-16T20:02:58,-6,DURING VISIT,,Normal
+05MH007,DeleteRegion,HG,2023-10-16T17:25:00,2023-10-16T17:25:00,2023-10-16T19:58:55,-6,DURING VISIT,,Normal
+05MH007,Drift,HG,2023-08-28T18:05:00,2023-10-16T17:20:00,2023-08-28T20:31:38,-6, SRC - VISIT TO VISIT - RESET,"DriftPoints:(Offset:-0.005,Time:2023-08-28T18:05:00Z);(Offset:-0.024,Time:2023-10-16T17:20:00Z)",Normal
+05MH007,DeleteRegion,HG,2023-08-28T17:35:00,2023-08-28T17:35:00,2023-08-28T20:27:25,-6,DURING VISIT,,Normal
+05MH007,Drift,HG,2023-07-17T17:55:00,2023-08-28T17:30:00,2023-08-28T20:28:18,-6,SRC - VISIT TO VISIT - RESET,"DriftPoints:(Offset:0,Time:2023-07-17T17:55:00Z);(Offset:-0.025,Time:2023-08-28T17:30:00Z)",Normal
+05MH007,Drift,HG,2023-05-10T19:30:00,2023-07-17T17:45:00,2023-07-18T19:55:34,-6,SRC - RESET - MAY 11 (0.000) TO JUL 17 (-0.011),"DriftPoints:(Offset:0,Time:2023-05-10T19:30:00Z);(Offset:-0.011,Time:2023-07-17T17:45:00Z)",Normal
+05MH007,DeleteRegion,HG,2023-05-10T19:25:00,2023-05-10T19:25:00,2023-05-11T13:37:26,-6,Delete invalid data point.,,Normal
+05MH007,DeleteRegion,HG,2023-05-02T06:55:00,2023-05-10T18:15:00,2023-05-08T14:40:07,-6,LINE DAMAGED,,Normal
+05MH007,Deviation,HG,2023-05-01T01:20:00,2023-05-10T18:15:00,2023-05-10T19:37:27,-6,delete spikes,"DeviationValue:0.015,DeviationType:DeviationFromMinimum,WindowSizeInMinutes:60",Normal
+05MH007,DeleteRegion,HG,2023-04-26T16:25:00,2023-04-26T16:25:00,2023-04-27T16:16:47,-6,Site visit,,Normal
+05MH007,DeleteRegion,HG,2022-11-01T06:00:00,2023-02-20T17:00:00,2022-12-21T17:49:10,-6,DELETE OUT OF OPERATION ,,Normal
+05MH007,Drift,HG,2022-10-19T18:00:00,2022-11-01T05:59:00,2022-10-21T20:00:02,-6,SRC PROJECTED,"DriftPoints:(Offset:-0.015,Time:2022-10-19T18:00:00Z);(Offset:-0.015,Time:2022-11-01T05:59:00Z)",Normal
+05MH007,Deviation,HG,2022-09-15T18:25:00,2022-10-13T13:05:00,2023-07-27T14:05:03,-6,Outlier trim correction to reduce painting caused by near atmospheric conditions.,"DeviationValue:0.003,DeviationType:DeviationFromAverage,WindowSizeInMinutes:60",Normal
+05MH007,Drift,HG,2022-09-12T17:05:00,2022-10-19T17:55:00,2022-10-21T19:58:34,-6,"SRC blended visit to visit , NO RESET","DriftPoints:(Offset:0,Time:2022-09-12T17:05:00Z);(Offset:-0.015,Time:2022-10-19T17:55:00Z)",Normal
+05MH007,DeleteRegion,QR,2022-09-12T06:00:00,2022-09-12T17:05:00,2023-07-27T18:45:34,-6,Delete Region to preserve B grade.,,Normal
+05MH007,DeleteRegion,HG,2022-08-31T05:20:00,2022-09-12T17:00:00,2022-09-13T13:25:23,-6,ATMOSPHERIC ,,Normal
+05MH007,DeleteRegion,QR,2022-08-31T05:15:00,2022-08-31T05:55:00,2023-07-27T18:43:09,-6,Delete region preserve B grade on 08/30.,,Normal
+05MH007,CopyPaste,QR,2022-08-31T05:15:00,2022-09-12T17:05:00,2023-07-27T18:39:22,-6,"Estimated gap (orifice atmospheric) Copy and paste from 05LL014 to fill data gap.Override: Copy & Paste‌Source Data Set: Discharge.Working@05LL014, time shift: 00:00 minutes.‌with freehand adjustment‌",,Normal
+05MH007,Deviation,HG,2022-08-27T08:30:00,2022-08-28T06:35:00,2023-07-27T13:59:00,-6,Outlier trim correction to reduce spiking caused by near atmospheric conditions.,"DeviationValue:0.003,DeviationType:DeviationFromAverage,WindowSizeInMinutes:60",Normal
+05MH007,Drift,HG,2022-08-15T15:40:00,2022-08-31T05:15:00,2024-02-11T18:51:01,-6,SRC Carried to end of data,"DriftPoints:(Offset:0.006,Time:2022-08-15T15:40:00Z);(Offset:0.006,Time:2022-08-31T05:15:00Z)",Normal
+05MH007,DeleteRegion,HG,2022-08-01T06:20:00,2022-08-01T06:20:00,2022-08-02T12:48:59,-6,Delete invalid data spike.,,Normal
+05MH007,DeleteRegion,HG,2022-07-28T14:00:00,2022-07-28T14:00:00,2023-07-27T13:48:07,-6,Delete invalid data spike.,,Normal
+05MH007,Drift,HG,2022-07-11T19:25:00,2022-08-15T15:35:00,2022-08-15T19:55:54,-6,SRC blended VISIT TO VISIT. NO RESET ,"DriftPoints:(Offset:0,Time:2022-07-11T19:25:00Z);(Offset:0.006,Time:2022-08-15T15:35:00Z)",Normal
+05MH007,DeleteRegion,HG,2022-06-23T00:15:00,2022-06-23T00:15:00,2022-06-23T19:34:29,-6,Delete invalid data spike.,,Normal
+05MH007,AdjustableTrim,QR,2022-06-18T01:30:00,2022-06-18T04:25:00,2023-07-27T16:58:16,-6,Adjustable trim to clean up recession.,"LowerThresholdPoints:(Time:2022-06-18T01:30:00Z,Value:1.365837361263099);(Time:2022-06-18T04:25:00Z,Value:1.365837361263099),UpperThresholdPoints:(Time:2022-06-18T01:30:00Z,Value:1.3926054390190958);(Time:2022-06-18T04:25:00Z,Value:1.3926054390190958),TrimAction:Delete",Normal
+05MH007,Drift,QR,2022-06-15T04:25:00,2022-06-18T04:15:00,2023-07-27T16:45:09,-6,"Override recession curve, likely debrid caught on wood weir control causing BW conditions.","DriftPoints:(Offset:0,Time:2022-06-15T04:25:00Z);(Offset:-0.10543285050457801,Time:2022-06-15T07:15:00Z);(Offset:-0.29238859828456665,Time:2022-06-16T07:10:00Z);(Offset:-0.2731019883391448,Time:2022-06-16T23:50:00Z);(Offset:-0.3449723503496014,Time:2022-06-18T01:30:00Z);(Offset:0.001071386727949708,Time:2022-06-18T04:15:00Z)",Normal
+05MH007,DeleteRegion,HG,2022-06-06T16:15:00,2022-06-06T16:55:00,2022-06-07T14:07:59,-6,FIRST RESET BAD,,Normal
+05MH007,DeleteRegion,HG,2022-06-01T03:45:00,2022-06-01T03:45:00,2022-11-22T15:37:37,-6,Delete invalid data spike.,,Normal
+05MH007,DeleteRegion,HG,2022-05-25T04:25:00,2022-05-25T04:25:00,2022-05-25T15:12:30,-6,SPIKE,,Normal
+05MH007,AdjustableTrim,HG,2022-05-20T03:55:00,2022-05-21T17:35:00,2022-05-24T16:42:03,-6,SPIKE,"UpperThresholdPoints:(Time:2022-05-20T03:55:00Z,Value:1.1426442683736064);(Time:2022-05-20T14:35:22.65Z,Value:1.1618091578641612);(Time:2022-05-21T17:35:00Z,Value:1.1426442683736064),TrimAction:Delete",Normal
+05MH007,AdjustableTrim,HG,2022-05-17T15:50:00,2022-05-18T18:15:00,2022-05-19T13:11:49,-6,DELETE SPIKES,"UpperThresholdPoints:(Time:2022-05-17T15:50:00Z,Value:1.0565267666070826);(Time:2022-05-18T18:15:00Z,Value:1.0565267666070826),TrimAction:Delete",Normal
+05MH007,Deviation,HG,2022-04-30T21:35:00,2022-05-13T18:15:00,2022-05-09T16:24:56,-6,PAINTING - SMOOTH TRACE,"DeviationValue:0.004,DeviationType:DeviationFromAverage,WindowSizeInMinutes:15",Normal
+05MH007,Drift,HG,2022-04-30T21:00:00,2022-06-06T16:15:00,2022-06-07T14:02:38,-6,"SRC BLENDED VISIT TO VISIT RS- USED 0.014 instead of 0.011. AS FRONT SHEET WL ACCURATE AS PER NOTE, UNSCREWED WEIGHT WAS ACCOUNTED FOR.","DriftPoints:(Offset:0,Time:2022-04-30T21:00:00Z);(Offset:0.014,Time:2022-06-06T16:15:00Z)",Normal
+05MH007,Deviation,HG,2022-04-28T17:00:00,2022-06-06T16:10:00,2023-07-27T13:27:29,-6,Outlier trim correction to reduce painting caused by silted orifice line.,"DeviationValue:0.005,DeviationType:DeviationFromAverage,WindowSizeInMinutes:60",Normal
+05MH007,Drift,HG,2022-04-07T17:05:00,2022-04-30T20:15:00,2023-07-27T13:17:13,-6,"SRC carried to start of rise. Block likely slowly sinking due to rise in stage and discharge, blend slightly to movement. Movement of -0.010 found. After movement blend the remainder to the next visit due to sinking block once again.","DriftPoints:(Offset:0,Time:2022-04-07T17:05:00Z);(Offset:0,Time:2022-04-27T09:25:00Z);(Offset:-0.007,Time:2022-04-27T19:30:00Z);(Offset:-0.017,Time:2022-04-27T19:35:00Z);(Offset:-0.027,Time:2022-04-30T20:15:00Z)",Normal
+05MH007,Drift,HG,2022-04-07T16:35:00,2022-04-07T17:00:00,2022-04-07T20:35:56,-6,SRC during maintenance ,"DriftPoints:(Offset:0.012,Time:2022-04-07T16:35:00Z);(Offset:0.013,Time:2022-04-07T17:00:00Z)",Normal
+05MH007,CopyPaste,HG,2022-03-21T02:15:00,2022-03-21T04:20:00,2023-07-31T20:34:28,-6,"Copy and paste data from stage.logger to fill data gap.Override: Copy & Paste‌Source Data Set: Stage.Logger@05MH007, time shift: 00:00 minutes.‌",,PreProcessing
+05MH007,CopyPaste,QR,2022-03-21T02:15:00,2022-03-21T04:20:00,2022-11-22T14:08:44,-6,"Copy and paste data from 05LL014 to fill data gap.Override: Copy & Paste‌Source Data Set: Discharge.Working@05LL014, time shift: 00:00 minutes.‌",,PreProcessing
+05MH007,DeleteRegion,HG,2021-11-01T06:05:00,2022-03-11T19:40:00,2021-11-01T13:46:08,-6,Station out of operating period.,,Normal
+05MH007,DeleteRegion,HG,2021-11-01T06:00:00,2022-03-01T06:00:00,2021-11-01T13:51:22,-6,OUT OF OPERATION,,Normal
+05MH007,AdjustableTrim,HG,2021-10-29T04:20:00,2021-10-29T16:50:00,2021-11-01T13:52:12,-6,Delete invalid data due to ice affect.,"UpperThresholdPoints:(Time:2021-10-29T04:20:00Z,Value:0.48805532239569427);(Time:2021-10-29T16:50:00Z,Value:0.48805532239569427),TrimAction:Delete",Normal
+05MH007,AdjustableTrim,HG,2021-10-29T02:21:19,2021-11-01T05:59:39,2021-11-01T13:51:44,-6,DELETE INVALID DATA,"LowerThresholdPoints:(Time:2021-10-29T02:21:19Z,Value:0.49540707693221886);(Time:2021-11-01T05:59:39Z,Value:0.49540707693221886),TrimAction:Delete",Normal
+05MH007,AdjustableTrim,HG,2021-10-28T06:40:00,2021-10-28T15:05:00,2021-11-01T13:47:59,-6,Delete ice affected data.,"LowerThresholdPoints:(Time:2021-10-28T06:40:00Z,Value:0.4974294161509427);(Time:2021-10-28T15:05:00Z,Value:0.4952975155297526),TrimAction:Delete",Normal
+05MH007,Offset,HG,2021-10-25T16:50:00,2021-11-01T06:00:00,2021-10-26T19:11:47,-6,SRC PROJECTED TO END OF SEASON,Offset:-0.007,Normal
+05MH007,CopyPaste,QR,2021-10-19T23:50:00,2021-10-31T15:10:00,2022-11-22T16:50:17,-6,"Fill data gaps with a liner line, zero flow through the end of the operating period.Override: Linear‌Q(t) = (0)t + 0‌",,Normal
+05MH007,AdjustableTrim,HG,2021-10-17T11:50:00,2021-10-25T16:35:00,2021-10-26T19:07:25,-6,"TRIM ICE FORMING, STAGE INVALID","LowerThresholdPoints:(Time:2021-10-17T11:50:00Z,Value:0.48912349024415797);(Time:2021-10-22T01:44:43.084Z,Value:0.4983352770731283);(Time:2021-10-25T08:46:37.62Z,Value:0.4973766836563017);(Time:2021-10-25T11:57:10.86Z,Value:0.4978481291960523);(Time:2021-10-25T16:35:00Z,Value:0.4888688455666971),TrimAction:Delete",Normal
+05MH007,Drift,HG,2021-09-13T16:30:00,2021-10-25T16:45:00,2022-11-10T15:25:11,-6,SRC BLENDED from visit to visit.,"DriftPoints:(Offset:0,Time:2021-09-13T16:30:00Z);(Offset:-0.007,Time:2021-10-25T16:45:00Z)",Normal
+05MH007,DeleteRegion,HG,2021-09-13T16:15:00,2021-09-13T16:25:00,2021-09-14T16:27:38,-6,DELETE - MAINTENANCE,,Normal
+05MH007,DeleteRegion,HG,2021-07-27T07:20:00,2021-07-27T07:20:00,2021-09-14T16:23:49,-6,DELETE SPIKE,,Normal
+05MH007,Offset,HG,2021-07-18T14:10:00,2021-09-13T16:20:00,2022-12-30T20:33:22,-6,SRC CARRIED BACK TO MOVEMENT,Offset:-0.017,Normal
+05MH007,Drift,HG,2021-07-12T16:15:00,2021-07-18T14:05:00,2021-09-14T16:29:22,-6,SRC CARRIED TO MOVEMENT,"DriftPoints:(Offset:-0.006,Time:2021-07-12T16:15:00Z);(Offset:-0.006,Time:2021-07-18T14:05:00Z)",Normal
+05MH007,Drift,HG,2021-06-07T18:15:00,2021-07-12T16:11:00,2021-07-13T15:56:55,-6,SRC BLENDED VISIT TO VISIT (NO RESET),"DriftPoints:(Offset:-0.004,Time:2021-06-07T18:15:00Z);(Offset:-0.006,Time:2021-07-12T16:11:00Z)",Normal
+05MH007,DeleteRegion,HG,2021-04-21T05:05:00,2021-04-21T05:05:00,2021-05-03T13:37:50,-6,Delete invalid data point,,Normal
+05MH007,Drift,HG,2021-04-09T18:20:00,2021-06-07T18:10:00,2021-06-08T17:46:47,-6,SRC BLENDED VISIT (RS) TO VISIT (NRS),"DriftPoints:(Offset:0,Time:2021-04-09T18:20:00Z);(Offset:-0.004,Time:2021-06-07T18:10:00Z)",Normal
+05MH007,CopyPaste,QR,2021-03-01T04:15:00,2021-03-01T15:15:00,2022-11-22T17:14:31,-6,Fill data gap with linear line.Override: Linear‌Q(t) = (-0.0008537173529059748)t + 0.014014264009593538‌,,Normal
+05MH007,CopyPaste,QR,2021-02-28T02:25:00,2021-02-28T14:55:00,2022-11-22T17:00:34,-6,"Copy and paste to fill data gap with data from 05LL014Override: Copy & Paste‌Source Data Set: Discharge.Working@05LL014, time shift: 00:00 minutes.‌",,Normal
+05MH007,AdjustableTrim,HG,2021-02-26T23:15:00,2021-03-20T06:00:00,2021-03-01T17:54:33,-6,"delete, leak in systemAdjustable trim with Lower threshold: (2021-02-26 17:15:00, 0.221m), (2021-03-20 00:00:00, 0.221m)","LowerThresholdPoints:(Time:2021-02-26T23:15:00Z,Value:0.22135135135135137);(Time:2021-03-20T06:00:00Z,Value:0.22135135135135137),TrimAction:Delete",Normal
+05MH007,Drift,HG,2021-02-22T17:50:00,2021-04-09T17:45:00,2021-04-12T15:42:04,-6,SRC BLENDED visit to visit.,"DriftPoints:(Offset:0,Time:2021-02-22T17:50:00Z);(Offset:-0.011,Time:2021-04-09T17:45:00Z)",Normal
+05MH007,DeleteRegion,HG,2020-11-01T06:00:00,2021-02-22T17:45:21,2020-11-02T14:02:56,-6,STATION OUT OF OPERATION - Delete region,,Normal
+05MH007,DeleteRegion,HG,2020-09-28T16:45:00,2020-09-28T16:45:00,2021-09-24T13:31:40,-6,Delete spike during visit.,,Normal
+05MH007,DeleteRegion,QR,2020-09-28T16:45:00,2020-09-28T16:45:00,2021-08-31T14:01:04,-6,Delete invalid data point during visit.,,Normal
+05MH007,DeleteRegion,HG,2020-09-28T16:40:00,2020-09-28T16:40:00,2020-10-05T12:12:30,-6,Delete invalid data spike.,,Normal
+05MH007,DeleteRegion,HG,2020-09-19T14:15:00,2020-09-19T15:15:00,2020-09-21T14:25:45,-6,DATA SPIKE - Delete region,,Normal
+05MH007,DeleteRegion,HG,2020-09-17T09:50:00,2020-09-18T17:40:00,2021-11-09T16:37:03,-6,DELETE ATMOSPHERIC,,Normal
+05MH007,Drift,HG,2020-08-17T17:00:00,2020-09-28T16:45:00,2021-09-24T13:37:51,-6,SRC blended between visits.,"DriftPoints:(Offset:0,Time:2020-08-17T17:00:00Z);(Offset:-0.009,Time:2020-09-28T16:45:00Z)",Normal
+05MH007,AdjustableTrim,HG,2020-08-17T16:00:00,2020-08-17T18:05:00,2020-08-24T16:56:12,-6,"DELETE SPIKES Adjustable trim with Upper threshold: (2020-08-17 10:00:00, 0.326m), (2020-08-17 12:05:00, 0.326m)","UpperThresholdPoints:(Time:2020-08-17T16:00:00Z,Value:0.32592706333973126);(Time:2020-08-17T18:05:00Z,Value:0.32592706333973126),TrimAction:Delete",Normal
+05MH007,DeleteRegion,HG,2020-08-17T11:50:00,2020-08-17T15:25:00,2021-08-13T15:13:33,-6,"Delete region, orifice atmospheric.",,Normal
+05MH007,DeleteRegion,HG,2020-08-04T10:55:00,2020-08-13T17:10:00,2021-08-13T14:55:42,-6,"Delete region, orifice atmospheric.",,Normal
+05MH007,CopyPaste,QR,2020-08-04T10:45:00,2020-08-13T17:15:00,2021-11-09T20:15:03,-6,ESTIMATEDOverride: Freehand‌Override: Freehand‌,,Normal
+05MH007,DeleteRegion,HG,2020-07-02T16:00:00,2020-07-02T16:00:00,2020-07-03T13:44:51,-6,Delete invalid data spike.,,Normal
+05MH007,Offset,QR,2020-06-09T01:25:00,2020-06-10T05:05:00,2021-11-09T20:23:45,-6,ADJUST FLOW DURING TEMPORARY BACKWATER ,Offset:-0.007768619153015827,Normal
+05MH007,CopyPaste,HG,2020-06-02T07:15:00,2020-06-02T18:20:00,2021-08-13T14:17:29,-6,"Copy and paste to fill data gap with data from stage.loggerOverride: Copy & Paste‌Source Data Set: Stage.Logger@05MH007, time shift: 00:00 minutes.‌",,PreProcessing
+05MH007,CopyPaste,HG,2020-05-29T12:15:00,2020-05-29T20:20:00,2021-08-13T13:56:49,-6,"Copy and paste to fill data gap with data from stage.logger.Override: Copy & Paste‌Source Data Set: Stage.Logger@05MH007, time shift: 00:00 minutes.‌",,PreProcessing
+05MH007,DeleteRegion,HG,2020-05-08T07:15:00,2020-05-08T07:20:00,2021-08-13T13:49:28,-6,Delete invalid data spike.,,Normal
+05MH007,DeleteRegion,HG,2020-05-06T19:50:00,2020-05-06T19:50:00,2020-05-11T12:29:44,-6,Delete invalid data spike,,Normal
+05MH007,DeleteRegion,HG,2020-05-05T04:05:00,2020-05-05T04:05:00,2020-05-11T12:29:04,-6,Delete bad data spike,,Normal
+05MH007,DeleteRegion,HG,2020-05-02T04:00:00,2020-05-02T04:00:00,2021-08-13T13:48:29,-6,Delete invalid data spike.,,Normal
+05MH007,AdjustableTrim,HG,2020-04-30T12:45:00,2020-05-02T06:10:00,2020-05-04T13:43:46,-6,"INVALID SPIKES Adjustable trim with Lower threshold: (2020-04-30 06:45:00, 0.711m), (2020-05-01 20:05:00, 0.814m), (2020-05-02 00:10:00, 0.711m)","LowerThresholdPoints:(Time:2020-04-30T12:45:00Z,Value:0.7108735632183908);(Time:2020-05-02T02:05:00Z,Value:0.814183908045977);(Time:2020-05-02T06:10:00Z,Value:0.7108735632183908),TrimAction:Delete",Normal
+05MH007,CopyPaste,QR,2020-04-13T09:00:00,2020-04-16T15:35:00,2021-08-30T18:53:41,-6,Freehand override to adjust for backwater in discharge data.Override: Freehand‌Override: Freehand‌Override: Freehand‌,,Normal
+05MH007,CopyPaste,QR,2020-04-10T08:15:00,2020-04-10T17:25:00,2021-08-30T18:19:46,-6,Freehand override to correct for backwater dischargeOverride: Freehand‌,,Normal
+05MH007,CopyPaste,QR,2020-04-09T10:30:00,2020-04-10T00:30:00,2021-08-30T18:15:09,-6,Freehand override to correct for ice affected discharge.Override: Freehand‌Override: Freehand‌,,Normal
+05MH007,Drift,HG,2020-04-08T22:15:00,2020-08-17T16:40:00,2020-08-26T19:17:17,-6,SRC blended between visits,"DriftPoints:(Offset:0,Time:2020-04-08T22:15:00Z);(Offset:-0.013,Time:2020-08-17T16:40:00Z)",Normal
+05MH007,CopyPaste,QR,2020-04-08T12:10:00,2020-04-08T21:30:00,2021-08-30T18:09:54,-6,Override freehand to correct for backwater affected discharge.Override: Freehand‌,,Normal
+05MH007,CopyPaste,QR,2020-04-07T13:30:00,2020-04-07T15:05:00,2021-08-30T18:01:57,-6,Freehand override to adjust for backwater in discharge data.Override: Freehand‌,,Normal
+05MH007,CopyPaste,QR,2020-04-06T22:50:00,2020-04-06T23:55:00,2021-08-30T17:59:03,-6,Freehand override to adjust for backwater affected discharge.Override: Freehand‌,,Normal
+05MH007,DeleteRegion,HG,2020-04-01T19:50:00,2020-04-01T19:50:00,2020-05-05T19:13:30,-6,Delete invalid data spike,,Normal
+05MH007,CopyPaste,QR,2020-04-01T19:20:00,2020-04-03T19:50:00,2021-09-24T13:48:42,-6,Freehand override to correct for ice affected discharge.Override: Freehand‌,,Normal
+05MH007,Drift,HG,2020-03-06T16:13:00,2020-04-08T22:13:10,2021-08-12T16:48:58,-6,"SRC carried from visit to movement, blended over movement then carried to visit.","DriftPoints:(Offset:0,Time:2020-03-06T16:13:00Z);(Offset:0,Time:2020-03-13T04:20:00Z);(Offset:0.01,Time:2020-03-13T04:30:00Z);(Offset:0.01,Time:2020-04-08T22:13:10Z)",Normal
+05MH007,DeleteRegion,QR,2020-03-06T15:55:00,2020-03-06T16:05:00,2021-08-31T14:08:24,-6,Delete invalid data.,,Normal
+05MH007,DeleteRegion,HG,2020-03-01T06:05:00,2020-03-06T15:50:00,2021-08-12T16:33:56,-6,Delete invalid data due to block frozen in ice.,,Normal
+05MH007,CopyPaste,QR,2020-03-01T06:00:00,2020-03-06T16:15:39,2021-11-09T20:28:57,-6,ESTIMATED FLOW UNDER ICEOverride: Linear‌Q(t) = (0)t + 0.045‌,,Normal
+05MH007,DeleteRegion,HG,2019-12-05T10:20:00,2020-03-01T06:00:00,2019-12-11T21:45:26,-6,"Delete region, STATION OUT OF OPERATING PERIOD.",,Normal
+05MH007,CopyPaste,QR,2019-11-05T02:05:00,2019-11-06T17:50:00,2020-06-02T15:34:20,-6,Ice estimationOverride: Linear‌Q(t) = (-0.12739622641509438)t + 1.11‌,,Normal
+05MH007,CopyPaste,QR,2019-10-29T12:50:00,2019-10-30T19:45:00,2020-06-02T15:36:50,-6,Ice estimationOverride: Freehand‌,,Normal
+05MH007,FillGaps,QR,2019-10-13T11:15:00,2019-10-13T14:20:00,2020-06-02T15:31:26,-6,,"ResamplePeriod:PT5M,GapLimit:MaxDuration",Normal
+05MH007,FillGaps,QR,2019-08-09T13:20:00,2019-08-11T13:40:00,2020-10-07T20:43:52,-6,0 FLOW Fill Data Gaps with gap resample period of 15 minutes,"ResamplePeriod:PT15M,GapLimit:MaxDuration",Normal
+05MH007,FillGaps,QR,2019-08-05T20:20:00,2019-08-06T05:45:00,2020-10-07T20:44:36,-6,0 FLOW Fill Data Gaps with gap resample period of 15 minutes,"ResamplePeriod:PT15M,GapLimit:MaxDuration",Normal
+05MH007,FillGaps,QR,2019-07-26T01:15:00,2019-07-26T03:25:00,2020-06-02T15:29:19,-6,,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+05MH007,FillGaps,QR,2019-07-04T02:15:00,2019-07-04T04:20:00,2020-06-02T16:02:36,-6,Fill Data Gaps with gap resample period of 5 minutes,"ResamplePeriod:PT5M,GapLimit:MaxDuration",Normal
+05MH007,CopyPaste,QR,2019-06-20T18:15:00,2019-06-20T20:20:00,2020-06-02T15:58:24,-6,Freehand Correction generating points every 5.0 minutes.,,Normal
+05MH007,FillGaps,QR,2019-03-27T23:15:00,2019-03-28T01:50:00,2020-06-02T15:26:10,-6,,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+05MH007,CopyPaste,QR,2019-03-01T06:00:00,2019-03-19T00:33:24,2020-06-02T15:20:45,-6,Override: Freehand‌,,Normal
+05MH007,SinglePoint,QR,2018-08-24T05:47:09,2018-08-24T05:47:09,2020-02-25T17:02:21,-6,BELOW CURVE ,Value:0,Normal
+05MH007,DeleteRegion,QR,2018-08-06T14:05:10,2018-08-23T20:45:10,2020-02-25T17:01:04,-6,0 FLOW Delete region,,Normal
+05MH007,SinglePoint,QR,2018-08-06T05:33:21,2018-08-06T05:33:21,2020-02-25T17:01:53,-6,BELOW CURVE,Value:0,Normal
+05MH007,SinglePoint,QR,2018-08-04T17:49:32,2018-08-04T17:49:33,2020-02-25T17:03:14,-6,BELOW CURVE ,Value:0,Normal
+05MH007,SinglePoint,QR,2018-07-24T02:51:35,2018-07-24T02:51:36,2020-02-25T17:03:36,-6,BELOW CURVE ,Value:0,Normal
+05MH007,FillGaps,QR,2018-07-23T12:46:45,2018-08-25T01:26:52,2020-02-25T17:04:19,-6,"BELOW CURVE, FILL 0 FLOW AREAS Fill Data Gaps with gap resample period of 5 minutes","ResamplePeriod:PT5M,GapLimit:MaxDuration",Normal
+05MH007,SinglePoint,QR,2018-07-22T17:54:09,2018-07-22T17:54:10,2020-02-25T17:05:33,-6,BELOW CURVE ,Value:0,Normal
+05MH007,SinglePoint,QR,2018-07-15T03:26:47,2018-07-15T03:26:48,2020-02-25T17:05:11,-6,BELOW CURVE ,Value:0,Normal
+05MH007,FillGaps,QR,2018-07-14T11:38:57,2018-07-22T20:34:33,2020-02-25T17:06:01,-6,"BELOW CURVE, FILL 0 FLOW Fill Data Gaps with gap resample period of 5 minutes","ResamplePeriod:PT5M,GapLimit:MaxDuration",Normal
+05MH007,DeleteRegion,HG,2018-05-24T22:00:10,2018-05-24T22:10:10,2020-04-03T16:50:18,-6,Delete region  INVALID SPIKE CREATED WHEN ADJUSTING FOR  ORIFICE MOVEMENT,,Normal
+05MH007,AdjustableTrim,QR,2018-04-21T22:43:54,2018-04-23T23:54:59,2020-02-25T19:13:49,-6,"REMOVE MINOR SPIKES Adjustable trim with Upper threshold: (2018-04-21 16:43:54, 0.063m^3/s), (2018-04-22 03:55:10, 0.051m^3/s), (2018-04-22 07:25:10, 0.048m^3/s), (2018-04-22 17:20:10, 0.073m^3/s), (2018-04-22 22:25:10, 0.081m^3/s), (2018-04-23 01:20:10, 0.082m^3/s), (2018-04-23 06:30:10, 0.069m^3/s), (2018-04-23 13:50:10, 0.054m^3/s), (2018-04-23 17:20:10, 0.054m^3/s), (2018-04-23 17:54:59, 0.063m^3/s)","UpperThresholdPoints:(Time:2018-04-21T22:43:54Z,Value:0.06259202063162826);(Time:2018-04-22T09:55:10Z,Value:0.0510133312215802);(Time:2018-04-22T13:25:10Z,Value:0.04806602846265887);(Time:2018-04-22T23:20:10Z,Value:0.07269705866221565);(Time:2018-04-23T04:25:10Z,Value:0.08143370612616102);(Time:2018-04-23T07:20:10Z,Value:0.08174948856461686);(Time:2018-04-23T12:30:10Z,Value:0.06880240858792677);(Time:2018-04-23T19:50:10Z,Value:0.053750112354864286);(Time:2018-04-23T23:20:10Z,Value:0.05448693804459462);(Time:2018-04-23T23:54:59Z,Value:0.06259202063162826),TrimAction:Delete",Normal
+05MH007,CopyPaste,QR,2017-06-27T02:15:00,2017-06-29T20:35:00,2020-03-05T16:03:58,-6,Freehand Correction generating points every 15.0 minutes. ESTIMATE DISCHARGE DURING MISSING RECORD,,Normal

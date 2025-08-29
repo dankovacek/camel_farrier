@@ -58,6 +58,8 @@ def run_ffa_simulation(data, n_simulations=500):
     simulation = np.apply_along_axis(
         LP3_calc, 1, simulated_error, exceedance=exceedance
     )
+    # ensure all values are > 0
+    simulation = np.maximum(simulation, 1e-5)
 
     model["lower_1s_bound"] = np.apply_along_axis(np.percentile, 0, simulation, q=33)
     model["upper_1s_bound"] = np.apply_along_axis(np.percentile, 0, simulation, q=67)
@@ -76,6 +78,7 @@ def randomize_msmt_err(val, msmt_err_params):
 
 def LP3_calc(data, exceedance):
     # calculate the log-pearson III distribution
+    # Only take log10 of positive values
     mean, variance, stdev, skew = calculate_sample_statistics(np.log10(data))
     lp3_model = st.pearson3.ppf(exceedance, abs(skew), loc=mean, scale=stdev)
     return np.power(10, lp3_model)
@@ -95,7 +98,21 @@ def calculate_measurement_error_params(data):
 
 
 def calculate_sample_statistics(x):
-    return (np.mean(x), np.var(x), np.std(x), st.skew(x))
+    """
+    Safely calculate mean, variance, std, and skewness, ignoring NaN and handling empty input.
+    """
+    x = np.asarray(x)
+    x = x[~np.isnan(x)]  # Remove NaN
+    if x.size == 0:
+        return (np.nan, np.nan, np.nan, np.nan)
+    mean = np.mean(x)
+    var = np.var(x)
+    std = np.std(x)
+    try:
+        skew = st.skew(x)
+    except Exception:
+        skew = np.nan
+    return (mean, var, std, skew)
 
 
 def calc_simulated_msmt_error(data):

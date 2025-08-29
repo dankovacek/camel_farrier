@@ -1,0 +1,40 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+05CG004,DeleteRegion,HG,2024-01-01T07:00:00,2024-03-01T06:59:59,2023-12-18T15:29:04,-7,DR - OUTSIDE OF OPERATING PERIOD,,Normal
+05CG004,DeleteRegion,HG,2023-11-01T07:00:00,2024-01-01T06:59:59,2023-11-06T14:39:53,-7,DR - station closed for the season,,Normal
+05CG004,CopyPaste,QR,2023-08-14T15:00:00,2023-11-01T06:59:59,2023-08-17T13:05:26,-7,ZERO DISCHARGE OVERRIDEOverride: Linear‌Q(t) = (0)t + 0‌,,Normal
+05CG004,DeleteRegion,HG,2023-08-08T05:05:00,2023-11-01T07:00:00,2023-08-15T17:08:41,-7,"DR - STAGE INVALID, WELL DRY",,Normal
+05CG004,CopyPaste,QR,2023-07-12T15:00:00,2023-08-14T15:00:00,2023-08-14T15:11:45,-7,ZERO FLOWOverride: Linear‌Q(t) = (0)t + 0‌,,Normal
+05CG004,DeleteRegion,HG,2023-05-05T07:50:00,2023-05-05T07:50:00,2023-05-08T13:23:23,-7,DR - INVALID SPIKE,,Normal
+05CG004,Drift,HG,2023-04-11T18:05:00,2023-05-29T17:19:00,2023-05-30T17:16:29,-7,"SRC (0 TO -.005m), reset","DriftPoints:(Offset:0,Time:2023-04-11T18:05:00Z);(Offset:-0.005,Time:2023-05-29T17:19:00Z)",Normal
+05CG004,CopyPaste,QR,2023-04-11T02:00:00,2023-07-12T15:00:00,2023-05-15T15:40:58,-7,ZERO DISCHARGE OVERRIDEOverride: Linear‌Q(t) = (0)t + 0‌,,Normal
+05CG004,DeleteRegion,HG,2023-03-01T07:00:00,2023-04-08T18:40:00,2023-04-12T20:13:19,-7,DR - WELL FROZEN/DRY,,Normal
+05CG004,CopyPaste,QR,2023-03-01T07:00:00,2023-04-10T11:30:00,2023-07-12T15:00:16,-7,ZERO DISCHARGE OVERRIDEOverride: Linear‌Q(t) = (0)t + 0‌,,Normal
+05CG004,DeleteRegion,HG,2023-01-01T07:00:00,2023-03-01T06:59:59,2022-11-02T14:14:56,-7,DR - FLOAT PINNED,,Normal
+05CG004,DeleteRegion,HG,2022-10-27T21:45:00,2023-01-01T06:59:59,2022-10-28T14:22:13,-7,DR - INVALID STAGE. FLOAT PINNED.,,Normal
+05CG004,CopyPaste,HG,2022-09-09T14:40:00,2022-09-09T16:45:00,2023-09-14T14:00:17,-7,"C&P LOGGER DATAOverride: Copy & Paste‌Source Data Set: Stage.Logger@05CG004, time shift: 00:00 minutes.‌",,Normal
+05CG004,CopyPaste,QR,2022-07-01T07:05:00,2022-11-01T06:59:59,2022-11-08T22:51:34,-7,ZERO DISCHARGE OVERRIDEOverride: Linear‌Q(t) = (0)t + 0‌,,Normal
+05CG004,Drift,HG,2022-05-12T14:50:00,2022-07-06T20:45:00,2022-07-07T21:38:12,-7,"SRC (0.000 to 0.004m), RESET","DriftPoints:(Offset:0,Time:2022-05-12T14:50:00Z);(Offset:-0.004,Time:2022-07-06T20:45:00Z)",Normal
+05CG004,DeleteRegion,HG,2022-05-12T14:40:00,2022-05-12T14:40:00,2022-05-16T13:03:32,-7,DR - INVALID DATA,,Normal
+05CG004,AdjustableTrim,HG,2022-03-30T16:59:00,2022-05-12T14:45:00,2022-05-16T12:59:57,-7,DR - INVALID STAGE RECORD. FLOAT PINNED AT 0.539m.,"LowerThresholdPoints:(Time:2022-03-30T16:59:00Z,Value:0.54);(Time:2022-05-12T14:45:00Z,Value:0.54),TrimAction:Delete",Normal
+05CG004,DeleteRegion,HG,2022-03-07T19:20:00,2022-03-23T23:40:00,2022-03-24T17:27:49,-7,"INVALID STAGE, FLOAT PINNED (0.539m) NO WATER IN WELL.",,Normal
+05CG004,CopyPaste,QR,2022-03-01T07:00:00,2022-07-01T07:00:00,2022-11-08T22:38:10,-7,ZERO DISCHARGE OVERRIDEOverride: Linear‌Q(t) = (0)t + 0‌,,Normal
+05CG004,DeleteRegion,HG,2022-03-01T07:00:00,2022-03-07T19:15:00,2022-03-09T10:59:16,-7,DR - FLOAT PINNED,,Normal
+05CG004,DeleteRegion,HG,2021-10-25T15:45:00,2022-03-01T06:59:59,2021-10-26T12:16:53,-7,"DR - OUTSIDE OPERATING PERIOD.  FLOAT PINNED @ 1.234m, tech returned on 10/26/2021 to correct pin placement, float pinned at 1.164m",,Normal
+05CG004,AdjustableTrim,HG,2021-09-07T10:50:00,2021-11-01T06:59:59,2022-09-22T20:52:31,-7,Gauge pool suspected to become invalid below 0.080m for remainder of operating period due to no direct connection between well and pool,"LowerThresholdPoints:(Time:2021-09-07T10:50:00Z,Value:0.08);(Time:2021-11-01T06:59:59Z,Value:0.08),TrimAction:Delete",Normal
+05CG004,CopyPaste,HG,2021-07-22T04:40:00,2021-07-22T14:45:00,2022-12-12T20:42:15,-7,"OC_fill telemetry gap with logger dataOverride: Copy & Paste‌Source Data Set: Stage.Logger@05CG004, time shift: 00:00 minutes.‌",,PreProcessing
+05CG004,Drift,HG,2021-06-08T18:16:00,2021-09-22T13:20:00,2022-12-12T20:32:47,-7,"GC_ (-0.009m to -0.007m to ECG) -0.007m found at Sept 22, 2021 visit","DriftPoints:(Offset:-0.009,Time:2021-06-08T18:16:00Z);(Offset:-0.007,Time:2021-09-22T13:20:00Z)",Normal
+05CG004,Offset,HG,2021-03-15T02:55:00,2021-03-24T17:00:00,2021-03-25T14:40:25,-7,"SRC - (0.023m) RESET, CARRIED BACK TO START OF WELL CONNECTION",Offset:0.023,Normal
+05CG004,Offset,HG,2021-02-24T18:20:00,2021-06-08T18:15:00,2022-12-12T20:29:15,-7,"GC_ (-0.009m to ECG) found at June 8, 2021 visit",Offset:-0.009,Normal
+05CG004,DeleteRegion,HG,2021-02-24T18:20:00,2021-03-15T02:50:00,2021-03-22T13:51:15,-7,No gauge pool. Channel dry. Well exposed,,Normal
+05CG004,DeleteRegion,HG,2021-01-01T07:00:00,2021-02-24T18:15:00,2021-03-22T13:50:31,-7,Outside Operating Period,,Normal
+05CG004,DeleteRegion,HG,2020-10-29T19:25:00,2021-01-01T06:55:00,2021-03-25T14:43:46,-7,"FLOAT PINNED, OUTSIDE OPERATING PERIOD",,Normal
+05CG004,DeleteRegion,HG,2020-08-03T04:45:00,2020-08-03T04:45:00,2020-08-04T20:58:23,-7,DR Invalid spike,,Normal
+05CG004,AdjustableTrim,HG,2020-07-22T02:05:00,2020-07-22T06:55:00,2021-05-11T14:43:23,-7,DR - invalid spike,"LowerThresholdPoints:(Time:2020-07-22T02:05:00Z,Value:0.9117086159012717);(Time:2020-07-22T06:55:00Z,Value:0.9117086159012717),TrimAction:Delete",Normal
+05CG004,Drift,HG,2020-04-21T20:20:00,2020-05-25T17:15:00,2020-06-01T20:43:30,-7,SRC 0.000m to -0.007m RESET,"DriftPoints:(Offset:0,Time:2020-04-21T20:20:00Z);(Offset:-0.007,Time:2020-05-25T17:15:00Z)",Normal
+05CG004,Drift,HG,2020-04-03T21:15:00,2020-04-21T20:10:00,2020-04-30T14:58:13,-7,"SRC 0.000m to -0.010m, Reset","DriftPoints:(Offset:0,Time:2020-04-03T21:15:00Z);(Offset:-0.01,Time:2020-04-21T20:10:00Z)",Normal
+05CG004,DeleteRegion,HG,2020-03-31T15:55:00,2020-04-03T21:10:00,2020-04-14T13:51:42,-7,"DR_ Float Frozen in well, unreliable data until reset",,Normal
+05CG004,Drift,HG,2020-03-25T07:30:00,2020-03-28T07:00:00,2020-04-14T13:48:15,-7,"Est SRC (0.038m) due to stage jump, Trace looks to track well after sudden increase","DriftPoints:(Offset:0,Time:2020-03-25T07:30:00Z);(Offset:0.038,Time:2020-03-28T07:00:00Z)",Normal
+05CG004,DeleteRegion,HG,2020-03-24T22:50:00,2020-03-31T15:50:00,2020-05-13T20:03:57,-7,Suspect data. Holes in well most likely frozen and cannot confirm water level accurate. ,,Normal
+05CG004,DeleteRegion,HG,2020-03-05T00:40:00,2020-03-24T22:45:00,2020-05-13T20:05:21,-7,DR Float pinned no water in well,,Normal
+05CG004,DeleteRegion,HG,2020-02-20T10:45:00,2020-03-05T00:35:00,2020-04-14T13:41:17,-7,DR_ Float lowered and pinned.,,Normal
+05CG004,Offset,HG,2020-01-01T07:00:00,2021-01-01T06:59:00,2020-08-17T15:52:50,-7,2020 GC for ECG = 0.005m,Offset:0.005,Normal

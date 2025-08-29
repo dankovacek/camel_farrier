@@ -1,0 +1,8 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+06BD001,7.000,Re-drawn in AQ,LogarithmicTable,Provisional/Provisoire,(0.08);
+06BD001,6.000,,LinearTable,Final/Finales,
+06BD001,6.000-SC4,,LinearTable,Final/Finales,
+06BD001,6.000-SC3,,LinearTable,Final/Finales,
+06BD001,6.000-SC2,,LinearTable,Final/Finales,
+06BD001,5.000,,LinearTable,Final/Finales,
+06BD001,5.000-SC1,,LinearTable,Final/Finales,

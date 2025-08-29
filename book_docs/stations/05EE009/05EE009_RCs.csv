@@ -1,0 +1,7 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05EE009,6.000,Curve approved 15 Nov 2016,LogarithmicTable,Provisional/Provisoire,(1.58:1.123);(1.085);
+05EE009,5.000,,LinearTable,Final/Finales,
+05EE009,5.000-SC1,,LinearTable,Final/Finales,
+05EE009,4.000,Same as Curve #2,LinearTable,Final/Finales,
+05EE009,3.000,,LinearTable,Final/Finales,
+05EE009,2.000,,LinearTable,Final/Finales,

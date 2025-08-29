@@ -1,0 +1,8 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+06AF001,12.0,New curve drawn for 2016 to account for scour. Approved 21 Dec 2016.,LogarithmicTable,Provisional/Provisoire,(534.997:534.39);(534.71);
+06AF001,11.0,"Gauge relocated August 6, 2009",LinearTable,Final/Finales,
+06AF001,10.0,"Gauge relocated August 6, 2009.",LinearTable,Final/Finales,
+06AF001,9.0,,LinearTable,Final/Finales,
+06AF001,8.0,,LinearTable,Final/Finales,
+06AF001,7.0,,LinearTable,Final/Finales,
+06AF001,6.0,,LinearTable,Final/Finales,

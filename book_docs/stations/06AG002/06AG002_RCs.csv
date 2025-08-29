@@ -1,0 +1,6 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+06AG002,6.01,APPROVED FOR USE 2020. Extended for high water,LogarithmicTable,Provisional/Provisoire,(1.395:0.015);(1.059);
+06AG002,6.000,Re-drawn in AQ Log/Log,LogarithmicTable,Final/Finales,(1.395:0.015);(1.059);
+06AG002,5.000,Curve #5 same as curve #4 above 1.160m,LinearTable,Final/Finales,
+06AG002,5.000-SC1,,LinearTable,Final/Finales,
+06AG002,4.000,,LinearTable,Final/Finales,

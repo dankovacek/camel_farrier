@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05DF006,10.0,replacing compumod curve. 2 segments. control channel often clear. section control often backwater because of the section features.,LogarithmicTable,Provisional/Provisoire,(1.16:0.483);(0.581);
+05DF006,9.1,Extended curve 9.0 to 2.77m,LinearTable,Final/Finales,
+05DF006,9.0,,LinearTable,Final/Finales,
+05DF006,8.0,,LinearTable,Final/Finales,

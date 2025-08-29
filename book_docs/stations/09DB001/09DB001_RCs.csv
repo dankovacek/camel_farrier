@@ -1,0 +1,12 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+09DB001,10.000,Created new LOG rating. One older (2010 era) ADCP mmnt plots left. Extended rating created by BL to include NEAR-RECORD 2010 low mmnt. Used this one rather than the 2007 RECORD LOW mmnt due to plotting challenges; all mmnts from 1995-2004 plot left ~37%. Changed slope minimally (1.874) to match the parabolic-shaped channel. Channel control at all levels.  Included all measurements from 2010 onwards. Offset of 5.275m (2nd record low WL (used for rating dev) = 5.768m). Did not use 2020/09/07 measurement for rating due to tech comments regarding questionable mmnt.,LogarithmicTable,Provisional/Provisoire,(5.275);
+09DB001,9.000,,LinearTable,Final/Finales,
+09DB001,8.000,APPROVED Coincides with Curve 7 > 6.8m.,LinearTable,Final/Finales,
+09DB001,7.000,No coincidence with curve #6.,LinearTable,Final/Finales,
+09DB001,6.000,Coincides with #5 @ 6.700M,LinearTable,Final/Finales,
+09DB001,5.000,-coincides with #4 <6.0m & at 7.929m.,LinearTable,Final/Finales,
+09DB001,4.000,coincides w/Table 3@=<5.890m only,LinearTable,Final/Finales,
+09DB001,3.000,,LinearTable,Final/Finales,
+09DB001,2.000-SC1,,LinearTable,Final/Finales,
+09DB001,2.000,,LinearTable,Final/Finales,
+09DB001,1.000,,LinearTable,Final/Finales,

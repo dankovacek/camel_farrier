@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05BL027,7.0,Station relocated approx. 300m downstream. Rating will likely need update as more data is collected at the new location,LogarithmicTable,Provisional/Provisoire,(2.16:1.69);(2.093);
+05BL027,6.0,Curve 6.000 needed follonw 2013 highwater and corresponding Slope/Area calculation,LogarithmicTable,Final/Finales,(1.604:0.85);(0.54);
+05BL027,5.0,"Extended: 2.6-2.8m, 2005",LinearTable,Final/Finales,
+05BL027,4.0,,LinearTable,Final/Finales,

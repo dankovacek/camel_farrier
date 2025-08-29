@@ -1,0 +1,9 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02KA015,7.00,"Curve 7.00 drawn to primarily to 2014, 2015 and 2016 mmts as a beaver dam on the control in late 2013 is believed to have changed the low water control.",LogarithmicTable,Provisional/Provisoire,(3.566:3.418);(3.826:3.44);(3.45);
+02KA015,6.000,,LogarithmicTable,Final/Finales,(3.45);
+02KA015,5.000,"curve to accomodate highwater mms 2013, 1st HWS curve, checked with overlay of 2.0",LogarithmicTable,Final/Finales,(3.536:3.3);(3.43);
+02KA015,4.000,"Temporary curve to accomodate highwater mms 2013, 1st HWS curve, checked with overlay of 2.0",LogarithmicTable,Final/Finales,(3.6589:3.4);(3.54);
+02KA015,3.000,,LogarithmicTable,Final/Finales,(3.6204:3.4);(3.54);
+02KA015,2.000,,LinearTable,Final/Finales,
+02KA015,2.000-SC1,,LinearTable,Final/Finales,
+02KA015,1.000,,LinearTable,Final/Finales,

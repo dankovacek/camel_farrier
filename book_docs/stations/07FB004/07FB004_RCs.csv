@@ -1,0 +1,29 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07FB004,42.0,"Curve created using 3 of 4 open water measurements in 2023 after most of them plotted off previous Curve 41.00. There is a breakpoint at HG=1.45m, close to the same point as previous Curve 41.00. This elevation is near a rock ledge above the control waterfall. The upper end is defined by the 1983 highwater measurement and the calculated discharge from 2016. As it is defined by only one historical standard measurement, the curve above the breakpoint is graded E"". The low end is graded ""E"" based on the September 2023 measurement.""",LogarithmicTable,Provisional/Provisoire,(1.45:0.997);(1.293);
+07FB004,41.0,"Curve created using May, July and August 2022 measurements after they all plotted off previous Curve 40.00. There is a breakpoint at HG=1.46m, the same point as previous Curve 40.00. This elevation is near a rock ledge above the control waterfall. The upper end is defined by the 1983 highwater measurement and the calculated discharge from 2016. As it is defined by only one historical standard measurement, the curve above the breakpoint is graded E"". The low end is graded ""E"" based on the August 2022 measurement.""",LogarithmicTable,Final/Finales,(1.46:1.02);(1.3);
+07FB004,40.0,"Curve created with May, Aug, and Sept 2021 measurements.  Upper end defined by the 1983 high water measurement and the calculated Q from 2016.",LogarithmicTable,Final/Finales,(1.46:0.953);(1.38);
+07FB004,39.0,"Created using three 2020 and May 2021 open water measurements.  The upper segment is as similar as possible to past curves and is defined from the area-discharge calculations from 2016. The offset for the lower segment is based off of the potential point of zero flow of .763m  surveyed in on June 23, 2016.",LogarithmicTable,Final/Finales,(1.425:0.77);(1.33);
+07FB004,38.0,"New curve created using a clone of above the break point of 1.377, open water measurements from 2019 and 2018, and historical highwater measurements.",LogarithmicTable,Final/Finales,(1.377:0.93);(1.17);
+07FB004,37.0,"created using open water measurements from June 23, Aug, Sept, Oct 2016, and June, Aug 2017, with the Jan 2017 ice measurement used as a limiting factor for the low end.  The upper part of the curve was defined using the historic 1983 mmt and the slope-area calculations from June 15, 2016.  A potential point of zero flow of .763 was surveyed in on June 23, 2016.",LogarithmicTable,Final/Finales,(1.377:0.777);(1.17);
+07FB004,36.0,"curve for 2015 data year, created using open water measurements from 2015 with slope/area discharge for the June 15, 2016 event and the historic measurement from 1983 used to define the top end.  The break at the low end is to keep the curve to the right of the 2012 ice measurement.",LogarithmicTable,Final/Finales,(1.72:0.95);(0.6);
+07FB004,35.0,Shift during ice period,LogarithmicTable,Provisional/Provisoire,(0.9092);
+07FB004,34.0,Shift during ice period,LogarithmicTable,Final/Finales,(0.9138);
+07FB004,33.0,Shift during ice period,LogarithmicTable,Final/Finales,(0.92);
+07FB004,32.0,Shift during ice period,LogarithmicTable,Final/Finales,(0.777);
+07FB004,31.0,Conicident with #30 at and above 1.750 m,LinearTable,Final/Finales,
+07FB004,30.0,Conicident with #29 below 1.174m and above 1.51m,LinearTable,Final/Finales,
+07FB004,29.0,Conicident with #28 below 1.121m and above 1.65m,LinearTable,Final/Finales,
+07FB004,28.0,Coincident with #27 blo 1.1 & abv 1.50m.,LinearTable,Final/Finales,
+07FB004,27.0,Coincident with #26 blo 1.3m & abv 1.6m,LinearTable,Final/Finales,
+07FB004,26.0,,LinearTable,Final/Finales,
+07FB004,25.0,,LinearTable,Final/Finales,
+07FB004,24.0,,LinearTable,Final/Finales,
+07FB004,23.0,,LinearTable,Final/Finales,
+07FB004,22.0,,LinearTable,Final/Finales,
+07FB004,21.0,,LinearTable,Final/Finales,
+07FB004,20.0,,LinearTable,Final/Finales,
+07FB004,19.0,,LinearTable,Final/Finales,
+07FB004,18.0,,LinearTable,Final/Finales,
+07FB004,17.0,,LinearTable,Final/Finales,
+07FB004,16.0,,LinearTable,Final/Finales,
+07FB004,15.0,,LinearTable,Final/Finales,

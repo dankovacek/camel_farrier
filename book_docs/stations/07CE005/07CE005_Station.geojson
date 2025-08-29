@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07CE005_Station",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07CE005", "NameNom": "JACKFISH RIVER BELOW CHRISTINA LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -111.0994, 55.67292 ] } }
+]
+}

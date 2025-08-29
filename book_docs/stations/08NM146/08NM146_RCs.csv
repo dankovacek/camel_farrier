@@ -1,0 +1,4 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08NM146,2.0,,LogarithmicTable,Provisional/Provisoire,(1.165:0.764);(0.77);
+08NM146,1.01,Extended Rating for WL above rating,LogarithmicTable,Final/Finales,(0.768);
+08NM146,1.0,,LogarithmicTable,Final/Finales,(0.768);

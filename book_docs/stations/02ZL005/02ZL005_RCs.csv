@@ -1,0 +1,26 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02ZL005,30.0,New Curve #30.00 was created for 2022.  This new curve #30.00 is a clone of #29.01 with a small refinement in the low to medium water areas of the curve.,LogarithmicTable,Provisional/Provisoire,(2.87);
+02ZL005,29.01,New Curve #29.01 was created for 2021 simply to cover the range on the high end,LogarithmicTable,Final/Finales,(2.87);
+02ZL005,29.0,New curve #29.000 created for 2020.  This is a medium to low water change based on 2020 measurements.,LogarithmicTable,Final/Finales,(2.87);
+02ZL005,28.0,New curve #28.000 created for 2019.  This is a medium to low water change based on 2019 measurements.,LogarithmicTable,Final/Finales,(2.87);
+02ZL005,27.0,"New curve #27.000 created for 2018.  This is a medium to low water change based on 2018 measurements.  There is a significant low water change compard to last year, this seemed to be a filling in and washing out from one year to next.",LogarithmicTable,Final/Finales,(3.2331:2.87);(2.87);
+02ZL005,26.0,New curve #26.000 created for 2017.  This is a low water change below gauge height of 3.175m.  This is a large low water change.,LogarithmicTable,Final/Finales,(3.267:3.038);(2.96);
+02ZL005,25.0,,LogarithmicTable,Final/Finales,(3.267:3.038);(2.96);
+02ZL005,24.0,"-Small change in curve for 2015 based on 2015MM Results.  Slight adjustments made on high and low ends of curve.  Changed occurred at HG of 3.196 (0.313 Q) and below.  As well as above HG of 3.306 (0.936 Q).  All previous MM from curve #23 within these ranges is still valid and used in curve development.  Curve #24 now active and valid, Starting From Feb 24 event",LogarithmicTable,Final/Finales,(3.281:2.862);(2.862);
+02ZL005,23.0,New Curve based on 2014 measurement results using 2014 mm only,LogarithmicTable,Final/Finales,(3.216:2.84);(2.87);
+02ZL005,22.0,CURVE # 22 is a low water refinement below 3.150 based on 2013 latest MM results.,LogarithmicTable,Final/Finales,(2.84);
+02ZL005,21.0,CURVE # 21 NEW CURVE BASED ON 2012 MM'S ONLY EFFECTIVE FEB 2012,LogarithmicTable,Final/Finales,(2.84);
+02ZL005,20.0,,LinearTable,Final/Finales,
+02ZL005,19.0,HQFIT1.0,LinearTable,Final/Finales,
+02ZL005,18.0,Curve # 18 based on 2008/09 mm after 2008-06-23,LinearTable,Final/Finales,
+02ZL005,17.0,,LinearTable,Final/Finales,
+02ZL005,16.0,LOW WATER CHANGE,LinearTable,Final/Finales,
+02ZL005,15.0,,LinearTable,Final/Finales,
+02ZL005,14.0,,LinearTable,Final/Finales,
+02ZL005,13.0,LOW WATER CHANGE,LinearTable,Final/Finales,
+02ZL005,12.0,,LinearTable,Final/Finales,
+02ZL005,11.0,,LinearTable,Final/Finales,
+02ZL005,10.0,,LinearTable,Final/Finales,
+02ZL005,9.0,,LinearTable,Final/Finales,
+02ZL005,8.0,,LinearTable,Final/Finales,
+02ZL005,7.0,,LinearTable,Final/Finales,

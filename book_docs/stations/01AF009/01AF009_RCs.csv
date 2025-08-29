@@ -1,0 +1,17 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+01AF009,14.00,New rating to account for scour.  Fits measurements from 2020-2022.,LogarithmicTable,Provisional/Provisoire,(3.21);
+01AF009,13.000,Complete curve update.  Curve 12.0 from 2010.,LogarithmicTable,Final/Finales,(3.224);
+01AF009,12.000,low h2o changes based on 2010 mm results,LinearTable,Final/Finales,
+01AF009,11.000,low h2o changes based on 2008 mm results,LinearTable,Final/Finales,
+01AF009,10.000,low (2007) and high  (2008) H2O changes,LinearTable,Final/Finales,
+01AF009,9.000,low H2O change based on 2005-06 MM's,LinearTable,Final/Finales,
+01AF009,8.000,curve change 3.300 to 5.700 using QM post 13-08-04,LinearTable,Final/Finales,
+01AF009,7.000,Curve change 3.47m -3.90m using 2002-03 MM,LinearTable,Final/Finales,
+01AF009,6.000-SC3,,LinearTable,Final/Finales,
+01AF009,6.000-SC2,,LinearTable,Final/Finales,
+01AF009,6.000,CHANGE BELOW 3.7 BASED ON 99-2000 MM RESULTS,LinearTable,Final/Finales,
+01AF009,5.000-SC1,,LinearTable,Final/Finales,
+01AF009,5.000,,LinearTable,Final/Finales,
+01AF009,4.000,,LinearTable,Final/Finales,
+01AF009,3.000,,LinearTable,Final/Finales,
+01AF009,2.000,,LinearTable,Final/Finales,

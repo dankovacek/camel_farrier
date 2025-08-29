@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09AE006_Station",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "09AE006", "NameNom": "MORELY RIVER AT KM 1251 ALASKA HIGHWAY", "Status": "active", "Etat": "en service", "ProvTerr": "YT", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -132.1444, 60.00694 ] } }
+]
+}

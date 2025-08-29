@@ -1,0 +1,6 @@
+STATION_NUMBER,REMARK_TYPE_CODE,YEAR,REMARK_EN,REMARK_FR
+05NF008,2,2011,Discharge data from approx. April 19 - Sep 01 exhibits BW effect from Souris River.,Les donnees sur le debit couvrant plus ou moins la periode du 19 avril au 1er septembre montrent l'effet des remous de la riviere Souris.
+05NF008,2,2014,A new curve was developed after the 2014 summer flood but could not be extended high enough to account for the extreme stage values observed and therefore the July 1st peak discharge could not be modelled.,
+05NF008,2,2020,"Due to measures in place to limit the spread of the coronavirus, regular visits to this station were reduced or no longer conducted throughout the period from March 2020 to January 2021. This may have impacted data quality.",
+05NF008,2,2023,No water level data available March 1 - 27 and August 9 - October 31. Minimum daily and instantaneous water levels and discharges invalid due to seasonal operation. Maximum instantaneous discharge invalid due to ice conditions.,
+05NF008,4,-999,"DATA PRIOR TO 1957 WERE PUBLISHED AS STATION NO. 05NF004 ""GRAHAM CREEK NEAR MELITA.""",DONNEES AVANT 1957 PUBLIEES SOUS STATION NO. 05NF004 < GRAHAM CREEK NEAR MELITA >.

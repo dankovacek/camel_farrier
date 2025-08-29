@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05NB035,4.0,Curve drawn in AQ log environment,LogarithmicTable,Provisional/Provisoire,(1.39:1.15);(2:1.2);(1.16);
+05NB035,3.0,Same as curve 2.000 below 2.0 m stage,LinearTable,Final/Finales,
+05NB035,2.0,,LinearTable,Final/Finales,
+05NB035,1.0,,LinearTable,Final/Finales,

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10LB005_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10LB005", "NameNom": "TRAVAILLANT RIVER ABOVE TRAVAILLANT LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "NT" }, "geometry": { "type": "Point", "coordinates": [ -131.93038, 67.78337 ] } }
+]
+}

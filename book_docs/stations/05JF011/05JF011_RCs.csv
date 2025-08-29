@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05JF011,8.000,Created to update rating model with current techniques and representative of the changes to the channel characteristics since periods of high water starting in 2011.,LogarithmicTable,Provisional/Provisoire,(0.745:0.409);(3.637:0.424);(0.68);
+05JF011,7.000,Edited 2007-07-19,LinearTable,Final/Finales,
+05JF011,6.000,,LinearTable,Final/Finales,
+05JF011,6.000-SC1,,LinearTable,Final/Finales,

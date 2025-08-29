@@ -1,0 +1,10 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10MA003,15.0,"Single equation curve. Generated using 2020 to 2023 open water measurements. Plots all mmnts < 5% except May 21, 2021. Also used 2016 max. mmnt",LogarithmicTable,Provisional/Provisoire,(3.35);
+10MA003,14.0,,LogarithmicTable,Provisional/Provisoire,(3.026);
+10MA003,13.0,new curve to capture bottom end lowest ever measurments in 2014 and to extend past upper end by 100%,LogarithmicTable,Final/Finales,(2.941);
+10MA003,12.0,new curve to capture bottom end lowest ever measurments in 2014 and to extend past upper end by 100%,LogarithmicTable,Final/Finales,(2.941);
+10MA003,11.0,,LogarithmicTable,Final/Finales,(2.941);
+10MA003,10.0,,LogarithmicTable,Final/Finales,(3.2);
+10MA003,9.0,APPROVED. Coincident to #8.00 at & above 4.609 m,LinearTable,Final/Finales,
+10MA003,8.0,APPROVED Crosses #7 at ~3.675M,LinearTable,Final/Finales,
+10MA003,7.0,,LinearTable,Final/Finales,

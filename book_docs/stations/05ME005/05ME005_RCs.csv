@@ -1,0 +1,12 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05ME005,26.000,,LogarithmicTable,Provisional/Provisoire,(552.506);
+05ME005,24.010,Table 24.01 same as Table 24.00,LinearTable,Final/Finales,
+05ME005,25.000,,LinearTable,Final/Finales,
+05ME005,24.000-SC1,,LinearTable,Final/Finales,
+05ME005,24.000,,LinearTable,Final/Finales,
+05ME005,23.000,,LinearTable,Final/Finales,
+05ME005,19.000,,LinearTable,Final/Finales,
+05ME005,22.000,,LinearTable,Final/Finales,
+05ME005,21.000,,LinearTable,Final/Finales,
+05ME005,20.000,,LinearTable,Final/Finales,
+05ME005,18.000,,LinearTable,Final/Finales,

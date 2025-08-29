@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+06DA002,7.01,"Curve 7.000 cloned, conservative extenion to inculde high water in June 2020, based upon high water measurements June 13/17 and July 26/18, Approved KSP",LogarithmicTable,Provisional/Provisoire,(26.592);
+06DA002,7.0,"New for 2018, based upon high water measurements June 13/17 and July 26/18, Approved KSP",LogarithmicTable,Final/Finales,(26.592);
+06DA002,6.0,"Log curve for 2016, 2017",LogarithmicTable,Final/Finales,(25.99);
+06DA002,5.0,2015 Stage/Discharge Relationship,LinearTable,Final/Finales,

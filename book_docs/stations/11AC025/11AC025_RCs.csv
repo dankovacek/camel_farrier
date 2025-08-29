@@ -1,0 +1,4 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+11AC025,9.0,To replace linear curve.,LogarithmicTable,Provisional/Provisoire,(1.434:1.181);(1.184);
+11AC025,8.001,,LinearTable,Final/Finales,
+11AC025,7.0,,LinearTable,Final/Finales,

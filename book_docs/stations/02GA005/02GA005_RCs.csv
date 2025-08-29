@@ -1,0 +1,7 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02GA005,6.0,new HWS curve l- low water curve extension started after last approval (Mar. 29/12),LogarithmicTable,Provisional/Provisoire,(1.693);
+02GA005,5.0,new HWS curve,LogarithmicTable,Provisional/Provisoire,(1.693);
+02GA005,4.0,Low end change same as #3 >2.20m like # 1 <2.20m,LinearTable,Final/Finales,
+02GA005,3.0,Redef'n of low end,LinearTable,Final/Finales,
+02GA005,2.0,"Low end redefined, high end extended -new stn '05",LinearTable,Final/Finales,
+02GA005,1.0,New WSC Station,LinearTable,Final/Finales,

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07SA002_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07SA002", "NameNom": "SNARE RIVER BELOW GHOST RIVER", "Status": "active", "Etat": "en service", "ProvTerr": "NT" }, "geometry": { "type": "Point", "coordinates": [ -115.43405, 63.97234 ] } }
+]
+}

@@ -1,0 +1,11 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07SA008,9.0,"RATING CURVE BUILT USING RIVERPRO/STREAMPRO/RIO MEASURMENTS BETWEEN JUNE AND OCOTBER, EXCLUDED RIVERRAY MEASUREMENTS, MODERNIZATION OF PREVIOUS CURVES",LogarithmicTable,Provisional/Provisoire,(5.2);
+07SA008,8.1,Rating 8.0 with low end extended for shifting,LogarithmicTable,Final/Finales,(0);
+07SA008,8.0,,LogarithmicTable,Provisional/Provisoire,(0);
+07SA008,7.0,revised lower end Table 6.0 (5.7-6.6m),LinearTable,Provisional/Provisoire,
+07SA008,6.0,Revised lower end Table 5. (5.7-7.9m),LinearTable,Final/Finales,
+07SA008,5.0,revised lower end of Table #4,LinearTable,Final/Finales,
+07SA008,4.0,extended lower end of Table #3,LinearTable,Final/Finales,
+07SA008,3.0,extended Table #2 upper end and lower end,LinearTable,Final/Finales,
+07SA008,2.0,Developed using water levels upstream of No. 1,LinearTable,Final/Finales,
+07SA008,1.0,,LinearTable,Final/Finales,

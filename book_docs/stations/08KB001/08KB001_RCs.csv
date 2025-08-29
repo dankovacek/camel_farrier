@@ -1,0 +1,9 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08KB001,9.01,Lower end extended. Plots to the right of curve 8.000 at the mid to low stages.,LogarithmicTable,Provisional/Provisoire,(-0.59);
+08KB001,9.0,Plots to the right of curve 8.000 at the mid to low stages.,LogarithmicTable,Final/Finales,(-0.59);
+08KB001,8.0,First Curve created in HWS,LogarithmicTable,Final/Finales,(0.05);
+08KB001,7.0,COINCIDENT WITH TABLE 6 AT AND ABOVE 2.8 M,LinearTable,Final/Finales,
+08KB001,6.0,COINCIDENT WITH TABLE 5 AT AND ABOVE 4.4 M,LinearTable,Final/Finales,
+08KB001,5.0,COINCIDENT WITH TABLE 4 AT AND ABOVE 6.5 M,LinearTable,Final/Finales,
+08KB001,4.0,,LinearTable,Final/Finales,
+08KB001,3.0,,LinearTable,Final/Finales,

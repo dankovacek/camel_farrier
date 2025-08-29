@@ -1,0 +1,26 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08MH006,57.01,Low-end extension to 57.000,LogarithmicTable,Provisional/Provisoire,(-0.066);
+08MH006,57.000,fit for 2017 and 2018,LogarithmicTable,Final/Finales,(-0.066);
+08MH006,56.000,Lower end ext of 55.000,LogarithmicTable,Final/Finales,(-0.07);
+08MH006,55.000,,LogarithmicTable,Final/Finales,(0.6184:0.013);(1.2949:0.015);(0.95);
+08MH006,54.000,,LogarithmicTable,Final/Finales,(0.58:0.013);(1.2949:0.015);(0.95);
+08MH006,53.000,Coincides with T#52 below GH 0.175 and above 1.000,LinearTable,Final/Finales,
+08MH006,52.000,Coincides with T#51 at/above GH=0.8000m,LinearTable,Final/Finales,
+08MH006,51.010,Redef of #51.0 between GH=0.325 and 0.450m.,LinearTable,Final/Finales,
+08MH006,51.000,Coincides with T#50 at/above GH=1.000m,LinearTable,Final/Finales,
+08MH006,50.000,Coincides with table 49 at 0.380 m E's above 1.7,LinearTable,Final/Finales,
+08MH006,49.000,COINCIDENT WITH TABLE 48 ABOVE 0.60 m,LinearTable,Final/Finales,
+08MH006,48.000,T#48 is coincident with T#47 at & abv GH=0.550m,LinearTable,Final/Finales,
+08MH006,47.000,T#47 is coincident with T#46 at & abv GH=0.350m,LinearTable,Final/Finales,
+08MH006,46.000,,LinearTable,Final/Finales,
+08MH006,45.000,T#45 is coincident with T44 at & abv GH=0.290m,LinearTable,Final/Finales,
+08MH006,44.000,,LinearTable,Final/Finales,
+08MH006,43.000,Rev'd end date to Nov 19/02 after  inspection.,LinearTable,Final/Finales,
+08MH006,42.000,,LinearTable,Final/Finales,
+08MH006,41.000,,LinearTable,Final/Finales,
+08MH006,40.000,,LinearTable,Final/Finales,
+08MH006,39.000,,LinearTable,Final/Finales,
+08MH006,38.000,,LinearTable,Final/Finales,
+08MH006,37.000,,LinearTable,Final/Finales,
+08MH006,37.000-SC1,,LinearTable,Final/Finales,
+08MH006,36.000,,LinearTable,Final/Finales,

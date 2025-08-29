@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05OE006_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "05OE006", "NameNom": "MANNING CANAL NEAR ILE DES CHENES", "Status": "active", "Etat": "en service", "ProvTerr": "MB" }, "geometry": { "type": "Point", "coordinates": [ -96.90607, 49.63601 ] } }
+]
+}

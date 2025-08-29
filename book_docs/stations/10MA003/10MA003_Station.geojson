@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10MA003_Station",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10MA003", "NameNom": "BLACKSTONE RIVER NEAR CHAPMAN LAKE AIRSTRIP", "Status": "active", "Etat": "en service", "ProvTerr": "YT", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -138.2758, 64.90139 ] } }
+]
+}

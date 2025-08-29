@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05PE028,C3.010,,LogarithmicTable,Provisional/Provisoire,(2.037:0.72);(1.1);
+05PE028,3.000,,LogarithmicTable,Final/Finales,(2.037:0.72);(1.1);
+05PE028,2.00,,LogarithmicTable,Final/Finales,(0.7);
+05PE028,1.000,"HQFIT1.0, manually extended to 1.1m",LinearTable,Final/Finales,

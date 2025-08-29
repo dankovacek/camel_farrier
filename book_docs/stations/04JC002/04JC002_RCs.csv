@@ -1,0 +1,11 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+04JC002,15.00,New curve to include break points,LogarithmicTable,Provisional/Provisoire,(1.438:0.93);(1.049);
+04JC002,14.000,,LogarithmicTable,Final/Finales,(1);
+04JC002,13.000,,LogarithmicTable,Final/Finales,(1);
+04JC002,12.000-SC6,,LinearTable,Final/Finales,
+04JC002,12.000,,LinearTable,Final/Finales,
+04JC002,12.000-SC5,,LinearTable,Final/Finales,
+04JC002,12.000-SC4,,LinearTable,Final/Finales,
+04JC002,11.000,,LinearTable,Final/Finales,
+04JC002,10.000,,LinearTable,Final/Finales,
+04JC002,9.000,,LinearTable,Final/Finales,

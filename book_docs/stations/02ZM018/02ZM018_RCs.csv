@@ -1,0 +1,28 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02ZM018,34.0,"Curve 34 created for 2022 due to small refinments / changes along entire range of curve. This change was based on 5 open water measurements taken in 2022, as well as 2, higher range 2017 measurements.",LogarithmicTable,Provisional/Provisoire,(1.11);
+02ZM018,33.0,Low to medium  end refinement of curve 32.00 based on 4 open water measurements for 2020.,LogarithmicTable,Final/Finales,(1.11);
+02ZM018,32.0,Low end refinement of curve 31.00; Measurements below a stage of 1.24 for 2017 and 2018 were removed from the curve.,LogarithmicTable,Final/Finales,(1.27:1.11);(1.45:1.07);(1.14);
+02ZM018,31.0,Refinement of curve 30.00; Curve 31.000 created.  Measurements below 2.1 for 2017 were removed from the curve.  In addition measurements from 2015 & 2016 were removed.,LogarithmicTable,Final/Finales,(1.24:1.11);(1.45:1.07);(1.14);
+02ZM018,30.0,"New curve 30.000, removed 2015 measurements except for two low water measurements required to define the low end of the curve. Upper end changed to reflect high water measurements from September 11 rainfall event.",LogarithmicTable,Final/Finales,(1.2323:1.11);(1.45:1.07);(1.14);
+02ZM018,29.0,"Curve # 29 a change from #28. Only 2015 MM's used in curve development below 1.25 meters. 2005 high water kept as reference, more weight given to 2012-2014 MM's at upper stage. 2007 measurement disregarded and no longer deemed relevant compared to 2012 -2014 MM's.",LogarithmicTable,Final/Finales,(1.2323:1.11);(1.4502:1.07);(1.28);
+02ZM018,28.0,- REFINEMENT BASED ON 2014 MM RESULTS,LogarithmicTable,Final/Finales,(1.1);
+02ZM018,27.0,low water extention and curve adjustment based on 2013 measurements,LogarithmicTable,Final/Finales,(1.1);
+02ZM018,26.0,low water extention and curve adjustment based on 2012 measurements,LogarithmicTable,Final/Finales,(1.1);
+02ZM018,25.0,,LogarithmicTable,Final/Finales,(1.303:1.09);(1.1);
+02ZM018,24.0,HQFIT1.0,LinearTable,Final/Finales,
+02ZM018,23.0,HQFIT1.0,LinearTable,Final/Finales,
+02ZM018,22.0,HQFIT1.0,LinearTable,Final/Finales,
+02ZM018,21.0,HQFIT1.0,LinearTable,Final/Finales,
+02ZM018,20.0,HQFIT1.0,LinearTable,Final/Finales,
+02ZM018,19.0,Low water refinement up to 1.39m based on 2006mms.,LinearTable,Final/Finales,
+02ZM018,18.0,Change b/w 1.2 - 2.3m based on 2005mms.,LinearTable,Final/Finales,
+02ZM018,17.0,change b/w 1.17 - 1.31m based on 2004 mms.,LinearTable,Final/Finales,
+02ZM018,16.0,refinement of # 15 below 1.250 M,LinearTable,Final/Finales,
+02ZM018,15.0,High H2O based on  comparison with Waterford @ Kil,LinearTable,Final/Finales,
+02ZM018,14.0,Low Water Change below 1.380m,LinearTable,Final/Finales,
+02ZM018,13.0,,LinearTable,Final/Finales,
+02ZM018,12.0,,LinearTable,Final/Finales,
+02ZM018,11.0,,LinearTable,Final/Finales,
+02ZM018,10.0,,LinearTable,Final/Finales,
+02ZM018,9.0,,LinearTable,Final/Finales,
+02ZM018,8.0,,LinearTable,Final/Finales,

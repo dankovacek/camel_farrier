@@ -1,0 +1,32 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08HA010,55.03,Same curve as 55.01 but extended at the low-end due to continuous scouring.,LogarithmicTable,Provisional/Provisoire,(1.6317);
+08HA010,55.02,Same curve as 55.01 but extended at the low-end due to continuous scouring.,LogarithmicTable,Final/Finales,(1.6317);
+08HA010,55.01,Curve based on 2018 data. Major changes have occurred with the offset; note that 2018 has the lowest WL's on record. Curve is constrained on high end by record measurement obtained 20190103. Curve extended.,LogarithmicTable,Final/Finales,(1.6317);
+08HA010,55.00,Curve based on 2018 data. Major changes have occurred with the offset; note that 2018 has the lowest WL's on record. Curve is constrained on high end by record measurement obtained 20190103.,LogarithmicTable,Final/Finales,(1.6317);
+08HA010,54.000,Curve using measurements from 2016-2017. Mean not appropriate because of frequent massive control changes.,LogarithmicTable,Final/Finales,(1.706);
+08HA010,52.000,Improved stage-discharge definition,LogarithmicTable,Final/Finales,(1.74);
+08HA010,51.000,,LogarithmicTable,Final/Finales,(2.4955:1.75);(2.11);
+08HA010,50.000,,LogarithmicTable,Final/Finales,(2.94655:1.68);(1.82);
+08HA010,49.000.,Coincident with Curve 47.000 above GH 2.56m,LogarithmicTable,Final/Finales,(2.4955:1.86);(2.14);
+08HA010,48.000,Coincident with Curve 47.000 above GH 2.56m,LogarithmicTable,Final/Finales,(2.4955:1.937);(2.14);
+08HA010,47.000,Approved. Qs >642 cms (G Ht 7.004) are estimates,LinearTable,Final/Finales,
+08HA010,46.000,Approved; Q's >642cms (7.0m) are estimates,LinearTable,Final/Finales,
+08HA010,45.000,Approved; Q's >642cms (7.0m) are estimates,LinearTable,Final/Finales,
+08HA010,43.010,Approved,LinearTable,Final/Finales,
+08HA010,44.000,APPROVED Within 5% of #43 at 3.10 m.,LinearTable,Final/Finales,
+08HA010,43.000,APPROVED,LinearTable,Final/Finales,
+08HA010,42.000,APPROVED,LinearTable,Final/Finales,
+08HA010,41.000,Coincident to #40 above 2.80 m.,LinearTable,Final/Finales,
+08HA010,40.000,Coincident to #37 above 2.70 m.,LinearTable,Final/Finales,
+08HA010,39.000,Coincident to #38 ab. 2.60m. Extended ab. 7.90m.,LinearTable,Final/Finales,
+08HA010,38.000,Coincident to #34 above 2.60m.,LinearTable,Final/Finales,
+08HA010,37.000,Coincident to #36 above 6.5 m.,LinearTable,Final/Finales,
+08HA010,36.000,,LinearTable,Final/Finales,
+08HA010,34.010,,LinearTable,Final/Finales,
+08HA010,35.000,,LinearTable,Final/Finales,
+08HA010,34.000,,LinearTable,Final/Finales,
+08HA010,33.000,,LinearTable,Final/Finales,
+08HA010,30.000,,LinearTable,Final/Finales,
+08HA010,30.000-SC1,,LinearTable,Final/Finales,
+08HA010,32.000,,LinearTable,Final/Finales,
+08HA010,29.000,,LogarithmicTable,Final/Finales,

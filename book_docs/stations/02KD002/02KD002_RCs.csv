@@ -1,0 +1,8 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02KD002,15.01,Extended bottom end to try to capture historic low stage data in 2021,LogarithmicTable,Provisional/Provisoire,(7.268);
+02KD002,15.000,Altered low end and extended curve 14.000 to account for 2013 measurements.,LogarithmicTable,Final/Finales,(7.268);
+02KD002,14.000,new curve with HWS,LogarithmicTable,Final/Finales,(7.268);
+02KD002,13.000,,LinearTable,Final/Finales,
+02KD002,12.000,New curve based on mmnts 2006-2008,LinearTable,Final/Finales,
+02KD002,12.000-SC1,,LinearTable,Final/Finales,
+02KD002,11.000,Old curve - incorrect slopes. 1988 - 1993 Q m/ms.,LinearTable,Final/Finales,

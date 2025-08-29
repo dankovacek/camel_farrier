@@ -1,0 +1,12 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05LJ005,29.000,,LogarithmicTable,Provisional/Provisoire,(279.32:278.635);(280.956:278.985);(278.65);
+05LJ005,28.00,Superceeds 27.020,LogarithmicTable,Final/Finales,(279.209:278.851);(281.149:278.907);(277.2);
+05LJ005,27.020,Same as curve #27 above 279.850,LinearTable,Final/Finales,
+05LJ005,27.010,Same as curve #27 below 279.050 & above 279.800,LinearTable,Final/Finales,
+05LJ005,27.010-SC2,,LinearTable,Final/Finales,
+05LJ005,27.010-SC1,,LinearTable,Final/Finales,
+05LJ005,27.000,Same as #26 above 279.590m,LinearTable,Final/Finales,
+05LJ005,26.000,,LinearTable,Final/Finales,
+05LJ005,25.000,,LinearTable,Final/Finales,
+05LJ005,24.000,,LinearTable,Final/Finales,
+05LJ005,23.000,,LinearTable,Final/Finales,

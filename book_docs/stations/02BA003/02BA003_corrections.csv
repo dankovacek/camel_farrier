@@ -1,0 +1,53 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+02BA003,Offset,HG,2023-10-11T20:50:00,10000-01-01T00:00:00,2023-11-09T16:41:00,-5,GC: +0.004 to GNOMEN carried forward.,Offset:0.004,Normal
+02BA003,DeleteRegion,HG,2023-10-11T20:25:00,2023-10-11T20:45:00,2023-10-13T19:45:21,-5,"Flushed well, sensor interference ",,Normal
+02BA003,Drift,HG,2023-05-18T19:35:00,2023-10-11T20:20:00,2023-10-13T19:43:42,-5,SRC : Applied 0.029 visit to visit,"DriftPoints:(Offset:0,Time:2023-05-18T19:35:00Z);(Offset:0.029,Time:2023-10-11T20:20:00Z)",Normal
+02BA003,Drift,HG,2023-05-18T18:15:00,2023-05-18T19:30:00,2023-05-23T16:08:18,-5,SRC: APPLIED -0.045 DURING VISIT AS LOGGER WASN'T RESET INITIALLY,"DriftPoints:(Offset:-0.051,Time:2023-05-18T18:15:00Z);(Offset:-0.045,Time:2023-05-18T19:30:00Z)",Normal
+02BA003,CopyPaste,HG,2023-03-28T21:50:00,2023-03-29T09:55:00,2023-05-23T16:10:32,-5,"COPY AND PASTE OF STAGE LOGGER Override: Copy & Paste‌Source Data Set: Stage.Logger2@02BA003, time shift: 00:00 minutes.‌",,PreProcessing
+02BA003,CopyPaste,QR,2023-03-14T15:55:00,2023-05-02T17:00:00,2023-11-09T17:59:50,-5,ICE: Override: Linear‌Q(t) = (1.3241784839380808)t + 3.670018882943051‌,,Normal
+02BA003,Drift,HG,2023-03-14T15:35:00,2023-05-18T18:10:00,2023-05-23T16:04:58,-5,SRC: APPLIED -0.051 VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2023-03-14T15:35:00Z);(Offset:-0.051,Time:2023-05-18T18:10:00Z)",Normal
+02BA003,CopyPaste,HG,2023-03-14T12:50:00,2023-03-14T13:55:00,2023-04-11T19:50:19,-5,"COPY PASTE:Override: Copy & Paste‌Source Data Set: Stage.Logger2@02BA003, time shift: 00:00 minutes.‌",,PreProcessing
+02BA003,CopyPaste,QR,2022-12-01T18:10:00,2023-03-14T16:00:00,2023-04-12T15:16:16,-5,ICE: Override: Linear‌Q(t) = (-0.10080198786987457)t + 14.043504571136607‌,,Normal
+02BA003,CopyPaste,QR,2022-11-17T05:00:00,2022-11-24T17:00:00,2023-04-12T14:59:42,-5,ICE: Override: Linear‌Q(t) = (-0.4023120097826722)t + 11.905257905194299‌,,Normal
+02BA003,CopyPaste,HG,2022-09-09T14:50:00,2022-09-09T15:55:00,2023-04-11T19:48:46,-5,"COPY PASTE:Override: Copy & Paste‌Source Data Set: Stage.Logger2@02BA003, time shift: 00:00 minutes.‌",,PreProcessing
+02BA003,CopyPaste,HG,2022-07-28T04:50:00,2022-07-28T08:45:00,2023-04-11T19:46:06,-5,"COPY PASTE:Override: Copy & Paste‌Source Data Set: Stage.Logger2@02BA003, time shift: 00:00 minutes.‌",,PreProcessing
+02BA003,DeleteRegion,HG,2022-07-09T15:05:00,2022-07-09T15:05:00,2022-08-22T18:18:09,-5,,,Normal
+02BA003,CopyPaste,HG,2022-07-03T16:50:00,2022-07-03T17:55:00,2023-04-11T19:45:07,-5,"COPY PASTE:Override: Copy & Paste‌Source Data Set: Stage.Logger2@02BA003, time shift: 00:00 minutes.‌",,PreProcessing
+02BA003,CopyPaste,HG,2022-06-30T06:50:00,2022-06-30T07:00:00,2023-04-11T19:42:57,-5,"COPY PASTE:Override: Copy & Paste‌Source Data Set: Stage.Logger2@02BA003, time shift: 00:00 minutes.‌",,PreProcessing
+02BA003,CopyPaste,HG,2022-06-28T07:50:00,2022-06-28T08:55:00,2023-04-11T19:42:17,-5,"COPY PASTE:Override: Copy & Paste‌Source Data Set: Stage.Logger2@02BA003, time shift: 00:00 minutes.‌",,PreProcessing
+02BA003,CopyPaste,HG,2022-06-26T06:50:00,2022-06-26T07:55:00,2023-04-11T19:41:42,-5,"COPY PASTE:Override: Copy & Paste‌Source Data Set: Stage.Logger2@02BA003, time shift: 00:00 minutes.‌",,PreProcessing
+02BA003,DeleteRegion,HG,2022-05-11T13:45:00,2022-05-11T13:50:00,2022-05-11T17:35:57,-5,SERVICING GAUGE,,Normal
+02BA003,CopyPaste,HG,2022-03-14T12:15:00,2022-03-14T14:05:00,2022-05-12T12:58:58,-5,"Copy & Paste from Stage.Logger2 - Gap FillOverride: Copy & Paste‌Source Data Set: Stage.Logger2@02BA003, time shift: 00:00 minutes.‌",,PreProcessing
+02BA003,CopyPaste,QR,2022-03-08T17:25:00,2022-05-04T17:05:00,2022-11-23T12:17:02,-5,ICE: Override: Linear‌Q(t) = (1.6181457576977696)t + 3.78‌,,Normal
+02BA003,DeleteRegion,HG,2022-03-08T15:20:00,2022-03-08T15:20:00,2022-03-09T14:31:43,-5,Disregard - purge,,Normal
+02BA003,Drift,HG,2022-03-08T14:55:00,2022-05-11T13:50:00,2022-06-06T17:07:56,-5,SRC: ,"DriftPoints:(Offset:0,Time:2022-03-08T14:55:00Z);(Offset:0.006,Time:2022-05-11T13:50:00Z)",Normal
+02BA003,CopyPaste,QR,2021-12-18T09:50:00,2022-03-08T17:20:00,2022-06-06T19:37:44,-5,ICE: Override: Linear‌Q(t) = (-0.08579779893509994)t + 10.670635726975213‌,,Normal
+02BA003,CopyPaste,QR,2021-11-27T05:05:00,2021-12-18T09:55:00,2022-06-06T19:29:27,-5,ICE: Override: Linear‌Q(t) = (0.6709546887542603)t + 3.787372742211415‌,,Normal
+02BA003,CopyPaste,HG,2021-11-19T17:50:00,2021-11-19T19:55:00,2022-03-09T14:43:47,-5,"Override: Copy & Paste‌Source Data Set: Stage.Logger@02BA003, time shift: 00:00 minutes.‌",,PreProcessing
+02BA003,DeleteRegion,HG,2021-10-21T20:20:00,2021-10-21T20:25:00,2021-10-26T11:17:51,-5,,,Normal
+02BA003,Drift,HG,2021-10-21T20:10:00,2022-03-08T14:45:00,2022-06-06T17:23:27,-5,SRC: ,"DriftPoints:(Offset:0,Time:2021-10-21T20:10:00Z);(Offset:0.019,Time:2022-03-08T14:45:00Z)",Normal
+02BA003,Drift,HG,2021-10-21T19:15:00,2022-03-08T14:50:00,2022-06-06T16:59:23,-5,GC:  2021-10-21 0.000 to 2022-03-08 +0.004,"DriftPoints:(Offset:0,Time:2021-10-21T19:15:00Z);(Offset:0.004,Time:2022-03-08T14:50:00Z)",Normal
+02BA003,DeleteRegion,HG,2021-10-21T18:50:00,2021-10-21T18:50:00,2021-10-26T11:16:39,-5,Servicing gauge,,Normal
+02BA003,CopyPaste,HG,2021-07-13T12:50:00,2021-07-13T13:45:00,2021-10-26T19:27:35,-5,"Copy & Paste from Stage.Logger - Gap FillOverride: Copy & Paste‌Source Data Set: Stage.Logger@02BA003, time shift: 00:00 minutes.‌",,Normal
+02BA003,DeleteRegion,HG,2021-06-22T17:30:00,2021-06-22T17:30:00,2021-06-23T12:54:36,-5,DISREGARD,,Normal
+02BA003,CopyPaste,HG,2021-06-22T16:50:00,2021-06-22T17:20:00,2021-10-26T19:26:26,-5,"Override: Copy & Paste‌Source Data Set: Stage.Logger@02BA003, time shift: 00:00 minutes.‌",,PreProcessing
+02BA003,CopyPaste,QR,2021-04-13T06:05:00,2021-04-13T10:00:00,2022-09-13T16:06:04,-5,Override: Linear‌Q(t) = (12.845076301198409)t + 107.68774356802759‌,,Normal
+02BA003,CopyPaste,QR,2021-03-03T19:50:00,2021-04-13T07:05:00,2021-07-12T18:04:00,-5,Override: Linear‌Q(t) = (2.581995576477453)t + 3.53‌,,Normal
+02BA003,Drift,HG,2021-03-03T19:45:00,2021-06-22T16:59:00,2021-07-07T11:25:29,-5,GAUGE CORRECTION  +0.005GC at GNOMEN 2021-03-03 to 0.000GC at GNOMEN found during annual levels 2021-06-22,"DriftPoints:(Offset:0.005,Time:2021-03-03T19:45:00Z);(Offset:0,Time:2021-06-22T16:59:00Z)",Normal
+02BA003,CopyPaste,HG,2021-01-06T01:00:00,2021-01-17T15:00:00,2021-03-25T15:14:34,-5,"Override: Copy & Paste‌Source Data Set: Stage.Logger@02BA003, time shift: 00:00 minutes.‌",,PreProcessing
+02BA003,CopyPaste,HG,2020-12-13T02:00:00,2021-03-03T19:45:00,2021-04-09T12:03:26,-5,"COPY PASTE - insert Stage Logger2 (inwater sensor) into Stage working due to frozen ECGOverride: Copy & Paste‌Source Data Set: Stage.Logger2@02BA003, time shift: 00:00 minutes.‌",,PreProcessing
+02BA003,CopyPaste,QR,2020-11-29T23:00:00,2021-03-03T19:28:00,2021-03-29T14:50:03,-5,ICE - Override: Linear‌Q(t) = (-0.05969009845818475)t + 9.132081546129688‌,,Normal
+02BA003,CopyPaste,QR,2020-11-23T16:05:00,2020-11-25T04:55:00,2021-03-29T14:36:01,-5,ICE - Override: Linear‌Q(t) = (-0.9926361663501168)t + 10.84248407482967‌,,Normal
+02BA003,CopyPaste,QR,2020-11-17T05:00:00,2020-11-19T03:05:00,2021-03-29T14:28:31,-5,ICE - Override: Linear‌Q(t) = (-3.2144066327616563)t + 21.2319697503871‌,,Normal
+02BA003,CopyPaste,HG,2020-10-21T10:50:00,2020-10-21T11:55:00,2021-04-09T11:51:59,-5,"COPY PASTEOverride: Copy & Paste‌Source Data Set: Stage.Logger@02BA003, time shift: 00:00 minutes.‌",,PreProcessing
+02BA003,CopyPaste,HG,2020-10-04T08:45:00,2020-10-07T23:40:00,2021-03-25T15:13:10,-5,"Override: Copy & Paste‌Source Data Set: Stage.Logger@02BA003, time shift: 00:00 minutes.‌",,PreProcessing
+02BA003,CopyPaste,HG,2020-09-17T14:50:00,2020-09-17T15:55:00,2021-04-09T11:49:42,-5,"COPY PASTEOverride: Copy & Paste‌Source Data Set: Stage.Logger@02BA003, time shift: 00:00 minutes.‌",,PreProcessing
+02BA003,Drift,HG,2020-09-09T19:50:00,2021-03-03T19:45:00,2021-03-25T15:47:20,-5,GAUGE CORRECTION +0.005 to GNOMEN from 2020-09-09 install until winter level check 2021-03-03,"DriftPoints:(Offset:0,Time:2020-09-09T19:50:00Z);(Offset:0.005,Time:2021-03-03T19:45:00Z)",Normal
+02BA003,DeleteRegion,HG,2020-09-09T19:25:00,2020-09-09T19:55:00,2020-09-10T11:46:28,-5,DELETE REGION - SITE VISIT,,Normal
+02BA003,DeleteRegion,HG,2020-07-16T12:30:00,2020-07-16T12:30:00,2020-09-10T11:44:45,-5,DELETE REGION - ERRONEOUS POINT,,Normal
+02BA003,CopyPaste,QR,2020-03-03T16:00:00,2020-04-24T11:35:00,2020-09-23T15:55:28,-5,Override: Linear‌Q(t) = (0.14339207934061515)t + 3.07‌,,Normal
+02BA003,Drift,HG,2020-03-03T16:00:00,2020-09-09T17:50:00,2020-09-23T15:09:50,-5,SENSOR RESET CORRECTION - ,"DriftPoints:(Offset:0,Time:2020-03-03T16:00:00Z);(Offset:0.005,Time:2020-09-09T17:50:00Z)",Normal
+02BA003,CopyPaste,QR,2019-11-17T04:44:00,2019-12-01T07:44:00,2020-04-15T18:38:41,-5,Override: Freehand‌,,Normal
+02BA003,CopyPaste,QR,2019-11-06T05:00:00,2020-03-03T15:55:00,2020-04-15T15:47:23,-5,"Override: Copy & Paste‌Source signal: Discharge.Working@02BB003, time shift: 0 minutes.‌",,Normal
+02BA003,USGSMultiPoint,QR,2019-11-06T05:00:00,2020-03-03T15:55:00,2020-04-15T15:48:04,-5,Multiplier: 0.35‌,"StartShiftPoints:(Value:-9007199254740991,Offset:5854679515581644);(Value:0,Offset:0);(Value:9007199254740991,Offset:-5854679515581644),UsgsType:Set 2",Normal
+02BA003,CopyPaste,QR,2019-11-06T04:55:00,2019-11-07T06:44:00,2020-04-15T15:55:52,-5,Override: Linear‌Q(t) = (-1.3944480309877338)t + 13.4‌,,Normal

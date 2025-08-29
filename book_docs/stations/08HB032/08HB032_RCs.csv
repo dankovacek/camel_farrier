@@ -1,0 +1,28 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08HB032,34.00,"Drawn to measurements after construction of new bridge in 2012 which changed the channel characteristics, especially at high flows.  Also incorporates highest ever measurement obtained Jan 29, 2018.",LogarithmicTable,Provisional/Provisoire,(1.74:1.023);(1.12);
+08HB032,33.000,,LogarithmicTable,Final/Finales,(1.75:1.023);(1.43);
+08HB032,32.000,,LogarithmicTable,Final/Finales,(1.82:1.056);(1.4);
+08HB032,31.000,,LogarithmicTable,Final/Finales,(1.99:1.056);(1.4);
+08HB032,30.000 CLONE.,Shifts applied to this curve. Clone function used - hence the name of the curve including the term CLONE.,LogarithmicTable,Final/Finales,(1.8047:1.056);(1.4);
+08HB032,30.000,,LogarithmicTable,Final/Finales,(1.8047:1.056);(1.4);
+08HB032,29.000,,LogarithmicTable,Final/Finales,(1.4411:1.04);(1.1);
+08HB032,28.000,Approved;Qs>51.0 cms (GH 2.872) are estimates,LinearTable,Final/Finales,
+08HB032,27.000,Approved-top end redef. after event 11/16/2009,LinearTable,Final/Finales,
+08HB032,26.000,Approved-coincident w/ #25 @ & >1.24 m,LinearTable,Final/Finales,
+08HB032,25.000,Approved-coincident w/24 @ & >1.75m,LinearTable,Final/Finales,
+08HB032,24.000,"Approved-, coincident w/23 at/above GH=1.850m",LinearTable,Final/Finales,
+08HB032,23.000,"APPROVED Coincident w/22 to 1.4, from 2.45 m",LinearTable,Final/Finales,
+08HB032,22.000,PRELIMINARY Coincident w/21 at/abv GH=1.33 m,LinearTable,Final/Finales,
+08HB032,21.000,Coincident with 20 at/abv 2.45m,LinearTable,Final/Finales,
+08HB032,20.000,,LinearTable,Final/Finales,
+08HB032,19.000,Co-incident with Table 18 at/abv GH=2.0 m,LinearTable,Final/Finales,
+08HB032,18.000,Co-incident with Table 17 at & above GH = 1.55 m,LinearTable,Final/Finales,
+08HB032,17.000,Co-incident with Table 16 at/above GH=1.55,LinearTable,Final/Finales,
+08HB032,17.000-SC1,,LinearTable,Final/Finales,
+08HB032,16.000,,LinearTable,Final/Finales,
+08HB032,12.100,,LinearTable,Final/Finales,
+08HB032,15.000,,LinearTable,Final/Finales,
+08HB032,14.000,,LinearTable,Final/Finales,
+08HB032,13.000,,LinearTable,Final/Finales,
+08HB032,12.000,,LinearTable,Final/Finales,
+08HB032,11.000,,LinearTable,Final/Finales,

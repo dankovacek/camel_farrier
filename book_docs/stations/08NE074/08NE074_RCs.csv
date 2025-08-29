@@ -1,0 +1,17 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08NE074,35.00,,LogarithmicTable,Provisional/Provisoire,(0);
+08NE074,34.00,,LogarithmicTable,Final/Finales,(-0.18);
+08NE074,33.001,Clone of 33.000 to add curve confidence,LogarithmicTable,Provisional/Provisoire,(-0.07);
+08NE074,33.0,One equation model to describe deposition trend since 2012,LogarithmicTable,Final/Finales,(-0.07);
+08NE074,32,Approved by M.Evin,LogarithmicTable,Final/Finales,(1.64:-0.17);(0.8);
+08NE074,31,,LogarithmicTable,Final/Finales,
+08NE074,C30.1,coincident with # 29 at and above 1.400m & < 0.500,LinearTable,Final/Finales,
+08NE074,30.000,coincident with # 29 at and above 1.400m & < 0.500,LinearTable,Final/Finales,
+08NE074,29.000,coincident with # 28 at and above 1.000 m.,LinearTable,Final/Finales,
+08NE074,28.000,,LinearTable,Final/Finales,
+08NE074,27.000,,LinearTable,Final/Finales,
+08NE074,26.000,,LinearTable,Final/Finales,
+08NE074,25.000,extended to 0.3 Apr 16-02,LinearTable,Final/Finales,
+08NE074,24.000,,LinearTable,Final/Finales,
+08NE074,23.000,,LinearTable,Final/Finales,
+08NE074,22.000,,LinearTable,Final/Finales,

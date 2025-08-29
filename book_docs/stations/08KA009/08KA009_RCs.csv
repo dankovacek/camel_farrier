@@ -1,0 +1,23 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08KA009,41.0,"Curve developed using open-water measurements from 2022 and 2023 and 2 historical max mmts (2007, 2011).",LogarithmicTable,Provisional/Provisoire,(1.03);
+08KA009,40.0,Made for 2018/2019 mmts.  Uses historic high 2011-2014 measurements,LogarithmicTable,Final/Finales,(1.02);
+08KA009,39.0,"Curve drawn using 2016 and 2017 open-water mmts, with 2007, 2011-2013 high water mmts",LogarithmicTable,Final/Finales,(1);
+08KA009,38.0,"Shift during ice period, lower end extended from 37.000",LogarithmicTable,Final/Finales,(0.971);
+08KA009,37.001,"Shift during ice period, lower end extended from 37.000",LogarithmicTable,Final/Finales,(1.019);
+08KA009,37.0,Shift during ice period,LogarithmicTable,Final/Finales,(1.019);
+08KA009,36.0,First plot using HWS,LogarithmicTable,Final/Finales,(0.945);
+08KA009,35.0,coincidentwithtable #34 above 2.6m,LinearTable,Final/Finales,
+08KA009,34.0,"coincidentwithtable #34 below1.60,and above 2m",LinearTable,Final/Finales,
+08KA009,33.0,"coincidentwithtable #31below1.60,and above 1.850",LinearTable,Final/Finales,
+08KA009,32.0,"coincidentwithtable #31below1.625,and above 1.775",LinearTable,Final/Finales,
+08KA009,31.0,coincident with table #30 at and above 2.150 m,LinearTable,Final/Finales,
+08KA009,30.0,,LinearTable,Final/Finales,
+08KA009,29.0,,LinearTable,Final/Finales,
+08KA009,28.0,,LinearTable,Final/Finales,
+08KA009,27.0,,LinearTable,Final/Finales,
+08KA009,26.0,,LinearTable,Final/Finales,
+08KA009,25.0,,LinearTable,Final/Finales,
+08KA009,24.0,,LinearTable,Final/Finales,
+08KA009,23.0,,LinearTable,Final/Finales,
+08KA009,22.0,,LinearTable,Final/Finales,
+08KA009,21.0,,LinearTable,Final/Finales,

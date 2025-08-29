@@ -14,6 +14,7 @@ input_data/WSC_basin_polygons_20240905/
 input_data/WSC_basin_polygons_20240905.zip
 superseded/
 WORKFLOW_REQUIREMENTS.md
+AGENT_REQUIREMENTS.md
 book_docs/catchments/
 .vscode/
 station_pages/

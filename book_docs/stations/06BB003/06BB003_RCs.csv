@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+06BB003,7.0,Re-drawn in Log/Log,LogarithmicTable,Provisional/Provisoire,(417.981);
+06BB003,6.0,,LogarithmicTable,Final/Finales,
+06BB003,5.1,,LogarithmicTable,Final/Finales,
+06BB003,1.0,,LinearTable,Final/Finales,

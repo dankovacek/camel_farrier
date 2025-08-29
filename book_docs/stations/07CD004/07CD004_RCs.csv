@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07CD004,14.0,"New Curve - Approved September 18, 2017",LogarithmicTable,Provisional/Provisoire,(2.7:1.9);(1.9);
+07CD004,13.0,Curve 13.0 extended at high end. Same as Curve 12 below 3.90m,LinearTable,Final/Finales,
+07CD004,12.0,starts at open water 2006,LinearTable,Final/Finales,
+07CD004,11.0,used till end of B 2006,LinearTable,Final/Finales,

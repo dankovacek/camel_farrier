@@ -1,0 +1,128 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+08AB001,CopyPaste,HG,2023-10-13T19:35:00,2023-12-15T19:40:00,2024-01-02T16:06:35,-8,"OC - COPY PASTE TO FILL TX GAPSOverride: Copy & Paste‌Source Data Set: Stage.HG2.Logger@08AB001, time shift: 00:00 minutes.‌",,PreProcessing
+08AB001,Drift,HG,2023-10-13T19:35:00,2023-12-15T19:45:00,2023-12-18T18:16:01,-8,SRC - VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2023-10-13T19:35:00Z);(Offset:0.012,Time:2023-12-15T19:45:00Z)",Normal
+08AB001,Drift,HG,2023-08-30T18:50:00,2023-10-13T19:30:00,2023-10-16T21:17:36,-8,RFT - SRC drift visit to visit. Applied the -0.007 starting at 10:50 as lead tech had forecasted. See note regarding 2023-08-30 MGH. ,"DriftPoints:(Offset:-0.007,Time:2023-08-30T18:50:00Z);(Offset:0.027,Time:2023-10-13T19:30:00Z)",Normal
+08AB001,Drift,HG,2023-07-28T11:50:00,2023-07-29T00:15:00,2023-09-28T18:41:15,-8,"SRC - Temporary pressure change, debris on line","DriftPoints:(Offset:-0.05,Time:2023-07-28T11:50:00Z);(Offset:0,Time:2023-07-29T00:15:00Z)",Normal
+08AB001,DeleteRegion,HG,2023-07-28T11:45:00,2023-07-28T11:45:00,2023-08-17T20:07:57,-8,DR - oline instability,,Normal
+08AB001,Drift,HG,2023-07-20T00:30:00,2023-07-20T09:45:00,2023-09-28T18:45:00,-8,"SRC - temp pressure change, debris on line","DriftPoints:(Offset:-0.021,Time:2023-07-20T00:30:00Z);(Offset:0,Time:2023-07-20T09:45:00Z)",Normal
+08AB001,Drift,HG,2023-07-18T03:30:00,2023-07-18T13:45:00,2023-09-28T18:46:21,-8,"SRC - temp. pressure change, debris on line","DriftPoints:(Offset:-0.03,Time:2023-07-18T03:30:00Z);(Offset:0,Time:2023-07-18T13:45:00Z)",Normal
+08AB001,Drift,HG,2023-07-13T20:00:00,2023-08-30T18:45:00,2023-09-28T19:11:36,-8,"SRC - visit to visit. Lots of Temporary jumps attributed to debris on line, SRC at 08/30 visit assumed to have accumulated slowly since 07/13 visit. ","DriftPoints:(Offset:0,Time:2023-07-13T20:00:00Z);(Offset:0.021,Time:2023-08-30T18:15:00Z);(Offset:0.025,Time:2023-08-30T18:45:00Z)",Normal
+08AB001,Offset,HG,2023-07-13T18:25:00,2023-07-13T20:05:00,2023-07-27T15:51:19,-8,SRC - DWL. ,Offset:-0.012,Normal
+08AB001,Offset,HG,2023-06-25T00:05:00,2023-07-13T18:20:00,2023-07-26T21:00:33,-8,SRC – Theorized sensor movement. ,Offset:0.283,Normal
+08AB001,Deviation,HG,2023-06-22T08:00:00,2023-07-13T18:05:00,2023-07-27T15:37:46,-8,DISREGARD – PAINTING/PRESSURE ISSUES. ,"DeviationValue:0.01,DeviationType:DeviationFromAverage,WindowSizeInMinutes:360",Normal
+08AB001,Drift,HG,2023-06-07T18:35:00,2023-07-13T18:20:00,2023-07-26T21:14:57,-8,SRC - Theorized sensor movement. ,"DriftPoints:(Offset:0.009,Time:2023-06-07T18:35:00Z);(Offset:0.07,Time:2023-07-13T18:20:00Z)",Normal
+08AB001,Drift,HG,2023-06-07T17:25:00,2023-06-07T18:30:00,2023-06-08T19:39:57,-8,RFT - In visit SRC,"DriftPoints:(Offset:0,Time:2023-06-07T17:25:00Z);(Offset:-0.006,Time:2023-06-07T18:30:00Z)",Normal
+08AB001,CopyPaste,HG,2023-03-28T22:05:00,2023-03-29T09:10:00,2023-06-08T19:38:20,-8,"RFT - Gap fillOverride: Copy & Paste‌Source Data Set: Stage.Logger@08AB001, time shift: 00:00 minutes.‌",,PreProcessing
+08AB001,CopyPaste,QR,2023-03-12T08:00:00,2023-04-16T14:00:00,2023-05-07T16:21:59,-8,Override: Log Linear‌Q(t) = 58.3e^(0.002910987728570481t)‌,,Normal
+08AB001,Drift,HG,2023-03-02T19:32:00,2023-06-07T17:25:00,2023-09-28T18:13:56,-8,SRC - visit to visit,"DriftPoints:(Offset:0,Time:2023-03-02T19:32:00Z);(Offset:-0.001,Time:2023-06-07T17:25:00Z)",Normal
+08AB001,CopyPaste,QR,2023-02-19T09:35:00,2023-03-29T18:00:00,2023-05-07T16:24:43,-8,Override: Moving Average Filter‌Window: 6400.‌Iterations: 1.‌,,Normal
+08AB001,Drift,HG,2023-01-27T18:35:00,2023-03-02T19:32:00,2023-09-28T18:11:58,-8,SRC - visit to visit,"DriftPoints:(Offset:0,Time:2023-01-27T18:35:00Z);(Offset:-0.001,Time:2023-03-02T19:32:00Z)",Normal
+08AB001,CopyPaste,QR,2022-11-10T18:35:00,2023-04-16T08:00:00,2023-03-31T22:59:45,-8,Override: Log Linear‌Q(t) = 89.2949169178234e^(-0.0035t)‌,,Normal
+08AB001,CopyPaste,HG,2022-11-09T19:40:00,2023-01-27T18:10:00,2023-01-30T20:09:23,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@08AB001, time shift: 00:00 minutes.‌",,PreProcessing
+08AB001,Drift,HG,2022-11-09T19:30:00,2023-01-27T18:35:00,2023-09-27T20:46:19,-8,SRC - Visit to visit,"DriftPoints:(Offset:-0.002,Time:2022-11-09T19:30:00Z);(Offset:0.003,Time:2023-01-27T18:35:00Z)",Normal
+08AB001,Offset,HG,2022-11-09T19:25:00,2022-11-09T19:35:00,2022-11-10T18:46:54,-8,SRC- DURING VISIT,Offset:-0.011,Normal
+08AB001,DeleteRegion,HG,2022-11-09T18:25:00,2022-11-09T19:20:00,2022-11-10T18:46:14,-8,DEL- STATION MAINTENANCE,,Normal
+08AB001,CopyPaste,QR,2022-11-05T16:50:00,2022-11-14T18:50:00,2023-03-31T23:07:12,-8,Override: Moving Average Filter‌Window: 1600.‌Iterations: 1.‌,,Normal
+08AB001,CopyPaste,QR,2022-10-27T11:20:00,2022-11-11T02:05:00,2023-02-27T20:53:06,-8,Override: Log Linear‌Q(t) = 291.57013016112126e^(-0.07988583019702605t)‌,,Normal
+08AB001,Drift,HG,2022-09-01T18:05:00,2022-11-09T18:20:00,2022-11-10T18:44:32,-8,SRC- VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2022-09-01T18:05:00Z);(Offset:-0.095,Time:2022-11-09T18:20:00Z)",Normal
+08AB001,DeleteRegion,HG,2022-09-01T18:00:00,2022-09-01T18:00:00,2022-11-07T17:18:38,-8,DISREGARD - Data spike. ,,Normal
+08AB001,Offset,HG,2022-09-01T17:10:00,2022-09-01T17:55:00,2022-09-02T19:23:03,-8,Switched HG/HG2,Offset:0.097,Normal
+08AB001,Drift,HG,2022-06-29T19:50:00,2022-09-01T17:05:00,2022-09-02T19:25:23,-8,SRC - Last reading using previous sensor,"DriftPoints:(Offset:0,Time:2022-06-29T19:50:00Z);(Offset:-0.011,Time:2022-09-01T17:05:00Z)",Normal
+08AB001,DeleteRegion,HG,2022-06-29T19:45:00,2022-06-29T19:45:00,2022-07-13T18:04:40,-8,Invalid data,,Normal
+08AB001,DeleteRegion,HG,2022-06-29T18:35:00,2022-06-29T19:40:00,2022-07-13T18:04:07,-8,Invalid data,,Normal
+08AB001,Offset,HG,2022-06-26T23:50:00,2022-06-29T18:35:00,2022-07-13T18:10:56,-8,"Assumed orifice movement, dragging movement and not discrete.",Offset:-0.054,Normal
+08AB001,Drift,HG,2022-06-26T22:35:00,2022-06-26T23:45:00,2022-07-13T18:14:20,-8,,"DriftPoints:(Offset:-0.01,Time:2022-06-26T22:35:00Z);(Offset:-0.054,Time:2022-06-26T23:45:00Z)",Normal
+08AB001,Offset,HG,2022-06-24T05:25:00,2022-06-29T18:35:00,2022-06-24T20:19:57,-8,Orifice movement,Offset:-0.046,Normal
+08AB001,Offset,HG,2022-05-29T05:45:00,2022-06-29T18:35:00,2022-05-30T15:54:32,-8,Assumed orifice movement,Offset:0.03,Normal
+08AB001,Offset,HG,2022-02-28T19:05:00,2022-06-29T18:35:00,2022-03-11T23:53:37,-8,"SRC - brought forward after visit because not reset, must delete after next visit",Offset:-0.022,Normal
+08AB001,CopyPaste,QR,2022-02-23T03:10:00,2022-02-27T09:50:00,2022-03-22T17:05:05,-8,Override: Freehand‌Override: Freehand‌,,Normal
+08AB001,CopyPaste,HG,2022-02-18T14:30:00,2022-02-18T20:45:00,2022-03-22T17:01:13,-8,"Fixing small period of missing dataOverride: Copy & Paste‌Source Data Set: Stage.HG2.Logger@08AB001, time shift: 00:00 minutes.‌",,PreProcessing
+08AB001,CopyPaste,HG,2022-02-08T20:05:00,2022-02-09T14:25:00,2022-03-22T16:56:34,-8,"Filling short period of missing dataOverride: Copy & Paste‌Source Data Set: Stage.HG2.Logger@08AB001, time shift: 00:00 minutes.‌",,PreProcessing
+08AB001,Drift,HG,2022-01-31T22:05:00,2022-02-28T19:00:00,2022-03-11T23:51:54,-8,SRC - January 31 to February 28 Visits,"DriftPoints:(Offset:-0.028,Time:2022-01-31T22:05:00Z);(Offset:-0.022,Time:2022-02-28T19:00:00Z)",Normal
+08AB001,CopyPaste,QR,2022-01-31T12:07:08,2022-02-01T07:55:00,2022-03-28T14:49:53,-8,Override: Freehand‌,,Normal
+08AB001,CopyPaste,QR,2021-12-19T10:37:08,2022-01-31T21:17:17,2022-02-23T22:00:27,-8,Override: Freehand‌,,Normal
+08AB001,CopyPaste,QR,2021-11-13T07:45:00,2021-12-20T08:00:00,2022-02-23T21:10:51,-8,Override: Log Linear‌Q(t) = 64.43485432689367e^(-0.0028427589281928905t)‌,,Normal
+08AB001,CopyPaste,QR,2021-11-13T00:29:10,2021-11-16T00:31:30,2022-02-23T22:05:12,-8,Override: Freehand‌,,Normal
+08AB001,Drift,HG,2021-10-15T20:40:00,2022-01-31T22:00:00,2022-02-02T17:06:19,-8,SENSOR RESET CORRECTION - Sensor drift. A sensor movement may have occurred somewhere but where is not obvious. HWM was unobtainable due to snow depths. ,"DriftPoints:(Offset:-0.001,Time:2021-10-15T20:40:00Z);(Offset:-0.028,Time:2022-01-31T22:00:00Z)",Normal
+08AB001,DeleteRegion,HG,2021-10-15T19:30:00,2021-10-15T20:35:00,2021-10-16T07:08:23,-8,Invalid data,,Normal
+08AB001,CopyPaste,HG,2021-10-01T13:05:00,2021-10-01T17:50:00,2021-10-26T22:24:41,-8,"FILLED DATA GAP FROM HG2Override: Copy & Paste‌Source Data Set: Stage.HG2.Logger@08AB001, time shift: 00:00 minutes.‌",,PreProcessing
+08AB001,CopyPaste,HG,2021-10-01T09:05:00,2021-10-01T11:50:00,2021-10-26T22:23:28,-8,"FILLED DATA GAP FROM HG2Override: Copy & Paste‌Source Data Set: Stage.HG2.Logger@08AB001, time shift: 00:00 minutes.‌",,PreProcessing
+08AB001,CopyPaste,HG,2021-09-24T04:05:00,2021-09-24T06:50:00,2021-10-26T21:55:06,-8,"ADDED DATA TO GAP FROM HG2Override: Copy & Paste‌Source Data Set: Stage.HG2.Logger@08AB001, time shift: 00:00 minutes.‌",,PreProcessing
+08AB001,Drift,HG,2021-09-07T21:45:00,2021-10-15T19:25:00,2021-10-26T22:13:13,-8,SRC VISIT TO VISIT-OCTOBER VISIT 0,"DriftPoints:(Offset:-0.007,Time:2021-09-07T21:45:00Z);(Offset:0.002,Time:2021-10-15T19:25:00Z)",Normal
+08AB001,DeleteRegion,HG,2021-08-27T23:45:00,2021-08-27T23:45:00,2021-09-08T21:13:35,-8,DISREGARD - Data spike. ,,Normal
+08AB001,CopyPaste,HG,2021-07-22T05:05:00,2021-07-23T14:50:00,2021-10-27T22:07:14,-8,"FILLED DATA GAP USING HG2 LOGGEROverride: Copy & Paste‌Source Data Set: Stage.HG2.Logger@08AB001, time shift: 00:00 minutes.‌",,PreProcessing
+08AB001,Drift,HG,2021-07-16T17:05:00,2021-09-07T21:40:00,2021-09-08T21:23:53,-8,SENSOR RESET CORRECTION - Sensor drift. ,"DriftPoints:(Offset:0.001,Time:2021-07-16T17:05:00Z);(Offset:-0.007,Time:2021-09-07T21:40:00Z)",Normal
+08AB001,Offset,HG,2021-06-27T20:40:00,2021-07-16T17:00:00,2021-07-20T02:07:29,-8,SRC - Direct Water Level,Offset:0.11,Normal
+08AB001,DeleteRegion,QR,2021-05-27T20:15:00,2021-05-27T20:15:00,2021-05-28T00:53:45,-8,,,Normal
+08AB001,DeleteRegion,HG,2021-05-27T20:15:00,2021-05-27T20:15:00,2021-05-28T01:47:01,-8,,,Normal
+08AB001,Drift,HG,2021-05-27T20:14:27,2021-07-16T17:05:00,2022-07-22T01:07:04,-8,"SRC btwn visits, most of corr made by offset corr","DriftPoints:(Offset:-0.004,Time:2021-05-27T20:14:27Z);(Offset:0,Time:2021-07-16T17:05:00Z)",Normal
+08AB001,CopyPaste,QR,2021-04-05T08:00:00,2021-04-15T08:00:00,2021-03-30T16:00:54,-8,Override: Log Linear‌Q(t) = 56.269901823508754e^(0.0025097384809880923t)‌,,Normal
+08AB001,CopyPaste,QR,2021-04-04T14:30:00,2021-04-15T11:10:00,2022-08-04T17:19:43,-8,Override: Freehand‌,,Normal
+08AB001,CopyPaste,QR,2021-03-19T08:00:00,2021-04-05T08:00:00,2021-03-30T15:44:00,-8,Override: Log Linear‌Q(t) = 57.0404e^(-0.0008t)‌,,Normal
+08AB001,Drift,HG,2021-03-07T19:13:31,2021-05-27T20:10:00,2022-07-22T01:03:28,-8,SRC btwn visits,"DriftPoints:(Offset:-0.003,Time:2021-03-07T19:13:31Z);(Offset:0.003,Time:2021-05-27T20:10:00Z)",Normal
+08AB001,CopyPaste,HG,2021-01-24T17:05:00,2021-01-25T06:10:00,2022-09-28T15:45:39,-8,"Override: Copy & Paste‌Source Data Set: Stage.HG2.Logger@08AB001, time shift: 00:00 minutes.‌",,PreProcessing
+08AB001,CopyPaste,HG,2021-01-22T22:05:00,2021-01-23T00:10:00,2022-09-28T15:34:48,-8,"Override: Copy & Paste‌Source Data Set: Stage.HG2.Logger@08AB001, time shift: 00:00 minutes.‌",,PreProcessing
+08AB001,Drift,HG,2021-01-22T19:15:00,2021-03-07T19:10:00,2021-03-12T00:13:54,-8,SRC  Jan 22 to March 7 Visits,"DriftPoints:(Offset:-0.004,Time:2021-01-22T19:15:00Z);(Offset:-0.003,Time:2021-03-07T19:10:00Z)",Normal
+08AB001,CopyPaste,QR,2021-01-20T07:40:00,2021-03-19T08:00:00,2021-02-02T17:51:13,-8,Override: Log Linear‌Q(t) = 66.5e^(-0.002645041980372348t)‌,,Normal
+08AB001,CopyPaste,QR,2021-01-01T14:55:00,2021-01-08T17:50:00,2021-02-02T18:04:09,-8,Override: Log Linear‌Q(t) = 71.74799931616737e^(-0.003062778072990162t)‌,,Normal
+08AB001,CopyPaste,QR,2021-01-01T02:05:00,2021-01-08T22:00:00,2022-08-04T17:16:28,-8,Override: Freehand‌,,Normal
+08AB001,CopyPaste,QR,2020-12-12T06:10:00,2020-12-28T22:30:00,2022-08-04T17:14:36,-8,Override: Freehand‌,,Normal
+08AB001,CopyPaste,QR,2020-12-01T03:25:00,2020-12-08T09:05:00,2022-08-04T17:24:26,-8,Override: Freehand‌,,Normal
+08AB001,CopyPaste,HG,2020-11-30T19:50:00,2020-12-08T19:05:00,2022-08-04T16:55:31,-8,"Small period with a couple small periods of missing dataOverride: Copy & Paste‌Source Data Set: Stage.HG2.Logger@08AB001, time shift: 00:00 minutes.‌",,PreProcessing
+08AB001,CopyPaste,QR,2020-11-16T20:00:00,2020-11-27T01:45:00,2021-02-02T17:42:59,-8,Override: Freehand‌Override: Freehand‌,,Normal
+08AB001,CopyPaste,QR,2020-11-05T10:20:00,2020-11-09T05:25:00,2021-02-02T17:41:03,-8,Override: Freehand‌,,Normal
+08AB001,Drift,HG,2020-10-21T21:05:00,2021-01-22T19:10:00,2021-01-27T20:57:57,-8,SRC  October to January Visits,"DriftPoints:(Offset:0,Time:2020-10-21T21:05:00Z);(Offset:-0.004,Time:2021-01-22T19:10:00Z)",Normal
+08AB001,DeleteRegion,HG,2020-10-21T20:50:00,2020-10-21T21:00:00,2020-10-22T14:19:31,-8,invalid data,,Normal
+08AB001,USGSMultiPoint,HG,2020-09-08T21:00:00,2020-10-21T20:45:00,2020-10-26T21:07:56,-8,Applying SRC Drift between visits.Advanced: Point‌,"StartShiftPoints:(Value:0,Offset:-0.001),EndShiftPoints:(Value:0,Offset:-0.004),UsgsType:Set 2",Normal
+08AB001,SinglePoint,HG,2020-06-17T19:10:00,2020-06-17T19:10:00,2022-09-28T15:13:55,-8,DWL,Value:9.275,Normal
+08AB001,SinglePoint,HG,2020-06-17T19:07:00,2020-06-17T19:07:00,2022-09-28T15:14:41,-8,DWL,Value:9.275,Normal
+08AB001,RevertToRaw,HG,2020-06-17T18:44:57,2020-06-17T18:50:06,2022-09-28T15:42:53,-8,,,PostProcessing
+08AB001,DeleteRegion,HG,2020-06-17T18:00:00,2020-06-17T18:55:00,2022-07-22T00:53:40,-8,Invalid data,,Normal
+08AB001,DeleteRegion,QR,2020-05-01T16:15:00,2020-05-01T16:30:00,2020-05-01T18:41:26,-8,,,Normal
+08AB001,CopyPaste,QR,2020-04-30T04:00:00,2020-05-01T16:36:03,2020-05-01T18:39:02,-8,Override: Freehand‌,,Normal
+08AB001,CopyPaste,QR,2020-04-20T10:45:00,2020-04-30T10:21:03,2020-05-01T18:35:50,-8,Override: Log Linear‌Q(t) = 58.9e^(0.07128359431902094t)‌,,Normal
+08AB001,CopyPaste,QR,2020-04-16T17:45:00,2020-04-20T11:36:03,2020-05-01T18:34:00,-8,Override: Log Linear‌Q(t) = 47e^(0.06073789194750423t)‌,,Normal
+08AB001,CopyPaste,QR,2020-04-03T02:15:00,2020-04-16T17:51:03,2020-05-01T18:32:32,-8,Override: Log Linear‌Q(t) = 44.5e^(0.004004267912213688t)‌,,Normal
+08AB001,SinglePoint,QR,2020-04-02T18:05:00,2020-04-02T18:05:00,2020-04-03T00:11:31,-8,changing point to fit recession line,Value:45.9,Normal
+08AB001,CopyPaste,QR,2020-03-30T18:15:00,2020-03-31T00:00:00,2022-08-04T15:36:45,-8,Keeping winter Q blw curve generated valuesOverride: Freehand‌,,Normal
+08AB001,CopyPaste,QR,2020-03-28T15:45:00,2020-03-28T22:30:00,2022-08-04T15:34:17,-8,Keeping winter Q blw curve generated valuesOverride: Freehand‌,,Normal
+08AB001,CopyPaste,QR,2020-03-23T23:17:57,2020-04-02T18:00:00,2020-04-03T00:03:48,-8,Override: Log Linear‌Q(t) = 45.7e^(0.0004465414907296992t)‌,,Normal
+08AB001,CopyPaste,QR,2020-03-23T19:15:00,2020-04-03T03:21:03,2020-05-01T18:31:05,-8,Override: Log Linear‌Q(t) = 44e^(0.0010930604881867227t)‌,,Normal
+08AB001,CopyPaste,QR,2020-02-16T06:00:00,2020-03-23T20:32:57,2020-05-01T18:29:12,-8,Override: Log Linear‌Q(t) = 47e^(-0.0018018242883425847t)‌,,Normal
+08AB001,CopyPaste,QR,2020-02-16T01:00:00,2020-02-16T06:00:00,2022-09-28T17:35:35,-8,Override: Linear‌Q(t) = (-0.11331222950391293)t + 47.02360671447998‌,,Normal
+08AB001,USGSMultiPoint,HG,2020-01-31T21:10:00,2020-06-17T17:58:52,2020-06-26T16:04:32,-8,Advanced: Point‌,"StartShiftPoints:(Value:8.054,Offset:0.01),EndShiftPoints:(Value:9.346,Offset:-0.056),UsgsType:Set 2",Normal
+08AB001,CopyPaste,QR,2020-01-04T09:00:00,2020-02-16T08:00:00,2020-05-01T18:22:35,-8,Override: Log Linear‌Q(t) = 57.2e^(-0.004591503568370159t)‌,,Normal
+08AB001,CopyPaste,HG,2019-12-30T07:00:00,2019-12-30T17:50:00,2021-10-15T22:46:59,-8,"FILL DATA GAPOverride: Copy & Paste‌Source Data Set: Stage.Logger@08AB001, time shift: 00:00 minutes.‌",,PreProcessing
+08AB001,Offset,HG,2019-12-30T07:00:00,2019-12-30T17:50:00,2021-10-15T22:47:40,-8,OFFSET REQUIRED DO TO NG PROBLEM WITH COPY PASTE,Offset:0.006,Normal
+08AB001,Offset,HG,2019-12-26T09:05:00,2019-12-27T00:50:00,2021-10-15T22:45:22,-8,OFFSET REQUIRED DO TO NG PROBLEM WITH COPY PASTE,Offset:0.019,Normal
+08AB001,CopyPaste,HG,2019-12-26T09:05:00,2019-12-27T00:50:00,2021-10-15T22:44:47,-8,"FILL DATA GAPOverride: Copy & Paste‌Source Data Set: Stage.Logger@08AB001, time shift: 00:00 minutes.‌",,PreProcessing
+08AB001,CopyPaste,HG,2019-12-25T07:05:00,2019-12-25T10:50:00,2021-10-15T22:42:55,-8,"FILL MISSING DATAOverride: Copy & Paste‌Source Data Set: Stage.Logger@08AB001, time shift: 00:00 minutes.‌",,PreProcessing
+08AB001,Offset,HG,2019-12-25T07:05:00,2019-12-25T10:50:00,2021-10-15T22:43:50,-8,OFFSET REQUIRED DO TO NG PROBLEM WITH COPY PASTE,Offset:0.023,Normal
+08AB001,CopyPaste,QR,2019-12-19T22:47:57,2020-03-31T08:00:00,2020-03-05T19:16:14,-8,Override: Log Linear‌Q(t) = 54.7e^(-0.0019t)‌,,Normal
+08AB001,CopyPaste,QR,2019-11-16T03:45:00,2019-11-16T06:00:00,2021-10-14T18:13:42,-8,Override: Linear‌Q(t) = (2.467391338312003)t + 64.42784703308672‌,,Normal
+08AB001,CopyPaste,QR,2019-11-15T07:00:00,2020-01-04T13:32:57,2020-05-01T18:09:05,-8,Override: Freehand‌,,Normal
+08AB001,CopyPaste,QR,2019-11-09T18:00:00,2019-12-20T08:00:00,2020-03-05T19:11:29,-8,Override: Log Linear‌Q(t) = 63.1e^(-0.0035651799621266873t)‌,,Normal
+08AB001,FillGaps,QR,2019-11-03T11:10:00,2020-03-05T17:05:00,2020-03-05T18:58:39,-8,,"ResamplePeriod:PT30M,GapLimit:MaxDuration",Normal
+08AB001,USGSMultiPoint,HG,2019-10-30T22:45:00,2020-01-31T21:05:00,2020-03-05T18:16:56,-8,"Applying Multipoint SRC based on DWLs at visits, gauge reset at start so 0 corr at start.Advanced: Point‌","StartShiftPoints:(Value:0,Offset:0),EndShiftPoints:(Value:8.054,Offset:0.01),UsgsType:Set 2",Normal
+08AB001,DeleteRegion,HG,2019-10-30T22:30:00,2019-10-30T22:40:00,2020-03-05T17:02:44,-8,"Re-seting orifice, invalid data",,Normal
+08AB001,USGSMultiPoint,HG,2019-10-30T21:05:00,2019-10-30T22:25:00,2020-03-05T18:12:43,-8,minor offset for a short period after gauge initially reset.Offset: -0.004‌,"StartShiftPoints:(Value:9007199254740991,Offset:-0.004),UsgsType:Set 2",Normal
+08AB001,CopyPaste,HG,2019-10-06T14:05:00,2019-10-06T16:50:00,2021-10-15T22:39:23,-8,"FILL DATA GAPOverride: Copy & Paste‌Source Data Set: Stage.Logger@08AB001, time shift: 00:00 minutes.‌",,PreProcessing
+08AB001,Offset,HG,2019-10-06T14:05:00,2019-10-06T16:50:00,2021-10-15T22:40:37,-8,OFFSET NEEDED DUE TO PROBLEM WITH NG COPY AND PASTE,Offset:0.023,Normal
+08AB001,USGSMultiPoint,HG,2019-09-18T18:20:00,2019-10-30T21:00:00,2020-03-05T17:54:50,-8,Advanced: Point‌,"StartShiftPoints:(Value:0,Offset:-0.005),EndShiftPoints:(Value:7.653,Offset:-0.027),UsgsType:Set 2",Normal
+08AB001,USGSMultiPoint,HG,2019-07-19T17:50:00,2019-09-18T18:15:00,2020-03-05T17:44:33,-8,Multipoint applying SRC's based on HG 2 at time of DWLs at station visitAdvanced: Point‌,"StartShiftPoints:(Value:0,Offset:0),EndShiftPoints:(Value:8.772,Offset:0.015),UsgsType:Set 2",Normal
+08AB001,USGSMultiPoint,HG,2019-06-11T21:29:16,2019-07-19T17:49:07,2020-04-29T19:00:25,-8,"SRC based on HG2 values, HG2 reset June 11, so 0 corr at start.Advanced: Point‌","StartShiftPoints:(Value:0,Offset:0),EndShiftPoints:(Value:9.821,Offset:0.03),UsgsType:Set 2",Normal
+08AB001,Drift,HG,2019-05-13T20:45:00,2019-06-11T21:25:00,2021-10-13T22:22:53,-8,Updated multipoint with checker's corrections - BR ,"DriftPoints:(Offset:-0.001,Time:2019-05-13T20:45:00Z);(Offset:-0.016,Time:2019-06-11T21:25:00Z)",Normal
+08AB001,Drift,HG,2019-05-13T19:00:00,2019-05-13T20:40:00,2021-10-13T22:11:45,-8,"micro drift - BRStage.Historical drift correction for SRC until 10:55:00, processing date 2019-05-13 change to Stage.Workingmicro drift from Stage.Historical -0.005m drift end value","DriftPoints:(Offset:-0.005,Time:2019-05-13T19:00:00Z);(Offset:-0.001,Time:2019-05-13T20:40:00Z)",Normal
+08AB001,CopyPaste,QR,2019-04-04T07:40:00,2019-04-07T06:15:00,2021-10-21T18:48:28,-8,Override: Freehand‌,,Normal
+08AB001,CopyPaste,QR,2019-03-16T07:25:00,2019-04-06T11:10:00,2020-05-01T15:47:47,-8,Override: Freehand‌,,Normal
+08AB001,CopyPaste,QR,2019-03-10T08:25:00,2019-04-07T02:35:00,2020-05-01T15:42:07,-8,Override: Log Linear‌Q(t) = 39e^(0.010294978419333575t)‌,,Normal
+08AB001,CopyPaste,QR,2019-03-08T12:50:00,2019-04-07T06:00:00,2020-05-01T15:21:24,-8,Override: Log Linear‌Q(t) = 34.9e^(0.013419254982406783t)‌,,Normal
+08AB001,CopyPaste,QR,2019-02-06T11:55:00,2019-03-10T10:05:00,2020-05-01T15:38:46,-8,Override: Log Linear‌Q(t) = 38.5e^(0.00040419627939323923t)‌,,Normal
+08AB001,CopyPaste,QR,2019-02-06T11:40:00,2019-02-06T23:40:00,2021-10-14T17:31:29,-8,Override: Linear‌Q(t) = (-0.029820123919236607)t + 38.52252949465977‌,,Normal
+08AB001,CopyPaste,QR,2019-01-06T04:55:00,2019-02-06T14:05:00,2020-05-01T15:28:24,-8,Override: Log Linear‌Q(t) = 46.2e^(-0.005809759720807587t)‌,,Normal
+08AB001,CopyPaste,QR,2019-01-06T04:40:00,2019-01-06T19:55:00,2021-10-14T17:23:35,-8,Override: Linear‌Q(t) = (-0.2179190153493944)t + 46.17101676495555‌,,Normal
+08AB001,CopyPaste,QR,2018-12-14T03:55:00,2019-01-06T13:20:00,2020-05-01T15:26:42,-8,Override: Log Linear‌Q(t) = 58.5e^(-0.010276233194542106t)‌,,Normal
+08AB001,CopyPaste,QR,2018-11-30T21:55:00,2018-12-05T07:55:00,2020-05-01T01:55:09,-8,Override: Log Linear‌Q(t) = 58.3e^(-0.010329497303367904t)‌,,Normal
+08AB001,CopyPaste,QR,2018-11-23T20:25:00,2018-11-26T15:30:00,2020-05-01T01:54:06,-8,Override: Log Linear‌Q(t) = 60.6e^(-0.009572851379913292t)‌,,Normal
+08AB001,CopyPaste,QR,2018-11-02T18:20:00,2018-11-12T08:50:00,2020-05-01T01:52:38,-8,Override: Log Linear‌Q(t) = 65.1e^(-0.006773173279779146t)‌,,Normal
+08AB001,CopyPaste,QR,2018-04-09T08:00:00,2018-04-26T09:45:00,2020-09-22T20:50:23,-8,Override: Freehand‌,,Normal

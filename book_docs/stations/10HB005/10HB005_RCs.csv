@@ -1,0 +1,8 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10HB005,15.0,Curve 15.000 created in response to changing control conditions after high water event encountered in 2017.,LogarithmicTable,Provisional/Provisoire,(0.53);
+10HB005,14.000,,LogarithmicTable,Provisional/Provisoire,(2.98:1.13);(1.14);
+10HB005,13.00,,LogarithmicTable,Provisional/Provisoire,(2.98:1.13);(1.14);
+10HB005,12,,LogarithmicTable,Provisional/Provisoire,(0.8);
+10HB005,11.000,Q>600 m3/sec apply 'E'.  Log plot used.,LinearTable,Provisional/Provisoire,
+10HB005,10.000,,LinearTable,Final/Finales,
+10HB005,10.000-SC1,,LinearTable,Final/Finales,

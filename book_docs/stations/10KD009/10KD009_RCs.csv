@@ -1,0 +1,10 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10KD009,7.0,,LogarithmicTable,Provisional/Provisoire,(8.279);
+10KD009,6.0,,LogarithmicTable,Provisional/Provisoire,(8.307);
+10KD009,5.0,,LogarithmicTable,Provisional/Provisoire,(8.855:8.5);(8.69);
+10KD009,4.0,Curve developed using 2013 and 2014 open water measurements,LogarithmicTable,Provisional/Provisoire,(8.572);
+10KD009,3.0,CURVE DEVELOPED USING 2012 OPEN WATER MEASUREMENTS,LogarithmicTable,Provisional/Provisoire,(8.6);
+10KD009,2.0,,LogarithmicTable,Provisional/Provisoire,(8.6);
+10KD009,1.2,top end determined by log/log plot,LinearTable,Provisional/Provisoire,
+10KD009,1.1,,LinearTable,Final/Finales,
+10KD009,1.0,HQFIT1.0,LinearTable,Final/Finales,

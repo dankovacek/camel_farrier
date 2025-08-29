@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05ME005_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "05ME005", "NameNom": "CONJURING CREEK NEAR RUSSELL", "Status": "active", "Etat": "en service", "ProvTerr": "MB" }, "geometry": { "type": "Point", "coordinates": [ -101.29955, 50.79505 ] } }
+]
+}

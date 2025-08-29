@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05MA020_Station",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "05MA020", "NameNom": "QUILL CREEK NEAR QUILL LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "SK", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -104.2504, 52.01367 ] } }
+]
+}

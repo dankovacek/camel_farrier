@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HB032_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HB032", "NameNom": "MILLSTONE RIVER AT NANAIMO", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -123.96914, 49.17766 ] } }
+]
+}

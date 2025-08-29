@@ -1,0 +1,13 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05ME003,22.000,extended curve to account for high water,LogarithmicTable,Provisional/Provisoire,(484.36:483.98);(484.184);
+05ME003,21.000,Superseded curve 20.03 - CJK,LogarithmicTable,Final/Finales,(484.35:484.007);(483.988);
+05ME003,20.030,Same as 20.02 with minor slope adjustments.,LinearTable,Provisional/Provisoire,
+05ME003,20.020,Same as curve 20.01 above 484.600,LinearTable,Final/Finales,
+05ME003,20.020-SC2,,LinearTable,Final/Finales,
+05ME003,20.020-SC1,,LinearTable,Final/Finales,
+05ME003,20.010,,LinearTable,Final/Finales,
+05ME003,20.000,,LinearTable,Final/Finales,
+05ME003,19.000,,LinearTable,Final/Finales,
+05ME003,18.000,,LinearTable,Final/Finales,
+05ME003,17.000,,LinearTable,Final/Finales,
+05ME003,16.000,,LinearTable,Final/Finales,

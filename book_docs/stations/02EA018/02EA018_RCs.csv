@@ -1,0 +1,11 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02EA018,7.000,Curve 7.000 developed as mmts indicated that transition zone was too low on curve 6.000,LogarithmicTable,Provisional/Provisoire,(8.09:7.05);(7.197);
+02EA018,6.000,"curve 5 extended for 2013 highwater mmts. October 30, 2017 - DCS used extracted AOP file to revert back to the original curve 6 after an accidental curve change.",LogarithmicTable,Final/Finales,(7.5844:7.05);(7.08);
+02EA018,5.000,,LogarithmicTable,Final/Finales,(7.5844:7.05);(7.08);
+02EA018,4.000,,LinearTable,Final/Finales,
+02EA018,3.000-SC3,,LinearTable,Final/Finales,
+02EA018,3.000,,LinearTable,Final/Finales,
+02EA018,3.000-SC2,,LinearTable,Final/Finales,
+02EA018,3.000-SC1,,LinearTable,Final/Finales,
+02EA018,2.000,Used from Beginning of Record.,LinearTable,Final/Finales,
+02EA018,1.000,Taken from curve created 2001-09-06 for MNR,LinearTable,Final/Finales,

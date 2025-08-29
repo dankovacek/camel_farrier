@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07BH003,13.0,"New rating developed for the 2016 computational period due to a change in control during the late spring of 2016. The channel bed is soft, with a regular silt load being carried by the river. The channel banks are rectangular and full of small vegetation. Repeated high water events occurred from 2016 to 2018, regularly changing the lower end of the channel.",LogarithmicTable,Provisional/Provisoire,(2.81:0.721);(0.72);
+07BH003,12.0,"New rating developed for the 2015 computational period. The channel bed is soft, with a regular silt load being carried by the river. Section control is too variable to be defined. The channel banks are rectangular and full of small vegetation.",LogarithmicTable,Final/Finales,(0.733);
+07BH003,11.0,Aquarius built curve,LogarithmicTable,Final/Finales,(1.3175:0.45);(0.675);
+07BH003,10.0,IMPORTED FROM COMPUMOD,LinearTable,Final/Finales,

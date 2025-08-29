@@ -1,0 +1,63 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+10JA002,Offset,HG,2023-11-29T08:30:00,10000-01-01T00:00:00,2023-11-29T21:13:25,-7,graphically estimated OM correction based on WL trends.  Check offset and SRC next visit.,Offset:0.017,Normal
+10JA002,Drift,HG,2023-07-03T18:45:00,2023-10-09T20:40:00,2023-10-10T20:05:24,-7,SRC- VISIT TO VISIT,"DriftPoints:(Offset:0.012,Time:2023-07-03T18:45:00Z);(Offset:0.009,Time:2023-10-09T20:40:00Z)",Normal
+10JA002,CopyPaste,QR,2023-05-19T12:15:00,2023-05-19T17:45:00,2023-12-02T19:38:22,-7,Logger issues.  No recorded data.  Estimated based on comparisons and stage trendsOverride: Linear‌Q(t) = (0.49063956975906176)t + 62.26271846073888‌,,Normal
+10JA002,CopyPaste,QR,2023-05-15T03:40:00,2023-05-18T12:45:00,2023-12-02T19:33:35,-7,Logger issues.  No recorded data.Override: Linear‌Q(t) = (0.7962727838415821)t + 59.017449925465755‌,,Normal
+10JA002,FillGaps,QR,2023-05-14T23:50:00,2023-05-15T03:15:00,2023-12-02T19:32:44,-7,Logger issues.  No recorded data.,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+10JA002,FillGaps,QR,2023-05-12T15:15:00,2023-05-12T17:20:00,2023-12-02T19:31:41,-7,Logger issues.  No recorded data.,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+10JA002,FillGaps,QR,2023-05-11T22:00:00,2023-05-12T07:45:00,2023-12-02T19:29:53,-7,Logger issues.  No recorded data.,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+10JA002,Drift,HG,2023-04-12T17:50:00,2023-07-03T18:40:00,2023-07-05T23:06:33,-7,SRC - VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2023-04-12T17:50:00Z);(Offset:0.027,Time:2023-07-03T18:40:00Z)",Normal
+10JA002,FillGaps,QR,2023-01-25T10:50:00,2023-01-26T19:10:00,2023-12-03T16:38:47,-7,Logger issues no recorded stage values.,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+10JA002,AdjustableTrim,HG,2023-01-07T02:40:00,2023-04-08T21:05:00,2023-04-13T16:48:15,-7,DR: data spikes,"LowerThresholdPoints:(Time:2023-01-07T02:40:00Z,Value:2.504820891072078);(Time:2023-04-08T21:05:00Z,Value:2.369441293010716),TrimAction:Delete",Normal
+10JA002,CopyPaste,HG,2022-09-14T23:50:00,2023-04-12T17:50:00,2023-04-13T16:25:35,-7,"Filling telemetry gaps with logger dataOverride: Copy & Paste‌Source Data Set: Stage.Logger@10JA002, time shift: 00:00 minutes.‌",,PreProcessing
+10JA002,CopyPaste,QR,2022-09-09T12:50:00,2022-09-09T15:55:00,2023-12-02T19:47:33,-7,Logger data only goes back as far as Sept 14th for unknown reasons.  Filled and graded as a partial day as the gap is more than 121 minutes.Override: Linear‌Q(t) = (-1.6595746645909484)t + 64.87220195193623‌,,Normal
+10JA002,CopyPaste,QR,2022-09-02T03:55:00,2022-09-03T04:55:00,2023-12-02T19:41:11,-7,Logger file only goes back to Sept 14th for unknown reasons.  Could not fill.Override: Linear‌Q(t) = (-0.7270616262112661)t + 66.9317811539917‌,,Normal
+10JA002,Drift,HG,2022-06-21T15:50:00,2023-04-12T17:45:00,2023-04-13T17:14:08,-7,SRC - DWL-DWL,"DriftPoints:(Offset:-0.006,Time:2022-06-21T15:50:00Z);(Offset:-0.014,Time:2023-04-12T17:45:00Z)",Normal
+10JA002,AdjustableTrim,HG,2022-06-20T23:55:00,2022-06-21T15:50:00,2023-07-07T23:43:28,-7,DR: suspect data,"UpperThresholdPoints:(Time:2022-06-20T23:55:00Z,Value:2.8566120144919394);(Time:2022-06-21T15:50:00Z,Value:2.8566120144919394),TrimAction:Delete",Normal
+10JA002,DeleteRegion,HG,2022-06-01T13:00:00,2022-06-20T23:50:00,2023-07-07T23:43:01,-7,DR: suspect data.  Modified L Nixon Dec 2023.  Took the correction back a little farther to the distinct change in stage readings.  Unlikely this are usable based on the following stage values and trends.  ,,Normal
+10JA002,Drift,QR,2022-06-01T12:55:00,2022-06-21T00:00:00,2023-12-02T18:43:59,-7,,"DriftPoints:(Offset:69.5,Time:2022-06-01T12:55:00Z);(Offset:69,Time:2022-06-21T00:00:00Z)",Normal
+10JA002,CopyPaste,QR,2022-06-01T12:55:00,2022-06-21T00:00:00,2023-12-02T18:39:58,-7,"Override: Copy & Paste‌Source Data Set: Discharge.Working@10JA003, time shift: 00:00 minutes.‌",,Normal
+10JA002,Offset,HG,2022-05-27T12:50:00,2022-06-01T13:00:00,2022-06-03T19:50:49,-7,est,Offset:0.295,Normal
+10JA002,Offset,HG,2022-05-27T07:40:00,2022-05-27T12:45:00,2022-06-03T19:49:41,-7,est,Offset:0.406,Normal
+10JA002,Offset,HG,2022-05-27T07:10:00,2022-05-27T07:35:00,2022-06-03T19:45:55,-7,est,Offset:0.54,Normal
+10JA002,Offset,HG,2022-05-14T09:35:00,2022-06-01T12:55:00,2022-05-16T18:15:16,-7,ESTIMATED - OM CORRECTION,Offset:-0.103,Normal
+10JA002,Offset,HG,2022-05-03T21:00:00,2022-05-14T09:30:00,2022-05-16T18:11:52,-7,ESTIMATED - OM CORRECTION,Offset:-0.033,Normal
+10JA002,Offset,HG,2022-05-03T19:20:00,2022-05-03T20:55:00,2022-05-16T18:09:10,-7,,Offset:0.006,Normal
+10JA002,Offset,HG,2022-05-02T19:25:00,2022-05-03T19:15:00,2022-05-16T18:05:12,-7,ESTIMATED - SUSPECTED SUB MOVEMENT,Offset:0.024,Normal
+10JA002,DeleteRegion,HG,2022-05-02T17:15:00,2022-05-02T19:20:00,2022-05-16T18:03:24,-7,Suspect sub being dragged a bit,,Normal
+10JA002,CopyPaste,QR,2022-05-02T17:10:00,2022-05-02T19:25:00,2023-12-02T19:52:16,-7,Stage readings deleted due to OM's.Override: Linear‌Q(t) = (0)t + 72.41594601434042‌,,Normal
+10JA002,CopyPaste,HG,2021-09-14T20:15:00,2022-04-26T20:30:00,2022-04-28T19:27:10,-7,"Copy and paste from stage loggerOverride: Copy & Paste‌Source Data Set: Stage.Logger@10JA002, time shift: 00:00 minutes.‌",,PreProcessing
+10JA002,Drift,HG,2021-09-14T20:15:00,2022-04-26T20:05:00,2022-04-28T19:35:25,-7,SRC reset to DWL,"DriftPoints:(Offset:0,Time:2021-09-14T20:15:00Z);(Offset:0.048,Time:2022-04-26T20:05:00Z)",Normal
+10JA002,DeleteRegion,HG,2021-09-14T20:10:00,2021-09-14T20:10:00,2021-09-15T15:35:33,-7,During reset,,Normal
+10JA002,CopyPaste,HG,2021-07-21T17:45:00,2021-07-23T20:25:00,2022-06-03T20:13:24,-7,"Filled telemetry gapsOverride: Copy & Paste‌Source Data Set: Stage.Logger@10JA002, time shift: 00:00 minutes.‌",,PreProcessing
+10JA002,Offset,HG,2021-06-08T10:25:00,2021-09-14T20:05:00,2021-09-15T15:20:37,-7,"OM (value from assumed correction done by operating tech), seems reasonable based on September SRC.",Offset:-0.084,Normal
+10JA002,Offset,HG,2021-05-29T05:10:00,2021-09-14T20:05:00,2021-09-15T15:33:49,-7,"OM (value based on estimated correction by operating tech, seems reasonable based on September SRC.",Offset:0.317,Normal
+10JA002,CopyPaste,HG,2021-04-23T21:20:00,2021-04-27T18:10:00,2022-06-03T20:11:38,-7,"Fill telemetry gapsOverride: Copy & Paste‌Source Data Set: Stage.Logger@10JA002, time shift: 00:00 minutes.‌",,PreProcessing
+10JA002,CopyPaste,HG,2021-03-08T00:50:00,2021-04-12T15:30:00,2022-06-03T20:10:09,-7,"Fill telemetryOverride: Copy & Paste‌Source Data Set: Stage.Logger@10JA002, time shift: 00:00 minutes.‌",,PreProcessing
+10JA002,Drift,HG,2021-03-04T18:30:00,2021-09-14T20:05:00,2021-09-15T15:30:27,-7,SRC (RS) to SRC. OM offsets subtracted. SRC = 0.196-0.317 offset + 0.084 offset = -0.037 drift.  Added 10mm src as gauge reading 10mm higher than surveyed value after reset.,"DriftPoints:(Offset:-0.01,Time:2021-03-04T18:30:00Z);(Offset:-0.037,Time:2021-09-14T20:05:00Z)",Normal
+10JA002,DeleteRegion,HG,2021-03-04T18:25:00,2021-03-04T18:25:00,2021-06-01T17:14:51,-7,resetting gauge,,Normal
+10JA002,CopyPaste,HG,2021-02-10T02:55:00,2021-03-05T09:55:00,2021-06-01T17:08:06,-7,"filled telemetry gapsOverride: Copy & Paste‌Source Data Set: Stage.Logger@10JA002, time shift: 00:00 minutes.‌",,PreProcessing
+10JA002,CopyPaste,HG,2021-01-21T00:50:00,2021-02-10T21:55:00,2021-06-01T17:07:17,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10JA002, time shift: 00:00 minutes.‌",,Normal
+10JA002,CopyPaste,HG,2021-01-04T01:35:00,2021-01-17T21:30:00,2021-06-01T17:55:53,-7,"fill telemetry gapsOverride: Copy & Paste‌Source Data Set: Stage.Logger@10JA002, time shift: 00:00 minutes.‌",,Normal
+10JA002,CopyPaste,HG,2020-10-25T20:20:00,2021-01-04T06:55:00,2021-06-01T17:12:52,-7,"filled missing telemetryOverride: Copy & Paste‌Source Data Set: Stage.Logger@10JA002, time shift: 00:00 minutes.‌",,Normal
+10JA002,Drift,HG,2020-10-01T16:35:00,2021-03-04T18:20:00,2021-06-16T15:25:20,-7,SRC - DWL-DWL,"DriftPoints:(Offset:-0.008,Time:2020-10-01T16:35:00Z);(Offset:0.029,Time:2021-03-04T18:20:00Z)",Normal
+10JA002,CopyPaste,HG,2020-09-07T03:50:00,2020-09-07T06:55:00,2021-08-18T18:57:42,-7,"gap fill with logger dataOverride: Copy & Paste‌Source Data Set: Stage.Logger@10JA002, time shift: 00:00 minutes.‌",,PreProcessing
+10JA002,CopyPaste,HG,2020-03-15T16:55:00,2020-04-26T23:30:00,2021-06-01T17:37:50,-7,"fill telemetry gapsOverride: Copy & Paste‌Source Data Set: Stage.Logger@10JA002, time shift: 00:00 minutes.‌",,PreProcessing
+10JA002,CopyPaste,HG,2020-02-03T00:25:00,2020-03-14T18:45:00,2021-06-01T17:35:51,-7,"fill telemetry gapsOverride: Copy & Paste‌Source Data Set: Stage.Logger@10JA002, time shift: 00:00 minutes.‌",,PreProcessing
+10JA002,CopyPaste,HG,2020-01-14T16:20:00,2020-02-02T12:15:00,2021-06-01T17:34:42,-7,"filled telemetry gapsOverride: Copy & Paste‌Source Data Set: Stage.Logger@10JA002, time shift: 00:00 minutes.‌",,PreProcessing
+10JA002,CopyPaste,HG,2019-12-19T10:00:00,2020-01-06T23:25:00,2021-06-01T17:33:35,-7,"filled telemetryOverride: Copy & Paste‌Source Data Set: Stage.Logger@10JA002, time shift: 00:00 minutes.‌",,PreProcessing
+10JA002,CopyPaste,HG,2019-12-03T08:15:00,2019-12-07T15:40:00,2021-06-01T17:31:55,-7,"filled missing telemetryOverride: Copy & Paste‌Source Data Set: Stage.Logger@10JA002, time shift: 00:00 minutes.‌",,PreProcessing
+10JA002,CopyPaste,HG,2019-11-08T06:40:00,2019-11-20T18:35:00,2021-06-01T17:26:57,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10JA002, time shift: 00:00 minutes.‌",,PreProcessing
+10JA002,CopyPaste,HG,2019-09-04T03:50:00,2019-09-04T06:55:00,2021-08-18T19:02:42,-7,"gap fill with logger dataOverride: Copy & Paste‌Source Data Set: Stage.Logger@10JA002, time shift: 00:00 minutes.‌",,PreProcessing
+10JA002,Drift,HG,2019-08-27T17:15:00,2020-10-01T16:30:00,2021-06-16T15:23:31,-7,SRC DWL - DWL,"DriftPoints:(Offset:0,Time:2019-08-27T17:15:00Z);(Offset:-0.008,Time:2020-10-01T16:30:00Z)",Normal
+10JA002,FillGaps,QR,2019-07-21T03:50:00,2019-07-21T06:55:00,2021-08-25T17:39:45,-7,Linear Gap Fill,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+10JA002,CopyPaste,HG,2019-07-21T03:50:00,2019-07-21T06:55:00,2021-06-16T22:32:31,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10JA002, time shift: 00:00 minutes.‌",,Normal
+10JA002,CopyPaste,QR,2019-06-01T00:50:00,2019-06-01T04:15:00,2021-06-02T16:03:21,-7,Override: Linear‌Q(t) = (4.359476316793229)t + 132.32455890326432‌,,Normal
+10JA002,Drift,QR,2019-05-27T19:55:00,2019-06-01T21:25:00,2021-06-02T16:02:39,-7,,"DriftPoints:(Offset:-3.7827029442253206,Time:2019-05-27T19:55:00Z);(Offset:-1.8055582905241465,Time:2019-06-01T21:25:00Z)",Normal
+10JA002,CopyPaste,QR,2019-05-27T18:05:00,2019-05-27T19:55:00,2021-06-02T16:03:56,-7,Override: Linear‌Q(t) = (5.287503272572187)t + 126.21662848882858‌,,Normal
+10JA002,Drift,QR,2019-05-18T10:05:00,2019-05-27T18:05:00,2021-06-02T15:58:34,-7,,"DriftPoints:(Offset:0,Time:2019-05-18T10:05:00Z);(Offset:-5.927614372489813,Time:2019-05-21T16:55:00Z);(Offset:-5.839594858503091,Time:2019-05-27T18:05:00Z)",Normal
+10JA002,FillGaps,QR,2019-05-02T09:50:00,2019-05-02T12:55:00,2021-08-25T17:40:49,-7,Linear Gap Fill,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+10JA002,FillGaps,QR,2019-04-30T09:50:00,2019-04-30T12:55:00,2021-08-25T17:41:26,-7,Linear Gap Fill,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+10JA002,FillGaps,QR,2019-04-28T06:50:00,2019-04-28T09:50:00,2021-08-25T17:38:37,-7,Linear Gap Fill,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+10JA002,FillGaps,QR,2019-04-27T06:50:00,2019-04-27T09:40:00,2021-08-25T17:33:35,-7,Linear Gap Fill,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+10JA002,Drift,HG,2019-04-17T17:20:00,2019-08-27T17:10:00,2021-06-15T21:57:55,-7,SRC DWL,"DriftPoints:(Offset:0,Time:2019-04-17T17:20:00Z);(Offset:0.004,Time:2019-08-27T17:10:00Z)",Normal

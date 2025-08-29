@@ -1,0 +1,9 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05LG004,22.000,"Noew curve for LOG-LOG using primarily 2016 & 2015 mmts, and peak historical.  Upper banks estimated at 359 m. CJK",LogarithmicTable,Provisional/Provisoire,(356.07);
+05LG004,21.000,same as #20 till 357.523 blends into #17 at 358.2m,LinearTable,Final/Finales,
+05LG004,20.010,Same as curve #20 above 356.600m.,LinearTable,Final/Finales,
+05LG004,20.000,Curve 19 nevised based on 2004 mmts,LinearTable,Final/Finales,
+05LG004,19.000,Lower end of curve # 18 revised to produce #19,LinearTable,Final/Finales,
+05LG004,18.000,,LinearTable,Final/Finales,
+05LG004,18.000-SC1,,LinearTable,Final/Finales,
+05LG004,17.000,period of use revised from stn analysis,LinearTable,Final/Finales,

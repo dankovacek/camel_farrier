@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08FF003_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08FF003", "NameNom": "LITTLE WEDEENE RIVER BELOW BOWBYES CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -128.68983, 54.13523 ] } }
+]
+}

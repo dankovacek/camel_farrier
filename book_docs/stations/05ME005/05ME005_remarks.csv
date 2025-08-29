@@ -1,0 +1,7 @@
+STATION_NUMBER,REMARK_TYPE_CODE,YEAR,REMARK_EN,REMARK_FR
+05ME005,2,2012,"Several occurrences of a sudden drop in stage followed by a sharp rise and recovery occurred on March 20, 21 and 26.  The exact cause of these occurrences is unknown but is believed to be possible impoundment and releasing of debris in the u/s channel.","De nombreuses occurrences d?une soudaine baisse de niveau suivie d?une augmentation et d?un retablissement marques ont eu lieu les 20, 21 et 26 mars. La cause exacte de ces occurrences est inconnue, mais on croit qu?il pourrait s?agir d?une retenue et d?un relachement de debris dans le canal americain."
+05ME005,2,2020,"Due to measures in place to limit the spread of COVID-19, regular visits to this station were reduced throughout the year. This may have affected data quality in both Stage and Discharge. ",
+05ME005,2,2021,"Data from May 06 to June 10 should be used with caution ? equipment problems, beaver activity , possible human interference.",
+05ME005,2,2023,MINIMUM PEAK AND EXTREME NOT VALID- OCCURRED OUTSIDE THE STANDARD PERIOD OF RECORD?,
+05ME005,4,-999,MINIMUM PEAK AND EXTREME NOT VALID- OCCURRED OUTSIDE THE STANDARD PERIOD OF RECORD?,
+05ME005,5,-999,MINIMUM PEAK AND EXTREME NOT VALID- OCCURRED OUTSIDE THE STANDARD PERIOD OF RECORD?,

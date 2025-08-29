@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07AG007_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07AG007", "NameNom": "MCLEOD RIVER NEAR ROSEVEAR", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -116.16148, 53.69649 ] } }
+]
+}

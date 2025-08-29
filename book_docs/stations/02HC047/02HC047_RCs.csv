@@ -1,0 +1,14 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02HC047,16,Minor low end refinement with new mmnts but also high end consideration of historic high mnnt matching trend of mid-high mmnts better. Maintained estimate grading at high end for modeling continuity.,LogarithmicTable,Provisional/Provisoire,(7.975);
+02HC047,15.01,Clone of #15 with Estimate grade for high water extension.,LogarithmicTable,Final/Finales,(7.973);
+02HC047,15,Minor low end refinement with new mmnts but also high end consideration of historic high mnnt matching trend of mid-high mmnts better.,LogarithmicTable,Final/Finales,(7.973);
+02HC047,14,new HWS curve,LogarithmicTable,Final/Finales,(7.96);
+02HC047,13.000,Used table # 11.01 to create table # 13,LinearTable,Final/Finales,
+02HC047,12.000,,LinearTable,Final/Finales,
+02HC047,12.000-SC2,,LinearTable,Final/Finales,
+02HC047,11.010-SC1,,LinearTable,Final/Finales,
+02HC047,11.000,,LinearTable,Final/Finales,
+02HC047,10.000,,LinearTable,Final/Finales,
+02HC047,9.000,,LinearTable,Final/Finales,
+02HC047,8.000,,LinearTable,Final/Finales,
+02HC047,7.000,,LinearTable,Final/Finales,

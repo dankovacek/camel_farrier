@@ -1,0 +1,16 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08NA002,30.01,clone of curve 30 with added estimated grades,LogarithmicTable,Provisional/Provisoire,(-0.19);
+08NA002,30.0,,LogarithmicTable,Final/Finales,(-0.19);
+08NA002,29.0,slight shift to left on top end - gradual over time,LogarithmicTable,Final/Finales,(-0.248);
+08NA002,28.0,,LogarithmicTable,Final/Finales,(-0.248);
+08NA002,27.0,,LogarithmicTable,Final/Finales,(1.4455:-0.38);(-0.37);
+08NA002,26.0,,LogarithmicTable,Final/Finales,(1.084:-0.52);(-0.46);
+08NA002,25.0,C#25 is coincident with C#24 at GH=2.600m,LinearTable,Final/Finales,
+08NA002,24.0,C#24 is coincident with C#23 at GH=4.400m,LinearTable,Final/Finales,
+08NA002,23.0,,LinearTable,Final/Finales,
+08NA002,22.0,,LinearTable,Final/Finales,
+08NA002,21.0,,LinearTable,Final/Finales,
+08NA002,20.0,,LinearTable,Final/Finales,
+08NA002,19.0,,LinearTable,Final/Finales,
+08NA002,18.0,,LinearTable,Final/Finales,
+08NA002,17.0,,LinearTable,Final/Finales,

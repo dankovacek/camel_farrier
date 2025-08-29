@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07FB003_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07FB003", "NameNom": "SUKUNKA RIVER NEAR THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -121.62664, 55.54217 ] } }
+]
+}

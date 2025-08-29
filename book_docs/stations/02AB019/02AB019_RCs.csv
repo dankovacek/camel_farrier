@@ -1,0 +1,13 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02AB019,11.00,Curve drawn to DWL / high mmt adjusted lower end slightly,LogarithmicTable,Provisional/Provisoire,(5.59:4.9109);(4.93);
+02AB019,10.000,Curev drawn to DWL,LogarithmicTable,Final/Finales,(4.9103);
+02AB019,9.000,,LinearTable,Final/Finales,
+02AB019,8.000,,LinearTable,Final/Finales,
+02AB019,7.000,,LinearTable,Final/Finales,
+02AB019,7.000-SC5,,LinearTable,Final/Finales,
+02AB019,7.000-SC4,,LinearTable,Final/Finales,
+02AB019,7.000-SC3,,LinearTable,Final/Finales,
+02AB019,7.000-SC2,,LinearTable,Final/Finales,
+02AB019,6.000,,LinearTable,Final/Finales,
+02AB019,5.000,,LinearTable,Final/Finales,
+02AB019,4.000,,LinearTable,Final/Finales,

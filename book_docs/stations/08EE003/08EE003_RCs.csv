@@ -1,0 +1,22 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08EE003,31.03,"Curve clone applied for 2023; Low E"" grade revised based on 2023 discharge measurement obtained 2023-09-19.""",LogarithmicTable,Provisional/Provisoire,(0.225);
+08EE003,31.02,"Curve clone applied for 2022; grades revised based on 2021 and 2022 data. Freshet 2018 altered control, new curve shifts to left of previous curve 30.000.",LogarithmicTable,Final/Finales,(0.225);
+08EE003,31.01,"Extended in anticipation of low flows in 2021.Freshet 2018 altered control, new curve shifts to left of previous curve 30.000.",LogarithmicTable,Final/Finales,(0.225);
+08EE003,31.0,"Freshet 2018 altered control, new curve shifts to left of previous curve 30.000.",LogarithmicTable,Final/Finales,(0.225);
+08EE003,30.0,Start new curve under ice conditions,LogarithmicTable,Final/Finales,(0.076);
+08EE003,29.0,Shift during ice,LogarithmicTable,Final/Finales,(0.142);
+08EE003,28.0,,LogarithmicTable,Final/Finales,(2.356:0.169);(0.18);
+08EE003,27.0,,LogarithmicTable,Provisional/Provisoire,(-0.005);
+08EE003,26.0,,LogarithmicTable,Final/Finales,(0.012);
+08EE003,25.0,"Approved: Shift, Relocated 100m D/S",LinearTable,Final/Finales,
+08EE003,24.0,APPROVED Shift during ice period,LinearTable,Final/Finales,
+08EE003,23.0,APPROVED,LinearTable,Final/Finales,
+08EE003,22.0,APPROVED Control change following High Water event,LinearTable,Final/Finales,
+08EE003,21.0,APPROVED START OF CURVE BASED ON BUCK CR MAX INST.,LinearTable,Final/Finales,
+08EE003,20.0,,LinearTable,Final/Finales,
+08EE003,18.01,,LinearTable,Final/Finales,
+08EE003,19.0,,LinearTable,Final/Finales,
+08EE003,18.0,,LinearTable,Final/Finales,
+08EE003,17.0,,LinearTable,Final/Finales,
+08EE003,16.0,,LinearTable,Final/Finales,
+08EE003,15.0,,LinearTable,Final/Finales,

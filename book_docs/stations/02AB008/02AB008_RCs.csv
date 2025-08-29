@@ -1,0 +1,13 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02AB008,25.00,REVISED CURVE WITH ALL NEW PARAMETERS,LogarithmicTable,Provisional/Provisoire,(184.193);
+02AB008,24.000,New curve with slight changes to upper end - rating point,LogarithmicTable,Final/Finales,(187.1006:184.221);(184.43);
+02AB008,23.000,,LogarithmicTable,Final/Finales,(186.716:184.221);(184.43);
+02AB008,22.000,,LinearTable,Final/Finales,
+02AB008,21.000,,LinearTable,Final/Finales,
+02AB008,20.000,,LinearTable,Final/Finales,
+02AB008,19.000,Same as Curve 17 above 184.8,LinearTable,Final/Finales,
+02AB008,18.000,,LinearTable,Final/Finales,
+02AB008,18.000-SC4,,LinearTable,Final/Finales,
+02AB008,18.000-SC3,,LinearTable,Final/Finales,
+02AB008,17.000,,LinearTable,Final/Finales,
+02AB008,18.000-SC2,,LinearTable,Final/Finales,

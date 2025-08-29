@@ -1,0 +1,17 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02EA010,18.000,,LogarithmicTable,Provisional/Provisoire,(1.7074:1.23);(3.6799:1.23);(1.7);
+02EA010,17.000,,LogarithmicTable,Final/Finales,(1.64:1.198);(1.2);
+02EA010,16.000,,LinearTable,Final/Finales,
+02EA010,15.000-SC5,,LinearTable,Final/Finales,
+02EA010,15.000,,LinearTable,Final/Finales,
+02EA010,14.000,,LinearTable,Final/Finales,
+02EA010,13.000-SC4,,LinearTable,Final/Finales,
+02EA010,13.000-SC3,,LinearTable,Final/Finales,
+02EA010,13.000,,LinearTable,Final/Finales,
+02EA010,12.000,,LinearTable,Final/Finales,
+02EA010,12.000-SC2,,LinearTable,Final/Finales,
+02EA010,12.000-SC1,,LinearTable,Final/Finales,
+02EA010,11.000,,LinearTable,Final/Finales,
+02EA010,10.000,,LinearTable,Final/Finales,
+02EA010,9.000,,LinearTable,Final/Finales,
+02EA010,8.000,,LinearTable,Final/Finales,

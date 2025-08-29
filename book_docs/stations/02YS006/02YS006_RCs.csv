@@ -1,0 +1,18 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02YS006,15.0,New curve 15.00 developed for 2022 water year to align low/medium water measurements. a large (-) bias was developing and curve 15.00 addresses this and aligns 2022 open water measurements.,LogarithmicTable,Provisional/Provisoire,(1.34:0);(0.305);
+02YS006,14.01,"New curve 14.01 developed for 2021, this curve is a clone of Rating 14.00, but is a low water extension to cover the range of 2021 Water Level data.",LogarithmicTable,Final/Finales,(1.34:0);(0.305);
+02YS006,14.0,New curve 14.00 developed for 2020 using measurements from 2018 - 2020 with historical high water measurements from 2014 - 2020.,LogarithmicTable,Final/Finales,(1.34:0);(0.305);
+02YS006,13.0,"CURVE # 13.00 A REFINEMENT OF CURVE # 12.01, BASED ON 2018 MEASUREMENT RESULTS. IT IS A SLIGHT REFINEMENT AFFECTING ALL STAGES",LogarithmicTable,Final/Finales,(1.34:0);(0.305);
+02YS006,12.01,"Curve 12.01 is a low water extension of Curve #12.00, required to cover range of 2017 data",LogarithmicTable,Final/Finales,(1.34:0);(0.305);
+02YS006,12.0,Curve #12 is a refinement of curve# 11based on 2014 MM's,LogarithmicTable,Final/Finales,(1.34:0);(0.305);
+02YS006,11.0,Curve #11 is a refinement of curve# 10 above 0.520 gauge height and below 1.350.,LogarithmicTable,Final/Finales,(0.02);
+02YS006,10.0,"Curve # 10 developed using RDT, slight refinement of Curve#9",LogarithmicTable,Final/Finales,(0.02);
+02YS006,9.0,No curve change for 2011,LinearTable,Final/Finales,
+02YS006,8.0,refinement of Curve #7; .500-1.300,LinearTable,Final/Finales,
+02YS006,7.0,,LinearTable,Final/Finales,
+02YS006,6.0,refinement of #5   based on may 01 mm,LinearTable,Final/Finales,
+02YS006,5.0,,LinearTable,Final/Finales,
+02YS006,4.0,,LinearTable,Final/Finales,
+02YS006,3.0,,LinearTable,Final/Finales,
+02YS006,2.0,,LinearTable,Final/Finales,
+02YS006,1.0,,LinearTable,Final/Finales,

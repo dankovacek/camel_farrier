@@ -1,0 +1,8 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02MC028,7.00,Re-drew bottom end to account for 2016 record lows.,LogarithmicTable,Provisional/Provisoire,(1.48193:1.372);(1.63854:1.403);(1.572);
+02MC028,6.000,Re-defining low end based on recent MMT's (2006 -> 2012),LogarithmicTable,Final/Finales,(1.63854:1.403);(1.572);
+02MC028,5.000,Curve4 Mod btwn 1.520 & 1.700 to accom 2009 mmnts,LinearTable,Final/Finales,
+02MC028,4.000,Extended 2.15 to 2.22m for 2008 data,LinearTable,Final/Finales,
+02MC028,3.000,"Site reactivated, revised below 1.59m & for slopes",LinearTable,Final/Finales,
+02MC028,3.000-SC1,,LinearTable,Final/Finales,
+02MC028,2.000,Station discontinued.,LinearTable,Final/Finales,

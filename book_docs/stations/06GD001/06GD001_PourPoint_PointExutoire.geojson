@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "06GD001_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "06GD001", "NameNom": "SEAL RIVER BELOW GREAT ISLAND", "Status": "active", "Etat": "en service", "ProvTerr": "MB" }, "geometry": { "type": "Point", "coordinates": [ -96.27524, 58.89021 ] } }
+]
+}

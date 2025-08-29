@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05DE009_Station",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "05DE009", "NameNom": "TOMAHAWK CREEK NEAR TOMAHAWK", "Status": "active", "Etat": "en service", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -114.7631, 53.40585 ] } }
+]
+}

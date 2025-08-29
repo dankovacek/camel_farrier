@@ -1,0 +1,11 @@
+STATION_NUMBER,REMARK_TYPE_CODE,YEAR,REMARK_EN,REMARK_FR
+07FB004,2,2002,MAX. INST. WATER LEVEL OCCURRED UNDER ICE EFFECT,NIVEAU D'EAU MAX. INST. INFLUENCE PAR LA GLACE
+07FB004,2,2015,Datum stability is less than that defined by typical WSC standards for the period 2015 - 2018.,
+07FB004,2,2016,Datum stability is less than that defined by typical WSC standards for the period 2015 - 2018.,
+07FB004,2,2017,Datum stability is less than that defined by typical WSC standards for the period 2015 - 2018.,
+07FB004,2,2018,Datum stability is less than that defined by typical WSC standards for the period 2015 - 2018.,
+07FB004,2,2019,Datum stability is less than that defined by typical WSC standards for the period 2015 - 2019.,
+07FB004,2,2024,"WATER LEVEL NOT AVAILABLE 2024-01-22 TO 2024-03-05.
+MAXIMUM INSTANTANEOUS AND DAILY WATER LEVEL NOT VALID -  EQUIPMENT MALFUNCTION.
+MINIMUM INSTANTANEOUS DISCHARGE IS VALID DESPITE ICE CONDITIONS BECAUSE IT REACHED ZERO FLOW.",
+07FB004,4,-999,MINIMUM INSTANTANEOUS DISCHARGE NOT VALID - ICE CONDITIONS,

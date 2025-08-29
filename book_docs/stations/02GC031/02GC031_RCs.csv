@@ -1,0 +1,18 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02GC031,19.00,"Low end of the rating was changed due to numerous scour measurements detected over the past 18 months. Effective April 19, 2019.",LogarithmicTable,Provisional/Provisoire,(1.85252:1.275);(1.399);
+02GC031,18.00,"Low end rating was changed due to beaver building with rocks which was removed altering the low end. this is combined with the event on May 5, 2017.",LogarithmicTable,Final/Finales,(1.85252:1.268);(1.399);
+02GC031,17.00,Low end revision through mmnts and minor high end adjustment  through historic mmnts.,LogarithmicTable,Final/Finales,(1.7894:1.361);(1.399);
+02GC031,16.00,New HWS Curve,LogarithmicTable,Final/Finales,(1.88336:1.362);(1.4);
+02GC031,15.000,,LinearTable,Final/Finales,
+02GC031,14.000,curve 13 revised abv 1.90 mtrs,LinearTable,Final/Finales,
+02GC031,13.000,curve chg due to spring ice,LinearTable,Final/Finales,
+02GC031,12.000,"remedial work to control, sheet pile gone,rock in",LinearTable,Final/Finales,
+02GC031,11.000,,LinearTable,Final/Finales,
+02GC031,11.000-SC1,,LinearTable,Final/Finales,
+02GC031,10.000,,LinearTable,Final/Finales,
+02GC031,9.000,Same as Curve 8.00 above Gauge Height  1.390 m,LinearTable,Final/Finales,
+02GC031,8.000,,LinearTable,Final/Finales,
+02GC031,7.000,,LinearTable,Final/Finales,
+02GC031,6.000,,LinearTable,Final/Finales,
+02GC031,5.000,,LinearTable,Final/Finales,
+02GC031,4.000,,LinearTable,Final/Finales,

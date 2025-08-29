@@ -1,0 +1,9 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05GA008,5.001,Low end extension to rating 5.000 to autopopulate zero flow below rating,LogarithmicTable,Provisional/Provisoire,(0.735:0.462);(0.518);
+05GA008,5.000,,LogarithmicTable,Final/Finales,(0.735:0.462);(0.518);
+05GA008,4.000,,LinearTable,Final/Finales,
+05GA008,4.000-SC4,,LinearTable,Final/Finales,
+05GA008,4.000-SC3,,LinearTable,Final/Finales,
+05GA008,4.000-SC2,,LinearTable,Final/Finales,
+05GA008,4.000-SC1,,LinearTable,Final/Finales,
+05GA008,3.000,,LinearTable,Final/Finales,

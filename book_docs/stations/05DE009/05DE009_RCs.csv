@@ -1,0 +1,6 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05DE009,7.000,Control has changed since compumod curve 6.000 was developped.,LogarithmicTable,Provisional/Provisoire,(1.88:0.94);(0.8);
+05DE009,6.000,Some tweeks on low end and extended above 3.200m,LinearTable,Final/Finales,
+05DE009,5.000,,LinearTable,Final/Finales,
+05DE009,5.000-SC1,,LinearTable,Final/Finales,
+05DE009,4.000,Extended curve on 2001-11-06 using log plot.,LinearTable,Final/Finales,

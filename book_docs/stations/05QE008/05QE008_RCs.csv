@@ -1,0 +1,9 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05QE008,14.01,Extension to the high end for 2022 spring - KSA,LogarithmicTable,Provisional/Provisoire,(27.62);
+05QE008,14.0,"Appended on to high end of the curve, to be able to shift the high end to this year's high water measurement.",LogarithmicTable,Final/Finales,(27.62);
+05QE008,13.0,,LogarithmicTable,Final/Finales,(27.62);
+05QE008,12.0,,LinearTable,Final/Finales,
+05QE008,11.0,,LinearTable,Final/Finales,
+05QE008,11.0,,LinearTable,Final/Finales,
+05QE008,11.0,,LinearTable,Final/Finales,
+05QE008,10.0,,LinearTable,Final/Finales,

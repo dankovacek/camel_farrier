@@ -1,0 +1,6 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05RB003,8.01,extension for high water 2022,LogarithmicTable,Provisional/Provisoire,(30.42:28);(28.5);
+05RB003,8.0,2016 TO REPLACE LINEAR CURVE Approved KSP,LogarithmicTable,Final/Finales,(30.42:28);(28.5);
+05RB003,7.0,2013 S/D Relationship,LinearTable,Final/Finales,
+05RB003,6.0,Changes to high end above 31.2m,LinearTable,Final/Finales,
+05RB003,5.0,,LinearTable,Final/Finales,

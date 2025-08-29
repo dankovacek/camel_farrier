@@ -1,0 +1,18 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02HJ001,23,Curve above 2.115 m was drawn to mirror the former curve 22. The stage discharge relationship is affected by the cobble-boulder channel bottom and extremely shallow water column at the low end.,LogarithmicTable,Provisional/Provisoire,(2.1224:1.426);(1.42);
+02HJ001,22,Control changes at low end. Brokeback curve removed.,LogarithmicTable,Final/Finales,(2.1797:1.41);(1.42);
+02HJ001,21,minor changes to low and high end of curve,LogarithmicTable,Final/Finales,(2.1797:1.399);(1.42);
+02HJ001,20,HWS curve,LogarithmicTable,Final/Finales,(1.434);
+02HJ001,18.010,,LinearTable,Final/Finales,
+02HJ001,18.010-SC5,,LinearTable,Final/Finales,
+02HJ001,18.010-SC4,,LinearTable,Final/Finales,
+02HJ001,19.000,Top of culvert 3.230m. Indirect Q determination.,LinearTable,Final/Finales,
+02HJ001,18.000,Top of culvert 3.230m. Indirect Q determination.,LinearTable,Final/Finales,
+02HJ001,17.000,,LinearTable,Final/Finales,
+02HJ001,17.000-SC3,,LinearTable,Final/Finales,
+02HJ001,17.000-SC2,,LinearTable,Final/Finales,
+02HJ001,17.000-SC1,,LinearTable,Final/Finales,
+02HJ001,16.000,,LinearTable,Final/Finales,
+02HJ001,15.000,,LinearTable,Final/Finales,
+02HJ001,14.000,,LinearTable,Final/Finales,
+02HJ001,13.000,,LinearTable,Final/Finales,

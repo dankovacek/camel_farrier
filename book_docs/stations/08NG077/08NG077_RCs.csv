@@ -1,0 +1,22 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08NG077,34.01,Adjust low end of curve confidence,LogarithmicTable,Provisional/Provisoire,(1.088);
+08NG077,34.0,,LogarithmicTable,Final/Finales,(1.088);
+08NG077,33.02,"Cloned 33.01, made to extend low and high end of the curve, and change curve confidence limits",LogarithmicTable,Final/Finales,(1.13);
+08NG077,33.01,Ad justing Curve Confidence,LogarithmicTable,Final/Finales,(1.13);
+08NG077,33.0,,LogarithmicTable,Final/Finales,(1.13);
+08NG077,32.0,"Redefine model, shift during ice",LogarithmicTable,Final/Finales,(1.148);
+08NG077,31.0,"Same as curve #30 below 2.5 m GH, Top determined using estimates of slope area method",LogarithmicTable,Final/Finales,(0.835);
+08NG077,30.0,,LogarithmicTable,Final/Finales,(0.82);
+08NG077,29.1,Co-incid with #18 @ 1.1m @ Ice movement,LinearTable,Final/Finales,
+08NG077,29.0,Co-incid with #18 @ 1.1m @ Ice movement,LinearTable,Final/Finales,
+08NG077,28.0,Co-incident with  #27 @>1.5m +9% right shift,LinearTable,Final/Finales,
+08NG077,27.0,"co-incidient with #26  @ > 1.1, iceout",LinearTable,Final/Finales,
+08NG077,26.0,,LinearTable,Final/Finales,
+08NG077,25.0,,LinearTable,Final/Finales,
+08NG077,24.0,,LinearTable,Final/Finales,
+08NG077,23.0,,LinearTable,Final/Finales,
+08NG077,22.0,,LinearTable,Final/Finales,
+08NG077,21.0,,LinearTable,Final/Finales,
+08NG077,20.0,,LinearTable,Final/Finales,
+08NG077,19.0,,LinearTable,Final/Finales,
+08NG077,18.0,,LinearTable,Final/Finales,

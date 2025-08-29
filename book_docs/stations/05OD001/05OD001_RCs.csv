@@ -1,0 +1,17 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05OD001,25.000,New curve for Aquaruis - Log-Log based on 2014/2015 for mid to high end and 2011+ mmts for low end. - CJK,LogarithmicTable,Provisional/Provisoire,(240.0221);
+05OD001,24.000,Same as Curve #20,LinearTable,Final/Finales,
+05OD001,23.000,Same as curve #22 above 241.100.,LinearTable,Final/Finales,
+05OD001,22.000,Same as curve #21 above 240.250,LinearTable,Final/Finales,
+05OD001,22.000-SC3,,LinearTable,Final/Finales,
+05OD001,21.000,,LinearTable,Final/Finales,
+05OD001,20.000,,LinearTable,Final/Finales,
+05OD001,20.000-SC2,,LinearTable,Final/Finales,
+05OD001,19.000,,LinearTable,Final/Finales,
+05OD001,19.000-SC1,,LinearTable,Final/Finales,
+05OD001,18.000,,LinearTable,Final/Finales,
+05OD001,17.000,,LinearTable,Final/Finales,
+05OD001,16.000,,LinearTable,Final/Finales,
+05OD001,15.000,,LinearTable,Final/Finales,
+05OD001,14.000,,LinearTable,Final/Finales,
+05OD001,13.000,,LinearTable,Final/Finales,

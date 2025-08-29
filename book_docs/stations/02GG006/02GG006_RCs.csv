@@ -1,0 +1,13 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02GG006,20.00,Redefinition of complete rating with emphasis on the high end,LogarithmicTable,Provisional/Provisoire,(4.49876:3.804);(5.97468:3.8);(3.8);
+02GG006,19.0,New HWS Curve,LogarithmicTable,Final/Finales,(4.30332:3.826);(3.88);
+02GG006,18.000,Same HQ17 above 5.5m; Same HQ16 low;Ext high 2009,LinearTable,Final/Finales,
+02GG006,18.000-SC3,,LinearTable,Final/Finales,
+02GG006,17.000,"Same As Curve 16 above GH 7.00 m, Ext low levelled",LinearTable,Final/Finales,
+02GG006,16.000-SC2,,LinearTable,Final/Finales,
+02GG006,16.000-SC1,,LinearTable,Final/Finales,
+02GG006,16.000,"Same as curve 15 above 3.90, leveled extreme low",LinearTable,Final/Finales,
+02GG006,15.000,,LinearTable,Final/Finales,
+02GG006,14.000,,LinearTable,Final/Finales,
+02GG006,13.000,,LinearTable,Final/Finales,
+02GG006,12.000,,LinearTable,Final/Finales,

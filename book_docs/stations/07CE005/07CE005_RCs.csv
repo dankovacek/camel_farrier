@@ -1,0 +1,4 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07CE005,3.0,"Curve based on 2017-2022 measurements. Low end extended to near 0 flow, high end accomodates high water in 2020.",LogarithmicTable,Provisional/Provisoire,(98.154);
+07CE005,2.0,Curve #2. Additional measurements considered since curve #1. Extension on high end to incorporate high water in June 2020.,LogarithmicTable,Final/Finales,(97.96);
+07CE005,1.0,This is the best available data to us today.  Once we have more information we will be updating this curve.,LogarithmicTable,Final/Finales,(98);

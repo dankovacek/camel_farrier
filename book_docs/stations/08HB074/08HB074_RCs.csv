@@ -1,0 +1,23 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08HB074,39.02,Clone of curve 39.00 with updated grading after record mmt Nov 2021 and record low Oct2022,LogarithmicTable,Provisional/Provisoire,(3.74);
+08HB074,39.01,Clone of curve 39.00 with updated grading after record mmt Nov 2021,LogarithmicTable,Final/Finales,(3.74);
+08HB074,39.00,"Curve drawn to all mmts since 2018 including upper end mmts from 2014 & 2016, to account for continued scour of control at gauging location.",LogarithmicTable,Final/Finales,(3.74);
+08HB074,38.01,Curve 38.00 with adjusted estimate grades.,LogarithmicTable,Final/Finales,(3.735);
+08HB074,38.000,"2nd Curve at New Location.  Additional rating points added to top end to bring upper end of curve more in-line with historic values.  Without these rating points, peak events estimates vary from historical values by 200+%",LogarithmicTable,Final/Finales,(3.735);
+08HB074,37.000,1st curve at new location.  Clone of approved curve 1.0 from 08HBX74,LogarithmicTable,Final/Finales,(3.688);
+08HB074,36.000,Approved; Qs > 253 cms (GH 4.250) are estimates,LinearTable,Final/Finales,
+08HB074,35.000,Coinc W #34>=1.1m,LinearTable,Final/Finales,
+08HB074,35.000-SC2,,LinearTable,Final/Finales,
+08HB074,35.000-SC1,,LinearTable,Final/Finales,
+08HB074,34.000,,LinearTable,Final/Finales,
+08HB074,33.000,,LinearTable,Final/Finales,
+08HB074,32.000,,LinearTable,Final/Finales,
+08HB074,31.000,,LinearTable,Final/Finales,
+08HB074,30.000,,LinearTable,Final/Finales,
+08HB074,29.000,,LinearTable,Final/Finales,
+08HB074,28.000,,LinearTable,Final/Finales,
+08HB074,27.000,,LinearTable,Final/Finales,
+08HB074,26.000,,LinearTable,Final/Finales,
+08HB074,25.000,,LinearTable,Final/Finales,
+08HB074,24.000,,LinearTable,Final/Finales,
+08HB074,23.000,,LinearTable,Final/Finales,

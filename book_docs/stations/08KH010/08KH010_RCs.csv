@@ -1,0 +1,22 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08KH010,44.0,Curve 44.00 was created for this review period because four out of five open water discharge measurements plotted > 5% off of previous curve 43.00. Open water measurements collected in 2022 and 2023 were used to create this curve. Additional measurements are required to validate mid-range of this curve.,LogarithmicTable,Provisional/Provisoire,(-0.02);
+08KH010,43.0,Curve created using 2020 open water measurements and low measurement from 2021,LogarithmicTable,Final/Finales,(-0.177);
+08KH010,42.0,,LogarithmicTable,Final/Finales,(-0.088);
+08KH010,41.0,,LogarithmicTable,Final/Finales,(-0.1065);
+08KH010,40.0,,LogarithmicTable,Final/Finales,(-0.125);
+08KH010,39.0,coincidental with table 38.0 at .3m and above,LinearTable,Final/Finales,
+08KH010,38.0,Coincident with Table 36.0 at and above 0.100m.,LinearTable,Final/Finales,
+08KH010,37.0,coincident with table #36. at & above 1.40 meters.,LinearTable,Final/Finales,
+08KH010,36.0,coincident to table #35 0.300m and above,LinearTable,Final/Finales,
+08KH010,35.0,coincident to table #34 1.300m and above,LinearTable,Final/Finales,
+08KH010,34.0,,LinearTable,Final/Finales,
+08KH010,33.0,,LinearTable,Final/Finales,
+08KH010,32.0,,LinearTable,Final/Finales,
+08KH010,31.0,,LinearTable,Final/Finales,
+08KH010,30.0,,LinearTable,Final/Finales,
+08KH010,29.0,,LinearTable,Final/Finales,
+08KH010,28.0,,LinearTable,Final/Finales,
+08KH010,27.0,,LinearTable,Final/Finales,
+08KH010,26.0,,LinearTable,Final/Finales,
+08KH010,25.0,,LinearTable,Final/Finales,
+08KH010,24.0,,LinearTable,Final/Finales,

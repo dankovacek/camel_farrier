@@ -1,0 +1,15 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02EC021,7.02,Low end estimated grading was removed as lower end was redefined due to change of control section. 7.001 was a high end extension.,LogarithmicTable,Provisional/Provisoire,(2.56);
+02EC021,7.001,Redefinition of curve due to change of control section. 7.01 is a high end extension.,LogarithmicTable,Final/Finales,(2.56);
+02EC021,7,Redefinition of curve due to change of control section.,LogarithmicTable,Final/Finales,(2.56);
+02EC021,6,Redefinition of curve,LogarithmicTable,Final/Finales,(2.62);
+02EC021,5,,LogarithmicTable,Final/Finales,(2.5);
+02EC021,4,,LogarithmicTable,Final/Finales,(2.5);
+02EC021,3.000-SC5,,LinearTable,Final/Finales,
+02EC021,3.000-SC4,,LinearTable,Final/Finales,
+02EC021,3.000-SC3,,LinearTable,Final/Finales,
+02EC021,3.000-SC2,,LinearTable,Final/Finales,
+02EC021,3.000,,LinearTable,Final/Finales,
+02EC021,3.000-SC1,,LinearTable,Final/Finales,
+02EC021,2.000,Extended from GH 4.00 m to 4.20 m in 2008,LinearTable,Final/Finales,
+02EC021,1.000,,LinearTable,Final/Finales,

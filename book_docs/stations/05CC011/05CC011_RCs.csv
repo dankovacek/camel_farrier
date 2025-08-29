@@ -1,0 +1,7 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05CC011,6.02,High end extension of Curve 6.01.  Same as curve 6.01 below 2.794m.,LogarithmicTable,Provisional/Provisoire,(1.1475:0.82);(0.83);
+05CC011,6.01,Low end extension of Curve 6.00.  Same as curve 6.00 above 0.856m,LogarithmicTable,Final/Finales,(1.1475:0.82);(0.83);
+05CC011,6.0,Lower segment: Natural channel lined with rip-rap; Upper segment::Natural channel control,LogarithmicTable,Final/Finales,(1.1475:0.82);(0.83);
+05CC011,5.0,,LinearTable,Final/Finales,
+05CC011,4.0,,LinearTable,Final/Finales,
+05CC011,3.0,,LinearTable,Final/Finales,

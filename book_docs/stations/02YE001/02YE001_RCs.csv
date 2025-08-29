@@ -1,0 +1,12 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02YE001,11.0,New Curve # 11.00 created based on 2019 measurements.  This is a low and medium change based on 2019 measurements at GH of 0.875 and below,LogarithmicTable,Provisional/Provisoire,(0.33);
+02YE001,10.0,Curve #10.00 developed  by cloning curve #9.00. with a low water refinement below gauge hight 0.800 using only 2015 mm below gauge hight 0.760.,LogarithmicTable,Final/Finales,(0.33);
+02YE001,10.0,Curve #10.000 developed  by cloning curve #9.00. with a low water refinement below gauge hight 0.800 using only 2015 mm below gauge hight 0.760.,LogarithmicTable,Final/Finales,(0.33);
+02YE001,9.0,Curve # 9 developed using HWS Rating Tool development. There is a slight refinement from Curve #8 as only the MM's from 2000 and above were used. Extended to cover range for 2013,LogarithmicTable,Final/Finales,(0.33);
+02YE001,8.0,,LinearTable,Final/Finales,
+02YE001,7.0,,LinearTable,Final/Finales,
+02YE001,6.0,,LinearTable,Final/Finales,
+02YE001,5.0,,LinearTable,Final/Finales,
+02YE001,4.0,,LinearTable,Final/Finales,
+02YE001,3.0,,LinearTable,Final/Finales,
+02YE001,2.0,,LinearTable,Final/Finales,

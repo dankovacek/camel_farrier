@@ -1,0 +1,11 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+01BO001,23.01,Clone of Rating 23.00 due to required curve extension at low end. Curve 23.00  was created due to shift from Arithmetic to LOG-LOG using discharge measurements from 2007-2017,LogarithmicTable,Provisional/Provisoire,(0.04);
+01BO001,23.0,New curve 23.00 based on shift from Arithmetic to LOG-LOG using discharge measurements from 2007-2017,LogarithmicTable,Final/Finales,(0.04);
+01BO001,22.0,low end change using conventional MM (2004),LinearTable,Final/Finales,
+01BO001,21.0,EXTREME LOW END REFINEMENT,LinearTable,Final/Finales,
+01BO001,20.0,ENTIRE CURVE REFINEMENT,LinearTable,Final/Finales,
+01BO001,19.0,,LinearTable,Final/Finales,
+01BO001,18.0,,LinearTable,Final/Finales,
+01BO001,17.0,,LinearTable,Final/Finales,
+01BO001,16.0,,LinearTable,Final/Finales,
+01BO001,15.0,,LinearTable,Final/Finales,

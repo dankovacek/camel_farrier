@@ -1,0 +1,16 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08AA008,17.01,"Curve 17.0 not extended low enough for shifting of winter discharge. Extended to 0.001cms. NO ESTIMATED grade applied at lower end. Rationale: Low flow occurs only in the winter. Winter measurements are consistently obtained and they are shifted to or recession analysis is applied and are thereby graded as ICE. There is scatter at the very low end (which would be expected) and choosing a measurement to apply the �1/2� SOP rule would be difficult and subjective. Creating an average curve from mmnts from 2010 to 2019, high amount of varriation in mmnts due to sand control, potential BW caused by Aishihik Lake and Wetlands DS on Sekulmun River, and  MGH levels come from Lake Stn ~3km away from river.",LogarithmicTable,Provisional/Provisoire,(2.02);
+08AA008,17.0,"Creating an average curve from mmnts from 2010 to 2019, high amount of varriation in mmnts due to sand control, potential BW caused by Aishihik Lake and Wetlands DS on Sekulmun River, and  MGH levels come from Lake Stn ~3km away from river.",LogarithmicTable,Final/Finales,(2.02);
+08AA008,16.0,Created to fine-tune top end of curve and create single line equation. For use in 2017 onwards.,LogarithmicTable,Final/Finales,(1.922);
+08AA008,15.0,Current mmnts trending left from Curve 14.2.  Assume geometry changes at the outlet by aggradation of silt/sand forming a natural barrier to flow.,LogarithmicTable,Final/Finales,(1.913);
+08AA008,14.2,From 14.0,LinearTable,Final/Finales,
+08AA008,14.0,Right shift from Table 13,LinearTable,Final/Finales,
+08AA008,13.0,"left shift from table 12, simular to table 11",LinearTable,Final/Finales,
+08AA008,12.0,Right shift from table #11,LinearTable,Final/Finales,
+08AA008,11.0,Does not tie with top and bottom of table 10.,LinearTable,Final/Finales,
+08AA008,10.0,U.L.conincides with #9 abv 2.5 m LL calc zero flow,LinearTable,Final/Finales,
+08AA008,9.0,table #9 = #8 blow  2.210m and above 3.328m,LinearTable,Final/Finales,
+08AA008,8.0,,LinearTable,Final/Finales,
+08AA008,7.0,,LinearTable,Final/Finales,
+08AA008,6.0,,LinearTable,Final/Finales,
+08AA008,4.0,,LinearTable,Final/Finales,

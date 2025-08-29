@@ -1,0 +1,11 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07GD004,8.00,Curve 7 plotting right on low end,LogarithmicTable,Provisional/Provisoire,(3.81188:2.68);(3.01);
+07GD004,7.00,,LogarithmicTable,Final/Finales,(3.46:2.619);(2.97);
+07GD004,6.000,Same a Curve#5 below 2.980m and above 5.299m,LinearTable,Final/Finales,
+07GD004,6.000-SC3,,LinearTable,Final/Finales,
+07GD004,6.000-SC2,,LinearTable,Final/Finales,
+07GD004,5.000,,LinearTable,Final/Finales,
+07GD004,5.000-SC1,,LinearTable,Final/Finales,
+07GD004,4.000,,LinearTable,Final/Finales,
+07GD004,3.000,,LinearTable,Final/Finales,
+07GD004,2.000,,LinearTable,Final/Finales,

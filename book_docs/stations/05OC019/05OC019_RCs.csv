@@ -1,0 +1,8 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05OC019,19.0,New log/log curve,LogarithmicTable,Provisional/Provisoire,(234.6845);
+05OC019,18.0,Same as Curve#17 above 235.530 Meters,LinearTable,Final/Finales,
+05OC019,17.0,Same as Curve #16 ABOVE 236.030 METERS,LinearTable,Final/Finales,
+05OC019,16.0,Same as Curve #15 but changed to GSC,LinearTable,Final/Finales,
+05OC019,15.0,,LinearTable,Final/Finales,
+05OC019,14.0,,LinearTable,Final/Finales,
+05OC019,13.0,,LinearTable,Final/Finales,

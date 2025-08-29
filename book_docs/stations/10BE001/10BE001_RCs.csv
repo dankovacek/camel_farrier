@@ -1,0 +1,6 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10BE001,9.0,,LogarithmicTable,Provisional/Provisoire,(7.8);
+10BE001,8.1,Extend low end to accommodate new record low measurement,LogarithmicTable,Final/Finales,(7.75);
+10BE001,8.0,extend low end to accommodate new record low,LogarithmicTable,Final/Finales,(7.75);
+10BE001,7.1,,LinearTable,Final/Finales,
+10BE001,7.0,,LinearTable,Final/Finales,

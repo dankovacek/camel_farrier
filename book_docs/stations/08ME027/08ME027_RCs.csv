@@ -1,0 +1,23 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08ME027,23.0,"Curve created using open water measurements from 2021-2022 along with measurements above 30cms from 2018 onward. These measurements were trending to the right of the previous rating.The record high measurement indivertibly plots on this rating- this was unintentional as there appears to be a control change between 2012 and 2017. The upper estimated range is applied based on the high measurement from 2017-06-17, not the record high from 2007. No grade is applied to the lower range, based on the low measurement from 2023-01-26.",LogarithmicTable,Provisional/Provisoire,(5.554);
+08ME027,22.0,,LogarithmicTable,Final/Finales,(5.554);
+08ME027,21.0,,LogarithmicTable,Final/Finales,(6.56:5.481);(5.5);
+08ME027,20.0,"Minor Change in Zero flow point at 2012 second peak, Extended top end",LogarithmicTable,Final/Finales,(5.473);
+08ME027,19.0,,LogarithmicTable,Final/Finales,(5.492);
+08ME027,18.0,,LinearTable,Final/Finales,
+08ME027,17.0,,LinearTable,Final/Finales,
+08ME027,16.0,,LinearTable,Final/Finales,
+08ME027,15.0,,LinearTable,Final/Finales,
+08ME027,14.0,,LinearTable,Final/Finales,
+08ME027,13.0,,LinearTable,Final/Finales,
+08ME027,12.0,,LinearTable,Final/Finales,
+08ME027,11.0,,LinearTable,Final/Finales,
+08ME027,10.0,,LinearTable,Final/Finales,
+08ME027,9.0,,LinearTable,Final/Finales,
+08ME027,8.0,,LinearTable,Final/Finales,
+08ME027,7.0,,LinearTable,Final/Finales,
+08ME027,6.0,,LinearTable,Final/Finales,
+08ME027,5.0,,LinearTable,Final/Finales,
+08ME027,4.0,,LinearTable,Final/Finales,
+08ME027,3.0,,LinearTable,Final/Finales,
+08ME027,2.0,,LinearTable,Final/Finales,

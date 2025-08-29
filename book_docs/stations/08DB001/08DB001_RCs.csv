@@ -1,0 +1,29 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08DB001,47.01,Mean curve based on data since site relocation in 2017 - expected shifts for scour and agradation annually. Curve grading revised for Curve 47.00 (no grading).,LogarithmicTable,Provisional/Provisoire,(0.56);
+08DB001,47.0,Mean curve based on data since site relocation in 2017 - expected shifts for scour and agradation annually,LogarithmicTable,Final/Finales,(0.56);
+08DB001,46.0,Shift during ice period.,LogarithmicTable,Final/Finales,(6.43:0.58);(0.58);
+08DB001,45.0,Station relocated back upstream 6.5 kms to previous site but on the opposite bank (LB) to prior location (RB),LogarithmicTable,Final/Finales,(6.5:0.58);(0.58);
+08DB001,44.0,Scouring of streambed and bifurcation during low flows. Shift during highwater.,LogarithmicTable,Final/Finales,(3.5:-0.314);(0.94);
+08DB001,43.0,Scouring of streambed and bifurcation during low flows. Shift during highwater.,LogarithmicTable,Final/Finales,(3.5:0.67);(0.87);
+08DB001,42.0,Re-worked bottom end of curve to accommodate channel deposition after high water,LogarithmicTable,Final/Finales,(2.85:1.13);(1.14);
+08DB001,41.0,,LogarithmicTable,Final/Finales,(2.816:-0.15);(1.15);
+08DB001,40.0,APPROVED Shift at High Water Peak,LinearTable,Final/Finales,
+08DB001,39.0,APPROVED sensor rds representative of main channel,LinearTable,Final/Finales,
+08DB001,38.0,APPROVED Sensor partially isolated fm main channel,LinearTable,Final/Finales,
+08DB001,37.0,APPROVED Shift @ HW peak Coinc/w #36  below 2.0m,LinearTable,Final/Finales,
+08DB001,36.0,APPROVED Record high Q mmnt in 2007,LinearTable,Final/Finales,
+08DB001,33.01,PRELIMINARY - top end extended for 2007 freshet.,LinearTable,Final/Finales,
+08DB001,35.0,Same as Curve #34 at 1.8 and above 2.5,LinearTable,Final/Finales,
+08DB001,34.0,,LinearTable,Final/Finales,
+08DB001,33.0,Same as Curve # 31,LinearTable,Final/Finales,
+08DB001,32.0,,LinearTable,Final/Finales,
+08DB001,31.0,,LinearTable,Final/Finales,
+08DB001,30.0,Same as Curve #26,LinearTable,Final/Finales,
+08DB001,29.0,,LinearTable,Final/Finales,
+08DB001,28.0,,LinearTable,Final/Finales,
+08DB001,27.0,,LinearTable,Final/Finales,
+08DB001,26.0,,LinearTable,Final/Finales,
+08DB001,25.0,,LinearTable,Final/Finales,
+08DB001,24.0,,LinearTable,Final/Finales,
+08DB001,23.0,,LinearTable,Final/Finales,
+08DB001,22.0,,LinearTable,Final/Finales,

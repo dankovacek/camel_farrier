@@ -1,0 +1,9 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02CE007,7.00,,LogarithmicTable,Final/Finales,(3.10962:2.846);(2.876);
+02CE007,5.000,,LogarithmicTable,Final/Finales,(3.06:2.82);(2.956);
+02CE007,6,new curve based on 2013 measurements,LogarithmicTable,Final/Finales,(3.36893:2.859);(2.87);
+02CE007,4.000,,LinearTable,Final/Finales,
+02CE007,3.000,,LinearTable,Final/Finales,
+02CE007,2.000,,LinearTable,Final/Finales,
+02CE007,2.000-SC2,,LinearTable,Final/Finales,
+02CE007,1.000,,LinearTable,Final/Finales,

@@ -1,0 +1,25 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+01BV006,45.00,New rating due to extensive scour. Should be considered 'under development'. Lacks defining measurments but could not be shifted due to shift limitations.,LogarithmicTable,Provisional/Provisoire,(0.4197:0.1894);(0.2404);
+01BV006,44.01,Based on 2015/2016 discharge measurements - Scour. The shift uses 2017 mmt's and an extension to the low end was added,LogarithmicTable,Final/Finales,(0.7001:0.241);(0.241);
+01BV006,44.00,Based on 2015/2016 discharge measurements - Scour,LogarithmicTable,Final/Finales,(0.7001:0.241);(0.241);
+01BV006,43.01,Based on 2012 mmt and 03/31/2010 results - Scouring - blended from R42.000 at 1.38m,LogarithmicTable,Final/Finales,(0.7461:0.122);(0.462);
+01BV006,43.000,Based on 2012 mmt and 03/31/2010 results - Scouring - blended from R42.000 at 1.38m,LogarithmicTable,Final/Finales,(0.7461:0.122);(0.462);
+01BV006,42.000,Curve change based on 2010 MM results,LinearTable,Final/Finales,
+01BV006,41.000-SC4,,LinearTable,Final/Finales,
+01BV006,41.000,Curve change based on 2009 MM results,LinearTable,Final/Finales,
+01BV006,40.000-SC3,,LinearTable,Final/Finales,
+01BV006,40.000,Same as curve 39 above 1.45 m,LinearTable,Final/Finales,
+01BV006,39.000,Changes made below 1.6m based on latest Results,LinearTable,Final/Finales,
+01BV006,38.000,Low Water Change Based on 2006 Results,LinearTable,Final/Finales,
+01BV006,37.000,Low Water Change Based on 2005 Results,LinearTable,Final/Finales,
+01BV006,36.000,LOW WATER CONTROL CHANGE BASED ON 2003 MM RESULTS,LinearTable,Final/Finales,
+01BV006,35.000-SC2,,LinearTable,Final/Finales,
+01BV006,35.000,LOW WATER CONTROL CHANGE BASED ON 2000 MM,LinearTable,Final/Finales,
+01BV006,35.000-SC1,,LinearTable,Final/Finales,
+01BV006,34.000,,LinearTable,Final/Finales,
+01BV006,33.000,,LinearTable,Final/Finales,
+01BV006,32.000,,LinearTable,Final/Finales,
+01BV006,31.000,,LinearTable,Final/Finales,
+01BV006,30.000,,LinearTable,Final/Finales,
+01BV006,29.000,,LinearTable,Final/Finales,
+01BV006,28.000,,LinearTable,Final/Finales,

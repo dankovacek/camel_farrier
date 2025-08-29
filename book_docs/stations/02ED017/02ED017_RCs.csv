@@ -1,0 +1,18 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02ED017,16.000,new HWS curve,LogarithmicTable,Provisional/Provisoire,(0.428:0.29);(0.329);
+02ED017,15.000,new HWS curve,LogarithmicTable,Final/Finales,(0.338);
+02ED017,14.000,SAME AS CURVE  13 > 1.20 m.,LinearTable,Final/Finales,
+02ED017,13.000,SAME AS CURVE 12 > .8m.,LinearTable,Final/Finales,
+02ED017,12.000,,LinearTable,Final/Finales,
+02ED017,11.000,,LinearTable,Final/Finales,
+02ED017,10.000,,LinearTable,Final/Finales,
+02ED017,9.000,,LinearTable,Final/Finales,
+02ED017,8.000,,LinearTable,Final/Finales,
+02ED017,8.000-SC3,,LinearTable,Final/Finales,
+02ED017,8.000-SC2,,LinearTable,Final/Finales,
+02ED017,8.000-SC1,,LinearTable,Final/Finales,
+02ED017,7.000,,LinearTable,Final/Finales,
+02ED017,6.000,,LinearTable,Final/Finales,
+02ED017,5.000,,LinearTable,Final/Finales,
+02ED017,4.000,,LinearTable,Final/Finales,
+02ED017,3.000,,LinearTable,Final/Finales,

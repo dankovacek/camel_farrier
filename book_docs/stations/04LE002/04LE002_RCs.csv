@@ -1,0 +1,11 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+04LE002,8.001,Decreased the estimated period to better reflect half the lowest mmt. Refer to 04LE002_20211231_RD8.001 document for more information.,LogarithmicTable,Provisional/Provisoire,(15.00291:14.21);(15.51519:14.3);(14.33);
+04LE002,8.000,New Rating Curve based on nwest mmts. Refer to 04LE003_8.00_RDEV document for more information.,LogarithmicTable,Final/Finales,(15.00291:14.21);(15.51519:14.3);(14.33);
+04LE002,7.000,,LogarithmicTable,Final/Finales,(14.21);
+04LE002,6.000,,LogarithmicTable,Final/Finales,(14.21);
+04LE002,5.000-SC1,,LinearTable,Final/Finales,
+04LE002,5.000,,LinearTable,Final/Finales,
+04LE002,4.000,,LinearTable,Final/Finales,
+04LE002,3.000,,LinearTable,Final/Finales,
+04LE002,2.000,,LinearTable,Final/Finales,
+04LE002,1.000,,LinearTable,Final/Finales,

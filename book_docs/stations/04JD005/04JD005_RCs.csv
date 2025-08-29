@@ -1,0 +1,9 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+04JD005,8.00,New HWS Curve to fit ADCP mmts and extrap,LogarithmicTable,Provisional/Provisoire,(9.26);
+04JD005,7.000,New HWS Curve to fit ADCP mmts and extrap,LogarithmicTable,Final/Finales,(9.24);
+04JD005,6.000,New HWS Curve,LogarithmicTable,Final/Finales,(9.982:9.093);(9.119);
+04JD005,5.000,,LinearTable,Final/Finales,
+04JD005,4.000-SC1,,LinearTable,Final/Finales,
+04JD005,4.000,,LinearTable,Final/Finales,
+04JD005,3.000,,LinearTable,Final/Finales,
+04JD005,2.000,,LinearTable,Final/Finales,

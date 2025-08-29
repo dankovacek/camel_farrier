@@ -1,0 +1,8 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07EC002,9.01,extended bottom end to cover low stage Dec 2018,LogarithmicTable,Provisional/Provisoire,(1.357);
+07EC002,9.0,First curve created in HWS - Shift during ice period,LogarithmicTable,Final/Finales,(1.357);
+07EC002,8.0,Curve 8 is coincident to Curve 7 for H=3.4 to 5.05,LinearTable,Final/Finales,
+07EC002,8.0,Curve 8 is coincident to Curve 7 for H=3.4 to 5.05,LinearTable,Final/Finales,
+07EC002,7.0,APPROVED Rev for meas @3.6m Ext. low end of curve,LinearTable,Final/Finales,
+07EC002,6.0,Curve 6 varies from curve 5 from 2.250 to 2.750 m,LinearTable,Final/Finales,
+07EC002,5.0,,LinearTable,Final/Finales,

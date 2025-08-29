@@ -1,0 +1,4 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+05RD008,FillGaps,QR,2022-07-05T01:20:00,2022-08-02T21:40:00,2023-11-17T18:20:57,-6,filling gap from when orifice went atmospheric. Marking as estimated,"ResamplePeriod:PT5M,GapLimit:MaxDuration",Normal
+05RD008,CopyPaste,QR,2021-11-10T20:25:00,2022-01-02T02:45:00,2023-01-24T20:12:04,-6,Estimated freehand trace thru periods of slush and ice makingOverride: Freehand‌Override: Freehand‌,,Normal
+05RD008,DeleteRegion,QR,2021-01-01T06:00:00,2021-01-01T06:00:00,2022-05-16T21:45:22,-6,refresh ,,Normal

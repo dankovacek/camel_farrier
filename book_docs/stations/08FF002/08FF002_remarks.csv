@@ -1,0 +1,5 @@
+STATION_NUMBER,REMARK_TYPE_CODE,YEAR,REMARK_EN,REMARK_FR
+08FF002,2,2017,"Extremely high instantaneous flow greater than 700cms (E) occurred on 2017-09-11. Unable to confirm magnitude of flow as curve and data above 500cms was graded unusable (no measurements above 500cms since 1991 and low curve confidence at high flows). Calculated daily values were created but considered estimated. Extremely high flow also occurred on 2017-10-24, 25 and was also published as daily values only. Instantaneous flow may have exceeded the record maximum from 1974.",
+08FF002,2,2023,MINIMUM INSTANTANEOUS DISCHARGE NOT VALID - ICE CONDITIONS.,
+08FF002,4,-999,MINIMUM INSTANTANEOUS DISCHARGE NOT VALID -  ICE CONDITIONS.,
+08FF002,5,-999,"STATION MOVED 30M UPSTREAM AND ACROSS TO THE RIGHT BANK ON SEP 9, 2005. DATUM MAINTAINED.",

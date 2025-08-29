@@ -1,0 +1,17 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02HB031,10.00,NEW CURVE AFTER EXTEMELY HIGH WATER IN FEB 2018,LogarithmicTable,Provisional/Provisoire,(1.9506:1.763);(1.8);
+02HB031,9.01,ADDING EXTENSION TO HIGH END FOR ESTIMATION,LogarithmicTable,Final/Finales,(1.93492:1.763);(1.8);
+02HB031,9.00,New Curve due to control change in 2012,LogarithmicTable,Final/Finales,(1.93492:1.763);(1.8);
+02HB031,8.1,Extending low end of rating 8 with same slope,LogarithmicTable,Final/Finales,(2.0736:1.7);(2.02);
+02HB031,8,low end change,LogarithmicTable,Final/Finales,(2.0736:1.7);(2.02);
+02HB031,7,Curve 6 extended,LogarithmicTable,Final/Finales,(2.0736:1.7);(2.02);
+02HB031,6,,LogarithmicTable,Final/Finales,(2.0736:1.7);(2.02);
+02HB031,5,,LogarithmicTable,Final/Finales,(2.054:1.86);(1.97);
+02HB031,4,shifted right at low end,LogarithmicTable,Final/Finales,(2.054:1.86);(1.93);
+02HB031,3.000,"curve extended to 2.16, 2009-06-11",LinearTable,Final/Finales,
+02HB031,3.000-SC4,,LinearTable,Final/Finales,
+02HB031,3.000-SC3,,LinearTable,Final/Finales,
+02HB031,2.000,,LinearTable,Final/Finales,
+02HB031,2.000-SC2,,LinearTable,Final/Finales,
+02HB031,2.000-SC1,,LinearTable,Final/Finales,
+02HB031,1.000,,LinearTable,Final/Finales,

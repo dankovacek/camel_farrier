@@ -1,0 +1,11 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05MG001,25.01,Revision of curve 25.00 with 'Estimated grade on the lower end removed. Upper end E grade remains as more clear msmts needed.,LogarithmicTable,Provisional/Provisoire,(100.79);
+05MG001,25.0,Basic curve for 2018 and 2019 discharge,LogarithmicTable,Final/Finales,(100.79);
+05MG001,24.0,"Curve 23.000 extended for all time high water. Extension determiend to be within bank, but not verified, graded E.  Renamed 23.10 to 24.000.",LogarithmicTable,Final/Finales,(0.131);
+05MG001,23.0,,LogarithmicTable,Final/Finales,(0.131);
+05MG001,22.0,Same as table #21 above 0.800 m.,LinearTable,Final/Finales,
+05MG001,21.0,,LinearTable,Final/Finales,
+05MG001,20.0,,LinearTable,Final/Finales,
+05MG001,19.0,,LinearTable,Final/Finales,
+05MG001,18.0,,LinearTable,Final/Finales,
+05MG001,17.0,,LinearTable,Final/Finales,

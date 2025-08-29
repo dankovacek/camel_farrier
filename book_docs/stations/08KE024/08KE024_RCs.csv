@@ -1,0 +1,29 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08KE024,52.0,"Curve was created with open water measurements from 2022. The high end was defined by the highwater measurements in 2012, 2018 and 2020. The low end is validated by measurements collected in 2022 and 2023.",LogarithmicTable,Provisional/Provisoire,(0.862);
+08KE024,51.0,"Curve was created with open water measurements from 2020. The high end was defined by the highwater measurements in 2012, 2018 and 2020. The low end is validated by a measurement in 2021.",LogarithmicTable,Final/Finales,(0.771);
+08KE024,50.0,"Curve was created with open water measurements from 2019.  The high end was defined by the highwater measurements in 2008, 2012 and 2020. The low end was defined by a low measurement in 2018.",LogarithmicTable,Final/Finales,(0.78);
+08KE024,49.0,Curve was created with open water measurements from 2018.  The high end was defined by the highwater measurements in 2008 and 2012.,LogarithmicTable,Final/Finales,(0.725);
+08KE024,48.0,,LogarithmicTable,Final/Finales,(0.781);
+08KE024,47.0,,LogarithmicTable,Final/Finales,(0.67);
+08KE024,46.0,,LogarithmicTable,Final/Finales,(0.597);
+08KE024,45.0,,LogarithmicTable,Final/Finales,(0.75);
+08KE024,44.0,First curve in Hydrometric work station,LogarithmicTable,Final/Finales,(0.87);
+08KE024,43.0,coincident with table 42 above 1.35 m,LinearTable,Final/Finales,
+08KE024,42.0,coincident with table 41 above 1.65 m,LinearTable,Final/Finales,
+08KE024,41.0,coincident to table 40 above 1.550 m,LinearTable,Final/Finales,
+08KE024,40.0,coincident to table 39 above 1.400 m,LinearTable,Final/Finales,
+08KE024,39.0,Coincident @ 2.600m with Table #38.0,LinearTable,Final/Finales,
+08KE024,38.0,Coincident with Curve 36 below 1.45m.,LinearTable,Final/Finales,
+08KE024,37.0,Coincident with Curve 36 above 1.600m,LinearTable,Final/Finales,
+08KE024,36.0,,LinearTable,Final/Finales,
+08KE024,35.0,,LinearTable,Final/Finales,
+08KE024,34.0,,LinearTable,Final/Finales,
+08KE024,33.0,,LinearTable,Final/Finales,
+08KE024,32.0,,LinearTable,Final/Finales,
+08KE024,31.0,,LinearTable,Final/Finales,
+08KE024,30.0,,LinearTable,Final/Finales,
+08KE024,29.0,,LinearTable,Final/Finales,
+08KE024,28.0,,LinearTable,Final/Finales,
+08KE024,27.0,,LinearTable,Final/Finales,
+08KE024,25.0,,LinearTable,Final/Finales,
+08KE024,24.0,,LinearTable,Final/Finales,

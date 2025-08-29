@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05AE005,15.0,,LogarithmicTable,Provisional/Provisoire,(0.974:0.461);(1.603:0.461);(1);
+05AE005,14.0,,LinearTable,Final/Finales,
+05AE005,13.0,,LinearTable,Final/Finales,
+05AE005,12.0,,LinearTable,Final/Finales,

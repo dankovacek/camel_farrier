@@ -1,0 +1,64 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+07GE003,Drift,HG,2023-08-02T18:40:00,2023-10-25T19:30:00,2023-10-30T14:57:45,-7,SRC - VISIT TO VISIT (HG NOT SHOWN ON FIELD NOTE) - RESET,"DriftPoints:(Offset:0,Time:2023-08-02T18:40:00Z);(Offset:0.01,Time:2023-10-25T19:30:00Z)",Normal
+07GE003,Offset,HG,2023-08-02T18:05:00,2023-08-02T18:30:00,2023-08-03T17:58:28,-7,SRC (-0.025m) RESET,Offset:-0.025,Normal
+07GE003,DeleteRegion,HG,2023-07-14T13:10:00,2023-07-14T13:10:00,2023-07-17T14:21:00,-7,DR - SPIKE,,Normal
+07GE003,Drift,HG,2023-06-14T21:20:00,2023-08-02T18:00:00,2023-08-03T17:57:49,-7,SRC (0.000 TO -0.020m) NO RESET,"DriftPoints:(Offset:0,Time:2023-06-14T21:20:00Z);(Offset:-0.02,Time:2023-08-02T18:00:00Z)",Normal
+07GE003,Drift,HG,2023-05-03T23:00:00,2023-06-14T21:15:00,2023-06-15T16:24:33,-7,SRC (0.000 to -0.008) RESET,"DriftPoints:(Offset:0,Time:2023-05-03T23:00:00Z);(Offset:-0.008,Time:2023-06-14T21:15:00Z)",Normal
+07GE003,DeleteRegion,HG,2023-04-20T19:20:00,2023-05-03T22:50:00,2023-05-05T14:38:42,-7,"DR - LOWER INTAKE PLUGGED, INVALID STAGE",,Normal
+07GE003,Offset,HG,2023-04-20T19:15:00,2023-04-20T19:15:00,2023-04-24T16:38:33,-7,DWL,Offset:-0.496,Normal
+07GE003,DeleteRegion,HG,2023-04-20T18:50:00,2023-04-20T19:10:00,2023-04-24T16:39:44,-7,DR - WELL STAGE NOT VALID,,Normal
+07GE003,DeleteRegion,HG,2023-04-20T18:05:00,2023-04-20T18:05:00,2023-04-24T16:37:51,-7,DR - INVALID,,Normal
+07GE003,CopyPaste,QR,2023-04-16T11:10:00,2023-05-03T23:15:00,2023-05-17T17:28:07,-7,OVERRIDE - ESTIMATED MISSING DATAOVERRIDE - ESTIMATED MISSING DATAOverride: Freehand‌Override: Freehand‌Override: Freehand‌,,Normal
+07GE003,AdjustableTrim,HG,2023-04-16T09:15:00,2023-04-20T18:45:00,2023-04-24T16:35:52,-7,DR - WELL FLATLINED,"LowerThresholdPoints:(Time:2023-04-16T09:15:00Z,Value:0.759);(Time:2023-04-20T18:45:00Z,Value:0.759),TrimAction:Delete",Normal
+07GE003,CopyPaste,QR,2023-04-12T03:00:00,2023-04-15T20:40:00,2023-05-17T17:18:31,-7,OWE METHODOverride: Linear‌Q(t) = (0.27548854813136814)t + 0.6597385120729923‌with freehand adjustment‌,,Normal
+07GE003,DeleteRegion,HG,2022-11-01T07:00:00,2023-03-01T06:59:00,2023-05-08T17:59:55,-7,DR - OUTSIDE OF PERIOD OF RECORD,,Normal
+07GE003,DeleteRegion,HG,2022-08-19T07:00:00,2022-11-01T06:59:00,2023-07-12T14:24:35,-7,"Both Intakes are dry verified on Aug 28 and Oct 27 visits. Not valid.  0 flow, some water still in gauge pool. ",,Normal
+07GE003,CopyPaste,QR,2022-08-19T06:55:00,2022-11-01T06:59:59,2023-07-12T17:57:24,-7,"OC - Intakes dry, 0 flow for period. Override: Linear‌Q(t) = (0)t + 0‌",,Normal
+07GE003,DeleteRegion,HG,2022-08-19T00:15:00,2022-08-19T06:55:00,2023-09-05T20:29:26,-7,Lower intake draining - record no longer reliable.  Well starts to become not connected. ,,Normal
+07GE003,AdjustableTrim,HG,2022-07-30T09:10:00,2022-07-30T10:00:00,2023-07-12T15:48:25,-7,Trimmed a bit of data during SRC that was applied for lower intake issue,"UpperThresholdPoints:(Time:2022-07-30T09:10:00Z,Value:0.1644697699975074);(Time:2022-07-30T10:00:00Z,Value:0.1644697699975074),TrimAction:Delete",Normal
+07GE003,Drift,HG,2022-07-29T08:50:00,2022-07-30T09:30:00,2023-07-12T15:45:34,-7,SRC - ESTIMATED. Assume lower intake slow to react to channel conditions. ,"DriftPoints:(Offset:0,Time:2022-07-29T08:50:00Z);(Offset:0.006,Time:2022-07-30T09:30:00Z)",Normal
+07GE003,Drift,HG,2022-07-24T13:05:00,2022-07-27T06:00:00,2023-07-12T15:24:54,-7,SRC - ESTIMATED. Suspect lower intake delayed during low water conds. ,"DriftPoints:(Offset:0,Time:2022-07-24T13:05:00Z);(Offset:-0.015,Time:2022-07-27T06:00:00Z)",Normal
+07GE003,Drift,HG,2022-07-18T16:05:00,2022-07-24T13:00:00,2023-07-12T15:28:35,-7,SRC - ESTIMATED - suspect lower intake delayed in reacting to creek ,"DriftPoints:(Offset:0,Time:2022-07-18T16:05:00Z);(Offset:-0.009,Time:2022-07-24T13:00:00Z)",Normal
+07GE003,CopyPaste,QR,2022-07-05T19:10:00,2022-07-07T06:00:00,2023-07-12T19:26:51,-7,"OC - ESTIMATED, smooth transition from 0.001 to 0 m3/s.Override: Linear‌Q(t) = (-0.0007027768734169903)t + 0.001020002545445493‌",,Normal
+07GE003,DeleteRegion,HG,2022-04-27T20:20:00,2022-04-27T20:20:00,2022-04-28T13:03:33,-7,DR - FLUSH,,Normal
+07GE003,CopyPaste,QR,2022-04-08T00:50:00,2022-04-13T10:10:00,2023-07-12T18:22:13,-7,OC - ICE Estimated (revised)Override: Linear‌Q(t) = (-0.11134166478299666)t + 1.0551779831537906‌,,Normal
+07GE003,CopyPaste,QR,2022-04-05T16:50:00,2022-04-12T19:45:00,2023-07-13T14:54:22,-7,OC - ICE revised Override: Linear‌Q(t) = (0.10332256254677412)t + 0.10310792621633767‌,,Normal
+07GE003,CopyPaste,QR,2022-03-23T15:30:00,2022-04-21T19:00:00,2023-06-02T20:27:14,-7,OC- ICE Override: Linear‌Q(t) = (0.006724317356818559)t + 0‌,,Normal
+07GE003,CopyPaste,QR,2022-03-18T19:00:00,2022-03-19T10:00:00,2023-06-02T20:23:07,-7,OC - ICE zero flowOverride: Linear‌Q(t) = (0)t + 0‌,,Normal
+07GE003,SinglePoint,HG,2022-03-03T23:20:00,2022-03-03T23:20:00,2023-09-13T18:17:14,-7,DWL REF IN CHANNEL ,Value:0.071,Normal
+07GE003,DeleteRegion,HG,2022-03-03T23:20:00,2022-03-19T09:40:00,2022-04-28T13:06:38,-7,DR - ASSUME POOR CONNECTION TO STREAM UNTIL STAGE RISE,,Normal
+07GE003,DeleteRegion,HG,2022-03-03T07:00:00,2022-03-04T06:59:59,2022-03-04T15:22:17,-7,STAGE RECORD IN WELL IS INVALID,,Normal
+07GE003,CopyPaste,QR,2022-03-01T07:05:00,2022-03-18T19:00:00,2023-06-02T20:20:38,-7,OC - ICE zero flowOverride: Linear‌Q(t) = (0)t + 0‌,,Normal
+07GE003,DeleteRegion,HG,2022-03-01T07:00:00,2022-03-03T23:20:00,2022-03-04T15:16:31,-7,DR - INVALID STAGE. FLOAT PINNED NEAR BOTTOM OF WELL.,,Normal
+07GE003,DeleteRegion,HG,2021-10-21T21:40:00,2022-03-01T06:59:59,2021-10-25T15:03:20,-7,Float pinned just above lower intake so it wont be jammed under it. 0 flow conditons - both intake were found dry on Oct 21.,,Normal
+07GE003,CopyPaste,QR,2021-10-21T21:36:01,2021-11-01T06:59:00,2022-02-11T22:19:44,-7,"OC - FLOAT PINNED,  0 flow. Override: Linear‌Q(t) = (0)t + 0‌",,Normal
+07GE003,SinglePoint,HG,2021-09-01T21:00:00,2021-09-01T21:00:00,2023-02-08T21:20:38,-7,VALIDATED DWL FROM PRIMARY.,Value:0.084,Normal
+07GE003,DeleteRegion,HG,2021-09-01T20:20:00,2021-10-21T21:35:00,2021-10-25T15:12:02,-7,Record not reliable - Both intakes found dry on Oct 21.  Previous visit the lower intake almost dry not able to properly  react with channel   - 0 flow conditions. ,,Normal
+07GE003,CopyPaste,QR,2021-08-09T11:46:00,2021-10-21T21:40:00,2022-02-11T22:15:31,-7,OC - 0 flow conditions intakes dry Override: Linear‌Q(t) = (0)t + 0‌,,Normal
+07GE003,DeleteRegion,HG,2021-08-09T10:46:00,2021-09-01T20:15:00,2021-10-25T15:09:08,-7,Suspect float stuck under lower intake - also lower intake close to being dry or dry and not connected to channel. ,,Normal
+07GE003,CopyPaste,HG,2021-07-21T23:35:00,2021-07-23T04:05:00,2022-02-16T15:28:10,-7,"Loaded logger record - tel glitchOverride: Copy & Paste‌Source Data Set: Stage.Logger@07GE003, time shift: 00:00 minutes.‌",,Normal
+07GE003,DeleteRegion,HG,2021-07-21T21:55:00,2021-07-21T22:00:00,2021-07-22T16:14:15,-7,DR - FLUSH,,Normal
+07GE003,Drift,HG,2021-07-11T01:10:00,2021-07-21T21:50:00,2022-02-11T16:01:56,-7,EST-SRC -0.009 to -0.012. Suspect float catching on lower intake ,"DriftPoints:(Offset:-0.009,Time:2021-07-11T01:10:00Z);(Offset:-0.012,Time:2021-07-21T21:50:00Z)",Normal
+07GE003,Offset,HG,2021-07-02T00:35:00,2021-07-11T01:05:00,2022-02-11T15:56:25,-7,EST-SRC -0.005. Suspect float is getting stuck in lower intake connection ,Offset:-0.005,Normal
+07GE003,AdjustableTrim,HG,2021-06-04T16:20:00,2021-06-04T17:00:00,2021-06-07T16:25:05,-7,"Adjustable trim with Lower threshold: (2021-06-04 09:20:00, 0.528m), (2021-06-04 10:00:00, 0.528m) FLSUHED LOWER INTAKE","LowerThresholdPoints:(Time:2021-06-04T16:20:00Z,Value:0.5276489895653859);(Time:2021-06-04T17:00:00Z,Value:0.5276489895653859),TrimAction:Delete",Normal
+07GE003,DeleteRegion,HG,2021-04-28T21:25:00,2021-04-28T21:25:00,2021-04-29T14:01:20,-7,DR - FLUSH,,Normal
+07GE003,CopyPaste,QR,2021-03-31T14:55:00,2021-04-27T15:00:00,2022-02-11T19:30:51,-7,OC - ICE jamming / releasing / diurnal affect at end of ice out. Override: Linear‌Q(t) = (0.00898955265996869)t + 0.0249409313213876‌,,Normal
+07GE003,CopyPaste,QR,2021-03-20T02:05:00,2021-04-04T03:45:00,2023-02-08T22:57:38,-7,ADJUSTED ESTIMATE FOR SLOWER INCREASEOverride: Freehand‌Override: Freehand‌,,Normal
+07GE003,CopyPaste,QR,2021-03-14T00:00:00,2021-03-17T22:00:00,2021-05-12T20:45:46,-7,OC- ICE NO FLOW Override: Linear‌Q(t) = (0)t + 0‌,,Normal
+07GE003,DeleteRegion,HG,2021-03-10T22:05:00,2021-03-11T21:50:00,2021-05-10T14:52:29,-7,Delete region: WELLMAINTENANCE/RECOVERY,,Normal
+07GE003,Offset,HG,2021-03-10T22:04:45,2021-03-11T15:25:00,2021-05-10T14:50:29,-7,Offset Correction with value of 0.012m  BAILED WELL SLOW TO COME BACK.  ,Offset:0.012,Normal
+07GE003,DeleteRegion,HG,2021-03-10T21:58:37,2021-03-10T22:02:18,2021-05-10T14:51:42,-7,Delete region: BAILED WELL ,,Normal
+07GE003,DeleteRegion,HG,2021-03-10T21:53:12,2021-03-10T21:58:12,2021-05-10T14:45:14,-7,"Delete region: Bailed well slow to come back, DWL MADE and it was matching shaft encoder upon arrival. ",,Normal
+07GE003,CopyPaste,QR,2021-03-01T07:05:00,2021-03-14T07:00:00,2021-05-10T14:10:08,-7,"OC - ice , no flow Override: Linear‌Q(t) = (0)t + 0‌",,Normal
+07GE003,DeleteRegion,HG,2021-01-01T07:00:00,2021-03-01T06:59:59,2021-03-11T22:00:57,-7,OUTSIDE OPERATING PERIOD,,Normal
+07GE003,DeleteRegion,HG,2020-11-01T07:00:00,2021-01-01T06:59:00,2021-01-13T20:58:35,-7,Delete region: SEASONAL,,Normal
+07GE003,DeleteRegion,HG,2020-06-04T19:50:00,2020-06-04T20:00:00,2020-06-06T12:27:38,-7,"Delete region  flush lower intake recover, upper is dry",,Normal
+07GE003,CopyPaste,QR,2020-04-21T19:00:00,2020-04-23T16:00:00,2021-12-17T22:40:54,-7,BACKWATER FROM ICE JAM ON CULVERTOverride: Freehand‌,,Normal
+07GE003,CopyPaste,QR,2020-04-16T19:00:00,2020-04-21T16:25:00,2021-12-01T21:20:21,-7,OC - ICE ice out April 21 Override: Linear‌Q(t) = (3.451229599398593)t + 0.006984903447986482‌,,Normal
+07GE003,CopyPaste,QR,2020-04-13T06:55:00,2020-04-16T19:00:00,2021-12-01T21:14:38,-7,OC - ICE flow starting up Override: Linear‌Q(t) = (0.016596952862587236)t + 0‌,,Normal
+07GE003,CopyPaste,QR,2020-02-26T18:20:00,2020-04-13T06:59:00,2021-12-01T20:36:20,-7,"OC - ICE,  zero flow conditions Override: Linear‌Q(t) = (0)t + 0‌",,Normal
+07GE003,DeleteRegion,QR,2020-02-20T10:45:00,2020-02-26T18:00:00,2020-05-04T15:17:39,-7,DR - OUTSIDE STATION OPERATING PERIOD,,Normal
+07GE003,CopyPaste,QR,2020-02-20T10:45:00,2020-03-04T20:40:00,2020-03-04T21:42:16,-7,ICE BACKWATER. ZERO FLOWOverride: Linear‌Q(t) = (0)t + 0‌,,Normal
+07GE003,DeleteRegion,HG,2020-02-16T07:00:00,2020-02-26T18:15:00,2020-03-04T22:14:08,-7,SEASONAL STATION. NOT VALID Delete region,,Normal
+07GE003,CopyPaste,QR,2019-10-23T18:00:00,2019-11-01T06:55:00,2020-08-06T20:17:36,-7,OC. Adjusted discharge to zero flow conditions due to suspected ice influence causing rise vs. flow in channel.Override: Linear‌Q(t) = (0.00008688019520130133)t + 0.0000232‌,,Normal
+07GE003,CopyPaste,QR,2019-04-08T00:20:00,2019-04-10T12:55:00,2020-09-04T13:52:09,-7,OC. Applied OC to reduce discharge due to b/w affect from culvert d/s of gauge during snow melt freshet.Override: Freehand‌,,Normal

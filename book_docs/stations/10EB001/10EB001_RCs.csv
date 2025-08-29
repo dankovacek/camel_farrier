@@ -1,0 +1,10 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10EB001,15.0,Shifting left,LogarithmicTable,Provisional/Provisoire,(1.55);
+10EB001,14.0,Shifting left,LogarithmicTable,Provisional/Provisoire,(1.56);
+10EB001,13.0,Using two points to build curve,LogarithmicTable,Provisional/Provisoire,(1.59);
+10EB001,12.000,Log-log for top. Use above 1400 m3/s w/ discretion,LinearTable,Provisional/Provisoire,
+10EB001,11.000,,LinearTable,Final/Finales,
+10EB001,11.000-SC3,,LinearTable,Final/Finales,
+10EB001,11.000-SC2,,LinearTable,Final/Finales,
+10EB001,11.000-SC1,,LinearTable,Final/Finales,
+10EB001,10.000,,LinearTable,Final/Finales,

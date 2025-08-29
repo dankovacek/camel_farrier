@@ -1,0 +1,4 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05BH016,1.02,Clone rating 1.00 to adjust upper end estimated range based on most recently obtained measurement in 2018 which validates an extended range for the upper end.,LogarithmicTable,Provisional/Provisoire,(5.95:5.208);(5.271);
+05BH016,1.01,Clone rating 1.00 to extend low end,LogarithmicTable,Final/Finales,(5.95:5.208);(5.271);
+05BH016,1.0,,LogarithmicTable,Final/Finales,(5.95:5.208);(5.271);

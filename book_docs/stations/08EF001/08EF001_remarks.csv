@@ -1,0 +1,7 @@
+STATION_NUMBER,REMARK_TYPE_CODE,YEAR,REMARK_EN,REMARK_FR
+08EF001,2,2003,SWITCHED FROM CHART RECORDER TO VEDAS II AND VISE DERIVED DATA ON MAR 31,"PASSE D'UN ENREGISTREUR GRAPHIQUE A UN ENREGISTREUR VEDAS II, DONNEES DERIVEES LE 31 MARS"
+08EF001,2,2023,MINIMUM INSTANTANOUS WATER LEVEL NOT VALID -   ICE CONDITIONS.,
+08EF001,2,2024,MINIMUM INSTANTANOUS WATER LEVEL NOT VALID -   ICE CONDITIONS.,
+08EF001,2,2025,"Station moved approximately 1km upstream of original location on 2025-01-30, causing a 2.370m jump in stage due to change in elevation.",
+08EF001,4,-999,"The gauging location moved January 30, 2025.  Water level and discharge will now be collected approximately 1.0km upstream from the original site, resulting in a minor basin area change and higher water level values due to the increase in elevation.",
+08EF001,5,-999,"The gauging location moved on January 30, 2025.  Water level and discharge will now be collected approximately 1.0km upstream from the original site, resulting in a minor basin area change and higher water level values due to the increase in elevation.",

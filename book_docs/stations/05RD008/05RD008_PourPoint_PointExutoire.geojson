@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05RD008_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "05RD008", "NameNom": "PIGEON RIVER AT OUTLET OF ROUND LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "MB" }, "geometry": { "type": "Point", "coordinates": [ -96.39538, 52.02976 ] } }
+]
+}

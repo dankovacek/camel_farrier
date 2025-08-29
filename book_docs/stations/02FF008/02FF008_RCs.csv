@@ -1,0 +1,21 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02FF008,30.000,New rating ties in high end measurements that wer previously shifted for over the past couple of years.,LogarithmicTable,Provisional/Provisoire,(10.9456:10.52);(10.62);
+02FF008,29.000,New Rating Curve w/ modifications for low end,LogarithmicTable,Final/Finales,(10.92693:10.523);(10.58);
+02FF008,28.0,New HWS Curve,LogarithmicTable,Final/Finales,(11.103:10.515);(10.57);
+02FF008,27.000,Same as HQ#26 > 11.10m,LinearTable,Final/Finales,
+02FF008,26.000,Same as HQ 25.0 > 11.0m. Ext. High end (2009),LinearTable,Final/Finales,
+02FF008,25.000,"new control,same 24.0 > 11.6m.Ext. High end (2009)",LinearTable,Final/Finales,
+02FF008,24.000-SC3,,LinearTable,Final/Finales,
+02FF008,24.000,,LinearTable,Final/Finales,
+02FF008,24.000-SC2,,LinearTable,Final/Finales,
+02FF008,24.000-SC1,,LinearTable,Final/Finales,
+02FF008,23.000,,LinearTable,Final/Finales,
+02FF008,22.000,,LinearTable,Final/Finales,
+02FF008,21.000,,LinearTable,Final/Finales,
+02FF008,20.000,Same as curve 19 above 11.45,LinearTable,Final/Finales,
+02FF008,19.000,Revised low end - 10.44-10.66 m on Dec 07/03,LinearTable,Final/Finales,
+02FF008,18.000,,LinearTable,Final/Finales,
+02FF008,17.000,,LinearTable,Final/Finales,
+02FF008,16.000,,LinearTable,Final/Finales,
+02FF008,15.000,,LinearTable,Final/Finales,
+02FF008,14.000,,LinearTable,Final/Finales,

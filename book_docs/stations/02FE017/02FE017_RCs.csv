@@ -1,0 +1,9 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02FE017,7.0,"Curve needs major redefinition! Curve 6 looks like it was drawn through BW mmts, 2019 mmts plot right. Used only early in year clear mmts from multiple years, All 2019 mmt should be in lower segemnt but top mmt slightly left (into grasses?) Also no low end clear mmts, drew to right of mmt trend.",LogarithmicTable,Provisional/Provisoire,(7.5854:7.041);(6.91);
+02FE017,6.0,NEW HWS CURVE,LogarithmicTable,Final/Finales,(7.7722:7.032);(7.05);
+02FE017,5.000,Same as Curve #4.00 above 7.540,LinearTable,Final/Finales,
+02FE017,5.000-SC1,,LinearTable,Final/Finales,
+02FE017,4.000,SAME AS CURVE 3 ABOVE 7.85,LinearTable,Final/Finales,
+02FE017,3.000,SAME CURVE 2 ABOVE 8.20,LinearTable,Final/Finales,
+02FE017,2.000,EXTENDED FROM 8.40 TO 8.70 (02/18/09),LinearTable,Final/Finales,
+02FE017,1.000,,LinearTable,Final/Finales,

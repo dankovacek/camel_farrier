@@ -1,0 +1,7 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+01AK006,9.01,R9.00 extended 0.014m based on 2020 WL's,LogarithmicTable,Provisional/Provisoire,(0.61:0.0081);(0.0073);
+01AK006,9.00,From Linear to Logarithmic,LogarithmicTable,Final/Finales,(0.61:0.0081);(0.0073);
+01AK006,8.000,From Linear to Logarithmic,LogarithmicTable,Final/Finales,(0.5836:0.0054);(0.0054);
+01AK006,7.000,refinenement above 0.770. Extended abv 1.2m 2010,LinearTable,Final/Finales,
+01AK006,7.000-SC1,,LinearTable,Final/Finales,
+01AK006,6.000,,LinearTable,Final/Finales,

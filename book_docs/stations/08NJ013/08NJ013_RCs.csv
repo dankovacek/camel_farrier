@@ -1,0 +1,8 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08NJ013,10.02,,LogarithmicTable,Provisional/Provisoire,(-0.165);
+08NJ013,10.01,,LogarithmicTable,Final/Finales,(-0.165);
+08NJ013,10.0,,LogarithmicTable,Final/Finales,(-0.165);
+08NJ013,9.0,coincident with no.8 at and above 1.200 m.,LinearTable,Final/Finales,
+08NJ013,8.0,"REDEFINITION OF CURVE, FOR TREND TO THE RIGHT.",LinearTable,Final/Finales,
+08NJ013,7.0,,LinearTable,Final/Finales,
+08NJ013,6.0,,LinearTable,Final/Finales,

@@ -1,0 +1,34 @@
+Station ID/Identification de la station,Date (UTC)/Date (TUC),Timezone Offset/Décalage Horaire,Activity Type/Type d'activité,Gauge Height/Niveau,Mean Gauge Height/Niveau Moyen,Discharge/Débit,Rating Curve Table Number/Numéro de cource de tarage,Shift From Base Curve/Décalage par rapport à la courbe de base,Deviation From Base Curve/Déviation par rapport à la courbe de base,Deviation From Shifted Curve/Déviation par rapport à la courbe décalée,Control Condition/Condition de contrôle,Control Condition Remarks/Remark sur les condition de contrôle,Activity Remarks/Remarques des activités,Width/Largeur,Area/Secteur,Velocity/Vitesse,Air Temperature/Température de l'air,Water Temperature/La température de l'eau,Approval/Approbation,Uncertainty/Incertitude
+05RE001,2024-06-18T20:25:00,-6,Stage/Niveau d'eau,29.041,,,,,,,,,GC: 0.000 Surge: 0.006  * The uncertainty value is equivalent to the surge value in eHSN.  DWL,,,,,,Provisional/Provisoire,
+05RE001,2024-06-18T19:56:30,-6,Discharge/Débit,,29.052,71.5,6.01,-0.173,-0.2377,0.00029999999,"Measurement condition : Clear; Cloudy , No Precipitation , Heavy Wind Blowing Upstream",clear as far as could be seen,"very low velocity normally present at site; very strong upstream wind was blowing during measurement creating backwater shift @ Uncertainty: QRev Uncertainty Analysis (DS Mueller, 2016), 2-sigma value (1 x Uncertainty Value reported in *.xml File). @ line put in over ice in Februrary; SRC likely from movement during ice melt ADCP by Moving Boat",85.6,535.0,0.134,15.0,,Provisional/Provisoire,9.7
+05RE001,2024-06-18T18:10:00,-6,Stage/Niveau d'eau,29.061,,,,,,,,,GC: 0.000 HG: 29.121 Surge: 0.005  * The uncertainty value is equivalent to the surge value in eHSN.  Reset (RS),,,,,,Provisional/Provisoire,
+05RE001,2024-02-19T19:30:00,-6,Stage/Niveau d'eau,27.873,,,,,,,,,GC: 0.000 HG: 27.868 Surge: 0.000  * The uncertainty value is equivalent to the surge value in eHSN.  Reset (RS),,,,,,Provisional/Provisoire,
+05RE001,2024-02-19T18:05:00,-6,Stage/Niveau d'eau,27.867,,,,,,,,,GC: 0.000 Surge: 0.000  * The uncertainty value is equivalent to the surge value in eHSN.  Found (FD),,,,,,Provisional/Provisoire,
+05RE001,2023-10-16T21:00:00,-6,Stage/Niveau d'eau,27.881,,,,,,,,,GC: 0.000 Surge: 0.010  * The uncertainty value is equivalent to the surge value in eHSN.,,,,,,Provisional/Provisoire,
+05RE001,2023-10-16T20:36:30,-6,Discharge/Débit,,27.881,7.54,6.01,-0.0173,-0.0682,-0.0011,"Measurement condition : Clear;  ,  ,  ",,Very slow velocity of flow in channel ADCP by Moving Boat,59.3,238.0,0.032,14.0,10.0,Provisional/Provisoire,31.4
+05RE001,2023-10-16T19:45:00,-6,Stage/Niveau d'eau,27.881,,,,,,,,,GC: 0.000 HG: 27.872 Surge: 0.010  * The uncertainty value is equivalent to the surge value in eHSN.  No Reset (NR),,,,,,Provisional/Provisoire,
+05RE001,2023-06-21T22:20:00,-6,Stage/Niveau d'eau,28.411,,,,,,,,,GC: 0.000 HG: 28.406 No Reset (NR),,,,,,Final/Finales,
+05RE001,2023-06-21T21:58:30,-6,Discharge/Débit,,28.411,28.4,6.01,-0.0406,-0.075,0.0007,"Measurement condition : Clear;  ,  , Moderate Wind Blowing Upstream",up stream wind blowing through mmnt section,ADCP by Moving Boat,61.8,138.0,0.206,,,Final/Finales,11.0
+05RE001,2023-06-21T21:15:00,-6,Stage/Niveau d'eau,28.411,,,,,,,,,GC: 0.000 rod reading = .120 at 1515 cst rod reading = .120 at 1620 cst,,,,,,Final/Finales,
+05RE001,2023-01-17T20:10:00,-6,Stage/Niveau d'eau,28.174,,,,,,,,,GC: 0.000 HG: 28.168 No Reset (NR),,,,,,Final/Finales,
+05RE001,2022-09-22T18:15:00,-6,Stage/Niveau d'eau,28.27,,,,,,,,,GC: 0.000,,,,,,Final/Finales,
+05RE001,2022-09-22T17:48:30,-6,Discharge/Débit,,28.27,21.2,6.0,-0.0495,-0.0932,-0.0001,"Measurement condition : Clear;  ,  ,  ",,ADCP by Moving Boat,62.3,327.0,0.065,,,Final/Finales,13.4
+05RE001,2022-09-22T16:40:00,-6,Stage/Niveau d'eau,28.27,,,,,,,,,GC: 0.000 HG: 28.267,,,,,,Final/Finales,
+05RE001,2022-05-26T19:20:00,-6,Stage/Niveau d'eau,30.311,,,,,,,,,GC: 0.000,,,,,,Final/Finales,
+05RE001,2022-05-26T18:52:30,-6,Discharge/Débit,,30.312,348.0,6.0,0.019,-0.0119,-0.0119,"Measurement condition : Clear;  ,  ,  ",,observed discharge is above maximum rating point Master BM 2 under water. Used BM M13-169 for water level. Assume zero GC ADCP by Moving Boat,81.8,586.0,0.595,,,Final/Finales,5.8
+05RE001,2022-05-26T18:00:00,-6,Stage/Niveau d'eau,30.313,,,,,,,,,GC: 0.000 HG: 30.320 No Reset (NR),,,,,,Final/Finales,
+05RE001,2021-08-26T20:40:00,-6,Stage/Niveau d'eau,27.947,,,,,,,,,,,,,,,Final/Finales,
+05RE001,2021-08-26T19:41:30,-6,Discharge/Débit,,27.947,14.9,,,,,,,,,,,,,Final/Finales,
+05RE001,2021-08-26T18:05:00,-6,Stage/Niveau d'eau,27.946,,,,,,,,,,,,,,,Final/Finales,
+05RE001,2021-05-20T19:53:30,-6,Discharge/Débit,,28.906,85.5,,,,,,,,,,,,,Final/Finales,
+05RE001,2021-05-20T18:40:00,-6,Stage/Niveau d'eau,28.906,,,,,,,,,,,,,,,Final/Finales,
+05RE001,2021-02-09T19:25:00,-6,Stage/Niveau d'eau,27.988,,,,,,,,,,,,,,,Final/Finales,
+05RE001,2021-02-09T18:30:00,-6,Discharge/Débit,,27.988,17.0,,,,,,,,,,,,,Final/Finales,
+05RE001,2021-02-09T17:35:00,-6,Stage/Niveau d'eau,27.988,,,,,,,,,,,,,,,Final/Finales,
+05RE001,1997-06-04T19:41:00,-6,Discharge/Débit,,29.123,104.0,,,,,,,,69.0,195.0,0.531,23.0,19.0,Final/Finales,
+05RE001,1997-06-04T19:41:00,-6,Stage/Niveau d'eau,29.123,,,,,,,,,Reference point and method not documented.,,,,,,Final/Finales,
+05RE001,1996-09-24T21:20:00,-6,Stage/Niveau d'eau,28.446,,,,,,,,,Reference point and method not documented.,,,,,,Final/Finales,
+05RE001,1996-06-05T19:10:00,-6,Stage/Niveau d'eau,29.06,,,,,,,,,Reference point and method not documented.,,,,,,Final/Finales,
+05RE001,1996-06-05T19:10:00,-6,Discharge/Débit,,29.06,92.5,,,,,,,,66.0,186.0,0.497,,,Final/Finales,
+05RE001,1996-03-25T19:50:00,-6,Stage/Niveau d'eau,27.848,,,,,,,,,Reference point and method not documented.,,,,,,Final/Finales,
+05RE001,1996-01-23T19:20:00,-6,Stage/Niveau d'eau,27.935,,,,,,,,,Reference point and method not documented.,,,,,,Final/Finales,

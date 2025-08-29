@@ -1,0 +1,11 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10LB005,7.0,,LogarithmicTable,Provisional/Provisoire,(7.4);
+10LB005,6.0,Mmnts indicate moving to right,LogarithmicTable,Provisional/Provisoire,(8.21:7.2);(7.4);
+10LB005,5.0,,LogarithmicTable,Provisional/Provisoire,(7.92:7.1);(7.4);
+10LB005,4.0,,LogarithmicTable,Provisional/Provisoire,(7);
+10LB005,2.100,Same as 2.0,LinearTable,Provisional/Provisoire,
+10LB005,3.000,,LinearTable,Final/Finales,
+10LB005,2.000,,LinearTable,Final/Finales,
+10LB005,1.000,Log-log used above 8.1. E's above 8.2.,LinearTable,Final/Finales,
+10LB005,1.000-SC1,,LinearTable,Final/Finales,
+10LB005,1.000-SC2,,LinearTable,Final/Finales,

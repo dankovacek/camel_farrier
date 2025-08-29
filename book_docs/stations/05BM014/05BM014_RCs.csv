@@ -1,0 +1,12 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05BM014,9.00,New curve following 2018 high water event.,LogarithmicTable,Provisional/Provisoire,(0.51142:0.385);(2.69269:0.462);(1.55);
+05BM014,8.000,,LogarithmicTable,Final/Finales,(0.472:0.247);(2.473:0.361);(1.91);
+05BM014,7.000,Same as Curve No 6.0 above Ght 2.710,LinearTable,Final/Finales,
+05BM014,6.000,,LinearTable,Final/Finales,
+05BM014,6.000-SC6,,LinearTable,Final/Finales,
+05BM014,6.000-SC5,,LinearTable,Final/Finales,
+05BM014,6.000-SC4,,LinearTable,Final/Finales,
+05BM014,6.000-SC3,,LinearTable,Final/Finales,
+05BM014,6.000-SC2,,LinearTable,Final/Finales,
+05BM014,6.000-SC1,,LinearTable,Final/Finales,
+05BM014,5.000,,LinearTable,Final/Finales,

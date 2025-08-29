@@ -1,0 +1,18 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05LJ007,29.0,"Curve 28.000, Extend bottom of curve to all time low measurement. Approved KSP",LogarithmicTable,Provisional/Provisoire,(278.64:277.241);(275.5);
+05LJ007,28.0,"Curve 28.000, Extend bottom of curve to all time low measurement. Approved KSP",LogarithmicTable,Final/Finales,(280.96:277.221);(278);
+05LJ007,27.0,Linear conversion - Focus on 2013 and later mmts - CJK,LogarithmicTable,Final/Finales,(280.641:277.265);(277.54);
+05LJ007,26.0,Curve#23 renamed #26,LinearTable,Final/Finales,
+05LJ007,24.01,Same as curve #24.00,LinearTable,Final/Finales,
+05LJ007,25.0,,LinearTable,Final/Finales,
+05LJ007,24.0,Same as curve #23 above 281.400,LinearTable,Final/Finales,
+05LJ007,23.0,,LinearTable,Final/Finales,
+05LJ007,22.0,lower end of 21.01 revised based on low water mmt&,LinearTable,Final/Finales,
+05LJ007,21.01,Curve 21 converted to gsc.,LinearTable,Final/Finales,
+05LJ007,21.0,,LinearTable,Final/Finales,
+05LJ007,20.0,,LinearTable,Final/Finales,
+05LJ007,19.0,,LinearTable,Final/Finales,
+05LJ007,18.0,,LinearTable,Final/Finales,
+05LJ007,16.0,,LinearTable,Final/Finales,
+05LJ007,12.0,,LinearTable,Final/Finales,
+05LJ007,17.0,,LinearTable,Final/Finales,

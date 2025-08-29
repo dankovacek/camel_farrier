@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05CC009,12.000,New Curve following high water in 2020 that required extension and better defined the overbank relationship. bridge/channel construction in 2016. rating built on clear mmnts only. Beaver activity and weed growth prominent. MDF,LogarithmicTable,Provisional/Provisoire,(0.199);
+05CC009,11.00,New Curve following bridge construction in 2016,LogarithmicTable,Final/Finales,(0.4077:0.19);(0.21);
+05CC009,10.000,,LinearTable,Final/Finales,
+05CC009,10.000-SC1,,LinearTable,Final/Finales,

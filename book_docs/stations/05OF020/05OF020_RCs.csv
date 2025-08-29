@@ -1,0 +1,11 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05OF020,18.000,New curve for 2019 based on changed ford crossing in 2018. Estimated grade on upper portion due to all higher measurements being affected by Red BW.,LogarithmicTable,Provisional/Provisoire,(233.41:231.94);(231.852);
+05OF020,17.000,REVISE 16.000 TO 2017 WATER LEVEL 0 - 1.06 M3/S SLOPE LIES BETWEEN TRIANGULAR AND PARABOLIC 1.06 - 2.55 M3/S IS THE TRANSITION ZONE FROM THE CULVERTS TO THE FORD 2..56 TO 150 M3/S IS THE HIGH WATER SEGMENT WITH A SLOPE OF  1.398 INDICATING A RECTANGULAR CHANNEL SHAPE.,LogarithmicTable,Final/Finales,(233.2794:232.06);(233.35);
+05OF020,16.000,New curve in 2016 to replace old curve,LogarithmicTable,Final/Finales,(233.528:232.06);(233.27);
+05OF020,15.000,Same as #14.00 at 236.6 and higher.,LinearTable,Provisional/Provisoire,
+05OF020,14.000,Same as Curve #13 up to 236.250,LinearTable,Final/Finales,
+05OF020,13.000,Same as Curve #12 conv to GSC. (+231.344),LinearTable,Final/Finales,
+05OF020,12.000,,LinearTable,Final/Finales,
+05OF020,11.000,,LinearTable,Final/Finales,
+05OF020,11.000-SC2,,LinearTable,Final/Finales,
+05OF020,11.000-SC1,,LinearTable,Final/Finales,

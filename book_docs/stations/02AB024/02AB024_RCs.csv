@@ -1,0 +1,7 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02AB024,5.01,RATING 5.00 CURVE EXTENSION,LogarithmicTable,Provisional/Provisoire,(27.3912:27.047);(27.06);
+02AB024,5.0,,LogarithmicTable,Final/Finales,(27.3912:27.047);(27.06);
+02AB024,4.0,,LogarithmicTable,Final/Finales,(27.3912:27.03);(27.1);
+02AB024,3.0,,LinearTable,Final/Finales,
+02AB024,2.0,curve revised post high water Jun  06 thru 08,LinearTable,Final/Finales,
+02AB024,1.0,,LinearTable,Final/Finales,

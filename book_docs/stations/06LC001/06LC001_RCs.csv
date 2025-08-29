@@ -1,0 +1,4 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+06LC001,7.0,"Logarithmic curve of best overall fit for all valid measurements up to the creation of the rating.  Made to replace Rating 6.00 and overlay is very very similar, but was not used for the creation.  A survey of the breakpoint into floodplane would help in further defining high end past the highest measurement.",LogarithmicTable,Provisional/Provisoire,(71.599);
+06LC001,6.0,High end determined by log plot.,LinearTable,Final/Finales,
+06LC001,5.0,,LinearTable,Final/Finales,

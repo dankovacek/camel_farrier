@@ -1,0 +1,8 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+02HG001,DeleteRegion,HG,2023-05-15T18:15:00,2023-05-15T18:15:00,2023-05-30T13:17:33,-5,,,Normal
+02HG001,DeleteRegion,HG,2023-05-15T18:10:00,2023-05-15T18:10:00,2023-05-15T19:17:38,-5,DISREGARD: DUE TO ON SITE INTAKE FLUSH,,Normal
+02HG001,Drift,HG,2023-01-25T15:17:00,2023-05-15T18:05:00,2023-05-30T13:16:13,-5,drift correction applied for drop seen after flushing the well. No obvious point where it became plugged.,"DriftPoints:(Offset:0,Time:2023-01-25T15:17:00Z);(Offset:-0.013,Time:2023-05-15T18:05:00Z)",Normal
+02HG001,DeleteRegion,HG,2022-05-18T14:20:00,2022-05-18T14:20:00,2022-05-18T18:10:14,-5,Well intakes flushed,,Normal
+02HG001,DeleteRegion,HG,2021-04-30T18:45:00,2021-04-30T18:50:00,2021-05-05T14:38:14,-5,FLUSHING WELL - Delete region,,Normal
+02HG001,DeleteRegion,HG,2020-07-30T12:20:00,2020-07-30T12:20:00,2020-08-31T12:14:58,-5,DISREGARD - ,,Normal
+02HG001,DeleteRegion,HG,2020-07-30T12:02:14,2020-07-30T12:21:15,2020-09-02T18:05:50,-5,FLUSH - Delete region,,Normal

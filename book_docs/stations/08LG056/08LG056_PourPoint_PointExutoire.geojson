@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LG056_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LG056", "NameNom": "GUICHON CREEK ABOVE TUNKWA LAKE DIVERSION", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -120.91094, 50.6076 ] } }
+]
+}

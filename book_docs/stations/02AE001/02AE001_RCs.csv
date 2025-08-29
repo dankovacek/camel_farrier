@@ -1,0 +1,7 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02AE001,6.01,CURVE EXTENSION FOR HIGHWATER,LogarithmicTable,Provisional/Provisoire,(3.1032:2.872);(2.903);
+02AE001,6.000,,LogarithmicTable,Final/Finales,(3.1032:2.872);(2.903);
+02AE001,5.000,Points Extracted from Hand Drawn Curve,LinearTable,Final/Finales,
+02AE001,5.000-SC1,,LinearTable,Final/Finales,
+02AE001,4.000,Points extracted from hand drawn curve.,LinearTable,Final/Finales,
+02AE001,3.000,,LinearTable,Final/Finales,

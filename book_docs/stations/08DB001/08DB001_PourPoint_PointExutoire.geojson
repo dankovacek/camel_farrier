@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08DB001_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08DB001", "NameNom": "NASS RIVER ABOVE SHUMAL CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -129.08653, 55.26303 ] } }
+]
+}

@@ -1,0 +1,10 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05ME010,7.000,NEW FOR  2017 BASED ON 2016-2017 MMNTS WITH 2018-2020 MMNTS TAKEN INTO ACCOUNT,LogarithmicTable,Provisional/Provisoire,(1.3363);
+05ME010,6.000,Redrawn using 2011 mmts and fwd to better define bottom end for scour,LogarithmicTable,Final/Finales,(1.335);
+05ME010,5.000,New for 2011 due to scour,LogarithmicTable,Final/Finales,(1.37);
+05ME010,4.000,Same as curve #3 above 2.585,LinearTable,Final/Finales,
+05ME010,3.000,,LinearTable,Final/Finales,
+05ME010,2.000,,LinearTable,Final/Finales,
+05ME010,2.000-SC2,,LinearTable,Final/Finales,
+05ME010,2.000-SC1,,LinearTable,Final/Finales,
+05ME010,1.000,No clear meas. over 1.700 stage.,LinearTable,Final/Finales,

@@ -1,0 +1,12 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02MB006,19.00,New curve to account for breach under the weir structure.,LogarithmicTable,Provisional/Provisoire,(7.6506:7.43);(7.73886:7.64);(7.665);
+02MB006,18.000,New curve to account for 2014 historic high measurements.,LogarithmicTable,Final/Finales,(7.78941:7.61);(8.3629:7.716);(8.048);
+02MB006,17.00,New HWS curve,LogarithmicTable,Final/Finales,(7.78941:7.61);(7.71);
+02MB006,16.000,Adjust 15 to right between 7.8m - 8.2m  HG,LinearTable,Final/Finales,
+02MB006,15.000,Adjust 14 to right between 7.85 - 8.0m,LinearTable,Final/Finales,
+02MB006,14.000,new curve 14,LinearTable,Final/Finales,
+02MB006,13.100-SC1,,LinearTable,Final/Finales,
+02MB006,13.100,,LinearTable,Final/Finales,
+02MB006,13.000,Curve #13 extended from 9.000 to 9.100 in 1998.,LinearTable,Final/Finales,
+02MB006,12.000,,LinearTable,Final/Finales,
+02MB006,11.000,,LinearTable,Final/Finales,

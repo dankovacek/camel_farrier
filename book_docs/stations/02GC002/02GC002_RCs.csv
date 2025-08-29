@@ -1,0 +1,14 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02GC002,31.00,New HWS Curve,LogarithmicTable,Provisional/Provisoire,(6.38444:5.876);(5.89);
+02GC002,30.000,,LinearTable,Final/Finales,
+02GC002,30.000-SC2,,LinearTable,Final/Finales,
+02GC002,29.000,,LinearTable,Final/Finales,
+02GC002,28.000,,LinearTable,Final/Finales,
+02GC002,27.000,,LinearTable,Final/Finales,
+02GC002,26.000-SC1,,LinearTable,Final/Finales,
+02GC002,26.000,,LinearTable,Final/Finales,
+02GC002,25.000,,LinearTable,Final/Finales,
+02GC002,24.000,,LinearTable,Final/Finales,
+02GC002,23.000,,LinearTable,Final/Finales,
+02GC002,22.000,,LinearTable,Final/Finales,
+02GC002,21.000,,LinearTable,Final/Finales,

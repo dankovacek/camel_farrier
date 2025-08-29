@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02HC053_Station",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "02HC053", "NameNom": "LITTLE ROUGE RIVER NEAR DICKSONS HILL", "Status": "active", "Etat": "en service", "ProvTerr": "ON", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -79.28219, 43.92569 ] } }
+]
+}

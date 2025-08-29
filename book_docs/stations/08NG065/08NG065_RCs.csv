@@ -1,0 +1,26 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08NG065,42.0,,LogarithmicTable,Provisional/Provisoire,(1.91:-0.35);(-0.07);
+08NG065,41.0,New Curve to adjust for slight scour,LogarithmicTable,Final/Finales,(1.653:-0.45);(0.04);
+08NG065,40.001,Cloned 40.000 to add confidence grades,LogarithmicTable,Provisional/Provisoire,(1.66:-0.45);(0.04);
+08NG065,40.0,,LogarithmicTable,Final/Finales,(1.66:-0.45);(0.04);
+08NG065,39.0,Redefined transition zone surround the break point,LogarithmicTable,Final/Finales,(1.68:-0.2);(0.01);
+08NG065,38.0,"Redefined low end scour, with minor upper end deposition above breakpoint",LogarithmicTable,Final/Finales,(1.79:-0.14);(0.42);
+08NG065,37.0,,LogarithmicTable,Final/Finales,(1.76:-0.12);(0.58);
+08NG065,36.0,,LogarithmicTable,Final/Finales,(1.91:-0.272);(0.99);
+08NG065,35.0,,LogarithmicTable,Final/Finales,
+08NG065,34.0,#34 is coincident with #33 at & abv GH=0.940m,LinearTable,Final/Finales,
+08NG065,33.0,#33 is coincident with #32 at & abv GH=1.100m,LinearTable,Final/Finales,
+08NG065,32.0,C#32 coinc <0.840 &  >2.200m on C#31,LinearTable,Final/Finales,
+08NG065,31.0,C#31 created on ice out & redefined @ top end,LinearTable,Final/Finales,
+08NG065,30.0,Curve change on ice out on Jan. 14/07,LinearTable,Final/Finales,
+08NG065,29.0,HW,LinearTable,Final/Finales,
+08NG065,28.0,HW,LinearTable,Final/Finales,
+08NG065,27.0,Same as #26 with 1.0m added to datum,LinearTable,Final/Finales,
+08NG065,26.0,due to flowing ice,LinearTable,Final/Finales,
+08NG065,25.0,,LinearTable,Final/Finales,
+08NG065,24.0,,LinearTable,Final/Finales,
+08NG065,23.0,,LinearTable,Final/Finales,
+08NG065,22.0,,LinearTable,Final/Finales,
+08NG065,21.0,,LinearTable,Final/Finales,
+08NG065,20.0,,LinearTable,Final/Finales,
+08NG065,19.0,,LinearTable,Final/Finales,

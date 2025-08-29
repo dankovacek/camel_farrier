@@ -1,0 +1,13 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08MA002,24.0,cloned curve 23.001 and adjusted slightly to fit measurements during 2017 and 2018. Shift to left at low end.,LogarithmicTable,Provisional/Provisoire,(0.915:0.069);(0.38);
+08MA002,23.001,"cloned curve 23.000 and extended the low end, keeping the same slopes and offsets.",LogarithmicTable,Final/Finales,(0.915:0.049);(0.38);
+08MA002,23.0,,LogarithmicTable,Final/Finales,(0.915:0.049);(0.38);
+08MA002,22.0,Coincident w. T21 below 0.55m & btwn .9 & 1.6m.,LinearTable,Final/Finales,
+08MA002,21.0,Coincident w. T20 below 0.5m & above 0.8m,LinearTable,Final/Finales,
+08MA002,20.0,Coincident w. T19 below 0.6m & above 1.10m,LinearTable,Final/Finales,
+08MA002,19.0,Coincident w. T18 below 0.60m & above 1.40m,LinearTable,Final/Finales,
+08MA002,18.0,Coincident with Table 17 at 0.65m and above,LinearTable,Final/Finales,
+08MA002,17.0,,LinearTable,Final/Finales,
+08MA002,16.0,,LinearTable,Final/Finales,
+08MA002,15.0,,LinearTable,Final/Finales,
+08MA002,14.0,,LinearTable,Final/Finales,

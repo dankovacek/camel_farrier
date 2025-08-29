@@ -1,0 +1,8 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07BF905,6.00,"Plotted to xls control description for breakpoints. ADCP MMTs , few convnetional due to mixing. 4 highest measurements made at causeway to Grouard- far from gauge.",LogarithmicTable,Provisional/Provisoire,(26:23);(26.25);
+07BF905,5.0,,LogarithmicTable,Final/Finales,(23.9916:22.74);(26.4668:22.85);(24.1);
+07BF905,4.000,Same as Curve#3 below 25.887m and above 26.680m.,LinearTable,Final/Finales,
+07BF905,4.000-SC1,,LinearTable,Final/Finales,
+07BF905,3.000,Same as Curve#2 below 25.887m and above 23.090m.,LinearTable,Final/Finales,
+07BF905,2.000,,LinearTable,Final/Finales,
+07BF905,1.000,"Tentative curve, not used in comps",LinearTable,Final/Finales,

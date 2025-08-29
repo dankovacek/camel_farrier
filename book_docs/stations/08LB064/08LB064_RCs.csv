@@ -1,0 +1,9 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08LB064,11.01,,LogarithmicTable,Provisional/Provisoire,(-0.345);
+08LB064,11.0,,LogarithmicTable,Final/Finales,(-0.345);
+08LB064,10.0,Slight change in offset from Curve 9 to better match last compumod curve,LogarithmicTable,Final/Finales,(-0.255);
+08LB064,9.0,,LogarithmicTable,Final/Finales,(-0.315);
+08LB064,8.0,co-incident No. 7 2.600 and above.,LinearTable,Final/Finales,
+08LB064,7.0,,LinearTable,Final/Finales,
+08LB064,6.0,,LinearTable,Final/Finales,
+08LB064,5.0,,LinearTable,Final/Finales,

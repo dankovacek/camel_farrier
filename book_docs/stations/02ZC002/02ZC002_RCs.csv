@@ -1,0 +1,20 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02ZC002,23.0,New curve #23.00 created based on 2019 measurements.  The 2019 show a curve change on low end of curve at a GH of 1.73 and below,LogarithmicTable,Provisional/Provisoire,(1.355);
+02ZC002,22.0,CURVE # 22 SLIGHT CURVE REFINEMENT throughout entire curve but mainly below GH of 2.056 based on 2017 measurements.,LogarithmicTable,Final/Finales,(1.355);
+02ZC002,21.0,CURVE # 21 SLIGHT CURVE REFINEMENT BEtween GH 1.918 and 2.539 BASED ON 2016-10-24 MM RESULT; Start date spring freshet. Scatter is evident in this range,LogarithmicTable,Final/Finales,(1.9182:1.355);(1.5);
+02ZC002,20.0,CURVE # 20 SLIGHT CURVE REFINEMENT BELOW GH 2.06 BASED ON 2015 MM RESULTS; SATRT DAY ICE FLUSH FEB 11 09:00,LogarithmicTable,Final/Finales,(2.0606:1.355);(1.334);
+02ZC002,19.0,CURVE REFINEMENT BELOW GH 2.06 BASED ON 2014 MM RESULTS.08/14/2001 MM FOR REFERENCE ONLY - EXTENDED UP TO 5.45 TO COVER RANGE FOR 2014,LogarithmicTable,Final/Finales,(1.334);
+02ZC002,18.0,CURVE REFINEMENT BELOW GH 3.111 BASED ON 2013 MM RESULTS.08/14/2001 MM FOR REFERENCE ONLY -EXTENDED TO COVER RANGE FOR 2013,LogarithmicTable,Final/Finales,(1.334);
+02ZC002,17.0,,LogarithmicTable,Final/Finales,(1.334);
+02ZC002,16.0,Low water REFINEMENT BASED ON 2011mm.,LinearTable,Final/Finales,
+02ZC002,15.0,Low water change using 2010mm only below GH 2.000,LinearTable,Final/Finales,
+02ZC002,14.0,LOW WATER CHANGE BELOW 1.75. REFINED 1.751- 2.025.,LinearTable,Final/Finales,
+02ZC002,13.0,,LinearTable,Final/Finales,
+02ZC002,12.0,,LinearTable,Final/Finales,
+02ZC002,11.0,,LinearTable,Final/Finales,
+02ZC002,10.0,,LinearTable,Final/Finales,
+02ZC002,9.0,,LinearTable,Final/Finales,
+02ZC002,8.0,,LinearTable,Final/Finales,
+02ZC002,7.0,,LinearTable,Final/Finales,
+02ZC002,6.0,,LinearTable,Final/Finales,
+02ZC002,5.0,,LinearTable,Final/Finales,

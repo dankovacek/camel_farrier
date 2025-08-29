@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "11AA026_Station",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "11AA026", "NameNom": "SAGE CREEK AT Q RANCH NEAR WILDHORSE", "Status": "active", "Etat": "en service", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -110.2237, 49.10772 ] } }
+]
+}

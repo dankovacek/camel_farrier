@@ -1,0 +1,8 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02ZK008,6.0,Curvve #6.00 is an clone of Curve #5.01 with some refinements throughout the entire range of the curve.  This is based on 3 open water measurements taken in 2023 along with 2022 mesurements which were shifted to last year until we could confirm change.,LogarithmicTable,Provisional/Provisoire,(71.72);
+02ZK008,5.01,"Curvve #5.01 is an exact clone of Curve #5.00 and was only created to extend the high end of existing curve due to major rain event on Feb 6th, 2022.",LogarithmicTable,Final/Finales,(72.5727:71.72);(72);
+02ZK008,5.0,New curve 5.000 developed for 2017.  This was a result of 2017 measurements.  Slight changes on low end and medium to high end as well.,LogarithmicTable,Final/Finales,(72.5727:71.72);(72);
+02ZK008,4.0,New curve using 2013 mm. Large scatter at bottom +/-11.6%,LogarithmicTable,Final/Finales,(72.5727:71.72);(72);
+02ZK008,3.0,,LogarithmicTable,Final/Finales,(72.6265:72);(72.5);
+02ZK008,2.0,,LinearTable,Final/Finales,
+02ZK008,1.0,Initial Curve,LinearTable,Final/Finales,

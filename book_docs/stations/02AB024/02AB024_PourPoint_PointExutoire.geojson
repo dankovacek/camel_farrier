@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "02AB024_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "02AB024", "NameNom": "NEEBING RIVER NEAR INTOLA", "Status": "active", "Etat": "en service", "ProvTerr": "ON" }, "geometry": { "type": "Point", "coordinates": [ -89.35793, 48.44291 ] } }
+]
+}

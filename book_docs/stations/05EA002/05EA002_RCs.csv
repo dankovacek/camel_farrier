@@ -1,0 +1,4 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05EA002,4.0,One segment curve. channel control. Clear MMT from 2013-2020 used to build the curve. Backwater from aquatic vegetation during the open season from May to October. None mmt below 1.363 m without backwater.,LogarithmicTable,Provisional/Provisoire,(0.08);
+05EA002,3.0,"Curve 3 modified Feb.10,2006",LinearTable,Final/Finales,
+05EA002,2.0,,LinearTable,Final/Finales,

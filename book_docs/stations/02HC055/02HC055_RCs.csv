@@ -1,0 +1,19 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02HC055,13,New weir installed,LogarithmicTable,Provisional/Provisoire,(3.64);
+02HC055,12,New curve created due to major channel changes caused by tree fall in 2020,LogarithmicTable,Final/Finales,(3.746:3.7);(3.685);
+02HC055,11,"New curve created due to major channel changes caused by June 23, 2017 high water event. Blended two curves under ice Mar 15.",LogarithmicTable,Final/Finales,(3.746:3.7);(3.685);
+02HC055,10.00,"New curve created due to major channel changes caused by June 23, 2017 high water event.",LogarithmicTable,Final/Finales,(3.642);
+02HC055,9,"new curve due to newer mmts, changed due to large channel changes.",LogarithmicTable,Final/Finales,(3.8881:3.597);(3.65);
+02HC055,8,extended curve 7 and graded 2x highest q mmt as estimated.,LogarithmicTable,Final/Finales,(3.596);
+02HC055,7,,LogarithmicTable,Final/Finales,(3.596);
+02HC055,6.000-SC6,,LinearTable,Final/Finales,
+02HC055,6.000,Same as Table 5.00 between GH 4.42 m to 4.50 m,LinearTable,Final/Finales,
+02HC055,5.000-SC4,,LinearTable,Final/Finales,
+02HC055,5.000-SC3,,LinearTable,Final/Finales,
+02HC055,5.000-SC2,,LinearTable,Final/Finales,
+02HC055,5.000-SC1,,LinearTable,Final/Finales,
+02HC055,5.000,Same as Table 4.00 at and above 4.20 m,LinearTable,Final/Finales,
+02HC055,4.000,Same as Table #3 at and above 3.84 m,LinearTable,Final/Finales,
+02HC055,3.000,Same as curve #2 between G.H 3.85 m and 4.10 m.,LinearTable,Final/Finales,
+02HC055,2.000,Deposition on natural control after May 16 Q event,LinearTable,Final/Finales,
+02HC055,1.000,New Station,LinearTable,Final/Finales,

@@ -1,0 +1,11 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+01AL002,25.00,"Assume scour post 2017 January high water event most pronounced through low end, confirmed by three mmnts.",LogarithmicTable,Provisional/Provisoire,(18.47:17.417);(17);
+01AL002,24.00,Assume scour post 2016 high water event most pronounced through low end.,LogarithmicTable,Final/Finales,(18.89123:17.43);(17);
+01AL002,23.000,new curve: based on  Dec 2010-Apr 2011 results,LinearTable,Final/Finales,
+01AL002,22.000,Curve extension above 21.3 m: Created 2011-07-06,LinearTable,Final/Finales,
+01AL002,21.000,,LinearTable,Final/Finales,
+01AL002,20.000,,LinearTable,Final/Finales,
+01AL002,19.000-SC1,,LinearTable,Final/Finales,
+01AL002,19.000,,LinearTable,Final/Finales,
+01AL002,18.000,,LinearTable,Final/Finales,
+01AL002,17.000,,LinearTable,Final/Finales,

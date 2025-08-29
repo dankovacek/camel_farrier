@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05JF011_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "05JF011", "NameNom": "COTTONWOOD CREEK NEAR LUMSDEN", "Status": "active", "Etat": "en service", "ProvTerr": "SK" }, "geometry": { "type": "Point", "coordinates": [ -104.90784, 50.59041 ] } }
+]
+}

@@ -1,0 +1,8 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10LA002,6.0,Same as curve 4. Top defined by Log-Log and S/A,LinearTable,Provisional/Provisoire,
+10LA002,4.200,Same as curve 4. Top defined by Log-Log and S/A,LinearTable,Provisional/Provisoire,
+10LA002,5.000,Log-Log used for top.,LinearTable,Final/Finales,
+10LA002,5.000-SC2,,LinearTable,Final/Finales,
+10LA002,5.000-SC1,,LinearTable,Final/Finales,
+10LA002,4.100,,LinearTable,Final/Finales,
+10LA002,4.000,,LinearTable,Final/Finales,

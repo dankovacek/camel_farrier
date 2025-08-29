@@ -1,0 +1,6 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+02HD013,DeleteRegion,HG,2023-01-13T14:30:00,2023-01-13T14:35:00,2023-01-13T17:31:53,-5,DELETE DATA - LOGGER REPROGRAMMING,,Normal
+02HD013,CopyPaste,HG,2022-11-03T20:30:00,2023-01-13T14:40:00,2023-01-16T13:31:00,-5,"COPY AND PASTE LOGGER DATA DUE TO ON SITE COMMUNICATION ISSUESOverride: Copy & Paste‌Source Data Set: Stage.Logger@02HD013, time shift: 00:00 minutes.‌",,PreProcessing
+02HD013,DeleteRegion,HG,2022-10-28T16:30:00,2022-10-28T17:25:00,2022-11-04T17:12:22,-5,Disregard - onsite maintenance,,Normal
+02HD013,CopyPaste,HG,2022-07-05T22:25:00,2022-11-03T20:30:00,2022-11-04T17:01:56,-5,"Copy & Paste from Stage.Logger - communication issues onsite.Override: Copy & Paste‌Source Data Set: Stage.Logger@02HD013, time shift: 00:00 minutes.‌",,PreProcessing
+02HD013,CopyPaste,HG,2022-05-21T01:05:00,2022-07-06T12:15:00,2022-07-07T15:12:26,-5,"Copy & Paste from Stage.Logger - Gap Fill due to Telemetry issuesOverride: Copy & Paste‌Source Data Set: Stage.Logger@02HD013, time shift: 00:00 minutes.‌",,PreProcessing

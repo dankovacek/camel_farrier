@@ -1,0 +1,34 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08OA005,29.01,2019 curve - Point of zero flow lowered agian from curve 28.000 to allow for low water MMTs. 29.01 is a reduction of the uppermost limit of curve 29.00 to twice the highest flow measurement.,LogarithmicTable,Provisional/Provisoire,(0.864);
+08OA005,29.00,2016 curve - Point of zero flow lowered agian from curve 28.000 to allow for low water MMTs,LogarithmicTable,Final/Finales,(0.864);
+08OA005,28.000,2016 curve - Point of zero flow lowered to allow for low water MMTs,LogarithmicTable,Final/Finales,(0.895);
+08OA005,27.000,2015 curve - point of zero flow is slowly moving down,LogarithmicTable,Final/Finales,(1.111);
+08OA005,C26.,,LogarithmicTable,Final/Finales,(1.207);
+08OA005,26.000,,LogarithmicTable,Final/Finales,(1.207);
+08OA005,C25.1,Approved. Q's > 8.73 cms are estimates.,LinearTable,Final/Finales,
+08OA005,25.000,Approved. Q's > 8.73 cms are estimates.,LinearTable,Final/Finales,
+08OA005,24.000,APPROVED-All Q's >6.575 cms (1.704m) are estimates,LinearTable,Final/Finales,
+08OA005,23.000,APPROVED Coinc to #22 above 1.48 m,LinearTable,Final/Finales,
+08OA005,22.000,APPROVED Coincident to #21 above 1.27 m.,LinearTable,Final/Finales,
+08OA005,22.000-SC3,,LinearTable,Final/Finales,
+08OA005,21.000,APPROVED,LinearTable,Final/Finales,
+08OA005,21.000-SC1,,LinearTable,Final/Finales,
+08OA005,19.010,,LinearTable,Final/Finales,
+08OA005,20.000,Coincident to #19 above 1.66 m.,LinearTable,Final/Finales,
+08OA005,18.010,,LinearTable,Final/Finales,
+08OA005,19.000,Control modified following intake maint on May 6,LinearTable,Final/Finales,
+08OA005,18.000,,LinearTable,Final/Finales,
+08OA005,17.000,,LinearTable,Final/Finales,
+08OA005,16.000,,LinearTable,Final/Finales,
+08OA005,15.000,,LinearTable,Final/Finales,
+08OA005,14.000,,LinearTable,Final/Finales,
+08OA005,13.000,,LinearTable,Final/Finales,
+08OA005,12.000,,LinearTable,Final/Finales,
+08OA005,11.000,,LinearTable,Final/Finales,
+08OA005,10.000,,LinearTable,Final/Finales,
+08OA005,9.000,,LinearTable,Final/Finales,
+08OA005,8.000,,LinearTable,Final/Finales,
+08OA005,7.000,,LinearTable,Final/Finales,
+08OA005,6.000,,LinearTable,Final/Finales,
+08OA005,5.000,,LinearTable,Final/Finales,
+08OA005,0.000,PRELIMINARY Coincident to 23 above 2.00,LinearTable,Provisional/Provisoire,

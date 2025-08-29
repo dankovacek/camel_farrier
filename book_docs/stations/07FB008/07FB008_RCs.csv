@@ -1,0 +1,23 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07FB008,31.0,"Curve created with 2023 and some 2022 open water measurements, with two high measurements from 2011 defining the high end. A BP exists at HG=2.335m around where the cobbled channel bed transitions to steeper dirt banks. The transition zone is determined from field visit photos and the shape of measurement distribution.",LogarithmicTable,Provisional/Provisoire,(2.335:1.216);(1.32);
+07FB008,30.0,"Curve created with 2022 open water measurements following freshet and a high measurement from 2011, which were at bank full (this trend should not be extended much higher than the 2011 measurements as it would be a different equation above the banks). Assumed curve change in late May 2022 high water- possible sedimentation from unstable left bank ~350m upstream of station.",LogarithmicTable,Final/Finales,(1.262);
+07FB008,29.0,New curve after measurement location reverted back to the fixed cableway. Created with 2020 and 2021 open water measurements  and the 2011 max historical measurements. DO NOT EXTEND THIS CURVE ANY HIGHER AT THE SAME TREND.  THE 2011 MEASUREMENTS WERE AT BANK FULL.  ANYTHING HIGHER IS ON A DIFFERENT RELATIONSHIP.,LogarithmicTable,Final/Finales,(1.33);
+07FB008,28.0,DO NOT EXTEND THIS CURVE ANY HIGHER AT THE SAME TREND.  THE 2011 MEASUREMENTS WERE AT BANK FULL.  ANYTHING HIGHER IS ON A DIFFERENT RELATIONSHIP.  The curve was created using the open water measurements from 2018 (measured at the N Monais bridge) and the historic highwater measurements from 2011 and 2016.,LogarithmicTable,Final/Finales,(2.395:1.26);(1.96);
+07FB008,27.0,"created using open water measurements taken at the bridge on N. Monais Rd.  All open water measurements after the June 15, 2016 rain event were used to develop this curve.  The top end was further defined by the historic highwater cableway measurements from 2011.  The point of zero flow was calculated to be around .990m in Sept 2017.  If the curve needs to be extended lower (ie to 2014 historic lows), insert a breakpoint and use .990 as the offset.",LogarithmicTable,Final/Finales,(2.336:1.17);(1.92);
+07FB008,26.0,"Curve was created using open water measurements taken at the bridge on N Monais Rd from May and June 2016, historic low measurement from Aug 2015, and historic high cableway measurements from 2011",LogarithmicTable,Final/Finales,(1.25);
+07FB008,25.0,,LogarithmicTable,Final/Finales,(1.2451);
+07FB008,24.0,REMOVED BREAKPOINT FROM CURVE NUMBER 23. DREW NEW CURVE WHICH INCLUDED 2013 AND 2014 DATA AS WELL AS 2011 ALL TIME HIGHWATER MEASUREMENT. BOTTOM END OF CURVE HAS CHANGED DRAMATICALLY DUE TO LOW MEASUREMENTS.,LogarithmicTable,Final/Finales,(1.10089);
+07FB008,23.0,MAJOR HIGHWATER EVENT CHANGED CURVE FROM MID HIGHWATER DOWN TO LOW WATER,LogarithmicTable,Final/Finales,(2.21:1.138);(1.2);
+07FB008,22.0,4 EXTREME HIGHWATER MEASUREMENT CONFIRM TOP PORTION OF CURVE HAS CHANGED SOMETIME SINCE 1990 HIGHWATER,LogarithmicTable,Final/Finales,(1.243);
+07FB008,21.0,Coincident with #20 below 1.52m and above  1.80m,LinearTable,Final/Finales,
+07FB008,20.0,Coincident with #19 below 1.75m and above  2.2m,LinearTable,Final/Finales,
+07FB008,19.0,Coincident with  # 18 below 1.526 & above 3.4,LinearTable,Final/Finales,
+07FB008,18.0,Coincident with  # 17 at  GH 3.5 and below 2.8,LinearTable,Final/Finales,
+07FB008,17.0,Coincident with table # 16 at and above GH 1.600 m,LinearTable,Final/Finales,
+07FB008,16.0,,LinearTable,Final/Finales,
+07FB008,15.0,,LinearTable,Final/Finales,
+07FB008,14.0,,LinearTable,Final/Finales,
+07FB008,13.0,,LinearTable,Final/Finales,
+07FB008,12.0,,LinearTable,Final/Finales,
+07FB008,11.0,,LinearTable,Final/Finales,
+07FB008,10.0,,LinearTable,Final/Finales,

@@ -1,0 +1,12 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02YN004,11.0,Curve #11.00 is a slight refinement of curve #10.00 on the low end below GH of 1.420m based on 2019 measurements.,LogarithmicTable,Provisional/Provisoire,(2.2018:0.9);(1.13);
+02YN004,10.0,"Curve Refinement OF CURVE # 9 BASED ON 2015 MM'S, BETTER FIT OF MM'S",LogarithmicTable,Final/Finales,(2.2018:0.9);(1.13);
+02YN004,9.0,Curve Refinement below GH 1.350 using all MM from Curve No. 8 above GH 1.300  2014 only below 1.350M.,LogarithmicTable,Final/Finales,(1.6879:0.93);(1.27);
+02YN004,8.0,Curve Refinement below GH 1.600 using all MM from Curve No. 7 and 2013,LogarithmicTable,Final/Finales,(1.6105:0.93);(1.22);
+02YN004,7.0,New corve developed in Log-Log in HWS using all measurements on curve no. 6 plus 2012 measurements.,LogarithmicTable,Final/Finales,(1.6105:0.93);(1.22);
+02YN004,6.0,New curve based on 2010 mm only below GH 1.70,LinearTable,Final/Finales,
+02YN004,5.0,,LinearTable,Final/Finales,
+02YN004,4.0,CURVE REFINEMENT,LinearTable,Final/Finales,
+02YN004,3.0,,LinearTable,Final/Finales,
+02YN004,2.0,,LinearTable,Final/Finales,
+02YN004,1.0,,LinearTable,Final/Finales,

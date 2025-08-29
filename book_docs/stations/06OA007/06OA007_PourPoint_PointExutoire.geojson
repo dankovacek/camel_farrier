@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "06OA007_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "06OA007", "NameNom": "BROWN RIVER AT THE OUTLET OF BROWN LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "NU" }, "geometry": { "type": "Point", "coordinates": [ -91.06241, 65.93251 ] } }
+]
+}

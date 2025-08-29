@@ -1,0 +1,13 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05BL014,18.0,18.000 developed following station relocation,LogarithmicTable,Provisional/Provisoire,(0.35);
+05BL014,17.0,17.000 Slope Area 2013,LogarithmicTable,Final/Finales,(0.505);
+05BL014,16.01,Same as Curve 16.0 below Ght3.900m,LinearTable,Final/Finales,
+05BL014,16.0,"HQFIT1.0, same as curve 15 at ght 3.700m.",LinearTable,Final/Finales,
+05BL014,15.0,Extended 0.96 to 0.86 - 2006,LinearTable,Final/Finales,
+05BL014,14.0,,LinearTable,Final/Finales,
+05BL014,13.0,,LinearTable,Final/Finales,
+05BL014,12.0,,LinearTable,Final/Finales,
+05BL014,11.0,,LinearTable,Final/Finales,
+05BL014,10.0,,LinearTable,Final/Finales,
+05BL014,9.0,,LinearTable,Final/Finales,
+05BL014,8.0,,LinearTable,Final/Finales,

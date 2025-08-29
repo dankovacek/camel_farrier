@@ -1,0 +1,38 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08HA069,29.01,CLONED FOR LOW EXTENSION> Curve is an attempt to create a statistical mean while working with the constraints of offset max = 1.09 (based on observed WL's). Constraining also to fit of high end measurements while being mindful of the exponent. The curve threads the needle on the high end of 26 and 27.,LogarithmicTable,Provisional/Provisoire,(0.995);
+08HA069,29.00,Curve is an attempt to create a statistical mean while working with the constraints of offset max = 1.09 (based on observed WL's). Constraining also to fit of high end measurements while being mindful of the exponent. The curve threads the needle on the high end of 26 and 27.,LogarithmicTable,Final/Finales,(0.995);
+08HA069,28.000,Curve is an attempt to create a statistical mean while working with the constraints of offset max = 1.09 (based on observed WL's). Constraining also to fit of high end measurements while being mindful of the exponent. The curve threads the needle on the high end of 26 and 27.,LogarithmicTable,Final/Finales,(0.996);
+08HA069,27.000,Curve improvement based on best fit.,LogarithmicTable,Final/Finales,(1.542:1.07);(1.36);
+08HA069,26.000,,LogarithmicTable,Final/Finales,(1.516:0.999);(1.1);
+08HA069,25.000,New curve after HW peak,LogarithmicTable,Final/Finales,(1.468:1.05);(1.122);
+08HA069,24.000,Coincident with curve 23 above GH 1.86m,LogarithmicTable,Final/Finales,(1.5956:0.777);(1.8717:1);(1.65);
+08HA069,23.000,Preliminary. Qs > 54 cms (2.781m) are estimates,LinearTable,Final/Finales,
+08HA069,23.000-SC5,,LinearTable,Final/Finales,
+08HA069,22.000,Approved - Qs > 54 cms (2.781m) are estimates,LinearTable,Final/Finales,
+08HA069,21.000,Approved - Qs > 54 cms (2.781m) are estimates,LinearTable,Final/Finales,
+08HA069,6.010-SC4,,LinearTable,Final/Finales,
+08HA069,6.010-SC3,,LinearTable,Final/Finales,
+08HA069,6.010-SC2,,LinearTable,Final/Finales,
+08HA069,6.010,APPROVED- Qs >54 cms (2.781 m) are estimates,LinearTable,Final/Finales,
+08HA069,20.000,APPROVED Coicident to #19 above 1.80 m.,LinearTable,Final/Finales,
+08HA069,19.000,APPROVED Coincident to #18 above 1.70 m.,LinearTable,Final/Finales,
+08HA069,18.000-SC1,,LinearTable,Final/Finales,
+08HA069,18.000,APPROVED Coincident to #17 above 1.50 m.,LinearTable,Final/Finales,
+08HA069,17.000,Coincident to #16 above 1.70 m.,LinearTable,Final/Finales,
+08HA069,16.000,Coincident to #15 above 1.70 m.,LinearTable,Final/Finales,
+08HA069,15.000,Coicident to #14 above 1.70 m.,LinearTable,Final/Finales,
+08HA069,14.000,Coincident to #13 above 1.90 m.,LinearTable,Final/Finales,
+08HA069,13.000,Coincident to #12 above 1.66 m.,LinearTable,Final/Finales,
+08HA069,12.000,Coincident to #11 above 2.20 m.,LinearTable,Final/Finales,
+08HA069,11.000,Coincident to #10 above 2.20 m,LinearTable,Final/Finales,
+08HA069,10.000,Coincident to #9 above 2.10 m.,LinearTable,Final/Finales,
+08HA069,9.000,Coincident to #8 below 1.39 m. & above 2.10 m.,LinearTable,Final/Finales,
+08HA069,8.000,"Coincident to #7 above 1.80 m.,to #6 above 1.43 m.",LinearTable,Final/Finales,
+08HA069,7.000,Coincident to #6 above 1.80 m.,LinearTable,Final/Finales,
+08HA069,6.000,,LinearTable,Final/Finales,
+08HA069,5.000,,LinearTable,Final/Finales,
+08HA069,3.100,,LinearTable,Final/Finales,
+08HA069,4.000,,LinearTable,Final/Finales,
+08HA069,3.000,,LinearTable,Final/Finales,
+08HA069,2.000,,LinearTable,Final/Finales,
+08HA069,1.000,,LinearTable,Final/Finales,

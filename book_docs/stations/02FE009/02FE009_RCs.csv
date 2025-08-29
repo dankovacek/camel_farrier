@@ -1,0 +1,19 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02FE009,18.000,New HWS Rating Curve,LogarithmicTable,Provisional/Provisoire,(10.22038:8.95);(9.11);
+02FE009,17.000,New HWS Rating Curve,LogarithmicTable,Final/Finales,(10.2349:8.96);(9.11);
+02FE009,16.000,Same as Curve 15 above GH 10.2 m,LinearTable,Final/Finales,
+02FE009,16.000-SC10,,LinearTable,Final/Finales,
+02FE009,15.000,Same as #14 above 9.95 m. Extended high end (2008),LinearTable,Final/Finales,
+02FE009,15.000-SC9,,LinearTable,Final/Finales,
+02FE009,15.000-SC8,,LinearTable,Final/Finales,
+02FE009,15.000-SC6,,LinearTable,Final/Finales,
+02FE009,15.000-SC7,,LinearTable,Final/Finales,
+02FE009,15.000-SC5,,LinearTable,Final/Finales,
+02FE009,15.000-SC4,,LinearTable,Final/Finales,
+02FE009,15.000-SC3,,LinearTable,Final/Finales,
+02FE009,14.000,Same as #13 below 9.44 m & above 10.8 m,LinearTable,Final/Finales,
+02FE009,14.000-SC2,,LinearTable,Final/Finales,
+02FE009,13.000,,LinearTable,Final/Finales,
+02FE009,12.000,,LinearTable,Final/Finales,
+02FE009,11.000,,LinearTable,Final/Finales,
+02FE009,11.000-SC1,,LinearTable,Final/Finales,

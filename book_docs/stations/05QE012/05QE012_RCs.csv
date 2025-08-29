@@ -1,0 +1,15 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05QE012,11.010,extension for 2022 high water,LogarithmicTable,Provisional/Provisoire,(28.5042:28.18);(28.28);
+05QE012,11.000,New HWS curve,LogarithmicTable,Final/Finales,(28.5042:28.18);(28.28);
+05QE012,10.000,,LinearTable,Final/Finales,
+05QE012,10.000-SC4,,LinearTable,Final/Finales,
+05QE012,9.000,HQFIT1.0,LinearTable,Final/Finales,
+05QE012,8.000-SC3,,LinearTable,Final/Finales,
+05QE012,8.000,,LinearTable,Final/Finales,
+05QE012,8.000-SC2,,LinearTable,Final/Finales,
+05QE012,7.000,,LinearTable,Final/Finales,
+05QE012,5.000,,LinearTable,Final/Finales,
+05QE012,5.000-SC1,,LinearTable,Final/Finales,
+05QE012,6.000,,LinearTable,Final/Finales,
+05QE012,4.000,,LinearTable,Final/Finales,
+05QE012,3.000,,LinearTable,Final/Finales,

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05CA002_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "05CA002", "NameNom": "JAMES RIVER NEAR SUNDRE", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -114.68561, 51.92641 ] } }
+]
+}

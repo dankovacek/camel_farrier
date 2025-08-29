@@ -13,11 +13,11 @@ Why doesn't each streamflow monitoring station have its own page with complete d
 
 ## Introduction
 
-Recent studies show that machine learning approaches, in particular Long Short-Term Memory networks (LSTMS), are competitive with state of the art process-based models in daily rainfall-runoff modelling. Both approaches use large samples of monitored catchments for parameter calibration and model training. Regionalization of physical-conceptual rainfall-runoff model parameters and training neural network models for streamflow prediction in ungauged basins requires a large sample hydrology dataset.  Regardless of the approach, the quality of input data derived from streamflow monitoring is critical to predictive performance.  The data describing each catchment come from various sources, including manual and automatic measurements of water level and volumetric flow, geospatial data products describing terrain, land cover, soil, and meteorological time series.  
+Recent studies show that machine learning approaches, in particular Long Short-Term Memory networks (LSTMS), are competitive with state of the art process-based models in daily rainfall-runoff modelling. Both approaches use large samples of monitored catchments for parameter calibration and model training. Regionalization of physical-conceptual rainfall-runoff model parameters and training neural network models for streamflow prediction in ungauged basins requires a large sample hydrology dataset.  Regardless of the approach, the quality of input data derived from streamflow monitoring is critical to predictive performance.  The data describing each catchment come from various sources, including manual and automatic measurements of water level and volumetric flow, geospatial data products describing terrain, land cover, soil, and meteorological time series.
 
 ## Gap Statement
 
-The availability of high-quality, well-documented datasets is crucial for advancing research and improving water resource management. However, many datasets remain isolated within specific agencies or institutions, limiting their accessibility and usability for the broader scientific community.  The open publication of national-scale monitoring network data is a relatively new advancement, but there remains considerable opportunity to improve the documentation around the provenance of streamflow data, and related information about the catchment and its hydrological characteristics.  
+The availability of high-quality, well-documented datasets is crucial for advancing research and improving water resource management. However, many datasets remain isolated within specific agencies or institutions, limiting their accessibility and usability for the broader scientific community.  The open publication of national-scale monitoring network data is a relatively new advancement, but there remains considerable opportunity to improve the documentation around the provenance of streamflow data, and related information about the catchment and its hydrological characteristics.
 
 The many non-government practitioners whose use of streamflow monitoring data affects water resources decisions on a day-to-day basis, in particular under-resourced organizations, small communities, etc.
 
@@ -30,7 +30,15 @@ The Canadian National Water Data Archive (HYDAT) is a database that contains str
 
 Do et al. (2018) trace the evolution of large-sample hydrology (LSH) datasets from early collections, like the Global Runoff Database and MOPEX, which provided extensive streamflow and hydrometeorological records, to the incorporation of geospatial attributes in GAGES-II. These precursor datasets evolved into CAMELS, which combined both data types for numerous US catchments, later expanding regionally with versions from Chile, Brazil, Australia, and Great Britain, and across Europe. The HYSETS dataset covered North America and Mexico, and the recent Caravan dataset unified these diverse resources into a standardized, global framework for hydrological modeling.
 
-A challenge common to these datasets is the exclusion of small catchments due to uncertainties in catchment delineation, underscoring the need for improved, standardized processes at the first steps of catchment representation.
+A challenge common to these datasets is the exclusion of small catchments due to uncertainties in catchment delineation, underscoring the need for improved, standardized processes at the first steps of catchment representation.  Small catchments represent a significant component of streamflow monitoring data, and their exclusion is a loss to hydrological research.
+
+:::{bokeh-plot}
+import sys
+sys.path.insert(0, "/home/danbot/Documents/code/25/camel_farrier/")
+from bokeh.io import show
+from supporting_figure_functions import plot_catchment_area_distributions
+show(plot_catchment_area_distributions())
+:::
 
 (Caravan / Google Earth Engine) represents a significant contribution in the standardization of the workflow used to extract attributes and time series meteorological forcings corresponding to monitored catchments from a growing variety of geospatial data sources.
 
@@ -54,30 +62,30 @@ Catchment polygons are derived by many groups, and there does not exist a platfo
 These polygons are often created by hand, and are subject to errors and inconsistencies. This project aims to crowd-source the quality control of these polygons, and to provide a version-controlled history of changes to the polygons.
 
 
-## Advantages of Open Source Development Practices:  
+## Advantages of Open Source Development Practices:
 
-* ability to track changes to catchment polygons and see the downstream impact on derived attributes 
-* platform for sharing knowledge about uncertainties in catchment delineation 
-* standardization of catchment delineation methods 
-* broader expert knowledge can be applied to review process 
-* explicit documentation of decisions made regarding catchment delineation, standardized testing, and review process 
+* ability to track changes to catchment polygons and see the downstream impact on derived attributes
+* platform for sharing knowledge about uncertainties in catchment delineation
+* standardization of catchment delineation methods
+* broader expert knowledge can be applied to review process
+* explicit documentation of decisions made regarding catchment delineation, standardized testing, and review process
 * automated testing of revisions to identify significant changes with respect to input data, and trigger updates to LSH datasets
 * versioning of polygon datasets can be linked to versioning of large sample hydrology datasets
 
 
 ## Quantifying the effect of changes to catchment polygons on input data:
-* how many catchments were affected? 
-* what was the change in area (magnitude)? 
-* what was the change in overlapping area (Jaccard index)? 
+* how many catchments were affected?
+* what was the change in area (magnitude)?
+* what was the change in overlapping area (Jaccard index)?
 * what pct change in area reflects a significant change in input data quality? – depends on magnitude of change but also variability of spatial data within the catchment
 
 
-## Approach 
+## Approach
 
-The objective is to take the data collected according to the Manual of British Columbia Hydrometric Standards @cite{resources2018manual} and organize it in a systematic way that enables greater transparency in the revision process, making use of powerful tools for automated tracking revision histories, for highlighting changes to support efficient review processes, and uses existing platforms to support contributions from expert practitioners outside of official organizations.  
+The objective is to take the data collected according to the Manual of British Columbia Hydrometric Standards @cite{resources2018manual} and organize it in a systematic way that enables greater transparency in the revision process, making use of powerful tools for automated tracking revision histories, for highlighting changes to support efficient review processes, and uses existing platforms to support contributions from expert practitioners outside of official organizations.
 
-* host streamflow monitoring data in a public, open-source repository 
-* each monitoring station has a unique identifier (e.g. `Official_ID` -- add note about USGS non-unique zero-padded numbering system) 
+* host streamflow monitoring data in a public, open-source repository
+* each monitoring station has a unique identifier (e.g. `Official_ID` -- add note about USGS non-unique zero-padded numbering system)
 * each unique identifier has a dedicated folder that contains all associated hydrological information
   * site metadata (installation date, geographic coordinates, Name, geographic references, benchmark survey, control section surveys)
   * timeseries water level observations
@@ -97,8 +105,8 @@ The objective is to take the data collected according to the Manual of British C
   * authorized repository manager follows up to determine whether a new issue should be opened
   * issues are opened using a template to systematically describe the situation and outline suggested changes
   * issues can be assigned to individuals within the organization, and they are open to outside contributors
-  * anyone can work on a solution to any issue, and a dedicated discussion thread exists to facilitate collaboration 
-  * an automated test suite is run on the proposed changes to ensure minimum standards are met in terms of data quality and completeness  
+  * anyone can work on a solution to any issue, and a dedicated discussion thread exists to facilitate collaboration
+  * an automated test suite is run on the proposed changes to ensure minimum standards are met in terms of data quality and completeness
   * acceptance / integration of changes ultimately remains with the repository manager -- the agency governing data collection (WSC/USGS)
   * all changes are documented in the repository's history, providing a clear audit trail
   * acceptance and integration can trigger automated workflows (e.g. updating documentation, revising database files)
@@ -110,13 +118,13 @@ The objective is to take the data collected according to the Manual of British C
 * guidelines for testing
   * issue reports can trigger a review process
   * include a code to derive the catchment polygon (e.g. to highlight disagreement between data sources)
-  * include a polygon manually adjusted based on other information (expert knowledge, historical records, additional survey, etc.) 
-  * review process can be partially automated 
+  * include a polygon manually adjusted based on other information (expert knowledge, historical records, additional survey, etc.)
+  * review process can be partially automated
   * a suite of tests can be run on the catchment polygon to identify the significance of changes with respect to input data -
-  * the review process results in either: 1) no change, or 2) a pull request: 
-    *pull request is approved by the community 
-    * pull request is merged into the main branch 
-    * pull request triggers a new version of the catchment polygon 
+  * the review process results in either: 1) no change, or 2) a pull request:
+    *pull request is approved by the community
+    * pull request is merged into the main branch
+    * pull request triggers a new version of the catchment polygon
     * pull request triggers a new version of the input data
 
 

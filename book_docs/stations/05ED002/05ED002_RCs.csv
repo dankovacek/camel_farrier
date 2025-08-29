@@ -1,0 +1,7 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05ED002,5.01,Curve #5.01 moves estimation period lower due to lower water measurements collected  to date.,LogarithmicTable,Provisional/Provisoire,(0.854);
+05ED002,5.00,"Extension of upper end for 2020 historical high water, adjustment of mid-lower sections to incorporate two control-clear measurements from 2020 that represent channel scour.",LogarithmicTable,Final/Finales,(0.854);
+05ED002,4.000,"First log-log rating. single segment, upper end through older mmnt. no obvious break in channel geometry here. MDF",LogarithmicTable,Final/Finales,(0.856);
+05ED002,3.000,,LinearTable,Final/Finales,
+05ED002,3.000-SC1,,LinearTable,Final/Finales,
+05ED002,2.000,,LinearTable,Final/Finales,

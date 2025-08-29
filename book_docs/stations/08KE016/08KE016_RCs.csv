@@ -1,0 +1,28 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08KE016,69.00,This curve is similar to previous Curve 68.00 with amendments to account for scour during high water in 2023. Open water measurements from 2023 and high measurements from 2018 were used to create the curve. There is a breakpoint at 1.660m (similar to curve # 68.00) where large boulders in the channel are submerged at that stage. The offset of 1.17 m is estimated point of zero flow based on site photos.,LogarithmicTable,Provisional/Provisoire,(1.66:1.17);(1.485);
+08KE016,68.00,This curve is similar to previous Curve 67.00 with an adjustment to the lower end to account for sedimentation. Open water measurements from 2022 and high measurements from 2018 were used to create the curve. There is a breakpoint at 1.660m where large boulders in the channel are submerged at that stage. The majority of measurements collected in 2021 also plot on this curve creating additional confidence.,LogarithmicTable,Final/Finales,(1.66:1.052);(1.484);
+08KE016,67.00,Curve created using open water measurements from 2021 and high measurements from 2018 with breakpoint,LogarithmicTable,Final/Finales,(1.66:1.09);(1.485);
+08KE016,66.00,Curve created using open water measurements from 2020 and high measurements from 2018.,LogarithmicTable,Final/Finales,(1.287);
+08KE016,65.01,Curve 65.00 with extension on high end,LogarithmicTable,Final/Finales,(1.805:1.2);(1.55);
+08KE016,65.00,Created from 2016-2018 open water measurements.  Low end was defined by the 2018 low water.  The 2017 low water will need to be shifted to.,LogarithmicTable,Final/Finales,(1.805:1.2);(1.55);
+08KE016,64.00,"Plots all 2015 open water except July 14, 2015.  breakpoint and upper half of curve is based on the curve 65.00 which was developed for 2016-2018 measurements.",LogarithmicTable,Final/Finales,(1.805:1.22);(1.6);
+08KE016,63.00,,LogarithmicTable,Final/Finales,(1.2);
+08KE016,62.000,Shift to new curve during the ice period,LogarithmicTable,Final/Finales,(1.162);
+08KE016,61.000,First curve created in HWS,LogarithmicTable,Final/Finales,(1.301);
+08KE016,60.000,"DWL at o-line, coincident with curve 59 above 2.8m",LinearTable,Final/Finales,
+08KE016,59.000,"Curve 59 drawn using DWL taken at o-line, not WWG.",LinearTable,Final/Finales,
+08KE016,58.000,Coincident with Table 57 at/above 3.00.,LinearTable,Final/Finales,
+08KE016,57.000,Coincident with Table 56 at/below 1.300,LinearTable,Final/Finales,
+08KE016,56.000,C.I. with table #55 at/above 2.100 and below .900.,LinearTable,Final/Finales,
+08KE016,55.000,coincident with table #54 at and above 1.300m,LinearTable,Final/Finales,
+08KE016,54.000,,LinearTable,Final/Finales,
+08KE016,53.000,Sediment deposition from big ice out of Jan 2005.,LinearTable,Final/Finales,
+08KE016,52.000,,LinearTable,Final/Finales,
+08KE016,51.000,,LinearTable,Final/Finales,
+08KE016,50.000,,LinearTable,Final/Finales,
+08KE016,49.000,,LinearTable,Final/Finales,
+08KE016,48.000,,LinearTable,Final/Finales,
+08KE016,47.000,,LinearTable,Final/Finales,
+08KE016,46.000,,LinearTable,Final/Finales,
+08KE016,45.000,,LinearTable,Final/Finales,
+08KE016,45.000-SC1,,LinearTable,Final/Finales,

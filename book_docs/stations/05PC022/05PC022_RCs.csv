@@ -1,0 +1,7 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05PC022,4.0,New curve so that AQ will start producing zero flow,LogarithmicTable,Provisional/Provisoire,(10.74:10.356);(10.47);
+05PC022,3.0,"First HWS based curve, applied for the 2011 year forward",LogarithmicTable,Final/Finales,(10.74:10.356);(10.47);
+05PC022,2.0,,LinearTable,Final/Finales,
+05PC022,2.0,,LinearTable,Final/Finales,
+05PC022,1.0,,LinearTable,Final/Finales,
+05PC022,1.0,,LinearTable,Final/Finales,

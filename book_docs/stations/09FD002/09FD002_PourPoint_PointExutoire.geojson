@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09FD002_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "09FD002", "NameNom": "PORCUPINE RIVER NEAR INTERNATIONAL BOUNDARY", "Status": "active", "Etat": "en service", "ProvTerr": "YT" }, "geometry": { "type": "Point", "coordinates": [ -140.89522, 67.42166 ] } }
+]
+}

@@ -232,4 +232,8 @@ pytest tests/test_precheck.py::test_precheck_accepts_valid_geojson
 ```
 ## Deployment to GitHub Pages
 
-To deploy this repository to GitHub Pages, follow the steps detailed in `setup_scripts/rebuild_site.py`. This script will automatically rebuild the documentation and deploy it to the `gh-pages` branch.
+To deploy this repository to GitHub Pages:
+>`jupyter-book build book_docs`
+>`ghp-import -n -p -f book_docs/_build/html`
+
+This script will automatically rebuild the documentation and deploy it to the `gh-pages` branch.

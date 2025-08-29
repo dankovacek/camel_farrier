@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05MG001_Station",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "05MG001", "NameNom": "ARROW RIVER NEAR ARROW RIVER", "Status": "active", "Etat": "en service", "ProvTerr": "MB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -100.9557, 50.09288 ] } }
+]
+}

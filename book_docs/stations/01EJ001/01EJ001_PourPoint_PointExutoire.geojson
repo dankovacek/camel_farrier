@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01EJ001_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "01EJ001", "NameNom": "SACKVILLE RIVER AT BEDFORD", "Status": "active", "Etat": "en service", "ProvTerr": "NS" }, "geometry": { "type": "Point", "coordinates": [ -63.66058, 44.73164 ] } }
+]
+}

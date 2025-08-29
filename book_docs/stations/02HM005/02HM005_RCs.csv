@@ -1,0 +1,17 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02HM005,21.00,Created using more up to date methods.  Reflects physical characteristics of the control.,LogarithmicTable,Provisional/Provisoire,(11.47781:11.232);(11.247);
+02HM005,20.00,Adjusted curve 19.000 to clear 2015 measurements.,LogarithmicTable,Final/Finales,(11.526:11.189);(11.3);
+02HM005,19.000,Tweaking top end of curve 18.000,LogarithmicTable,Final/Finales,(11.526:11.189);(11.3);
+02HM005,18.000,,LogarithmicTable,Final/Finales,(11.526:11.189);(11.3);
+02HM005,17.000,Curve 16 Adjusted between 11.475 & 11.700,LinearTable,Final/Finales,
+02HM005,16.000,Curve 15 Adjusted between 12.6&13.1,LinearTable,Final/Finales,
+02HM005,15.000,adjusted Curve 14 from 12.10 to  12.70m,LinearTable,Final/Finales,
+02HM005,14.000,# 13 adjusted 11.55 to 11.74m,LinearTable,Final/Finales,
+02HM005,13.000,,LinearTable,Final/Finales,
+02HM005,12.000,,LinearTable,Final/Finales,
+02HM005,11.000,curve changed from  original #11,LinearTable,Final/Finales,
+02HM005,10.000-SC2,,LinearTable,Final/Finales,
+02HM005,10.000,,LinearTable,Final/Finales,
+02HM005,9.000-SC1,,LinearTable,Final/Finales,
+02HM005,9.000,,LinearTable,Final/Finales,
+02HM005,8.000,,LinearTable,Final/Finales,

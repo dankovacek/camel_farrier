@@ -1,0 +1,12 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08EF001,16.01,Break point accounts for side channel slightly upstream and across from station which becomes active around 6.4 m with vegetation and trees. EXTENDED JUNE 2021 IN ANTICIPATION OF EXCEEDING HIGH END RANGE.,LogarithmicTable,Provisional/Provisoire,(6.38:0.47);(0.5);
+08EF001,16.000,Break point accounts for side channel slightly upstream and across from station which becomes active around 6.4 m with vegetation and trees. Shift to right at low end from curve 15. Shift during ice period.,LogarithmicTable,Final/Finales,(6.38:0.47);(0.5);
+08EF001,15.000,Shift during ice period-Break point accounts for high flow backwater conditions caused by vagetation along banks and on island that forms when side channel becomed active around 6.5 m. The Kitselas Canyon constriction 1 km d/s of the gauge may also affect the upper end of the curve.,LogarithmicTable,Final/Finales,(6.445:0.6);(0.2);
+08EF001,14.00,Shift during ice period.  Model based on curve 12.01 with a shift at the upper end.,LogarithmicTable,Final/Finales,(6.15:0.47);(0.48);
+08EF001,13,,LogarithmicTable,Final/Finales,(1.33);
+08EF001,12.010,"Approved: Revised to include GH 1.200, Dec7/10",LinearTable,Final/Finales,
+08EF001,11.010,APPROVED: Shift at HW June 7 2007,LinearTable,Final/Finales,
+08EF001,12.000,Approved: re-extended to Gg Ht = 15.0m Jul 3/07,LinearTable,Final/Finales,
+08EF001,11.000,,LinearTable,Final/Finales,
+08EF001,11.000-SC2,,LinearTable,Final/Finales,
+08EF001,11.000-SC1,,LinearTable,Final/Finales,

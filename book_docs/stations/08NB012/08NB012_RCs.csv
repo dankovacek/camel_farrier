@@ -1,0 +1,21 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08NB012,44.02,,LogarithmicTable,Provisional/Provisoire,(0.5);
+08NB012,44.01,,LogarithmicTable,Final/Finales,(0.5);
+08NB012,44.0,,LogarithmicTable,Final/Finales,(0.5);
+08NB012,43.0,,LogarithmicTable,Final/Finales,(0.505);
+08NB012,42.1,Clone of #42 with extended top end for WL that were above rating,LogarithmicTable,Final/Finales,(0.5);
+08NB012,42.0,,LogarithmicTable,Final/Finales,(0.504);
+08NB012,41.0,T#41 is coincident with T#40 blw 0.860 and abv 1.6,LinearTable,Final/Finales,
+08NB012,40.0,C#40 is coincident with C#39 at GH=2.000m (Top),LinearTable,Final/Finales,
+08NB012,39.0,"Small rev (<5%) in C#38, #39 dev'd.  No coincidenc",LinearTable,Final/Finales,
+08NB012,38.0,,LinearTable,Final/Finales,
+08NB012,37.0,,LinearTable,Final/Finales,
+08NB012,36.0,,LinearTable,Final/Finales,
+08NB012,35.0,,LinearTable,Final/Finales,
+08NB012,34.0,,LinearTable,Final/Finales,
+08NB012,33.0,,LinearTable,Final/Finales,
+08NB012,32.0,,LinearTable,Final/Finales,
+08NB012,31.0,,LinearTable,Final/Finales,
+08NB012,30.0,,LinearTable,Final/Finales,
+08NB012,29.0,,LinearTable,Final/Finales,
+08NB012,28.0,,LinearTable,Final/Finales,

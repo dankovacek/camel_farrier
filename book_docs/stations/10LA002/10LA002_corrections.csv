@@ -1,0 +1,184 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+10LA002,AdjustableTrim,HG,2024-02-12T03:05:00,2024-02-12T15:35:00,2024-02-12T16:22:17,-7,trimming negative spikes,"LowerThresholdPoints:(Time:2024-02-12T03:05:00Z,Value:1.736580576661536);(Time:2024-02-12T15:35:00Z,Value:1.736580576661536),TrimAction:Delete",Normal
+10LA002,AdjustableTrim,HG,2024-02-09T21:20:00,2024-02-09T22:35:00,2024-02-12T16:23:16,-7,trimming off negative spikes,"LowerThresholdPoints:(Time:2024-02-09T21:20:00Z,Value:1.7673088836994955);(Time:2024-02-09T22:35:00Z,Value:1.7673088836994955),TrimAction:Delete",Normal
+10LA002,AdjustableTrim,HG,2024-01-23T06:30:00,2024-02-05T22:35:00,2024-02-08T20:24:22,-7,trimming off negative data spikes,"LowerThresholdPoints:(Time:2024-01-23T06:30:00Z,Value:1.809173226792634);(Time:2024-02-05T22:35:00Z,Value:1.809173226792634),TrimAction:Delete",Normal
+10LA002,AdjustableTrim,HG,2024-01-14T07:35:00,2024-01-15T16:05:00,2024-01-15T18:26:59,-7,trimming negative data spikes,"LowerThresholdPoints:(Time:2024-01-14T07:35:00Z,Value:1.6527545036187195);(Time:2024-01-15T16:05:00Z,Value:1.6527545036187195),TrimAction:Delete",Normal
+10LA002,AdjustableTrim,HG,2024-01-05T22:40:00,2024-01-12T14:35:00,2024-01-12T23:07:50,-7,trimming negative data spikes,"LowerThresholdPoints:(Time:2024-01-05T22:40:00Z,Value:1.5664782575063358);(Time:2024-01-12T14:35:00Z,Value:1.5664782575063358),TrimAction:Delete",Normal
+10LA002,Drift,HG,2023-12-07T21:05:00,2024-02-12T20:50:00,2024-02-13T22:45:59,-7,SRC - VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2023-12-07T21:05:00Z);(Offset:-0.02,Time:2024-02-12T20:50:00Z)",Normal
+10LA002,CopyPaste,HG,2023-12-07T21:05:00,2024-02-12T20:30:00,2024-02-13T22:43:41,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,AdjustableTrim,HG,2023-10-25T06:55:00,2023-10-27T16:10:00,2023-11-03T15:27:20,-7,trimming negative spikes,"LowerThresholdPoints:(Time:2023-10-25T06:55:00Z,Value:2.1027023731243437);(Time:2023-10-27T16:10:00Z,Value:2.1027023731243437),TrimAction:Delete",Normal
+10LA002,CopyPaste,HG,2023-09-12T17:45:00,2023-12-07T21:15:00,2023-12-08T22:00:06,-7,"Filling telemetry gaps with logger dataOverride: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,Deviation,HG,2023-07-31T08:40:00,2023-09-12T10:25:00,2023-11-03T16:04:40,-7,cleaning up painting data,"DeviationValue:0.005,DeviationType:DeviationFromAverage,WindowSizeInMinutes:30",Normal
+10LA002,Deviation,HG,2023-07-15T12:15:00,2023-07-30T06:00:00,2023-11-03T16:03:28,-7,trimming off painting data,"DeviationValue:0.005,DeviationType:DeviationFromAverage,WindowSizeInMinutes:30",Normal
+10LA002,Offset,HG,2023-07-02T15:30:00,2023-09-12T17:35:00,2023-11-03T15:36:26,-7,OM-  orifice movement brought forward to next visit,Offset:0.074,Normal
+10LA002,Offset,HG,2023-07-02T14:30:00,2023-09-12T17:35:00,2023-11-03T15:38:27,-7,OM - Suspected orifice movement,Offset:0.06,Normal
+10LA002,DeleteRegion,HG,2023-07-02T14:25:00,2023-07-02T14:25:00,2023-11-03T15:39:32,-7,orifice moving,,Normal
+10LA002,Drift,HG,2023-06-23T22:50:00,2023-09-12T17:35:00,2023-09-13T20:57:43,-7,SRC - visit to visit,"DriftPoints:(Offset:0,Time:2023-06-23T22:50:00Z);(Offset:0.047,Time:2023-09-12T17:35:00Z)",Normal
+10LA002,CopyPaste,HG,2023-06-23T22:50:00,2023-09-12T17:40:00,2023-09-13T20:45:03,-7,"Filling telemetry gaps with logger dataOverride: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,DeleteRegion,HG,2023-05-12T22:40:00,2023-06-23T22:50:00,2023-06-27T18:54:50,-7,DR: flatlining,,Normal
+10LA002,DeleteRegion,HG,2023-05-12T22:10:00,2023-05-12T22:10:00,2023-07-19T21:55:20,-7,positive data spike,,Normal
+10LA002,CopyPaste,HG,2023-04-11T18:40:00,2023-06-23T22:50:00,2023-06-27T18:49:44,-7,"Filling telemetry gaps with logger dataOverride: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,CopyPaste,HG,2023-02-27T22:00:00,2023-04-11T18:35:00,2023-04-18T20:59:05,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,Deviation,HG,2023-02-27T13:25:00,2023-04-11T17:50:00,2023-04-18T21:06:48,-7,DR: Trimming poor data,"DeviationValue:0.005,DeviationType:DeviationFromAverage,WindowSizeInMinutes:360",Normal
+10LA002,AdjustableTrim,HG,2023-01-29T09:30:00,2023-02-06T17:35:00,2023-02-06T18:05:46,-7,Trimming off negative data spikes,"LowerThresholdPoints:(Time:2023-01-29T09:30:00Z,Value:1.8944844687320754);(Time:2023-02-02T10:27:17.2Z,Value:1.9056573047111702);(Time:2023-02-06T17:35:00Z,Value:1.8944844687320754),TrimAction:Delete",Normal
+10LA002,CopyPaste,QR,2022-11-30T19:50:00,2023-01-31T01:25:00,2023-03-01T16:04:42,-7,OR: B conditionsOverride: Log Linear‌Q(t) = 56.84235626179027e^(-0.013571937741538271t)‌,,Normal
+10LA002,DeleteRegion,HG,2022-11-03T14:10:00,2022-11-03T14:10:00,2022-11-08T15:14:46,-7,ERRONEOUS DATA,,Normal
+10LA002,Drift,HG,2022-11-03T05:45:00,2022-11-03T14:00:00,2022-11-08T15:13:10,-7,THEORIZED OM (DRAGGED BY ICE),"DriftPoints:(Offset:0,Time:2022-11-03T05:45:00Z);(Offset:-0.006,Time:2022-11-03T14:00:00Z)",Normal
+10LA002,Offset,HG,2022-11-03T05:45:00,2022-11-03T14:10:00,2022-11-08T15:12:06,-7,THEOROZED OM (DRAGGED BY ICE),Offset:0.024,Normal
+10LA002,Offset,HG,2022-11-02T05:45:00,2022-11-03T05:30:00,2022-11-08T15:10:49,-7,THEORIZED OM (DRAGGED BY ICE),Offset:-0.013,Normal
+10LA002,Offset,HG,2022-11-02T05:00:00,2022-11-03T05:30:00,2022-11-08T15:08:48,-7,THOROZED ORFICE MOVEMENT (DRAGGED BY ICE),Offset:0.017,Normal
+10LA002,CopyPaste,QR,2022-10-18T17:20:00,2022-11-30T20:30:00,2023-02-23T15:24:18,-7,recession from start of ice cover to first winter measurementOverride: Log Linear‌Q(t) = 180.72999999999996e^(-0.026835513539420958t)‌,,Normal
+10LA002,Offset,HG,2022-10-04T23:50:00,2022-10-05T12:00:00,2022-10-06T22:12:13,-7,Theorized orfice movement,Offset:0.028,Normal
+10LA002,Offset,HG,2022-10-04T16:05:00,2022-10-04T23:20:00,2022-10-06T22:20:50,-7,theorized orfice movement,Offset:-0.084,Normal
+10LA002,DeleteRegion,HG,2022-10-04T12:15:00,2022-10-04T12:15:00,2022-10-06T22:38:49,-7,delete data splike,,Normal
+10LA002,Drift,HG,2022-10-04T11:05:00,2022-10-04T16:05:00,2022-10-06T22:51:12,-7, data spikes,"DriftPoints:(Offset:0,Time:2022-10-04T11:05:00Z);(Offset:-0.03511368225737188,Time:2022-10-04T11:35:00Z);(Offset:-0.07310055690075101,Time:2022-10-04T13:30:00Z);(Offset:-0.179597275561596,Time:2022-10-04T14:20:00Z);(Offset:-0.036074306187510174,Time:2022-10-04T15:35:00Z);(Offset:0,Time:2022-10-04T16:05:00Z)",Normal
+10LA002,DeleteRegion,HG,2022-10-04T07:30:00,2022-10-04T07:30:00,2022-10-06T22:39:18,-7,delete data spike,,Normal
+10LA002,DeleteRegion,HG,2022-10-04T02:55:00,2022-10-04T02:55:00,2022-10-06T22:38:16,-7,delete data spikes,,Normal
+10LA002,Deviation,HG,2022-10-03T23:25:00,2023-02-27T07:00:00,2022-10-05T00:04:04,-7,DR: Trimming poor data RFT Note_ i had to end this correction as it was deleting valid data points from the time series during the logger reset,"DeviationValue:0.01,DeviationType:DeviationFromAverage,WindowSizeInMinutes:30",Normal
+10LA002,Drift,HG,2022-10-03T22:30:00,2023-02-27T22:00:00,2023-03-01T14:56:01,-7,SRC,"DriftPoints:(Offset:0,Time:2022-10-03T22:30:00Z);(Offset:0.134,Time:2023-02-27T22:00:00Z)",Normal
+10LA002,Offset,HG,2022-10-03T21:55:00,2022-10-04T23:35:00,2022-10-05T00:02:51,-7,SRC projected,Offset:0.108,Normal
+10LA002,DeleteRegion,HG,2022-10-03T20:20:00,2022-10-03T21:50:00,2022-10-05T00:00:55,-7,DR: questionable data,,Normal
+10LA002,CopyPaste,HG,2022-10-03T20:15:00,2023-02-27T21:55:00,2023-02-28T23:19:33,-7,"Filling telemetry gaps with logger dataOverride: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,Deviation,HG,2022-09-23T05:10:00,2022-10-03T17:25:00,2022-10-06T22:29:12,-7,trimming data spikes,"DeviationValue:0.003,DeviationType:DeviationFromAverage,WindowSizeInMinutes:120",Normal
+10LA002,Deviation,HG,2022-08-20T16:15:00,2022-09-23T05:05:00,2022-10-06T22:24:29,-7,trimming data spikes,"DeviationValue:0.003,DeviationType:DeviationFromAverage,WindowSizeInMinutes:120",Normal
+10LA002,AdjustableTrim,HG,2022-06-19T16:00:00,2022-06-20T09:45:00,2022-06-20T15:43:29,-7,trimming positive spikes,"UpperThresholdPoints:(Time:2022-06-19T16:00:00Z,Value:3.6177122875171333);(Time:2022-06-20T09:45:00Z,Value:3.6177122875171333),TrimAction:Delete",Normal
+10LA002,Offset,HG,2022-06-14T03:00:00,2022-10-03T20:15:00,2022-10-04T23:58:06,-7,SRC projected backwards to perceived Orifice movement,Offset:0.437,Normal
+10LA002,DeleteRegion,HG,2022-05-28T17:33:28,2022-06-03T00:32:13,2022-06-17T21:12:03,-7,Line ripped out and out of water,,Normal
+10LA002,Offset,HG,2022-05-22T16:08:42,2022-05-28T17:33:29,2022-06-17T21:06:14,-7,Moved up peak based on 8.299m high water mark surveyed during June 2 Visit,Offset:5.537,Normal
+10LA002,DeleteRegion,HG,2022-05-12T18:22:34,2022-05-22T16:07:01,2022-06-17T21:11:07,-7,line ripped out and out of water,,Normal
+10LA002,Offset,HG,2022-05-12T00:50:00,2022-05-12T17:35:00,2022-06-17T21:50:06,-7,Orifice movement,Offset:-0.042,Normal
+10LA002,Offset,HG,2022-05-07T23:05:00,2022-05-12T17:35:00,2022-06-17T21:51:24,-7,Orifice movement,Offset:-0.01,Normal
+10LA002,CopyPaste,HG,2022-05-02T21:09:27,2022-05-02T23:38:00,2022-06-17T21:48:17,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,CopyPaste,HG,2022-04-01T13:35:00,2022-04-01T15:40:00,2022-05-03T21:33:08,-7,"DATA GAP FILLOverride: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,Drift,HG,2022-03-16T19:00:00,2022-05-02T20:35:00,2022-05-03T21:28:59,-7,SRC- Visit to Visit,"DriftPoints:(Offset:-0.009,Time:2022-03-16T19:00:00Z);(Offset:0.015,Time:2022-05-02T20:35:00Z)",Normal
+10LA002,DeleteRegion,HG,2022-01-29T19:30:00,2022-03-16T16:10:00,2022-03-17T15:28:55,-7,Out of gas,,Normal
+10LA002,CopyPaste,HG,2022-01-29T19:25:00,2022-03-16T19:10:00,2022-03-22T22:08:35,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,CopyPaste,HG,2022-01-29T12:35:00,2022-03-16T19:05:00,2022-03-22T21:40:14,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,CopyPaste,HG,2022-01-22T03:35:00,2022-01-22T05:40:00,2022-03-22T21:41:23,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,CopyPaste,HG,2022-01-21T16:40:00,2022-01-21T19:40:00,2022-03-22T22:07:43,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,CopyPaste,HG,2022-01-21T15:35:00,2022-01-21T17:40:00,2022-03-22T22:07:10,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,CopyPaste,HG,2022-01-21T14:30:00,2022-01-21T16:35:00,2022-03-22T22:06:21,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,CopyPaste,HG,2022-01-21T10:35:00,2022-01-21T13:40:00,2022-03-22T21:42:14,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,CopyPaste,HG,2022-01-17T00:35:00,2022-01-17T03:30:00,2022-03-22T21:45:04,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,CopyPaste,HG,2022-01-09T12:35:00,2022-01-09T15:25:00,2022-03-22T21:39:17,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,CopyPaste,HG,2022-01-09T06:35:00,2022-01-09T09:40:00,2022-03-22T21:38:26,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,CopyPaste,HG,2022-01-05T06:35:00,2022-01-05T15:40:00,2022-03-22T21:37:34,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,CopyPaste,HG,2022-01-02T12:35:00,2022-01-02T14:40:00,2022-03-22T21:36:02,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,CopyPaste,HG,2022-01-01T07:35:00,2022-01-01T14:40:00,2022-03-22T21:35:25,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,CopyPaste,HG,2022-01-01T01:35:00,2022-01-01T04:15:00,2022-03-22T21:34:52,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,CopyPaste,HG,2021-12-31T03:35:00,2021-12-31T06:25:00,2022-03-22T21:34:13,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,CopyPaste,HG,2021-12-30T22:35:00,2021-12-31T00:40:00,2022-03-22T21:33:43,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,CopyPaste,HG,2021-12-16T06:35:00,2021-12-16T08:40:00,2022-03-22T21:32:35,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,AdjustableTrim,HG,2021-12-13T23:30:00,2022-01-11T15:35:00,2022-01-11T16:25:20,-7,,"LowerThresholdPoints:(Time:2021-12-13T23:30:00Z,Value:1.7184344743212954);(Time:2022-01-11T15:35:00Z,Value:1.7184344743212954),UpperThresholdPoints:(Time:2021-12-13T23:30:00Z,Value:1.8254484507145694);(Time:2022-01-11T15:35:00Z,Value:1.8254484507145694),TrimAction:Delete",Normal
+10LA002,Deviation,HG,2021-12-09T23:40:00,2022-10-03T19:00:00,2022-01-17T16:23:17,-7,Real Time Trim Correction,"DeviationValue:0.1,DeviationType:DeviationFromAverage,WindowSizeInMinutes:120",Normal
+10LA002,CopyPaste,QR,2021-12-09T20:05:00,2022-05-02T20:00:00,2022-10-11T22:55:22,-7,"Winter recession, mmnt to mmntOverride: Log Linear‌Q(t) = 25.6e^(-0.000624017332282704t)‌",,Normal
+10LA002,CopyPaste,QR,2021-10-22T06:50:00,2022-01-04T23:05:00,2022-10-13T22:03:50,-7,smothing transition between recessions.,,Normal
+10LA002,CopyPaste,QR,2021-10-18T01:50:00,2021-12-09T20:10:00,2022-04-05T17:50:40,-7,"Recession from start of B to first mmmnt, adjusted for ice biteOverride: Log Linear‌Q(t) = 93.9605781822901e^(-0.0246434254404249t)‌",,Normal
+10LA002,CopyPaste,HG,2021-09-07T20:55:00,2021-12-09T20:40:00,2021-12-15T16:07:34,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,Normal
+10LA002,Drift,HG,2021-09-07T20:55:00,2021-12-09T20:50:00,2021-12-15T16:09:20,-7,SENSOR RESET CORRECTION - Sensor drift. ,"DriftPoints:(Offset:-0.003,Time:2021-09-07T20:55:00Z);(Offset:0.019,Time:2021-12-09T20:50:00Z)",Normal
+10LA002,CopyPaste,HG,2021-07-15T19:50:00,2021-09-07T20:50:00,2021-09-10T16:58:55,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,Normal
+10LA002,Drift,HG,2021-07-15T19:35:00,2021-09-07T20:50:00,2022-04-05T17:45:29,-7,SRC - July 15 to September 7 Visits,"DriftPoints:(Offset:0,Time:2021-07-15T19:35:00Z);(Offset:-0.003,Time:2021-09-07T20:50:00Z)",Normal
+10LA002,Deviation,HG,2021-06-17T17:50:00,2021-07-15T19:50:00,2021-08-23T18:56:40,-7,RFT - Removed silting spikes with outlier trim,"DeviationValue:0.01,DeviationType:DeviationFromMinimum,WindowSizeInMinutes:20",Normal
+10LA002,Offset,HG,2021-06-14T23:35:00,2021-07-15T19:44:00,2021-07-12T22:21:26,-7,Orifice movement,Offset:-0.364,Normal
+10LA002,DeleteRegion,HG,2021-06-14T23:15:00,2021-06-14T23:30:00,2021-07-12T22:22:19,-7,orifice moving,,Normal
+10LA002,AdjustableTrim,HG,2021-06-13T22:10:00,2021-06-14T00:00:00,2021-07-12T22:23:00,-7,Trimming painting of data,"UpperThresholdPoints:(Time:2021-06-13T22:10:00Z,Value:4.068093887838689);(Time:2021-06-14T00:00:00Z,Value:4.157248267170763),TrimAction:Delete",Normal
+10LA002,AdjustableTrim,HG,2021-06-06T09:05:00,2021-06-09T04:30:00,2021-07-12T22:23:49,-7,Trimming data spikes,"UpperThresholdPoints:(Time:2021-06-06T09:05:00Z,Value:5.472331232934258);(Time:2021-06-07T02:58:43.526Z,Value:5.168691871455577);(Time:2021-06-08T10:42:32.244Z,Value:4.332830707834488);(Time:2021-06-09T04:30:00Z,Value:4.005309598823777),TrimAction:Delete",Normal
+10LA002,DeleteRegion,HG,2021-06-02T18:10:00,2021-06-02T20:30:00,2021-06-03T19:14:19,-7,DISREGARD - Sensor maintenance. ,,Normal
+10LA002,USGSMultiPoint,HG,2021-06-02T18:05:00,2021-07-15T19:47:04,2021-08-23T19:02:27,-7,"SRC btwn visits applied, gauge reset at start so 0mm corr.Advanced: Point‌","StartShiftPoints:(Value:0,Offset:0),EndShiftPoints:(Value:0,Offset:-0.069),UsgsType:Set 2",Normal
+10LA002,CopyPaste,QR,2021-06-02T18:05:00,2021-06-02T20:35:00,2022-10-11T22:26:58,-7,"Filling in data gap,  linear line between readings before and after gapOverride: Linear‌Q(t) = (7.47914555141906)t + 801.2499999999999‌",,Normal
+10LA002,Offset,HG,2021-06-01T14:10:00,2021-06-02T18:05:00,2021-06-03T19:25:31,-7,SENSOR RESET CORRECTION - Direct water level. ,Offset:2.211,Normal
+10LA002,DeleteRegion,HG,2021-05-26T11:30:00,2021-06-01T14:05:00,2021-06-03T19:06:38,-7,DISREGARD - Sensor out of water. ,,Normal
+10LA002,Offset,HG,2021-05-18T23:50:00,2021-05-25T13:30:00,2021-05-25T14:41:17,-7,suspected orifice movement,Offset:0.059,Normal
+10LA002,Deviation,HG,2021-05-18T23:50:00,2021-05-30T13:35:00,2021-05-25T14:37:34,-7,Cleaning up of painting record,"DeviationValue:0.05,DeviationType:DeviationFromMinimum,WindowSizeInMinutes:240",Normal
+10LA002,DeleteRegion,HG,2021-05-16T23:45:00,2021-05-16T23:45:00,2022-10-11T21:50:16,-7,positive data spike,,Normal
+10LA002,Offset,HG,2021-05-16T22:45:00,2021-05-26T11:25:00,2022-10-11T21:42:18,-7,EST SRC: OM,Offset:0.2492803482133379,Normal
+10LA002,DeleteRegion,HG,2021-05-16T22:10:00,2021-05-16T22:40:00,2022-10-11T21:43:10,-7,Orifice Moving,,Normal
+10LA002,Offset,HG,2021-05-16T18:30:00,2021-05-16T19:10:00,2022-10-11T21:40:08,-7,EST SRC : OM,Offset:-0.31205674278537643,Normal
+10LA002,DeleteRegion,HG,2021-05-16T17:55:00,2021-05-16T18:25:00,2022-10-11T21:40:40,-7,Orifice Moving,,Normal
+10LA002,CopyPaste,QR,2021-05-16T17:50:00,2021-05-17T21:00:00,2023-02-24T21:26:27,-7,Removing ice jam caused peakOverride: Log Linear‌Q(t) = 729.6007971430206e^(0.08924762102984583t)‌,,Normal
+10LA002,Offset,HG,2021-05-16T00:05:00,2021-05-26T13:25:00,2021-05-17T22:00:56,-7,,Offset:0.451,Normal
+10LA002,DeleteRegion,HG,2021-05-15T23:30:00,2021-05-16T00:30:00,2022-10-11T21:39:28,-7,Data spikes,,Normal
+10LA002,Offset,HG,2021-05-15T02:55:00,2021-05-26T13:25:00,2021-05-17T21:58:18,-7,EST SRC: OM,Offset:1.076,Normal
+10LA002,Offset,HG,2021-05-14T00:10:00,2021-05-26T11:25:00,2022-10-11T21:37:57,-7,EST SRC : OM,Offset:0.06816955007994752,Normal
+10LA002,DeleteRegion,HG,2021-05-13T23:35:00,2021-05-14T00:05:00,2022-10-11T21:38:38,-7,Orifice Moving,,Normal
+10LA002,Offset,HG,2021-05-12T19:50:00,2021-05-26T13:25:00,2021-05-17T21:56:46,-7,Est SRC: OM,Offset:0.3644540209371505,Normal
+10LA002,DeleteRegion,HG,2021-05-12T18:35:00,2021-05-12T19:20:00,2022-10-11T21:35:39,-7,Orifice moving,,Normal
+10LA002,AdjustableTrim,HG,2021-05-12T14:40:00,2021-05-16T08:10:00,2021-05-17T22:01:35,-7,DR: OM ,"LowerThresholdPoints:(Time:2021-05-12T14:40:00Z,Value:3.105174852071005);(Time:2021-05-12T18:50:35.773Z,Value:3.2121878698224853);(Time:2021-05-15T03:20:10.367Z,Value:3.7472529585798813);(Time:2021-05-16T00:34:18.731Z,Value:3.814136094674556);(Time:2021-05-16T07:34:57.664Z,Value:3.9211491124260354);(Time:2021-05-16T08:10:00Z,Value:3.105174852071005),TrimAction:Delete",Normal
+10LA002,CopyPaste,QR,2021-04-30T20:24:00,2021-05-07T16:25:00,2022-10-11T22:19:16,-7,Override: Log Linear‌Q(t) = 13.464708318161899e^(0.28809522596583464t)‌,,Normal
+10LA002,CopyPaste,QR,2021-04-27T08:54:00,2021-05-05T17:39:00,2022-10-11T22:20:39,-7,Smoothing transition between recessions,,Normal
+10LA002,DeleteRegion,HG,2021-04-16T22:30:00,2021-04-16T22:35:00,2021-04-23T21:09:03,-7,,,Normal
+10LA002,CopyPaste,QR,2021-04-16T21:39:00,2021-04-30T20:30:00,2021-04-23T21:30:02,-7,Bringing recession forward from mmntOverride: Log Linear‌Q(t) = 14.40052992571223e^(-0.004817417833917t)‌,,Normal
+10LA002,Offset,HG,2021-04-16T21:10:00,2021-04-16T21:10:00,2021-04-20T17:55:22,-7,SENSOR RESET CORRECTION - Direct water level. ,Offset:0.975,Normal
+10LA002,DeleteRegion,HG,2021-04-16T21:10:00,2021-04-16T22:25:00,2021-04-23T21:09:33,-7,,,Normal
+10LA002,SinglePoint,HG,2021-04-16T21:09:18,2021-04-16T21:09:18,2023-02-24T21:18:47,-7,DWL single data point,Value:2.014,Normal
+10LA002,DeleteRegion,HG,2021-02-11T22:35:00,2021-04-16T21:05:00,2021-04-20T18:10:34,-7,DISREGARD - Sensor compromised. ,,Normal
+10LA002,Offset,HG,2021-02-11T22:30:00,2021-02-11T22:30:00,2021-04-20T18:12:13,-7,SENSOR RESET CORRECTION - Direct water level. ,Offset:-0.032,Normal
+10LA002,CopyPaste,HG,2021-02-11T22:30:00,2021-04-16T20:50:00,2021-04-20T18:07:07,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,Normal
+10LA002,CopyPaste,QR,2021-02-11T21:54:00,2021-04-16T21:50:00,2021-04-23T21:28:17,-7,measurement to measurement recessionOverride: Log Linear‌Q(t) = 19.6e^(-0.004817417833917532t)‌,,Normal
+10LA002,CopyPaste,HG,2021-02-08T17:35:00,2021-02-09T04:20:00,2021-02-22T20:45:05,-7,"Override: Copy & Paste‌Source signal: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,AdjustableTrim,HG,2021-02-03T02:35:00,2021-02-10T20:23:09,2021-02-22T21:12:11,-7,,"LowerThresholdPoints:(Time:2021-02-03T02:35:00Z,Value:1.901546398285939);(Time:2021-02-03T18:22:40.559Z,Value:1.9017397171844914);(Time:2021-02-04T13:03:27.361Z,Value:1.8974867014163384);(Time:2021-02-06T22:53:33.808Z,Value:1.8878207564887177);(Time:2021-02-09T11:14:32.71Z,Value:1.9013530793873867);(Time:2021-02-10T20:23:09Z,Value:1.8984532959091005),TrimAction:Delete",Normal
+10LA002,AdjustableTrim,HG,2021-01-29T10:25:00,2021-01-29T17:55:00,2022-09-21T21:40:29,-7,negative spike,"LowerThresholdPoints:(Time:2021-01-29T10:25:00Z,Value:1.8990939787956045);(Time:2021-01-29T17:55:00Z,Value:1.8990939787956045),TrimAction:Delete",Normal
+10LA002,CopyPaste,HG,2021-01-02T11:55:00,2021-01-29T05:20:00,2021-02-22T20:43:48,-7,"Override: Copy & Paste‌Source signal: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,DeleteRegion,HG,2020-12-20T14:30:00,2020-12-23T06:05:00,2021-02-10T18:51:17,-7,negative drop out due to cold weather,,Normal
+10LA002,AdjustableTrim,HG,2020-12-18T05:15:00,2021-02-13T16:35:00,2021-02-10T18:28:48,-7,"Trimming negative drop outs, appears to be cold temperature related","LowerThresholdPoints:(Time:2020-12-18T05:15:00Z,Value:1.6379010317210654);(Time:2021-02-13T16:35:00Z,Value:1.8828937532347894),TrimAction:Delete",Normal
+10LA002,AdjustableTrim,HG,2020-12-12T23:25:00,2020-12-13T04:35:00,2020-12-14T15:11:40,-7,deleting two negative spikes,"LowerThresholdPoints:(Time:2020-12-12T23:25:00Z,Value:1.7441939346120936);(Time:2020-12-13T04:35:00Z,Value:1.7441939346120936),TrimAction:Delete",Normal
+10LA002,CopyPaste,HG,2020-12-12T08:05:00,2020-12-19T22:55:00,2021-02-22T20:42:06,-7,"Override: Copy & Paste‌Source signal: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,Drift,HG,2020-11-23T20:10:00,2021-02-12T04:30:00,2021-02-22T21:07:14,-7,Applying SRC btwn visits,"DriftPoints:(Offset:0.015,Time:2020-11-23T20:10:00Z);(Offset:-0.032,Time:2021-02-12T04:30:00Z)",Normal
+10LA002,CopyPaste,QR,2020-11-23T20:06:30,2021-02-11T21:54:00,2021-04-15T16:25:31,-7,Override: Log Linear‌Q(t) = 26.7e^(-0.0038605724588982875t)‌,,Normal
+10LA002,CopyPaste,QR,2020-11-13T15:35:00,2020-11-21T02:20:00,2022-09-15T20:06:05,-7,smoorthing transition from fast to slow recession,,Normal
+10LA002,CopyPaste,QR,2020-10-21T20:05:00,2020-11-23T15:10:00,2022-09-14T22:24:58,-7,slow recession from end of fast recession to first winter measurementOverride: Log Linear‌Q(t) = 30.356674086890788e^(-0.00386057t)‌,,Normal
+10LA002,CopyPaste,QR,2020-10-17T01:05:00,2020-11-16T23:20:00,2022-09-15T20:04:28,-7,fast rescessionOverride: Log Linear‌Q(t) = 98.38015066097269e^(-0.041281625467189664t)‌,,Normal
+10LA002,CopyPaste,HG,2020-10-13T21:30:00,2020-11-23T20:05:00,2020-11-24T19:53:27,-7,"Override: Copy & Paste‌Source signal: Stage.Logger@10LA002, time shift: 0 minutes.‌",,Normal
+10LA002,Drift,HG,2020-10-13T21:30:00,2020-11-23T20:05:00,2020-11-24T19:54:17,-7,SRC from visit to visit input by RFT -BR,"DriftPoints:(Offset:-0.103,Time:2020-10-13T21:30:00Z);(Offset:0.016,Time:2020-11-23T20:05:00Z)",Normal
+10LA002,DeleteRegion,HG,2020-10-13T21:20:00,2020-10-13T21:25:00,2020-10-20T18:26:11,-7,Purging orifice block,,Normal
+10LA002,AdjustableTrim,HG,2020-08-15T15:35:00,2020-08-16T10:15:00,2022-09-15T20:46:23,-7,trimming off data spikes caused by silting,"UpperThresholdPoints:(Time:2020-08-15T15:35:00Z,Value:5.2310460873782425);(Time:2020-08-15T20:15:53.869Z,Value:5.228422770767533);(Time:2020-08-16T10:15:00Z,Value:4.945104576810834),TrimAction:Delete",Normal
+10LA002,AdjustableTrim,HG,2020-07-23T01:00:00,2020-07-23T11:55:00,2022-09-15T20:45:11,-7,trimming of positive data spikes caused by silting,"UpperThresholdPoints:(Time:2020-07-23T01:00:00Z,Value:3.8569358589565663);(Time:2020-07-23T07:14:32.073Z,Value:3.94679298143009);(Time:2020-07-23T11:55:00Z,Value:3.9454315098774604),TrimAction:Delete",Normal
+10LA002,Drift,HG,2020-07-14T17:55:00,2020-10-13T21:15:00,2022-08-30T21:03:25,-7,SRC - July 14 to October 13 Visits,"DriftPoints:(Offset:-0.007,Time:2020-07-14T17:55:00Z);(Offset:-0.103,Time:2020-10-13T21:15:00Z)",Normal
+10LA002,CopyPaste,HG,2020-07-14T17:52:32,2020-07-14T18:56:00,2022-08-30T20:10:25,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,Normal
+10LA002,Offset,HG,2020-07-14T17:52:32,2020-07-14T18:56:00,2022-08-30T20:10:43,-7,,Offset:-3.296,Normal
+10LA002,DeleteRegion,HG,2020-07-14T17:45:00,2020-07-14T18:55:00,2020-07-15T16:20:12,-7,resetting block,,Normal
+10LA002,DeleteRegion,HG,2020-07-08T08:04:35,2020-07-14T17:40:00,2020-07-21T22:30:34,-7,orifice out of the water,,Normal
+10LA002,CopyPaste,QR,2020-07-08T08:00:00,2020-07-14T17:55:00,2022-09-15T20:33:42,-7,"Filling in data gap, used 10MC002 as guideOverride: Log Linear‌Q(t) = 585.295e^(-0.10543264728882247t)‌",,Normal
+10LA002,DeleteRegion,HG,2020-07-05T13:33:42,2020-07-07T06:19:05,2020-07-21T22:31:13,-7,orifice out of the water,,Normal
+10LA002,CopyPaste,QR,2020-07-05T13:30:00,2020-07-07T06:20:00,2022-09-15T20:36:21,-7,"fillng in data gap, used 10MC002 as guide.Override: Log Linear‌Q(t) = 584.9095e^(0.002319669313073383t)‌",,Normal
+10LA002,DeleteRegion,HG,2020-06-29T18:57:43,2020-07-03T04:32:14,2020-07-21T22:32:38,-7,orifice out of the water,,Normal
+10LA002,CopyPaste,QR,2020-06-29T18:55:00,2020-07-03T04:35:00,2022-09-15T20:29:52,-7,"Filled in data gap, used 10MC002 discharge as guide. brought 10LA002 down the same percentage as 10MC002Override: Log Linear‌Q(t) = 585.295e^(0.0009662107215466049t)‌",,Normal
+10LA002,DeleteRegion,HG,2020-06-08T05:27:43,2020-06-22T22:24:23,2020-07-21T22:31:47,-7,Orifice out of the water,,Normal
+10LA002,DeleteRegion,HG,2020-06-04T20:20:00,2020-06-08T17:35:00,2020-06-08T19:13:09,-7,suspect that line is now out of water,,Normal
+10LA002,DeleteRegion,HG,2020-05-12T16:30:00,2020-05-27T18:00:00,2020-05-27T22:10:57,-7,out of gas,,Normal
+10LA002,Deviation,HG,2020-04-07T10:15:00,2020-05-11T07:00:00,2020-04-08T16:24:38,-7,,"DeviationValue:0.01,DeviationType:DeviationFromMinimum,WindowSizeInMinutes:121",Normal
+10LA002,AdjustableTrim,HG,2020-04-06T04:05:00,2020-04-07T19:35:00,2020-04-07T20:21:11,-7,,"UpperThresholdPoints:(Time:2020-04-06T04:05:00Z,Value:2.1104021730833487);(Time:2020-04-07T19:35:00Z,Value:2.1104021730833487),TrimAction:Delete",Normal
+10LA002,CopyPaste,HG,2020-03-28T13:35:00,2020-03-28T16:40:00,2022-08-30T20:54:33,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,Normal
+10LA002,DeleteRegion,HG,2020-03-21T01:10:00,2020-05-12T16:25:00,2022-09-15T15:23:04,-7,Unusable as station is very low on gas and no visit to bookend the SRC due to covid,,Normal
+10LA002,AdjustableTrim,HG,2020-03-20T18:20:00,2020-04-06T16:35:00,2020-04-06T17:15:09,-7,Removing positive spikes,"UpperThresholdPoints:(Time:2020-03-20T18:20:00Z,Value:2.087472442040198);(Time:2020-03-20T23:22:54.329Z,Value:1.9275102623848888);(Time:2020-03-22T03:25:39.035Z,Value:2.084742712154109);(Time:2020-04-06T16:35:00Z,Value:2.087472442040198),TrimAction:Delete",Normal
+10LA002,DeleteRegion,HG,2020-02-28T13:10:00,2020-02-28T13:10:00,2020-03-12T21:06:03,-7,,,Normal
+10LA002,AdjustableTrim,HG,2020-02-09T21:30:00,2020-02-22T15:25:00,2021-11-03T14:35:44,-7,removing negative data spikes,"LowerThresholdPoints:(Time:2020-02-09T21:30:00Z,Value:1.3647221172022688);(Time:2020-02-22T15:25:00Z,Value:1.3647221172022688),TrimAction:Delete",Normal
+10LA002,DeleteRegion,HG,2020-02-02T21:25:00,2020-02-02T21:25:00,2020-02-24T23:13:46,-7,Delete region - data spike,,Normal
+10LA002,CopyPaste,HG,2020-01-14T21:10:00,2020-03-19T14:25:00,2022-08-30T20:53:20,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,Normal
+10LA002,Offset,HG,2020-01-14T21:10:00,2020-05-12T16:25:00,2022-08-30T20:55:19,-7,SRC - Jan 14 Visit brought forward to end of record,Offset:-0.128,Normal
+10LA002,DeleteRegion,HG,2020-01-14T21:05:00,2020-01-14T21:05:00,2020-04-08T14:16:38,-7,,,Normal
+10LA002,Drift,HG,2020-01-01T23:00:00,2020-01-13T19:30:00,2022-08-30T20:57:18,-7,Aligning copy pasted data,"DriftPoints:(Offset:-0.11444174648618,Time:2020-01-01T23:00:00Z);(Offset:-0.12654864604925709,Time:2020-01-13T19:30:00Z)",Normal
+10LA002,CopyPaste,HG,2020-01-01T23:00:00,2020-01-13T19:30:00,2022-08-30T20:56:35,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LA002, time shift: 00:00 minutes.‌",,PreProcessing
+10LA002,CopyPaste,QR,2019-10-19T01:55:00,2020-01-14T20:15:00,2021-11-03T15:56:07,-7,Recession going from start of backwater ice conditions to first winter measurementOverride: Log Linear‌Q(t) = 103.0697392562058e^(-0.014607364574157048t)‌,,Normal
+10LA002,SinglePoint,HG,2019-09-08T20:14:59,2019-09-08T20:14:59,2023-02-24T21:00:09,-7,single point data correction for DWL reading,Value:3.204,Normal
+10LA002,FillGaps,QR,2019-08-16T01:00:00,2019-08-16T03:05:00,2021-11-03T16:43:20,-7,,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+10LA002,FillGaps,QR,2019-08-14T02:25:00,2019-08-14T04:30:00,2021-11-03T16:42:50,-7,,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+10LA002,FillGaps,QR,2019-08-10T12:20:00,2019-08-10T15:00:00,2021-11-03T16:42:16,-7,,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+10LA002,CopyPaste,QR,2019-06-27T23:30:00,2019-06-28T01:45:00,2021-11-03T15:53:01,-7,Override: Linear‌Q(t) = (-41.37512383679435)t + 322.25302236936295‌,,Normal
+10LA002,Drift,QR,2019-06-24T19:40:00,2019-06-26T18:15:00,2021-11-03T15:28:49,-7,,"DriftPoints:(Offset:-548,Time:2019-06-24T19:40:00Z);(Offset:-483,Time:2019-06-26T18:15:00Z)",Normal
+10LA002,CopyPaste,QR,2019-06-24T19:40:00,2019-06-26T18:15:00,2021-11-03T15:29:42,-7,,,Normal
+10LA002,Drift,QR,2019-06-12T06:00:00,2019-06-14T19:00:00,2021-11-03T15:06:22,-7,moving copy pasted data to correct level,"DriftPoints:(Offset:-523,Time:2019-06-12T06:00:00Z);(Offset:-549,Time:2019-06-14T19:00:00Z)",Normal
+10LA002,CopyPaste,QR,2019-06-12T06:00:00,2019-06-14T19:00:00,2021-11-03T15:31:55,-7,,,Normal
+10LA002,SinglePoint,HG,2019-05-16T18:25:00,2019-05-16T18:25:00,2023-02-24T21:01:00,-7,DWL single point created,Value:4.64,Normal
+10LA002,CopyPaste,QR,2019-05-12T20:25:00,2019-05-16T18:30:00,2023-02-24T20:43:17,-7,Estimated peak discharge by taking the highwater mark and applying a 1.5m shift to determine a peak flow of approximately 1200. then blended in to match slopes coming into and going out of peakOverride: Log Linear‌Q(t) = 861.1281171875457e^(0.005655922371293681t)‌,,Normal
+10LA002,CopyPaste,QR,2019-05-08T07:05:00,2019-05-11T04:20:00,2021-11-09T22:42:50,-7,Override: Log Linear‌Q(t) = 30.9e^(0.403533978188323t)‌,,Normal
+10LA002,CopyPaste,QR,2019-05-08T06:35:00,2019-05-11T03:50:00,2021-11-09T22:44:32,-7,smoothing recession,,Normal
+10LA002,CopyPaste,QR,2019-04-27T07:50:00,2019-05-08T07:00:00,2021-11-09T22:40:24,-7,Override: Log Linear‌Q(t) = 18.2e^(0.048273705468155036t)‌,,Normal
+10LA002,CopyPaste,QR,2019-04-11T23:00:00,2019-04-27T07:45:00,2021-11-09T22:38:25,-7,Override: Log Linear‌Q(t) = 18.766931818181817e^(-0.0019964603324832317t)‌,,Normal
+10LA002,CopyPaste,QR,2019-02-28T19:32:30,2019-04-11T22:56:00,2021-11-09T22:34:42,-7,Override: Log Linear‌Q(t) = 20.410624903778107e^(-0.0018099960273071666t)‌,,Normal
+10LA002,FillGaps,QR,2018-12-27T02:35:00,2018-12-30T10:25:00,2021-03-02T23:06:09,-7,,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
+10LA002,CopyPaste,HG,2018-12-26T12:35:00,2018-12-26T17:40:00,2020-10-20T19:52:42,-7,"Override: Copy & Paste‌Source signal: Stage.Logger@10LA002, time shift: 0 minutes.‌",,PreProcessing
+10LA002,CopyPaste,QR,2018-11-28T21:30:00,2019-02-28T19:30:00,2021-11-09T22:33:27,-7,Override: Log Linear‌Q(t) = 35.051502565318074e^(-0.005895080291292985t)‌,,Normal
+10LA002,Drift,QR,2018-10-09T05:30:00,2018-11-10T00:35:00,2020-02-26T17:57:58,-7,"Smoothing Recession Curve   Drift Correction of (Date/Time, Diff): (2018-10-08 22:30:00, 0.000m^3/s), (2018-10-09 22:42:00, -13.459m^3/s), (2018-10-10 18:52:00, -16.698m^3/s), (2018-10-11 19:04:00, -16.053m^3/s), (2018-10-15 15:50:00, -17.039m^3/s), (2018-11-09 17:35:00, 0.000m^3/s)","DriftPoints:(Offset:0,Time:2018-10-09T05:30:00Z);(Offset:-13.459489445774935,Time:2018-10-10T05:42:00Z);(Offset:-16.698031523455043,Time:2018-10-11T01:52:00Z);(Offset:-16.05328068054979,Time:2018-10-12T02:04:00Z);(Offset:-17.039261470494097,Time:2018-10-15T22:50:00Z);(Offset:0,Time:2018-11-10T00:35:00Z)",Normal
+10LA002,CopyPaste,QR,2018-10-09T03:35:00,2018-11-28T21:25:00,2021-11-09T22:31:38,-7,Smoothing recession curveOverride: Log Linear‌Q(t) = 116.00481905367107e^(-0.023534955194743804t)‌,,Normal
+10LA002,CopyPaste,QR,2018-05-08T20:25:00,2018-05-11T12:20:00,2023-02-24T19:19:22,-7,Using recession to transition through ice jamsOverride: Log Linear‌Q(t) = 376.5452784289449e^(0.2885452923037696t)‌,,Normal

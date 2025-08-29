@@ -1,0 +1,15 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02GB007,25,Curve is difficult due to wooded area around gauge that produces fallen trees in muddy banks.,LogarithmicTable,Final/Finales,(3.13:1.05);(1.04);
+02GB007,24,First HWS Curve,LogarithmicTable,Final/Finales,(1.05);
+02GB007,23.000,curve extended 2011-10-10 to 6.3m.,LinearTable,Final/Finales,
+02GB007,23.000-SC5,,LinearTable,Final/Finales,
+02GB007,23.000-SC4,,LinearTable,Final/Finales,
+02GB007,23.000-SC3,,LinearTable,Final/Finales,
+02GB007,22.000,dwnstm. log jam removed 23jan03,LinearTable,Final/Finales,
+02GB007,22.000-SC2,,LinearTable,Final/Finales,
+02GB007,21.000-SC1,,LinearTable,Final/Finales,
+02GB007,21.000,minor slope revisions apr 18 2002.Not a change.,LinearTable,Final/Finales,
+02GB007,20.000,,LinearTable,Final/Finales,
+02GB007,19.000,,LinearTable,Final/Finales,
+02GB007,18.000,,LinearTable,Final/Finales,
+02GB007,17.000,,LinearTable,Final/Finales,

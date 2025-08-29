@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "05RC001_Station",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "05RC001", "NameNom": "BERENS RIVER ABOVE BERENS LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "ON", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -93.52122, 51.80983 ] } }
+]
+}

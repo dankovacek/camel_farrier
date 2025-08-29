@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MH155_Station",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MH155", "NameNom": "NICOMEKL RIVER AT 203 STREET, LANGLEY", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -122.6601, 49.0957 ] } }
+]
+}

@@ -1,0 +1,13 @@
+STATION_NUMBER,REMARK_TYPE_CODE,YEAR,REMARK_EN,REMARK_FR
+05OA007,2,2008,STAGE AND DISCHARGE DATA DURING APRIL 2014 TO BE USED WITH CAUTION,
+05OA007,2,2012,Instantaneous discharges between March 22 and 27th should be used with caution; however daily values are considered valid.,
+05OA007,2,2013,The stage data between May 7th and July 9th is considered good but the orifice end was buried in shale stones and produced periods of spiky and blocky data. The overall daily values are considered valid.,
+05OA007,2,2017,Data from April 14 to May 17 should be used with caution.,
+05OA007,2,2018,Station was relocated 20171025; 2018 is the first year of record at the new location on Hwy 5. Stage record was invalid March 1-April 11 due to ice affecting the orifice. There is no discharge data for 2018 due to a new stage-discharge relationship being in development.,
+05OA007,2,2019,"The range of stage for 2018 and 2019 was inadequate to define a new curve for this location, therefore no discharges were produced.",
+05OA007,2,2020,"The range of stage for 2018 - 2020 was inadequate to define a new curve for this location, therefore no discharges were produced.
+Stage data April 02-08 should be used with caution.
+Due to measures in place to limit the spread of the coronavirus, regular visits to this station were reduced or no longer conducted throughout the period from March 2020 to December 2020. This may have affected data quality.
+",
+05OA007,2,2021,2021 is the first year of discharge computation since the gauge was relocated in 2018.,
+05OA007,2,2023,Maximum instantaneous discharge invalid due to ice. ,

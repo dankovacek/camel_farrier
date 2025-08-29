@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "01DG003_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "01DG003", "NameNom": "BEAVERBANK RIVER NEAR KINSAC", "Status": "active", "Etat": "en service", "ProvTerr": "NS" }, "geometry": { "type": "Point", "coordinates": [ -63.66387, 44.85121 ] } }
+]
+}

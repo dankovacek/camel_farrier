@@ -1,0 +1,22 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02ZE004,23.0,Curve #23.00 is a clone of #22.01 with couple of small refinements in the low to medium stages of the curve based on 4 open water measurements taken in 2022.,LogarithmicTable,Provisional/Provisoire,(1.71);
+02ZE004,22.01,Curve #22.01 is an exact clone of curve #22.00.  This curve was only created to cover the stage range for 2021.,LogarithmicTable,Final/Finales,(1.71);
+02ZE004,22.0,Refinement and slight change of Curve# 21.00 on low to medium end of curve based on 2020 measurements.,LogarithmicTable,Final/Finales,(1.71);
+02ZE004,21.0,Refinement and slight change of Curve# 20.01 on low and high end of curve based on 2017 measurements.,LogarithmicTable,Final/Finales,(1.8897:1.71);(1.72);
+02ZE004,20.01,Refinement and slight change of Curve#19 using 2015 MM results and RTD. Only Mm's from 2015 were used below GH 1.900; Curve 20.01 is an extension of # 20 to cover range for 2016,LogarithmicTable,Final/Finales,(1.8897:1.71);(1.72);
+02ZE004,20.0,Refinement and slight change of Curve#19 using 2015 MM results and RTD. Only Mm's from 2015 were used below GH 1.900,LogarithmicTable,Final/Finales,(1.8897:1.71);(1.72);
+02ZE004,19.0,Refinement of Curve#18 using 2012 MM results and RTD,LogarithmicTable,Final/Finales,(1.7);
+02ZE004,18.0,Refinement between 2.1 and 2.5 meters.,LinearTable,Final/Finales,
+02ZE004,17.0,HQFIT1.0.  Low water change below 1.955meters,LinearTable,Final/Finales,
+02ZE004,16.0,HQFIT1.0 - Refinement below 2.1 meters.,LinearTable,Final/Finales,
+02ZE004,15.0,# 14 refinement below 1.9. Change b/w 2.0m - 2.5m.,LinearTable,Final/Finales,
+02ZE004,14.0,# 14 refinement below 1.9. Change b/w 2.0m - 2.5m.,LinearTable,Final/Finales,
+02ZE004,13.0,Curve # 13 low water refinement of 12 below 1.89.,LinearTable,Final/Finales,
+02ZE004,12.0,Curve # 12 low water refinement of 11 below 1.94,LinearTable,Final/Finales,
+02ZE004,11.0,curve # 10 low water refinement based on 2001 mm,LinearTable,Final/Finales,
+02ZE004,10.0,,LinearTable,Final/Finales,
+02ZE004,9.0,,LinearTable,Final/Finales,
+02ZE004,8.0,,LinearTable,Final/Finales,
+02ZE004,7.0,,LinearTable,Final/Finales,
+02ZE004,6.0,,LinearTable,Final/Finales,
+02ZE004,5.0,,LinearTable,Final/Finales,

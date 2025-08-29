@@ -1,0 +1,16 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08KA005,31.00,"Curve made using 2020 - May 2022 measurements. Curve 30.00 used as a start point. Kept break point stage the same, increased upper offset, and tweaked rating points.",LogarithmicTable,Provisional/Provisoire,(4.005:1.21);(2.4);
+08KA005,30.000,,LogarithmicTable,Final/Finales,(4.005:1.21);(1.95);
+08KA005,29.000,same break point but changes to slope and offset,LogarithmicTable,Final/Finales,(3.993:1.21);(1.95);
+08KA005,28.000,,LogarithmicTable,Final/Finales,(3.993:2.68);(2.569);
+08KA005,27.000,coincident with table 25 3.7m and above,LinearTable,Final/Finales,
+08KA005,26.000,coincident with table 25 6m and above,LinearTable,Final/Finales,
+08KA005,25.000,table 25 coincident with 24 below3.1 and 4.1 above,LinearTable,Final/Finales,
+08KA005,24.000,table 24 coincident with 23 at 4.0m and above,LinearTable,Final/Finales,
+08KA005,23.000,no change in 2006,LinearTable,Final/Finales,
+08KA005,22.000,,LinearTable,Final/Finales,
+08KA005,21.000,,LinearTable,Final/Finales,
+08KA005,20.000,,LinearTable,Final/Finales,
+08KA005,19.000,Shift During ice conditions,LinearTable,Final/Finales,
+08KA005,18.000,,LinearTable,Final/Finales,
+08KA005,18.000-SC1,,LinearTable,Final/Finales,

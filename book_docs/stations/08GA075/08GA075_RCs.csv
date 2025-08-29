@@ -1,0 +1,28 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08GA075,35.00,"A large rain event on 2021-11-15 resulted in significant degradation of the material at the confluence of Mamquam River and Ring Creek. This scour event altered the stage-discharge relationship at the Mamquam River gauging location. Curve #35.00 was developed using the measurements from 2022-2023 and meant to be a median, best fit curve to pivot from. Curve #35.00 is active from the receding limb of the 2021-11-15 rain event where the resulting discharge is equivalent to the discharge produced by curve #34.00. The upper end of the curve is based on the 2012 high water measurement and the estimation grade is based on the 1990 high water measurement. The low-end estimation grade is based on the 1997 low water measurement.",LogarithmicTable,Provisional/Provisoire,(0.59);
+08GA075,34.000,Curve re-defined significantly following high water event in 2015,LogarithmicTable,Final/Finales,(0.893);
+08GA075,33.000,,LogarithmicTable,Final/Finales,(1.22);
+08GA075,32.000,,LogarithmicTable,Final/Finales,(1.814:1);(1.51);
+08GA075,31.1,,LogarithmicTable,Final/Finales,(1.4);
+08GA075,31.00,,LogarithmicTable,Final/Finales,(1.4);
+08GA075,30.000,Coincident with #29 above GH=3.0m,LinearTable,Final/Finales,
+08GA075,29.000,#29 is curve #23 with shift left btw GH 1.7m-2.4m,LinearTable,Final/Finales,
+08GA075,28.000,coincident with T#27 at & above GH=3.700m,LinearTable,Final/Finales,
+08GA075,27.000,T#27 is coincident with T#26 at & above GH=3.300m,LinearTable,Final/Finales,
+08GA075,26.000,T#26 is coincident with T#25 at & above GH=3.100m,LinearTable,Final/Finales,
+08GA075,25.000,T#25 is coincident with T#24 at & above GH=3.200m,LinearTable,Final/Finales,
+08GA075,24.000,T#24 is coincident with T#23 at & abv GH=2.80m,LinearTable,Final/Finales,
+08GA075,23.000,T#23 is coincident with T#22 at & abv GH=3.80m,LinearTable,Final/Finales,
+08GA075,22.000,,LinearTable,Final/Finales,
+08GA075,21.000,,LinearTable,Final/Finales,
+08GA075,20.000,,LinearTable,Final/Finales,
+08GA075,19.000,,LinearTable,Final/Finales,
+08GA075,18.000,,LinearTable,Final/Finales,
+08GA075,17.000,,LinearTable,Final/Finales,
+08GA075,16.000-SC3,,LinearTable,Final/Finales,
+08GA075,16.000,,LinearTable,Final/Finales,
+08GA075,15.000-SC2,,LinearTable,Final/Finales,
+08GA075,15.000,,LinearTable,Final/Finales,
+08GA075,14.000,,LinearTable,Final/Finales,
+08GA075,14.000-SC1,,LinearTable,Final/Finales,
+08GA075,13.000,,LinearTable,Final/Finales,

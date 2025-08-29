@@ -1,0 +1,12 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07JA003,13.000,The gauge pool was noticeably lower after the June 2018 high water event and has remained lower in 2019. It took the rest of the 2018 season for the channel to clear deposited debris and return to an equilibrium in 2019. Offset obtained from subtracting the max measured depth during the 2018/10/24 measurement from the stage.,LogarithmicTable,Provisional/Provisoire,(1.39);
+07JA003,12.0,,LogarithmicTable,Final/Finales,(2.3:1.4);(1.2);
+07JA003,11.000,NEW CURVE PRODUCED IN RDT,LogarithmicTable,Final/Finales,(-0.4);
+07JA003,10.001,Same as curve No. 10 Renamed cloned curve C10. 10.001,LinearTable,Final/Finales,
+07JA003,10.000,Same as curve No. 9 above 3.449m,LinearTable,Final/Finales,
+07JA003,9.000,HQFIT1.0,LinearTable,Final/Finales,
+07JA003,9.000-SC2,,LinearTable,Final/Finales,
+07JA003,8.000,Same as curve#7 below 3.28m. Extended Apr.24/08,LinearTable,Final/Finales,
+07JA003,7.000,extended curve to 5.52 m 2003-12-17,LinearTable,Final/Finales,
+07JA003,7.000-SC1,,LinearTable,Final/Finales,
+07JA003,6.000,,LinearTable,Final/Finales,

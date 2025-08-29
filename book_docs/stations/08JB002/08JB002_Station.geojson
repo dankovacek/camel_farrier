@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08JB002_Station",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08JB002", "NameNom": "STELLAKO RIVER AT GLENANNAN", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -125.0089, 54.0078 ] } }
+]
+}

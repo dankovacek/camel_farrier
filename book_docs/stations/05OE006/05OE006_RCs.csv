@@ -1,0 +1,13 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05OE006,28.100,new curve for 2015 and 2016,LogarithmicTable,Provisional/Provisoire,(3.191:0.752);(1.05);
+05OE006,27.000,Revised  Curve #26 based o June 13/06 mmt.,LinearTable,Final/Finales,
+05OE006,27.000-SC2,,LinearTable,Final/Finales,
+05OE006,27.000-SC1,,LinearTable,Final/Finales,
+05OE006,26.000,Same as curve #25 above 1.650,LinearTable,Final/Finales,
+05OE006,25.000,Curve #25 + curve #24 above 2.100 m.,LinearTable,Final/Finales,
+05OE006,24.000,,LinearTable,Final/Finales,
+05OE006,23.000,,LinearTable,Final/Finales,
+05OE006,22.000,,LinearTable,Final/Finales,
+05OE006,21.000,,LinearTable,Final/Finales,
+05OE006,20.000,,LinearTable,Final/Finales,
+05OE006,19.000,,LinearTable,Final/Finales,

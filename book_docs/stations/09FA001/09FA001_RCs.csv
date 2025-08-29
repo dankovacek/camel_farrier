@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+09FA001,15.0,SEE FULL DOCUMENT AT Z:Stations09FA00109FA001_CURVE_15_00.,LogarithmicTable,Provisional/Provisoire,(1);
+09FA001,14.0,"Several attempts to create single equation curve were unsuccessful. 2017 & 2018 measurements suggest significant change to the low end, deviation from the 1996 measurements and likely breakpoint(s) in the 1.8m range. Drew curve with manually entered rating points at 1.7, 1.8 & 1.9m. Used old school method to ensure the incremental differences followed the increase or stay the same rule""-WH.""",LogarithmicTable,Final/Finales,(0.5);
+09FA001,13.0,"Station reactivated July 21, 2015.",LogarithmicTable,Final/Finales,(0.3);
+09FA001,1.0,,LogarithmicTable,Final/Finales,(-0.3);

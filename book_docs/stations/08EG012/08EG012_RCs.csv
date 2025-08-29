@@ -1,0 +1,17 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08EG012,31.0,Shift from Curve 30.000 during highwater.,LogarithmicTable,Provisional/Provisoire,(0.17);
+08EG012,30.0,Shift from curve 29.0 under ice.,LogarithmicTable,Final/Finales,(1.45:0.245);(0.245);
+08EG012,29.0,,LogarithmicTable,Final/Finales,(0.14);
+08EG012,28.0,"Approved: Shift during ice, coin w #27 ab 2.4",LinearTable,Final/Finales,
+08EG012,28.0,"Approved: Shift during ice, coin w #27 ab 2.4",LinearTable,Final/Finales,
+08EG012,27.0,APPROVEDShift during ice period-coin w/26 ab1.200m,LinearTable,Final/Finales,
+08EG012,26.0,APPROVED Coinc. w/ #23 @ and ab 8m  5 day shift,LinearTable,Final/Finales,
+08EG012,25.0,APPROVEDReinterpret 24 after determining JanWL nfg,LinearTable,Final/Finales,
+08EG012,23.0,,LinearTable,Final/Finales,
+08EG012,22.0,,LinearTable,Final/Finales,
+08EG012,21.0,,LinearTable,Final/Finales,
+08EG012,20.0,,LinearTable,Final/Finales,
+08EG012,19.0,,LinearTable,Final/Finales,
+08EG012,18.0,,LinearTable,Final/Finales,
+08EG012,17.0,,LinearTable,Final/Finales,
+08EG012,15.0,,LinearTable,Final/Finales,

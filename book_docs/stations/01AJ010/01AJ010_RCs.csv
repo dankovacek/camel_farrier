@@ -1,0 +1,18 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+01AJ010,30.00,Single equation rating curve to adjust low-mid range based on 2021 and 2022 measurements,LogarithmicTable,Provisional/Provisoire,(0.091);
+01AJ010,29.01,Clone of 29.00 for low end extension and to add estimated grades,LogarithmicTable,Final/Finales,(0.069);
+01AJ010,29.00,"To further define low-end shifting left from infilling (2015), and adjust top end based on 2018 high water event.",LogarithmicTable,Final/Finales,(0.069);
+01AJ010,28.00,Low end change to filling of section control from Oct 1-2 rain event.,LogarithmicTable,Final/Finales,(1.0254:0.08);(0.03);
+01AJ010,27.00,from Linear to Log-Log,LogarithmicTable,Final/Finales,(1.0254:0.03);(0.03);
+01AJ010,26.000,curve change and extension at top end,LinearTable,Final/Finales,
+01AJ010,25.000-SC4,,LinearTable,Final/Finales,
+01AJ010,25.000,low end refinement between 0.220 and 0.360 m,LinearTable,Final/Finales,
+01AJ010,25.000-SC3,,LinearTable,Final/Finales,
+01AJ010,24.000-SC2,,LinearTable,Final/Finales,
+01AJ010,23.000,REFINEMENT ABOVE 1.0 M BASED ON APR 10 00 MM,LinearTable,Final/Finales,
+01AJ010,23.000-SC1,,LinearTable,Final/Finales,
+01AJ010,22.000,,LinearTable,Final/Finales,
+01AJ010,21.000,,LinearTable,Final/Finales,
+01AJ010,20.000,,LinearTable,Final/Finales,
+01AJ010,19.000,,LinearTable,Final/Finales,
+01AJ010,18.000,,LinearTable,Final/Finales,

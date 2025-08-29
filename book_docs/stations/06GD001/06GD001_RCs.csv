@@ -1,0 +1,4 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+06GD001,6.0,LOG CURVE 2017,LogarithmicTable,Provisional/Provisoire,(118.807);
+06GD001,5.0,2016 S/D Relationship,LinearTable,Final/Finales,
+06GD001,4.0,,LinearTable,Final/Finales,

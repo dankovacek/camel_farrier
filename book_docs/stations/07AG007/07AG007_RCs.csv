@@ -1,0 +1,4 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07AG007,6.0,New curve developed to replace imported Compumod curve.,LogarithmicTable,Provisional/Provisoire,(0.953);
+07AG007,5.0,Same as Curve#4 above 2.100,LinearTable,Final/Finales,
+07AG007,4.0,Extended low end to 1.00m 01-23-04.,LinearTable,Final/Finales,

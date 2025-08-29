@@ -1,0 +1,27 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08FE003,53.02,Clone of Curve 53.00 with revised grades based on 2021-06-14 and 2021-01-28 measurements.,LogarithmicTable,Provisional/Provisoire,(0.934);
+08FE003,53.01,"Clone of Curve 53.00 with revised grades based on 2020-09-15 and 2021-01-28 (slight ""B"" - shifted to right of mmnt) measurements. Curve applied at peak of high flow event on 2020-08-14. Low rating uncertainty following high flows in autum 2020 so new curve grading is conservative.",LogarithmicTable,Final/Finales,(0.934);
+08FE003,53.0,General aggradation trend at control - several high water events continued to fill in control. Curve modified to fit 2016/2017 data.,LogarithmicTable,Final/Finales,(0.934);
+08FE003,52.0,General aggradation trend at control - several high water events continued to fill in control. Curve modified to fit 2016/2017 data.,LogarithmicTable,Final/Finales,(0.621);
+08FE003,51.0,Scouring as WL rising,LogarithmicTable,Final/Finales,(0.656);
+08FE003,50.0,Shift over ice periods,LogarithmicTable,Final/Finales,(0.8);
+08FE003,49.0,Approved. Estimated shift below1.2m.,LinearTable,Final/Finales,
+08FE003,48.0,Approved.  Shift at HW.,LinearTable,Final/Finales,
+08FE003,47.0,Approved: - Shift at beginning of year,LinearTable,Final/Finales,
+08FE003,44.02,APPROVED,LinearTable,Final/Finales,
+08FE003,46.01,APPROVED,LinearTable,Final/Finales,
+08FE003,44.01,APPROVED River still transitioning since 2004,LinearTable,Final/Finales,
+08FE003,46.0,PRELIMINARY CURVE TABLE - NOT APPROVED,LinearTable,Final/Finales,
+08FE003,45.0,HIGH WATER SHIFT - UNSTABLE STREAMBED,LinearTable,Final/Finales,
+08FE003,44.0,ROCKSLIDE PROTRUDED INTO RIVER CHANNEL,LinearTable,Final/Finales,
+08FE003,43.0,HIGH WATER SHIFT,LinearTable,Final/Finales,
+08FE003,42.0,,LinearTable,Final/Finales,
+08FE003,40.02,,LinearTable,Final/Finales,
+08FE003,41.0,,LinearTable,Final/Finales,
+08FE003,40.0,,LinearTable,Final/Finales,
+08FE003,39.0,,LinearTable,Final/Finales,
+08FE003,38.0,,LinearTable,Final/Finales,
+08FE003,37.0,,LinearTable,Final/Finales,
+08FE003,36.0,,LinearTable,Final/Finales,
+08FE003,35.0,,LinearTable,Final/Finales,
+08FE003,34.0,,LinearTable,Final/Finales,

@@ -1,0 +1,21 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+01EE005,25.0,Mid to low end changes based on 2020 and early 2021 mm. Shifting was not possible due to unrealistic extension requirments for R24.00  to meet the required stage range for the shift.,LogarithmicTable,Provisional/Provisoire,(1.326:0.715);(1.81817:0.8);(0.8);
+01EE005,24.0,Low end change based on 2019-06-05 mmt and 2019-12-09,LogarithmicTable,Final/Finales,(1.318:0.705);(1.81817:0.8);(0.8);
+01EE005,23.0,New low end developed based on 2018 MM's. Refinement at the mid range.,LogarithmicTable,Final/Finales,(1.2273:0.706);(1.81817:0.8);(0.8);
+01EE005,22.0,New low end developed based on 2016 historical mmts.,LogarithmicTable,Final/Finales,(1.24537:0.694);(1.81817:0.8);(0.8);
+01EE005,21.0,New curve developed based on 2015 meaurement results. Curve started after April 22 rain event based on proceeding measuremnet results.,LogarithmicTable,Final/Finales,(1.22798:0.71);(0.702);
+01EE005,20.0,,LogarithmicTable,Final/Finales,(1.1486:0.43);(0.75);
+01EE005,19.0,Low end curve change 1.191m and below. Cruve Refinement from 1.191m to 1.150m,LogarithmicTable,Final/Finales,(1.1931:0.71);(0.92);
+01EE005,18.0,,LogarithmicTable,Final/Finales,(0.61);
+01EE005,17.0,High end Refinement Low end change 0.80-1.325,LinearTable,Final/Finales,
+01EE005,16.0,No change. 2009-06-16 MM not used (training),LinearTable,Final/Finales,
+01EE005,15.0,,LinearTable,Final/Finales,
+01EE005,14.0,,LinearTable,Final/Finales,
+01EE005,13.0,Based on 2004 MM Results,LinearTable,Final/Finales,
+01EE005,12.0,,LinearTable,Final/Finales,
+01EE005,11.0,,LinearTable,Final/Finales,
+01EE005,10.0,,LinearTable,Final/Finales,
+01EE005,9.0,,LinearTable,Final/Finales,
+01EE005,8.0,,LinearTable,Final/Finales,
+01EE005,7.0,,LinearTable,Final/Finales,
+01EE005,6.0,,LinearTable,Final/Finales,

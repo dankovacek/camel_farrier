@@ -1,0 +1,16 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05NF002,20.002,CURVE 20.000 ADJUSTED TO display flow at zero. 2021 and 2022 stage below curve; cloned for 20.002. Same as 20.001 above 1.366 m. -LW. Approved 2023-01-20 ESL,LogarithmicTable,Provisional/Provisoire,(1.362);
+05NF002,20.001,CURVE 20.000 ADJUSTED TO display flow at zero,LogarithmicTable,Final/Finales,(1.362);
+05NF002,20.000,2014 High water event - CURVE 19.000 ADJUSTED TO FIT MODIFIED HIGH WATER MMTS,LogarithmicTable,Final/Finales,(1.362);
+05NF002,15.000,,LinearTable,Final/Finales,
+05NF002,18.00,"Extended curve down to 0.001, same slope.",LogarithmicTable,Final/Finales,(1.34);
+05NF002,17.000,,LinearTable,Final/Finales,
+05NF002,15.100,Same as Curve 15,LinearTable,Final/Finales,
+05NF002,16.000,Same as curve#15 above 3.000 m.,LinearTable,Final/Finales,
+05NF002,16.000-SC5,,LinearTable,Final/Finales,
+05NF002,16.000-SC4,,LinearTable,Final/Finales,
+05NF002,15.000-SC3,,LinearTable,Final/Finales,
+05NF002,15.000-SC2,,LinearTable,Final/Finales,
+05NF002,15.000-SC1,,LinearTable,Final/Finales,
+05NF002,13.000,,LinearTable,Final/Finales,
+05NF002,14.000,,LinearTable,Final/Finales,

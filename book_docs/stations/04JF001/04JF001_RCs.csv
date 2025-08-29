@@ -1,0 +1,8 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+04JF001,9.000,New curve for ADCP mmts,LogarithmicTable,Provisional/Provisoire,(26.38);
+04JF001,8.000,,LogarithmicTable,Final/Finales,(27.905:26.8);(26.9);
+04JF001,7.000,,LinearTable,Final/Finales,
+04JF001,6.010-SC2,,LinearTable,Final/Finales,
+04JF001,6.010,Same as curve no -6 - with new re-activation date.,LinearTable,Final/Finales,
+04JF001,6.010-SC1,,LinearTable,Final/Finales,
+04JF001,6.000,,LinearTable,Final/Finales,

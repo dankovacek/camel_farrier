@@ -93,15 +93,20 @@ water_license_df = gpd.read_file(WATER_LICENSE_FILE)
 # convert to the same crs as the catchment polygons
 water_license_df = water_license_df.to_crs("EPSG:3857")
 
-random_idxs = station_df.sample(n=5, random_state=42).index
+n_to_generate = 500
+random_idxs = station_df.sample(n=n_to_generate, random_state=42).index
 
 query_quality_codes(conn, BOOK_DIR / "station_pages")
 query_precision_codes(conn, BOOK_DIR / "station_pages")
 
-for i, row in station_df.iloc[random_idxs].iterrows():
+selected_stns = station_df.iloc[random_idxs].copy().sort_values("STATION_NUMBER")
+
+n = 0
+for i, row in selected_stns.iterrows():
+    n += 1
     station_id = row["STATION_NUMBER"]
     station_name = row["STATION_NAME"]
-    print(f"Processing station: {station_name} ({station_id})")
+    print(f"Processing station {n}/{n_to_generate}: {station_name} ({station_id})")
     stn_output_folder = STATION_DATA_DIR / f"{station_id}"
     if not os.path.exists(stn_output_folder):
         os.makedirs(stn_output_folder)

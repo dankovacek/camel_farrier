@@ -1,0 +1,3 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10LD004,2.0,,LogarithmicTable,Provisional/Provisoire,(5.024:3.11);(3.3);
+10LD004,1.0,HQFit 1.0.1206.2 with est of zero flow and loglog.,LinearTable,Final/Finales,

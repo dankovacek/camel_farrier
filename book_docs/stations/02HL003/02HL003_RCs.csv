@@ -1,0 +1,13 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02HL003,17.01,Extended curve 17.00for 2019 high water,LogarithmicTable,Provisional/Provisoire,(12.17:11.71);(11.78);
+02HL003,17.000,CURVE DEVELOPED TO ACCOUNT FOR RECENT MMNTS,LogarithmicTable,Final/Finales,(12.17:11.71);(11.78);
+02HL003,16.000,New HWS Curve Begins,LogarithmicTable,Final/Finales,(12.1665:11.71);(11.78);
+02HL003,15.000,Curve 13 modified between 11.730 & 12.500 - End of Migrated Curve - New HWS Curve,LinearTable,Final/Finales,
+02HL003,14.000,Curve13 Mod btwn 11.775 &12.225 to accm 2009 mmnts,LinearTable,Final/Finales,
+02HL003,13.000,,LinearTable,Final/Finales,
+02HL003,12.000-SC1,,LinearTable,Final/Finales,
+02HL003,12.000,,LinearTable,Final/Finales,
+02HL003,11.000,,LinearTable,Final/Finales,
+02HL003,10.000,,LinearTable,Final/Finales,
+02HL003,9.000,,LinearTable,Final/Finales,
+02HL003,8.000,,LinearTable,Final/Finales,

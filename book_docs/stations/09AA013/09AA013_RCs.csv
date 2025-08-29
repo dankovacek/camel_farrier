@@ -1,0 +1,9 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+09AA013,20.0,Rating constructed with 2000-Present measurements. Acoustic measurements from 2016-2023 between the ~15-35cms range are discarded due to QA/QC concerns and nonsensical curve association. NO ESTIMATED grade applied at lower end. Rationale: Low flow occurs only in the winter. Winter measurements are consistently obtained and quality is good. In recent years these plot within 5% and therefore no shifting or grading is necessary. There is scatter at the very low end (which would be expected) and choosing a measurement to apply the �1/2� SOP rule would be difficult and subjective. Curve extended to �2x� highest (recent) measured discharge. No ESTIMATED grade applied. Benchmark elevations (BM 13: 12.722m is the lowest BM) suggest no control change occurs below it�s elevation. Measurements in this range will be required to verify or refute rating parameters.  See 09AA013_CURVE_20.00.DOCX for full analysis and documentation.,LogarithmicTable,Provisional/Provisoire,(10.1);
+09AA013,19.0,,LogarithmicTable,Final/Finales,(11.574:10.06);(10.37);
+09AA013,18.0,,LogarithmicTable,Final/Finales,(10.1);
+09AA013,17.0,APPROVED,LinearTable,Final/Finales,
+09AA013,16.0,APPROVED COINCIDENT TO TABLE 15 AT AND ABOVE 12.3,LinearTable,Final/Finales,
+09AA013,15.0,Coincides with #14 @ <12.372 and crosses at ~10.72,LinearTable,Final/Finales,
+09AA013,14.0,,LinearTable,Final/Finales,
+09AA013,13.0,,LinearTable,Final/Finales,

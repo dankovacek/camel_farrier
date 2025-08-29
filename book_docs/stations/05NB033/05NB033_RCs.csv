@@ -1,0 +1,6 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05NB033,5.0,,LogarithmicTable,Provisional/Provisoire,
+05NB033,4.0,,LogarithmicTable,Final/Finales,
+05NB033,3.0,SAME AS #2 BELOW 1.800 m,LinearTable,Final/Finales,
+05NB033,2.0,,LinearTable,Final/Finales,
+05NB033,1.0,,LinearTable,Final/Finales,

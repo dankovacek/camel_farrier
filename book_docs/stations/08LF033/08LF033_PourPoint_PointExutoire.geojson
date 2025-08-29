@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LF033_PourPoint_PointExutoire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LF033", "NameNom": "THOMPSON RIVER NEAR SAVONA", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -120.87285, 50.75591 ] } }
+]
+}

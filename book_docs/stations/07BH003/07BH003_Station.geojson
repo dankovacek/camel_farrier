@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07BH003_Station",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07BH003", "NameNom": "DRIFTPILE RIVER NEAR DRIFTPILE", "Status": "active", "Etat": "en service", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -115.7966, 55.34665 ] } }
+]
+}

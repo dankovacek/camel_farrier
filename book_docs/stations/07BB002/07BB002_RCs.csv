@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07BB002,26.01,Extension of high end for June 2023 high water. New rating curve required as gauge location moved upstream in 2022,LogarithmicTable,Provisional/Provisoire,(2.384:1.203);(1.18);
+07BB002,26.0,New rating curve required as gauge location moved upstream in 2022,LogarithmicTable,Final/Finales,(2.384:1.203);(1.18);
+07BB002,25.0,New curve developed in Aquarius to modernize imported Compumod curve,LogarithmicTable,Final/Finales,(0.2913);
+07BB002,24.0,,LinearTable,Final/Finales,

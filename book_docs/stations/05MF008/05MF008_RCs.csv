@@ -1,0 +1,11 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05MF008,26.010,extension for 2022 high water,LogarithmicTable,Provisional/Provisoire,(608.732:605.965);(607.77);
+05MF008,26.000,new for 2020 after high water in summer,LogarithmicTable,Final/Finales,(608.732:605.965);(607.77);
+05MF008,25.00,CURVE 25.000 DESIGNED UNDER BACKWATER CAUSED BY DEBRIS ON D/S BRIDGE,LogarithmicTable,Final/Finales,(608.732:606.097);(607.43);
+05MF008,24.000,Same as curve # 23.01 below 608.100,LinearTable,Final/Finales,
+05MF008,23.100,,LinearTable,Final/Finales,
+05MF008,23.000,,LinearTable,Final/Finales,
+05MF008,22.000,,LinearTable,Final/Finales,
+05MF008,22.000-SC1,,LinearTable,Final/Finales,
+05MF008,21.000,,LinearTable,Final/Finales,
+05MF008,19.000,,LinearTable,Final/Finales,

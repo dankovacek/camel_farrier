@@ -1,0 +1,14 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+08MG013,SinglePoint,QR,2022-12-23T20:00:00,2022-12-23T20:00:00,2023-12-29T00:00:48,-8,ESTIMATED - Float frozen in well at 08MG012 and sensor was dry at 08MG022. Estimated based on a recession curve.,Value:72,Normal
+08MG013,SinglePoint,QR,2022-12-22T20:00:00,2022-12-22T20:00:00,2023-12-29T00:00:09,-8,ESTIMATED - Float frozen in well at 08MG012 and sensor was dry at 08MG022. Estimated based on a recession curve.,Value:70,Normal
+08MG013,SinglePoint,QR,2022-12-21T20:00:00,2022-12-21T20:00:00,2023-12-28T23:59:29,-8,ESTIMATED - Float frozen in well at 08MG012 and sensor was dry at 08MG022. Estimated based on a recession curve.,Value:80,Normal
+08MG013,SinglePoint,QR,2022-12-20T20:00:00,2022-12-20T20:00:00,2023-12-28T23:56:27,-8,ESTIMATED - Float frozen in well at 08MG012 and sensor was dry at 08MG022. Estimated based on a recession curve.,Value:95,Normal
+08MG013,SinglePoint,QR,2022-10-12T20:00:00,2022-10-12T20:00:00,2023-12-28T23:52:04,-8,ESTIMATED - Missing stage data for 08MG012. Estimated based off of stage trace for 08MG022.,Value:204,Normal
+08MG013,SinglePoint,QR,2022-06-14T20:00:00,2022-06-14T20:00:00,2023-12-28T23:47:47,-8,ESTIMATED - Missing stage data for 08MG022. Estimated based off of stage trace for 08MG012.,Value:1130,Normal
+08MG013,SinglePoint,QR,2022-06-13T20:00:00,2022-06-13T20:00:00,2023-12-28T23:46:37,-8,ESTIMATED - Missing stage data for 08MG022. Estimated based off of stage trace for 08MG012.,Value:1150,Normal
+08MG013,SinglePoint,QR,2022-06-12T20:00:00,2022-06-12T20:00:00,2023-12-28T23:45:30,-8,ESTIMATED - Missing stage data for 08MG022. Estimated based off of stage trace for 08MG012.,Value:1140,Normal
+08MG013,SinglePoint,QR,2022-06-11T20:00:00,2022-06-11T20:00:00,2023-12-28T23:41:08,-8,ESTIMATED - Missing stage data for 08MG022. Estimated based off of stage trace for 08MG012.,Value:1100,Normal
+08MG013,SinglePoint,QR,2022-06-10T20:00:00,2022-06-10T20:00:00,2023-12-28T23:44:36,-8,ESTIMATED - Missing stage data for 08MG022. Estimated based off of stage trace for 08MG012.,Value:1050,Normal
+08MG013,SinglePoint,QR,2019-02-09T20:00:00,2019-02-09T20:00:00,2021-06-24T21:10:17,-8,Overwritten J-Curve.  No Backwater.,Value:206,Normal
+08MG013,SinglePoint,QR,2019-02-04T20:00:00,2019-02-04T20:00:00,2021-06-24T21:09:29,-8,Overwritten J-Curve.  No Backwater.,Value:237,Normal
+08MG013,SinglePoint,QR,2019-02-03T20:00:00,2019-02-03T20:00:00,2021-06-24T21:08:50,-8,Overwritten J-Curve.  No Backwater.,Value:242,Normal

@@ -1,0 +1,20 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02FD003,14,New curve for mid section to account for transition zone changes.,LogarithmicTable,Provisional/Provisoire,(1.35:0.875);(2.17:1.15);(1.88);
+02FD003,13,Major Curve Change. Low stages shifted left due to major fill on control. High stage shift right due to bank scour. This change has been happening over the last 3 years. Curve is applied at a cross over point of the curve 12 and curve 13.,LogarithmicTable,Final/Finales,(1.4548:0.89);(2.2572:1.188);(1.188);
+02FD003,12,NEW HWS CURVE Low end redefinition due to srping highwater scour,LogarithmicTable,Final/Finales,(1.3332:0.989);(2.2785:1.038);(0.9);
+02FD003,11.0,NEW HWS CURVE Low end redefinition,LogarithmicTable,Final/Finales,(1.3405:1.043);(2.2785:1.038);(0.9);
+02FD003,10.0,NEW HWS CURVE,LogarithmicTable,Final/Finales,(1.199:0.996);(4.5229:1.087);(0.734);
+02FD003,9.00,NEW HWS CURVE,LogarithmicTable,Final/Finales,(1.69554:1.025);(1.1);
+02FD003,8.000,SAME AS CURVE #7.0 ABOVE 1.48,LinearTable,Final/Finales,
+02FD003,8.000-SC5,,LinearTable,Final/Finales,
+02FD003,7.000,SAME AS CURVE #6.00 BELOW 1.66,LinearTable,Final/Finales,
+02FD003,6.000,,LinearTable,Final/Finales,
+02FD003,5.000,EXTENDED FROM 3.00 TO 3.60 (03/13/09),LinearTable,Final/Finales,
+02FD003,5.000-SC4,,LinearTable,Final/Finales,
+02FD003,5.000-SC3,,LinearTable,Final/Finales,
+02FD003,4.000-SC2,,LinearTable,Final/Finales,
+02FD003,4.000,Same as #3 above 1.54 m.,LinearTable,Final/Finales,
+02FD003,3.000-SC1,,LinearTable,Final/Finales,
+02FD003,3.000,Same as #2 above 1.54 m.,LinearTable,Final/Finales,
+02FD003,2.000,Same as #1 below 2.35 m,LinearTable,Final/Finales,
+02FD003,1.000,,LinearTable,Final/Finales,

@@ -1,0 +1,9 @@
+STATION_NUMBER,REMARK_TYPE_CODE,YEAR,REMARK_EN,REMARK_FR
+10KD009,2,2006,WATER LEVEL RECORD IS CONSIDERED FAIR,ENREGISTREMENT DU NIVEAU D'EAU PASSABLE
+10KD009,2,2007,WATER LEVEL RECORD IS CONSIDERED FAIR,ENREGISTREMENT DU NIVEAU D'EAU PASSABLE
+10KD009,2,2008,WATER LEVEL RECORD IS CONSIDERED FAIR,ENREGISTREMENT DU NIVEAU D'EAU PASSABLE
+10KD009,2,2009,2009 WATER LEVEL RECORD IS CONSIDERED POOR,ENREGISTREMENT MEDIOCRE DU NIVEAU D'EAU
+10KD009,2,2010,2010 WATER LEVEL RECORD IS CONSIDERED POOR,ENREGISTREMENT MEDIOCRE DU NIVEAU D'EAU
+10KD009,2,2011,(Water Level) Data was referred to an assumed datum. (Discharge) Open water discharge (5.41cms) was estimated and should be used with discretion.,
+10KD009,2,2012,(Water Level) Data was referenced to MST. (Discharge) discharge values higher than 3.54 CMS and values lower than 0.575 CMS have been flagged as estimated and should be used with discretion.,
+10KD009,2,2013,"(Discharge) For 2013 data, discharge values higher than 3.54 m3 have been removed from the record. This value is twice the highest discharge measurement. (Water Level) Data was referenced to MST.",

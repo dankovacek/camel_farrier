@@ -1,0 +1,6 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05AH037,19.0,New log rating curve to better match the channel conditions. Vegetation causing backwater and significant scatter on low end throughout the season.,LogarithmicTable,Provisional/Provisoire,(0.686);
+05AH037,18.0,Curve 18.0 same as Curve 16.0,LinearTable,Final/Finales,
+05AH037,17.0,,LinearTable,Final/Finales,
+05AH037,16.0,,LinearTable,Final/Finales,
+05AH037,15.0,,LinearTable,Final/Finales,

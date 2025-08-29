@@ -1,0 +1,14 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02HD009,19,New curve based on spring 2017 HW measurementst. Curve 19 drawn to better define the rating and applied during a period of data estimated for ice effect.,LogarithmicTable,Provisional/Provisoire,(3.7399:3.275);(3.33);
+02HD009,18,Measurements collected in 2015-2016 prove the curve has shifted further to the right. Curve 18 drawn to better define the rating and applied during a period of data estimated for ice effect.,LogarithmicTable,Final/Finales,(3.33);
+02HD009,17,Control filled on RB,LogarithmicTable,Final/Finales,(3.32);
+02HD009,16,bottom of curve shifting right,LogarithmicTable,Final/Finales,(3.989:3.396);(3.46);
+02HD009,15,bottom of curve shifting right,LogarithmicTable,Final/Finales,(3.989:3.396);(3.46);
+02HD009,14.000,,LinearTable,Final/Finales,
+02HD009,14.000-SC3,,LinearTable,Final/Finales,
+02HD009,13.000,,LinearTable,Final/Finales,
+02HD009,12.000-SC2,,LinearTable,Final/Finales,
+02HD009,12.000-SC1,,LinearTable,Final/Finales,
+02HD009,12.000,,LinearTable,Final/Finales,
+02HD009,11.000,,LinearTable,Final/Finales,
+02HD009,10.000,,LinearTable,Final/Finales,

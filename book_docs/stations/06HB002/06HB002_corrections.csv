@@ -1,0 +1,149 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+06HB002,Offset,HG,2022-08-20T23:20:00,10000-01-01T00:00:00,2022-08-22T20:59:07,-7,SRC (NR) from 20220820 visit projected forward,Offset:-0.01,Normal
+06HB002,DeleteRegion,HG,2022-07-17T11:25:00,2022-07-17T11:25:00,2022-07-18T21:32:55,-7,deleted tx error ,,Normal
+06HB002,DeleteRegion,HG,2022-07-17T04:40:00,2022-07-17T04:40:00,2022-07-18T21:32:41,-7,tx error - delete ,,Normal
+06HB002,AdjustableTrim,HG,2022-06-25T17:20:00,2022-07-13T14:15:00,2022-07-15T17:18:28,-7,deleted tx errors,"LowerThresholdPoints:(Time:2022-06-25T17:20:00Z,Value:26.200385333903647);(Time:2022-07-13T14:15:00Z,Value:26.200385333903647),TrimAction:Delete",Normal
+06HB002,DeleteRegion,HG,2022-02-21T15:00:00,2022-02-21T15:00:00,2022-07-18T21:31:56,-7,delete tx errors ,,Normal
+06HB002,DeleteRegion,HG,2022-02-21T07:10:00,2022-02-21T07:10:00,2022-07-18T21:31:19,-7,delete tx error ,,Normal
+06HB002,DeleteRegion,HG,2022-02-14T03:10:00,2022-02-14T03:10:00,2022-02-14T20:41:58,-7,deleted spike,,Normal
+06HB002,AdjustableTrim,HG,2022-02-12T15:00:00,2022-02-14T13:50:00,2022-02-14T20:41:01,-7,deleted spikes ,"LowerThresholdPoints:(Time:2022-02-12T15:00:00Z,Value:25.209020049651723);(Time:2022-02-14T13:50:00Z,Value:25.209020049651723),TrimAction:Delete",Normal
+06HB002,DeleteRegion,HG,2022-02-06T15:00:00,2022-02-06T15:00:00,2022-02-07T21:54:32,-7,delete tx errors,,Normal
+06HB002,DeleteRegion,HG,2022-02-04T21:00:00,2022-02-04T21:00:00,2022-02-07T21:32:05,-7,deleted tx errors,,Normal
+06HB002,AdjustableTrim,HG,2022-01-12T01:15:00,2022-01-17T18:25:00,2022-01-26T20:14:08,-7,deleted spikes - tx errors,"LowerThresholdPoints:(Time:2022-01-12T01:15:00Z,Value:26.219528269909247);(Time:2022-01-17T18:25:00Z,Value:26.219528269909247),TrimAction:Delete",Normal
+06HB002,AdjustableTrim,HG,2022-01-05T15:30:00,2022-01-10T21:20:00,2022-01-11T23:31:49,-7,deleted telemetry errors ,"LowerThresholdPoints:(Time:2022-01-05T15:30:00Z,Value:26.108348955699178);(Time:2022-01-10T21:20:00Z,Value:26.108348955699178),TrimAction:Delete",Normal
+06HB002,CopyPaste,HG,2021-12-14T03:15:00,2022-03-06T16:00:00,2022-08-23T17:47:11,-7,"copy/paste data from loggerOverride: Copy & Paste‌Source Data Set: Stage.Logger@06HB002, time shift: 00:00 minutes.‌",,PreProcessing
+06HB002,CopyPaste,HG,2021-11-18T11:15:00,2022-03-06T16:00:00,2022-08-23T17:50:49,-7,"copy paste from loggerOverride: Copy & Paste‌Source Data Set: Stage.Logger@06HB002, time shift: 00:00 minutes.‌",,PreProcessing
+06HB002,CopyPaste,QR,2021-11-13T02:00:00,2021-11-18T06:30:00,2023-01-24T00:23:24,-7,"B CONDITIONS LIKELY MINIMAL, EDGE ICE ALONG CHANNEL POSSIBLY CAUSING BACKWATEROverride: Log Linear‌Q(t) = 526.8979948025557e^(-0.004492291600272201t)‌",,Normal
+06HB002,CopyPaste,HG,2021-09-18T18:20:00,2022-08-12T01:00:00,2022-08-23T20:32:31,-7,"Copy & Paste - from logger file to fill 50+ transmission gaps.Override: Copy & Paste‌Source Data Set: Stage.Logger@06HB002, time shift: 00:00 minutes.‌",,PreProcessing
+06HB002,Drift,HG,2021-08-30T20:45:00,2022-08-20T23:15:00,2022-08-22T20:57:53,-7,SRC - BETWEEN VISITS TO DWL,"DriftPoints:(Offset:-0.001,Time:2021-08-30T20:45:00Z);(Offset:-0.01,Time:2022-08-20T23:15:00Z)",Normal
+06HB002,CopyPaste,HG,2021-07-08T02:10:00,2021-09-02T08:05:00,2022-08-23T17:42:41,-7,"copy paste from loggerOverride: Copy & Paste‌Source Data Set: Stage.Logger@06HB002, time shift: 00:00 minutes.‌",,PreProcessing
+06HB002,CopyPaste,HG,2021-06-10T18:20:00,2021-08-30T21:20:00,2021-09-07T20:59:50,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@06HB002, time shift: 00:00 minutes.‌",,PreProcessing
+06HB002,AdjustableTrim,HG,2021-02-28T12:35:00,2021-02-28T23:05:00,2023-01-20T13:56:54,-7,DR -TX ERROR,"LowerThresholdPoints:(Time:2021-02-28T12:35:00Z,Value:25.66302942419709);(Time:2021-02-28T23:05:00Z,Value:25.66302942419709),TrimAction:Delete",Normal
+06HB002,CopyPaste,HG,2021-02-05T15:20:00,2021-05-25T07:10:00,2021-09-07T20:55:33,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@06HB002, time shift: 00:00 minutes.‌",,PreProcessing
+06HB002,AdjustableTrim,HG,2021-02-05T10:45:00,2021-02-05T19:20:00,2023-01-20T13:55:59,-7,DR -TX ERROR,"LowerThresholdPoints:(Time:2021-02-05T10:45:00Z,Value:25.795862525985523);(Time:2021-02-05T19:20:00Z,Value:25.795862525985523),TrimAction:Delete",Normal
+06HB002,CopyPaste,HG,2021-02-03T17:30:00,2021-08-31T13:45:00,2021-09-09T01:01:11,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@06HB002, time shift: 00:00 minutes.‌",,PreProcessing
+06HB002,AdjustableTrim,HG,2021-01-03T04:50:00,2021-01-03T13:55:00,2023-01-20T13:54:43,-7,DR -TX ERROR,"LowerThresholdPoints:(Time:2021-01-03T04:50:00Z,Value:26.034057748670378);(Time:2021-01-03T13:55:00Z,Value:26.034057748670378),TrimAction:Delete",Normal
+06HB002,CopyPaste,HG,2020-12-10T06:20:00,2021-02-05T15:20:00,2021-09-07T20:53:18,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@06HB002, time shift: 00:00 minutes.‌",,PreProcessing
+06HB002,CopyPaste,HG,2020-10-29T15:20:00,2021-02-06T13:05:00,2021-09-09T00:57:19,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@06HB002, time shift: 00:00 minutes.‌",,PreProcessing
+06HB002,CopyPaste,QR,2020-10-26T05:45:00,2020-10-28T14:30:00,2023-01-17T20:12:39,-7,REMOVAL OF MINIMAL ESTIMATED BACKWATER RESULTING FROM MORE COMPLETE ICE COVERAGE ON SEALHOLE LAKE AFFECTING STAGE TRACEOverride: Log Linear‌Q(t) = 414.75652481057574e^(-0.003215457794382362t)‌,,Normal
+06HB002,CopyPaste,HG,2020-09-08T22:50:00,2021-08-30T19:49:00,2021-09-09T19:53:52,-7,"Copy pasting/gap fill from october 2020 to last visit August 30th, 2021 (PRE)Override: Copy & Paste‌Source Data Set: Stage.Logger@06HB002, time shift: 00:00 minutes.‌",,PreProcessing
+06HB002,Drift,HG,2020-09-08T21:55:00,2021-08-30T20:40:00,2021-09-07T20:39:29,-7,SRC - BETWEEN VISITS TO DWL,"DriftPoints:(Offset:-0.015,Time:2020-09-08T21:55:00Z);(Offset:-0.001,Time:2021-08-30T20:40:00Z)",Normal
+06HB002,PersistenceGapFill,QR,2020-04-28T04:20:00,2020-04-28T15:20:00,2023-01-18T21:22:38,-7,NO LOGGER DATA STARTING @ 02:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,CopyPaste,QR,2020-04-19T06:20:00,2020-04-19T09:20:00,2023-01-18T21:21:06,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-04-18T06:20:00,2020-04-18T09:20:00,2023-01-18T21:18:33,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-04-14T09:20:00,2020-04-14T12:20:00,2023-01-18T21:14:42,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,PersistenceGapFill,QR,2020-04-13T06:20:00,2020-04-13T09:25:00,2023-01-18T21:13:39,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:PreviousPoint,GapLimit:MaxDuration",Normal
+06HB002,CopyPaste,QR,2020-04-01T00:20:00,2020-04-01T03:20:00,2023-01-18T21:12:05,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,PersistenceGapFill,QR,2020-03-31T06:20:00,2020-03-31T09:25:00,2023-01-18T21:07:14,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:NextPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-03-30T00:20:00,2020-03-30T09:02:00,2023-01-18T21:06:16,-7,NO LOGGER DATA STARTING @ 20:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,CopyPaste,QR,2020-03-28T00:20:00,2020-03-28T03:20:00,2023-01-18T21:02:51,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,PersistenceGapFill,QR,2020-03-25T03:20:00,2020-03-25T06:25:00,2023-01-18T20:57:13,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:NextPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-03-24T09:20:00,2020-03-24T12:25:00,2023-01-18T20:56:27,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:NextPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-03-21T06:20:00,2020-03-21T09:25:00,2023-01-18T20:55:45,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:PreviousPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-03-20T00:20:00,2020-03-20T03:25:00,2023-01-18T20:55:07,-7,NO LOGGER FILE,"ResamplePeriod:PT5M,ResampleInterpolationType:PreviousPoint,GapLimit:MaxDuration",Normal
+06HB002,FillGaps,QR,2020-03-16T12:20:00,2020-03-16T15:25:00,2023-01-18T20:53:11,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,GapLimit:MaxDuration",Normal
+06HB002,CopyPaste,QR,2020-03-14T06:20:00,2020-03-14T15:20:00,2023-01-18T20:51:55,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-03-13T03:20:00,2020-03-13T06:20:00,2023-01-18T20:50:00,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-03-09T03:20:00,2020-03-09T15:20:00,2023-01-18T20:48:47,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-03-07T18:20:00,2020-03-08T15:20:00,2023-01-18T20:46:50,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-03-07T06:20:00,2020-03-07T09:20:00,2023-01-18T20:45:25,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-03-06T00:20:00,2020-03-06T03:20:00,2023-01-18T20:44:03,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-03-04T00:20:00,2020-03-04T03:20:00,2023-01-18T20:41:37,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-03-02T00:20:00,2020-03-02T03:20:00,2023-01-18T20:40:15,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,PersistenceGapFill,QR,2020-02-26T09:20:00,2020-02-26T15:25:00,2023-01-18T20:36:17,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:NextPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-02-25T09:20:00,2020-02-25T15:25:00,2023-01-18T20:30:51,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:PreviousPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-02-24T06:20:00,2020-02-24T15:25:00,2023-01-18T20:30:07,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:PreviousPoint,GapLimit:MaxDuration",Normal
+06HB002,AdjustableTrim,HG,2020-02-22T08:15:00,2020-02-27T06:25:00,2023-01-16T21:49:33,-7,DR - Trim Tx Spikes,"UpperThresholdPoints:(Time:2020-02-22T08:15:00Z,Value:25.986152647169632);(Time:2020-02-27T06:25:00Z,Value:25.986152647169632),TrimAction:Delete",Normal
+06HB002,PersistenceGapFill,QR,2020-02-22T00:20:00,2020-02-22T03:25:00,2023-01-18T20:25:49,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:NextPoint,GapLimit:MaxDuration",Normal
+06HB002,AdjustableTrim,HG,2020-02-21T21:55:00,2020-02-24T20:25:00,2023-01-16T21:31:03,-7, DR - Trim Tx Spikes,"UpperThresholdPoints:(Time:2020-02-21T21:55:00Z,Value:26.51612561810515);(Time:2020-02-24T20:25:00Z,Value:26.51612561810515),TrimAction:Delete",Normal
+06HB002,CopyPaste,QR,2020-02-17T03:20:00,2020-02-17T12:20:00,2023-01-18T20:24:15,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-02-16T12:20:00,2020-02-16T14:35:00,2023-01-18T20:21:00,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-02-16T06:20:00,2020-02-16T09:25:00,2023-01-18T20:17:43,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,PersistenceGapFill,QR,2020-02-15T21:20:00,2020-02-16T06:05:00,2023-01-18T20:16:19,-7,NO LOGGER DATA STARTING @ 17:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,CopyPaste,QR,2020-02-15T18:20:00,2020-02-15T21:20:00,2023-01-18T20:14:26,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,PersistenceGapFill,QR,2020-02-15T15:20:00,2020-02-15T18:10:00,2023-01-18T20:13:43,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:NextPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-02-15T09:20:00,2020-02-15T12:25:00,2023-01-18T20:13:02,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:PreviousPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-02-14T00:20:00,2020-02-14T03:25:00,2023-01-18T20:11:59,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:PreviousPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-02-13T10:20:00,2020-02-13T18:10:00,2023-01-18T20:10:48,-7,NO LOGGER DATA STARTING @ 5:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,CopyPaste,QR,2020-02-13T00:20:00,2020-02-13T08:55:00,2023-01-18T20:09:03,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-02-12T15:20:00,2020-02-12T18:20:00,2023-01-18T20:05:42,-7,NO LOGGER FILEOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-02-12T06:20:00,2020-02-12T12:15:00,2023-01-18T20:04:11,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-02-12T00:20:00,2020-02-12T03:25:00,2023-01-18T19:02:15,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-02-11T15:20:00,2020-02-11T18:20:00,2023-01-18T18:57:12,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,PersistenceGapFill,QR,2020-02-11T00:20:00,2020-02-11T12:25:00,2023-01-18T18:55:57,-7,NO LOGGER DATA STARTING @ 20:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,CopyPaste,QR,2020-02-09T09:20:00,2020-02-09T15:20:00,2023-01-18T18:50:50,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-02-07T00:20:00,2020-02-07T06:20:00,2023-01-18T18:47:06,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,PersistenceGapFill,QR,2020-02-06T15:20:00,2020-02-06T18:25:00,2023-01-18T18:46:06,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:NextPoint,GapLimit:MaxDuration",Normal
+06HB002,CopyPaste,QR,2020-02-06T06:20:00,2020-02-06T09:25:00,2023-01-18T18:44:41,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,PersistenceGapFill,QR,2020-02-06T03:20:00,2020-02-06T06:10:00,2023-01-18T18:43:36,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:NextPoint,GapLimit:MaxDuration",Normal
+06HB002,CopyPaste,QR,2020-02-06T00:20:00,2020-02-06T02:35:00,2023-01-18T18:42:14,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-02-05T18:20:00,2020-02-05T21:20:00,2023-01-18T18:39:56,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-02-05T03:20:00,2020-02-05T09:20:00,2023-01-18T18:38:40,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-02-05T00:20:00,2020-02-05T03:05:00,2023-01-18T18:35:56,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,PersistenceGapFill,QR,2020-02-04T15:20:00,2020-02-04T18:25:00,2023-01-18T18:35:12,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:NextPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-02-04T03:20:00,2020-02-04T15:20:00,2023-01-18T18:33:18,-7,NO LOGGER DATA STARTING @ 23:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-02-03T12:20:00,2020-02-03T15:25:00,2023-01-18T18:31:55,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:PreviousPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-02-03T03:20:00,2020-02-03T12:20:00,2023-01-18T18:31:00,-7,NO LOGGER DATA STARTING @ 23:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-02-01T15:20:00,2020-02-01T18:25:00,2023-01-18T18:29:56,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:PreviousPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-01-25T21:20:00,2020-01-26T06:20:00,2023-01-18T18:28:03,-7,NO LOGGER DATA STARTING @ 17:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,CopyPaste,QR,2020-01-22T06:20:00,2020-01-22T09:20:00,2023-01-18T18:20:44,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-01-18T03:20:00,2020-01-18T18:20:00,2023-01-18T18:26:07,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2020-01-17T06:20:00,2020-01-17T15:20:00,2023-01-17T23:15:10,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,PersistenceGapFill,QR,2020-01-16T03:20:00,2020-01-16T18:20:00,2023-01-17T23:08:09,-7,NO LOGGER DATA STARTING @ 23:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-01-15T15:20:00,2020-01-15T18:25:00,2023-01-17T23:05:21,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:NextPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-01-15T00:20:00,2020-01-15T15:10:00,2023-01-17T23:04:17,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-01-14T18:20:00,2020-01-14T23:30:00,2023-01-17T23:00:03,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-01-14T15:20:00,2020-01-14T18:10:00,2023-01-17T22:58:34,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-01-14T06:20:00,2020-01-14T09:30:00,2023-01-17T22:55:46,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:PreviousPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-01-13T18:20:00,2020-01-14T06:15:00,2023-01-17T22:36:56,-7,NO LOGGER DATA STARTING @ 14:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-01-13T06:20:00,2020-01-13T15:25:00,2023-01-17T22:35:15,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:NextPoint,GapLimit:MaxDuration",Normal
+06HB002,FillGaps,QR,2020-01-13T00:20:00,2020-01-13T03:10:00,2023-01-17T22:33:57,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-01-12T21:20:00,2020-01-12T23:50:00,2023-01-17T22:33:09,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:PreviousPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-01-12T18:20:00,2020-01-12T21:00:00,2023-01-17T22:32:16,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:PreviousPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-01-12T00:20:00,2020-01-12T18:20:00,2023-01-17T22:31:15,-7,NO LOGGER DATA STARTING @ 20:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-01-11T18:20:00,2020-01-11T23:50:00,2023-01-17T22:29:41,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:PreviousPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-01-11T00:20:00,2020-01-11T18:25:00,2023-01-17T22:26:32,-7,NO LOGGER DATA STARTING @ 20:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-01-10T21:20:00,2020-01-10T23:50:00,2023-01-17T22:24:11,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:NextPoint,GapLimit:MaxDuration",Normal
+06HB002,FillGaps,QR,2020-01-10T18:20:00,2020-01-10T20:50:00,2023-01-17T22:22:47,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-01-10T03:20:00,2020-01-10T15:30:00,2023-01-17T22:22:09,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,AdjustableTrim,HG,2020-01-10T02:40:00,2020-01-10T02:45:00,2023-01-17T22:41:18,-7,DR - Trim Tx Spikes,"LowerThresholdPoints:(Time:2020-01-10T02:40:00Z,Value:25.904512310386245);(Time:2020-01-10T02:45:00Z,Value:25.904512310386245),TrimAction:Delete",Normal
+06HB002,PersistenceGapFill,QR,2020-01-10T00:20:00,2020-01-10T02:50:00,2023-01-17T22:43:56,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:PreviousPoint,GapLimit:MaxDuration",Normal
+06HB002,CopyPaste,QR,2020-01-09T21:20:00,2020-01-09T23:35:00,2023-01-17T22:20:37,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,PersistenceGapFill,QR,2020-01-09T18:20:00,2020-01-09T20:50:00,2023-01-17T22:14:09,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:NextPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-01-09T15:20:00,2020-01-09T18:10:00,2023-01-17T22:13:06,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:PreviousPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2020-01-09T12:20:00,2020-01-09T14:40:00,2023-01-17T22:11:23,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:PreviousPoint,GapLimit:MaxDuration",Normal
+06HB002,FillGaps,QR,2020-01-09T00:20:00,2020-01-09T06:20:00,2023-01-17T22:00:02,-7,MISSING LOGGER DATA,"ResamplePeriod:PT5M,GapLimit:MaxDuration",Normal
+06HB002,AdjustableTrim,HG,2020-01-08T19:15:00,2020-02-14T00:05:00,2020-09-29T17:38:01,-7, DR - Trim Tx Spikes,"LowerThresholdPoints:(Time:2020-01-08T19:15:00Z,Value:25.25936451591416);(Time:2020-02-14T00:05:00Z,Value:25.25936451591416),TrimAction:Delete",Normal
+06HB002,PersistenceGapFill,QR,2020-01-07T03:20:00,2020-01-07T18:20:00,2023-01-17T21:57:45,-7,MISSING LOGGER DATA STARTING @ 23:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,FillGaps,QR,2020-01-06T03:20:00,2020-01-06T06:25:00,2023-01-17T21:57:03,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,GapLimit:MaxDuration",Normal
+06HB002,CopyPaste,QR,2020-01-04T21:20:00,2020-01-05T00:20:00,2023-01-17T22:09:33,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,PersistenceGapFill,QR,2019-12-30T06:20:00,2019-12-30T15:20:00,2023-01-13T19:31:49,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2019-12-23T06:20:00,2019-12-23T15:20:00,2023-01-13T19:28:26,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,FillGaps,QR,2019-12-19T03:20:00,2019-12-20T06:25:00,2023-01-13T19:16:04,-7,NO LOGER DATA,"ResamplePeriod:PT5M,GapLimit:MaxDuration",Normal
+06HB002,CopyPaste,QR,2019-12-15T09:20:00,2019-12-18T00:25:00,2023-01-13T19:11:55,-7,NO LOGGER DATAOverride: Linear‌Q(t) = (-1.5551894812098326)t + 295.4568093787599‌,,Normal
+06HB002,CopyPaste,QR,2019-12-13T15:20:00,2019-12-13T18:25:00,2023-01-13T18:58:33,-7,NO LOGGER DATAOverride: Linear‌Q(t) = (-9.33391019715374)t + 295.47423759320884‌,,Normal
+06HB002,CopyPaste,QR,2019-12-13T12:20:00,2019-12-13T15:20:00,2023-01-13T18:57:19,-7,NO LOGGER DATAOverride: Linear‌Q(t) = (-3.8491102418370247)t + 295.95537637343847‌,,Normal
+06HB002,CopyPaste,QR,2019-12-13T00:20:00,2019-12-13T08:50:00,2023-01-13T18:36:23,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,FillGaps,QR,2019-12-12T12:20:00,2019-12-12T15:25:00,2023-01-13T18:27:07,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2019-12-11T10:20:00,2019-12-11T18:20:00,2023-01-13T18:25:44,-7,NO LOGGER DATA - STARTING @5:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,CopyPaste,QR,2019-12-08T21:20:00,2019-12-10T12:25:00,2023-01-13T18:22:19,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,CopyPaste,QR,2019-12-08T12:20:00,2019-12-08T18:25:00,2023-01-13T18:23:38,-7,NO LOGGER DATAOverride: Freehand‌,,Normal
+06HB002,PersistenceGapFill,QR,2019-12-08T05:20:00,2019-12-08T09:40:00,2023-01-13T18:04:08,-7,NO LOGGER DATA - STARTING @ 23:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2019-12-07T18:25:00,2019-12-08T06:15:00,2023-01-13T17:58:51,-7,NO LOGGER DATA - STARTING @ 14:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2019-12-07T09:20:00,2019-12-07T18:20:00,2023-01-13T17:57:19,-7,NO LOGGER DATA - STARTING @ 5:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,AdjustableTrim,HG,2019-12-06T11:20:00,2020-02-07T10:20:00,2020-09-29T17:39:19,-7, DR - Trim Tx Spikes,"LowerThresholdPoints:(Time:2019-12-06T11:20:00Z,Value:26.03875221302927);(Time:2020-01-13T06:20:00Z,Value:25.82322104429561);(Time:2020-02-04T12:25:00Z,Value:25.720935065913533);(Time:2020-02-07T10:20:00Z,Value:25.709975853944027),TrimAction:Delete",Normal
+06HB002,PersistenceGapFill,QR,2019-12-05T06:20:00,2019-12-05T18:20:00,2023-01-13T17:54:22,-7,NO LOGGER DATA - STARTING @2:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2019-12-04T12:20:00,2019-12-05T00:20:00,2023-01-13T17:53:10,-7,NO LOGGER DATA - STARTING @8:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2019-12-03T03:20:00,2019-12-03T12:20:00,2023-01-13T17:50:35,-7,NO LOGGER DATA - STARTING @23:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2019-11-28T12:20:00,2019-11-28T21:20:00,2023-01-13T17:47:46,-7,NO LOGGER DATA - STARTING @ 8:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2019-11-27T18:20:00,2019-11-28T03:20:00,2023-01-13T17:39:43,-7,NO LOGGER DATA - STARTING @ 14:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,FillGaps,QR,2019-11-18T21:20:00,2019-11-19T00:25:00,2023-01-13T17:37:57,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2019-11-18T12:20:00,2019-11-18T21:20:00,2023-01-13T17:35:24,-7,NO LOGGER DATA - STARTING@8:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2019-11-14T04:20:00,2019-11-14T15:20:00,2023-01-13T17:32:15,-7,NO LOGGER DATA - STARTING @02:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,FillGaps,QR,2019-11-11T03:20:00,2019-11-11T06:25:00,2023-01-13T17:29:50,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,GapLimit:MaxDuration",Normal
+06HB002,PersistenceGapFill,QR,2019-11-07T18:20:00,2019-11-08T03:20:00,2023-01-13T17:25:29,-7,NO LOGGER DATA - STARTING @ 14:20,"ResamplePeriod:PT5M,ResampleInterpolationType:MidPoint,GapLimit:MaxDuration",Normal
+06HB002,FillGaps,QR,2019-11-07T03:20:00,2019-11-07T06:25:00,2023-01-13T17:18:08,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,GapLimit:MaxDuration",Normal
+06HB002,FillGaps,QR,2019-11-06T03:20:00,2019-11-06T06:25:00,2023-01-13T17:16:14,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,GapLimit:MaxDuration",Normal
+06HB002,FillGaps,QR,2019-10-19T00:20:00,2019-10-19T03:25:00,2023-01-12T23:52:21,-7,NO LOGGER DATA,"ResamplePeriod:PT5M,GapLimit:MaxDuration",Normal
+06HB002,Drift,HG,2019-09-13T16:10:00,2020-09-08T21:50:00,2020-09-17T00:03:55,-7,SRC - BETWEEN VISITS TO DWL ,"DriftPoints:(Offset:0,Time:2019-09-13T16:10:00Z);(Offset:-0.015,Time:2020-09-08T21:50:00Z)",Normal
+06HB002,DeleteRegion,HG,2019-09-13T16:05:00,2019-09-13T16:05:00,2020-09-29T17:34:06,-7,Delete region - Reset,,Normal

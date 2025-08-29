@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07HF002,9.0,,LogarithmicTable,Provisional/Provisoire,(1.1763:0.51);(0.51);
+07HF002,8.0,HQFIT1.0,LinearTable,Final/Finales,
+07HF002,7.0,,LinearTable,Final/Finales,
+07HF002,6.0,,LinearTable,Final/Finales,

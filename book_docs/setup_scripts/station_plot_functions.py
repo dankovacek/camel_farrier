@@ -1,6 +1,4 @@
 import os
-from pydoc import text
-from turtle import title
 import numpy as np
 import geopandas as gpd
 import pandas as pd
@@ -11,7 +9,7 @@ from bokeh.resources import CDN
 from jinja2 import Template
 from bokeh.palettes import Bokeh6, Category10
 from bokeh.models import Div, Range1d, LinearAxis, Band, ColumnDataSource
-from bokeh.models import DataTable, TableColumn, ColumnDataSource
+from bokeh.models import DataTable, TableColumn, ColumnDataSource, HoverTool
 from bokeh.layouts import column, row
 
 # Get the folder this script is in
@@ -19,7 +17,8 @@ from pathlib import Path
 
 from setup_scripts import kde_estimator
 from setup_scripts.aep_functions import calculate_distributions, run_ffa_simulation
-from bokeh.palettes import Viridis256, Plasma256, Colorblind5, viridis, plasma
+
+# from bokeh.palettes import Viridis256, Plasma256, Colorblind5, viridis, plasma
 
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -214,28 +213,53 @@ def plot_station_geometries(
     # Add water license data if available
     license_fpath = f"{official_id}_water_licenses.geojson"
     if os.path.exists(folder / license_fpath):
-        license_gdf = gpd.read_file(license_fpath)
-        for idx, data in license_gdf.iterrows():
-            rev_date = data["revision_date"]
-            # format the revision date string
-            rev_date = (
-                rev_date.strftime("%Y-%m-%d")
-                if isinstance(rev_date, pd.Timestamp)
-                else str(rev_date)
-            )
-            if rev_date not in colors_by_date:
-                date_index = len(colors_by_date) % 6
-                colors_by_date[rev_date] = Category10[10][date_index]
+        license_gdf = gpd.read_file(folder / license_fpath)
 
-            x, y = data.geometry.x, data.geometry.y
-            p.scatter(
-                x,
-                y,
-                size=10,
-                marker="square",
-                color=colors_by_date[rev_date],
-                legend_label=f"Dam ({rev_date})",
+        # Prepare color by Dam_Operation_Code
+        def dam_color(op_code):
+            return "green" if str(op_code).strip().lower() == "active" else "grey"
+
+        # Prepare data for ColumnDataSource
+        dam_x = license_gdf.geometry.x
+        dam_y = license_gdf.geometry.y
+        dam_name = license_gdf.get("Dam_Name", [""] * len(license_gdf))
+        dam_type = license_gdf.get("Dam_Type", [""] * len(license_gdf))
+        owner_name = license_gdf.get("Owner_Name", [""] * len(license_gdf))
+        dam_op = license_gdf.get("Dam_Operation_Code", [""] * len(license_gdf))
+        dam_color_list = [dam_color(op) for op in dam_op]
+
+        dam_source = ColumnDataSource(
+            data=dict(
+                x=dam_x,
+                y=dam_y,
+                Dam_Name=dam_name,
+                Dam_Type=dam_type,
+                Owner_Name=owner_name,
+                Dam_Operation_Code=dam_op,
+                color=dam_color_list,
             )
+        )
+
+        dam_renderer = p.scatter(
+            "x",
+            "y",
+            size=10,
+            marker="square",
+            color="color",
+            legend_label="Dam",
+            source=dam_source,
+        )
+
+        hover = HoverTool(
+            tooltips=[
+                ("Dam Name", "@Dam_Name"),
+                ("Dam Type", "@Dam_Type"),
+                ("Owner", "@Owner_Name"),
+                ("Operation", "@Dam_Operation_Code"),
+            ],
+            renderers=[dam_renderer],
+        )
+        p.add_tools(hover)
 
     # Configure legend
     p.legend.background_fill_alpha = 0.7
@@ -436,7 +460,7 @@ def plot_distributions(official_id):
     folder = BASE_DIR / ".." / "stations" / official_id
 
     daily_flow_fpath = folder / f"{official_id}_daily_flows.csv"
-    daily_levels_fpath = folder / f"{official_id}_daily_levels.csv"
+    # daily_levels_fpath = folder / f"{official_id}_daily_levels.csv"
 
     folder = BASE_DIR / ".." / "stations"
     attr_fpath = folder / official_id / f"{official_id}_attributes.csv"
@@ -453,6 +477,10 @@ def plot_distributions(official_id):
 
     if os.path.exists(daily_flow_fpath):
         df = pd.read_csv(daily_flow_fpath, parse_dates=["date"], index_col="date")
+        df.dropna(subset=["flow_cms"], inplace=True)
+        if df.empty:
+            return Div(text="Flow data unavailable")
+        # check number of unique values
         hydrograph = plot_monthly_hydrograph(df)
 
         if df["flow_cms"].min() <= 0:
@@ -467,6 +495,9 @@ def plot_distributions(official_id):
         log_dx = np.gradient(baseline_log_grid)
         kde = kde_estimator.KDEEstimator(baseline_log_grid, log_dx)
         df["uar"] = 1000 * df["flow_cms"] / da
+        unique, counts = np.unique(df["uar"].dropna().values, return_counts=True)
+        if unique.size < 3:
+            return Div(text="Too few unique flow values.")
         pmf, pdf = kde.compute(df["uar"].dropna().values, da)
         baseline_lin_grid = np.exp(baseline_log_grid)
         # convert the pmf to exceedance
@@ -519,14 +550,25 @@ def plot_distributions(official_id):
     return row(fdc, p, hydrograph)
 
 
+def safe_datetime(x):
+    # Ensure hour and minute are integers, default to 0 if missing or NaN
+    hour, minute = 0, 0
+    hour = int(x.get("HOUR", 0)) if pd.notnull(x.get("HOUR", 0)) else 0
+    minute = int(x.get("MINUTE", 0)) if pd.notnull(x.get("MINUTE", 0)) else 0
+    try:
+        datetime = pd.Timestamp(
+            f"{x['YEAR']}-{x['MONTH']}-{x['DAY']} {hour:02d}:{minute:02d}",
+        )
+    except Exception:
+        datetime = pd.NaT
+    return datetime
+
+
 def plot_annual_peaks(plot, df):
     # convert year-month-day-hour-minute columns to string, then convert to datetime
-    df["datetime"] = df.apply(
-        lambda x: pd.to_datetime(
-            f"{x['YEAR']}-{x['MONTH']}-{x['DAY']} {x['HOUR']}:{x['MINUTE']}"
-        ),
-        axis=1,
-    )
+
+    df["datetime"] = df.apply(safe_datetime, axis=1)
+    df = df.dropna(subset=["datetime"])
     df["precision_description"] = df["PRECISION_CODE"].map(precision_codes_dict)
     df["quality_symbol"] = df["SYMBOL"].map(symbol_dict)
     peaks = df[(df["PEAK_CODE"] == "H") & (df["DATA_TYPE"] == "Q")].copy()
@@ -743,24 +785,16 @@ def get_rc_points(official_id):
     return rc_df, labels
 
 
-def create_rc_table(rc_df, rc_labels, q_source):
-    if rc_df.empty:
-        return Div(text="No rating curve data available")
+def create_rc_table(rc_labels, q_source):
 
     # convert the date column to a formatted string
     # Convert the date column to datetime if it's not already
-    dates = pd.to_datetime(q_source.data[rc_labels["date"]])
-    # Format the date and time strings
-    date_strings = [d.strftime("%Y-%m-%d") for d in dates]
-    time_strings = [d.strftime("%H:%M") for d in dates]
     # Update the source data
-    q_source.data[rc_labels["date"]] = date_strings
-    q_source.data["time"] = time_strings
     rc_table = DataTable(
         source=q_source,
         columns=[
             TableColumn(
-                field=rc_labels["date"],
+                field="formatted_date",
                 title="Date (UTC/TUC)",
             ),
             TableColumn(
@@ -795,21 +829,19 @@ def plot_station_timeseries(official_id):
         x_axis_type="datetime",
         width=1000,
         height=350,
-        y_axis_type="log",
+        # y_axis_type="log",
         toolbar_location="above",
-        tools="pan,wheel_zoom,box_zoom,lasso_select,box_select,reset",
+        tools="pan,wheel_zoom,box_zoom,lasso_select,box_select,reset,save",
+        # tools="pan,wheel_zoom,box_zoom,reset",
     )
     folder = BASE_DIR / ".." / "stations"
-    attr_fpath = folder / official_id / f"{official_id}_attributes.csv"
-    stn_data = pd.read_csv(attr_fpath)
+    # attr_fpath = folder / official_id / f"{official_id}_attributes.csv"
+    # stn_data = pd.read_csv(attr_fpath)
 
     daily_flow_fpath = folder / official_id / f"{official_id}_daily_flows.csv"
     daily_levels_fpath = folder / official_id / f"{official_id}_daily_levels.csv"
     if os.path.exists(daily_flow_fpath):
         plot = plot_flow_series(official_id, daily_flow_fpath, "flow_cms", plot)
-
-    plot.xaxis.axis_label = "Date"
-    plot.yaxis.axis_label = "Flow (m³/s)"
 
     if os.path.exists(daily_levels_fpath):
         plot = plot_level_series(official_id, daily_levels_fpath, "water_level_m", plot)
@@ -827,24 +859,35 @@ def plot_station_timeseries(official_id):
     rc_plot = Div(text="No site visit information available for this station.")
     q_df = rc_df[rc_df[rc_labels["activity"]] == rc_labels["q_activity_label"]].copy()
     q_df[rc_labels["date"]] = pd.to_datetime(q_df[rc_labels["date"]])
+    # Format the date and time strings
+    date_strings = [d.strftime("%Y-%m-%d") for d in q_df[rc_labels["date"]]]
+    time_strings = [d.strftime("%H:%M") for d in q_df[rc_labels["date"]]]
+    q_df["formatted_date"] = date_strings
+    q_df["time"] = time_strings
+    rc_table = Div(text="No rating curve data available for this station.")
     if not q_df.empty:
+        xlabel, ylabel = rc_labels["date"], rc_labels["q_activity_label"]
+        q_df.dropna(subset=[ylabel], inplace=True)
         q_source = ColumnDataSource(q_df)
+        # Defensive timezone removal
         plot.scatter(
-            x=rc_labels["date"],
-            y=rc_labels["q_activity_label"],
+            x=xlabel,
+            y=ylabel,
             source=q_source,
             color="purple",
-            marker="circle",
             size=8,
-            legend_label="Measured",
+            alpha=0.8,
+            legend_label="Measured Discharge",
         )
-        rc_plot = plot_rc_points(rc_df, rc_labels, q_source)
-        rc_table = create_rc_table(rc_df, rc_labels, q_source)
+        rc_plot = plot_rc_points(rc_labels, q_source)
+        rc_table = create_rc_table(rc_labels, q_source)
 
     plot.legend.click_policy = "hide"
+    plot.xaxis.axis_label = "Date"
+    plot.yaxis.axis_label = "Flow (m³/s)"
     plot.add_layout(plot.legend[0], "right")
     plot.legend.background_fill_alpha = 0.65
-    return column(plot, rc_plot, rc_table)
+    return column(plot, rc_plot, Div(text="<h2>Rating Curve Table</h2>"), rc_table)
 
 
 def plot_aep_figures(official_id):
@@ -856,16 +899,13 @@ def plot_aep_figures(official_id):
     if os.path.exists(annual_peaks_fpath):
         df = pd.read_csv(annual_peaks_fpath)
         if not df.empty:
-            df["datetime"] = df.apply(
-                lambda x: pd.to_datetime(
-                    f"{x['YEAR']}-{x['MONTH']}-{x['DAY']} {x['HOUR']}:{x['MINUTE']}"
-                ),
-                axis=1,
-            )
+            df["datetime"] = df.apply(safe_datetime, axis=1)
+            df = df.dropna(subset=["datetime"])
             df["precision_description"] = df["PRECISION_CODE"].map(precision_codes_dict)
             df["quality_symbol"] = df["SYMBOL"].map(symbol_dict)
             peaks = df[(df["PEAK_CODE"] == "H") & (df["DATA_TYPE"] == "Q")].copy()
-            peak_layout = plot_peak_AEP(peaks)
+            if not peaks.empty:
+                peak_layout = plot_peak_AEP(peaks)
     return peak_layout
 
 
@@ -1062,14 +1102,14 @@ def process_static_catchment_page_html(
     }
 
 
-def plot_rc_points(station_id, labels, q_source):
+def plot_rc_points(labels, q_source):
     # map rc_no_label to a colour on a scale of black (old) to blue (new)
     # get all the rows where the Rating Curve Table Number is NaN
     rc_plot = figure(
         title="Rating Curve Calibration Points",
         width=1000,
         height=500,
-        tools="pan,wheel_zoom,box_zoom,lasso_select,box_select,reset",
+        tools="pan,wheel_zoom,box_zoom,lasso_select,box_select,reset,save",
     )
     rc_plot.scatter(
         x=labels["q_activity_label"],
@@ -1077,7 +1117,7 @@ def plot_rc_points(station_id, labels, q_source):
         size=6,
         color="purple",
         alpha=0.7,
-        legend_label="Measured Flow",
+        legend_label="Measured Discharge",
         source=q_source,
     )
 

@@ -1,0 +1,19 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08LE027,32.01,Lower curve extension with lower confidence interval change.,LogarithmicTable,Provisional/Provisoire,(0.042);
+08LE027,32.0,,LogarithmicTable,Final/Finales,(0.042);
+08LE027,31.0,,LogarithmicTable,Final/Finales,(0.098);
+08LE027,30.0,,LogarithmicTable,Final/Finales,(0.31);
+08LE027,29.1,EXTENDED TOP END OF RATING 29 FOR HIGH WATER,LogarithmicTable,Final/Finales,(0.303);
+08LE027,29.0,Rating 28.1 reviewd and supported with 2014-16 data,LogarithmicTable,Final/Finales,(0.303);
+08LE027,28.1,Rating 28.1 reviewd and supported with 2014-16 data,LogarithmicTable,Final/Finales,(0.212);
+08LE027,28.0,,LogarithmicTable,Final/Finales,(0.212);
+08LE027,27.1,Migrated cloned curve,LinearTable,Final/Finales,
+08LE027,27.0,,LinearTable,Final/Finales,
+08LE027,26.0,,LinearTable,Final/Finales,
+08LE027,25.0,,LinearTable,Final/Finales,
+08LE027,24.0,,LinearTable,Final/Finales,
+08LE027,23.0,,LinearTable,Final/Finales,
+08LE027,22.0,,LinearTable,Final/Finales,
+08LE027,21.0,,LinearTable,Final/Finales,
+08LE027,20.0,,LinearTable,Final/Finales,
+08LE027,19.0,,LinearTable,Final/Finales,

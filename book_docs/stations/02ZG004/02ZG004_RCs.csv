@@ -1,0 +1,23 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+02ZG004,30.01,"Curve # 30.01 developed for 2021, it is an exact clone of #30.00, just needed due to re-grading of the Curve based on 2021 low water measurements.",LogarithmicTable,Provisional/Provisoire,(1.15);
+02ZG004,30.0,Curve # 30.00 was created for 2020.  This curve is clone of curvve #29.00 with a low to medium water change at a GH of 1.550 and below baased on 3 open water measurements taken in 2020.,LogarithmicTable,Final/Finales,(1.15);
+02ZG004,29.0,Curve # 29.00 BASED 2019 MM RESULTS IS A SHIFT TO THE RIGHT FOR THE ENTIRE CURVE. LARGE EFFECT UNDER DISCAHRGE OF 0.600 CMS,LogarithmicTable,Final/Finales,(1.40052:1.15);(1.61364:1.15);(1.28);
+02ZG004,28.0,Curve # 28 based 2016 MM results. Resulting in a mid range change to better split 2016 mm.,LogarithmicTable,Final/Finales,(1.407:1.22);(1.5339:1.285);(1.37);
+02ZG004,27.0,Curve # 27 based on 2014 and 2015 MM results. High water change based on 2015 Apr MM's,LogarithmicTable,Final/Finales,(1.5443:1.276);(1.294);
+02ZG004,26.0,Curve # 26 based on 2014 MM results as well as 2012 Nov and 2013 Oct high water MM,LogarithmicTable,Final/Finales,(1.4123:1.2);(1.5796:1.34);(1.02);
+02ZG004,25.0,Curve # 25 based on 2013 MM results as well as 2012 Nov high water MM,LogarithmicTable,Final/Finales,(1.21);
+02ZG004,24.0,,LogarithmicTable,Final/Finales,(1.119);
+02ZG004,23.0,HQFIT1.0,LinearTable,Final/Finales,
+02ZG004,22.0,HQFIT1.0,LinearTable,Final/Finales,
+02ZG004,21.0,,LinearTable,Final/Finales,
+02ZG004,20.0,LOW WATER REFINEMENT,LinearTable,Final/Finales,
+02ZG004,19.0,COMPLETE CURVE CHANGE,LinearTable,Final/Finales,
+02ZG004,18.0,LOW & MEDIUM WATER CHANGE,LinearTable,Final/Finales,
+02ZG004,17.0,LOW WATER CHANGE,LinearTable,Final/Finales,
+02ZG004,16.0,,LinearTable,Final/Finales,
+02ZG004,15.0,,LinearTable,Final/Finales,
+02ZG004,14.0,,LinearTable,Final/Finales,
+02ZG004,13.0,,LinearTable,Final/Finales,
+02ZG004,12.0,,LinearTable,Final/Finales,
+02ZG004,11.0,,LinearTable,Final/Finales,
+02ZG004,9.0,,LinearTable,Final/Finales,

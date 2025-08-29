@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10UH001_Station",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10UH001", "NameNom": "SYLVIA GRINNELL RIVER NEAR IQALUIT", "Status": "active", "Etat": "en service", "ProvTerr": "NU", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -68.58061, 63.76642 ] } }
+]
+}
