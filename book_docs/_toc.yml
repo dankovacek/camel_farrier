@@ -7,7 +7,7 @@ parts:
   - caption: Camel Farrier
     chapters:
     - file: intro
-    - file: revision_summary
+    # - file: revision_summary
 
   - caption: Streamflow Monitoring Stations
     chapters:

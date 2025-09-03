@@ -20,8 +20,7 @@ and Github is particularly useful for its capacity for collaboration and automat
 <div class="search-container">
   <input type="text" id="stationSearch" placeholder="Search by Official ID, name, or source..." onkeyup="filterStations()">
     <div id="searchResults" class="search-results"></div>
-  </div>
-
+</div>
 
 ## References
 

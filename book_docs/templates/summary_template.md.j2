@@ -1,8 +1,8 @@
 # Summary of Revision Changes
 
-For catchments with registered revisions, the information presented below describes overall changes to the set of 
-catchments in the dataset.  The degree to which a catchment polygon has changed is described by the 
-**Jaccard Similarity Index** (JSI).  For geometries \( A \) and \( B \), the JSI is defined as the intersecting 
+For catchments with registered revisions, the information presented below describes overall changes to the set of
+catchments in the dataset.  The degree to which a catchment polygon has changed is described by the
+**Jaccard Similarity Index** (JSI).  For geometries \( A \) and \( B \), the JSI is defined as the intersecting
 area divided by the union of the two polygons:
 
 $$
@@ -11,7 +11,7 @@ $$
 
 Where:
 - \( |A \cap B| \) is the area of intersection between the two geometries
-- \( |A \cup B| \) is the area of their union A Jaccard index of 1 indicates that the two sets are identical, 
+- \( |A \cup B| \) is the area of their union A Jaccard index of 1 indicates that the two sets are identical,
 while an index of 0 indicates that they are completely disjoint.
 
 <iframe src="{{ iframe_src }}" width="100%" height="450" frameborder="0"></iframe>
@@ -21,9 +21,9 @@ while an index of 0 indicates that they are completely disjoint.
 <div class="search-container">
   <input type="text" id="catchmentSearch" placeholder="Search by ID, name, or source..." onkeyup="filterCatchments()">
     <div id="searchResults" class="search-results"></div>
-  </div>
+</div>
 
-## Catchment Polygon Changes by Revision 
+## Catchment Polygon Changes by Revision
 
 {{ change_summary_table }}
 
