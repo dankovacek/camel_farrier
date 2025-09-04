@@ -188,10 +188,25 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Streamflow Monitoring Stations</span></p>
 <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/01DR001.html">01DR001: SOUTH RIVER AT ST. ANDREWS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02CG003.html">02CG003: BLUE JAY CREEK NEAR TEHKUMMAH</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02EC009.html">02EC009: HOLLAND RIVER EAST BRANCH AT HOLLAND LANDING</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02FB014.html">02FB014: BIGHEAD RIVER NEAR STRATHAVON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02YE001.html">02YE001: GREAVETT BROOK ABOVE PORTLAND CREEK POND</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/05DF006.html">05DF006: WHITEMUD CREEK NEAR ELLERSLIE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/05GA008.html">05GA008: SOUNDING CREEK NEAR OYEN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/05JA005.html">05JA005: WOOD RIVER NEAR MCCORD</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/05JA006.html">05JA006: SIX MILE CREEK NEAR GLENTWORTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/05ME009.html">05ME009: SCISSOR CREEK NEAR MCAULEY</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/06BD001.html">06BD001: HAULTAIN RIVER ABOVE NORBERT RIVER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/06DA002.html">06DA002: COCHRANE RIVER NEAR BROCHET</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/07OA001.html">07OA001: SOUSA CREEK NEAR HIGH LEVEL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/08AB001.html">08AB001: ALSEK RIVER ABOVE BATES RIVER</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/08HF013.html">08HF013: SIMPSON CREEK NEAR KOPRINO HARBOUR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/08NE074.html">08NE074: SALMO RIVER NEAR SALMO</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/08NM240.html">08NM240: TWO FORTY CREEK NEAR PENTICTON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/08NN019.html">08NN019: TRAPPING CREEK NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/10AA005.html">10AA005: BIG CREEK AT KM 1084.8 ALASKA HIGHWAY</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/10KB001.html">10KB001: CARCAJOU RIVER BELOW IMPERIAL RIVER</a></li>
 </ul>
 
@@ -432,7 +447,7 @@ document.write(`
 <h2>Large Sample Datasets<a class="headerlink" href="#large-sample-datasets" title="Link to this heading">#</a></h2>
 <p>Do et al. (2018) trace the evolution of large-sample hydrology (LSH) datasets from early collections, like the Global Runoff Database and MOPEX, which provided extensive streamflow and hydrometeorological records, to the incorporation of geospatial attributes in GAGES-II. These precursor datasets evolved into CAMELS, which combined both data types for numerous US catchments, later expanding regionally with versions from Chile, Brazil, Australia, and Great Britain, and across Europe. The HYSETS dataset covered North America and Mexico, and the recent Caravan dataset unified these diverse resources into a standardized, global framework for hydrological modeling.</p>
 <p>A challenge common to these datasets is the exclusion of small catchments due to uncertainties in catchment delineation, underscoring the need for improved, standardized processes at the first steps of catchment representation.  Small catchments represent a significant component of streamflow monitoring data, and their exclusion is a loss to hydrological research.</p>
-<div style="height:275px;"><script src="bokeh-content-1cafc5d050b042b58c006ff6d0b22438-index.js" id="ed40cc34-d53c-4539-85b0-2c771e765937"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">sys</span>
+<div style="height:275px;"><script src="bokeh-content-5bfafa8dc84549cbbae8deecbf91bb17-index.js" id="cd73548d-3e19-40cf-bab9-3030743a144d"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">sys</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;/home/danbot/Documents/code/25/camel_farrier/&quot;</span><span class="p">)</span>
 <span class="kn">from</span> <span class="nn">bokeh.io</span> <span class="kn">import</span> <span class="n">show</span>
 <span class="kn">from</span> <span class="nn">supporting_figure_functions</span> <span class="kn">import</span> <span class="n">plot_catchment_area_distributions</span>
@@ -552,11 +567,26 @@ The quality of large sample hydrology datasets could benefit from standard pract
 <script>
 // Station data for search
 const stations = [
+  {id: "05JA005", name: "WOOD RIVER NEAR MCCORD", folder: "station_pages/stations/05JA005.html"},
+  {id: "07OA001", name: "SOUSA CREEK NEAR HIGH LEVEL", folder: "station_pages/stations/07OA001.html"},
+  {id: "01DR001", name: "SOUTH RIVER AT ST. ANDREWS", folder: "station_pages/stations/01DR001.html"},
+  {id: "05DF006", name: "WHITEMUD CREEK NEAR ELLERSLIE", folder: "station_pages/stations/05DF006.html"},
   {id: "05JA006", name: "SIX MILE CREEK NEAR GLENTWORTH", folder: "station_pages/stations/05JA006.html"},
+  {id: "08NE074", name: "SALMO RIVER NEAR SALMO", folder: "station_pages/stations/08NE074.html"},
   {id: "02EC009", name: "HOLLAND RIVER EAST BRANCH AT HOLLAND LANDING", folder: "station_pages/stations/02EC009.html"},
   {id: "08NM240", name: "TWO FORTY CREEK NEAR PENTICTON", folder: "station_pages/stations/08NM240.html"},
   {id: "10KB001", name: "CARCAJOU RIVER BELOW IMPERIAL RIVER", folder: "station_pages/stations/10KB001.html"},
   {id: "08HF013", name: "SIMPSON CREEK NEAR KOPRINO HARBOUR", folder: "station_pages/stations/08HF013.html"},
+  {id: "02CG003", name: "BLUE JAY CREEK NEAR TEHKUMMAH", folder: "station_pages/stations/02CG003.html"},
+  {id: "06DA002", name: "COCHRANE RIVER NEAR BROCHET", folder: "station_pages/stations/06DA002.html"},
+  {id: "08AB001", name: "ALSEK RIVER ABOVE BATES RIVER", folder: "station_pages/stations/08AB001.html"},
+  {id: "02FB014", name: "BIGHEAD RIVER NEAR STRATHAVON", folder: "station_pages/stations/02FB014.html"},
+  {id: "05GA008", name: "SOUNDING CREEK NEAR OYEN", folder: "station_pages/stations/05GA008.html"},
+  {id: "08NN019", name: "TRAPPING CREEK NEAR THE MOUTH", folder: "station_pages/stations/08NN019.html"},
+  {id: "10AA005", name: "BIG CREEK AT KM 1084.8 ALASKA HIGHWAY", folder: "station_pages/stations/10AA005.html"},
+  {id: "06BD001", name: "HAULTAIN RIVER ABOVE NORBERT RIVER", folder: "station_pages/stations/06BD001.html"},
+  {id: "02YE001", name: "GREAVETT BROOK ABOVE PORTLAND CREEK POND", folder: "station_pages/stations/02YE001.html"},
+  {id: "05ME009", name: "SCISSOR CREEK NEAR MCAULEY", folder: "station_pages/stations/05ME009.html"},
 ];</script></section>
 <div class="toctree-wrapper compound">
 </div>

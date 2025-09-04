@@ -1,7 +1,14 @@
 # Camel Farrier - Version control for open hydrological data quality management
 
-<!-- Check out IFrames for nice tables in jupyter notebooks! -->
-<!-- https://blog.jupyter.org/make-your-pandas-or-polars-dataframes-interactive-with-itables-2-0-c64e75468fe6 -->
+:::{bokeh-plot}
+import sys
+sys.path.insert(0, "/home/danbot/Documents/code/25/camel_farrier/")
+from bokeh.io import show
+from supporting_figure_functions import plot_station_map
+show(plot_station_map())
+:::
+
+## Introduction
 
 This repository is intended to serve as a demonstration of the use of version control for open hydrological data management.
 
@@ -27,11 +34,26 @@ and Github is particularly useful for its capacity for collaboration and automat
 <script>
 // Station data for search
 const stations = [
+  {id: "05JA005", name: "WOOD RIVER NEAR MCCORD", folder: "station_pages/stations/05JA005.html"},
+  {id: "07OA001", name: "SOUSA CREEK NEAR HIGH LEVEL", folder: "station_pages/stations/07OA001.html"},
+  {id: "01DR001", name: "SOUTH RIVER AT ST. ANDREWS", folder: "station_pages/stations/01DR001.html"},
+  {id: "05DF006", name: "WHITEMUD CREEK NEAR ELLERSLIE", folder: "station_pages/stations/05DF006.html"},
   {id: "05JA006", name: "SIX MILE CREEK NEAR GLENTWORTH", folder: "station_pages/stations/05JA006.html"},
+  {id: "08NE074", name: "SALMO RIVER NEAR SALMO", folder: "station_pages/stations/08NE074.html"},
   {id: "02EC009", name: "HOLLAND RIVER EAST BRANCH AT HOLLAND LANDING", folder: "station_pages/stations/02EC009.html"},
   {id: "08NM240", name: "TWO FORTY CREEK NEAR PENTICTON", folder: "station_pages/stations/08NM240.html"},
   {id: "10KB001", name: "CARCAJOU RIVER BELOW IMPERIAL RIVER", folder: "station_pages/stations/10KB001.html"},
   {id: "08HF013", name: "SIMPSON CREEK NEAR KOPRINO HARBOUR", folder: "station_pages/stations/08HF013.html"},
+  {id: "02CG003", name: "BLUE JAY CREEK NEAR TEHKUMMAH", folder: "station_pages/stations/02CG003.html"},
+  {id: "06DA002", name: "COCHRANE RIVER NEAR BROCHET", folder: "station_pages/stations/06DA002.html"},
+  {id: "08AB001", name: "ALSEK RIVER ABOVE BATES RIVER", folder: "station_pages/stations/08AB001.html"},
+  {id: "02FB014", name: "BIGHEAD RIVER NEAR STRATHAVON", folder: "station_pages/stations/02FB014.html"},
+  {id: "05GA008", name: "SOUNDING CREEK NEAR OYEN", folder: "station_pages/stations/05GA008.html"},
+  {id: "08NN019", name: "TRAPPING CREEK NEAR THE MOUTH", folder: "station_pages/stations/08NN019.html"},
+  {id: "10AA005", name: "BIG CREEK AT KM 1084.8 ALASKA HIGHWAY", folder: "station_pages/stations/10AA005.html"},
+  {id: "06BD001", name: "HAULTAIN RIVER ABOVE NORBERT RIVER", folder: "station_pages/stations/06BD001.html"},
+  {id: "02YE001", name: "GREAVETT BROOK ABOVE PORTLAND CREEK POND", folder: "station_pages/stations/02YE001.html"},
+  {id: "05ME009", name: "SCISSOR CREEK NEAR MCAULEY", folder: "station_pages/stations/05ME009.html"},
 ];</script>
 
 ## References

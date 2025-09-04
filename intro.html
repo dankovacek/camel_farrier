@@ -62,7 +62,7 @@
     <script src="_static/searchindex.js?v=c60a6160"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="02EC009: HOLLAND RIVER EAST BRANCH AT HOLLAND LANDING" href="station_pages/stations/02EC009.html" />
+    <link rel="next" title="01DR001: SOUTH RIVER AT ST. ANDREWS" href="station_pages/stations/01DR001.html" />
     <link rel="prev" title="Introduction" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -187,10 +187,25 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Streamflow Monitoring Stations</span></p>
 <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/01DR001.html">01DR001: SOUTH RIVER AT ST. ANDREWS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02CG003.html">02CG003: BLUE JAY CREEK NEAR TEHKUMMAH</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02EC009.html">02EC009: HOLLAND RIVER EAST BRANCH AT HOLLAND LANDING</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02FB014.html">02FB014: BIGHEAD RIVER NEAR STRATHAVON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02YE001.html">02YE001: GREAVETT BROOK ABOVE PORTLAND CREEK POND</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/05DF006.html">05DF006: WHITEMUD CREEK NEAR ELLERSLIE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/05GA008.html">05GA008: SOUNDING CREEK NEAR OYEN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/05JA005.html">05JA005: WOOD RIVER NEAR MCCORD</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/05JA006.html">05JA006: SIX MILE CREEK NEAR GLENTWORTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/05ME009.html">05ME009: SCISSOR CREEK NEAR MCAULEY</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/06BD001.html">06BD001: HAULTAIN RIVER ABOVE NORBERT RIVER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/06DA002.html">06DA002: COCHRANE RIVER NEAR BROCHET</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/07OA001.html">07OA001: SOUSA CREEK NEAR HIGH LEVEL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/08AB001.html">08AB001: ALSEK RIVER ABOVE BATES RIVER</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/08HF013.html">08HF013: SIMPSON CREEK NEAR KOPRINO HARBOUR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/08NE074.html">08NE074: SALMO RIVER NEAR SALMO</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/08NM240.html">08NM240: TWO FORTY CREEK NEAR PENTICTON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/08NN019.html">08NN019: TRAPPING CREEK NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/10AA005.html">10AA005: BIG CREEK AT KM 1084.8 ALASKA HIGHWAY</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/10KB001.html">10KB001: CARCAJOU RIVER BELOW IMPERIAL RIVER</a></li>
 </ul>
 
@@ -387,6 +402,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#search-hydrometric-stations">Search Hydrometric Stations</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
 </ul>
@@ -402,8 +418,15 @@ document.write(`
                   
   <section id="camel-farrier-version-control-for-open-hydrological-data-quality-management">
 <h1>Camel Farrier - Version control for open hydrological data quality management<a class="headerlink" href="#camel-farrier-version-control-for-open-hydrological-data-quality-management" title="Link to this heading">#</a></h1>
-<!-- Check out IFrames for nice tables in jupyter notebooks! -->
-<!-- https://blog.jupyter.org/make-your-pandas-or-polars-dataframes-interactive-with-itables-2-0-c64e75468fe6 -->
+<div style="height:700px;"><script src="bokeh-content-138dd6430075466e896ee7cf1b1a1703-intro.js" id="cc8bd52a-a503-4d1d-91fb-c47939266c47"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">sys</span>
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;/home/danbot/Documents/code/25/camel_farrier/&quot;</span><span class="p">)</span>
+<span class="kn">from</span> <span class="nn">bokeh.io</span> <span class="kn">import</span> <span class="n">show</span>
+<span class="kn">from</span> <span class="nn">supporting_figure_functions</span> <span class="kn">import</span> <span class="n">plot_station_map</span>
+<span class="n">show</span><span class="p">(</span><span class="n">plot_station_map</span><span class="p">())</span>
+</pre></div>
+</div>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h2>
 <p>This repository is intended to serve as a demonstration of the use of version control for open hydrological data management.</p>
 <p>Each catchment folder contains geometric data (GeoJSON), attribute data (CSV), and a plot of the catchment polygon.</p>
 <p>Version control of catchment polygons in an open-source repository is multi-purpose:</p>
@@ -414,6 +437,7 @@ document.write(`
 </ol>
 <p>Git for version control is well suited to the management of catchment polygons because it is designed to track changes to many kinds of files,
 and Github is particularly useful for its capacity for collaboration and automation.</p>
+</section>
 <section id="search-hydrometric-stations">
 <h2>Search Hydrometric Stations<a class="headerlink" href="#search-hydrometric-stations" title="Link to this heading">#</a></h2>
 <div class="search-container">
@@ -423,11 +447,26 @@ and Github is particularly useful for its capacity for collaboration and automat
 <script>
 // Station data for search
 const stations = [
+  {id: "05JA005", name: "WOOD RIVER NEAR MCCORD", folder: "station_pages/stations/05JA005.html"},
+  {id: "07OA001", name: "SOUSA CREEK NEAR HIGH LEVEL", folder: "station_pages/stations/07OA001.html"},
+  {id: "01DR001", name: "SOUTH RIVER AT ST. ANDREWS", folder: "station_pages/stations/01DR001.html"},
+  {id: "05DF006", name: "WHITEMUD CREEK NEAR ELLERSLIE", folder: "station_pages/stations/05DF006.html"},
   {id: "05JA006", name: "SIX MILE CREEK NEAR GLENTWORTH", folder: "station_pages/stations/05JA006.html"},
+  {id: "08NE074", name: "SALMO RIVER NEAR SALMO", folder: "station_pages/stations/08NE074.html"},
   {id: "02EC009", name: "HOLLAND RIVER EAST BRANCH AT HOLLAND LANDING", folder: "station_pages/stations/02EC009.html"},
   {id: "08NM240", name: "TWO FORTY CREEK NEAR PENTICTON", folder: "station_pages/stations/08NM240.html"},
   {id: "10KB001", name: "CARCAJOU RIVER BELOW IMPERIAL RIVER", folder: "station_pages/stations/10KB001.html"},
   {id: "08HF013", name: "SIMPSON CREEK NEAR KOPRINO HARBOUR", folder: "station_pages/stations/08HF013.html"},
+  {id: "02CG003", name: "BLUE JAY CREEK NEAR TEHKUMMAH", folder: "station_pages/stations/02CG003.html"},
+  {id: "06DA002", name: "COCHRANE RIVER NEAR BROCHET", folder: "station_pages/stations/06DA002.html"},
+  {id: "08AB001", name: "ALSEK RIVER ABOVE BATES RIVER", folder: "station_pages/stations/08AB001.html"},
+  {id: "02FB014", name: "BIGHEAD RIVER NEAR STRATHAVON", folder: "station_pages/stations/02FB014.html"},
+  {id: "05GA008", name: "SOUNDING CREEK NEAR OYEN", folder: "station_pages/stations/05GA008.html"},
+  {id: "08NN019", name: "TRAPPING CREEK NEAR THE MOUTH", folder: "station_pages/stations/08NN019.html"},
+  {id: "10AA005", name: "BIG CREEK AT KM 1084.8 ALASKA HIGHWAY", folder: "station_pages/stations/10AA005.html"},
+  {id: "06BD001", name: "HAULTAIN RIVER ABOVE NORBERT RIVER", folder: "station_pages/stations/06BD001.html"},
+  {id: "02YE001", name: "GREAVETT BROOK ABOVE PORTLAND CREEK POND", folder: "station_pages/stations/02YE001.html"},
+  {id: "05ME009", name: "SCISSOR CREEK NEAR MCAULEY", folder: "station_pages/stations/05ME009.html"},
 ];</script>
 </section>
 <section id="references">
@@ -483,11 +522,11 @@ Water Survey of Canada Hydrometric Manual, Data Computations: Stage-Discharge Mo
       </div>
     </a>
     <a class="right-next"
-       href="station_pages/stations/02EC009.html"
+       href="station_pages/stations/01DR001.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">02EC009: HOLLAND RIVER EAST BRANCH AT HOLLAND LANDING</p>
+        <p class="prev-next-title">01DR001: SOUTH RIVER AT ST. ANDREWS</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -507,6 +546,7 @@ Water Survey of Canada Hydrometric Manual, Data Computations: Stage-Discharge Mo
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#search-hydrometric-stations">Search Hydrometric Stations</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
 </ul>
