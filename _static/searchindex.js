@@ -32,7 +32,6 @@ function filterStations() {
   const matches = stations.filter(c =>
     c.id.toLowerCase().includes(input) ||
     c.name.toLowerCase().includes(input) ||
-    c.source.toLowerCase().includes(input) ||
     `${c.source}-${c.id}`.toLowerCase().includes(input)
   );
 
