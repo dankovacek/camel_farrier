@@ -1,3 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-07BA001,14.0,"Replace compumod with log-log curve, extend upper range for 2023 record high water event.",LogarithmicTable,Provisional/Provisoire,(1.48:0.2);(0.315);
-07BA001,13.0,,LinearTable,Final/Finales,

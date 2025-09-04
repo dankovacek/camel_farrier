@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "09FA001_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "09FA001", "NameNom": "WHITESTONE RIVER NEAR THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "YT" }, "geometry": { "type": "Point", "coordinates": [ -138.40396, 66.42777 ] } }
-]
-}

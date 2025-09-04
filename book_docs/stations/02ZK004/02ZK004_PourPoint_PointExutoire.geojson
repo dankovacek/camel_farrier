@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "02ZK004_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "02ZK004", "NameNom": "LITTLE SALMONIER RIVER NEAR NORTH HARBOUR", "Status": "active", "Etat": "en service", "ProvTerr": "NL" }, "geometry": { "type": "Point", "coordinates": [ -53.73209, 47.12191 ] } }
-]
-}

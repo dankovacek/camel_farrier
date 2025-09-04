@@ -1,5 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-07CE003,7.0,New curve to adjust for backwater created by persistent debris pile on bridge pier below gauge. High water event is 2013 and 2020 likely scourred the channel bottom but left behind this debris.,LogarithmicTable,Provisional/Provisoire,(9.2826:8.189);(8.189);
-07CE003,6.0,New curve to adjust for deposition throughout curve.,LogarithmicTable,Final/Finales,(8.875:8.19);(8.25);
-07CE003,5.0,Extended curve #4,LinearTable,Final/Finales,
-07CE003,4.0,,LinearTable,Final/Finales,

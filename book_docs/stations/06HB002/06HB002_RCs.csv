@@ -1,5 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-06HB002,6.0,Updating format from Compumod import,LogarithmicTable,Provisional/Provisoire,(23.34);
-06HB002,5.0,Only change from #4 at 25.723 for slope.,LinearTable,Final/Finales,
-06HB002,4.0,,LinearTable,Final/Finales,
-06HB002,3.0,,LinearTable,Final/Finales,

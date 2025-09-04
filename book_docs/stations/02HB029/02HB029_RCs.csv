@@ -1,7 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-02HB029,5.0,New curve due to the scour observed in the winter of 2014/2015,LogarithmicTable,Provisional/Provisoire,(4.079);
-02HB029,4.0,,LogarithmicTable,Final/Finales,(4.005);
-02HB029,2.01,mid-stage shift right,LinearTable,Final/Finales,
-02HB029,3.0,Mid stage shift left caused by constr. in channel,LinearTable,Final/Finales,
-02HB029,2.0,,LinearTable,Final/Finales,
-02HB029,1.0,New Station,LinearTable,Final/Finales,

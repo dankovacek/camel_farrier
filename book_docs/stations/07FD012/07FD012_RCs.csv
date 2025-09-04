@@ -1,4 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-07FD012,7.01,same curve as 7.000 but zero values with NG AQ,LogarithmicTable,Provisional/Provisoire,(0.425);
-07FD012,7.0,Curve is based on two years data after bridge and well removed and culvert installation. 2013 and 2014 data and highest mmnt from 1984-5-22  used.,LogarithmicTable,Final/Finales,(0.425);
-07FD012,6.0,,LinearTable,Final/Finales,

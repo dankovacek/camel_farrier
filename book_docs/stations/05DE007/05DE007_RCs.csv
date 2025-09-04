@@ -1,5 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-05DE007,8.0,New curve developed to modernize previous Compumod curve.,LogarithmicTable,Provisional/Provisoire,(2.18:1.128);(1.28);
-05DE007,7.0,Same as Curve # 6 above 2.190 m,LinearTable,Final/Finales,
-05DE007,6.0,Same as Curve #5 above 3.900 m,LinearTable,Final/Finales,
-05DE007,5.0,,LinearTable,Final/Finales,

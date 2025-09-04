@@ -1,3 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-07RD001,4.0,"High end determined by 1991 high water mmnts. Focussed on hydro-acoustics for the original rating equation. Dialed in the rating for best fit through editting the offset. Mean shift of all points 3.5% with Max/Min = 7.7/-7.6%. We ignored May 17th, 1994 because it was an outlier.",LogarithmicTable,Provisional/Provisoire,(0.12);
-07RD001,3.0,High end determined by 1991 high water mmnts.,LinearTable,Provisional/Provisoire,

@@ -1,9 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-02FF013,7.00,"A high water event on Feb. 20, 2018 scoured out the control.  This new curve is to account for the scour and subsequent measurements which plotted to the right of the curve.",LogarithmicTable,Provisional/Provisoire,(2.45261:2.364);(3.63323:2.367);(2.42);
-02FF013,6.00,New HWS Curve,LogarithmicTable,Final/Finales,(2.4458:2.363);(3.5225:2.364);(2.38);
-02FF013,5.000,Same as HQ#3.0 > 3.700m and < 2.700m,LinearTable,Final/Finales,
-02FF013,4.000,Low End Scour. Same as Curve #3.0 Above GH 3.05m,LinearTable,Final/Finales,
-02FF013,3.000,Redefined Medium stage; Extended High end,LinearTable,Final/Finales,
-02FF013,3.000-SC1,,LinearTable,Final/Finales,
-02FF013,2.000,,LinearTable,Final/Finales,
-02FF013,1.000,,LinearTable,Final/Finales,

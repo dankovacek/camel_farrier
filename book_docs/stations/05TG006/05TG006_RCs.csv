@@ -1,7 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-05TG006,10.0,LOG LOG CURVE,LogarithmicTable,Provisional/Provisoire,(8.08);
-05TG006,8.1,2016 S/D Relationship,LinearTable,Final/Finales,
-05TG006,8.0,,LinearTable,Final/Finales,
-05TG006,9.0,,LinearTable,Final/Finales,
-05TG006,7.0,,LinearTable,Final/Finales,
-05TG006,6.0,,LinearTable,Final/Finales,

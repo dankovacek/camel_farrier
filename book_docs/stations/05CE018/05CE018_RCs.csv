@@ -1,3 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-05CE018,4.0,"New curve to update previous compumod curve.  compound control, segment 1 is low flow (<0.1m3/s) section control 20m d/s of bridge.  segment 2 is still section control at constriction immediately d/s of bridge where embedded board across channel is regulating flow.  segment 3 is channel control, submerging both sections",LogarithmicTable,Provisional/Provisoire,(0.735:0.47);(1.27:0.422);(0.65);
-05CE018,3.0,,LinearTable,Final/Finales,

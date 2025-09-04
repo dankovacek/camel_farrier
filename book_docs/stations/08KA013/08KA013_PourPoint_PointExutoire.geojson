@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08KA013_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08KA013", "NameNom": "MORKILL RIVER BELOW HELLROARING CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -120.5915, 53.68206 ] } }
-]
-}

@@ -1,7 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-07SA002,6.0,"A single segment curve created to refine the low end of curve 5.0000. Although curve 5.000 is a good rating, the low-end hasnt been revisited with acoustic measurements until recently. Lower water measurements in 2023, 2022 and 2020 suggest that the low end of the curve is a little bit too far to the right. Curve 6.000 created to update this.",LogarithmicTable,Provisional/Provisoire,(25.1);
-07SA002,5.0,,LogarithmicTable,Final/Finales,(24.93);
-07SA002,4.0,High end determined by mmnts. and log plot.,LinearTable,Provisional/Provisoire,
-07SA002,3.0,High end determined by mmnts. and log plot.,LinearTable,Final/Finales,
-07SA002,2.0,,LinearTable,Final/Finales,
-07SA002,1.0,,LinearTable,Final/Finales,

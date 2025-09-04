@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "07FB004_Station",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "07FB004", "NameNom": "DICKEBUSCH CREEK NEAR THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -121.5968, 55.53778 ] } }
-]
-}

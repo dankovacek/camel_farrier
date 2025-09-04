@@ -1,7 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-05CA009,10.000,New Curve Development for 2019 Forward. 3 Segments. Graded 'E'' when extended to Slope-Area mmnts.  No Floodplain measurements available. MDF,LogarithmicTable,Provisional/Provisoire,(1.975:0.659);(2.729:0.75);(0.95);
-05CA009,9.000,New Curve post 2013 high water,LogarithmicTable,Final/Finales,(1.855:0.638);(0.446);
-05CA009,8.000,Extended past 3.640 in 2005.,LinearTable,Final/Finales,
-05CA009,8.000-SC2,,LinearTable,Final/Finales,
-05CA009,8.000-SC1,,LinearTable,Final/Finales,
-05CA009,7.000,,LinearTable,Final/Finales,

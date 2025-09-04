@@ -1,9 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-01AL004,23.01,change to log-log from Jan 2016.  Cloned for upper end extension for 2019 computations.  Extended 0.010 m.,LogarithmicTable,Provisional/Provisoire,(5.4271:5.003);(5.003);
-01AL004,23.00,change to log-log from Jan 2016,LogarithmicTable,Final/Finales,(5.4271:5.003);(5.003);
-01AL004,22.000,Curve extension from 6.15 to 6.40 m in 2010,LinearTable,Final/Finales,
-01AL004,21.000,"LOW H2O CHANGE, MED H2O REFINEMENT",LinearTable,Final/Finales,
-01AL004,20.000-SC1,,LinearTable,Final/Finales,
-01AL004,20.000,,LinearTable,Final/Finales,
-01AL004,19.000,,LinearTable,Final/Finales,
-01AL004,18.000,,LinearTable,Final/Finales,

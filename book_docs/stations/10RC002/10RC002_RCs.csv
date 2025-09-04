@@ -1,6 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-10RC002,5.0,,LogarithmicTable,Provisional/Provisoire,(7.188);
-10RC002,4.0,Replace 3.0 without dips at rating points,LogarithmicTable,Final/Finales,(7.26);
-10RC002,3.0,,LogarithmicTable,Final/Finales,(6.06);
-10RC002,2.0,Clone of 1.0 but extended using HWS,LinearTable,Final/Finales,
-10RC002,1.0,Created with french curves and log-log confirmed,LinearTable,Final/Finales,

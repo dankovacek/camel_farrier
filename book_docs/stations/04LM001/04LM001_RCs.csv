@@ -1,8 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-04LM001,12.0,For PRL to verify,LogarithmicTable,Provisional/Provisoire,(25.389:23.638);(24.6);
-04LM001,11.0,,LogarithmicTable,Final/Finales,(23.819);
-04LM001,10.0,,LogarithmicTable,Final/Finales,(23.819);
-04LM001,9.0,,LinearTable,Final/Finales,
-04LM001,8.0,Extended Lower End Nov 28/05,LinearTable,Final/Finales,
-04LM001,7.0,,LinearTable,Final/Finales,
-04LM001,6.0,,LinearTable,Final/Finales,

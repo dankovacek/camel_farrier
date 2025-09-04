@@ -1,9 +1,0 @@
-Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
-02GH011,DeleteRegion,HG,2024-01-18T18:40:00,2024-01-18T18:45:00,2024-01-19T14:13:51,-5,DISREGARD: Equipment malfunction,,Normal
-02GH011,DeleteRegion,HG,2023-06-08T19:30:00,2023-06-08T19:40:00,2023-06-13T12:18:45,-5,INVALID - WELL MAINTENANCE,,Normal
-02GH011,CopyPaste,HG,2022-08-09T17:10:00,2022-08-09T18:45:00,2022-08-18T16:43:33,-5,"Copy and paste logger data - gap fillOverride: Copy & Paste‌Source Data Set: Stage.Logger@02GH011, time shift: 00:00 minutes.‌",,Normal
-02GH011,DeleteRegion,HG,2022-05-05T13:30:00,2022-05-05T13:35:00,2022-05-05T18:17:35,-5,Well intakes flushed,,Normal
-02GH011,CopyPaste,HG,2020-09-14T20:00:00,2021-01-04T20:00:00,2021-01-26T15:11:40,-5,Copy and Paste from Stage.Logger@02GH011,,PreProcessing
-02GH011,DeleteRegion,HG,2020-09-14T19:15:00,2020-09-14T19:20:00,2020-09-21T12:21:16,-5,DISREGARD DATA - WELL FLUSHED,,Normal
-02GH011,CopyPaste,HG,2020-07-28T19:31:00,2020-09-14T19:30:00,2020-09-23T17:57:57,-5,Override: Freehand‌,,PreProcessing
-02GH011,CopyPaste,HG,2020-02-05T14:05:00,2020-07-28T19:30:00,2020-08-27T15:43:34,-5,Copy and Paste from Stage.Logger@02GH011,,PreProcessing

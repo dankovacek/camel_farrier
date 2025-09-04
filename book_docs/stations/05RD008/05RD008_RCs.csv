@@ -1,4 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-05RD008,9.0,New curve for 2022 higher water. - KSP,LogarithmicTable,Provisional/Provisoire,(-0.27);
-05RD008,8.01,Curve extended for 2022 higher water,LinearTable,Final/Finales,
-05RD008,8.0,Station re-activated in 2021. Q msmts in summer of 2021 verify validity of previous linear curve. Possible difference being linear curve developed with Price meter as opposed to ADCP. Use linear S/D #8.00 for time being with nshifts until enough msmts taken to develop new log curve.,LinearTable,Final/Finales,

@@ -1,6 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-04FA002,10.01,Curve extension for highwater in spring 2022.,LogarithmicTable,Provisional/Provisoire,(329.8);
-04FA002,10.0,Curve was renamed from C9.001 to 10.000 as the slope of the extention to the bottom end has a different slope than curve no 9.000,LogarithmicTable,Final/Finales,(329.8);
-04FA002,9.0,"Extended curve for May 22, 23, 2014 Measurements as they were off the end of Curve # 8.000",LogarithmicTable,Final/Finales,(329.8);
-04FA002,8.0,"adjusted offset frm 329.73 to 329.80 split July 2012 and July 2013 mmts adjusted lower rating point to fit sept 2011,2012 mmts",LogarithmicTable,Final/Finales,(329.8);
-04FA002,7.0,,LogarithmicTable,Final/Finales,(329.73);

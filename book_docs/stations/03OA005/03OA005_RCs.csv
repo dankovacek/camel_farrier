@@ -1,6 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-03OA005,5.0,High WATER REFINEMENT OF CURVE # 4 BASED ON Jun 2016 MM RESULT,LogarithmicTable,Provisional/Provisoire,(3.3239:1.93);(1.87);
-03OA005,4.0,LOW WATER REFINEMENT OF CURVE # 3 BASED ON AUG 2012 MM RESULT,LogarithmicTable,Final/Finales,(2);
-03OA005,3.0,CURVE DEVELOPED USING RECENT MM'S,LogarithmicTable,Final/Finales,(2);
-03OA005,2.0,Based on 2008 mm results July and Sep,LinearTable,Final/Finales,
-03OA005,1.0,,LinearTable,Final/Finales,

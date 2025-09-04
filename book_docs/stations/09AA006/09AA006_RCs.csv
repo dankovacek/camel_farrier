@@ -1,8 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-09AA006,7.0,"Creating average curve based on 2010-2022, bottom end probably needs further refinement",LogarithmicTable,Provisional/Provisoire,(0.27);
-09AA006,6.0,,LogarithmicTable,Provisional/Provisoire,(0.4);
-09AA006,5.1,minor low-mid end adjustment (left shift),LinearTable,Final/Finales,
-09AA006,5.0,Approved.,LinearTable,Final/Finales,
-09AA006,4.1,APPROVED.Top-end shift due to 2004/2007 HW Mmnts,LinearTable,Final/Finales,
-09AA006,4.0,coincidence w/Table 3 @>=1.900m,LinearTable,Final/Finales,
-09AA006,3.0,,LinearTable,Final/Finales,

@@ -1,6 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-10ED001,12,,LogarithmicTable,Provisional/Provisoire,(0.2);
-10ED001,11.1,Same as 11 below 9 m. Extension from HW mmnt,LinearTable,Provisional/Provisoire,
-10ED001,11.000,log-log used to define top.,LinearTable,Provisional/Provisoire,
-10ED001,10.000,,LinearTable,Final/Finales,
-10ED001,10.000-SC1,,LinearTable,Final/Finales,

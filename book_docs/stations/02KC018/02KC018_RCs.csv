@@ -1,8 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-02KC018,7.0,"Rating 7.000 drawn to the right of curve 6.000 as there is evidence that at higher water log jams and trees have created backwater on a number of mmts, as well the lower end mmts appear to be affected by backwater at certain times of the year.  The curve is drawn to the right with the intention of shifting to the left for backwater mmt.",LogarithmicTable,Provisional/Provisoire,(3.251:2.3);(2.5);
-02KC018,6.0,,LogarithmicTable,Final/Finales,(2.3);
-02KC018,5.0,,LogarithmicTable,Final/Finales,(2.32);
-02KC018,4.0,created curve using RDT in HWS,LogarithmicTable,Final/Finales,(2.155);
-02KC018,3.0,,LinearTable,Final/Finales,
-02KC018,2.0,,LinearTable,Final/Finales,
-02KC018,1.0,New station. Based on mmnts 2007-2009,LinearTable,Final/Finales,

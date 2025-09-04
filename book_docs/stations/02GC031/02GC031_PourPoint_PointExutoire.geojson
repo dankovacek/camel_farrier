@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "02GC031_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "02GC031", "NameNom": "DODD CREEK BELOW PAYNES MILLS", "Status": "active", "Etat": "en service", "ProvTerr": "ON" }, "geometry": { "type": "Point", "coordinates": [ -81.26716, 42.78715 ] } }
-]
-}

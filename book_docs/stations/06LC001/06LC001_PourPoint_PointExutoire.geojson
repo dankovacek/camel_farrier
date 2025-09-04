@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "06LC001_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "06LC001", "NameNom": "KAZAN RIVER ABOVE KAZAN FALLS", "Status": "active", "Etat": "en service", "ProvTerr": "NU" }, "geometry": { "type": "Point", "coordinates": [ -95.85161, 63.65076 ] } }
-]
-}

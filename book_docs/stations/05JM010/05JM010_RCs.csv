@@ -1,7 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-05JM010,9.0,Curve No. 9.000 for 2023 based on the 2022 measurements to define the section control and all the 2012 to 2023 high-water measurements to determine the channel control. The slope for both segments is representative of a parabolic channel.,LogarithmicTable,Provisional/Provisoire,(1.725:1.141);(0.85);
-05JM010,8.0,Gauge moved to new site,LinearTable,Final/Finales,
-05JM010,7.01,From curve 7,LogarithmicTable,Final/Finales,
-05JM010,7.0,W/L location changed Oct/05 Same as #6 above 3.65m,LinearTable,Final/Finales,
-05JM010,6.0,,LinearTable,Final/Finales,
-05JM010,5.0,,LinearTable,Final/Finales,

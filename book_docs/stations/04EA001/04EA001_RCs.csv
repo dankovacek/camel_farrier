@@ -1,5 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-04EA001,9.0,,LogarithmicTable,Provisional/Provisoire,(21.476);
-04EA001,8.01,Same as curve#8. Re-activated station.,LinearTable,Final/Finales,
-04EA001,8.0,"Station dis-continued March 31, 1995.",LinearTable,Final/Finales,
-04EA001,7.0,,LinearTable,Final/Finales,

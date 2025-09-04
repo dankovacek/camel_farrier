@@ -1,5 +1,0 @@
-STATION_NUMBER,REMARK_TYPE_CODE,YEAR,REMARK_EN,REMARK_FR
-05JA005,2,2020,"Due to measures in place to limit the spread of the coronavirus, regular visits to this station were reduced. This may have impacted data quality during run-off due to changing ice conditions that were unable to be well defined by mmnts. Maximum peaks and extremes are marked as invalid due to no mmnts at or near that discharge to confirm.   ",
-05JA005,2,2021,Max instantaneous discharge not valid as it occurs during undefined backwater ,
-05JA005,2,2023,"MINIMUM STAGE PEAK AND EXTREME NOT VALID- MAY HAVE OCCURRED DURING PERIOD OF UNAVAILABLE RECORD. 
-MINIMUM DISCHARGE PEAK NOT VALID- OCCURRED UNDER ICE ",

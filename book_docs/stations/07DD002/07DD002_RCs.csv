@@ -1,7 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-07DD002,8.00,Upgrade from Compumod curve.,LogarithmicTable,Provisional/Provisoire,(-0.581);
-07DD002,7.000,,LinearTable,Final/Finales,
-07DD002,7.000-SC1,,LinearTable,Final/Finales,
-07DD002,6.000,This curve is the same as curve #4,LinearTable,Final/Finales,
-07DD002,5.000,,LinearTable,Final/Finales,
-07DD002,4.000,,LinearTable,Final/Finales,

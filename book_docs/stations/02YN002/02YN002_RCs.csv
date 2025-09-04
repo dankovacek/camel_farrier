@@ -1,6 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-02YN002,9.0,New Curve #9 created for 2019.  This is a slight low to  medium water change based in 2019 measurements. This curve i removed all older measurements that are older then 10yrs except for historical high and low mesurements.,LogarithmicTable,Provisional/Provisoire,(0.3);
-02YN002,8.0,CURVE DEVELOPED USING THE NEW RDT USING 2014 MM ONLY BELOW GH 1.300,LogarithmicTable,Final/Finales,(0.3);
-02YN002,7.0,CURVE DEVELOPED USING THE NEW RDT,LogarithmicTable,Final/Finales,(0.3);
-02YN002,6.0,,LinearTable,Final/Finales,
-02YN002,5.0,,LinearTable,Final/Finales,

@@ -1,7 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-02FC021,6.0,"New HWS Curve, low end changes based on clear 2016, and 2017 mmts.  Blended in during ice.  Top end marked estimated since based on few mmts, like to past curves (no changes)",LogarithmicTable,Provisional/Provisoire,(3.647);
-02FC021,5.0,New HWS Curve,LogarithmicTable,Final/Finales,(3.692);
-02FC021,4.0,New HWS Curve,LogarithmicTable,Final/Finales,(4.377:3.692);(4.8397:3.713);(3.79);
-02FC021,3.0,Extended below HG 3.720,LinearTable,Final/Finales,
-02FC021,2.0,Broken back curve,LinearTable,Final/Finales,
-02FC021,1.0,,LinearTable,Final/Finales,

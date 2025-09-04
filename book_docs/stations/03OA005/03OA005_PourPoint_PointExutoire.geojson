@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "03OA005_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "03OA005", "NameNom": "WABUSH LAKE AT LAKE OUTLET", "Status": "active", "Etat": "en service", "ProvTerr": "NL" }, "geometry": { "type": "Point", "coordinates": [ -66.78422, 53.15029 ] } }
-]
-}

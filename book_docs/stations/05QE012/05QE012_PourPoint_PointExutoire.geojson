@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "05QE012_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "05QE012", "NameNom": "LONG-LEGGED RIVER BELOW LONG-LEGGED LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "ON" }, "geometry": { "type": "Point", "coordinates": [ -93.9697, 50.67685 ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "06BB003_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "06BB003", "NameNom": "CHURCHILL RIVER NEAR PATUANAK", "Status": "active", "Etat": "en service", "ProvTerr": "SK" }, "geometry": { "type": "Point", "coordinates": [ -107.72442, 55.92396 ] } }
-]
-}

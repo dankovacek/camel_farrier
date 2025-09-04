@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08AB001_Station",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08AB001", "NameNom": "ALSEK RIVER ABOVE BATES RIVER", "Status": "active", "Etat": "en service", "ProvTerr": "YT", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -137.9778, 60.11831 ] } }
-]
-}

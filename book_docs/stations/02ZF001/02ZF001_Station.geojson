@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "02ZF001_Station",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "02ZF001", "NameNom": "BAY DU NORD RIVER AT BIG FALLS", "Status": "active", "Etat": "en service", "ProvTerr": "NL", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -55.44022, 47.74683 ] } }
-]
-}

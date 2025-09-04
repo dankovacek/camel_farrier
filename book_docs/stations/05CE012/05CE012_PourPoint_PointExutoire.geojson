@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "05CE012_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "05CE012", "NameNom": "GHOSTPINE CREEK NEAR HUXLEY", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -113.24139, 51.89541 ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "05MF024_Station",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "05MF024", "NameNom": "LITTLE SASKATCHEWAN RIVER NEAR HOROD", "Status": "active", "Etat": "en service", "ProvTerr": "MB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -100.2489, 50.69 ] } }
-]
-}

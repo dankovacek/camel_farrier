@@ -1,7 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-07GE001,21.0,2 segments control curve. Mainly channel control. Section control below 0.84 induced by cobble bar locally,LogarithmicTable,Provisional/Provisoire,(0.84:0.272);(0.111);
-07GE001,20.0,Same as curve#19 above 1.871 m,LinearTable,Final/Finales,
-07GE001,19.0,Same as Curve #18 above 7.450 meters.,LinearTable,Final/Finales,
-07GE001,18.0,,LinearTable,Final/Finales,
-07GE001,17.0,,LinearTable,Final/Finales,
-07GE001,16.0,,LinearTable,Final/Finales,

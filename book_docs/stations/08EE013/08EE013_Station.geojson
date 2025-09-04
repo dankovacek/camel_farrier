@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08EE013_Station",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08EE013", "NameNom": "BUCK CREEK AT THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -126.6502, 54.39608 ] } }
-]
-}

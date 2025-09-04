@@ -1,9 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-05NF006,8.000,DRAWN USING 2013-2017 MMNTS,LogarithmicTable,Provisional/Provisoire,(1.641:1.385);(1.295);
-05NF006,7.000,Redrawn with new ZFP along with the new HWM,LogarithmicTable,Final/Finales,
-05NF006,6.000,For use in 2012,LogarithmicTable,Provisional/Provisoire,(1.52);
-05NF006,5.000,Weir reshaped fall 1999.,LinearTable,Final/Finales,
-05NF006,5.000-SC4,,LinearTable,Final/Finales,
-05NF006,4.000,,LinearTable,Final/Finales,
-05NF006,4.000-SC3,,LinearTable,Final/Finales,
-05NF006,4.000-SC2,,LinearTable,Final/Finales,

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08KB001_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08KB001", "NameNom": "FRASER RIVER AT SHELLEY", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -122.6264, 54.00506 ] } }
-]
-}

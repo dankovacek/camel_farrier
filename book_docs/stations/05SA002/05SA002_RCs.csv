@@ -1,6 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-05SA002,20.0,New log-log curve - derived from open water mmts from 2012 to 2016 and historical high water mmts. CJK,LogarithmicTable,Provisional/Provisoire,(228.781:228.005);(230.511:228.181);(228.22);
-05SA002,19.01,Same as curve 19 above 230.450 + gsc correction,LogarithmicTable,Final/Finales,
-05SA002,19.0,,LinearTable,Final/Finales,
-05SA002,18.0,,LinearTable,Final/Finales,
-05SA002,17.0,,LinearTable,Final/Finales,

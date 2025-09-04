@@ -1,4 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-05CD007,10.00,"CURVE 10.00 Modernize previous Compupod curve, and adjust lower end of rating to account for slight scour. Extended upper end using April 2018 high water measurement.",LogarithmicTable,Provisional/Provisoire,(1.01704:0.26);(0.21);
-05CD007,9.000,,LinearTable,Final/Finales,
-05CD007,9.000-SC1,,LinearTable,Final/Finales,

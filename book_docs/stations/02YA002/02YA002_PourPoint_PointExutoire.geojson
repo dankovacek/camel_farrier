@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "02YA002_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "02YA002", "NameNom": "BARTLETTS RIVER NEAR ST. ANTHONY", "Status": "active", "Etat": "en service", "ProvTerr": "NL" }, "geometry": { "type": "Point", "coordinates": [ -55.64117, 51.44916 ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "05FE002_Station",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "05FE002", "NameNom": "BUFFALO CREEK AT HIGHWAY NO. 41", "Status": "active", "Etat": "en service", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -110.8673, 53.00723 ] } }
-]
-}

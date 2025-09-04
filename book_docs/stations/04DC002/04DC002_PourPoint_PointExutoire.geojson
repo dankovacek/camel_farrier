@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "04DC002_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "04DC002", "NameNom": "SHAMATTAWA RIVER AT OUTLET OF SHAMATTAWA LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "ON" }, "geometry": { "type": "Point", "coordinates": [ -85.65094, 54.28947 ] } }
-]
-}

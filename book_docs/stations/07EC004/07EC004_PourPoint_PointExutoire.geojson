@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "07EC004_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "07EC004", "NameNom": "OSILINKA RIVER NEAR END LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -124.80053, 56.12667 ] } }
-]
-}

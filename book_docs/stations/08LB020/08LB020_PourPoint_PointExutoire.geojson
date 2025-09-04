@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08LB020_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08LB020", "NameNom": "BARRIERE RIVER AT THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -120.12687, 51.18811 ] } }
-]
-}

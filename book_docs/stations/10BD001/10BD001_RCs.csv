@@ -1,5 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-10BD001,16.0,Developed for 2018 high water,LogarithmicTable,Provisional/Provisoire,(24.7);
-10BD001,15.0,"developed in 2016 using a 2015 high water mmnt and multiple 2016, 2015 and 2014 mmnts between 60-100 m3/s mmnts, and curve #14 as a guide",LogarithmicTable,Provisional/Provisoire,(24.7);
-10BD001,14.0,,LogarithmicTable,Provisional/Provisoire,(25);
-10BD001,13.0,Last curve from 1993,LogarithmicTable,Provisional/Provisoire,(25.2);

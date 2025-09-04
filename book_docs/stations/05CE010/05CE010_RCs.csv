@@ -1,6 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-05CE010,10.0,"Update to existing compumod curve.  Point of zero flow is prone to scour from cattle and beaver activity.  Segment 2 is channel control and nears overbank flow at segment 3.  Low confidence in segment 3, more measurements needed in order to validate and remove estimated grade.",LogarithmicTable,Provisional/Provisoire,(0.96:0.3);(0.58);
-05CE010,9.0,Curve#9 same as curve#8 below 0.900 meters,LinearTable,Final/Finales,
-05CE010,8.0,,LinearTable,Final/Finales,
-05CE010,7.0,,LinearTable,Final/Finales,
-05CE010,6.0,,LinearTable,Final/Finales,

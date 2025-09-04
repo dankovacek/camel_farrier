@@ -1,6 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-10LB007,5.0,,LogarithmicTable,Provisional/Provisoire,(6.791);
-10LB007,4.0,,LogarithmicTable,Provisional/Provisoire,(6.79);
-10LB007,3.0,CURVE DEVELOPED USING 2012 OPEN WATER MEASUREMENTS,LogarithmicTable,Final/Finales,(6.6);
-10LB007,2.0,Developed based on 2011 and 2012 open water measurements,LogarithmicTable,Provisional/Provisoire,
-10LB007,1.0,HQFIT1.0,LinearTable,Provisional/Provisoire,

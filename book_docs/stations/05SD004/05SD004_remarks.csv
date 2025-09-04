@@ -1,8 +1,0 @@
-STATION_NUMBER,REMARK_TYPE_CODE,YEAR,REMARK_EN,REMARK_FR
-05SD004,2,2012,Station installed in 2012. Discharge data not available.,
-05SD004,2,2017,Use estimated discharge from April 27 ? May 10 with caution.,
-05SD004,2,2021,Extreme beaver activity throughout the operating period.  Discharge data from July 19 to August 31 should be used with caution as the bottom end of the stage/discharge curve is not defined.,
-05SD004,4,-999,"AN EQUATION TO GENERATE ANNUAL FLOW VOLUME IS AVAILABLE.
-
-MINIMUM PEAK AND EXTREME NOT VALID- OCCURRED OUTSIDE THE STANDARD PERIOD OF RECORD?",EQUATION POUR CALCULER LE DEBIT ANNUEL EST DISPONIBLE
-05SD004,5,-999,MINIMUM PEAK AND EXTREME NOT VALID- OCCURRED OUTSIDE THE STANDARD PERIOD OF RECORD?,

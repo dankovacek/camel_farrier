@@ -1,5 +1,0 @@
-STATION_NUMBER,REMARK_TYPE_CODE,YEAR,REMARK_EN,REMARK_FR
-05NF002,2,2010,2010 DATA QUALITY CONSIDERED VERY GOOD.,DONNEES DE TRES BONNE QUALITE
-05NF002,2,2020,"Due to measures in place to limit the spread of the coronavirus, regular visits to this station were reduced or no longer conducted during 2020. This may have impacted data quality in 2020.",
-05NF002,2,2023,Minimum daily and instantaneous water level and discharge invalid due to seasonal operation. Maximum instantaneous discharge invalid due to ice conditions.,
-05NF002,4,-999,MONTHLY MEAN NATURAL FLOWS FOR THE PERIOD 1912-1977 HAVE BEEN COMPUTED BY THE PRAIRIE PROVINCES WATER BOARD.,DEBITS MOYENS MENSUELS NATURELS POUR LA PERIODE 1912-1977 ONT ETE CALCULES PAR LA COMMISSION DES RESSOURCES EN EAU DES PROVINCES DES PRAIRIES

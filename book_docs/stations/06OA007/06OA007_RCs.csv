@@ -1,4 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-06OA007,3.0,"Modernizing format from imported Compumod Curve - adjusting  5.4 to 6 range. Extending to the low end draws through the winter measurements, scattered within 50%.",LogarithmicTable,Provisional/Provisoire,(4.35);
-06OA007,2.0,High end with HQfit. Mid-low french curved.,LinearTable,Final/Finales,
-06OA007,1.0,"HQ fit above 25 m3/s, french curve for low end.",LinearTable,Final/Finales,

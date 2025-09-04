@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "07GG001_Station",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "07GG001", "NameNom": "WASKAHIGAN RIVER NEAR THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -117.2057, 54.75201 ] } }
-]
-}

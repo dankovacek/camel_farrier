@@ -1,8 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-05BL019,20.0,New rating following 2013 high water event using indirect flow estimate.,LogarithmicTable,Provisional/Provisoire,(1.786:0.4);(2.77:1.347);(0.65);
-05BL019,19.0,Same as No 18.0  Above Ght 1.649m,LinearTable,Final/Finales,
-05BL019,18.0,"HQFIT1.0, Same as Curve #16 above 2.65m",LinearTable,Final/Finales,
-05BL019,17.0,Same as Curve #16 above 2.62m,LinearTable,Final/Finales,
-05BL019,16.0,,LinearTable,Final/Finales,
-05BL019,15.0,,LinearTable,Final/Finales,
-05BL019,14.0,,LinearTable,Final/Finales,

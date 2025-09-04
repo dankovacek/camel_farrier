@@ -1,8 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-07DA006,9.0,,LogarithmicTable,Provisional/Provisoire,(98.135:96.472);(94.47);
-07DA006,8.0,Same as Curve#7 below 98.1m. Extension of high end,LinearTable,Final/Finales,
-07DA006,7.0,"HQFIT1.0 Same 0 flow as curve 6, extended curve.",LinearTable,Final/Finales,
-07DA006,6.0,HQFIT6.0,LinearTable,Final/Finales,
-07DA006,5.0,,LinearTable,Final/Finales,
-07DA006,4.0,,LinearTable,Final/Finales,
-07DA006,3.0,,LinearTable,Final/Finales,

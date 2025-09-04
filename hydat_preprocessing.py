@@ -93,7 +93,7 @@ water_license_df = gpd.read_file(WATER_LICENSE_FILE)
 # convert to the same crs as the catchment polygons
 water_license_df = water_license_df.to_crs("EPSG:3857")
 
-n_to_generate = 500
+n_to_generate = 5
 random_idxs = station_df.sample(n=n_to_generate, random_state=42).index
 
 query_quality_codes(conn, BOOK_DIR / "station_pages")

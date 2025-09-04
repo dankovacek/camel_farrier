@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "02MB010_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "02MB010", "NameNom": "BUELLS CREEK AT BROCKVILLE", "Status": "active", "Etat": "en service", "ProvTerr": "ON" }, "geometry": { "type": "Point", "coordinates": [ -75.69159, 44.58557 ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "10JA002_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "10JA002", "NameNom": "CAMSELL RIVER AT OUTLET OF CLUT LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "NT" }, "geometry": { "type": "Point", "coordinates": [ -117.75879, 65.59794 ] } }
-]
-}

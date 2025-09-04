@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "06AB002_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "06AB002", "NameNom": "WOLF RIVER AT OUTLET OF WOLF LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -111.00237, 54.71265 ] } }
-]
-}

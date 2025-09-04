@@ -1,6 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-05DD004,11.0,extended to the two older Slope-Area measurements for upper segment. line up very well.,LogarithmicTable,Provisional/Provisoire,(0.501:0.218);(0.308);
-05DD004,10.0,New curve needed after many years. A new curve was needed as there looks to have been some scour on the lower end.,LogarithmicTable,Final/Finales,(0.79783:0.238);(0.276);
-05DD004,9.0,Same as Curve No 8.00 above Ght 0.985 m,LinearTable,Final/Finales,
-05DD004,8.0,,LinearTable,Final/Finales,
-05DD004,7.0,,LinearTable,Final/Finales,

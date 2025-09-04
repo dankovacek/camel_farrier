@@ -1,8 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-02BC006,7.0,New curve after several high water events.  Uses mmts from 2018-2023,LogarithmicTable,Provisional/Provisoire,(4.67:3.4931);(3.8);
-02BC006,6.0,Drawn to new high water and low water mmts.  Bottom end extended and marked as estimated until lower mmts obtained.,LogarithmicTable,Final/Finales,(3.728);
-02BC006,5.0,Upper end of curve no mmts for lower end,LogarithmicTable,Final/Finales,(3.62);
-02BC006,4.0,HQFIT1.0 used to draw lower end upper from HQ #3,LinearTable,Final/Finales,
-02BC006,3.0,New Curve-changes below 4.6m.,LinearTable,Final/Finales,
-02BC006,2.0,New Curve-changes above 5.1m after Apr. 23 mmt,LinearTable,Final/Finales,
-02BC006,1.0,HQFIT1.0,LinearTable,Final/Finales,

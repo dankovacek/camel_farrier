@@ -1,3 +1,0 @@
-Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
-09AA006,FillGaps,QR,2018-05-10T00:30:00,2018-05-16T21:30:00,2020-09-29T18:14:06,-8,,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal
-09AA006,FillGaps,QR,2018-05-04T22:10:00,2018-05-10T00:30:00,2020-09-29T18:13:05,-8,,"ResamplePeriod:PT2H,GapLimit:MaxDuration",Normal

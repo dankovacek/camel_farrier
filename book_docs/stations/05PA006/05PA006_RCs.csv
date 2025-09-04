@@ -1,8 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-05PA006,12.0,MINOR ADJUSTMENT TO HIGH END OF CURVE,LogarithmicTable,Provisional/Provisoire,(360.497:359.589);(359.855);
-05PA006,11.0,,LogarithmicTable,Final/Finales,(360.497:359.589);(359.855);
-05PA006,10.0,,LinearTable,Final/Finales,
-05PA006,9.0,,LinearTable,Final/Finales,
-05PA006,7.01,,LinearTable,Final/Finales,
-05PA006,8.0,,LinearTable,Final/Finales,
-05PA006,7.0,,LinearTable,Final/Finales,

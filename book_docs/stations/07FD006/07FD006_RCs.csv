@@ -1,9 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-07FD006,20.0,"Development of a new curve. the low segment shows fill. best fit for medium and high end.  Section, channel and flood plain CTRL.  Focused on 2011 and 1968 measurements for the high end.  As a result high breakpoint  was best fit.",LogarithmicTable,Provisional/Provisoire,(1.4261:0.61);(2.6256:0.52);(0.7);
-07FD006,18.0,Same as Table No. 17 above 1.94 m.,LinearTable,Final/Finales,
-07FD006,19.0,,LogarithmicTable,Final/Finales,(0);
-07FD006,17.0,Same as Table #16 above 4.300m.,LinearTable,Final/Finales,
-07FD006,16.0,Same as Curve # 15 below 0.350 m,LinearTable,Final/Finales,
-07FD006,15.0,,LinearTable,Final/Finales,
-07FD006,14.0,,LinearTable,Final/Finales,
-07FD006,13.0,,LinearTable,Final/Finales,

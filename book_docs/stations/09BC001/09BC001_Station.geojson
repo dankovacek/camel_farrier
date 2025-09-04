@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "09BC001_Station",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "09BC001", "NameNom": "PELLY RIVER AT PELLY CROSSING", "Status": "active", "Etat": "en service", "ProvTerr": "YT", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -136.5806, 62.82972 ] } }
-]
-}

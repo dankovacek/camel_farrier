@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "05EA001_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "05EA001", "NameNom": "STURGEON RIVER NEAR FORT SASKATCHEWAN", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -113.28297, 53.83288 ] } }
-]
-}

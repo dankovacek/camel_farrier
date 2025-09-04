@@ -1,5 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-10RA002,6.0,HWS curve,LogarithmicTable,Provisional/Provisoire,(2.25);
-10RA002,5.000,Polynomial analysis used to extend 9.0 to 12.3 m.,LinearTable,Provisional/Provisoire,
-10RA002,C5.1,curve extension to maximum.,LinearTable,Provisional/Provisoire,
-10RA002,CC5.1,curve extension to maximum.,LinearTable,Provisional/Provisoire,

@@ -1,9 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-02BF002,13.00,"New curve to take into account newest ADCP measurements, and new techniques for curve development",LogarithmicTable,Provisional/Provisoire,(8.0409:6.77);(7.54);
-02BF002,12,,LogarithmicTable,Final/Finales,(7.899:6.81);(7.65);
-02BF002,11.000,,LinearTable,Final/Finales,
-02BF002,10.000-SC1,,LinearTable,Final/Finales,
-02BF002,10.000,,LinearTable,Final/Finales,
-02BF002,9.000,,LinearTable,Final/Finales,
-02BF002,8.000,,LinearTable,Final/Finales,
-02BF002,7.000,,LinearTable,Final/Finales,

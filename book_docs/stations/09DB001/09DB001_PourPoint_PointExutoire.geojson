@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "09DB001_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "09DB001", "NameNom": "BEAVER RIVER BELOW MATSON CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "YT" }, "geometry": { "type": "Point", "coordinates": [ -134.13921, 64.01444 ] } }
-]
-}

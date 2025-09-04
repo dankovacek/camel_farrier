@@ -1,4 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-07BC006,8.0,New Curve - Migrate from arithmatic to logarithmic,LogarithmicTable,Provisional/Provisoire,(0.421);
-07BC006,7.0,,LinearTable,Final/Finales,
-07BC006,6.0,,LinearTable,Final/Finales,

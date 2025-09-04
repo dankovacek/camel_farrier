@@ -1,7 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-05CC010,7.000,First log-log rating. The control downstream from the gauge is an established leaky beaver dam with a notch in the middle. Over bank conditions into adjacent fields occurs at high water.  est grade below half of 2018/08/14 and double 2020/07/07,LogarithmicTable,Provisional/Provisoire,(2.4856:1.3498);(1.726);
-05CC010,5.000,,LinearTable,Final/Finales,
-05CC010,5.000-SC3,,LinearTable,Final/Finales,
-05CC010,5.000-SC2,,LinearTable,Final/Finales,
-05CC010,5.000-SC1,,LinearTable,Final/Finales,
-05CC010,6.000,,LinearTable,Final/Finales,

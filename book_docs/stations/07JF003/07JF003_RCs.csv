@@ -1,5 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-07JF003,11.0,Channel control not extended up to twice max measured Q because the corresponding stage likely overtops the leftbank. Photos P:Station Photos07JF00307JF003_COL_Curve11.0.  Greater than 5% R error above 4.0m remains; error of 2013 measurement is decreased.   P:Record07JF003Curves07JF003_20161109_11.0_RDT.docx,LogarithmicTable,Provisional/Provisoire,(2.334:1.13);(1.13);
-07JF003,10.0,HQFIT1.0,LinearTable,Final/Finales,
-07JF003,9.0,,LinearTable,Final/Finales,
-07JF003,8.0,,LinearTable,Final/Finales,

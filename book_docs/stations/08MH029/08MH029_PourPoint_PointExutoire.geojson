@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08MH029_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08MH029", "NameNom": "SUMAS RIVER NEAR HUNTINGDON", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -122.23232, 49.00235 ] } }
-]
-}

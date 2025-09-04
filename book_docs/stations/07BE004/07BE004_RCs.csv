@@ -1,8 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-07BE004,7.000,Update to log curve; deposition after curve 6.000,LogarithmicTable,Provisional/Provisoire,(0.56:0.3);(0.39);
-07BE004,6.000,Same as Curve #5 above .410 meters.,LinearTable,Final/Finales,
-07BE004,5.000,Same as #4 above 0.95m.,LinearTable,Final/Finales,
-07BE004,4.000,Same as #3 below 1.35m,LinearTable,Final/Finales,
-07BE004,4.000-SC1,,LinearTable,Final/Finales,
-07BE004,3.000,,LinearTable,Final/Finales,
-07BE004,2.000,,LinearTable,Final/Finales,

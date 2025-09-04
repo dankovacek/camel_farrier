@@ -1,7 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-05BG006,15.0,New rating required following June 2013 high water event using indirect peak flow study.,LogarithmicTable,Provisional/Provisoire,(0.961:0.294);(2.34:0.474);(0.474);
-05BG006,14.0,Curve 14 same as 13 above 1.400m,LinearTable,Final/Finales,
-05BG006,13.0,,LinearTable,Final/Finales,
-05BG006,12.0,Same as #11 below 0.78m 2001: Extended to 0.15m,LinearTable,Final/Finales,
-05BG006,11.0,,LinearTable,Final/Finales,
-05BG006,10.0,,LinearTable,Final/Finales,

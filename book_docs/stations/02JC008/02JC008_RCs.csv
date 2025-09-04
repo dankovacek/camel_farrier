@@ -1,7 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-02JC008,11.0,Potential new curve due to ADCP MMTs,LogarithmicTable,Provisional/Provisoire,(25.551:24.01);(27.551:24.71);(24.31);
-02JC008,10.0,converted from Compumod,LogarithmicTable,Final/Finales,(25.728:24.12);(27.571:24.07);(23.46);
-02JC008,9.0,,LinearTable,Final/Finales,
-02JC008,8.0,,LinearTable,Final/Finales,
-02JC008,7.0,,LinearTable,Final/Finales,
-02JC008,6.0,,LinearTable,Final/Finales,

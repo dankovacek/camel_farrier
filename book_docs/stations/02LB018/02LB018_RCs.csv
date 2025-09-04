@@ -1,7 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-02LB018,9.0,"Created by VMA - To reflect the large boulder in the channel - has been there for a few years, and now seems stable.",LogarithmicTable,Provisional/Provisoire,(0.508);
-02LB018,8.0,Created by RMR/VMA to reflect high water 2014 MMT's - Curve will start prior to 2014 operational period,LogarithmicTable,Final/Finales,(0.475);
-02LB018,7.0,New HWS Curve,LogarithmicTable,Final/Finales,(1.73767:0.43);(0.43);
-02LB018,6.0,Based on 2007-08 mm's. Bridge affect 1.4-1.8m,LinearTable,Final/Finales,
-02LB018,5.0,Redrawn to recent mmnts-slope changes same as #4,LinearTable,Final/Finales,
-02LB018,4.0,,LinearTable,Final/Finales,

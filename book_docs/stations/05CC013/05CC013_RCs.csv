@@ -1,4 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-05CC013,3.0,"A new model required for a stage-discharge relationship relative to a new water level data location above the riffle (diff. gauge pool) vs the old location below the control.  need more low and  mid-range flows at new location to better define rating, including a possible third segment. MDF",LogarithmicTable,Provisional/Provisoire,(27.386:24.262);(24.65);
-05CC013,2.0,Curve No.2 developed using HQ Fit above 26.009 m,LinearTable,Final/Finales,
-05CC013,1.0,Curve 1 used for 2006 computations,LinearTable,Final/Finales,

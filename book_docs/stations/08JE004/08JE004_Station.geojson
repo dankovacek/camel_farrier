@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08JE004_Station",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08JE004", "NameNom": "TSILCOH RIVER NEAR THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -124.2478, 54.61081 ] } }
-]
-}

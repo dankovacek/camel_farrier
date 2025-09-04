@@ -1,6 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-07FD011,9.01,New curve for 2020 operating season to replace Compumod curve with low end extension,LogarithmicTable,Provisional/Provisoire,(2.4:0.45);(1.715);
-07FD011,9.00,New curve for 2020 operating season to replace Compumod curve.,LogarithmicTable,Final/Finales,(2.4:0.45);(1.715);
-07FD011,7.000,Same as Curve #6 below 1.400 m and above 2.770 m Extended curve to 3.200 m from Log Plot.,LinearTable,Final/Finales,
-07FD011,7.000-SC1,,LinearTable,Final/Finales,
-07FD011,6.000,,LinearTable,Final/Finales,

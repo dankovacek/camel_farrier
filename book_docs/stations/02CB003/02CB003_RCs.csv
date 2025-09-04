@@ -1,9 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-02CB003,10.000,New curve developed after a series of wading mmt's revealed that the channel shape had likely changed,LogarithmicTable,Provisional/Provisoire,(2.3307:1.371);(1.529);
-02CB003,9.000,,LogarithmicTable,Final/Finales,(1.38);
-02CB003,8.000,,LinearTable,Final/Finales,
-02CB003,8.000-SC1,,LinearTable,Final/Finales,
-02CB003,7.000,,LinearTable,Final/Finales,
-02CB003,6.000,,LinearTable,Final/Finales,
-02CB003,5.000,,LinearTable,Final/Finales,
-02CB003,4.000,,LinearTable,Final/Finales,

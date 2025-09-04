@@ -1,5 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-05DA007,17.0,New first log-log Curve. single segment expected as most flows influenced by channel control. Qs not generally <0.3cms. Est. Grade below 0.605cms (half of lowest rating) since winter mmnts usually less than this. MDF. upper rating extended for 2021 comps only. June 29 2021 MDF,LogarithmicTable,Provisional/Provisoire,(0.504);
-05DA007,16.0,Same as Curve No 13 Below Ght 0.920 & above 1.790,LinearTable,Final/Finales,
-05DA007,13.0,Same as Curve No 15 Below Ght 0.920 & above 1.790,LinearTable,Final/Finales,
-05DA007,15.0,,LinearTable,Final/Finales,

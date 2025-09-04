@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "02AB019_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "02AB019", "NameNom": "MCVICAR CREEK AT THUNDER BAY", "Status": "active", "Etat": "en service", "ProvTerr": "ON" }, "geometry": { "type": "Point", "coordinates": [ -89.21853, 48.44933 ] } }
-]
-}

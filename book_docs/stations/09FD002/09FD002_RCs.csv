@@ -1,6 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-09FD002,8.000,,LogarithmicTable,Provisional/Provisoire,(5.918);
-09FD002,5.000,,LinearTable,Final/Finales,
-09FD002,7.000,APPROVED Coincides with #6 at and above 7.8M,LinearTable,Final/Finales,
-09FD002,6.000-SC1,,LinearTable,Final/Finales,
-09FD002,6.000,coincides w/table 5 @/below 6.100m & @/above 13.10,LinearTable,Final/Finales,

@@ -1,6 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-05PJ001,25.0,New Curve for 2016 Log-Log,LogarithmicTable,Provisional/Provisoire,(0.631);
-05PJ001,24.0,"Changed upper end, above 2.4m and extended.",LinearTable,Final/Finales,
-05PJ001,23.0,,LinearTable,Final/Finales,
-05PJ001,22.0,,LinearTable,Final/Finales,
-05PJ001,21.0,,LinearTable,Final/Finales,

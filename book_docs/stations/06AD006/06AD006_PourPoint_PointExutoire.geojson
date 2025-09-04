@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "06AD006_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "06AD006", "NameNom": "BEAVER RIVER AT COLD LAKE RESERVE", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -110.21667, 54.35557 ] } }
-]
-}

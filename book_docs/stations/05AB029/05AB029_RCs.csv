@@ -1,6 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-05AB029,10.0,Section control measurements no longer within 5% of previous rating.  Modernize curve to logarithmic scale.,LogarithmicTable,Provisional/Provisoire,(1.1:0.35);(0.35);
-05AB029,9.0,This is Number 8 extended.  2014: Extension 2.3-2.7m,LinearTable,Final/Finales,
-05AB029,8.0,,LinearTable,Final/Finales,
-05AB029,7.0,,LinearTable,Final/Finales,
-05AB029,6.0,,LinearTable,Final/Finales,

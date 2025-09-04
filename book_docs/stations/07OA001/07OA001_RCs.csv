@@ -1,7 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-07OA001,16.01,Extension of curve for 2022 flood,LogarithmicTable,Provisional/Provisoire,(1.73:0.85);(3.7:0.95);(1.05);
-07OA001,16.0,"Section control: highly affected by weeds, beavers, and bed movement. Channel control: affected by beavers. Flow overtops the channel near 3.6m. Discharge should not be extended above 4.5m, where the bridge becomes submerged. P:Record07OA001Curves07OA001_20161123_16.0_RDT.docx",LogarithmicTable,Final/Finales,(1.73:0.85);(3.7:0.95);(1.05);
-07OA001,15.0,SAME AS TABLE NO. 13.,LinearTable,Final/Finales,
-07OA001,15.0,Clone of 15.000 to circumvent L on last shift,LinearTable,Final/Finales,
-07OA001,14.0,,LinearTable,Final/Finales,
-07OA001,13.0,,LinearTable,Final/Finales,

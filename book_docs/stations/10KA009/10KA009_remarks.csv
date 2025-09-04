@@ -1,6 +1,0 @@
-STATION_NUMBER,REMARK_TYPE_CODE,YEAR,REMARK_EN,REMARK_FR
-10KA009,2,2006,WATER RECORD PRODUCED IS CONSIDERED GOOD.,ENREGISTREMENT DU NIVEAU D'EAU DE BONNE QUALITE
-10KA009,2,2009,"2009 OPEN WATER RECORD IS CONSIDERED GOOD, BACKWATER RECORD IS CONSIDERED FAIR","ENREGISTREMENT EN EAU LIBRE DE BONNE QUALITE, ENREGISTREMENT DE REMOUS PASSABLE"
-10KA009,2,2010,"2010 OPEN WATER RECORD IS CONSIDERED GOOD, BACKWATER RECORD IS CONSIDERED FAIR","ENREGISTREMENT EN EAU LIBRE DE BONNE QUALITE, ENREGISTREMENT DE REMOUS PASSABLE"
-10KA009,2,2011,(Water Level) Water is referenced to an assumed datum and referenced to MST. Discharge) Discharge record produced that is lower than 4 cubic meters per second is considered good.,
-10KA009,2,2012,(Discharge) Discharge values exceeding 4.8 CMS when curve 3.0 is being used and exceeding 3.5 CMS when curve 4.0 is being used have been flagged as 'E' for estimated. These should be used with discretion.(Water Level) Water is referenced to MST and assumed datum,

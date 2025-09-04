@@ -1,9 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-10GB006,13.0,Single equation curve developed,LogarithmicTable,Provisional/Provisoire,(3.06);
-10GB006,12.0,Tweaking curve. Refining below 5 metres,LogarithmicTable,Final/Finales,(3.06);
-10GB006,11.0,Tweaking curve. Refining below 5 metres,LogarithmicTable,Provisional/Provisoire,(4.2497:2.99);(6.8783:2.97);(4.4);
-10GB006,10.000,Log-Log used to confirm top end.,LinearTable,Final/Finales,
-10GB006,10.000-SC2,,LinearTable,Final/Finales,
-10GB006,10.000-SC1,,LinearTable,Final/Finales,
-10GB006,9.000,,LinearTable,Final/Finales,
-10GB006,8.000,,LinearTable,Final/Finales,

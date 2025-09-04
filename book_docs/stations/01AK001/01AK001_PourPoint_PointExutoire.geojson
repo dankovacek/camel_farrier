@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "01AK001_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "01AK001", "NameNom": "SHOGOMOC STREAM NEAR TRANS CANADA HIGHWAY", "Status": "active", "Etat": "en service", "ProvTerr": "NB" }, "geometry": { "type": "Point", "coordinates": [ -67.32047, 45.94275 ] } }
-]
-}

@@ -1,8 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-02YK002,16.0,New curve #16.00 created for 2019.  This new curve was created based on a change to curve on high end.  Previous year a shift was used on high end due to splitting of measurements.  After review of measurements in WinRiver and given the bad location of where boat measurements were taken we decided to remove these measurements from curve.  So high end is adjusted to use only measurements we have confidence in.,LogarithmicTable,Provisional/Provisoire,(0.26);
-02YK002,15.0,New curve #15.00 created for 2017.  There was a major curve change based on technology from cableway measurements to remote boat above GH of 1.150m.  Only 2014 measurements and higher are used.,LogarithmicTable,Final/Finales,(0.26);
-02YK002,14.0,"Slight refinemnet of Curve #13 based on 2015-11-17 MM Result. Using all same MM's as Curve # 13, refinement below Gauge Height 1.400 Meters",LogarithmicTable,Final/Finales,(0.26);
-02YK002,13.0,New Curve developed in HWS using all measurements from curve No. 12 With 2014 only below GH 1.100,LogarithmicTable,Final/Finales,(0.26);
-02YK002,12.0,New Curve developed in HWS using all measurements from curve No. 11,LogarithmicTable,Final/Finales,(0.26);
-02YK002,11.0,,LinearTable,Final/Finales,
-02YK002,10.0,,LinearTable,Final/Finales,

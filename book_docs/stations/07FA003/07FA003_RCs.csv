@@ -1,9 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-07FA003,32.0,"Rating curve 32.00 was built using 2021,2022 and 2023 open water discharge measurements. A breakpoint was included at the elevation where the two channels merge.",LogarithmicTable,Provisional/Provisoire,(3.88:2.755);(3.62);
-07FA003,31.0,"Rating curve created by using 2021 and 2022 open water,  Breakpoint is at the elevation where the river bars in the central river are flooded out.",LogarithmicTable,Final/Finales,(3.88:2.755);(3.45);
-07FA003,30.01,**extended upper end of curver 30.00** Made for 2018 discharge measurements.  2017 and 2018 low water measurements are way off of Curve 29.1 showing the need for a new curve.,LogarithmicTable,Final/Finales,(3.262);
-07FA003,30.0,Made for 2018 discharge measurements.  2017 and 2018 low water measurements are way off of Curve 29.1 showing the need for a new curve.,LogarithmicTable,Final/Finales,(3.262);
-07FA003,29.01,Same as Curve 29.0 but extended and added estimated grade on upper end to accomodate peak discharge.,LogarithmicTable,Final/Finales,(3.55);
-07FA003,29.0,Fits all open water mmnts from 2014/2015 and historic high water measurement,LogarithmicTable,Final/Finales,(3.55);
-07FA003,28.0,,LogarithmicTable,Final/Finales,(3.5384);
-07FA003,27.0,FIRST CURVE AFTER RE-ACTIVATION OF STATION IN OCT 2012 - STATION INACTIVE SINCE 1996,LogarithmicTable,Final/Finales,(3.395);

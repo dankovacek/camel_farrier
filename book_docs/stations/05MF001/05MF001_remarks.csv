@@ -1,4 +1,0 @@
-STATION_NUMBER,REMARK_TYPE_CODE,YEAR,REMARK_EN,REMARK_FR
-05MF001,2,2012,"REVISION ? Discharge daily mean for January 12, 2012 was revised to 0.952m3/s from 1.44 m3/s on August 21, 2024 due to an error that was discovered. ",
-05MF001,2,2020,"Due to measures in place to limit the spread of the coronavirus, regular visits to this station were reduced or no longer conducted throughout 2020. This may have impacted data quality in 2020.",
-05MF001,4,-999,"PUBLISHED AS ""MINNEDOSA RIVER"" PRIOR TO 1979",DONNEES PUBLIEES SOUS < MINNEDOSA RIVER > AVANT 1979

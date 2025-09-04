@@ -1,7 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-07JD003,13.0,New Rating to replace imported Compumod curve. Variable backwater due to beaver activity in lower region. Offset estimated.,LogarithmicTable,Provisional/Provisoire,(2.1:1.68);(1.71);
-07JD003,12.0,HQFIT1.0 Same as Curve #11 above 2.228m,LinearTable,Final/Finales,
-07JD003,11.0,,LinearTable,Final/Finales,
-07JD003,10.0,,LinearTable,Final/Finales,
-07JD003,9.0,,LinearTable,Final/Finales,
-07JD003,8.0,,LinearTable,Final/Finales,

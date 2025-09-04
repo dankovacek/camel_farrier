@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "05AA033_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "05AA033", "NameNom": "KETTLES CREEK AT PINCHER CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -113.92683, 49.49276 ] } }
-]
-}

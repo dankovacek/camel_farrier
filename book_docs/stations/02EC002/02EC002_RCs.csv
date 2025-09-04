@@ -1,8 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-02EC002,16,Redrawn to current standards and measurements,LogarithmicTable,Provisional/Provisoire,(7.5575:6.508);(10.1424:7.07);(7.6);
-02EC002,15,CLONE OF 14 WITH HIGH END EXTENDED AND SLIGHTLY TWEAKED,LogarithmicTable,Final/Finales,(7.476:6.508);(7.07);
-02EC002,14,same as curve 13 but extended down to 6.940,LogarithmicTable,Final/Finales,(7.476:6.508);(7.07);
-02EC002,13,,LogarithmicTable,Final/Finales,(7.476:6.508);(7.07);
-02EC002,12.000-SC1,,LinearTable,Final/Finales,
-02EC002,12.000,,LinearTable,Final/Finales,
-02EC002,11.000,,LinearTable,Final/Finales,

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "07FC003_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "07FC003", "NameNom": "BLUEBERRY RIVER BELOW AITKEN CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -121.22164, 56.67792 ] } }
-]
-}

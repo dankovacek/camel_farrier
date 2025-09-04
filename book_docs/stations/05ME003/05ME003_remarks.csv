@@ -1,7 +1,0 @@
-STATION_NUMBER,REMARK_TYPE_CODE,YEAR,REMARK_EN,REMARK_FR
-05ME003,2,1953,MAXIMUM STAGE PEAK AND EXTREME NOT VALID- MAY HAVE OCCURRED DURING PERIOD OF UNAVAILABLE RECORD ,
-05ME003,2,2017,"Maximum instantaneous discharge not available, occurred during ice conditions. ",
-05ME003,2,2020,"Due to the measures in place to limit the spread of the coronavirus, regular visits to this station were reduced in 2020.  This may have impacted data quality.  Record May 15 to June 23 should be used with caution.",
-05ME003,2,2022,Maximum instantaneous discharge not valid due to equipment malfunction.,
-05ME003,4,-999,MINIMUM PEAK AND EXTREME NOT VALID- OCCURRED OUTSIDE THE STANDARD PERIOD OF RECORD?,
-05ME003,5,-999,MINIMUM PEAK AND EXTREME NOT VALID- OCCURRED OUTSIDE THE STANDARD PERIOD OF RECORD?,

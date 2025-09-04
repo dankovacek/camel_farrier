@@ -1,8 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-04CA002,3.02,APPLYING ESTIMATED GRADING TO LOW STAGE OF THE RATING MODEL,LogarithmicTable,Provisional/Provisoire,(23.79);
-04CA002,3.01,Extending the top end of the curve due to high flows spring 2022,LogarithmicTable,Final/Finales,(23.79);
-04CA002,3.000,,LogarithmicTable,Final/Finales,(23.79);
-04CA002,2.010,Stn. reinstalled. Table 2 re-established.,LinearTable,Final/Finales,
-04CA002,2.010-SC1,,LinearTable,Final/Finales,
-04CA002,2.000,,LinearTable,Final/Finales,
-04CA002,1.000,,LinearTable,Final/Finales,

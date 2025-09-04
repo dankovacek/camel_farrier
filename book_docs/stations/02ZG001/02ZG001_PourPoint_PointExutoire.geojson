@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "02ZG001_PourPoint_PointExutoire",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "02ZG001", "NameNom": "GARNISH RIVER NEAR GARNISH", "Status": "active", "Etat": "en service", "ProvTerr": "NL" }, "geometry": { "type": "Point", "coordinates": [ -55.33013, 47.21679 ] } }
-]
-}

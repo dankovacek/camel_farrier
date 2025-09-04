@@ -1,8 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-02HK017,6.000,New curve created in Aquarius to reflect the old curve and the need for a extreme low end shift to the right,LogarithmicTable,Provisional/Provisoire,(3.003);
-02HK017,5.000,New curve created in Aquarius to reflect the old curve and the need for a extrem low end shift to the right,LogarithmicTable,Final/Finales,(3.003);
-02HK017,4.000,Refined curve. Between 3.280 & 3.625,LinearTable,Final/Finales,
-02HK017,3.000,Refined curve. Extended to 4.275,LinearTable,Final/Finales,
-02HK017,3.000-SC1,,LinearTable,Final/Finales,
-02HK017,2.000,"top & low redef. thru 07&08 mmnts, extended to 4.2",LinearTable,Final/Finales,
-02HK017,1.000,Curve above HG 3.800 est from a logarithmic plot,LinearTable,Final/Finales,
