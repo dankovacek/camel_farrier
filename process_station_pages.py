@@ -104,22 +104,43 @@ def generate_js_search(station_ids):
 
 
 js_search_lines = generate_js_search(js_search_data)
-if os.path.exists(PAGES_OUT / "index.md"):
-    pass
-    # open and add the lines from generate_js_search
-    # with open(PAGES_OUT / "index.md", "a", encoding="utf-8") as f:
-    #     f.write("\n".join(js_search_lines))
+
+# Define the content to append after the search results heading
+search_content = """
+<div class="search-container">
+    <input type="text" id="stationSearch" placeholder="Search by Official ID, name, or source..." onkeyup="filterStations()">
+    <div id="searchResults" class="search-results"></div>
+</div>
+"""
+
+index_path = BOOK_DIR / "index.md"
+if index_path.exists():
+    # Read the existing content
+    with open(index_path, "r", encoding="utf-8") as f:
+        lines = f.readlines()
+
+    # Find the search results section
+    search_index = -1
+    for i, line in enumerate(lines):
+        if "## Search Results" in line:
+            search_index = i
+            break
+
+    # Keep content up to the search results section
+    if search_index != -1:
+        content = "".join(lines[: search_index + 1])
+    else:
+        # If section not found, keep everything and add the heading
+        content = "".join(lines) + "\n## Search Results\n"
 else:
-    initial_lines = """
-    # Stations
+    # Create a new file if it doesn't exist
+    content = "# Station Pages\n\n## Search Results\n"
 
-    ## Search Results
+# Add the search content and JavaScript
+content += search_content + "\n" + "\n".join(js_search_lines)
 
-    <div class="search-container">
-        <input type="text" id="stationSearch" placeholder="Search by Official ID, name, or source..." onkeyup="filterStations()">
-        <div id="searchResults" class="search-results"></div>
-    </div>
-    """
-    # with open(PAGES_OUT / "index.md", "w", encoding="utf-8") as f:
-    #     f.writelines(initial_lines)
-    #     f.writelines(js_search_lines)
+# Write the updated content
+with open(index_path, "w", encoding="utf-8") as f:
+    f.write(content)
+
+print(f"Updated index.md with {len(js_search_data)} stations")
