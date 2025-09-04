@@ -11,6 +11,5 @@ parts:
 
   - caption: Streamflow Monitoring Stations
     chapters:
-    - file: station_pages/index
     - glob: station_pages/stations/*
 

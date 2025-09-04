@@ -133,6 +133,7 @@ The objective is to take the data collected according to the Manual of British C
 
 ## Search Results
 
+
 <div class="search-container">
     <input type="text" id="stationSearch" placeholder="Search by Official ID, name, or source..." onkeyup="filterStations()">
     <div id="searchResults" class="search-results"></div>

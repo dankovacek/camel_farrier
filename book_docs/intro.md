@@ -17,10 +17,22 @@ and Github is particularly useful for its capacity for collaboration and automat
 
 ## Search Hydrometric Stations
 
+
 <div class="search-container">
-  <input type="text" id="stationSearch" placeholder="Search by Official ID, name, or source..." onkeyup="filterStations()">
+    <input type="text" id="stationSearch" placeholder="Search by Official ID, name, or source..." onkeyup="filterStations()">
     <div id="searchResults" class="search-results"></div>
 </div>
+
+
+<script>
+// Station data for search
+const stations = [
+  {id: "05JA006", name: "SIX MILE CREEK NEAR GLENTWORTH", folder: "/station_pages/stations/05JA006.html"},
+  {id: "02EC009", name: "HOLLAND RIVER EAST BRANCH AT HOLLAND LANDING", folder: "/station_pages/stations/02EC009.html"},
+  {id: "08NM240", name: "TWO FORTY CREEK NEAR PENTICTON", folder: "/station_pages/stations/08NM240.html"},
+  {id: "10KB001", name: "CARCAJOU RIVER BELOW IMPERIAL RIVER", folder: "/station_pages/stations/10KB001.html"},
+  {id: "08HF013", name: "SIMPSON CREEK NEAR KOPRINO HARBOUR", folder: "/station_pages/stations/08HF013.html"},
+];</script>
 
 ## References
 

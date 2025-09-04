@@ -113,34 +113,62 @@ search_content = """
 </div>
 """
 
-index_path = BOOK_DIR / "index.md"
-if index_path.exists():
-    # Read the existing content
-    with open(index_path, "r", encoding="utf-8") as f:
-        lines = f.readlines()
 
-    # Find the search results section
-    search_index = -1
-    for i, line in enumerate(lines):
-        if "## Search Results" in line:
-            search_index = i
-            break
+def update_markdown_with_search(file_path, heading_pattern, end_heading_pattern=None):
+    """
+    Update a markdown file with station search functionality
 
-    # Keep content up to the search results section
-    if search_index != -1:
-        content = "".join(lines[: search_index + 1])
+    Args:
+        file_path: Path to the markdown file
+        heading_pattern: Pattern to find where to insert search content
+        end_heading_pattern: Optional pattern to mark the end of the section
+    """
+    if file_path.exists():
+        # Read the existing content
+        with open(file_path, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+
+        # Find section boundaries
+        start_index = -1
+        end_index = -1
+
+        for i, line in enumerate(lines):
+            if heading_pattern in line:
+                start_index = i
+            if end_heading_pattern and end_heading_pattern in line:
+                end_index = i
+                break
+
+        if start_index != -1:
+            # If we have both start and end patterns
+            if end_heading_pattern and end_index != -1:
+                content = "".join(lines[: start_index + 1]) + "\n"
+                content += search_content + "\n" + "\n".join(js_search_lines) + "\n\n"
+                content += "".join(lines[end_index:])
+            else:
+                # Just have start pattern
+                content = "".join(lines[: start_index + 1]) + "\n"
+                content += search_content + "\n" + "\n".join(js_search_lines)
+        else:
+            # If section not found, keep everything and add the heading
+            content = "".join(lines) + f"\n{heading_pattern}\n"
+            content += search_content + "\n" + "\n".join(js_search_lines)
     else:
-        # If section not found, keep everything and add the heading
-        content = "".join(lines) + "\n## Search Results\n"
-else:
-    # Create a new file if it doesn't exist
-    content = "# Station Pages\n\n## Search Results\n"
+        # Create a new file if it doesn't exist
+        content = f"# Station Pages\n\n{heading_pattern}\n"
+        content += search_content + "\n" + "\n".join(js_search_lines)
 
-# Add the search content and JavaScript
-content += search_content + "\n" + "\n".join(js_search_lines)
+    # Write the updated content
+    with open(file_path, "w", encoding="utf-8") as f:
+        f.write(content)
 
-# Write the updated content
-with open(index_path, "w", encoding="utf-8") as f:
-    f.write(content)
+    print(f"Updated {file_path.name} with {len(js_search_data)} stations")
 
-print(f"Updated index.md with {len(js_search_data)} stations")
+
+# Update index.md
+update_markdown_with_search(BOOK_DIR / "index.md", "## Search Results")
+
+# Update intro.md
+update_markdown_with_search(
+    BOOK_DIR / "intro.md", "## Search Hydrometric Stations", "## References"
+)
