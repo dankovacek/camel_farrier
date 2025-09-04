@@ -188,7 +188,6 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Streamflow Monitoring Stations</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="station_pages/index.html">Stations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02EC009.html">02EC009: HOLLAND RIVER EAST BRANCH AT HOLLAND LANDING</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/05JA006.html">05JA006: SIX MILE CREEK NEAR GLENTWORTH</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/08HF013.html">08HF013: SIMPSON CREEK NEAR KOPRINO HARBOUR</a></li>
@@ -397,6 +396,7 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quantifying-the-effect-of-changes-to-catchment-polygons-on-input-data">Quantifying the effect of changes to catchment polygons on input data:</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#approach">Approach</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#search-results">Search Results</a></li>
 </ul>
             </nav>
         </div>
@@ -432,7 +432,7 @@ document.write(`
 <h2>Large Sample Datasets<a class="headerlink" href="#large-sample-datasets" title="Link to this heading">#</a></h2>
 <p>Do et al. (2018) trace the evolution of large-sample hydrology (LSH) datasets from early collections, like the Global Runoff Database and MOPEX, which provided extensive streamflow and hydrometeorological records, to the incorporation of geospatial attributes in GAGES-II. These precursor datasets evolved into CAMELS, which combined both data types for numerous US catchments, later expanding regionally with versions from Chile, Brazil, Australia, and Great Britain, and across Europe. The HYSETS dataset covered North America and Mexico, and the recent Caravan dataset unified these diverse resources into a standardized, global framework for hydrological modeling.</p>
 <p>A challenge common to these datasets is the exclusion of small catchments due to uncertainties in catchment delineation, underscoring the need for improved, standardized processes at the first steps of catchment representation.  Small catchments represent a significant component of streamflow monitoring data, and their exclusion is a loss to hydrological research.</p>
-<div style="height:275px;"><script src="bokeh-content-846df07b4b8848b2bdadeea278033cc3-index.js" id="eb2f017f-9f6a-4e27-ae04-4f362ce85d0e"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">sys</span>
+<div style="height:275px;"><script src="bokeh-content-4a078ba26d2e4035a65d17253c45d5d3-index.js" id="e8ffbc70-7c63-46bf-beb2-88664709d1ee"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">sys</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;/home/danbot/Documents/code/25/camel_farrier/&quot;</span><span class="p">)</span>
 <span class="kn">from</span> <span class="nn">bokeh.io</span> <span class="kn">import</span> <span class="n">show</span>
 <span class="kn">from</span> <span class="nn">supporting_figure_functions</span> <span class="kn">import</span> <span class="n">plot_catchment_area_distributions</span>
@@ -543,6 +543,22 @@ The quality of large sample hydrology datasets could benefit from standard pract
 <li><p>Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., and Poulin, A.: A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds, Scientific Data, 7, 243, <a class="reference external" href="https://doi.org/10.1038/s41597-020-00583-2">https://doi.org/10.1038/s41597-020-00583-2</a>, 2020.</p></li>
 </ol>
 </section>
+<section id="search-results">
+<h2>Search Results<a class="headerlink" href="#search-results" title="Link to this heading">#</a></h2>
+<div class="search-container">
+    <input type="text" id="stationSearch" placeholder="Search by Official ID, name, or source..." onkeyup="filterStations()">
+    <div id="searchResults" class="search-results"></div>
+</div>
+<script>
+// Station data for search
+const stations = [
+  {id: "05JA006", name: "SIX MILE CREEK NEAR GLENTWORTH", folder: "/station_pages/stations/05JA006.html"},
+  {id: "02EC009", name: "HOLLAND RIVER EAST BRANCH AT HOLLAND LANDING", folder: "/station_pages/stations/02EC009.html"},
+  {id: "08NM240", name: "TWO FORTY CREEK NEAR PENTICTON", folder: "/station_pages/stations/08NM240.html"},
+  {id: "10KB001", name: "CARCAJOU RIVER BELOW IMPERIAL RIVER", folder: "/station_pages/stations/10KB001.html"},
+  {id: "08HF013", name: "SIMPSON CREEK NEAR KOPRINO HARBOUR", folder: "/station_pages/stations/08HF013.html"},
+];</script>
+</section>
 <div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
@@ -612,6 +628,7 @@ The quality of large sample hydrology datasets could benefit from standard pract
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quantifying-the-effect-of-changes-to-catchment-polygons-on-input-data">Quantifying the effect of changes to catchment polygons on input data:</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#approach">Approach</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#search-results">Search Results</a></li>
 </ul>
   </nav></div>
 
