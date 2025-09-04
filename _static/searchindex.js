@@ -19,8 +19,8 @@ SDscript.setAttribute('type', 'application/ld+json');
 SDscript.textContent = JSON.stringify(structuredData);
 document.head.appendChild(SDscript);
 
-function filterCatchments() {
-  const input = document.getElementById('catchmentSearch').value.toLowerCase();
+function filterStations() {
+  const input = document.getElementById('stationSearch').value.toLowerCase();
   const results = document.getElementById('searchResults');
 
   // Clear previous results
