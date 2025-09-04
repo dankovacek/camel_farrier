@@ -29,7 +29,7 @@ function filterStations() {
   if (input.length < 2) return;
 
   // Filter catchments
-  const matches = catchments.filter(c =>
+  const matches = stations.filter(c =>
     c.id.toLowerCase().includes(input) ||
     c.name.toLowerCase().includes(input) ||
     c.source.toLowerCase().includes(input) ||
