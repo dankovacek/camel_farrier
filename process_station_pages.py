@@ -97,7 +97,7 @@ for stn in processed_stations:
 def generate_js_search(station_ids):
     lines = ["", "<script>", "// Station data for search", "const stations = ["]
     for stn, name in station_ids:
-        folder = f"/station_pages/stations/{stn}.html"
+        folder = f"station_pages/stations/{stn}.html"
         lines.append(f'  {{id: "{stn}", name: "{name}", folder: "{folder}"}},')
     lines.append("];</script>")
     return lines

@@ -12,15 +12,15 @@ from bokeh.resources import CDN
 from jinja2 import Template
 from bokeh.palettes import Bokeh6, Category10
 from bokeh.models import Div, Range1d, LinearAxis, Band, ColumnDataSource
-from bokeh.models import DataTable, TableColumn, ColumnDataSource
+from bokeh.models import DataTable, TableColumn, ColumnDataSource, HoverTool
 from bokeh.layouts import column, row
 
 # Get the folder this script is in
 from pathlib import Path
+from bokeh.models import GeoJSONDataSource
+from bokeh.models import TapTool, OpenURL
 
-# from setup_scripts import kde_estimator
-# from setup_scripts.aep_functions import calculate_distributions, run_ffa_simulation
-# from bokeh.palettes import Viridis256, Plasma256, Colorblind5, viridis, plasma
+import xyzservices.providers as xyz
 
 from setup_utilities import (
     retrieve_HYDAT,
@@ -239,4 +239,92 @@ def find_water_licenses():
     # bc_stn_gdf.to_file(os.path.join("data", f"BC_stations_waterLicense_check.geojson"))
 
 
-# find_water_licenses()
+def plot_station_map():
+    """
+    Plot the locations of WSC stations in BC, and indicate which ones have upstream water licenses.
+    """
+    # get the list of processed IDs from the station data folder
+    processed_stations = [f.name for f in STATION_DATA_DIR.iterdir() if f.is_dir()]
+    assert len(processed_stations) > 0, "No processed stations found."
+    # query the STATIONS table for stations matching the processed_stations list
+    placeholders = ",".join(["?"] * len(processed_stations))
+    query = f"""
+    SELECT
+        STATION_NUMBER,
+        DRAINAGE_AREA_GROSS,
+        DRAINAGE_AREA_EFFECT,
+        LONGITUDE,
+        LATITUDE,
+        PROV_TERR_STATE_LOC,
+        HYD_STATUS,
+        RHBN
+    FROM
+        STATIONS
+    WHERE
+        STATION_NUMBER IN ({placeholders})
+    """
+
+    stn_df = pd.read_sql_query(query, conn, params=processed_stations)
+    status_dict = {"A": "Active", "D": "Discontinued"}
+    clr_dict = {"A": "green", "D": "grey"}
+    stn_df["colour"] = stn_df["HYD_STATUS"].map(clr_dict)
+    stn_df["HYD_STATUS"] = stn_df["HYD_STATUS"].map(status_dict)
+    pts = stn_df.apply(lambda row: Point(row["LONGITUDE"], row["LATITUDE"]), axis=1)
+
+    # Create station links for hover tooltips
+    stn_df["station_link"] = [
+        f"station_pages/stations/{stn}.html" for stn in stn_df["STATION_NUMBER"].values
+    ]
+
+    non_pt_cols = stn_df.columns.difference(["LONGITUDE", "LATITUDE"])
+    stn_gdf = gpd.GeoDataFrame(stn_df[non_pt_cols], geometry=pts, crs="EPSG:4326")
+    stn_gdf = stn_gdf.to_crs("EPSG:3857")
+    stn_df["LONGITUDE"] = stn_gdf.geometry.x
+    stn_df["LATITUDE"] = stn_gdf.geometry.y
+    p = figure(
+        title="WSC Station Map View",
+        x_axis_label="Longitude",
+        y_axis_label="Latitude",
+        width=900,
+        height=700,
+        match_aspect=True,
+        x_axis_type="mercator",
+        y_axis_type="mercator",
+    )
+    p.add_tile(xyz.OpenStreetMap.Mapnik)
+
+    # If you still need a regular ColumnDataSource for certain operations
+    source = ColumnDataSource(stn_df)
+    p.scatter(
+        x="LONGITUDE",
+        y="LATITUDE",
+        size=10,
+        alpha=0.7,
+        legend_label="WSC Stations",
+        source=source,
+        marker="triangle",
+        color="colour",
+        nonselection_color="colour",
+        selection_color="gold",
+        nonselection_alpha=0.8,
+    )
+
+    # add non-geom columns to hover tooltips with hyperlink
+    # Add hover tooltips
+    hover = HoverTool()
+    hover.tooltips = [
+        ("Station ID", "@STATION_NUMBER"),
+        ("Gross Drainage Area (km²)", "@DRAINAGE_AREA_GROSS"),
+        ("Prov/Terr", "@PROV_TERR_STATE_LOC"),
+        ("Status", "@HYD_STATUS"),
+    ]
+    p.add_tools(hover)
+
+    # Add TapTool for clickable points
+    url_tap = TapTool(callback=OpenURL(url="@station_link"))
+    p.add_tools(url_tap)
+
+    p.legend.location = "top_right"
+    p.legend.click_policy = "hide"
+    p.xaxis.axis_label_text_font = "Bitstream Charter"
+    return p

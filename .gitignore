@@ -5,6 +5,7 @@ __pycache__/
 .pytest_cache
 _static/
 .book_docs/
+book_docs/
 data/corrections/
 data/field_visits/
 data/RCs/

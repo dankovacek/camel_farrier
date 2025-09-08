@@ -1,4 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-05JA006,3.0,,LogarithmicTable,Provisional/Provisoire,(8.3407:6.243);(7.3);
-05JA006,2.0,SET TO PRODUCE ZERO FLOW BELOW RATING. 2020-04-16,LogarithmicTable,Final/Finales,(6.243);
-05JA006,1.0,,LogarithmicTable,Final/Finales,(6.2);

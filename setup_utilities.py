@@ -5,6 +5,9 @@ import re
 import requests
 import pandas as pd
 import geopandas as gpd
+from collections import defaultdict
+import time
+from pathlib import Path
 
 
 def retrieve_HYDAT(HYDAT_DIR, HYDAT_fpath):
@@ -128,56 +131,95 @@ def query_stn_remarks(stn_data, conn, stn_output_folder):
 
 def query_stn_data_ranges(stn_data, conn, stn_output_folder):
     stn = stn_data.get("STATION_NUMBER")
-    query = f"SELECT * FROM STN_DATA_RANGE WHERE STATION_NUMBER = ?"
+    query = "SELECT * FROM STN_DATA_RANGE WHERE STATION_NUMBER = ?"
     data_ranges_df = pd.read_sql_query(query, conn, params=(stn,))
-    if data_ranges_df.empty:
-        return pd.DataFrame()
-    for dtype in sorted(list(set(data_ranges_df["DATA_TYPE"]))):
-        # query the data type from the DATA_TYPES lookup table
-        dtype_query = "SELECT * FROM DATA_TYPES WHERE DATA_TYPE = ?"
-        dtype_df = pd.read_sql_query(dtype_query, conn, params=(dtype,))
-        data_ranges_df.loc[data_ranges_df["DATA_TYPE"] == dtype, "DATA_TYPE"] = (
-            dtype_df["DATA_TYPE_EN"].values[0]
+
+    if not data_ranges_df.empty:
+        # Get all unique data types in a single query
+        unique_dtypes = data_ranges_df["DATA_TYPE"].unique()
+
+        # Create a dictionary of data type mappings with a single query
+        dtype_query = "SELECT DATA_TYPE, DATA_TYPE_EN FROM DATA_TYPES WHERE DATA_TYPE IN ({})".format(
+            ",".join(["?"] * len(unique_dtypes))
         )
-    data_ranges_df.to_csv(stn_output_folder / f"{stn}_data_ranges.csv", index=False)
+        dtype_mappings = pd.read_sql_query(dtype_query, conn, params=unique_dtypes)
+        dtype_dict = dict(
+            zip(dtype_mappings["DATA_TYPE"], dtype_mappings["DATA_TYPE_EN"])
+        )
+
+        # Replace data types using the mapping dictionary
+        data_ranges_df["DATA_TYPE"] = data_ranges_df["DATA_TYPE"].map(dtype_dict)
+
+        # Save to CSV
+        data_ranges_df.to_csv(stn_output_folder / f"{stn}_data_ranges.csv", index=False)
+
+    return data_ranges_df
 
 
-def retrieve_station_geometries(stn_id, stn_output_folder, CATCHMENT_POLYGON_DIR):
+def batch_retrieve_station_geometries(
+    station_ids, output_folder, CATCHMENT_POLYGON_DIR
+):
+    """Retrieve catchment, pour point, and station geometries for a list of stations."""
 
-    region_code = stn_id[:2]
-    region_folder = CATCHMENT_POLYGON_DIR / f"MDA_ADP_{region_code}"
+    print(f"   Retrieving geometries for {len(station_ids)} stations...")
+    start_time = time.time()
 
-    # retrieve the station catchment
-    drainage_fname = f"MDA_ADP_{region_code}_DrainageBasin_BassinDeDrainage.geojson"
-    pour_pt = f"MDA_ADP_{region_code}_PourPoint_PointExutoire.geojson"
-    station_pt = f"MDA_ADP_{region_code}_Station.geojson"
-    geometries = {}
-    for label, fname in [
-        ("catchment", drainage_fname),
-        ("pour_pt", pour_pt),
-        ("station", station_pt),
-    ]:
-        geojson_path = region_folder / fname
+    # Group stations by region code
+    region_map = defaultdict(list)
+    for stn_id in station_ids:
+        region_map[stn_id[:2]].append(stn_id)
 
-        out_fname = f"{stn_id}_" + fname.split(f"_{region_code}_")[-1]
-        output_fpath = stn_output_folder / out_fname
+    processed = 0
+    for region_code, stns in region_map.items():
+        print(f"   Processing region {region_code} ({len(stns)} stations)")
+        region_folder = CATCHMENT_POLYGON_DIR / f"MDA_ADP_{region_code}"
 
-        if os.path.exists(output_fpath):
-            gdf = gpd.read_file(output_fpath)
-        else:
-            # gdf = gpd.read_file(geojson_path)
+        # Define geometry types to process
+        geometries = [
+            (
+                "catchment",
+                f"MDA_ADP_{region_code}_DrainageBasin_BassinDeDrainage.geojson",
+            ),
+            ("pour_pt", f"MDA_ADP_{region_code}_PourPoint_PointExutoire.geojson"),
+            ("station", f"MDA_ADP_{region_code}_Station.geojson"),
+        ]
+
+        for label, fname in geometries:
+            geo_start = time.time()
+            geojson_path = region_folder / fname
+
+            if not geojson_path.exists():
+                print(f"    Warning: {geojson_path} not found, skipping.")
+                continue
+            # try:
+            # Read geojson and filter for our stations
+            # Read geojson and filter for our stations at import time
             gdf = gpd.read_file(
                 geojson_path,
+                mask=None,
                 engine="pyogrio",
-                where=f"StationNum = '{stn_id}'",
+                use_arrow=True,
+                where=f"StationNum IN ({','.join(['\''+s+'\'' for s in stns])})",
             )
-            # save the geometry to the station folder
-            gdf.to_file(output_fpath, driver="GeoJSON")
+            gdf = gdf[gdf["StationNum"].isin(stns)].to_crs("EPSG:3857")
+            # Save individual station files
+            for stn_id in stns:
+                stn_output_folder = output_folder / f"{stn_id}"
+                if not os.path.exists(stn_output_folder):
+                    os.makedirs(stn_output_folder)
 
-        web_gdf = gdf.to_crs("EPSG:3857")  # convert to web mercator for plotting
-        geometries[label] = web_gdf
+                stn_gdf = gdf[gdf["StationNum"] == stn_id].copy()
+                if not stn_gdf.empty:
+                    out_fname = f"{stn_id}_{fname.split(f'_{region_code}_')[-1]}"
+                    stn_gdf.to_file(stn_output_folder / out_fname, driver="GeoJSON")
+                    processed += 1
+            print(f"    Processed {label} geometries in {time.time()-geo_start:.1f}s")
+            # except Exception as e:
+            #     print(f"    Error processing {label} geometries: {e}")
 
-    return geometries
+    print(
+        f"   Completed geometry retrieval in {time.time()-start_time:.1f}s ({processed} files created)"
+    )
 
 
 def check_if_station_in_hydat(stn, conn):
@@ -364,7 +406,8 @@ def query_hydat_version(conn):
     df = pd.read_sql_query(version_query, conn)
     version = df["Version"].iloc[0] if not df.empty else None
     version_date = df["Date"].iloc[0] if not df.empty else None
-    print(f"    HYDAT version: {version}, date: {version_date}")
+    # print(f"    HYDAT version: {version}, date: {version_date}")
+    return version, version_date
 
 
 def check_for_rc_data(df, BASE_DIR):
