@@ -40,7 +40,16 @@ function filterStations() {
   limitedMatches.forEach(c => {
     const div = document.createElement('div');
     div.className = 'search-result';
-    div.innerHTML = `<a href='${c.folder}'>${c.id}: ${c.name}</a>`;
+    // Handle both file:// protocol (local viewing) and http(s):// (web server/GitHub Pages)
+    let path;
+    if (window.location.protocol === 'file:') {
+      // For local file:// viewing, use relative path from guides/ to station_pages/
+      path = c.folder.startsWith('/') ? `../${c.folder.substring(1)}` : `../${c.folder}`;
+    } else {
+      // For web servers, use root-relative path
+      path = c.folder.startsWith('/') ? c.folder : `/${c.folder}`;
+    }
+    div.innerHTML = `<a href='${path}'>${c.id}: ${c.name}</a>`;
     results.appendChild(div);
   });
 

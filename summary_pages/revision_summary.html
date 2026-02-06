@@ -1,0 +1,711 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Polygon Revision Summary &#8212; Camel Farrier</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=e52ece68" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'summary_pages/revision_summary';</script>
+    <script src="../_static/searchindex.js?v=796b179f"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Data Specification for Camel Farrier" href="../guides/data_specification.html" />
+    <link rel="prev" title="Revision Changelog for Catchment Polygons" href="changelog_intro.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Camel Farrier - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Camel Farrier - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../index.html">
+                    Camel Farrier: Automated Quality Documentation for Hydrometric Data
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary Diagnostics</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="changelog_intro.html">Revision Changelog for Catchment Polygons</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Polygon Revision Summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guides/data_specification.html">Data Specification for Camel Farrier</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Demo Setup</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../guides/setup.html">Environment Setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guides/data_population.html">Data Population and Initialization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guides/workflow.html">Quality Assurance and Diagnostic Pages</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Streamflow Monitoring Stations</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../guides/station_directory.html">Station Directory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07AF010.html">07AF010: SUNDANCE CREEK NEAR BICKERDIKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07DB005.html">07DB005: MACKAY RIVER ABOVE DUNKIRK RIVER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07EE009.html">07EE009: CHUCHINKA CREEK NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07FD014.html">07FD014: WAINSCOTT COULEE NEAR BROWNVALE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07GA002.html">07GA002: MUSKEG RIVER NEAR GRANDE CACHE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07JC003.html">07JC003: LOON RIVER NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07QC005.html">07QC005: ABITAU RIVER ABOVE CUMING LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08GA065.html">08GA065: NOONS CREEK AT MERIDIAN SUBSTATION ROAD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LB053.html">08LB053: PAUL LAKE NEAR KAMLOOPS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LE067.html">08LE067: FOWLER CREEK NEAR FALKLAND</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NE067.html">08NE067: WALKER CREEK NEAR ROBSON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NJ134.html">08NJ134: CODY CREEK NEAR SANDON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NM133.html">08NM133: BULL CREEK NEAR CRUMP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NM134.html">08NM134: CAMP CREEK AT MOUTH NEAR THIRSK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09DA001.html">09DA001: HESS RIVER ABOVE EMERALD CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09DC004.html">09DC004: WAREHAM LAKE AT HEADGATE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09EA005.html">09EA005: LITTLE SOUTH KLONDIKE RIVER BELOW ROSS CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09FA001.html">09FA001: WHITESTONE RIVER NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09FC001.html">09FC001: OLD CROW RIVER NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10CD003.html">10CD003: RASPBERRY CREEK NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10ED009.html">10ED009: SCOTTY CREEK AT HIGHWAY NO. 7</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10FB005.html">10FB005: JEAN-MARIE RIVER AT HIGHWAY NO. 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10JA004.html">10JA004: ACASTA RIVER ABOVE LITTLE CRAPEAU LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10KC001.html">10KC001: MOUNTAIN RIVER BELOW CAMBRIAN CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10LA002.html">10LA002: ARCTIC RED RIVER NEAR THE MOUTH</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/dankovacek/distribution_estimation" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/dankovacek/distribution_estimation/issues/new?title=Issue%20on%20page%20%2Fsummary_pages/revision_summary.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/summary_pages/revision_summary.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Polygon Revision Summary</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#polygon-comparison-metrics">Polygon Comparison Metrics</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jaccard-similarity-index">Jaccard Similarity Index</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#area-change">Area Change</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#geographic-distribution-of-changes">Geographic Distribution of Changes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#statistical-distributions">Statistical Distributions</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jaccard-similarity-distribution">Jaccard Similarity Distribution</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#area-change-distribution">Area Change Distribution</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#detailed-comparison-table">Detailed Comparison Table</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#version-tracking">Version Tracking</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#integration-workflow">Integration Workflow</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="polygon-revision-summary">
+<h1>Polygon Revision Summary<a class="headerlink" href="#polygon-revision-summary" title="Link to this heading">#</a></h1>
+<p>This page summarizes catchment polygon revisions across all demonstration stations. When alternate polygon sources become available (e.g., HYDAT 2024 release), we compare them against baseline polygons to quantify changes.</p>
+<section id="polygon-comparison-metrics">
+<h2>Polygon Comparison Metrics<a class="headerlink" href="#polygon-comparison-metrics" title="Link to this heading">#</a></h2>
+<section id="jaccard-similarity-index">
+<h3>Jaccard Similarity Index<a class="headerlink" href="#jaccard-similarity-index" title="Link to this heading">#</a></h3>
+<p>The <strong>Jaccard Similarity Index</strong> (JSI) quantifies geometric overlap between polygon versions. For geometries $A$ and $B$:</p>
+<p>$$
+J(A, B) = \frac{|A \cap B|}{|A \cup B|}
+$$</p>
+<p>Where:</p>
+<ul class="simple">
+<li><p>$|A \cap B|$ is the intersection area</p></li>
+<li><p>$|A \cup B|$ is the union area</p></li>
+</ul>
+<p><strong>Interpretation:</strong></p>
+<ul class="simple">
+<li><p>$J = 1.0$: Polygons are identical</p></li>
+<li><p>$J = 0.9$: High similarity (90% overlap relative to union)</p></li>
+<li><p>$J = 0.5$: Moderate difference (50% overlap)</p></li>
+<li><p>$J &lt; 0.3$: Substantial revision</p></li>
+</ul>
+</section>
+<section id="area-change">
+<h3>Area Change<a class="headerlink" href="#area-change" title="Link to this heading">#</a></h3>
+<p>Percent area difference between versions:</p>
+<p>$$
+\Delta A = \frac{A_{\text{new}} - A_{\text{old}}}{A_{\text{old}}} \times 100%
+$$</p>
+<p>Positive values indicate catchment expansion; negative values indicate reduction.</p>
+</section>
+</section>
+<section id="geographic-distribution-of-changes">
+<h2>Geographic Distribution of Changes<a class="headerlink" href="#geographic-distribution-of-changes" title="Link to this heading">#</a></h2>
+<script src="bokeh-content-3d6b38c9b4e14d7f863abf442e1d753e-summary_pages-revision_summary.js" id="c286ba16-e549-4296-99ac-13005d6fbdc1"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">scripts.generation.revision_plots</span><span class="w"> </span><span class="kn">import</span> <span class="n">plot_revision_map</span>
+<span class="n">show</span><span class="p">(</span><span class="n">plot_revision_map</span><span class="p">())</span>
+</pre></div>
+</div>
+</section>
+<section id="statistical-distributions">
+<h2>Statistical Distributions<a class="headerlink" href="#statistical-distributions" title="Link to this heading">#</a></h2>
+<section id="jaccard-similarity-distribution">
+<h3>Jaccard Similarity Distribution<a class="headerlink" href="#jaccard-similarity-distribution" title="Link to this heading">#</a></h3>
+<div style="height:400px;"><script src="bokeh-content-2fda0b137f164cf29c66a59d74e24dfa-summary_pages-revision_summary.js" id="a9a6cb4c-01b1-496d-8853-ed17adb53784"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">scripts.generation.revision_plots</span><span class="w"> </span><span class="kn">import</span> <span class="n">plot_jaccard_cdf</span>
+<span class="n">show</span><span class="p">(</span><span class="n">plot_jaccard_cdf</span><span class="p">())</span>
+</pre></div>
+</div>
+</section>
+<section id="area-change-distribution">
+<h3>Area Change Distribution<a class="headerlink" href="#area-change-distribution" title="Link to this heading">#</a></h3>
+<div style="height:400px;"><script src="bokeh-content-9d84d89d35124e2d9a94192d2fffd009-summary_pages-revision_summary.js" id="e12a2158-4c78-4571-b9cd-01d42384341f"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">scripts.generation.revision_plots</span><span class="w"> </span><span class="kn">import</span> <span class="n">plot_area_change_cdf</span>
+<span class="n">show</span><span class="p">(</span><span class="n">plot_area_change_cdf</span><span class="p">())</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="detailed-comparison-table">
+<h2>Detailed Comparison Table<a class="headerlink" href="#detailed-comparison-table" title="Link to this heading">#</a></h2>
+<div style="height:400px;"><script src="bokeh-content-a60643145bdd44b287f4c01a528af1da-summary_pages-revision_summary.js" id="c438c206-6cf6-4e09-8c58-8e8e47a4a101"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">scripts.generation.revision_plots</span><span class="w"> </span><span class="kn">import</span> <span class="n">generate_revision_table</span>
+<span class="n">show</span><span class="p">(</span><span class="n">generate_revision_table</span><span class="p">())</span>
+</pre></div>
+</div>
+</section>
+<section id="version-tracking">
+<h2>Version Tracking<a class="headerlink" href="#version-tracking" title="Link to this heading">#</a></h2>
+<p>All polygon changes are tracked in station-level <code class="docutils literal notranslate"><span class="pre">_versions.json</span></code> files with complete provenance:</p>
+<ul class="simple">
+<li><p><strong>Data Source</strong>: Origin of polygon (WSC_basins, HYDAT, custom)</p></li>
+<li><p><strong>Source Version</strong>: Original dataset version/date</p></li>
+<li><p><strong>Source Metadata</strong>: All attributes from GeoJSON properties</p></li>
+<li><p><strong>Timestamp</strong>: When polygon was integrated</p></li>
+<li><p><strong>Comparison Metrics</strong>: Jaccard index, area differences, overlap statistics</p></li>
+</ul>
+<p>Example version entry:</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;semantic_tag&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;v1.1.0&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;timestamp&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-02-04T19:23:45Z&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;data_source&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;HYDAT_polygons&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;source_version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;June 2024&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;polygon_file&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;07AF010_polygon_v1.1.0.geojson&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;source_metadata&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;StationNum&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;07AF010&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;Version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;June 2024 / juin 2024&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;Date_rev&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2024-06-01&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;Area_km2&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">504.8</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+<section id="integration-workflow">
+<h2>Integration Workflow<a class="headerlink" href="#integration-workflow" title="Link to this heading">#</a></h2>
+<p>To integrate new polygon versions:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Preview changes (dry-run)</span>
+python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py<span class="w"> </span>--dry-run
+
+<span class="c1"># Integrate for all demo stations</span>
+python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py
+
+<span class="c1"># Or specific stations</span>
+<span class="nb">echo</span><span class="w"> </span>-e<span class="w"> </span><span class="s2">&quot;07AF010\n08GA065&quot;</span><span class="w"> </span>&gt;<span class="w"> </span>/tmp/stations.txt
+python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py<span class="w"> </span>--stations-file<span class="w"> </span>/tmp/stations.txt
+</pre></div>
+</div>
+<p>Comparison metrics are calculated automatically using LAEA projection for accurate area calculations.</p>
+</section>
+<section id="references">
+<h2>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>
+<p>For methodology and implementation details, see:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="../guides/workflow.html"><span class="std std-doc">Polygon Integration Workflow</span></a></p></li>
+<li><p><a class="reference internal" href="../guides/data_specification.html"><span class="std std-doc">Data Specification</span></a></p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./summary_pages"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="changelog_intro.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Revision Changelog for Catchment Polygons</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../guides/data_specification.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Data Specification for Camel Farrier</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#polygon-comparison-metrics">Polygon Comparison Metrics</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jaccard-similarity-index">Jaccard Similarity Index</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#area-change">Area Change</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#geographic-distribution-of-changes">Geographic Distribution of Changes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#statistical-distributions">Statistical Distributions</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jaccard-similarity-distribution">Jaccard Similarity Distribution</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#area-change-distribution">Area Change Distribution</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#detailed-comparison-table">Detailed Comparison Table</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#version-tracking">Version Tracking</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#integration-workflow">Integration Workflow</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Dan Kovacek
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

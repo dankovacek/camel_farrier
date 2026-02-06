@@ -1,0 +1,1169 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Data Specification for Camel Farrier &#8212; Camel Farrier</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=e52ece68" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'guides/data_specification';</script>
+    <script src="../_static/searchindex.js?v=796b179f"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Environment Setup" href="setup.html" />
+    <link rel="prev" title="Polygon Revision Summary" href="../summary_pages/revision_summary.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Camel Farrier - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Camel Farrier - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../index.html">
+                    Camel Farrier: Automated Quality Documentation for Hydrometric Data
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary Diagnostics</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../summary_pages/changelog_intro.html">Revision Changelog for Catchment Polygons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../summary_pages/revision_summary.html">Polygon Revision Summary</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Data Specification for Camel Farrier</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Demo Setup</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="setup.html">Environment Setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_population.html">Data Population and Initialization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="workflow.html">Quality Assurance and Diagnostic Pages</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Streamflow Monitoring Stations</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="station_directory.html">Station Directory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07AF010.html">07AF010: SUNDANCE CREEK NEAR BICKERDIKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07DB005.html">07DB005: MACKAY RIVER ABOVE DUNKIRK RIVER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07EE009.html">07EE009: CHUCHINKA CREEK NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07FD014.html">07FD014: WAINSCOTT COULEE NEAR BROWNVALE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07GA002.html">07GA002: MUSKEG RIVER NEAR GRANDE CACHE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07JC003.html">07JC003: LOON RIVER NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07QC005.html">07QC005: ABITAU RIVER ABOVE CUMING LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08GA065.html">08GA065: NOONS CREEK AT MERIDIAN SUBSTATION ROAD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LB053.html">08LB053: PAUL LAKE NEAR KAMLOOPS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LE067.html">08LE067: FOWLER CREEK NEAR FALKLAND</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NE067.html">08NE067: WALKER CREEK NEAR ROBSON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NJ134.html">08NJ134: CODY CREEK NEAR SANDON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NM133.html">08NM133: BULL CREEK NEAR CRUMP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NM134.html">08NM134: CAMP CREEK AT MOUTH NEAR THIRSK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09DA001.html">09DA001: HESS RIVER ABOVE EMERALD CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09DC004.html">09DC004: WAREHAM LAKE AT HEADGATE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09EA005.html">09EA005: LITTLE SOUTH KLONDIKE RIVER BELOW ROSS CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09FA001.html">09FA001: WHITESTONE RIVER NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09FC001.html">09FC001: OLD CROW RIVER NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10CD003.html">10CD003: RASPBERRY CREEK NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10ED009.html">10ED009: SCOTTY CREEK AT HIGHWAY NO. 7</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10FB005.html">10FB005: JEAN-MARIE RIVER AT HIGHWAY NO. 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10JA004.html">10JA004: ACASTA RIVER ABOVE LITTLE CRAPEAU LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10KC001.html">10KC001: MOUNTAIN RIVER BELOW CAMBRIAN CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10LA002.html">10LA002: ARCTIC RED RIVER NEAR THE MOUTH</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/dankovacek/distribution_estimation" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/dankovacek/distribution_estimation/issues/new?title=Issue%20on%20page%20%2Fguides/data_specification.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/guides/data_specification.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Data Specification for Camel Farrier</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#when-to-use-this-guide">When to Use This Guide</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-organization">Data Organization</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#csv-data-schemas">CSV Data Schemas</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#corrections">1. Corrections</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#field-visits">2. Field Visits</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rating-curves">3. Rating Curves</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#provenance-and-attribution">Provenance and Attribution</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sources-json-schema"><code class="docutils literal notranslate"><span class="pre">_data_sources.json</span></code> Schema</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#versions-json-schema"><code class="docutils literal notranslate"><span class="pre">_versions.json</span></code> Schema</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#qc-status-json-schema"><code class="docutils literal notranslate"><span class="pre">_qc_status.json</span></code> Schema</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-initialization-workflow">Data Initialization Workflow</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="data-specification-for-camel-farrier">
+<h1>Data Specification for Camel Farrier<a class="headerlink" href="#data-specification-for-camel-farrier" title="Link to this heading">#</a></h1>
+<section id="when-to-use-this-guide">
+<h2>When to Use This Guide<a class="headerlink" href="#when-to-use-this-guide" title="Link to this heading">#</a></h2>
+<p><strong>Consult this reference when:</strong></p>
+<ul class="simple">
+<li><p>Creating custom data exports from Water Office</p></li>
+<li><p>Debugging validation errors</p></li>
+<li><p>Understanding CSV column definitions</p></li>
+<li><p>Interpreting JSON metadata structures</p></li>
+<li><p>Planning data integration for new stations</p></li>
+</ul>
+<p><strong>This is reference documentation</strong> — not a workflow guide. For step-by-step instructions, see:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="setup.html"><span class="std std-doc">Environment Setup</span></a> — First-time configuration</p></li>
+<li><p><a class="reference internal" href="data_population.html"><span class="std std-doc">Data Population</span></a> — Data initialization and polygon integration</p></li>
+<li><p><a class="reference internal" href="workflow.html"><span class="std std-doc">Workflow Documentation</span></a> — Page generation and building</p></li>
+</ul>
+</section>
+<section id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">#</a></h2>
+<p>This document defines the schema and format requirements for hydrometric data in the Camel Farrier demonstration repository. All station data is extracted from the Water Office portal export (<code class="docutils literal notranslate"><span class="pre">WaterOffice_RC_Export_*.zip</span></code>) and organized into individual station folders.</p>
+</section>
+<section id="data-organization">
+<h2>Data Organization<a class="headerlink" href="#data-organization" title="Link to this heading">#</a></h2>
+<p>Station data is organized hierarchically:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>demo_data/stations/
+└── {STATION_ID}/
+    ├── _metadata.json                    # Station metadata from HYDAT
+    ├── _versions.json                    # Version history and provenance
+    ├── _qc_status.json                   # Quality control status
+    ├── _data_sources.json                # Data source attribution
+    ├── {STATION_ID}_corrections.csv      # Data corrections
+    ├── {STATION_ID}_field_visits.csv     # Field visit records
+    ├── {STATION_ID}_RCs.csv              # Rating curves
+    └── {STATION_ID}_polygon_v*.geojson   # Catchment boundary (local files only)
+</pre></div>
+</div>
+</section>
+<section id="csv-data-schemas">
+<h2>CSV Data Schemas<a class="headerlink" href="#csv-data-schemas" title="Link to this heading">#</a></h2>
+<section id="corrections">
+<h3>1. Corrections<a class="headerlink" href="#corrections" title="Link to this heading">#</a></h3>
+<p><strong>Source:</strong> Water Office Portal export</p>
+<p><strong>File Pattern:</strong> <code class="docutils literal notranslate"><span class="pre">{STATION_ID}_corrections.csv</span></code></p>
+<p><strong>Columns:</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Column</p></th>
+<th class="head"><p>EN Header</p></th>
+<th class="head"><p>FR Header</p></th>
+<th class="head"><p>Data Type</p></th>
+<th class="head"><p>Required</p></th>
+<th class="head"><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Station ID</p></td>
+<td><p>Identification de la station</p></td>
+<td><p>String</p></td>
+<td><p>Yes</p></td>
+<td><p>WSC 7-char station code (e.g., “07DB005”)</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>Correction Type</p></td>
+<td><p>Type de correction</p></td>
+<td><p>String</p></td>
+<td><p>Yes</p></td>
+<td><p>Type of correction applied (e.g., “Shift”, “Offset”)</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Data Type</p></td>
+<td><p>Type de données</p></td>
+<td><p>String</p></td>
+<td><p>Yes</p></td>
+<td><p>Which parameter: “Discharge”, “Level”, etc.</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>Start Time (UTC)</p></td>
+<td><p>Heure de début (TUC)</p></td>
+<td><p>ISO 8601 DateTime</p></td>
+<td><p>Yes</p></td>
+<td><p>Correction effective start date-time</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>End Time (UTC)</p></td>
+<td><p>Heure de fin (TUC)</p></td>
+<td><p>ISO 8601 DateTime</p></td>
+<td><p>No</p></td>
+<td><p>Correction end date (if correction expired)</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>Applied Time (UTC)</p></td>
+<td><p>Temps appliqué (TUC)</p></td>
+<td><p>ISO 8601 DateTime</p></td>
+<td><p>Yes</p></td>
+<td><p>When correction was entered/applied</p></td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
+<td><p>Timezone Offset</p></td>
+<td><p>Décalage Horaire</p></td>
+<td><p>String</p></td>
+<td><p>Yes</p></td>
+<td><p>Station timezone offset (e.g., “-05:00”)</p></td>
+</tr>
+<tr class="row-odd"><td><p>8</p></td>
+<td><p>Comment</p></td>
+<td><p>Commentaire</p></td>
+<td><p>String</p></td>
+<td><p>No</p></td>
+<td><p>Explanation of correction rationale</p></td>
+</tr>
+<tr class="row-even"><td><p>9</p></td>
+<td><p>Settings</p></td>
+<td><p>Paramètre</p></td>
+<td><p>String</p></td>
+<td><p>No</p></td>
+<td><p>Technical parameters of correction</p></td>
+</tr>
+<tr class="row-odd"><td><p>10</p></td>
+<td><p>Parameters Processing Order</p></td>
+<td><p>Ordre d’application des paramètres</p></td>
+<td><p>String</p></td>
+<td><p>No</p></td>
+<td><p>Execution order for stacked corrections</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Validation Rules:</strong></p>
+<ul class="simple">
+<li><p>All timestamps must be in UTC (Z or +00:00 designation)</p></li>
+<li><p>Start Time must be before or equal to End Time (if End Time present)</p></li>
+<li><p>Station ID must match parent directory name</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="field-visits">
+<h3>2. Field Visits<a class="headerlink" href="#field-visits" title="Link to this heading">#</a></h3>
+<p><strong>Source:</strong> Water Office Portal export</p>
+<p><strong>File Pattern:</strong> <code class="docutils literal notranslate"><span class="pre">{STATION_ID}_field_visits.csv</span></code></p>
+<p><strong>Columns:</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Column</p></th>
+<th class="head"><p>EN Header</p></th>
+<th class="head"><p>FR Header</p></th>
+<th class="head"><p>Data Type</p></th>
+<th class="head"><p>Required</p></th>
+<th class="head"><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Station ID</p></td>
+<td><p>Identification de la station</p></td>
+<td><p>String</p></td>
+<td><p>Yes</p></td>
+<td><p>WSC 7-char station code</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>Date (UTC)</p></td>
+<td><p>Date (TUC)</p></td>
+<td><p>ISO 8601 Date</p></td>
+<td><p>Yes</p></td>
+<td><p>Field visit date in UTC</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Timezone Offset</p></td>
+<td><p>Décalage Horaire</p></td>
+<td><p>String</p></td>
+<td><p>Yes</p></td>
+<td><p>Station timezone offset</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>Activity Type</p></td>
+<td><p>Type d’activité</p></td>
+<td><p>String</p></td>
+<td><p>Yes</p></td>
+<td><p>Measurement type (e.g., “Discharge”, “Level”)</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>Gauge Height</p></td>
+<td><p>Niveau</p></td>
+<td><p>Float</p></td>
+<td><p>No</p></td>
+<td><p>Water level measurement (units: meters or feet as recorded)</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>Mean Gauge Height</p></td>
+<td><p>Niveau Moyen</p></td>
+<td><p>Float</p></td>
+<td><p>No</p></td>
+<td><p>Average gauge height across measurement section</p></td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
+<td><p>Discharge</p></td>
+<td><p>Débit</p></td>
+<td><p>Float</p></td>
+<td><p>No</p></td>
+<td><p>Measured streamflow (units: m³/s or ft³/s as recorded); <strong>must be ≥ 0</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>8</p></td>
+<td><p>Rating Curve Table Number</p></td>
+<td><p>Numéro de courbe de tarage</p></td>
+<td><p>String</p></td>
+<td><p>No</p></td>
+<td><p>Which rating curve was used for reference</p></td>
+</tr>
+<tr class="row-even"><td><p>9</p></td>
+<td><p>Shift From Base Curve</p></td>
+<td><p>Décalage par rapport à la courbe de base</p></td>
+<td><p>Float</p></td>
+<td><p>No</p></td>
+<td><p>Vertical shift applied to rating curve (units: meters or feet)</p></td>
+</tr>
+<tr class="row-odd"><td><p>10</p></td>
+<td><p>Deviation From Base Curve</p></td>
+<td><p>Déviation par rapport à la courbe de base</p></td>
+<td><p>Float</p></td>
+<td><p>No</p></td>
+<td><p>Measured deviation from base curve estimate</p></td>
+</tr>
+<tr class="row-even"><td><p>11</p></td>
+<td><p>Deviation From Shifted Curve</p></td>
+<td><p>Déviation par rapport à la courbe décalée</p></td>
+<td><p>Float</p></td>
+<td><p>No</p></td>
+<td><p>Measured deviation from shifted curve estimate</p></td>
+</tr>
+<tr class="row-odd"><td><p>12</p></td>
+<td><p>Control Condition</p></td>
+<td><p>Condition de contrôle</p></td>
+<td><p>String</p></td>
+<td><p>No</p></td>
+<td><p>Control type at measurement section (e.g., “Stable”, “Shifting”, “Ice”)</p></td>
+</tr>
+<tr class="row-even"><td><p>13</p></td>
+<td><p>Control Condition Remarks</p></td>
+<td><p>Remarques sur la condition de contrôle</p></td>
+<td><p>String</p></td>
+<td><p>No</p></td>
+<td><p>Notes about control conditions</p></td>
+</tr>
+<tr class="row-odd"><td><p>14</p></td>
+<td><p>Activity Remarks</p></td>
+<td><p>Remarques des activités</p></td>
+<td><p>String</p></td>
+<td><p>No</p></td>
+<td><p>General field notes and observations</p></td>
+</tr>
+<tr class="row-even"><td><p>15</p></td>
+<td><p>Width</p></td>
+<td><p>Largeur</p></td>
+<td><p>Float</p></td>
+<td><p>No</p></td>
+<td><p>Measured channel width (units: meters or feet)</p></td>
+</tr>
+<tr class="row-odd"><td><p>16</p></td>
+<td><p>Area</p></td>
+<td><p>Secteur</p></td>
+<td><p>Float</p></td>
+<td><p>No</p></td>
+<td><p>Measured cross-sectional area (units: m² or ft²)</p></td>
+</tr>
+<tr class="row-even"><td><p>17</p></td>
+<td><p>Velocity</p></td>
+<td><p>Vitesse</p></td>
+<td><p>Float</p></td>
+<td><p>No</p></td>
+<td><p>Measured mean velocity (units: m/s or ft/s)</p></td>
+</tr>
+<tr class="row-odd"><td><p>18</p></td>
+<td><p>Air Temperature</p></td>
+<td><p>Température de l’air</p></td>
+<td><p>Float</p></td>
+<td><p>No</p></td>
+<td><p>Air temperature during measurement (units: °C or °F as recorded)</p></td>
+</tr>
+<tr class="row-even"><td><p>19</p></td>
+<td><p>Water Temperature</p></td>
+<td><p>La température de l’eau</p></td>
+<td><p>Float</p></td>
+<td><p>No</p></td>
+<td><p>Water temperature during measurement (units: °C or °F as recorded)</p></td>
+</tr>
+<tr class="row-odd"><td><p>20</p></td>
+<td><p>Approval</p></td>
+<td><p>Approbation</p></td>
+<td><p>String</p></td>
+<td><p>No</p></td>
+<td><p>Approval status (e.g., “Approved”, “Pending Review”)</p></td>
+</tr>
+<tr class="row-even"><td><p>21</p></td>
+<td><p>Uncertainty</p></td>
+<td><p>Incertitude</p></td>
+<td><p>Float</p></td>
+<td><p>No</p></td>
+<td><p>Estimated measurement uncertainty (typically percent or absolute units)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Validation Rules:</strong></p>
+<ul class="simple">
+<li><p>All dates must be in ISO 8601 format</p></li>
+<li><p>Discharge values must be ≥ 0 (no negative flows)</p></li>
+<li><p>Date must be parseable and within reasonable historical range (station establishment date onwards)</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="rating-curves">
+<h3>3. Rating Curves<a class="headerlink" href="#rating-curves" title="Link to this heading">#</a></h3>
+<p><strong>Source:</strong> Water Office Portal export</p>
+<p><strong>File Pattern:</strong> <code class="docutils literal notranslate"><span class="pre">{STATION_ID}_RCs.csv</span></code></p>
+<p><strong>Columns:</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Column</p></th>
+<th class="head"><p>EN Header</p></th>
+<th class="head"><p>FR Header</p></th>
+<th class="head"><p>Data Type</p></th>
+<th class="head"><p>Required</p></th>
+<th class="head"><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Station ID</p></td>
+<td><p>Identification de la station</p></td>
+<td><p>String</p></td>
+<td><p>Yes</p></td>
+<td><p>WSC 7-char station code</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>Curve Number</p></td>
+<td><p>Numéro de courbe</p></td>
+<td><p>String</p></td>
+<td><p>Yes</p></td>
+<td><p>Unique identifier for this rating curve (e.g., “1”, “2.1”)</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Remarks</p></td>
+<td><p>Remarques</p></td>
+<td><p>String</p></td>
+<td><p>No</p></td>
+<td><p>Notes about curve development, validity period, method</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>Type</p></td>
+<td><p>Catégorie</p></td>
+<td><p>String</p></td>
+<td><p>Yes</p></td>
+<td><p>Curve type (typically “LinearTable” for stage-discharge tables)</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>Approval</p></td>
+<td><p>Approbation</p></td>
+<td><p>String</p></td>
+<td><p>No</p></td>
+<td><p>Approval status (e.g., “Approved”, “Working”)</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>Offset</p></td>
+<td><p>Décalage</p></td>
+<td><p>Float</p></td>
+<td><p>No</p></td>
+<td><p>Vertical shift or datum offset applied to curve (units: meters or feet)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Validation Rules:</strong></p>
+<ul class="simple">
+<li><p>Station ID must match parent directory name</p></li>
+<li><p>Curve Number must be unique within station file</p></li>
+<li><p>Type field determines how curve is interpreted (LinearTable = tabular stage-discharge pairs)</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="provenance-and-attribution">
+<h2>Provenance and Attribution<a class="headerlink" href="#provenance-and-attribution" title="Link to this heading">#</a></h2>
+<section id="data-sources-json-schema">
+<h3><code class="docutils literal notranslate"><span class="pre">_data_sources.json</span></code> Schema<a class="headerlink" href="#data-sources-json-schema" title="Link to this heading">#</a></h3>
+<p>Each station maintains a <code class="docutils literal notranslate"><span class="pre">_data_sources.json</span></code> file documenting the source and retrieval method for each data type:</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;station_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;07DB005&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;data_sources&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;data_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;corrections&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;source&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WaterOffice_RC_Export&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;source_version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;20260203&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;doi&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;10.xxxx/xxxxx&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;extraction_date&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-02-03&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;retrieval_method&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Water Office Portal authenticated export&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;file_path&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;07DB005_corrections.csv&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;record_count&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">24</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;checksum_sha256&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;abc123...&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;notes&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Extracted from Water Office portal on 2026-02-03&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;data_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;field_visits&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;source&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WaterOffice_RC_Export&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;source_version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;20260203&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;doi&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;10.xxxx/xxxxx&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;extraction_date&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-02-03&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;retrieval_method&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Water Office Portal authenticated export&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;file_path&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;07DB005_field_visits.csv&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;record_count&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">156</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;checksum_sha256&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;def456...&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;notes&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Field visit records from operational monitoring&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;data_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;rating_curves&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;source&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WaterOffice_RC_Export&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;source_version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;20260203&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;doi&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;10.xxxx/xxxxx&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;extraction_date&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-02-03&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;retrieval_method&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Water Office Portal authenticated export&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;file_path&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;07DB005_RCs.csv&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;record_count&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;checksum_sha256&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ghi789...&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;notes&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Stage-discharge relationships for discharge estimation&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+<section id="versions-json-schema">
+<h3><code class="docutils literal notranslate"><span class="pre">_versions.json</span></code> Schema<a class="headerlink" href="#versions-json-schema" title="Link to this heading">#</a></h3>
+<p>Version history tracks polygon source, quality tier, and commit metadata with graph-structured comparisons:</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;$schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://json-schema.org/draft/2020-12/schema&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Version history for station data&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;station_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;07AF010&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;schema_version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.0.0&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;current_version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;v1.1.0&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;version_count&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;first_committed&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-02-05T14:50:35.707820&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;last_updated&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-02-05T14:51:01.688377&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;versions&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;semantic_tag&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;v1.0.0&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;timestamp&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-02-05T14:50:35.707820&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;data_source&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WSC_basins&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;polygon_file&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;07AF010_polygon_v1.0.0.geojson&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;source_metadata&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;StationNum&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;07AF010&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;NameNom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;SUNDANCE CREEK NEAR BICKERDIKE&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;Status&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;active&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;Etat&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;en service&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;Area_km2&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;177.597&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;Aire_km2&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;177.597&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;Version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Prerelease/Préliminaire&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;Date&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2021-12-17&quot;</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;semantic_tag&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;v1.1.0&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;timestamp&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-02-05T14:51:01.688377&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;data_source&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;HYDAT_polygons&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;polygon_file&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;07AF010_polygon_v1.1.0.geojson&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;source_metadata&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;StationNum&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;07AF010&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;NameNom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;SUNDANCE CREEK NEAR BICKERDIKE&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;Status&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;active&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;Area_km2&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">177.614</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;Version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;June 2024 / juin 2024&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;Date_rev&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2024-06-01&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;Shape_Leng&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">134760.0</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;Shape_Area&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">177614100.0</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">],</span>
+<span class="w">  </span><span class="nt">&quot;comparisons&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;v1.0.0_vs_v1.1.0&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;computed_at&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-02-05T14:51:01.688377&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;jaccard_index&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.9994</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;old_area_km2&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">177.597</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;new_area_km2&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">177.6134</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;absolute_area_diff_km2&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0164</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;percent_area_diff&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.01</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p><strong>Key Fields:</strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">versions[]</span></code>: Array of version entries (clean, no embedded comparisons)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">versions[].source_metadata</span></code>: All original GeoJSON properties from source file</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">comparisons{}</span></code>: Graph-structured comparison metrics keyed by version pair (e.g., <code class="docutils literal notranslate"><span class="pre">v1.0.0_vs_v1.1.0</span></code>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">comparisons[].jaccard_index</span></code>: Geometric overlap (0-1 scale, computed using LAEA projection)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">comparisons[].percent_area_diff</span></code>: Percent change in catchment area</p></li>
+</ul>
+<p><strong>Interpretation:</strong></p>
+<ul class="simple">
+<li><p>Jaccard Index &gt; 0.99: Minimal change (likely coordinate precision or projection difference)</p></li>
+<li><p>Jaccard Index 0.90-0.99: Minor revision (boundary refinement)</p></li>
+<li><p>Jaccard Index &lt; 0.90: Substantial revision (significant boundary change)</p></li>
+</ul>
+</section>
+<section id="qc-status-json-schema">
+<h3><code class="docutils literal notranslate"><span class="pre">_qc_status.json</span></code> Schema<a class="headerlink" href="#qc-status-json-schema" title="Link to this heading">#</a></h3>
+<p>Quality control status tracking for data validation and review workflow:</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;$schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://json-schema.org/draft/2020-12/schema&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Quality control status for station data during review&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;station_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;07AF010&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;qc_date&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-02-05T14:50:35.715215&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;reviewed_by&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;automated_setup&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;overall_status&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;needs_revision&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;validator_version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.0.0&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;validation_checks&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;data_completeness&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;status&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;passed&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;rating_curves_present&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;corrections_present&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;field_visits_present&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;missing_files&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span>
+<span class="w">      </span><span class="nt">&quot;notes&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;polygon_bounds&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;status&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;passed&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;polygon_file_present&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;crs_valid&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;geometry_valid&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;area_km2&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">504.8</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;notes&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;hydrometric_continuity&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;status&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;warning&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;temporal_gaps&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span>
+<span class="w">      </span><span class="nt">&quot;data_quality_flags&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span>
+<span class="w">      </span><span class="nt">&quot;record_length_years&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">52.2</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;notes&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;13,815 daily observations, seasonal gaps: 101 days avg (N=52) | 26.9% flagged (backwater: 3447, estimated: 212, partial day: 51)&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;metadata_completeness&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;status&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;passed&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;required_fields_present&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;station_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;drainage_area&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;coordinates&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;notes&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nt">&quot;qc_notes&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;No issues detected - all required data present&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;next_steps&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Ready for review&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;created_timestamp&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-02-05T14:50:35.715220&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;last_modified&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-02-05T14:50:35.715221&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p><strong>Key Fields:</strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">overall_status</span></code>: “passed”, “warning”, “needs_revision”, “failed”</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">validation_checks{}</span></code>: Dict of check categories with individual status</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">hydrometric_continuity.notes</span></code>: Free-text summary of temporal coverage and quality flags</p></li>
+</ul>
+<p><strong>Hydrometric Continuity Notes Format:</strong>
+Pattern: <code class="docutils literal notranslate"><span class="pre">{N}</span> <span class="pre">daily</span> <span class="pre">observations,</span> <span class="pre">seasonal</span> <span class="pre">gaps:</span> <span class="pre">{avg_days}</span> <span class="pre">days</span> <span class="pre">avg</span> <span class="pre">(N={gap_count})</span> <span class="pre">|</span> <span class="pre">{pct}%</span> <span class="pre">flagged</span> <span class="pre">({flag_type}:</span> <span class="pre">{count},</span> <span class="pre">...)</span></code></p>
+<p>Example interpretations:</p>
+<ul class="simple">
+<li><p>“13,815 daily observations”: Total record length</p></li>
+<li><p>“seasonal gaps: 101 days avg (N=52)”: 52 gaps averaging 101 days (winter freeze-up)</p></li>
+<li><p>“26.9% flagged”: Over 1/4 of observations have quality flags</p></li>
+<li><p>“backwater: 3447”: Ice/backwater affected readings (common in winter)</p></li>
+<li><p>“estimated: 212”: Gap-filled estimates from rating curve</p></li>
+<li><p>“partial day: 51”: Incomplete daily records</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="data-initialization-workflow">
+<h2>Data Initialization Workflow<a class="headerlink" href="#data-initialization-workflow" title="Link to this heading">#</a></h2>
+<p>See <a class="reference internal" href="data_population.html"><span class="std std-doc">Data Population Guide</span></a> for step-by-step instructions on extracting and organizing data from the Water Office export.</p>
+</section>
+<hr class="docutils" />
+<section id="references">
+<h2>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>
+<p>Water Survey of Canada. Water Office Portal. Government of Canada. Accessed 2026-02-03.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./guides"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../summary_pages/revision_summary.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Polygon Revision Summary</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="setup.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Environment Setup</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#when-to-use-this-guide">When to Use This Guide</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-organization">Data Organization</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#csv-data-schemas">CSV Data Schemas</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#corrections">1. Corrections</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#field-visits">2. Field Visits</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rating-curves">3. Rating Curves</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#provenance-and-attribution">Provenance and Attribution</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sources-json-schema"><code class="docutils literal notranslate"><span class="pre">_data_sources.json</span></code> Schema</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#versions-json-schema"><code class="docutils literal notranslate"><span class="pre">_versions.json</span></code> Schema</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#qc-status-json-schema"><code class="docutils literal notranslate"><span class="pre">_qc_status.json</span></code> Schema</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-initialization-workflow">Data Initialization Workflow</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Dan Kovacek
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
