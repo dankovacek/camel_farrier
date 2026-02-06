@@ -21,7 +21,7 @@
 
 **Next Step After Completion:** Proceed to [Data Population](data_population.md) to initialize demo stations.
 
-**Data Sources:** See <a href="https://github.com/dankovacek/camel_farrier/blob/main/demo_data/DATA_SOURCES.md" target="_blank">DATA_SOURCES.md</a> for dataset download links and provenance.
+**Data Sources:** See [DATA_SOURCES](DATA_SOURCES.md) for dataset download links and provenance.
 
 ## Quick Start
 
@@ -59,7 +59,7 @@ source ~/.bashrc
 
 ### Step 4: Download Required Datasets
 
-See <a href="https://github.com/dankovacek/camel_farrier/blob/main/demo_data/DATA_SOURCES.md" target="_blank">DATA_SOURCES.md</a> for:
+See [DATA_SOURCES](DATA_SOURCES.md) for:
 - HYDAT database download and location
 - WSC catchment polygons download and structure
 - HYSETS watershed boundaries
