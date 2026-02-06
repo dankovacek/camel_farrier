@@ -1,0 +1,12 @@
+{
+  "station_id": "08NJ004",
+  "station_name": "CARPENTER CREEK (SOUTH FORK) AT SANDON",
+  "latitude": 49.97777938842773,
+  "longitude": -117.23194122314452,
+  "drainage_area_gross_km2": 50.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:25.750769"
+}

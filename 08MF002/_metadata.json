@@ -1,0 +1,12 @@
+{
+  "station_id": "08MF002",
+  "station_name": "BOULDER CREEK NEAR LAIDLAW",
+  "latitude": 49.25083160400391,
+  "longitude": -121.60221862792967,
+  "drainage_area_gross_km2": 29.799999237060547,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:22.815257"
+}

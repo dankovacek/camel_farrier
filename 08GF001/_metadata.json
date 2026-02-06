@@ -1,0 +1,12 @@
+{
+  "station_id": "08GF001",
+  "station_name": "STAFFORD RIVER NEAR ROY",
+  "latitude": 50.73500061035156,
+  "longitude": -125.47833251953124,
+  "drainage_area_gross_km2": 326.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:18.369146"
+}

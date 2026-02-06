@@ -1,0 +1,12 @@
+{
+  "station_id": "08NH122",
+  "station_name": "PEAVINE CREEK NEAR CRANBROOK",
+  "latitude": 49.45111083984375,
+  "longitude": -115.73860931396484,
+  "drainage_area_gross_km2": 13.5,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:25.729489"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "08MF067",
+  "station_name": "KOPP CREEK ABOVE MENZ CREEK",
+  "latitude": 49.38417053222656,
+  "longitude": -121.39111328125,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:22.873210"
+}

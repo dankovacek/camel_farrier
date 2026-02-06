@@ -1,0 +1,12 @@
+{
+  "station_id": "08NG030",
+  "station_name": "MAUSE CREEK NEAR FORT STEELE",
+  "latitude": 49.6349983215332,
+  "longitude": -115.54833221435548,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:25.056550"
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Version history for station data",
+  "station_id": "07FB001",
+  "versions": [
+    {
+      "semantic_tag": "v1.0.0",
+      "timestamp": "2026-02-06T02:21:15.616636",
+      "data_source": "WSC_basins",
+      "polygon_file": "07FB001_polygon_v1.0.0.geojson",
+      "source_metadata": {
+        "StationNum": "07FB001",
+        "NameNom": "PINE RIVER AT EAST PINE",
+        "Status": "active",
+        "Etat": "en service",
+        "Area_km2": "12136.3",
+        "Aire_km2": "12136.3",
+        "Version": "Prerelease/Pr\u00e9liminaire",
+        "Date": "2021-12-17"
+      }
+    },
+    {
+      "semantic_tag": "v1.1.0",
+      "timestamp": "2026-02-06T02:21:43.825108",
+      "data_source": "HYDAT_polygons",
+      "polygon_file": "07FB001_polygon_v1.1.0.geojson",
+      "source_metadata": {
+        "StationNum": "07FB001",
+        "NameNom": "PINE RIVER AT EAST PINE",
+        "Status": "active",
+        "Etat": "en service",
+        "Area_km2": 12136.1,
+        "Aire_km2": 12136.1,
+        "Remark": null,
+        "Remarque": null,
+        "Version": "June 2024 / juin 2024",
+        "Date_rev": "2024-06-01",
+        "Shape_Leng": 1012620.0,
+        "Shape_Area": 12136066200.0
+      }
+    }
+  ],
+  "schema_version": "1.0.0",
+  "current_version": "v1.1.0",
+  "version_count": 2,
+  "first_committed": "2026-02-06T02:21:15.616636",
+  "last_updated": "2026-02-06T02:21:43.825108",
+  "comparisons": {
+    "v1.0.0_vs_v1.1.0": {
+      "computed_at": "2026-02-06T02:21:43.825108",
+      "jaccard_index": 1.0,
+      "old_area_km2": 12136.2543,
+      "new_area_km2": 12136.0663,
+      "absolute_area_diff_km2": 0.1879,
+      "percent_area_diff": -0.0
+    }
+  }
+}

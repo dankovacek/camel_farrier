@@ -1,0 +1,12 @@
+{
+  "station_id": "08LC048",
+  "station_name": "TRINITY CREEK ABOVE DIVERSION",
+  "latitude": 50.41389083862305,
+  "longitude": -118.9333267211914,
+  "drainage_area_gross_km2": 42.900001525878906,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:21.045862"
+}

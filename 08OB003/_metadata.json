@@ -1,0 +1,12 @@
+{
+  "station_id": "08OB003",
+  "station_name": "MATHERS CREEK NEAR SANDSPIT",
+  "latitude": 53.01667022705078,
+  "longitude": -131.7777862548828,
+  "drainage_area_gross_km2": 79.30000305175781,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:27.470512"
+}

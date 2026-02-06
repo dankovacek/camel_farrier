@@ -1,0 +1,12 @@
+{
+  "station_id": "08NE001",
+  "station_name": "INCOMAPPLEUX RIVER NEAR BEATON",
+  "latitude": 50.77360916137695,
+  "longitude": -117.67666625976562,
+  "drainage_area_gross_km2": 1020.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:24.318620"
+}

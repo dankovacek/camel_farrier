@@ -1,0 +1,12 @@
+{
+  "station_id": "08LF030",
+  "station_name": "DURAND CREEK (FERGUSON DIVERSION) NEAR SAVONA",
+  "latitude": 50.663330078125,
+  "longitude": -120.76416778564452,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:21.705989"
+}

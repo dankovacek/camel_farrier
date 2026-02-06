@@ -89,6 +89,9 @@ HYDAT exists: True
 ## Quick Start Workflow
 
 ```bash
+# Initialize random set of stations (n=number, m=min per region)
+python scripts/demo_data/generate_demo_stn_list.py -n 25 -m 2
+
 # Initialize demo stations
 python scripts/demo_setup/populate_demo_data.py
 

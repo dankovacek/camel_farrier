@@ -1,6 +1,7 @@
 # Project Overview
 
-```{admonition} Purpose
+```{admonition} **Purpose**
+:class: tip
 This repository demonstrates version-controlled management of catchment polygons for Canadian hydrometric stations, enabling transparent tracking of boundary revisions, reproducible data provenance, and collaborative improvement of watershed delineations used in hydrological research.
 ```
 
@@ -28,13 +29,13 @@ This demonstration uses polygons from multiple sources:
 
 For detailed provenance, download links, and methodology, see [Data Sources](../guides/DATA_SOURCES.md).
 
-## Improvement Opportunities
+## Opportunities
 
 Catchments ≤50 km² in HYSETS use simplified rectangular boundaries due to delineation challenges at fine scales. These represent approximately one-third of the dataset and offer significant opportunity for collaborative improvement through:
 
 1. High-resolution DEM delineation
-2. Field validation of drainage divides
-3. Cross-dataset comparison (HYSETS, Caravan, WSC)
+2. Field validation
+3. Cross-dataset comparison
 4. Community contributions with local knowledge
 
 ## Documentation Structure

@@ -9,10 +9,7 @@
 - Interpreting JSON metadata structures
 - Planning data integration for new stations
 
-**This is reference documentation** — not a workflow guide. For step-by-step instructions, see:
-- [Environment Setup](setup.md) — First-time configuration
-- [Data Population](data_population.md) — Data initialization and polygon integration
-- [Workflow Documentation](workflow.md) — Page generation and building
+**This is reference documentation** — not a workflow guide. For workflow instructions, see the [User Guide](user_guide) for page generation and building procedures.
 
 ## Overview
 
@@ -324,7 +321,7 @@ Example interpretations:
 
 ## Data Initialization Workflow
 
-See [Data Population Guide](data_population.md) for step-by-step instructions on extracting and organizing data from the Water Office export.
+For step-by-step instructions on extracting and organizing data from the Water Office export, see the [User Guide](user_guide).
 
 ---
 

@@ -1,0 +1,12 @@
+{
+  "station_id": "08NH001",
+  "station_name": "DUNCAN RIVER NEAR HOWSER",
+  "latitude": 50.285831451416016,
+  "longitude": -116.945556640625,
+  "drainage_area_gross_km2": 2160.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:25.400804"
+}

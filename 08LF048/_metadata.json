@@ -1,0 +1,12 @@
+{
+  "station_id": "08LF048",
+  "station_name": "FIFTYNINE CREEK NEAR CHASM",
+  "latitude": 51.21860885620117,
+  "longitude": -121.50749969482422,
+  "drainage_area_gross_km2": 203.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:21.751787"
+}

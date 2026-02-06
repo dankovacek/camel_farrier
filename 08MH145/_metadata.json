@@ -1,0 +1,12 @@
+{
+  "station_id": "08MH145",
+  "station_name": "DOWNES CREEK NEAR CLEARBROOK",
+  "latitude": 49.0747184753418,
+  "longitude": -122.3255615234375,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:23.714153"
+}

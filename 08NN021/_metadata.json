@@ -1,0 +1,12 @@
+{
+  "station_id": "08NN021",
+  "station_name": "MOODY CREEK NEAR CHRISTINA",
+  "latitude": 49.05110931396485,
+  "longitude": -118.27333068847656,
+  "drainage_area_gross_km2": 13.5,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:27.153031"
+}

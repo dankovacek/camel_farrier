@@ -1,0 +1,12 @@
+{
+  "station_id": "08GA056",
+  "station_name": "SENTINEL CREEK ABOVE GARIBALDI LAKE",
+  "latitude": 49.90277862548828,
+  "longitude": -122.99694061279295,
+  "drainage_area_gross_km2": 5.699999809265137,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:18.263892"
+}

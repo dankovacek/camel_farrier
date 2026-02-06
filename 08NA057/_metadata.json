@@ -1,0 +1,12 @@
+{
+  "station_id": "08NA057",
+  "station_name": "WILMER CREEK NEAR WILMER",
+  "latitude": 50.54639053344727,
+  "longitude": -116.09832763671876,
+  "drainage_area_gross_km2": 6.730000019073486,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:23.889558"
+}

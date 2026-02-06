@@ -1,0 +1,12 @@
+{
+  "station_id": "08LB071",
+  "station_name": "HASCHEAK CREEK ABOVE RUSSELL CREEK",
+  "latitude": 51.62916946411133,
+  "longitude": -120.022216796875,
+  "drainage_area_gross_km2": 8.029999732971191,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:20.819153"
+}

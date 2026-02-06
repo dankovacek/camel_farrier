@@ -1,0 +1,12 @@
+{
+  "station_id": "08NJ135",
+  "station_name": "GOOSE CREEK ABOVE GANDER CREEK",
+  "latitude": 49.42361068725586,
+  "longitude": -117.6138916015625,
+  "drainage_area_gross_km2": 52.09999847412109,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:26.012449"
+}

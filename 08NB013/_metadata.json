@@ -1,0 +1,12 @@
+{
+  "station_id": "08NB013",
+  "station_name": "GOLD RIVER ABOVE BACHELOR CREEK",
+  "latitude": 51.613059997558594,
+  "longitude": -117.7411117553711,
+  "drainage_area_gross_km2": 135.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:24.091073"
+}

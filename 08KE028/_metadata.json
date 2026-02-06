@@ -1,0 +1,12 @@
+{
+  "station_id": "08KE028",
+  "station_name": "TABOR CREEK AT HIGHWAY NO. 97 NEAR PRINCE GEORGE",
+  "latitude": 53.79499816894531,
+  "longitude": -122.65193939208984,
+  "drainage_area_gross_km2": 113.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:20.410224"
+}

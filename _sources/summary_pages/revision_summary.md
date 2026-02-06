@@ -2,6 +2,15 @@
 
 This page summarizes catchment polygon revisions across all demonstration stations. When alternate polygon sources become available (e.g., HYDAT 2024 release), we compare them against baseline polygons to quantify changes.
 
+:::{bokeh-plot}
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from bokeh.io import show
+from scripts.generation.revision_plots import plot_revision_map
+show(plot_revision_map())
+:::
+
 ## Polygon Comparison Metrics
 
 ### Jaccard Similarity Index
@@ -16,12 +25,6 @@ Where:
 - $|A \cap B|$ is the intersection area
 - $|A \cup B|$ is the union area
 
-**Interpretation:**
-- $J = 1.0$: Polygons are identical
-- $J = 0.9$: High similarity (90% overlap relative to union)
-- $J = 0.5$: Moderate difference (50% overlap)
-- $J < 0.3$: Substantial revision
-
 ### Area Change
 
 Percent area difference between versions:
@@ -32,20 +35,10 @@ $$
 
 Positive values indicate catchment expansion; negative values indicate reduction.
 
-## Geographic Distribution of Changes
 
-:::{bokeh-plot}
-import sys
-from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
-from bokeh.io import show
-from scripts.generation.revision_plots import plot_revision_map
-show(plot_revision_map())
-:::
+## Sample distributions
 
-## Statistical Distributions
-
-### Jaccard Similarity Distribution
+### Jaccard similarity distribution
 
 :::{bokeh-plot}
 import sys
@@ -56,7 +49,7 @@ from scripts.generation.revision_plots import plot_jaccard_cdf
 show(plot_jaccard_cdf())
 :::
 
-### Area Change Distribution
+### Area change distribution
 
 :::{bokeh-plot}
 import sys
@@ -67,7 +60,7 @@ from scripts.generation.revision_plots import plot_area_change_cdf
 show(plot_area_change_cdf())
 :::
 
-## Detailed Comparison Table
+## Detailed comparison table
 
 :::{bokeh-plot}
 import sys
@@ -78,7 +71,7 @@ from scripts.generation.revision_plots import generate_revision_table
 show(generate_revision_table())
 :::
 
-## Version Tracking
+## Version tracking
 
 All polygon changes are tracked in station-level `_versions.json` files with complete provenance:
 
@@ -124,7 +117,7 @@ python scripts/demo_setup/integrate_hydat_polygons.py --stations-file /tmp/stati
 
 Comparison metrics are calculated automatically using LAEA projection for accurate area calculations.
 
-## References
+## Notes
 
 For methodology and implementation details, see:
 - [Getting Started](../guides/user_guide.md)

@@ -1,0 +1,12 @@
+{
+  "station_id": "08HC007",
+  "station_name": "HEBER DIVERSION NEAR GOLD RIVER",
+  "latitude": 49.85443878173828,
+  "longitude": -125.95221710205078,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:19.448116"
+}

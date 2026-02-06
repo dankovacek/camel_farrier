@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Version history for station data",
+  "station_id": "08HD013",
+  "versions": [
+    {
+      "semantic_tag": "v1.0.0",
+      "timestamp": "2026-02-06T02:21:19.649487",
+      "data_source": "WSC_basins",
+      "polygon_file": "08HD013_polygon_v1.0.0.geojson",
+      "source_metadata": {
+        "StationNum": "08HD013",
+        "NameNom": "BARRON CREEK NEAR BLOEDEL",
+        "Status": "discontinued",
+        "Etat": "ferm\u00e9e",
+        "Area_km2": "0.2853",
+        "Aire_km2": "0.2853",
+        "Version": "Prerelease/Pr\u00e9liminaire",
+        "Date": "2021-12-17"
+      }
+    }
+  ],
+  "schema_version": "1.0.0",
+  "current_version": "v1.0.0",
+  "version_count": 1,
+  "first_committed": "2026-02-06T02:21:19.649487",
+  "last_updated": "2026-02-06T02:21:19.649487"
+}

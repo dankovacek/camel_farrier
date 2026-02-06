@@ -1,0 +1,12 @@
+{
+  "station_id": "08MH026",
+  "station_name": "BRUNETTE RIVER AT SAPPERTON",
+  "latitude": 49.24388885498047,
+  "longitude": -122.89861297607422,
+  "drainage_area_gross_km2": 68.5999984741211,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:23.126443"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "08LG026",
+  "station_name": "HOWARTH CREEK (WEST FORK) NEAR MERRITT",
+  "latitude": 50.00138854980469,
+  "longitude": -120.75694274902344,
+  "drainage_area_gross_km2": 3.890000104904175,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:22.138749"
+}

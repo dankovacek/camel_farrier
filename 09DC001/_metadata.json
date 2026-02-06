@@ -1,0 +1,12 @@
+{
+  "station_id": "09DC001",
+  "station_name": "MAYO RIVER NEAR MAYO",
+  "latitude": 63.70193862915039,
+  "longitude": -135.8619384765625,
+  "drainage_area_gross_km2": 2260.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "YT",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:28.131471"
+}

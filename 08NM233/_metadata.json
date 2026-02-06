@@ -1,0 +1,12 @@
+{
+  "station_id": "08NM233",
+  "station_name": "MISSION CREEK ABOVE PEARSON CREEK",
+  "latitude": 49.88777923583984,
+  "longitude": -119.0625,
+  "drainage_area_gross_km2": 233.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:27.056576"
+}

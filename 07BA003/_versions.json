@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Version history for station data",
+  "station_id": "07BA003",
+  "versions": [
+    {
+      "semantic_tag": "v1.0.0",
+      "timestamp": "2026-02-06T02:21:14.613777",
+      "data_source": "WSC_basins",
+      "polygon_file": "07BA003_polygon_v1.0.0.geojson",
+      "source_metadata": {
+        "StationNum": "07BA003",
+        "NameNom": "LOVETT RIVER NEAR THE MOUTH",
+        "Status": "active",
+        "Etat": "en service",
+        "Area_km2": "103.981",
+        "Aire_km2": "103.981",
+        "Version": "Prerelease/Pr\u00e9liminaire",
+        "Date": "2021-12-17"
+      }
+    },
+    {
+      "semantic_tag": "v1.1.0",
+      "timestamp": "2026-02-06T02:21:42.661368",
+      "data_source": "HYDAT_polygons",
+      "polygon_file": "07BA003_polygon_v1.1.0.geojson",
+      "source_metadata": {
+        "StationNum": "07BA003",
+        "NameNom": "LOVETT RIVER NEAR THE MOUTH",
+        "Status": "active",
+        "Etat": "en service",
+        "Area_km2": 104.497,
+        "Aire_km2": 104.497,
+        "Remark": null,
+        "Remarque": null,
+        "Version": "June 2024 / juin 2024",
+        "Date_rev": "2024-06-01",
+        "Shape_Leng": 84540.0,
+        "Shape_Area": 104497200.0
+      }
+    }
+  ],
+  "schema_version": "1.0.0",
+  "current_version": "v1.1.0",
+  "version_count": 2,
+  "first_committed": "2026-02-06T02:21:14.613777",
+  "last_updated": "2026-02-06T02:21:42.661368",
+  "comparisons": {
+    "v1.0.0_vs_v1.1.0": {
+      "computed_at": "2026-02-06T02:21:42.661368",
+      "jaccard_index": 0.9936,
+      "old_area_km2": 103.9806,
+      "new_area_km2": 104.4974,
+      "absolute_area_diff_km2": 0.5168,
+      "percent_area_diff": 0.5
+    }
+  }
+}

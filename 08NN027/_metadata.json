@@ -1,0 +1,12 @@
+{
+  "station_id": "08NN027",
+  "station_name": "BEAVERDELL CREEK NEAR BEAVERDELL",
+  "latitude": 49.48556137084961,
+  "longitude": -119.02806091308594,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:27.307202"
+}

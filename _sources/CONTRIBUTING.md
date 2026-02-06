@@ -60,8 +60,7 @@ When submitting improved catchment boundaries:
 1. **Document your methodology** in the commit message or PR description
 2. **Include comparison metrics** (Jaccard Index, area difference) with existing polygons
 3. **Provide data sources** used for delineation (DEM resolution, software, parameters)
-4. **Follow the quality tier guidelines** defined in [DATA_GOVERNANCE](guides/DATA_GOVERNANCE.md)
-5. **Ensure GeoJSON validity** (no self-intersections, correct CRS: EPSG:4326)
+4. **Ensure GeoJSON validity** (no self-intersections, correct CRS: EPSG:4326)
 
 **File naming convention:**
 ```
@@ -135,7 +134,7 @@ When creating a pull request, please use the provided template and include:
 
 ### Data Quality Tiers
 
-Contributions are assigned quality tiers based on review status. See [DATA_GOVERNANCE](guides/DATA_GOVERNANCE.md) for detailed tier definitions:
+Contributions are assigned quality tiers based on review status:
 
 - **Tier 1 (Canonical)** — Peer-reviewed, publication-ready
 - **Tier 2 (Reviewed)** — QA passed, suitable for operational use

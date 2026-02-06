@@ -1,0 +1,12 @@
+{
+  "station_id": "07MA004",
+  "station_name": "WILLIAM RIVER ABOVE CARSWELL RIVER",
+  "latitude": 58.81388854980469,
+  "longitude": -109.00277709960938,
+  "drainage_area_gross_km2": 4030.0,
+  "drainage_area_effect_km2": 4030.0,
+  "province_territory": "SK",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:16.281856"
+}

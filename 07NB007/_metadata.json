@@ -1,0 +1,12 @@
+{
+  "station_id": "07NB007",
+  "station_name": "SALT RIVER BELOW PEACE POINT HIGHWAY",
+  "latitude": 59.83332824707031,
+  "longitude": -111.9694366455078,
+  "drainage_area_gross_km2": 1670.0,
+  "drainage_area_effect_km2": 1060.0,
+  "province_territory": "AB",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:16.370122"
+}

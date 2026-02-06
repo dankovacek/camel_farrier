@@ -1,0 +1,12 @@
+{
+  "station_id": "08NG007",
+  "station_name": "MARK CREEK NEAR MARYSVILLE",
+  "latitude": 49.63750076293945,
+  "longitude": -115.96056365966795,
+  "drainage_area_gross_km2": 233.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:24.923399"
+}

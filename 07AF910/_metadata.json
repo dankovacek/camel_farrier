@@ -1,0 +1,12 @@
+{
+  "station_id": "07AF910",
+  "station_name": "WHITEHORSE CREEK NEAR CADOMIN",
+  "latitude": 52.98332977294922,
+  "longitude": -117.3444366455078,
+  "drainage_area_gross_km2": 115.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "AB",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:14.586729"
+}

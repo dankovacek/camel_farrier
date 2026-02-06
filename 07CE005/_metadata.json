@@ -1,0 +1,12 @@
+{
+  "station_id": "07CE005",
+  "station_name": "JACKFISH RIVER BELOW CHRISTINA LAKE",
+  "latitude": 55.67292022705078,
+  "longitude": -111.09940338134766,
+  "drainage_area_gross_km2": 1290.0,
+  "drainage_area_effect_km2": 1270.0,
+  "province_territory": "AB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:15.236501"
+}

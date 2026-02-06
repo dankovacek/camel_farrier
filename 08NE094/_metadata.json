@@ -1,0 +1,12 @@
+{
+  "station_id": "08NE094",
+  "station_name": "CAI CREEK NEAR BRILLIANT",
+  "latitude": 49.26721954345703,
+  "longitude": -117.6241683959961,
+  "drainage_area_gross_km2": 2.8499999046325684,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:24.508094"
+}

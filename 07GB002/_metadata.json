@@ -1,0 +1,12 @@
+{
+  "station_id": "07GB002",
+  "station_name": "KAKWA RIVER NEAR GRANDE PRAIRIE",
+  "latitude": 54.37221908569336,
+  "longitude": -118.5944366455078,
+  "drainage_area_gross_km2": 3300.0,
+  "drainage_area_effect_km2": 3300.0,
+  "province_territory": "AB",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:15.961124"
+}

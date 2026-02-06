@@ -134,8 +134,6 @@ Each station maintains version metadata tracking:
 - **Quality tier**: Canonical, reviewed, experimental, or superseded
 - **External comparisons**: Jaccard Index and area differences with HYSETS/Caravan
 
-See [DATA_GOVERNANCE](DATA_GOVERNANCE.md) for quality tier definitions and version management policies.
-
 ## Data Acquisition for Demo Replication
 
 ### Required External Data

@@ -1,0 +1,12 @@
+{
+  "station_id": "08LA012",
+  "station_name": "CLEARWATER LAKE NEAR CLEARWATER STATION",
+  "latitude": 52.14305877685547,
+  "longitude": -120.1916732788086,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:20.588478"
+}

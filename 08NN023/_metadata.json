@@ -1,0 +1,12 @@
+{
+  "station_id": "08NN023",
+  "station_name": "BURRELL CREEK ABOVE GLOUCESTER CREEK",
+  "latitude": 49.589141845703125,
+  "longitude": -118.31175231933594,
+  "drainage_area_gross_km2": 221.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:27.190750"
+}

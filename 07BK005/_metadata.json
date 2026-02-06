@@ -1,0 +1,12 @@
+{
+  "station_id": "07BK005",
+  "station_name": "SAULTEAUX RIVER NEAR SPURFIELD",
+  "latitude": 55.15747833251953,
+  "longitude": -114.23909759521484,
+  "drainage_area_gross_km2": 2600.0,
+  "drainage_area_effect_km2": 2600.0,
+  "province_territory": "AB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:15.107270"
+}

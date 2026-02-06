@@ -1,0 +1,12 @@
+{
+  "station_id": "08LC034",
+  "station_name": "FERRY CREEK NEAR LUMBY",
+  "latitude": 50.24193954467773,
+  "longitude": -118.647216796875,
+  "drainage_area_gross_km2": 145.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:20.894141"
+}

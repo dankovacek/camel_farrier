@@ -1,0 +1,12 @@
+{
+  "station_id": "08MC025",
+  "station_name": "MISSIONER CREEK BELOW RESERVOIR LAKE",
+  "latitude": 52.17110824584961,
+  "longitude": -122.10166931152344,
+  "drainage_area_gross_km2": 31.100000381469727,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:22.499033"
+}

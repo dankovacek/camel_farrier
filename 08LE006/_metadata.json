@@ -1,0 +1,12 @@
+{
+  "station_id": "08LE006",
+  "station_name": "PRINGLE CREEK NEAR WESTWOLD",
+  "latitude": 50.47888946533203,
+  "longitude": -119.81999969482422,
+  "drainage_area_gross_km2": 15.5,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:21.071397"
+}

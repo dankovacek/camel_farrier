@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Version history for station data",
+  "station_id": "07SB003",
+  "versions": [
+    {
+      "semantic_tag": "v1.0.0",
+      "timestamp": "2026-02-06T02:21:16.490630",
+      "data_source": "WSC_basins",
+      "polygon_file": "07SB003_polygon_v1.0.0.geojson",
+      "source_metadata": {
+        "StationNum": "07SB003",
+        "NameNom": "YELLOWKNIFE RIVER AT INLET TO PROSPEROUS LAKE",
+        "Status": "active",
+        "Etat": "en service",
+        "Area_km2": "11054.6",
+        "Aire_km2": "11054.6",
+        "Version": "Prerelease/Pr\u00e9liminaire",
+        "Date": "2021-12-17"
+      }
+    },
+    {
+      "semantic_tag": "v1.1.0",
+      "timestamp": "2026-02-06T02:21:45.010403",
+      "data_source": "HYDAT_polygons",
+      "polygon_file": "07SB003_polygon_v1.1.0.geojson",
+      "source_metadata": {
+        "StationNum": "07SB003",
+        "NameNom": "YELLOWKNIFE RIVER AT INLET TO PROSPEROUS LAKE",
+        "Status": "active",
+        "Etat": "en service",
+        "Area_km2": 11054.9,
+        "Aire_km2": 11054.9,
+        "Remark": null,
+        "Remarque": null,
+        "Version": "June 2024 / juin 2024",
+        "Date_rev": "2024-06-01",
+        "Shape_Leng": 1274640.0,
+        "Shape_Area": 11054885400.0
+      }
+    }
+  ],
+  "schema_version": "1.0.0",
+  "current_version": "v1.1.0",
+  "version_count": 2,
+  "first_committed": "2026-02-06T02:21:16.490630",
+  "last_updated": "2026-02-06T02:21:45.010403",
+  "comparisons": {
+    "v1.0.0_vs_v1.1.0": {
+      "computed_at": "2026-02-06T02:21:45.010403",
+      "jaccard_index": 0.9999,
+      "old_area_km2": 11054.5983,
+      "new_area_km2": 11054.8842,
+      "absolute_area_diff_km2": 0.2859,
+      "percent_area_diff": 0.0
+    }
+  }
+}

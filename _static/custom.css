@@ -74,39 +74,40 @@
 /* Dark mode table background and text */
 [data-theme="dark"] .bk-root table,
 html[data-theme="dark"] .bk-root table {
-    background-color: #1e1e1e !important;
-    color: #e0e0e0 !important;
+  background-color: #1e1e1e !important;
+  color: #e0e0e0 !important;
 }
 
 /* Dark mode table headers */
 [data-theme="dark"] .bk-root th {
-    background-color: #2d2d2d !important;
-    color: #ffffff !important;
-    font-weight: bold !important;
+  background-color: #2d2d2d !important;
+  color: #ffffff !important;
+  font-weight: bold !important;
 }
 
 /* Dark mode table cells */
 [data-theme="dark"] .bk-root td {
-    background-color: #1e1e1e !important;
-    color: #e0e0e0 !important;
+  background-color: #1e1e1e !important;
+  color: #e0e0e0 !important;
 }
 
 /* Dark mode hover effect */
 [data-theme="dark"] .bk-root tr:hover td {
-    background-color: #3a3a3a !important;
+  background-color: #3a3a3a !important;
 }
 
 /* Increase readability for all tables */
-.bk-root td, .bk-root th {
-    font-size: 1.05em !important;
-    padding: 8px !important;
+.bk-root td,
+.bk-root th {
+  font-size: 1.05em !important;
+  padding: 8px !important;
 }
 
 /* Links in dark mode tables */
 [data-theme="dark"] .bk-root a {
-    color: #58a6ff !important;
+  color: #58a6ff !important;
 }
 
 [data-theme="dark"] .bk-root a:hover {
-    color: #79c0ff !important;
+  color: #79c0ff !important;
 }

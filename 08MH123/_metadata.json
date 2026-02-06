@@ -1,0 +1,12 @@
+{
+  "station_id": "08MH123",
+  "station_name": "CAMPBELL RIVER ABOVE SAM HILL CREEK",
+  "latitude": 49.024169921875,
+  "longitude": -122.71778106689452,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:23.581965"
+}

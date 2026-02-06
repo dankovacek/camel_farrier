@@ -1,0 +1,12 @@
+{
+  "station_id": "08KC003",
+  "station_name": "MUSKEG RIVER NORTH OF JOANNE LAKE",
+  "latitude": 54.605281829833984,
+  "longitude": -123.23722076416016,
+  "drainage_area_gross_km2": 303.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:20.268334"
+}

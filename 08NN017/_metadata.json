@@ -1,0 +1,12 @@
+{
+  "station_id": "08NN017",
+  "station_name": "CHRISTINA LAKE NEAR GRAND FORKS",
+  "latitude": 49.04444122314453,
+  "longitude": -118.20832824707033,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:27.122869"
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Version history for station data",
+  "station_id": "07SB020",
+  "versions": [
+    {
+      "semantic_tag": "v1.0.0",
+      "timestamp": "2026-02-06T02:21:16.847247",
+      "data_source": "WSC_basins",
+      "polygon_file": "07SB020_polygon_v1.0.0.geojson",
+      "source_metadata": {
+        "StationNum": "07SB020",
+        "NameNom": "YELLOWKNIFE RIVER ABOVE QUYTA LAKE",
+        "Status": "active",
+        "Etat": "en service",
+        "Area_km2": "7168.45",
+        "Aire_km2": "7168.45",
+        "Version": "Prerelease/Pr\u00e9liminaire",
+        "Date": "2021-12-17"
+      }
+    },
+    {
+      "semantic_tag": "v1.1.0",
+      "timestamp": "2026-02-06T02:21:45.718666",
+      "data_source": "HYDAT_polygons",
+      "polygon_file": "07SB020_polygon_v1.1.0.geojson",
+      "source_metadata": {
+        "StationNum": "07SB020",
+        "NameNom": "YELLOWKNIFE RIVER ABOVE QUYTA LAKE",
+        "Status": "active",
+        "Etat": "en service",
+        "Area_km2": 7116.16,
+        "Aire_km2": 7116.16,
+        "Remark": null,
+        "Remarque": null,
+        "Version": "June 2024 / juin 2024",
+        "Date_rev": "2024-06-01",
+        "Shape_Leng": 1225620.0,
+        "Shape_Area": 7116162300.0
+      }
+    }
+  ],
+  "schema_version": "1.0.0",
+  "current_version": "v1.1.0",
+  "version_count": 2,
+  "first_committed": "2026-02-06T02:21:16.847247",
+  "last_updated": "2026-02-06T02:21:45.718666",
+  "comparisons": {
+    "v1.0.0_vs_v1.1.0": {
+      "computed_at": "2026-02-06T02:21:45.718666",
+      "jaccard_index": 0.9927,
+      "old_area_km2": 7168.446,
+      "new_area_km2": 7116.1595,
+      "absolute_area_diff_km2": 52.2865,
+      "percent_area_diff": -0.73
+    }
+  }
+}

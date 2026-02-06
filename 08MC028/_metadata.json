@@ -1,0 +1,12 @@
+{
+  "station_id": "08MC028",
+  "station_name": "BORLAND CREEK ABOVE EAGLE MEADOWS DAM",
+  "latitude": 52.09167098999024,
+  "longitude": -121.80555725097656,
+  "drainage_area_gross_km2": 4.920000076293945,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:22.526343"
+}

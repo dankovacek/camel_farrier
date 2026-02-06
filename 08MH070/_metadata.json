@@ -1,0 +1,12 @@
+{
+  "station_id": "08MH070",
+  "station_name": "DEROCHE CREEK AT DEROCHE",
+  "latitude": 49.18611145019531,
+  "longitude": -122.0749969482422,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:23.208450"
+}

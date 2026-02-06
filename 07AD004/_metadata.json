@@ -1,0 +1,12 @@
+{
+  "station_id": "07AD004",
+  "station_name": "WHISKEYJACK CREEK NEAR HINTON",
+  "latitude": 53.38056182861328,
+  "longitude": -117.5374984741211,
+  "drainage_area_gross_km2": 3.130000114440918,
+  "drainage_area_effect_km2": 3.130000114440918,
+  "province_territory": "AB",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:14.432437"
+}

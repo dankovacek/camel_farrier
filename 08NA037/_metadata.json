@@ -1,0 +1,12 @@
+{
+  "station_id": "08NA037",
+  "station_name": "CARBONATE CREEK NEAR MCMURDO",
+  "latitude": 51.14305877685547,
+  "longitude": -116.7397232055664,
+  "drainage_area_gross_km2": 8.029999732971191,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:23.820203"
+}

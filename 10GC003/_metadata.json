@@ -1,0 +1,12 @@
+{
+  "station_id": "10GC003",
+  "station_name": "MARTIN RIVER AT HIGHWAY NO. 1",
+  "latitude": 61.89393997192383,
+  "longitude": -121.61183166503906,
+  "drainage_area_gross_km2": 2050.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "NT",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:29.316116"
+}

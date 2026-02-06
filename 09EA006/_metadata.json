@@ -1,0 +1,12 @@
+{
+  "station_id": "09EA006",
+  "station_name": "KLONDIKE RIVER AT ROCK CREEK",
+  "latitude": 64.06208038330078,
+  "longitude": -139.08375549316406,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "YT",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:28.507350"
+}

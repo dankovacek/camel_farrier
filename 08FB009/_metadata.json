@@ -1,0 +1,12 @@
+{
+  "station_id": "08FB009",
+  "station_name": "CLAYTON FALLS CREEK NEAR THE MOUTH",
+  "latitude": 52.36444091796875,
+  "longitude": -126.8080596923828,
+  "drainage_area_gross_km2": 92.5,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:17.830991"
+}

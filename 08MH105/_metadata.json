@@ -1,0 +1,12 @@
+{
+  "station_id": "08MH105",
+  "station_name": "NICOMEKL RIVER BELOW MURRAY CREEK",
+  "latitude": 49.10055923461914,
+  "longitude": -122.64556121826172,
+  "drainage_area_gross_km2": 64.5,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:23.534475"
+}

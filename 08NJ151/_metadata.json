@@ -1,0 +1,12 @@
+{
+  "station_id": "08NJ151",
+  "station_name": "MCPHEE CREEK NEAR BRILLIANT",
+  "latitude": 49.33361053466797,
+  "longitude": -117.5744400024414,
+  "drainage_area_gross_km2": 35.5,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:26.058818"
+}

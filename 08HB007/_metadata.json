@@ -1,0 +1,12 @@
+{
+  "station_id": "08HB007",
+  "station_name": "PUNTLEDGE RIVER NEAR CUMBERLAND",
+  "latitude": 49.66389083862305,
+  "longitude": -125.0930633544922,
+  "drainage_area_gross_km2": 453.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-06T02:21:18.664785"
+}
