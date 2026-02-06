@@ -42,7 +42,7 @@ We welcome several types of contributions:
    git clone https://github.com/YOUR_USERNAME/camel_farrier.git
    cd camel_farrier
    ```
-3. **Set up your environment** following the [Setup Guide](book_docs/guides/setup.md)
+3. **Set up your environment** following the [Setup Guide](guides/setup.md)
 4. **Create a feature branch**:
    ```bash
    git checkout -b feature/your-contribution-name
@@ -73,7 +73,7 @@ When submitting corrections to hydrometric data:
 
 1. **Verify against authoritative sources** (Water Office Portal, HYDAT database)
 2. **Document the rationale** for corrections in the PR description
-3. **Follow CSV schemas** defined in [Data Specification](book_docs/guides/data_specification.md)
+3. **Follow CSV schemas** defined in [Data Specification](guides/data_specification.md)
 4. **Include date ranges** affected by corrections
 5. **Run validation checks** before submitting:
    ```bash
@@ -188,11 +188,11 @@ Changes
 
 Found a problem? Please open an issue using the appropriate template:
 
-- **[Data Correction](/.github/ISSUE_TEMPLATE/data_correction.md)** — Errors in hydrometric data
-- **[Polygon Revision](/.github/ISSUE_TEMPLATE/polygon_revision.md)** — Catchment boundary improvements
-- **[Data Quality](/.github/ISSUE_TEMPLATE/data-quality.md)** — Quality concerns or validation failures
-- **[Bug Report](/.github/ISSUE_TEMPLATE/bug_report.md)** — Code or workflow issues
-- **[Documentation](/.github/ISSUE_TEMPLATE/documentation.md)** — Documentation improvements
+- **[Data Correction](https://github.com/dankovacek/distribution_estimation/blob/main/.github/ISSUE_TEMPLATE/data_correction.md)** — Errors in hydrometric data
+- **[Polygon Revision](https://github.com/dankovacek/distribution_estimation/blob/main/.github/ISSUE_TEMPLATE/polygon_revision.md)** — Catchment boundary improvements
+- **[Data Quality](https://github.com/dankovacek/distribution_estimation/blob/main/.github/ISSUE_TEMPLATE/data-quality.md)** — Quality concerns or validation failures
+- **[Bug Report](https://github.com/dankovacek/distribution_estimation/blob/main/.github/ISSUE_TEMPLATE/bug_report.md)** — Code or workflow issues
+- **[Documentation](https://github.com/dankovacek/distribution_estimation/blob/main/.github/ISSUE_TEMPLATE/documentation.md)** — Documentation improvements
 
 ## Development Workflow
 

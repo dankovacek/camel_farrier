@@ -1,0 +1,6 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07QC005,6.0,Drawn for high water event in 2020. Upper end better defined. APPROVED FOR USE,LogarithmicTable,Provisional/Provisoire,(3.306);
+07QC005,5.01,"Extended curve #5.000 for high water event. Approved for use 2020. Curve #5.01 was only used for realtime perposes during the high water event, and later replaced with a redrawn curve #6.00.",LogarithmicTable,Final/Finales,(3.22);
+07QC005,5.0,Re-drew in AQ Log/Log using historic mmts.,LogarithmicTable,Final/Finales,(3.22);
+07QC005,4.0,Curve re-drawn throughout,LogarithmicTable,Final/Finales,(-0.78);
+07QC005,3.0,,LinearTable,Final/Finales,

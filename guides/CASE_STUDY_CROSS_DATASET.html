@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=6848d790" />
@@ -58,6 +58,8 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'guides/CASE_STUDY_CROSS_DATASET';</script>
     <script src="../_static/searchindex.js?v=796b179f"></script>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -494,7 +496,7 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="case-study-cross-dataset-polygon-comparisons-with-version-control">
+  <section class="tex2jax_ignore mathjax_ignore" id="case-study-cross-dataset-polygon-comparisons-with-version-control">
 <h1>Case Study: Cross-Dataset Polygon Comparisons with Version Control<a class="headerlink" href="#case-study-cross-dataset-polygon-comparisons-with-version-control" title="Link to this heading">#</a></h1>
 <section id="abstract">
 <h2>Abstract<a class="headerlink" href="#abstract" title="Link to this heading">#</a></h2>
@@ -590,9 +592,10 @@ document.write(`
 <section id="jaccard-similarity-index-jsi">
 <h4>2.2.1 Jaccard Similarity Index (JSI)<a class="headerlink" href="#jaccard-similarity-index-jsi" title="Link to this heading">#</a></h4>
 <p>Measures spatial overlap between two polygons:</p>
-<p>$$
+<div class="math notranslate nohighlight">
+\[
 JSI = \frac{Area(Polygon_1 \cap Polygon_2)}{Area(Polygon_1 \cup Polygon_2)}
-$$</p>
+\]</div>
 <ul class="simple">
 <li><p><strong>JSI = 1.0</strong>: Perfect agreement</p></li>
 <li><p><strong>JSI ≥ 0.95</strong>: Excellent agreement (&lt; 5% boundary differences)</p></li>
@@ -604,9 +607,10 @@ $$</p>
 <section id="area-difference">
 <h4>2.2.2 Area Difference<a class="headerlink" href="#area-difference" title="Link to this heading">#</a></h4>
 <p>Percentage change in drainage area:</p>
-<p>$$
-\Delta_{area} = \frac{Area_2 - Area_1}{Area_1} \times 100%
-$$</p>
+<div class="math notranslate nohighlight">
+\[
+\Delta_{area} = \frac{Area_2 - Area_1}{Area_1} \times 100\%
+\]</div>
 <p>Interpretation:</p>
 <ul class="simple">
 <li><p><strong>|Δ| &lt; 5%</strong>: Acceptable variation (typical for same-method delineations)</p></li>
@@ -751,15 +755,16 @@ $$</p>
 <section id="impact-on-runoff-calculations">
 <h3>4.1 Impact on Runoff Calculations<a class="headerlink" href="#impact-on-runoff-calculations" title="Link to this heading">#</a></h3>
 <p>Drainage area directly affects specific discharge (mm/day):</p>
-<p>$$
+<div class="math notranslate nohighlight">
+\[
 q_{specific} = \frac{Q}{A_{drainage}}
-$$</p>
+\]</div>
 <p><strong>Example</strong>: For 5% area difference:</p>
 <ul class="simple">
-<li><p>If $A_1 = 700$ km², $A_2 = 735$ km² (+5%)</p></li>
-<li><p>Same discharge $Q = 50$ m³/s</p></li>
-<li><p>$q_1 = 50 / 700 = 0.0714$ m³/s/km²</p></li>
-<li><p>$q_2 = 50 / 735 = 0.0680$ m³/s/km² (−4.8% bias)</p></li>
+<li><p>If <span class="math notranslate nohighlight">\(A_1 = 700\)</span> km², <span class="math notranslate nohighlight">\(A_2 = 735\)</span> km² (+5%)</p></li>
+<li><p>Same discharge <span class="math notranslate nohighlight">\(Q = 50\)</span> m³/s</p></li>
+<li><p><span class="math notranslate nohighlight">\(q_1 = 50 / 700 = 0.0714\)</span> m³/s/km²</p></li>
+<li><p><span class="math notranslate nohighlight">\(q_2 = 50 / 735 = 0.0680\)</span> m³/s/km² (−4.8% bias)</p></li>
 </ul>
 <p><strong>Conclusion</strong>: Even “small” 5% polygon differences propagate to measurable biases in derived quantities.</p>
 </section>

@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="_static/custom.css?v=6848d790" />
@@ -471,7 +471,7 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="contributing-to-camel-farrier">
+  <section class="tex2jax_ignore mathjax_ignore" id="contributing-to-camel-farrier">
 <h1>Contributing to Camel Farrier<a class="headerlink" href="#contributing-to-camel-farrier" title="Link to this heading">#</a></h1>
 <p>Thank you for your interest in contributing to the Camel Farrier hydrometric data repository! This document provides guidelines for contributing data corrections, polygon revisions, and code improvements.</p>
 <section id="table-of-contents">
@@ -520,7 +520,7 @@ document.write(`
 </pre></div>
 </div>
 </li>
-<li><p><strong>Set up your environment</strong> following the <a class="reference internal" href="#book_docs/guides/setup.md"><span class="xref myst">Setup Guide</span></a></p></li>
+<li><p><strong>Set up your environment</strong> following the <a class="reference internal" href="guides/setup.html"><span class="std std-doc">Setup Guide</span></a></p></li>
 <li><p><strong>Create a feature branch</strong>:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </span>feature/your-contribution-name
 </pre></div>
@@ -553,7 +553,7 @@ document.write(`
 <ol class="arabic">
 <li><p><strong>Verify against authoritative sources</strong> (Water Office Portal, HYDAT database)</p></li>
 <li><p><strong>Document the rationale</strong> for corrections in the PR description</p></li>
-<li><p><strong>Follow CSV schemas</strong> defined in <a class="reference internal" href="#book_docs/guides/data_specification.md"><span class="xref myst">Data Specification</span></a></p></li>
+<li><p><strong>Follow CSV schemas</strong> defined in <a class="reference internal" href="guides/data_specification.html"><span class="std std-doc">Data Specification</span></a></p></li>
 <li><p><strong>Include date ranges</strong> affected by corrections</p></li>
 <li><p><strong>Run validation checks</strong> before submitting:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>tools/validate_station.py<span class="w"> </span>--station<span class="w"> </span><span class="o">{</span>STATION_ID<span class="o">}</span>
@@ -683,11 +683,11 @@ python<span class="w"> </span>tools/validate_data.py
 <h2>Issue Reporting<a class="headerlink" href="#issue-reporting" title="Link to this heading">#</a></h2>
 <p>Found a problem? Please open an issue using the appropriate template:</p>
 <ul class="simple">
-<li><p><strong><a class="reference internal" href="#/.github/ISSUE_TEMPLATE/data_correction.md"><span class="xref myst">Data Correction</span></a></strong> — Errors in hydrometric data</p></li>
-<li><p><strong><a class="reference internal" href="#/.github/ISSUE_TEMPLATE/polygon_revision.md"><span class="xref myst">Polygon Revision</span></a></strong> — Catchment boundary improvements</p></li>
-<li><p><strong><a class="reference internal" href="#/.github/ISSUE_TEMPLATE/data-quality.md"><span class="xref myst">Data Quality</span></a></strong> — Quality concerns or validation failures</p></li>
-<li><p><strong><a class="reference internal" href="#/.github/ISSUE_TEMPLATE/bug_report.md"><span class="xref myst">Bug Report</span></a></strong> — Code or workflow issues</p></li>
-<li><p><strong><a class="reference internal" href="#/.github/ISSUE_TEMPLATE/documentation.md"><span class="xref myst">Documentation</span></a></strong> — Documentation improvements</p></li>
+<li><p><strong><a class="reference external" href="https://github.com/dankovacek/distribution_estimation/blob/main/.github/ISSUE_TEMPLATE/data_correction.md">Data Correction</a></strong> — Errors in hydrometric data</p></li>
+<li><p><strong><a class="reference external" href="https://github.com/dankovacek/distribution_estimation/blob/main/.github/ISSUE_TEMPLATE/polygon_revision.md">Polygon Revision</a></strong> — Catchment boundary improvements</p></li>
+<li><p><strong><a class="reference external" href="https://github.com/dankovacek/distribution_estimation/blob/main/.github/ISSUE_TEMPLATE/data-quality.md">Data Quality</a></strong> — Quality concerns or validation failures</p></li>
+<li><p><strong><a class="reference external" href="https://github.com/dankovacek/distribution_estimation/blob/main/.github/ISSUE_TEMPLATE/bug_report.md">Bug Report</a></strong> — Code or workflow issues</p></li>
+<li><p><strong><a class="reference external" href="https://github.com/dankovacek/distribution_estimation/blob/main/.github/ISSUE_TEMPLATE/documentation.md">Documentation</a></strong> — Documentation improvements</p></li>
 </ul>
 </section>
 <section id="development-workflow">

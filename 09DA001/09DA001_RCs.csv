@@ -1,0 +1,6 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+09DA001,15.0,It is built using historical control-clear measurements (1992-2019) with greater weight given to measurements post-reactivation of station (2015). 15 of 18 measurements plot within 5%. It follows SOP guidelines for minimum and maximum extents and covers the historical ranges of stage and discharge.,LogarithmicTable,Provisional/Provisoire,(13.2);
+09DA001,14.0,,LogarithmicTable,Final/Finales,(13.1);
+09DA001,13.0,,LinearTable,Final/Finales,
+09DA001,12.0,,LinearTable,Final/Finales,
+09DA001,11.0,,LinearTable,Final/Finales,

@@ -1,0 +1,12 @@
+{
+  "station_id": "09FC001",
+  "station_name": "OLD CROW RIVER NEAR THE MOUTH",
+  "latitude": 67.63983917236328,
+  "longitude": -139.70924377441406,
+  "drainage_area_gross_km2": 13900.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "YT",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-05T17:12:28.899369"
+}

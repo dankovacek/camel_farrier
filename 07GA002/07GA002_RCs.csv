@@ -1,0 +1,11 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07GA002,18.00,New curve required after significant high water events in 2019 and 2020. Significant scour occured. The curve will likely need adjusting further in 2022 as more measurements are obtained.,LogarithmicTable,Provisional/Provisoire,(3.3:2.635);(2.7);
+07GA002,17.000,Please see document '07GA002_20170109_C17.0_RDT' for detailed rationale on construction of curve.,LogarithmicTable,Final/Finales,(4.25:2.75);(2.75);
+07GA002,16.000,,LinearTable,Final/Finales,
+07GA002,15.000,HQFIT1.0,LinearTable,Final/Finales,
+07GA002,15.000-SC3,,LinearTable,Final/Finales,
+07GA002,14.000,Same as Curve #13 above 4.738 m.,LinearTable,Final/Finales,
+07GA002,13.000,,LinearTable,Final/Finales,
+07GA002,13.000-SC2,,LinearTable,Final/Finales,
+07GA002,13.000-SC1,,LinearTable,Final/Finales,
+07GA002,12.000,,LinearTable,Final/Finales,

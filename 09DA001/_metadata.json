@@ -1,0 +1,12 @@
+{
+  "station_id": "09DA001",
+  "station_name": "HESS RIVER ABOVE EMERALD CREEK",
+  "latitude": 63.3335189819336,
+  "longitude": -131.49090576171875,
+  "drainage_area_gross_km2": 4840.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "YT",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-05T17:12:27.566702"
+}

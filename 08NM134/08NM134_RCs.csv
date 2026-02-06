@@ -1,0 +1,23 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08NM134,41.000,,LogarithmicTable,Provisional/Provisoire,(0.91:0.795);(0.704);
+08NM134,40.000,,LogarithmicTable,Final/Finales,(0.9942:0.851);(0.481);
+08NM134,39.000,,LogarithmicTable,Final/Finales,(0.738);
+08NM134,38.00,,LogarithmicTable,Final/Finales,(0.648);
+08NM134,37.00,,LogarithmicTable,Final/Finales,(0.636);
+08NM134,36.000,,LogarithmicTable,Final/Finales,(0.662);
+08NM134,35.000,Shift due to high water.,LinearTable,Final/Finales,
+08NM134,34.000,Shift due to ice,LinearTable,Final/Finales,
+08NM134,33.000,Completely new curve.,LinearTable,Final/Finales,
+08NM134,32.000,Shift@high water-log jammed on control:Approved,LinearTable,Final/Finales,
+08NM134,31.000,,LinearTable,Final/Finales,
+08NM134,30.000,,LinearTable,Final/Finales,
+08NM134,29.000,,LinearTable,Final/Finales,
+08NM134,28.000,,LinearTable,Final/Finales,
+08NM134,27.000,,LinearTable,Final/Finales,
+08NM134,27.000-SC1,,LinearTable,Final/Finales,
+08NM134,26.000,,LinearTable,Final/Finales,
+08NM134,25.000,,LinearTable,Final/Finales,
+08NM134,24.000,,LinearTable,Final/Finales,
+08NM134,23.000,,LinearTable,Final/Finales,
+08NM134,22.000,,LinearTable,Final/Finales,
+08NM134,21.000,,LinearTable,Final/Finales,

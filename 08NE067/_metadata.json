@@ -1,0 +1,12 @@
+{
+  "station_id": "08NE067",
+  "station_name": "WALKER CREEK NEAR ROBSON",
+  "latitude": 49.34722137451172,
+  "longitude": -117.74832916259766,
+  "drainage_area_gross_km2": 0.6700000166893005,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-05T17:12:28.658035"
+}

@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=6848d790" />
@@ -58,6 +58,8 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'summary_pages/revision_summary';</script>
     <script src="../_static/searchindex.js?v=796b179f"></script>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -449,42 +451,44 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="polygon-revision-summary">
+  <section class="tex2jax_ignore mathjax_ignore" id="polygon-revision-summary">
 <h1>Polygon Revision Summary<a class="headerlink" href="#polygon-revision-summary" title="Link to this heading">#</a></h1>
 <p>This page summarizes catchment polygon revisions across all demonstration stations. When alternate polygon sources become available (e.g., HYDAT 2024 release), we compare them against baseline polygons to quantify changes.</p>
 <section id="polygon-comparison-metrics">
 <h2>Polygon Comparison Metrics<a class="headerlink" href="#polygon-comparison-metrics" title="Link to this heading">#</a></h2>
 <section id="jaccard-similarity-index">
 <h3>Jaccard Similarity Index<a class="headerlink" href="#jaccard-similarity-index" title="Link to this heading">#</a></h3>
-<p>The <strong>Jaccard Similarity Index</strong> (JSI) quantifies geometric overlap between polygon versions. For geometries $A$ and $B$:</p>
-<p>$$
+<p>The <strong>Jaccard Similarity Index</strong> (JSI) quantifies geometric overlap between polygon versions. For geometries <span class="math notranslate nohighlight">\(A\)</span> and <span class="math notranslate nohighlight">\(B\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[
 J(A, B) = \frac{|A \cap B|}{|A \cup B|}
-$$</p>
+\]</div>
 <p>Where:</p>
 <ul class="simple">
-<li><p>$|A \cap B|$ is the intersection area</p></li>
-<li><p>$|A \cup B|$ is the union area</p></li>
+<li><p><span class="math notranslate nohighlight">\(|A \cap B|\)</span> is the intersection area</p></li>
+<li><p><span class="math notranslate nohighlight">\(|A \cup B|\)</span> is the union area</p></li>
 </ul>
 <p><strong>Interpretation:</strong></p>
 <ul class="simple">
-<li><p>$J = 1.0$: Polygons are identical</p></li>
-<li><p>$J = 0.9$: High similarity (90% overlap relative to union)</p></li>
-<li><p>$J = 0.5$: Moderate difference (50% overlap)</p></li>
-<li><p>$J &lt; 0.3$: Substantial revision</p></li>
+<li><p><span class="math notranslate nohighlight">\(J = 1.0\)</span>: Polygons are identical</p></li>
+<li><p><span class="math notranslate nohighlight">\(J = 0.9\)</span>: High similarity (90% overlap relative to union)</p></li>
+<li><p><span class="math notranslate nohighlight">\(J = 0.5\)</span>: Moderate difference (50% overlap)</p></li>
+<li><p><span class="math notranslate nohighlight">\(J &lt; 0.3\)</span>: Substantial revision</p></li>
 </ul>
 </section>
 <section id="area-change">
 <h3>Area Change<a class="headerlink" href="#area-change" title="Link to this heading">#</a></h3>
 <p>Percent area difference between versions:</p>
-<p>$$
-\Delta A = \frac{A_{\text{new}} - A_{\text{old}}}{A_{\text{old}}} \times 100%
-$$</p>
+<div class="math notranslate nohighlight">
+\[
+\Delta A = \frac{A_{\mathrm{new}} - A_{\mathrm{old}}}{A_{\mathrm{old}}} \times 100\%
+\]</div>
 <p>Positive values indicate catchment expansion; negative values indicate reduction.</p>
 </section>
 </section>
 <section id="geographic-distribution-of-changes">
 <h2>Geographic Distribution of Changes<a class="headerlink" href="#geographic-distribution-of-changes" title="Link to this heading">#</a></h2>
-<script src="bokeh-content-18e6775526fe4b468b71b6991e761bd4-summary_pages-revision_summary.js" id="b053501a-a044-44fd-9705-1396977d7ce3"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<script src="bokeh-content-61e57ad33b9e4de992e3a0af5e448724-summary_pages-revision_summary.js" id="c0b9c176-3e8c-4bba-98a8-9d37b408e013"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -497,7 +501,7 @@ $$</p>
 <h2>Statistical Distributions<a class="headerlink" href="#statistical-distributions" title="Link to this heading">#</a></h2>
 <section id="jaccard-similarity-distribution">
 <h3>Jaccard Similarity Distribution<a class="headerlink" href="#jaccard-similarity-distribution" title="Link to this heading">#</a></h3>
-<div style="height:400px;"><script src="bokeh-content-8328cde8eb444d5898c55b36d39cd53f-summary_pages-revision_summary.js" id="a5f96ef3-f5be-4460-850f-758d157f0f3d"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:400px;"><script src="bokeh-content-5399033bffbe4fc4a5aa802799503092-summary_pages-revision_summary.js" id="cb9783eb-c28a-40e0-b3b1-c20eb78dac36"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -508,7 +512,7 @@ $$</p>
 </section>
 <section id="area-change-distribution">
 <h3>Area Change Distribution<a class="headerlink" href="#area-change-distribution" title="Link to this heading">#</a></h3>
-<div style="height:400px;"><script src="bokeh-content-08f162c9e3de44249f4519434c4a0a5b-summary_pages-revision_summary.js" id="f96cfb56-a4fb-4185-afa3-4a8064b3b8a3"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:400px;"><script src="bokeh-content-d649b27d44174232a0de81ac4c778715-summary_pages-revision_summary.js" id="c901e930-7e76-4301-be80-727b1a913d2a"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -520,7 +524,7 @@ $$</p>
 </section>
 <section id="detailed-comparison-table">
 <h2>Detailed Comparison Table<a class="headerlink" href="#detailed-comparison-table" title="Link to this heading">#</a></h2>
-<div style="height:400px;"><script src="bokeh-content-0a1ded166f7345daab8dc7f2b753f81b-summary_pages-revision_summary.js" id="b9a8ab31-6795-4853-ac5a-45c7cfd37150"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:400px;"><script src="bokeh-content-23133843c8c842ff97344ec2231c44ca-summary_pages-revision_summary.js" id="e1567b14-9b1e-4212-85ee-acf6c21c6e82"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>

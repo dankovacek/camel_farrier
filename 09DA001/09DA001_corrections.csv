@@ -1,0 +1,120 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+09DA001,DeleteRegion,HG,2025-12-21T15:05:00,2025-12-21T15:05:00,2026-01-19T20:57:39,-8,DR - Data Spike,,Normal
+09DA001,DeleteRegion,HG,2025-11-02T10:25:00,2025-11-02T10:25:00,2025-11-03T18:33:17,-8,DR - Data Spike,,Normal
+09DA001,CopyPaste,QR,2025-10-11T05:45:00,2026-01-29T09:40:00,2026-01-30T00:21:08,-8,Override: Log Linear‌Q(t) = 68.45176534086103e^(-0.06585400053322021t)‌,,Normal
+09DA001,Drift,HG,2025-06-25T20:30:00,2025-08-27T18:10:00,2025-08-28T21:15:43,-8,SRC - Visit to visit,"DriftPoints:(Offset:0,Time:2025-06-25T20:30:00Z);(Offset:0.007,Time:2025-08-27T18:10:00Z)",Normal
+09DA001,Offset,HG,2025-06-25T17:35:00,2025-06-25T20:25:00,2025-06-26T19:31:59,-8,SRC - during visit. Think the first reset was a bit off. Applied SRC as offset.,Offset:0.01,Normal
+09DA001,Drift,HG,2025-05-14T19:15:00,2025-06-25T17:30:00,2025-06-26T19:29:04,-8,SRC - visit to visit.,"DriftPoints:(Offset:0,Time:2025-05-14T19:15:00Z);(Offset:-0.029,Time:2025-06-25T17:30:00Z)",Normal
+09DA001,CopyPaste,HG,2025-05-14T18:00:00,2025-06-25T17:30:00,2025-06-26T19:28:22,-8,"RFT - tx gap fillOverride: Copy & Paste‌Source Data Set: Stage.Logger@09DA001, time shift: 00:00 minutes.‌",,PreProcessing
+09DA001,CopyPaste,QR,2025-04-30T04:20:00,2025-05-12T02:00:00,2025-05-15T20:31:38,-8,Override: Moving Average Filter‌Window: 333.‌Iterations: 1.‌,,Normal
+09DA001,CopyPaste,QR,2025-04-13T05:30:00,2025-05-12T02:00:00,2025-05-15T20:30:13,-8,Override: Log Linear‌Q(t) = 9.546346662547515e^(0.06751677986116586t)‌,,Normal
+09DA001,CopyPaste,QR,2025-04-06T08:35:00,2025-04-18T08:50:00,2025-05-15T20:32:44,-8,Override: Moving Average Filter‌Window: 6666.‌Iterations: 1.‌,,Normal
+09DA001,Drift,HG,2025-03-21T20:20:00,2025-05-14T17:55:00,2025-05-15T16:55:46,-8,SRC visit to visit,"DriftPoints:(Offset:-0.018,Time:2025-03-21T20:20:00Z);(Offset:-0.038,Time:2025-05-14T17:55:00Z)",Normal
+09DA001,CopyPaste,HG,2025-03-21T20:20:00,2025-05-14T17:55:00,2025-05-15T16:53:33,-8,"OC: gap fillOverride: Copy & Paste‌Source Data Set: Stage.Logger@09DA001, time shift: 00:00 minutes.‌",,PreProcessing
+09DA001,Offset,HG,2025-03-21T20:00:00,2025-03-21T20:15:00,2025-03-24T18:06:18,-8,SRC - during visit (inbetween invalid reset and valid reset). ,Offset:0.193,Normal
+09DA001,CopyPaste,QR,2025-03-01T09:00:00,2025-05-01T08:00:00,2025-03-24T16:28:30,-8,Override: Log Linear‌Q(t) = 9.656956380814545e^(-0.0002688184637874255t)‌,,Normal
+09DA001,CopyPaste,QR,2025-02-28T07:50:00,2025-03-02T20:20:00,2025-03-24T17:54:00,-8,Override: Moving Average Filter‌Window: 888.‌Iterations: 1.‌,,Normal
+09DA001,Drift,HG,2025-02-08T21:30:00,2025-03-21T19:55:00,2025-03-24T18:05:02,-8,"SRC - visit to visit. (SRC calculated as 0.193-0.203 = -0.01 (from eHSN), due to invalid reset). ","DriftPoints:(Offset:0,Time:2025-02-08T21:30:00Z);(Offset:-0.01,Time:2025-03-21T19:55:00Z)",Normal
+09DA001,DeleteRegion,HG,2025-01-04T10:20:00,2025-01-04T10:20:00,2025-01-06T19:42:48,-8,DISREGARD - DATA SPIKE,,Normal
+09DA001,Offset,HG,2024-11-28T09:30:00,2025-02-08T21:40:00,2025-03-24T14:41:02,-8,SRC - VALID RECORD TO VISIT,Offset:0.098,Normal
+09DA001,DeleteRegion,HG,2024-11-22T14:00:00,2024-11-28T09:25:00,2025-03-24T14:38:15,-8,DR - Invalid data. ,,Normal
+09DA001,CopyPaste,QR,2024-11-04T05:50:00,2024-11-06T07:20:00,2025-03-21T20:42:51,-8,Override: Moving Average Filter‌Window: 666.‌Iterations: 1.‌,,Normal
+09DA001,CopyPaste,QR,2024-10-20T02:00:00,2025-05-01T08:00:00,2025-03-21T20:22:08,-8,Override: Log Linear‌Q(t) = 33.9350823707228e^(-0.0095t)‌,,Normal
+09DA001,CopyPaste,QR,2024-10-17T22:10:00,2024-10-27T15:55:00,2025-03-21T20:41:31,-8,Override: Moving Average Filter‌Window: 333.‌Iterations: 1.‌,,Normal
+09DA001,CopyPaste,HG,2024-06-25T20:45:00,2024-09-06T17:15:00,2024-09-09T19:09:22,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@09DA001, time shift: 00:00 minutes.‌",,PreProcessing
+09DA001,Drift,HG,2024-06-25T20:45:00,2024-09-06T17:15:00,2024-09-09T19:08:22,-8,SRC - visit to visit,"DriftPoints:(Offset:0,Time:2024-06-25T20:45:00Z);(Offset:0.011,Time:2024-09-06T17:15:00Z)",Normal
+09DA001,CopyPaste,HG,2024-05-25T19:30:00,2024-06-25T19:05:00,2024-06-26T17:36:50,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@09DA001, time shift: 00:00 minutes.‌",,PreProcessing
+09DA001,DeleteRegion,HG,2024-05-16T07:20:00,2024-05-16T07:20:00,2024-05-16T22:39:06,-8,REAL-TIME DATA SPIKE MANAGEMENT,,Normal
+09DA001,CopyPaste,QR,2024-04-28T12:25:00,2024-05-07T17:00:00,2025-03-21T20:12:36,-8,Override: Moving Average Filter‌Window: 111.‌Iterations: 1.‌,,Normal
+09DA001,CopyPaste,QR,2024-04-07T00:30:00,2024-05-07T17:00:00,2025-03-21T20:10:23,-8,Override: Log Linear‌Q(t) = 10.014648667040346e^(0.10017562217016648t)‌,,Normal
+09DA001,CopyPaste,QR,2024-04-04T03:05:00,2024-04-09T08:25:00,2025-03-21T20:14:29,-8,Override: Moving Average Filter‌Window: 666.‌Iterations: 1.‌,,Normal
+09DA001,CopyPaste,HG,2024-03-23T20:55:00,2024-05-25T17:05:00,2024-05-27T16:58:01,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@09DA001, time shift: 00:00 minutes.‌",,PreProcessing
+09DA001,Drift,HG,2024-03-23T20:55:00,2024-05-25T17:05:00,2024-05-27T16:58:47,-8,SRC - visit to visit,"DriftPoints:(Offset:0,Time:2024-03-23T20:55:00Z);(Offset:0.032,Time:2024-05-25T17:05:00Z)",Normal
+09DA001,DeleteRegion,HG,2024-03-23T20:50:00,2024-03-23T20:50:00,2024-03-27T14:54:34,-8,,,Normal
+09DA001,CopyPaste,QR,2024-03-07T08:00:00,2024-05-07T08:00:00,2025-03-21T19:56:24,-8,Override: Log Linear‌Q(t) = 7.69e^(0.008607025802360394t)‌,,Normal
+09DA001,CopyPaste,QR,2024-02-11T08:15:00,2024-03-21T01:55:00,2025-03-21T20:01:31,-8,Override: Moving Average Filter‌Window: 7777.‌Iterations: 1.‌,,Normal
+09DA001,Drift,HG,2024-01-18T20:10:00,2024-03-23T20:10:00,2024-03-27T21:25:23,-8,SRC - visit to visit,"DriftPoints:(Offset:0.004,Time:2024-01-18T20:10:00Z);(Offset:0.009,Time:2024-03-23T20:10:00Z)",Normal
+09DA001,CopyPaste,HG,2024-01-18T20:05:00,2024-03-23T20:10:00,2024-03-27T21:10:22,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@09DA001, time shift: 00:00 minutes.‌",,PreProcessing
+09DA001,Drift,HG,2024-01-18T19:00:00,2024-01-18T20:05:00,2024-01-19T23:09:23,-8,SRC - INTRAVISIT,"DriftPoints:(Offset:-0.007,Time:2024-01-18T19:00:00Z);(Offset:-0.011,Time:2024-01-18T20:05:00Z)",Normal
+09DA001,AdjustableTrim,HG,2023-12-01T08:00:00,2025-01-01T08:00:00,2024-01-11T19:47:37,-8,Disregard 999 spikes,"UpperThresholdPoints:(Time:2023-12-01T08:00:00Z,Value:58439.38317760225);(Time:2025-01-01T08:00:00Z,Value:58439.38317760225),TrimAction:Delete",Normal
+09DA001,CopyPaste,QR,2023-10-23T08:00:00,2024-05-07T08:00:00,2025-03-19T22:09:54,-8,Override: Log Linear‌Q(t) = 28e^(-0.0095t)‌,,Normal
+09DA001,CopyPaste,QR,2023-10-21T20:00:00,2023-11-30T18:00:00,2025-03-21T19:51:48,-8,Override: Moving Average Filter‌Window: 333.‌Iterations: 1.‌,,Normal
+09DA001,CopyPaste,HG,2023-09-02T19:30:00,2024-01-18T18:30:00,2024-01-19T23:01:54,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@09DA001, time shift: 00:00 minutes.‌",,PreProcessing
+09DA001,Drift,HG,2023-09-02T19:30:00,2024-01-18T20:05:00,2024-03-14T21:07:47,-8,GC - GC Applied (+0.015m) - B.LAMBERT 2024-03-14. ,"DriftPoints:(Offset:0,Time:2023-09-02T19:30:00Z);(Offset:0.015,Time:2024-01-18T20:05:00Z)",Normal
+09DA001,Drift,HG,2023-09-02T18:30:00,2023-09-02T19:25:00,2023-09-05T20:57:52,-8,SRC - INTRAVISIT,"DriftPoints:(Offset:-0.004,Time:2023-09-02T18:30:00Z);(Offset:-0.003,Time:2023-09-02T18:55:00Z);(Offset:-0.003,Time:2023-09-02T19:25:00Z)",Normal
+09DA001,Drift,HG,2023-08-11T22:30:00,2023-09-02T18:25:00,2023-09-05T20:57:06,-8,SRC - VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2023-08-11T22:30:00Z);(Offset:-0.004,Time:2023-09-02T18:25:00Z)",Normal
+09DA001,CopyPaste,HG,2023-08-11T22:30:00,2023-09-02T19:20:00,2023-09-05T20:54:08,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@09DA001, time shift: 00:00 minutes.‌",,PreProcessing
+09DA001,Drift,HG,2023-08-11T21:15:00,2023-08-11T22:30:00,2023-08-14T20:11:56,-8,SRC - INTRAVISIT,"DriftPoints:(Offset:-0.008,Time:2023-08-11T21:15:00Z);(Offset:-0.003,Time:2023-08-11T22:30:00Z)",Normal
+09DA001,Drift,HG,2023-05-27T19:15:00,2023-08-11T21:10:00,2023-08-14T20:11:29,-8,SRC - VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2023-05-27T19:15:00Z);(Offset:-0.008,Time:2023-08-11T21:10:00Z)",Normal
+09DA001,CopyPaste,HG,2023-05-27T19:15:00,2023-08-11T21:10:00,2023-08-14T20:10:00,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@09DA001, time shift: 00:00 minutes.‌",,PreProcessing
+09DA001,Offset,HG,2023-05-27T16:35:00,2023-05-27T19:10:00,2024-03-14T20:44:32,-8,SRC-2023-05-27: Erroneous SRC applied in the field. OFFSET correction applied in AQ. ,Offset:-0.642,Normal
+09DA001,CopyPaste,QR,2023-04-14T20:00:00,2023-05-12T04:35:00,2025-02-03T23:23:20,-8,Override: Log Linear‌Q(t) = 5.275302484211626e^(0.13734734177304225t)‌,,Normal
+09DA001,CopyPaste,QR,2023-04-13T07:00:00,2023-04-17T08:45:00,2025-02-03T23:58:31,-8,Override: Moving Average Filter‌Window: 600.‌Iterations: 1.‌,,Normal
+09DA001,Drift,HG,2023-03-17T18:05:00,2023-05-27T16:30:00,2024-03-14T20:56:37,-8,GAUGE CORRECTION - GC Applied (+0.015m) - B.LAMBERT 2024-03-14. ,"DriftPoints:(Offset:0.015,Time:2023-03-17T18:05:00Z);(Offset:0,Time:2023-05-27T16:30:00Z)",Normal
+09DA001,Drift,HG,2023-03-17T18:00:00,2023-05-27T16:30:00,2023-05-29T21:04:13,-8,SRC - VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2023-03-17T18:00:00Z);(Offset:0.014,Time:2023-05-27T16:30:00Z)",Normal
+09DA001,CopyPaste,HG,2023-03-17T18:00:00,2023-05-27T16:15:00,2023-05-29T20:58:05,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@09DA001, time shift: 00:00 minutes.‌",,PreProcessing
+09DA001,DeleteRegion,HG,2023-02-27T12:10:00,2023-02-27T12:10:00,2023-03-02T18:45:21,-8,DISREGARD - Data spike. ,,Normal
+09DA001,DeleteRegion,HG,2023-02-21T11:05:00,2023-02-21T11:05:00,2023-02-22T19:03:04,-8,DISREGARD - Data spike. ,,Normal
+09DA001,Drift,HG,2023-01-22T18:40:00,2023-03-17T17:55:00,2023-03-17T23:36:51,-8,SRC - Drift visit to visit.,"DriftPoints:(Offset:0,Time:2023-01-22T18:40:00Z);(Offset:0.027,Time:2023-03-17T17:55:00Z)",Normal
+09DA001,CopyPaste,HG,2023-01-22T17:55:00,2023-03-17T17:55:00,2023-03-20T04:45:21,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@09DA001, time shift: 00:00 minutes.‌",,PreProcessing
+09DA001,DeleteRegion,HG,2022-12-26T23:25:00,2022-12-26T23:25:00,2023-01-03T19:21:32,-8,DISREGARD - Data spike. ,,Normal
+09DA001,Drift,HG,2022-12-15T22:35:00,2023-01-22T18:30:00,2023-01-23T18:14:17,-8,SRC,"DriftPoints:(Offset:0,Time:2022-12-15T22:35:00Z);(Offset:0.011,Time:2023-01-22T18:30:00Z)",Normal
+09DA001,Offset,HG,2022-12-15T22:00:00,2023-03-17T18:00:00,2024-03-14T20:54:07,-8,GAUGE CORRECTION - GC Applied (+0.015m) - B.LAMBERT 2024-03-14. ,Offset:0.015,Normal
+09DA001,CopyPaste,QR,2022-11-04T08:00:00,2022-11-12T08:00:00,2024-03-18T18:06:03,-8,Override: Moving Average Filter‌Window: 33.‌Iterations: 1.‌,,Normal
+09DA001,CopyPaste,QR,2022-10-28T20:00:00,2023-05-09T20:00:00,2024-03-18T17:29:23,-8,RECESSION THEORY: SLOW. SEE DETAILED NOTES. Override: Log Linear‌Q(t) = 50.95974568132415e^(-0.0135t)‌,,Normal
+09DA001,CopyPaste,QR,2022-10-26T20:45:00,2022-11-08T08:30:00,2024-03-18T18:02:43,-8,Override: Log Linear‌Q(t) = 106e^(-0.07t)‌,,Normal
+09DA001,Drift,HG,2022-08-30T21:15:00,2022-12-15T21:55:00,2024-03-14T20:55:23,-8,GAUGE CORRECTION - GC Applied (+0.015m) - B.LAMBERT 2024-03-14. ,"DriftPoints:(Offset:0,Time:2022-08-30T21:15:00Z);(Offset:0.015,Time:2022-12-15T21:55:00Z)",Normal
+09DA001,Drift,HG,2022-08-30T18:55:00,2022-12-15T22:25:00,2023-01-04T00:14:05,-8,SENSOR RESET CORRECTION - Sensor drift. Corrected DWL within +/-0.003m. ,"DriftPoints:(Offset:0,Time:2022-08-30T18:55:00Z);(Offset:-0.023,Time:2022-12-15T22:25:00Z)",Normal
+09DA001,Drift,HG,2022-06-20T22:00:00,2022-08-30T18:50:00,2024-03-14T20:37:47,-8,"BM 6 was used for DWLs on 2022-06-20 and from 2022-12-15 to 2023-03-17. Gauge corrections applied to READINGS and MGHS affected by the use of BM 6 and to Stage Working (DRIFT and/or OFFSET correction applied between uses of ACTIVE PRIMARY BM 1 and BM 6). For simplicity sake, a value of +0.015m is used as the GC (the average of ‘as found’ values since 2018 is 17.184m; see ‘BM 6’ sheet in 2020 CCL for mathematics). It’s elevation has been revised for 2024. CORRECTION - GC Applied (+0.015m) - B.LAMBERT 2024-03-14. ","DriftPoints:(Offset:0.015,Time:2022-06-20T22:00:00Z);(Offset:0,Time:2022-08-30T18:50:00Z)",Normal
+09DA001,Drift,HG,2022-06-20T21:55:00,2022-08-30T18:45:00,2022-09-27T16:33:42,-8,SRC,"DriftPoints:(Offset:0,Time:2022-06-20T21:55:00Z);(Offset:-0.004,Time:2022-08-30T18:45:00Z)",Normal
+09DA001,CopyPaste,QR,2022-05-12T17:00:00,2022-05-23T01:45:00,2024-03-18T17:17:45,-8,Override: Moving Average Filter‌Window: 33.‌Iterations: 1.‌,,Normal
+09DA001,CopyPaste,QR,2022-05-08T08:00:00,2022-05-13T08:00:00,2024-03-18T17:20:48,-8,Override: Log Linear‌Q(t) = 24.72700777293251e^(0.1140897135189544t)‌,,Normal
+09DA001,CopyPaste,QR,2022-04-30T20:00:00,2022-05-08T08:00:00,2024-03-18T17:25:20,-8,Override: Log Linear‌Q(t) = 8.729968229619121e^(0.13881791303319843t)‌,,Normal
+09DA001,CopyPaste,QR,2022-04-24T08:00:00,2022-04-30T20:00:00,2024-03-18T17:21:55,-8,Override: Moving Average Filter‌Window: 555.‌Iterations: 1.‌,,Normal
+09DA001,DeleteRegion,HG,2022-03-10T05:40:00,2022-03-10T05:40:00,2024-03-14T21:14:55,-8,DR-DATA SPIKE. ,,Normal
+09DA001,Drift,HG,2022-01-18T20:00:00,2022-06-20T21:55:00,2024-03-14T20:35:42,-8,"BM 6 was used for DWLs on 2022-06-20 and from 2022-12-15 to 2023-03-17. Gauge corrections applied to READINGS and MGHS affected by the use of BM 6 and to Stage Working (DRIFT and/or OFFSET correction applied between uses of ACTIVE PRIMARY BM 1 and BM 6). For simplicity sake, a value of +0.015m is used as the GC (the average of ‘as found’ values since 2018 is 17.184m; see ‘BM 6’ sheet in 2020 CCL for mathematics). It’s elevation has been revised for 2024. CORRECTION - GC Applied (+0.015m) - B.LAMBERT 2024-03-14. ","DriftPoints:(Offset:0,Time:2022-01-18T20:00:00Z);(Offset:0.015,Time:2022-06-20T21:55:00Z)",Normal
+09DA001,Drift,HG,2022-01-18T18:40:00,2022-06-20T22:05:00,2022-06-23T17:48:19,-8,SRC VISIT TO VISIT,"DriftPoints:(Offset:0.004,Time:2022-01-18T18:40:00Z);(Offset:-0.016,Time:2022-06-20T22:05:00Z)",Normal
+09DA001,DeleteRegion,HG,2022-01-10T04:30:00,2022-01-10T04:30:00,2022-06-30T18:21:02,-8,DISREGARD - Data spike. ,,Normal
+09DA001,AdjustableTrim,HG,2022-01-10T00:15:00,2022-01-10T02:10:00,2024-03-14T21:14:17,-8,DR-DATA SPIKE. ,"UpperThresholdPoints:(Time:2022-01-10T00:15:00Z,Value:49896.21149777529);(Time:2022-01-10T02:10:00Z,Value:49896.21149777529),TrimAction:Delete",Normal
+09DA001,Drift,HG,2021-12-08T19:55:00,2022-01-18T18:35:00,2022-05-06T23:36:50,-8,Drift correction between visits.,"DriftPoints:(Offset:-0.002,Time:2021-12-08T19:55:00Z);(Offset:0.004,Time:2022-01-18T18:35:00Z)",Normal
+09DA001,CopyPaste,HG,2021-11-30T17:05:00,2021-11-30T21:30:00,2021-12-10T18:17:39,-8,"Inserting missing dataOverride: Copy & Paste‌Source Data Set: Stage.Logger@09DA001, time shift: 00:00 minutes.‌",,PreProcessing
+09DA001,DeleteRegion,HG,2021-11-25T05:20:00,2021-11-25T05:20:00,2024-03-14T21:13:20,-8,DR-DATA SPIKE. ,,Normal
+09DA001,CopyPaste,QR,2021-10-31T20:00:00,2022-05-20T20:00:00,2024-03-18T16:49:22,-8,RECESSION THEORY: SLOW. SEE DETAILED NOTES. Override: Log Linear‌Q(t) = 25.97031267400681e^(-0.0094t)‌,,Normal
+09DA001,CopyPaste,QR,2021-10-29T21:55:00,2021-11-06T06:30:00,2024-03-18T17:03:11,-8,Override: Moving Average Filter‌Window: 33.‌Iterations: 1.‌,,Normal
+09DA001,Drift,HG,2021-10-19T18:10:00,2021-10-19T18:45:00,2022-05-06T23:39:53,-8,,"DriftPoints:(Offset:0,Time:2021-10-19T18:10:00Z);(Offset:0.005,Time:2021-10-19T18:45:00Z)",Normal
+09DA001,USGSMultiPoint,HG,2021-10-19T18:05:00,2021-12-08T19:50:00,2021-12-10T18:14:05,-8,Applying SRC btwn visitsAdvanced: Point‌,"StartShiftPoints:(Value:0,Offset:0),EndShiftPoints:(Value:0,Offset:-0.001),UsgsType:Set 2",Normal
+09DA001,CopyPaste,HG,2021-07-18T07:40:00,2021-08-01T16:50:00,2021-11-08T18:14:46,-8,"Filling GOES West data gapsOverride: Copy & Paste‌Source Data Set: Stage.Logger@09DA001, time shift: 00:00 minutes.‌",,PreProcessing
+09DA001,Drift,HG,2021-07-13T18:05:00,2021-10-19T18:05:00,2021-11-08T18:09:52,-8,SRC- Visit to visit. No discernible OM.,"DriftPoints:(Offset:0.007,Time:2021-07-13T18:05:00Z);(Offset:0.028,Time:2021-10-19T18:05:00Z)",Normal
+09DA001,Drift,HG,2021-07-13T17:05:00,2021-07-13T18:00:00,2022-11-09T20:31:52,-8,Drift during visit,"DriftPoints:(Offset:0.004,Time:2021-07-13T17:05:00Z);(Offset:0.007,Time:2021-07-13T18:00:00Z)",Normal
+09DA001,Drift,HG,2021-06-01T22:20:00,2021-07-13T17:00:00,2021-07-20T18:33:18,-8,SRC - RFT,"DriftPoints:(Offset:-0.004,Time:2021-06-01T22:20:00Z);(Offset:0.002,Time:2021-07-13T17:00:00Z)",Normal
+09DA001,CopyPaste,QR,2021-04-19T08:15:00,2021-05-18T02:55:00,2024-03-18T16:21:30,-8,RECESSION THEORY: RISING LIMB. SEE DETAILED NOTES. Override: Log Linear‌Q(t) = 5.497477154480892e^(0.118922323233765t)‌,,Normal
+09DA001,CopyPaste,QR,2021-04-14T08:15:00,2021-04-25T02:55:00,2024-03-18T16:24:58,-8,Override: Moving Average Filter‌Window: 555.‌Iterations: 1.‌,,Normal
+09DA001,Drift,HG,2021-02-16T19:30:00,2021-06-01T22:15:00,2024-03-22T14:25:57,-8,SRC- visit to visit,"DriftPoints:(Offset:0.001,Time:2021-02-16T19:30:00Z);(Offset:-0.004,Time:2021-06-01T22:15:00Z)",Normal
+09DA001,CopyPaste,HG,2021-01-22T22:10:00,2021-01-23T00:15:00,2024-03-14T21:10:36,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@09DA001, time shift: 00:00 minutes.‌",,PreProcessing
+09DA001,DeleteRegion,HG,2020-12-20T19:30:00,2020-12-20T19:30:00,2021-06-17T18:06:58,-8,DISREGARD - Spike.,,Normal
+09DA001,CopyPaste,QR,2020-10-17T08:00:00,2021-05-15T08:00:00,2024-03-18T15:38:48,-8,RECESSION THEORY: SLOW. SEE DETAILED NOTES. Override: Log Linear‌Q(t) = 31e^(-0.0094t)‌,,Normal
+09DA001,CopyPaste,QR,2020-10-16T05:30:00,2020-10-22T09:25:00,2024-03-18T16:18:35,-8,Override: Moving Average Filter‌Window: 55.‌Iterations: 1.‌,,Normal
+09DA001,Drift,HG,2020-09-11T21:35:00,2021-02-16T19:25:00,2024-03-05T15:31:30,-8,GAUGE CORRECTION - +0.015m. ,"DriftPoints:(Offset:0,Time:2020-09-11T21:35:00Z);(Offset:0.015,Time:2021-02-16T19:25:00Z)",Normal
+09DA001,Drift,HG,2020-07-22T20:10:00,2020-09-11T21:30:00,2021-02-03T16:15:06,-8,SRC - July (-0.005) to September (0.003) visits.,"DriftPoints:(Offset:-0.005,Time:2020-07-22T20:10:00Z);(Offset:0.003,Time:2020-09-11T21:30:00Z)",Normal
+09DA001,CopyPaste,QR,2020-04-19T08:00:00,2020-05-20T04:55:00,2024-03-18T16:33:51,-8,RECESSION THEORY: FAST. SEE DETAILED NOTES. Override: Log Linear‌Q(t) = 5.254139781807935e^(0.07951309921960589t)‌,,Normal
+09DA001,CopyPaste,QR,2020-04-12T08:00:00,2020-04-26T08:00:00,2024-03-19T16:31:51,-8,Override: Log Linear‌Q(t) = 5.561060979701949e^(0.035701362609802945t)‌,,Normal
+09DA001,DeleteRegion,HG,2020-03-30T17:50:00,2020-03-30T18:20:00,2021-06-17T18:08:10,-8,DISREGARD -Spike.,,Normal
+09DA001,DeleteRegion,HG,2020-03-30T17:00:00,2020-03-30T17:40:00,2021-06-17T18:07:48,-8,DISREGARD - Spike.,,Normal
+09DA001,DeleteRegion,HG,2020-03-29T17:10:00,2020-03-29T18:40:00,2021-06-17T18:05:33,-8,DISREGARD - Spike.,,Normal
+09DA001,DeleteRegion,HG,2020-03-29T17:00:00,2020-03-29T17:00:00,2021-06-17T18:06:27,-8,DISREGARD - Spike.,,Normal
+09DA001,Deviation,HG,2020-02-22T11:35:00,2020-02-24T14:00:00,2020-03-18T17:29:37,-8,DATA SPIKES. CAUSE UNKNOWN.,"DeviationValue:0.5,DeviationType:DeviationFromAverage,WindowSizeInMinutes:5",Normal
+09DA001,Drift,HG,2020-02-13T20:55:00,2020-07-22T20:05:00,2021-02-03T16:08:10,-8,SRC - February (0.010) to July (-0.005 - average DWL) visits.,"DriftPoints:(Offset:0.01,Time:2020-02-13T20:55:00Z);(Offset:-0.005,Time:2020-07-22T20:05:00Z)",Normal
+09DA001,Offset,HG,2020-02-13T20:50:00,2020-02-13T20:50:00,2024-03-18T14:32:55,-8,SRC-DWL. ,Offset:0.01,Normal
+09DA001,CopyPaste,QR,2019-11-20T08:00:00,2020-04-19T08:00:00,2020-05-22T19:18:52,-8,SLOW RECESSION.Override: Log Linear‌Q(t) = 17.88e^(-0.008110374t)‌,,Normal
+09DA001,CopyPaste,QR,2019-11-19T07:55:00,2019-11-21T20:25:00,2022-02-02T20:33:36,-8,Override: Log Linear‌Q(t) = 17.076351180858943e^(0.013361402658010838t)‌,,Normal
+09DA001,CopyPaste,QR,2019-11-03T07:50:00,2019-11-07T22:10:00,2022-02-02T20:44:18,-8,Override: Log Linear‌Q(t) = 8.581456631856298e^(-0.0045532902340975475t)‌,,Normal
+09DA001,CopyPaste,QR,2019-10-07T08:00:00,2019-10-16T03:50:00,2022-02-02T20:27:52,-8,Override: Log Linear‌Q(t) = 47.5e^(-0.09935677215036996t)‌,,Normal
+09DA001,CopyPaste,QR,2019-04-16T08:00:00,2019-05-08T00:30:00,2022-02-02T20:11:51,-8,Override: Log Linear‌Q(t) = 6.870322730603787e^(0.002292891049760857t)‌,,Normal
+09DA001,CopyPaste,QR,2019-03-10T08:00:00,2019-05-16T05:05:00,2020-05-22T17:43:46,-8,Override: Linear‌Q(t) = (1.50870671304709)t + 6.1‌,,Normal
+09DA001,CopyPaste,QR,2019-02-15T03:20:00,2019-03-25T17:40:00,2022-02-02T20:04:24,-8,Override: Log Linear‌Q(t) = 7.368027970734256e^(-0.0018154109398637245t)‌,,Normal
+09DA001,CopyPaste,QR,2018-11-08T08:00:00,2019-03-10T08:00:00,2020-05-22T17:34:06,-8,SLOW RECESSION.Override: Log Linear‌Q(t) = 16.42e^(-0.008110374t)‌,,Normal
+09DA001,CopyPaste,QR,2018-10-25T08:00:00,2018-11-08T08:00:00,2020-05-22T17:36:54,-8,FAST RECESSION & ICE-BITE.Override: Log Linear‌Q(t) = 26.3e^(-0.033734828882397594t)‌,,Normal
+09DA001,CopyPaste,QR,2018-10-15T16:00:00,2018-10-29T16:30:00,2020-10-22T19:47:07,-8,Override: Linear‌Q(t) = (-0.8986627043090639)t + 27.6‌,,Normal
+09DA001,CopyPaste,QR,2018-09-28T22:00:00,2018-09-29T20:30:00,2020-10-17T01:12:04,-8,Override: Linear‌Q(t) = (-8)t + 40.7‌,,Normal
+09DA001,CopyPaste,QR,2018-09-20T08:00:00,2018-11-03T09:50:00,2020-10-08T03:40:06,-8,Override: Freehand‌,,Normal
+09DA001,RevertToRaw,QR,2018-09-20T08:00:00,2018-09-28T22:00:00,2020-10-17T01:07:03,-8,"Had closer look at TL images, air & water temps, determine majority of period ice free.",,Normal

@@ -1,0 +1,12 @@
+{
+  "station_id": "09EA005",
+  "station_name": "LITTLE SOUTH KLONDIKE RIVER BELOW ROSS CREEK",
+  "latitude": 63.996578216552734,
+  "longitude": -137.57861328125,
+  "drainage_area_gross_km2": 860.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "YT",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-05T17:12:27.383191"
+}

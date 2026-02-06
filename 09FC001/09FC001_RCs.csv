@@ -1,0 +1,4 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+09FC001,5.1,Copy of 5.0. Extension to low-end to accomodate 2021 measurements.,LogarithmicTable,Provisional/Provisoire,(22.13);
+09FC001,5.0,,LogarithmicTable,Final/Finales,(22.13);
+09FC001,4.0,APPROVED.coincides w/table # 3 from 22.5m to 23.7m,LinearTable,Final/Finales,

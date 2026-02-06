@@ -1,0 +1,12 @@
+{
+  "station_id": "08LB053",
+  "station_name": "PAUL LAKE NEAR KAMLOOPS",
+  "latitude": 50.7388916015625,
+  "longitude": -120.1569366455078,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-05T17:12:27.277909"
+}

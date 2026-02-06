@@ -27,7 +27,7 @@ Where:
 Percent area difference between versions:
 
 $$
-\Delta A = \frac{A_{\text{new}} - A_{\text{old}}}{A_{\text{old}}} \times 100\%
+\Delta A = \frac{A_{\mathrm{new}} - A_{\mathrm{old}}}{A_{\mathrm{old}}} \times 100\%
 $$
 
 Positive values indicate catchment expansion; negative values indicate reduction.
