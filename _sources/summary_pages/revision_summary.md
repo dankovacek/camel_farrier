@@ -51,14 +51,7 @@ show(plot_jaccard_cdf())
 
 ### Area change distribution
 
-:::{bokeh-plot}
-import sys
-from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
-from bokeh.io import show
-from scripts.generation.revision_plots import plot_area_change_cdf
-show(plot_area_change_cdf())
-:::
+
 
 ## Detailed comparison table
 

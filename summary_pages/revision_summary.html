@@ -675,7 +675,7 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="polygon-revision-summary">
 <h1>Polygon Revision Summary<a class="headerlink" href="#polygon-revision-summary" title="Link to this heading">#</a></h1>
 <p>This page summarizes catchment polygon revisions across all demonstration stations. When alternate polygon sources become available (e.g., HYDAT 2024 release), we compare them against baseline polygons to quantify changes.</p>
-<div style="height:600px;"><script src="bokeh-content-62e7b37e653d4c0c8c40a2b30bc123df-summary_pages-revision_summary.js" id="ce1a04d8-ed4b-4953-a449-f6383ed45535"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:600px;"><script src="bokeh-content-32e62be3c83548ea95f83d46c6bc3b98-summary_pages-revision_summary.js" id="fc8a3bd0-1e43-47fa-86cc-c453e8fd5cf9"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -712,7 +712,7 @@ J(A, B) = \frac{|A \cap B|}{|A \cup B|}
 <h2>Sample distributions<a class="headerlink" href="#sample-distributions" title="Link to this heading">#</a></h2>
 <section id="jaccard-similarity-distribution">
 <h3>Jaccard similarity distribution<a class="headerlink" href="#jaccard-similarity-distribution" title="Link to this heading">#</a></h3>
-<div style="height:400px;"><script src="bokeh-content-72b8f70eff104eb7a78ab8ea69085cea-summary_pages-revision_summary.js" id="b6fa40d4-deb6-4606-8ffd-2b012ff1d46c"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:400px;"><script src="bokeh-content-634013b4f4154d9eb121011df4312611-summary_pages-revision_summary.js" id="ed51402a-7810-47c0-b9eb-b510fa363d4c"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -723,19 +723,11 @@ J(A, B) = \frac{|A \cap B|}{|A \cup B|}
 </section>
 <section id="area-change-distribution">
 <h3>Area change distribution<a class="headerlink" href="#area-change-distribution" title="Link to this heading">#</a></h3>
-<div style="height:400px;"><script src="bokeh-content-b412c39db5a949d4ac93a8b894e8e405-summary_pages-revision_summary.js" id="e61d8e56-9599-4e84-830e-e7a627d2f100"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
-<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">scripts.generation.revision_plots</span><span class="w"> </span><span class="kn">import</span> <span class="n">plot_area_change_cdf</span>
-<span class="n">show</span><span class="p">(</span><span class="n">plot_area_change_cdf</span><span class="p">())</span>
-</pre></div>
-</div>
 </section>
 </section>
 <section id="detailed-comparison-table">
 <h2>Detailed comparison table<a class="headerlink" href="#detailed-comparison-table" title="Link to this heading">#</a></h2>
-<div style="height:400px;"><script src="bokeh-content-8eb8ad5be5054d0b8d240efc4f7c9640-summary_pages-revision_summary.js" id="d64d98ea-dd24-49f5-85af-c0a850bd98a9"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:400px;"><script src="bokeh-content-ae6ddf71439e48e789513f61e12611d0-summary_pages-revision_summary.js" id="f2e8df9f-ccfa-4f98-b300-dae3c308278a"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
