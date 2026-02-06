@@ -11,6 +11,7 @@ Thank you for your interest in contributing to the Camel Farrier hydrometric dat
 - [Quality Standards](#quality-standards)
 - [Contact](#contact)
 
+(code-of-conduct)=
 ## Code of Conduct
 
 This project is committed to providing a welcoming and inclusive environment. We expect all contributors to:
@@ -21,6 +22,7 @@ This project is committed to providing a welcoming and inclusive environment. We
 - Focus on what is best for the community
 - Show empathy towards other community members
 
+(how-to-contribute)=
 ## How to Contribute
 
 ### Types of Contributions
@@ -48,6 +50,7 @@ We welcome several types of contributions:
    git checkout -b feature/your-contribution-name
    ```
 
+(data-contribution-guidelines)=
 ## Data Contribution Guidelines
 
 ### Polygon Revisions
@@ -89,6 +92,7 @@ For station metadata changes:
 3. **Document source** of metadata changes
 4. **Include retrieval date** for external data sources
 
+(pull-request-process)=
 ## Pull Request Process
 
 ### Before Submitting
@@ -126,6 +130,7 @@ When creating a pull request, please use the provided template and include:
 - Diagnostic pages will be automatically regenerated
 - Changes will be reflected in the next release
 
+(quality-standards)=
 ## Quality Standards
 
 ### Data Quality Tiers
@@ -239,6 +244,7 @@ When contributing data derived from external sources:
 
 See [DATA_SOURCES](guides/DATA_SOURCES.md) for comprehensive provenance documentation.
 
+(contact)=
 ## Contact
 
 - **Maintainer:** Dan Kovacek
