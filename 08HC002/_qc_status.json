@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "description": "Quality control status for station data during review (pre-commit)",
   "station_id": "08HC002",
-  "qc_date": "2026-02-06T02:21:19.358073",
+  "qc_date": "2026-02-06T03:07:55.676932",
   "reviewed_by": "automated_setup",
   "validation_checks": {
     "data_completeness": {
@@ -29,7 +29,8 @@
       "status": "warning",
       "temporal_gaps": [],
       "data_quality_flags": [],
-      "notes": "No timeseries data available"
+      "notes": "19,665 daily observations, seasonal gaps: 279 days avg (N=5) | 9.6% flagged (estimated: 1784, partial day: 83, backwater: 30)",
+      "record_length_years": 57.7
     },
     "metadata_completeness": {
       "status": "passed",
@@ -41,9 +42,9 @@
     }
   },
   "overall_status": "needs_revision",
-  "qc_notes": "Issues detected: Missing files: RCs, corrections, field_visits; No timeseries data (daily flows/levels)",
+  "qc_notes": "Issues: RCs, corrections, field_visits",
   "next_steps": "Address missing data",
   "validator_version": "1.0.0",
-  "created_timestamp": "2026-02-06T02:21:19.358078",
-  "last_modified": "2026-02-06T02:21:19.358079"
+  "created_timestamp": "2026-02-06T03:07:55.676932",
+  "last_modified": "2026-02-06T03:07:55.676932"
 }

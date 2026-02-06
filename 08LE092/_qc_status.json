@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "description": "Quality control status for station data during review (pre-commit)",
   "station_id": "08LE092",
-  "qc_date": "2026-02-06T02:21:21.368558",
+  "qc_date": "2026-02-06T03:07:58.187936",
   "reviewed_by": "automated_setup",
   "validation_checks": {
     "data_completeness": {
@@ -22,14 +22,15 @@
       "polygon_file_present": true,
       "crs_valid": true,
       "geometry_valid": true,
-      "area_km2": 50.3,
+      "area_km2": 50.4,
       "notes": ""
     },
     "hydrometric_continuity": {
-      "status": "warning",
+      "status": "passed",
       "temporal_gaps": [],
       "data_quality_flags": [],
-      "notes": "No timeseries data available"
+      "notes": "2,191 daily observations, continuous record | 25.2% flagged (estimated: 309, backwater: 202, partial day: 41)",
+      "record_length_years": 6.0
     },
     "metadata_completeness": {
       "status": "passed",
@@ -41,9 +42,9 @@
     }
   },
   "overall_status": "needs_revision",
-  "qc_notes": "Issues detected: Missing files: RCs, corrections, field_visits; No timeseries data (daily flows/levels)",
+  "qc_notes": "Issues: RCs, corrections, field_visits",
   "next_steps": "Address missing data",
   "validator_version": "1.0.0",
-  "created_timestamp": "2026-02-06T02:21:21.368562",
-  "last_modified": "2026-02-06T02:21:21.368563"
+  "created_timestamp": "2026-02-06T03:07:58.187936",
+  "last_modified": "2026-02-06T03:07:58.187936"
 }

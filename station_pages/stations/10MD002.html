@@ -675,7 +675,7 @@ document.write(`
 <h1>10MD002: BABBAGE RIVER BELOW CARIBOU CREEK<a class="headerlink" href="#md002-babbage-river-below-caribou-creek" title="Link to this heading">#</a></h1>
 <section id="catchment-boundary">
 <h2>Catchment boundary<a class="headerlink" href="#catchment-boundary" title="Link to this heading">#</a></h2>
-<script src="bokeh-content-55e5a9c122d649a498befb2101c21e6f-station_pages-stations-10MD002.js" id="ccaa2e99-2174-4dfe-8f8c-24a239bb50fb"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<script src="bokeh-content-19ef61bdb30c437e8efc1a5648f0af5a-station_pages-stations-10MD002.js" id="b7cfa73e-f90c-4e00-916a-c09876778e55"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -709,18 +709,19 @@ document.write(`
 <p><strong>Overall Status:</strong> needs_revision<br>
 <strong>QC Date:</strong> 2026-02-06<br>
 <strong>Reviewed By:</strong> automated_setup
-<br><strong>Timeseries Summary:</strong> No timeseries data available</p>
+<br><strong>Record Length:</strong> 18.4 years
+<br><strong>Timeseries Summary:</strong> 6,361 daily observations, seasonal gaps: 92 days avg (N=4) | 70.1% flagged (backwater: 4304, estimated: 109, partial day: 47)</p>
 <table class="dataframe table">
 <tr><th>Check Category</th><th>Status</th><th>Notes</th></tr>
 <tr><td><strong>Data Completeness</strong></td><td>⚠️ Warning</td><td>Missing: RCs, corrections, field_visits</td></tr>
-<tr><td><strong>Polygon Bounds</strong></td><td>✅ Passed</td><td>Catchment area: 11464.1 km²</td></tr>
-<tr><td><strong>Hydrometric Continuity</strong></td><td>⚠️ Warning</td><td>No timeseries data available</td></tr>
+<tr><td><strong>Polygon Bounds</strong></td><td>✅ Passed</td><td>Catchment area: 11464.2 km²</td></tr>
+<tr><td><strong>Hydrometric Continuity</strong></td><td>⚠️ Warning</td><td>6,361 daily observations, seasonal gaps: 92 days avg (N=4) | 70.1% flagged (backwater: 4304, estimated: 109, partial day: 47) | Record: 18.4 years</td></tr>
 <tr><td><strong>Metadata Completeness</strong></td><td>✅ Passed</td><td>All key metadata present</td></tr>
 </table>
 </section>
 <section id="timeseries-streamflow">
 <h2>Timeseries streamflow<a class="headerlink" href="#timeseries-streamflow" title="Link to this heading">#</a></h2>
-<script src="bokeh-content-92ff7cdc1f9243ce97c3f1f4c80802da-station_pages-stations-10MD002.js" id="f60e83b7-917d-4dcf-b73e-2b30393a1580"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<script src="bokeh-content-bee2a9c9afd54dc490abf9dae669e4f3-station_pages-stations-10MD002.js" id="ce2d938e-847b-4f30-893c-cd3487d35287"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -731,7 +732,7 @@ document.write(`
 </section>
 <section id="flow-distributions">
 <h2>Flow distributions<a class="headerlink" href="#flow-distributions" title="Link to this heading">#</a></h2>
-<script src="bokeh-content-b0b1e3b74f9c424598f73e9f820b7b19-station_pages-stations-10MD002.js" id="a75d1620-6d8f-417e-a285-ed12b3b8afe0"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<script src="bokeh-content-337093b3923342c49a1dbcaaac9efc12-station_pages-stations-10MD002.js" id="f0cdd569-e2d7-49ed-a050-d5c432fc1318"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
