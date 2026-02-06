@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=e26bce44" />
@@ -653,7 +653,7 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sample-distributions">Sample distributions</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jaccard-similarity-distribution">Jaccard similarity distribution</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jaccard-similarity-index-distribution">Jaccard similarity index distribution</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#area-change-distribution">Area change distribution</a></li>
 </ul>
 </li>
@@ -675,7 +675,7 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="polygon-revision-summary">
 <h1>Polygon Revision Summary<a class="headerlink" href="#polygon-revision-summary" title="Link to this heading">#</a></h1>
 <p>This page summarizes catchment polygon revisions across all demonstration stations. When alternate polygon sources become available (e.g., HYDAT 2024 release), we compare them against baseline polygons to quantify changes.</p>
-<div style="height:600px;"><script src="bokeh-content-32e62be3c83548ea95f83d46c6bc3b98-summary_pages-revision_summary.js" id="fc8a3bd0-1e43-47fa-86cc-c453e8fd5cf9"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:600px;"><script src="bokeh-content-5bcd531746f14336b1299aa6df3f5d4d-summary_pages-revision_summary.js" id="bfa3fd07-b296-46dd-baed-62b0dbb92d14"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -710,9 +710,9 @@ J(A, B) = \frac{|A \cap B|}{|A \cup B|}
 </section>
 <section id="sample-distributions">
 <h2>Sample distributions<a class="headerlink" href="#sample-distributions" title="Link to this heading">#</a></h2>
-<section id="jaccard-similarity-distribution">
-<h3>Jaccard similarity distribution<a class="headerlink" href="#jaccard-similarity-distribution" title="Link to this heading">#</a></h3>
-<div style="height:400px;"><script src="bokeh-content-634013b4f4154d9eb121011df4312611-summary_pages-revision_summary.js" id="ed51402a-7810-47c0-b9eb-b510fa363d4c"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<section id="jaccard-similarity-index-distribution">
+<h3>Jaccard similarity index distribution<a class="headerlink" href="#jaccard-similarity-index-distribution" title="Link to this heading">#</a></h3>
+<div style="height:400px;"><script src="bokeh-content-7abefbee84e9496db707d2144405da29-summary_pages-revision_summary.js" id="ac65ae33-a393-4a99-b3d0-445cf0d5a8bb"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -723,11 +723,19 @@ J(A, B) = \frac{|A \cap B|}{|A \cup B|}
 </section>
 <section id="area-change-distribution">
 <h3>Area change distribution<a class="headerlink" href="#area-change-distribution" title="Link to this heading">#</a></h3>
+<div style="height:400px;"><script src="bokeh-content-7f449d0bc86f4c9e8ba62815351a9696-summary_pages-revision_summary.js" id="cc9d0e73-e199-4b9a-b699-9f8257b1d8c2"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">scripts.generation.revision_plots</span><span class="w"> </span><span class="kn">import</span> <span class="n">plot_area_change_cdf</span>
+<span class="n">show</span><span class="p">(</span><span class="n">plot_area_change_cdf</span><span class="p">())</span>
+</pre></div>
+</div>
 </section>
 </section>
 <section id="detailed-comparison-table">
 <h2>Detailed comparison table<a class="headerlink" href="#detailed-comparison-table" title="Link to this heading">#</a></h2>
-<div style="height:400px;"><script src="bokeh-content-ae6ddf71439e48e789513f61e12611d0-summary_pages-revision_summary.js" id="f2e8df9f-ccfa-4f98-b300-dae3c308278a"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:400px;"><script src="bokeh-content-c21df7a7ebc34aedb7f454bc32e5faa8-summary_pages-revision_summary.js" id="b411df7c-ce98-44d9-b8fa-aefe3b21043f"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -859,7 +867,7 @@ python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py<spa
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sample-distributions">Sample distributions</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jaccard-similarity-distribution">Jaccard similarity distribution</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jaccard-similarity-index-distribution">Jaccard similarity index distribution</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#area-change-distribution">Area change distribution</a></li>
 </ul>
 </li>

@@ -1,4 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-10KC001,9.0,Refer to document 10KC001_20210401_RMD9.0 for details on curve development. New curve after substantial control change resulting in poor predictability from curve 8.0 Built with measurements collected in open water 2022-2025. Note that although the May 2025 measurement is considered to be in channel clear conditions there is a minor amount of submerged edge ice noted that may slightly increase negative plotting on the curve.,LogarithmicTable,Provisional/Provisoire,(3.1);
-10KC001,8.0,,LogarithmicTable,Final/Finales,(1);
-10KC001,7.0,,LogarithmicTable,Provisional/Provisoire,(1.64);
