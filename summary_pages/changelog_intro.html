@@ -646,7 +646,7 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#motivation">Motivation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-context">Dataset Context</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-ontext">Dataset ontext</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#opportunities">Opportunities</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation-structure">Documentation Structure</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
@@ -669,7 +669,7 @@ document.write(`
 </div>
 <section id="motivation">
 <h2>Motivation<a class="headerlink" href="#motivation" title="Link to this heading">#</a></h2>
-<p>Catchment boundaries are fundamental to hydrological analysis, but polygon quality varies across datasets and updates often lack documentation. This framework addresses:</p>
+<p>Catchment boundaries are fundamental to hydrological analysis, but errors occur in their delineation as evidenced by the differences between revisions. This framework addresses:</p>
 <ul class="simple">
 <li><p><strong>Transparency</strong> — All changes tracked with comparison metrics (Jaccard Index, area differences)</p></li>
 <li><p><strong>Reproducibility</strong> — Specific polygon versions linked to analyses via semantic tags and commit SHAs</p></li>
@@ -679,8 +679,8 @@ document.write(`
 <p><strong>Why Version Control?</strong></p>
 <p>Git is well-suited for managing catchment polygons because it tracks file changes systematically, while GitHub enables collaboration through Pull Requests and automated validation workflows.</p>
 </section>
-<section id="dataset-context">
-<h2>Dataset Context<a class="headerlink" href="#dataset-context" title="Link to this heading">#</a></h2>
+<section id="dataset-ontext">
+<h2>Dataset ontext<a class="headerlink" href="#dataset-ontext" title="Link to this heading">#</a></h2>
 <p>This demonstration uses polygons from multiple sources:</p>
 <ul class="simple">
 <li><p><strong>WSC Official Basins</strong> — Water Survey of Canada drainage basin boundaries</p></li>
@@ -692,12 +692,12 @@ document.write(`
 </section>
 <section id="opportunities">
 <h2>Opportunities<a class="headerlink" href="#opportunities" title="Link to this heading">#</a></h2>
-<p>Catchments ≤50 km² in HYSETS use simplified rectangular boundaries due to delineation challenges at fine scales. These represent approximately one-third of the dataset and offer significant opportunity for collaborative improvement through:</p>
+<p>Catchment delineation is challenging when the size decreases relative to the DEM resolution, and in areas of low relief. These cases represent an opportunity for collaborative improvement through:</p>
 <ol class="arabic simple">
 <li><p>High-resolution DEM delineation</p></li>
 <li><p>Field validation</p></li>
-<li><p>Cross-dataset comparison</p></li>
-<li><p>Community contributions with local knowledge</p></li>
+<li><p>Cross-dataset and delineation methodology comparison</p></li>
+<li><p>Community contributions with local knowledge and experience</p></li>
 </ol>
 </section>
 <section id="documentation-structure">
@@ -791,7 +791,7 @@ document.write(`
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#motivation">Motivation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-context">Dataset Context</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-ontext">Dataset ontext</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#opportunities">Opportunities</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation-structure">Documentation Structure</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>

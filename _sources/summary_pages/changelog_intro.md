@@ -7,7 +7,7 @@ This repository demonstrates version-controlled management of catchment polygons
 
 ## Motivation
 
-Catchment boundaries are fundamental to hydrological analysis, but polygon quality varies across datasets and updates often lack documentation. This framework addresses:
+Catchment boundaries are fundamental to hydrological analysis, but errors occur in their delineation as evidenced by the differences between revisions. This framework addresses:
 
 - **Transparency** — All changes tracked with comparison metrics (Jaccard Index, area differences)
 - **Reproducibility** — Specific polygon versions linked to analyses via semantic tags and commit SHAs
@@ -18,7 +18,7 @@ Catchment boundaries are fundamental to hydrological analysis, but polygon quali
 
 Git is well-suited for managing catchment polygons because it tracks file changes systematically, while GitHub enables collaboration through Pull Requests and automated validation workflows.
 
-## Dataset Context
+## Dataset ontext
 
 This demonstration uses polygons from multiple sources:
 
@@ -31,12 +31,12 @@ For detailed provenance, download links, and methodology, see [Data Sources](../
 
 ## Opportunities
 
-Catchments ≤50 km² in HYSETS use simplified rectangular boundaries due to delineation challenges at fine scales. These represent approximately one-third of the dataset and offer significant opportunity for collaborative improvement through:
+Catchment delineation is challenging when the size decreases relative to the DEM resolution, and in areas of low relief. These cases represent an opportunity for collaborative improvement through:
 
 1. High-resolution DEM delineation
 2. Field validation
-3. Cross-dataset comparison
-4. Community contributions with local knowledge
+3. Cross-dataset and delineation methodology comparison
+4. Community contributions with local knowledge and experience
 
 ## Documentation Structure
 
