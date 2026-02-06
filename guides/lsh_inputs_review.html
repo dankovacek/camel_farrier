@@ -1,0 +1,993 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>LSH Dataset Input Review &#8212; Camel Farrier</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=6848d790" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'guides/lsh_inputs_review';</script>
+    <script src="../_static/searchindex.js?v=4891b222"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Getting Started" href="user_guide.html" />
+    <link rel="prev" title="Polygon Revision Summary" href="../summary_pages/revision_summary.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Camel Farrier - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Camel Farrier - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../index.html">
+                    Camel Farrier: Automated Quality Documentation for Hydrometric Data
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary &amp; Diagnostics</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../summary_pages/changelog_intro.html">Project Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../summary_pages/revision_summary.html">Cross-Station Comparisons</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">LSH Dataset Comparison</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="user_guide.html">User Guide</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Technical Reference</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="DATA_SOURCES.html">Data Sources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_specification.html">Data Specification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CONTRIBUTING.html">Contributing</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Station Pages</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="station_directory.html">Station Directory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07AF010.html">07AF010: SUNDANCE CREEK NEAR BICKERDIKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07DB005.html">07DB005: MACKAY RIVER ABOVE DUNKIRK RIVER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07EE009.html">07EE009: CHUCHINKA CREEK NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07FD014.html">07FD014: WAINSCOTT COULEE NEAR BROWNVALE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07GA002.html">07GA002: MUSKEG RIVER NEAR GRANDE CACHE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07JC003.html">07JC003: LOON RIVER NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07QC005.html">07QC005: ABITAU RIVER ABOVE CUMING LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08GA065.html">08GA065: NOONS CREEK AT MERIDIAN SUBSTATION ROAD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LB053.html">08LB053: PAUL LAKE NEAR KAMLOOPS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LE067.html">08LE067: FOWLER CREEK NEAR FALKLAND</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NE067.html">08NE067: WALKER CREEK NEAR ROBSON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NJ134.html">08NJ134: CODY CREEK NEAR SANDON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NM133.html">08NM133: BULL CREEK NEAR CRUMP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NM134.html">08NM134: CAMP CREEK AT MOUTH NEAR THIRSK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09DA001.html">09DA001: HESS RIVER ABOVE EMERALD CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09DC004.html">09DC004: WAREHAM LAKE AT HEADGATE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09EA005.html">09EA005: LITTLE SOUTH KLONDIKE RIVER BELOW ROSS CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09FA001.html">09FA001: WHITESTONE RIVER NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09FC001.html">09FC001: OLD CROW RIVER NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10CD003.html">10CD003: RASPBERRY CREEK NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10ED009.html">10ED009: SCOTTY CREEK AT HIGHWAY NO. 7</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10FB005.html">10FB005: JEAN-MARIE RIVER AT HIGHWAY NO. 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10JA004.html">10JA004: ACASTA RIVER ABOVE LITTLE CRAPEAU LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10KC001.html">10KC001: MOUNTAIN RIVER BELOW CAMBRIAN CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10LA002.html">10LA002: ARCTIC RED RIVER NEAR THE MOUTH</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/dankovacek/distribution_estimation" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/dankovacek/distribution_estimation/issues/new?title=Issue%20on%20page%20%2Fguides/lsh_inputs_review.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/guides/lsh_inputs_review.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>LSH Dataset Input Review</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#purpose">Purpose</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#motivation">Motivation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#methodology">Methodology</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comparison-metrics">Comparison Metrics</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#jaccard-similarity-index-jsi">Jaccard Similarity Index (JSI)</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#area-difference">Area Difference</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#coordinate-reference-system">Coordinate Reference System</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-comparison">Dataset Comparison</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hysets-polygon-comparison">HYSETS Polygon Comparison</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#distribution-of-jaccard-similarity">Distribution of Jaccard Similarity</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#per-station-comparison-table">Per-Station Comparison Table</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#caravan-polygon-comparison">Caravan Polygon Comparison</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Distribution of Jaccard Similarity</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#distribution-of-area-differences">Distribution of Area Differences</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Per-Station Comparison Table</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#geographic-distribution-of-discrepancies">Geographic Distribution of Discrepancies</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cross-dataset-comparison">Cross-Dataset Comparison</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hysets-vs-caravan-consistency">HYSETS vs. Caravan Consistency</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#findings-and-recommendations">Findings and Recommendations</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#key-findings">Key Findings</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#implications-for-hydrological-analysis">Implications for Hydrological Analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#recommendations">Recommendations</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#implementation-notes">Implementation Notes</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sources">Data Sources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-script">Analysis Script</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#update-frequency">Update Frequency</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#related-pages">Related Pages</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="lsh-dataset-input-review">
+<h1>LSH Dataset Input Review<a class="headerlink" href="#lsh-dataset-input-review" title="Link to this heading">#</a></h1>
+<section id="purpose">
+<h2>Purpose<a class="headerlink" href="#purpose" title="Link to this heading">#</a></h2>
+<p>Compare current catchment polygon versions against Large-Sample Hydrology (LSH) dataset sources (HYSETS and Caravan) to quantify differences, identify discrepancies, and assess data quality for hydrological analysis.</p>
+<p><strong>Target Datasets:</strong></p>
+<ul class="simple">
+<li><p><strong>HYSETS</strong> — Large-sample hydrology dataset for North America <span id="id1">[<a class="reference internal" href="../summary_pages/changelog_intro.html#id12" title="Richard Arsenault, François Brissette, Jean-Luc Martel, Magali Troin, Guillaume Lévesque, Jonathan Davidson-Chaput, Mariana Castañeda Gonzalez, Ali Ameli, and Annie Poulin. A comprehensive, multisource database for hydrometeorological modeling of 14,425 north american watersheds. Scientific Data, 7(1):243, 2020.">Arsenault <em>et al.</em>, 2020</a>]</span></p></li>
+<li><p><strong>Caravan</strong> — Global community large-sample hydrology dataset <span id="id2">[<a class="reference internal" href="../summary_pages/changelog_intro.html#id19" title="Frederik Kratzert, Grey Nearing, Nans Addor, Tyler Erickson, Martin Gauch, Oren Gilon, Lukas Gudmundsson, Avinatan Hassidim, Daniel Klotz, Sella Nevo, and others. Caravan-a global community dataset for large-sample hydrology. Scientific Data, 10(1):61, 2023.">Kratzert <em>et al.</em>, 2023</a>]</span></p></li>
+<li><p><strong>Current WSC catchment polygons used in this repository</strong> – Canadian national hydrometric network station boundaries in both HYSETS and Caravan were originally derived from WSC datasets where polygons were available, though some differences exist due to updates and processing.</p></li>
+</ul>
+<p><strong>Quality Metrics:</strong></p>
+<ul class="simple">
+<li><p><strong>Jaccard Similarity Index (JSI)</strong> — Spatial overlap between polygons</p></li>
+<li><p><strong>Area Difference</strong> — Absolute and percentage drainage area changes</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="motivation">
+<h2>Motivation<a class="headerlink" href="#motivation" title="Link to this heading">#</a></h2>
+<p>Watershed boundaries are fundamental to hydrological modeling. Different delineation methods and input data can produce significantly different polygons for the same gauge station, affecting:</p>
+<ul class="simple">
+<li><p><strong>Runoff calculations</strong> — Area-normalized discharge depends on drainage area</p></li>
+<li><p><strong>Model calibration</strong> — Parameter sensitivity may vary with catchment descriptors</p></li>
+</ul>
+<p>This review quantifies polygon discrepancies to:</p>
+<ol class="arabic simple">
+<li><p>Assess reliability of LSH dataset polygons for Canadian stations</p></li>
+<li><p>Identify stations where boundary revisions were significant</p></li>
+<li><p>Document provenance for reproducible analyses</p></li>
+<li><p>Establish quality baselines for future dataset versions</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="methodology">
+<h2>Methodology<a class="headerlink" href="#methodology" title="Link to this heading">#</a></h2>
+<section id="comparison-metrics">
+<h3>Comparison Metrics<a class="headerlink" href="#comparison-metrics" title="Link to this heading">#</a></h3>
+<section id="jaccard-similarity-index-jsi">
+<h4>Jaccard Similarity Index (JSI)<a class="headerlink" href="#jaccard-similarity-index-jsi" title="Link to this heading">#</a></h4>
+<p>Measures spatial overlap between two polygons:</p>
+<div class="math notranslate nohighlight">
+\[
+JSI = \frac{\text{Area}(P_1 \cap P_2)}{\text{Area}(P_1 \cup P_2)}
+\]</div>
+<p><strong>Interpretation:</strong></p>
+<ul class="simple">
+<li><p><strong>JSI = 1.0</strong>: Perfect agreement</p></li>
+<li><p><strong>JSI ≥ 0.95</strong>: Excellent agreement (&lt; 5% coverage differences)</p></li>
+<li><p><strong>0.85 ≤ JSI &lt; 0.95</strong>: Good agreement (minor coverage differences)</p></li>
+<li><p><strong>0.70 ≤ JSI &lt; 0.85</strong>: Moderate differences (investigate causes)</p></li>
+<li><p><strong>JSI &lt; 0.70</strong>: Significant discrepancies (additional review recommended)</p></li>
+</ul>
+</section>
+<section id="area-difference">
+<h4>Area Difference<a class="headerlink" href="#area-difference" title="Link to this heading">#</a></h4>
+<p>Percentage change in drainage area:</p>
+<div class="math notranslate nohighlight">
+\[
+\Delta_{\text{area}} = \frac{\text{Area}_{\text{LSH}} - \text{Area}_{\text{current}}}{\text{Area}_{\text{current}}} \times 100\%
+\]</div>
+<p><strong>Interpretation:</strong></p>
+<ul class="simple">
+<li><p><strong>|Δ| &lt; 5%</strong>: Acceptable variation (typical for same-method delineations)</p></li>
+<li><p><strong>5% ≤ |Δ| &lt; 10%</strong>: Moderate difference (document reasons)</p></li>
+<li><p><strong>|Δ| ≥ 10%</strong>: Major discrepancy (additional review recommended)</p></li>
+</ul>
+</section>
+</section>
+<section id="coordinate-reference-system">
+<h3>Coordinate Reference System<a class="headerlink" href="#coordinate-reference-system" title="Link to this heading">#</a></h3>
+<p>All area calculations use <strong>Lambert Azimuthal Equal Area (LAEA)</strong> projection centered on polygon centroid to minimize distortion and ensure accurate measurements across Canada’s large geographic extent.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="dataset-comparison">
+<h2>Dataset Comparison<a class="headerlink" href="#dataset-comparison" title="Link to this heading">#</a></h2>
+<section id="hysets-polygon-comparison">
+<h3>HYSETS Polygon Comparison<a class="headerlink" href="#hysets-polygon-comparison" title="Link to this heading">#</a></h3>
+<p><strong>Dataset Version:</strong> 2020-07-30
+<strong>DOI:</strong> <a class="reference external" href="https://doi.org/10.17605/OSF.IO/RPC3W">10.17605/OSF.IO/RPC3W</a>
+<strong>Stations Compared:</strong> [TBD]</p>
+<section id="distribution-of-jaccard-similarity">
+<h4>Distribution of Jaccard Similarity<a class="headerlink" href="#distribution-of-jaccard-similarity" title="Link to this heading">#</a></h4>
+<p><strong>[Interactive plot pending data analysis]</strong></p>
+<p>When analysis is complete, this section will display:</p>
+<ul class="simple">
+<li><p>Histogram of JSI values across all stations</p></li>
+<li><p>Cumulative distribution function</p></li>
+<li><p>Threshold lines for quality interpretation (JSI ≥ 0.95, 0.85, 0.70)</p></li>
+</ul>
+<p><strong>[Interactive plot pending data analysis]</strong></p>
+<p>When analysis is complete, this section will display:</p>
+<ul class="simple">
+<li><p>Histogram of area differences across all stations</p></li>
+<li><p>Cumulative distribution function</p></li>
+<li><p>Threshold lines for acceptable variation (|Δ| &lt; 5%, 5-10%, &gt;10%)</p></li>
+</ul>
+</section>
+<section id="per-station-comparison-table">
+<h4>Per-Station Comparison Table<a class="headerlink" href="#per-station-comparison-table" title="Link to this heading">#</a></h4>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Station ID</p></th>
+<th class="head"><p>Province</p></th>
+<th class="head"><p>JSI</p></th>
+<th class="head"><p>Area Diff (%)</p></th>
+<th class="head"><p>Area Diff (km²)</p></th>
+<th class="head"><p>Status</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>TBD</p></td>
+<td><p>TBD</p></td>
+<td><p>TBD</p></td>
+<td><p>TBD</p></td>
+<td><p>TBD</p></td>
+<td><p>Pending analysis</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Summary Statistics:</strong></p>
+<ul class="simple">
+<li><p><strong>Median JSI:</strong> TBD</p></li>
+<li><p><strong>Stations with JSI ≥ 0.95:</strong> TBD / TBD ([TBD]%)</p></li>
+<li><p><strong>Stations with JSI &lt; 0.85:</strong> TBD / TBD ([TBD]%)</p></li>
+<li><p><strong>Mean absolute area difference:</strong> TBD%</p></li>
+<li><p><strong>Stations with |Δ| &gt; 10%:</strong> TBD / TBD</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="caravan-polygon-comparison">
+<h3>Caravan Polygon Comparison<a class="headerlink" href="#caravan-polygon-comparison" title="Link to this heading">#</a></h3>
+<p><strong>Dataset Version:</strong> 2023-v1.3
+<strong>DOI:</strong> <a class="reference external" href="https://doi.org/10.5281/zenodo.15529786">10.5281/zenodo.15529786</a>
+<strong>Stations Compared:</strong> [TBD]</p>
+<section id="id3">
+<h4>Distribution of Jaccard Similarity<a class="headerlink" href="#id3" title="Link to this heading">#</a></h4>
+<p><strong>[Interactive plot pending data analysis]</strong></p>
+<p>When analysis is complete, this section will display:</p>
+<ul class="simple">
+<li><p>Histogram of JSI values across all stations</p></li>
+<li><p>Cumulative distribution function</p></li>
+<li><p>Threshold lines for quality interpretation (JSI ≥ 0.95, 0.85, 0.70)</p></li>
+</ul>
+</section>
+<section id="distribution-of-area-differences">
+<h4>Distribution of Area Differences<a class="headerlink" href="#distribution-of-area-differences" title="Link to this heading">#</a></h4>
+<p><strong>[Interactive plot pending data analysis]</strong></p>
+<p>When analysis is complete, this section will display:</p>
+<ul class="simple">
+<li><p>Histogram of area differences across all stations</p></li>
+<li><p>Cumulative distribution function</p></li>
+<li><p>Threshold lines for acceptable variation (|Δ| &lt; 5%, 5-10%, &gt;10%)</p></li>
+</ul>
+</section>
+<section id="id4">
+<h4>Per-Station Comparison Table<a class="headerlink" href="#id4" title="Link to this heading">#</a></h4>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Station ID</p></th>
+<th class="head"><p>Province</p></th>
+<th class="head"><p>JSI</p></th>
+<th class="head"><p>Area Diff (%)</p></th>
+<th class="head"><p>Area Diff (km²)</p></th>
+<th class="head"><p>Status</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>TBD</p></td>
+<td><p>TBD</p></td>
+<td><p>TBD</p></td>
+<td><p>TBD</p></td>
+<td><p>TBD</p></td>
+<td><p>Pending analysis</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Summary Statistics:</strong></p>
+<ul class="simple">
+<li><p><strong>Median JSI:</strong> TBD</p></li>
+<li><p><strong>Stations with JSI ≥ 0.95:</strong> TBD / TBD ([TBD]%)</p></li>
+<li><p><strong>Stations with JSI &lt; 0.85:</strong> TBD / TBD ([TBD]%)</p></li>
+<li><p><strong>Mean absolute area difference:</strong> TBD%</p></li>
+<li><p><strong>Stations with |Δ| &gt; 10%:</strong> TBD / TBD</p></li>
+</ul>
+</section>
+</section>
+</section>
+<hr class="docutils" />
+<section id="geographic-distribution-of-discrepancies">
+<h2>Geographic Distribution of Discrepancies<a class="headerlink" href="#geographic-distribution-of-discrepancies" title="Link to this heading">#</a></h2>
+<p><strong>[Interactive map pending data analysis]</strong></p>
+<p>When analysis is complete, this section will display:</p>
+<ul class="simple">
+<li><p>Geographic map of Canadian hydrometric stations</p></li>
+<li><p>Stations colored by JSI agreement level</p></li>
+<li><p>Symbols sized by absolute area differences</p></li>
+<li><p>Hover tooltips with station details</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="cross-dataset-comparison">
+<h2>Cross-Dataset Comparison<a class="headerlink" href="#cross-dataset-comparison" title="Link to this heading">#</a></h2>
+<section id="hysets-vs-caravan-consistency">
+<h3>HYSETS vs. Caravan Consistency<a class="headerlink" href="#hysets-vs-caravan-consistency" title="Link to this heading">#</a></h3>
+<p>For stations present in both LSH datasets, assess consistency:</p>
+<ul class="simple">
+<li><p><strong>Both datasets agree well with current version</strong> (JSI ≥ 0.95 for both)</p></li>
+<li><p><strong>One dataset agrees, other diverges</strong> (investigate which source is more reliable)</p></li>
+<li><p><strong>Both datasets diverge</strong> (current version may need review)</p></li>
+</ul>
+<p><strong>Consistency Matrix:</strong> [TBD - Pending analysis]</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="findings-and-recommendations">
+<h2>Findings and Recommendations<a class="headerlink" href="#findings-and-recommendations" title="Link to this heading">#</a></h2>
+<section id="key-findings">
+<h3>Key Findings<a class="headerlink" href="#key-findings" title="Link to this heading">#</a></h3>
+<p><strong>[To be populated after analysis]</strong></p>
+<p>Examples of expected findings:</p>
+<ul class="simple">
+<li><p>Overall agreement level between datasets</p></li>
+<li><p>Regions with systematic discrepancies (e.g., headwaters, drainage divides)</p></li>
+<li><p>Stations requiring boundary verification</p></li>
+<li><p>Differences in delineation methodology (DEM resolution, flow accumulation thresholds)</p></li>
+</ul>
+</section>
+<section id="implications-for-hydrological-analysis">
+<h3>Implications for Hydrological Analysis<a class="headerlink" href="#implications-for-hydrological-analysis" title="Link to this heading">#</a></h3>
+<p><strong>Impact on Runoff Calculations:</strong></p>
+<ul class="simple">
+<li><p>Area errors propagate to specific discharge calculations</p></li>
+<li><p>5% area difference → 5% error in runoff estimates</p></li>
+</ul>
+<p><strong>Impact on Model Calibration:</strong></p>
+<ul class="simple">
+<li><p>Parameter uncertainty increases with boundary uncertainty</p></li>
+<li><p>Transfer functions assume geometric similarity</p></li>
+</ul>
+<p><strong>Dataset Selection Guidance:</strong></p>
+<ul class="simple">
+<li><p>Recommend dataset based on JSI/area agreement</p></li>
+<li><p>Document version choice in research methods</p></li>
+</ul>
+</section>
+<section id="recommendations">
+<h3>Recommendations<a class="headerlink" href="#recommendations" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p><strong>For Researchers:</strong></p>
+<ul class="simple">
+<li><p>Always document polygon source and version</p></li>
+<li><p>Check JSI before combining analyses across datasets</p></li>
+<li><p>Prefer current WSC versions when available</p></li>
+</ul>
+</li>
+<li><p><strong>For Dataset Maintainers:</strong></p>
+<ul class="simple">
+<li><p>Include comparison metrics in dataset documentation</p></li>
+<li><p>Provide version history and changelog</p></li>
+<li><p>Cross-reference with official WSC boundaries</p></li>
+</ul>
+</li>
+<li><p><strong>For This Repository:</strong></p>
+<ul class="simple">
+<li><p>Continue tracking polygon versions in <code class="docutils literal notranslate"><span class="pre">_versions.json</span></code></p></li>
+<li><p>Store comparison metrics in <code class="docutils literal notranslate"><span class="pre">_comparison_stats.json</span></code></p></li>
+<li><p>Update this review when new LSH dataset versions release</p></li>
+</ul>
+</li>
+</ol>
+</section>
+</section>
+<hr class="docutils" />
+<section id="implementation-notes">
+<h2>Implementation Notes<a class="headerlink" href="#implementation-notes" title="Link to this heading">#</a></h2>
+<section id="data-sources">
+<h3>Data Sources<a class="headerlink" href="#data-sources" title="Link to this heading">#</a></h3>
+<p><strong>Current Polygons:</strong></p>
+<ul class="simple">
+<li><p>Source: <code class="docutils literal notranslate"><span class="pre">book_docs/stations/{STATION_ID}/_versions.json</span></code></p></li>
+<li><p>Schema: See <a class="reference internal" href="data_specification.html"><span class="std std-doc">Data Specification</span></a></p></li>
+</ul>
+<p><strong>HYSETS Polygons:</strong></p>
+<ul class="simple">
+<li><p>Download: <a class="reference external" href="https://osf.io/rpc3w/">OSF Repository</a></p></li>
+<li><p>Format: Shapefile</p></li>
+<li><p>CRS: EPSG:4326</p></li>
+</ul>
+<p><strong>Caravan Polygons:</strong></p>
+<ul class="simple">
+<li><p>Download: <a class="reference external" href="https://zenodo.org/records/15529786">Zenodo Repository</a></p></li>
+<li><p>Format: GeoJSON</p></li>
+<li><p>CRS: EPSG:4326</p></li>
+</ul>
+</section>
+<section id="analysis-script">
+<h3>Analysis Script<a class="headerlink" href="#analysis-script" title="Link to this heading">#</a></h3>
+<p><strong>Planned Implementation:</strong> <code class="docutils literal notranslate"><span class="pre">scripts/analysis/compare_lsh_datasets.py</span></code></p>
+<p>Expected workflow:</p>
+<ol class="arabic simple">
+<li><p>Load current polygon versions for demonstration stations</p></li>
+<li><p>Load corresponding HYSETS and Caravan polygons</p></li>
+<li><p>Compute JSI and area differences using local LAEA projection</p></li>
+<li><p>Generate distribution plots and summary tables</p></li>
+<li><p>Update this page with results</p></li>
+</ol>
+</section>
+<section id="update-frequency">
+<h3>Update Frequency<a class="headerlink" href="#update-frequency" title="Link to this heading">#</a></h3>
+<p>This review should be refreshed:</p>
+<ul class="simple">
+<li><p>When new HYSETS versions release</p></li>
+<li><p>When new Caravan versions release</p></li>
+<li><p>When demonstration stations update polygon versions</p></li>
+<li><p>Annually as part of data quality review</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="references">
+<h2>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>
+<div class="docutils container" id="id5">
+<div role="list" class="citation-list">
+<div class="citation" id="id14" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">ABM+20</a><span class="fn-bracket">]</span></span>
+<p>Richard Arsenault, François Brissette, Jean-Luc Martel, Magali Troin, Guillaume Lévesque, Jonathan Davidson-Chaput, Mariana Castañeda Gonzalez, Ali Ameli, and Annie Poulin. A comprehensive, multisource database for hydrometeorological modeling of 14,425 north american watersheds. <em>Scientific Data</em>, 7(1):243, 2020.</p>
+</div>
+<div class="citation" id="id21" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">KNA+23</a><span class="fn-bracket">]</span></span>
+<p>Frederik Kratzert, Grey Nearing, Nans Addor, Tyler Erickson, Martin Gauch, Oren Gilon, Lukas Gudmundsson, Avinatan Hassidim, Daniel Klotz, Sella Nevo, and others. Caravan-a global community dataset for large-sample hydrology. <em>Scientific Data</em>, 10(1):61, 2023.</p>
+</div>
+</div>
+</div>
+</section>
+<hr class="docutils" />
+<section id="related-pages">
+<h2>Related Pages<a class="headerlink" href="#related-pages" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../summary_pages/revision_summary.html"><span class="std std-doc">Cross-Station Comparisons</span></a> — Compare polygon versions within this repository</p></li>
+<li><p><a class="reference internal" href="DATA_SOURCES.html"><span class="std std-doc">Data Sources</span></a> — Dataset provenance and download links</p></li>
+<li><p><a class="reference internal" href="user_guide.html"><span class="std std-doc">Getting Started</span></a> — Polygon integration workflow</p></li>
+<li><p><a class="reference internal" href="data_specification.html"><span class="std std-doc">Data Specification</span></a> — Version metadata schema</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./guides"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../summary_pages/revision_summary.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Polygon Revision Summary</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="user_guide.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Getting Started</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#purpose">Purpose</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#motivation">Motivation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#methodology">Methodology</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comparison-metrics">Comparison Metrics</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#jaccard-similarity-index-jsi">Jaccard Similarity Index (JSI)</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#area-difference">Area Difference</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#coordinate-reference-system">Coordinate Reference System</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-comparison">Dataset Comparison</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hysets-polygon-comparison">HYSETS Polygon Comparison</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#distribution-of-jaccard-similarity">Distribution of Jaccard Similarity</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#per-station-comparison-table">Per-Station Comparison Table</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#caravan-polygon-comparison">Caravan Polygon Comparison</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Distribution of Jaccard Similarity</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#distribution-of-area-differences">Distribution of Area Differences</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Per-Station Comparison Table</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#geographic-distribution-of-discrepancies">Geographic Distribution of Discrepancies</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cross-dataset-comparison">Cross-Dataset Comparison</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hysets-vs-caravan-consistency">HYSETS vs. Caravan Consistency</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#findings-and-recommendations">Findings and Recommendations</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#key-findings">Key Findings</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#implications-for-hydrological-analysis">Implications for Hydrological Analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#recommendations">Recommendations</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#implementation-notes">Implementation Notes</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sources">Data Sources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-script">Analysis Script</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#update-frequency">Update Frequency</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#related-pages">Related Pages</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Dan Kovacek
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

@@ -181,26 +181,23 @@
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary Diagnostics</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary &amp; Diagnostics</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../../summary_pages/changelog_intro.html">Revision Changelog for Catchment Polygons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../summary_pages/revision_summary.html">Polygon Revision Summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../summary_pages/changelog_intro.html">Project Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../summary_pages/revision_summary.html">Cross-Station Comparisons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../guides/lsh_inputs_review.html">LSH Dataset Comparison</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Demo Setup</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../../guides/setup.html">Environment Setup</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../guides/data_population.html">Data Population and Initialization</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../guides/workflow.html">Quality Assurance and Diagnostic Pages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../guides/user_guide.html">User Guide</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Data Governance and Sources</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Technical Reference</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../../guides/DATA_SOURCES.html">Data Sources and Provenance</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../guides/data_specification.html">Data Specification for Camel Farrier</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../guides/DATA_GOVERNANCE.html">Data Governance and Quality Tiers</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../guides/CASE_STUDY_CROSS_DATASET.html">Case Study: Cross-Dataset Polygon Comparisons with Version Control</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../CONTRIBUTING.html">Contributing to Camel Farrier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../guides/DATA_SOURCES.html">Data Sources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../guides/data_specification.html">Data Specification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../CONTRIBUTING.html">Contributing</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Streamflow Monitoring Stations</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Station Pages</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../guides/station_directory.html">Station Directory</a></li>
 <li class="toctree-l1"><a class="reference internal" href="07AF010.html">07AF010: SUNDANCE CREEK NEAR BICKERDIKE</a></li>
@@ -453,7 +450,7 @@ document.write(`
 <h1>07QC005: ABITAU RIVER ABOVE CUMING LAKE<a class="headerlink" href="#qc005-abitau-river-above-cuming-lake" title="Link to this heading">#</a></h1>
 <section id="catchment-boundary">
 <h2>Catchment boundary<a class="headerlink" href="#catchment-boundary" title="Link to this heading">#</a></h2>
-<script src="bokeh-content-5b6fcb6df3af4e5894d5c10a8ef38837-station_pages-stations-07QC005.js" id="a4c0886c-ac1f-4c26-91ad-81f3f751d7a9"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<script src="bokeh-content-f6d3ab49fe984518a17ee8abf8089123-station_pages-stations-07QC005.js" id="f22646e5-47df-4584-b89e-40df6d8e4d87"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -504,7 +501,7 @@ document.write(`
 </section>
 <section id="timeseries-streamflow">
 <h2>Timeseries streamflow<a class="headerlink" href="#timeseries-streamflow" title="Link to this heading">#</a></h2>
-<script src="bokeh-content-c747639ddc48443e92f551904a5cf754-station_pages-stations-07QC005.js" id="a4864251-6650-44bc-8d65-9d47516693dc"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<script src="bokeh-content-8a3284f133734103babe35b3a9e11f74-station_pages-stations-07QC005.js" id="cd3c376f-6ae4-4a58-b7f3-e013c3fd267a"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -515,7 +512,7 @@ document.write(`
 </section>
 <section id="flow-distributions">
 <h2>Flow distributions<a class="headerlink" href="#flow-distributions" title="Link to this heading">#</a></h2>
-<script src="bokeh-content-4205b2e289644c10a5e88987b254e4a6-station_pages-stations-07QC005.js" id="c31ad6e3-af68-4e7b-872a-7b122dd4a025"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<script src="bokeh-content-b545479727054b4d8e2ae763ca799c1b-station_pages-stations-07QC005.js" id="b59e2292-b83f-4849-a385-bbc3f91c9873"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>

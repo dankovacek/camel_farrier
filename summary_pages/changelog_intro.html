@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Revision Changelog for Catchment Polygons &#8212; Camel Farrier</title>
+    <title>Project Overview &#8212; Camel Farrier</title>
   
   
   
@@ -181,26 +181,23 @@
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary Diagnostics</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary &amp; Diagnostics</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Revision Changelog for Catchment Polygons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="revision_summary.html">Polygon Revision Summary</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Project Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="revision_summary.html">Cross-Station Comparisons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guides/lsh_inputs_review.html">LSH Dataset Comparison</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Demo Setup</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../guides/setup.html">Environment Setup</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../guides/data_population.html">Data Population and Initialization</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../guides/workflow.html">Quality Assurance and Diagnostic Pages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guides/user_guide.html">User Guide</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Data Governance and Sources</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Technical Reference</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../guides/DATA_SOURCES.html">Data Sources and Provenance</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../guides/data_specification.html">Data Specification for Camel Farrier</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../guides/DATA_GOVERNANCE.html">Data Governance and Quality Tiers</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../guides/CASE_STUDY_CROSS_DATASET.html">Case Study: Cross-Dataset Polygon Comparisons with Version Control</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../CONTRIBUTING.html">Contributing to Camel Farrier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guides/DATA_SOURCES.html">Data Sources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guides/data_specification.html">Data Specification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CONTRIBUTING.html">Contributing</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Streamflow Monitoring Stations</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Station Pages</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../guides/station_directory.html">Station Directory</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07AF010.html">07AF010: SUNDANCE CREEK NEAR BICKERDIKE</a></li>
@@ -413,7 +410,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Revision Changelog for Catchment Polygons</h1>
+    <h1>Project Overview</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -423,7 +420,10 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hysets-dataset">HYSETS Dataset</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#motivation">Motivation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-context">Dataset Context</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#improvement-opportunities">Improvement Opportunities</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation-structure">Documentation Structure</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
 </ul>
             </nav>
@@ -436,53 +436,65 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="revision-changelog-for-catchment-polygons">
-<h1>Revision Changelog for Catchment Polygons<a class="headerlink" href="#revision-changelog-for-catchment-polygons" title="Link to this heading">#</a></h1>
-<div class="admonition-note admonition">
-<p class="admonition-title">Note</p>
-<p>This repository is intended to serve as a demonstration of the use of version control for
-editing and open-source publication of catchment polygons used widely in hydrological research.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="project-overview">
+<h1>Project Overview<a class="headerlink" href="#project-overview" title="Link to this heading">#</a></h1>
+<div class="admonition-purpose admonition">
+<p class="admonition-title">Purpose</p>
+<p>This repository demonstrates version-controlled management of catchment polygons for Canadian hydrometric stations, enabling transparent tracking of boundary revisions, reproducible data provenance, and collaborative improvement of watershed delineations used in hydrological research.</p>
 </div>
-<p>Each catchment folder contains geometric data (GeoJSON), attribute data (CSV), and a plot of the catchment polygon.</p>
-<p>Version control of catchment polygons in an open-source repository is multi-purpose:</p>
+<section id="motivation">
+<h2>Motivation<a class="headerlink" href="#motivation" title="Link to this heading">#</a></h2>
+<p>Catchment boundaries are fundamental to hydrological analysis, but polygon quality varies across datasets and updates often lack documentation. This framework addresses:</p>
+<ul class="simple">
+<li><p><strong>Transparency</strong> — All changes tracked with comparison metrics (Jaccard Index, area differences)</p></li>
+<li><p><strong>Reproducibility</strong> — Specific polygon versions linked to analyses via semantic tags and commit SHAs</p></li>
+<li><p><strong>Collaboration</strong> — Contributors can propose improvements with documented evidence and methodology</p></li>
+<li><p><strong>Quality Assessment</strong> — Automated validation and cross-dataset comparisons</p></li>
+</ul>
+<p><strong>Why Version Control?</strong></p>
+<p>Git is well-suited for managing catchment polygons because it tracks file changes systematically, while GitHub enables collaboration through Pull Requests and automated validation workflows.</p>
+</section>
+<section id="dataset-context">
+<h2>Dataset Context<a class="headerlink" href="#dataset-context" title="Link to this heading">#</a></h2>
+<p>This demonstration uses polygons from multiple sources:</p>
+<ul class="simple">
+<li><p><strong>WSC Official Basins</strong> — Water Survey of Canada drainage basin boundaries</p></li>
+<li><p><strong>HYDAT Polygons</strong> — Polygons from HYDAT drainage basin dataset</p></li>
+<li><p><strong>HYSETS</strong> <span id="id1">[<a class="reference internal" href="#id12" title="Richard Arsenault, François Brissette, Jean-Luc Martel, Magali Troin, Guillaume Lévesque, Jonathan Davidson-Chaput, Mariana Castañeda Gonzalez, Ali Ameli, and Annie Poulin. A comprehensive, multisource database for hydrometeorological modeling of 14,425 north american watersheds. Scientific Data, 7(1):243, 2020.">Arsenault <em>et al.</em>, 2020</a>]</span> — Large-sample hydrology dataset baseline</p></li>
+<li><p><strong>Caravan</strong> <span id="id2">[<a class="reference internal" href="#id19" title="Frederik Kratzert, Grey Nearing, Nans Addor, Tyler Erickson, Martin Gauch, Oren Gilon, Lukas Gudmundsson, Avinatan Hassidim, Daniel Klotz, Sella Nevo, and others. Caravan-a global community dataset for large-sample hydrology. Scientific Data, 10(1):61, 2023.">Kratzert <em>et al.</em>, 2023</a>]</span> — Global community large-sample dataset</p></li>
+</ul>
+<p>For detailed provenance, download links, and methodology, see <a class="reference internal" href="../guides/DATA_SOURCES.html"><span class="std std-doc">Data Sources</span></a>.</p>
+</section>
+<section id="improvement-opportunities">
+<h2>Improvement Opportunities<a class="headerlink" href="#improvement-opportunities" title="Link to this heading">#</a></h2>
+<p>Catchments ≤50 km² in HYSETS use simplified rectangular boundaries due to delineation challenges at fine scales. These represent approximately one-third of the dataset and offer significant opportunity for collaborative improvement through:</p>
 <ol class="arabic simple">
-<li><p><strong>Transparency</strong>: All changes to catchment polygons are tracked and can be reviewed.</p></li>
-<li><p><strong>Reproducibility</strong>: The catchment polygons can be linked to specific versions of the attribute data.</p></li>
-<li><p><strong>Collaboration</strong>: Multiple contributors can suggest changes to catchment polygons by sharing specific knowledge and evidence.</p></li>
+<li><p>High-resolution DEM delineation</p></li>
+<li><p>Field validation of drainage divides</p></li>
+<li><p>Cross-dataset comparison (HYSETS, Caravan, WSC)</p></li>
+<li><p>Community contributions with local knowledge</p></li>
 </ol>
-<p>Git for version control is well suited to the management of catchment polygons because it is designed to track changes to many kinds of files,
-and Github is particularly useful for its capacity for collaboration and automation.</p>
-<section id="hysets-dataset">
-<h2>HYSETS Dataset<a class="headerlink" href="#hysets-dataset" title="Link to this heading">#</a></h2>
-<p>The HYSETS dataset <span id="id1">[<a class="reference internal" href="#id11" title="Richard Arsenault, François Brissette, Jean-Luc Martel, Magali Troin, Guillaume Lévesque, Jonathan Davidson-Chaput, Mariana Castañeda Gonzalez, Ali Ameli, and Annie Poulin. A comprehensive, multisource database for hydrometeorological modeling of 14,425 north american watersheds. Scientific Data, 7(1):243, 2020.">Arsenault <em>et al.</em>, 2020</a>]</span> is used as the baseline polygon set for this exercise.
-The provenance of polygons used to generate catchment attributes and meteorological forcing data in HYSETS is
-described in the direct quote below.</p>
-<div class="admonition-arsenault-et-al-2020 admonition">
-<p class="admonition-title">Arsenault et al. (2020)</p>
-<p><em>“The drainage area was made available for most hydrometric gauges by the water management
-agencies that collate and curate those sources of data. However, a filter was applied to remove all stations that did not have an
-official drainage area value at the hydrometric gauge, as the value is key in determining if the watershed bounds are acceptable or not.
-The drainage areas were validated using the watershed delineation boundaries as described above in the geospatial analysis software QGIS 3.4.
-However, in some instances, the water management agencies did not provide watershed boundary files as they had not been produced or made
-available publicly. In those cases, estimated watershed contours were taken from the Global Streamflow Indices and Metadata (GSIM) project
-where available. For catchments where GSIM boundaries were kept for the data extraction a flag (“flag_GSIM_boundaries”) was set to 1 to
-inform users that the boundaries are from GSIM and not from the official agencies. The GSIM-derived area is also identified in those
-cases in the dataset, under the “Drainage_Area_GSIM_km2” heading. <strong>For catchments smaller or equal to 50 km2 in size according to the
-official gauge, a bounding box equal to the surface area around the catchment outlet was provided as the contour of the catchment as at
-those scales catchment delineations are difficult due to the resolution and hydrometric gauge accuracy</strong>. These catchments are represented
-by the “flag_artificial_boundaries” indicator in the dataset files.”</em></p>
-</div>
-<p>The text quoted in bold above is the subject of the exercise presented here as an example of how to manage
-catchment polygons in a version-control repository.  These catchments represent a significant proportion of
-the HYSETS dataset (roughly one third) and they represent an opportunity for well documented, collaborative improvement.</p>
+</section>
+<section id="documentation-structure">
+<h2>Documentation Structure<a class="headerlink" href="#documentation-structure" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong><a class="reference internal" href="revision_summary.html"><span class="std std-doc">Cross-Station Comparisons</span></a></strong> — Aggregated polygon version metrics across all stations</p></li>
+<li><p><strong><a class="reference internal" href="../guides/lsh_inputs_review.html"><span class="std std-doc">LSH Dataset Comparison</span></a></strong> — Compare current polygons against HYSETS and Caravan</p></li>
+<li><p><strong><a class="reference internal" href="../guides/station_directory.html"><span class="std std-doc">Station Pages</span></a></strong> — Individual station diagnostics with version history</p></li>
+<li><p><strong><a class="reference internal" href="../guides/user_guide.html"><span class="std std-doc">User Guide</span></a></strong> — Workflow for integrating new polygon versions</p></li>
+</ul>
 </section>
 <section id="references">
 <h2>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>
-<div class="docutils container" id="id2">
+<div class="docutils container" id="id3">
 <div role="list" class="citation-list">
-<div class="citation" id="id11" role="doc-biblioentry">
+<div class="citation" id="id12" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
 <p>Richard Arsenault, François Brissette, Jean-Luc Martel, Magali Troin, Guillaume Lévesque, Jonathan Davidson-Chaput, Mariana Castañeda Gonzalez, Ali Ameli, and Annie Poulin. A comprehensive, multisource database for hydrometeorological modeling of 14,425 north american watersheds. <em>Scientific Data</em>, 7(1):243, 2020.</p>
+</div>
+<div class="citation" id="id19" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">2</a><span class="fn-bracket">]</span></span>
+<p>Frederik Kratzert, Grey Nearing, Nans Addor, Tyler Erickson, Martin Gauch, Oren Gilon, Lukas Gudmundsson, Avinatan Hassidim, Daniel Klotz, Sella Nevo, and others. Caravan-a global community dataset for large-sample hydrology. <em>Scientific Data</em>, 10(1):61, 2023.</p>
 </div>
 </div>
 </div>
@@ -553,7 +565,10 @@ the HYSETS dataset (roughly one third) and they represent an opportunity for wel
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hysets-dataset">HYSETS Dataset</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#motivation">Motivation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-context">Dataset Context</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#improvement-opportunities">Improvement Opportunities</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation-structure">Documentation Structure</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
 </ul>
   </nav></div>

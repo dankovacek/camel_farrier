@@ -64,8 +64,8 @@
     <script src="../_static/searchindex.js?v=4891b222"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Environment Setup" href="../guides/setup.html" />
-    <link rel="prev" title="Revision Changelog for Catchment Polygons" href="changelog_intro.html" />
+    <link rel="next" title="LSH Dataset Input Review" href="../guides/lsh_inputs_review.html" />
+    <link rel="prev" title="Project Overview" href="changelog_intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -183,26 +183,23 @@
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary Diagnostics</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary &amp; Diagnostics</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="changelog_intro.html">Revision Changelog for Catchment Polygons</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Polygon Revision Summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog_intro.html">Project Overview</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Cross-Station Comparisons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guides/lsh_inputs_review.html">LSH Dataset Comparison</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Demo Setup</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../guides/setup.html">Environment Setup</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../guides/data_population.html">Data Population and Initialization</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../guides/workflow.html">Quality Assurance and Diagnostic Pages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guides/user_guide.html">User Guide</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Data Governance and Sources</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Technical Reference</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../guides/DATA_SOURCES.html">Data Sources and Provenance</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../guides/data_specification.html">Data Specification for Camel Farrier</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../guides/DATA_GOVERNANCE.html">Data Governance and Quality Tiers</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../guides/CASE_STUDY_CROSS_DATASET.html">Case Study: Cross-Dataset Polygon Comparisons with Version Control</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../CONTRIBUTING.html">Contributing to Camel Farrier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guides/DATA_SOURCES.html">Data Sources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guides/data_specification.html">Data Specification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CONTRIBUTING.html">Contributing</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Streamflow Monitoring Stations</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Station Pages</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../guides/station_directory.html">Station Directory</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07AF010.html">07AF010: SUNDANCE CREEK NEAR BICKERDIKE</a></li>
@@ -488,7 +485,7 @@ J(A, B) = \frac{|A \cap B|}{|A \cup B|}
 </section>
 <section id="geographic-distribution-of-changes">
 <h2>Geographic Distribution of Changes<a class="headerlink" href="#geographic-distribution-of-changes" title="Link to this heading">#</a></h2>
-<script src="bokeh-content-363091475bce4bbf8b5c84350f227395-summary_pages-revision_summary.js" id="cce5dd5a-8cbc-4f3b-9c96-730045f1cd4d"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<script src="bokeh-content-67edeca2fc674618bc1f60c2f022981f-summary_pages-revision_summary.js" id="f3746e42-dc02-4ddf-8fdc-3e9cad70c631"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -501,7 +498,7 @@ J(A, B) = \frac{|A \cap B|}{|A \cup B|}
 <h2>Statistical Distributions<a class="headerlink" href="#statistical-distributions" title="Link to this heading">#</a></h2>
 <section id="jaccard-similarity-distribution">
 <h3>Jaccard Similarity Distribution<a class="headerlink" href="#jaccard-similarity-distribution" title="Link to this heading">#</a></h3>
-<div style="height:400px;"><script src="bokeh-content-4c8ce73dd5074faeb3cc4ecfc351d41b-summary_pages-revision_summary.js" id="cadc62b9-2d90-4763-a94c-eb197a6d273e"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:400px;"><script src="bokeh-content-8f22182a38ce4f1a881ea8ba26ef4c02-summary_pages-revision_summary.js" id="b4038620-cab5-4914-9877-6d8eedfb4efb"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -512,7 +509,7 @@ J(A, B) = \frac{|A \cap B|}{|A \cup B|}
 </section>
 <section id="area-change-distribution">
 <h3>Area Change Distribution<a class="headerlink" href="#area-change-distribution" title="Link to this heading">#</a></h3>
-<div style="height:400px;"><script src="bokeh-content-b56ed855a6ce4b72b5760767a2e2636f-summary_pages-revision_summary.js" id="d590697b-b3f0-4900-bd8d-e655a1281e50"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:400px;"><script src="bokeh-content-41f0358fe1a04e9e89ed1797bd409330-summary_pages-revision_summary.js" id="f0aa9c0e-6828-4e6c-9eef-d2309a3b6f74"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -524,7 +521,7 @@ J(A, B) = \frac{|A \cap B|}{|A \cup B|}
 </section>
 <section id="detailed-comparison-table">
 <h2>Detailed Comparison Table<a class="headerlink" href="#detailed-comparison-table" title="Link to this heading">#</a></h2>
-<div style="height:400px;"><script src="bokeh-content-8356f1da2b9a40cf96c996469cfe696c-summary_pages-revision_summary.js" id="c60c215e-4bf4-4e38-b4e2-5cbe683558ef"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:400px;"><script src="bokeh-content-0950ce05677e4c878fe6000a5b58d1c2-summary_pages-revision_summary.js" id="addfccf0-af5d-4950-9689-703ab975a5e1"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -580,7 +577,7 @@ python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py<spa
 <h2>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>
 <p>For methodology and implementation details, see:</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="../guides/workflow.html"><span class="std std-doc">Polygon Integration Workflow</span></a></p></li>
+<li><p><a class="reference internal" href="../guides/user_guide.html"><span class="std std-doc">Getting Started</span></a></p></li>
 <li><p><a class="reference internal" href="../guides/data_specification.html"><span class="std std-doc">Data Specification</span></a></p></li>
 </ul>
 </section>
@@ -622,15 +619,15 @@ python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py<spa
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Revision Changelog for Catchment Polygons</p>
+        <p class="prev-next-title">Project Overview</p>
       </div>
     </a>
     <a class="right-next"
-       href="../guides/setup.html"
+       href="../guides/lsh_inputs_review.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Environment Setup</p>
+        <p class="prev-next-title">LSH Dataset Input Review</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

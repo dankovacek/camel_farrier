@@ -63,7 +63,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Station Directory" href="guides/station_directory.html" />
-    <link rel="prev" title="Case Study: Cross-Dataset Polygon Comparisons with Version Control" href="guides/CASE_STUDY_CROSS_DATASET.html" />
+    <link rel="prev" title="Data Specification for Camel Farrier" href="guides/data_specification.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -181,26 +181,23 @@
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary Diagnostics</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary &amp; Diagnostics</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="summary_pages/changelog_intro.html">Revision Changelog for Catchment Polygons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="summary_pages/revision_summary.html">Polygon Revision Summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="summary_pages/changelog_intro.html">Project Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="summary_pages/revision_summary.html">Cross-Station Comparisons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guides/lsh_inputs_review.html">LSH Dataset Comparison</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Demo Setup</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="guides/setup.html">Environment Setup</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guides/data_population.html">Data Population and Initialization</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guides/workflow.html">Quality Assurance and Diagnostic Pages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guides/user_guide.html">User Guide</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Data Governance and Sources</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Technical Reference</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="guides/DATA_SOURCES.html">Data Sources and Provenance</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guides/data_specification.html">Data Specification for Camel Farrier</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guides/DATA_GOVERNANCE.html">Data Governance and Quality Tiers</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guides/CASE_STUDY_CROSS_DATASET.html">Case Study: Cross-Dataset Polygon Comparisons with Version Control</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Contributing to Camel Farrier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guides/DATA_SOURCES.html">Data Sources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guides/data_specification.html">Data Specification</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Contributing</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Streamflow Monitoring Stations</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Station Pages</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="guides/station_directory.html">Station Directory</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/07AF010.html">07AF010: SUNDANCE CREEK NEAR BICKERDIKE</a></li>
@@ -520,7 +517,7 @@ document.write(`
 </pre></div>
 </div>
 </li>
-<li><p><strong>Set up your environment</strong> following the <a class="reference internal" href="guides/setup.html"><span class="std std-doc">Setup Guide</span></a></p></li>
+<li><p><strong>Set up your environment</strong> following the <a class="reference internal" href="guides/user_guide.html"><span class="std std-doc">Getting Started</span></a> guide</p></li>
 <li><p><strong>Create a feature branch</strong>:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </span>feature/your-contribution-name
 </pre></div>
@@ -538,7 +535,7 @@ document.write(`
 <li><p><strong>Document your methodology</strong> in the commit message or PR description</p></li>
 <li><p><strong>Include comparison metrics</strong> (Jaccard Index, area difference) with existing polygons</p></li>
 <li><p><strong>Provide data sources</strong> used for delineation (DEM resolution, software, parameters)</p></li>
-<li><p><strong>Follow the quality tier guidelines</strong> defined in <a class="reference internal" href="guides/DATA_GOVERNANCE.html"><span class="std std-doc">DATA_GOVERNANCE</span></a></p></li>
+<li><p><strong>Follow the quality tier guidelines</strong> defined in <span class="xref myst">DATA_GOVERNANCE</span></p></li>
 <li><p><strong>Ensure GeoJSON validity</strong> (no self-intersections, correct CRS: EPSG:4326)</p></li>
 </ol>
 <p><strong>File naming convention:</strong></p>
@@ -623,7 +620,7 @@ python<span class="w"> </span>tools/validate_data.py
 <span id="id5"></span><h2>Quality Standards<a class="headerlink" href="#quality-standards" title="Link to this heading">#</a></h2>
 <section id="data-quality-tiers">
 <h3>Data Quality Tiers<a class="headerlink" href="#data-quality-tiers" title="Link to this heading">#</a></h3>
-<p>Contributions are assigned quality tiers based on review status. See <a class="reference internal" href="guides/DATA_GOVERNANCE.html"><span class="std std-doc">DATA_GOVERNANCE</span></a> for detailed tier definitions:</p>
+<p>Contributions are assigned quality tiers based on review status. See <span class="xref myst">DATA_GOVERNANCE</span> for detailed tier definitions:</p>
 <ul class="simple">
 <li><p><strong>Tier 1 (Canonical)</strong> — Peer-reviewed, publication-ready</p></li>
 <li><p><strong>Tier 2 (Reviewed)</strong> — QA passed, suitable for operational use</p></li>
@@ -785,12 +782,12 @@ open<span class="w"> </span>_build/html/index.html
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="guides/CASE_STUDY_CROSS_DATASET.html"
+       href="guides/data_specification.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Case Study: Cross-Dataset Polygon Comparisons with Version Control</p>
+        <p class="prev-next-title">Data Specification for Camel Farrier</p>
       </div>
     </a>
     <a class="right-next"

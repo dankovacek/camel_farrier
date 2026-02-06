@@ -127,7 +127,7 @@ Comparison metrics are calculated automatically using LAEA projection for accura
 ## References
 
 For methodology and implementation details, see:
-- [Polygon Integration Workflow](../guides/workflow.md)
+- [Getting Started](../guides/user_guide.md)
 - [Data Specification](../guides/data_specification.md)
 
 

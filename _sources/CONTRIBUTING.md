@@ -44,7 +44,7 @@ We welcome several types of contributions:
    git clone https://github.com/YOUR_USERNAME/camel_farrier.git
    cd camel_farrier
    ```
-3. **Set up your environment** following the [Setup Guide](guides/setup.md)
+3. **Set up your environment** following the [Getting Started](guides/user_guide.md) guide
 4. **Create a feature branch**:
    ```bash
    git checkout -b feature/your-contribution-name
