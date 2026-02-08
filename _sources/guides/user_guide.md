@@ -4,7 +4,7 @@
 
 This guide walks you through setting up and using the Camel Farrier repository to work with hydrometric station data, catchment polygons, and diagnostic documentation.
 
-**What you'll learn:**
+**What is covered in this guide:**
 - Environment configuration and dependencies
 - Data initialization workflow
 - Polygon version integration

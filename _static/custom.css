@@ -111,3 +111,41 @@ html[data-theme="dark"] .bk-root table {
 [data-theme="dark"] .bk-root a:hover {
   color: #79c0ff !important;
 }
+
+/* Custom dictionary-entry blockquote */
+.dictionary-entry {
+  border-left: 4px solid #6c757d;
+  background-color: #f8f9fa;
+  padding: 0.5rem 0.5rem 0.05rem 1.5rem;
+  margin: 1rem 0 1rem 1.5rem;
+  border-radius: 0.25rem;
+}
+
+.dictionary-entry .term {
+  font-weight: 700;
+  font-size: 1.15em;
+  margin-bottom: 0.5rem;
+  color: #212529;
+  font-style: italic;
+  display: block;
+}
+
+.dictionary-entry .definition {
+  color: #495057;
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+/* Dark mode support */
+[data-theme="dark"] .dictionary-entry {
+  background-color: #2d3748;
+  border-left-color: #a0aec0;
+}
+
+[data-theme="dark"] .dictionary-entry .term {
+  color: #e2e8f0;
+}
+
+[data-theme="dark"] .dictionary-entry .definition {
+  color: #cbd5e0;
+}
