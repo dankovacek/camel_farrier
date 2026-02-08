@@ -1,0 +1,1301 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Getting Started &#8212; Camel Farrier</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=5355688a" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'guides/user_guide';</script>
+    <script src="../_static/searchindex.js?v=4891b222"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Data Sources and Provenance" href="DATA_SOURCES.html" />
+    <link rel="prev" title="LSH Dataset Input Review" href="lsh_inputs_review.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Camel Farrier - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Camel Farrier - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../index.html">
+                    Automated Quality Documentation for Hydrometric Data
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary &amp; Diagnostics</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../summary_pages/changelog_intro.html">Project Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../summary_pages/revision_summary.html">Cross-Station Comparisons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lsh_inputs_review.html">LSH Dataset Comparison</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">User Guide</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Technical Reference</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="DATA_SOURCES.html">Data Sources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_specification.html">Data Specification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CONTRIBUTING.html">Contributing</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Station Pages</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="station_directory.html">Station Directory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07AA001.html">07AA001: MIETTE RIVER NEAR JASPER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07AA004.html">07AA004: MALIGNE RIVER NEAR JASPER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07AC003.html">07AC003: EAST CABIN CREEK NEAR MUSKEG</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07AD004.html">07AD004: WHISKEYJACK CREEK NEAR HINTON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07AF015.html">07AF015: GREGG RIVER NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07AF016.html">07AF016: ERITH RIVER BELOW HANLAN CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07AF910.html">07AF910: WHITEHORSE CREEK NEAR CADOMIN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07BA003.html">07BA003: LOVETT RIVER NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07BB009.html">07BB009: CONNOR CREEK NEAR SANGUDO</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07BC006.html">07BC006: DAPP CREEK AT HIGHWAY NO. 44</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07BC007.html">07BC007: WABASH CREEK NEAR PIBROCH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07BE003.html">07BE003: PORTER CREEK ABOVE BAPTISTE LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07BH001.html">07BH001: ARCADIA CREEK NEAR ARCADIA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07BJ003.html">07BJ003: SWAN RIVER NEAR SWAN HILLS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07BK005.html">07BK005: SAULTEAUX RIVER NEAR SPURFIELD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07CE005.html">07CE005: JACKFISH RIVER BELOW CHRISTINA LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07DA014.html">07DA014: CALUMET RIVER NEAR FORT MACKAY</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07DB005.html">07DB005: MACKAY RIVER ABOVE DUNKIRK RIVER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07EA002.html">07EA002: KWADACHA RIVER NEAR WARE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07FA005.html">07FA005: GRAHAM RIVER ABOVE COLT CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07FB001.html">07FB001: PINE RIVER AT EAST PINE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07FC005.html">07FC005: CHARLIE LAKE NEAR FORT ST. JOHN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07FD008.html">07FD008: HINES CREEK NEAR FAIRVIEW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07FD908.html">07FD908: GRIMSHAW DRAINAGE NEAR GRIMSHAW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07GB002.html">07GB002: KAKWA RIVER NEAR GRANDE PRAIRIE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07GG001.html">07GG001: WASKAHIGAN RIVER NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07HA902.html">07HA902: KRAWCHUK DRAINAGE NEAR MCLENNAN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07HC002.html">07HC002: BUCHANAN CREEK NEAR MANNING</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07MA004.html">07MA004: WILLIAM RIVER ABOVE CARSWELL RIVER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07NB007.html">07NB007: SALT RIVER BELOW PEACE POINT HIGHWAY</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07QC008.html">07QC008: CHARLOT RIVER AT OUTLET OF WEBB LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07SB003.html">07SB003: YELLOWKNIFE RIVER AT INLET TO PROSPEROUS LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07SB005.html">07SB005: YELLOWKNIFE RIVER AT OUTLET BLUEFISH LAKE DAM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07SB020.html">07SB020: YELLOWKNIFE RIVER ABOVE QUYTA LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/07SC006.html">07SC006: FLETCHER LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08AA001.html">08AA001: AISHIHIK RIVER NEAR WHITEHORSE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08AC002.html">08AC002: TATSHENSHINI RIVER NEAR DALTON POST</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08CC003.html">08CC003: KLAPPAN RIVER AT HEADWATERS PLATEAU</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08CD001.html">08CD001: TUYA RIVER NEAR TELEGRAPH CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08DC002.html">08DC002: GEORGIE RIVER (WEST BRANCH) NEAR STEWART</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08EB006.html">08EB006: COMPASS CREEK NEAR KISPIOX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08EE005.html">08EE005: BULKLEY RIVER NEAR SMITHERS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08EE010.html">08EE010: KATHLYN CREEK ABOVE SIMPSON CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08EF004.html">08EF004: KITSEGUECLA RIVER NEAR SKEENA CROSSING</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08EG018.html">08EG018: CLARENCE CREEK NEAR ROSSWOOD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08FB005.html">08FB005: NUSATSUM RIVER NEAR HAGENSBORG</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08FB009.html">08FB009: CLAYTON FALLS CREEK NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08FC003.html">08FC003: DEAN RIVER BELOW TANSWANKET CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08GA016.html">08GA016: BRANDYWINE CREEK NEAR BREW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08GA022.html">08GA022: SQUAMISH RIVER NEAR BRACKENDALE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08GA054.html">08GA054: MAMQUAM RIVER ABOVE MASHITER CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08GA056.html">08GA056: SENTINEL CREEK ABOVE GARIBALDI LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08GA058.html">08GA058: HOP RANCH CREEK ABOVE DRYDEN CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08GA067.html">08GA067: MILLAR CREEK NEAR OUTLET OF ALPHA LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08GB005.html">08GB005: SLIAMMON CREEK NEAR POWELL RIVER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08GF001.html">08GF001: STAFFORD RIVER NEAR ROY</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08GF007.html">08GF007: WAKEMAN RIVER BELOW ATWAYKELLESSE RIVER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08GF008.html">08GF008: KINGCOME RIVER ABOVE ATLATZI RIVER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08HA009.html">08HA009: COWICHAN LAKE NEAR LAKE COWICHAN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08HB007.html">08HB007: PUNTLEDGE RIVER NEAR CUMBERLAND</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08HB008.html">08HB008: SPROAT RIVER NEAR ALBERNI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08HB014.html">08HB014: SARITA RIVER NEAR BAMFIELD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08HB034.html">08HB034: NANAIMO RIVER NEAR CASSIDY</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08HB063.html">08HB063: KITSUCKSUS CREEK ABOVE CHERRY CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08HB070.html">08HB070: MCCOY LAKE NEAR ALBERNI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08HB075.html">08HB075: DOVE CREEK NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08HC002.html">08HC002: UCONA RIVER AT THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08HC007.html">08HC007: HEBER DIVERSION NEAR GOLD RIVER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08HD011.html">08HD011: OYSTER RIVER BELOW WOODHUS CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08HD012.html">08HD012: SPRINGER CREEK NEAR SAYWARD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08HD013.html">08HD013: BARRON CREEK NEAR BLOEDEL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08HDX03.html">08HDX03: CAMPBELL RIVER NEAR CAMPBELL RIVER (TEST STATION)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08JC006.html">08JC006: MURRAY CREEK AT VANDERHOOF</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08JE005.html">08JE005: KAZCHEK CREEK NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08KA007.html">08KA007: FRASER RIVER AT RED PASS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08KA008.html">08KA008: MOOSE RIVER NEAR RED PASS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08KA013.html">08KA013: MORKILL RIVER BELOW HELLROARING CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08KB006.html">08KB006: MULLER CREEK NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08KC003.html">08KC003: MUSKEG RIVER NORTH OF JOANNE LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08KE008.html">08KE008: CUISSON CREEK (SOUTH FORK) NEAR MARGUERITE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08KE014.html">08KE014: NAVER CREEK AT HIXON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08KE028.html">08KE028: TABOR CREEK AT HIGHWAY NO. 97 NEAR PRINCE GEORGE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08KE032.html">08KE032: TABOR CREEK ABOVE SWEDE CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08KE033.html">08KE033: ALIX CREEK ABOVE ALIX LAKES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08KH024.html">08KH024: MOLYBDENITE CREEK NEAR HENDRIX LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LA009.html">08LA009: CLEARWATER RIVER AT INLET TO CLEARWATER LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LA012.html">08LA012: CLEARWATER LAKE NEAR CLEARWATER STATION</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LB023.html">08LB023: EDWARDS CREEK (LYON’S DIVERSION) NEAR HEFFLEY CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LB027.html">08LB027: PAUL CREEK NEAR KAMLOOPS (STATION F)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LB039.html">08LB039: MAD RIVER NEAR IRVINE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LB056.html">08LB056: PAUL CREEK NEAR KAMLOOPS (STATION D)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LB071.html">08LB071: HASCHEAK CREEK ABOVE RUSSELL CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LC020.html">08LC020: VIOLET CREEK NEAR GRINDROD (UPPER STATION)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LC027.html">08LC027: SICAMOUS CREEK NEAR SICAMOUS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LC034.html">08LC034: FERRY CREEK NEAR LUMBY</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LC038.html">08LC038: MABEL LAKE AT THE OUTLET</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LC044.html">08LC044: HADDO LAKE AT THE OUTLET</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LC048.html">08LC048: TRINITY CREEK ABOVE DIVERSION</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LE006.html">08LE006: PRINGLE CREEK NEAR WESTWOLD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LE027.html">08LE027: SEYMOUR RIVER NEAR SEYMOUR ARM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LE048.html">08LE048: NISKONLITH CREEK (INDIAN DIVERSION) NEAR SHUSWAP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LE079.html">08LE079: NISKONLITH LAKE NEAR SHUSWAP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LE086.html">08LE086: RATCHFORD CREEK AT 600 M CONTOUR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LE092.html">08LE092: GORDON CREEK ABOVE DIVERSIONS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LE102.html">08LE102: PETERSON CREEK ABOVE JACKO CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LF002.html">08LF002: BONAPARTE RIVER BELOW CACHE CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LF005.html">08LF005: CHERRY CREEK NEAR KAMLOOPS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LF009.html">08LF009: DEADMAN RIVER ABOVE WALHACHIN FLUME</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LF014.html">08LF014: HAT CREEK - HAMMOND DIVERSION TO OREGON JACK CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LF030.html">08LF030: DURAND CREEK (FERGUSON DIVERSION) NEAR SAVONA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LF042.html">08LF042: RUSH CREEK NEAR KAMLOOPS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LF048.html">08LF048: FIFTYNINE CREEK NEAR CHASM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LF068.html">08LF068: VENABLES CREEK ABOVE VENABLES LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LF079.html">08LF079: CHERRY CREEK NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LF095.html">08LF095: MCDONALD CREEK NEAR BRIDGE LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LF096.html">08LF096: LOON CREEK ABOVE LOON LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LG005.html">08LG005: MEADOW CREEK NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LG015.html">08LG015: CLAPPERTON CREEK NEAR NICOLA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LG016.html">08LG016: PENNASK CREEK NEAR QUILCHENA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LG020.html">08LG020: SPAHOMIN CREEK AT OUTLET OF PENNASK LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LG026.html">08LG026: HOWARTH CREEK (WEST FORK) NEAR MERRITT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LG028.html">08LG028: NICOLA RIVER AT OUTLET OF DOUGLAS LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LG044.html">08LG044: STUMPLAKE CREEK (BELOW FORKS) NEAR QUILCHENA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08LG048.html">08LG048: COLDWATER RIVER NEAR BROOKMERE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MA003.html">08MA003: TASEKO RIVER AT OUTLET OF TASEKO LAKES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MC025.html">08MC025: MISSIONER CREEK BELOW RESERVOIR LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MC028.html">08MC028: BORLAND CREEK ABOVE EAGLE MEADOWS DAM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MD029.html">08MD029: BLACKHILL CREEK NEAR PAVILION</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08ME005.html">08ME005: BRIDGE RIVER NEAR GOLD BRIDGE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08ME016.html">08ME016: PETERS CREEK NEAR SHALALTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08ME023.html">08ME023: BRIDGE RIVER (SOUTH BRANCH) BELOW BRIDGE GLACIER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MF001.html">08MF001: ANDERSON RIVER NEAR BOSTON BAR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MF002.html">08MF002: BOULDER CREEK NEAR LAIDLAW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MF036.html">08MF036: HOPE SLOUGH NEAR ROSEDALE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MF067.html">08MF067: KOPP CREEK ABOVE MENZ CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MF071.html">08MF071: BOULDER CREEK NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MG008.html">08MG008: BIRKENHEAD RIVER AT MOUNT CURRIE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MG017.html">08MG017: MIAMI CREEK NEAR HARRISON HOT SPRINGS (LOWER STATION)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MG018.html">08MG018: MIAMI CREEK NEAR AGASSIZ (UPPER STATION)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MG025.html">08MG025: PEMBERTON CREEK NEAR PEMBERTON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MH026.html">08MH026: BRUNETTE RIVER AT SAPPERTON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MH059.html">08MH059: CAMPBELL RIVER NEAR WHITE ROCK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MH070.html">08MH070: DEROCHE CREEK AT DEROCHE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MH077.html">08MH077: KENWORTHY CREEK NEAR HATZIC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MH080.html">08MH080: LONZO CREEK NEAR ABBOTSFORD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MH091.html">08MH091: SILVERDALE CREEK NEAR MISSION</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MH093.html">08MH093: SUMAS RIVER AT ATKINSON ROAD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MH103.html">08MH103: CHILLIWACK RIVER ABOVE SLESSE CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MH105.html">08MH105: NICOMEKL RIVER BELOW MURRAY CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MH123.html">08MH123: CAMPBELL RIVER ABOVE SAM HILL CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MH141.html">08MH141: COQUITLAM RIVER ABOVE COQUITLAM LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MH145.html">08MH145: DOWNES CREEK NEAR CLEARBROOK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08MH148.html">08MH148: ALOUETTE LAKE FOREBAY</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NA022.html">08NA022: KINDERSLEY CREEK NEAR BRISCO</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NA034.html">08NA034: WARM SPRINGS CREEK NEAR FAIRMONT (UPPER STATION)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NA037.html">08NA037: CARBONATE CREEK NEAR MCMURDO</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NA042.html">08NA042: MCCREADY CREEK NEAR BRISCO</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NA057.html">08NA057: WILMER CREEK NEAR WILMER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NA067.html">08NA067: BOWER CREEK NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NB009.html">08NB009: HOSPITAL CREEK NORTH FORK NEAR GOLDEN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NB011.html">08NB011: COLUMBIA RIVER AT BIG BEND HIGHWAY CROSSING</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NB013.html">08NB013: GOLD RIVER ABOVE BACHELOR CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NB016.html">08NB016: SPLIT CREEK AT THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NC003.html">08NC003: CANOE RIVER NEAR VALEMOUNT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08ND004.html">08ND004: JORDAN RIVER NEAR REVELSTOKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NE001.html">08NE001: INCOMAPPLEUX RIVER NEAR BEATON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NE073.html">08NE073: BLUEBERRY CREEK NEAR BLUEBERRY CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NE076.html">08NE076: MERRY CREEK NEAR KINNAIRD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NE078.html">08NE078: WHATSHAN RIVER NEAR NEEDLES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NE094.html">08NE094: CAI CREEK NEAR BRILLIANT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NE106.html">08NE106: BEAVER CREEK AT THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NE110.html">08NE110: INONOAKLIN CREEK ABOVE VALLEY CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NE113.html">08NE113: KELLY CREEK AT 850 M CONTOUR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NG002.html">08NG002: BULL RIVER NEAR WARDNER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NG007.html">08NG007: MARK CREEK NEAR MARYSVILLE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NG012.html">08NG012: ST. MARY RIVER AT WYCLIFFE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NG030.html">08NG030: MAUSE CREEK NEAR FORT STEELE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NG031.html">08NG031: CASSIMAYOOK CREEK NEAR BAKER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NG056.html">08NG056: HOULE CREEK NEAR KIMBERLEY</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NG059.html">08NG059: LAKIT CREEK NEAR FORT STEELE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NG063.html">08NG063: NORBURY CREEK AT OUTLET OF NORBURY LAKES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NG064.html">08NG064: SUPPLY CREEK NEAR BULL RIVER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NG079.html">08NG079: LAKE KOOCANUSA AT INTERNATIONAL BOUNDARY</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NG083.html">08NG083: MILLER CREEK NEAR 1160 M CONTOUR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NH001.html">08NH001: DUNCAN RIVER NEAR HOWSER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NH002.html">08NH002: FRY CREEK NEAR LARDO</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NH049.html">08NH049: BIRKBECK CREEK NEAR GRAY CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NH100.html">08NH100: SUMMIT CREEK NEAR CRESTON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NH102.html">08NH102: AKOKLI CREEK NEAR BOSWELL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NH120.html">08NH120: MOYIE RIVER ABOVE NEGRO CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NH122.html">08NH122: PEAVINE CREEK NEAR CRANBROOK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NJ004.html">08NJ004: CARPENTER CREEK (SOUTH FORK) AT SANDON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NJ013.html">08NJ013: SLOCAN RIVER NEAR CRESCENT VALLEY</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NJ068.html">08NJ068: FORTY-NINE CREEK NEAR BLEWETT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NJ135.html">08NJ135: GOOSE CREEK ABOVE GANDER CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NJ145.html">08NJ145: RICE CREEK NEAR APPLEDALE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NJ151.html">08NJ151: MCPHEE CREEK NEAR BRILLIANT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NJ166.html">08NJ166: DUMONT CREEK NEAR WINLAW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NK017.html">08NK017: WHITING CREEK NEAR NATAL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NK028.html">08NK028: MICHEL CREEK ABOVE CORBIN CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NK029.html">08NK029: KILMARNOCK CREEK NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NL018.html">08NL018: HAYES CREEK NEAR JURA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NL050.html">08NL050: HEDLEY CREEK NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NL057.html">08NL057: ALLISON CREEK AT OUTLET OF ALLISON LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NL060.html">08NL060: OTTER CREEK BELOW SPEARING CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NL067.html">08NL067: TULAMEEN RIVER NEAR TULAMEEN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NL075.html">08NL075: SIMILKAMEEN RIVER ABOVE MEMALOOSE CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NM023.html">08NM023: DARKE CREEK NORTHWEST FORK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NM063.html">08NM063: PENTICTON CREEK LOT 19 DIVERSION</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NM075.html">08NM075: DEEP CREEK NEAR VERNON (STATION NO. 3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NM131.html">08NM131: OKANOGAN RIVER AT BRIDGE STREET AT OROVILLE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NM143.html">08NM143: KALAMALKA LAKE AT VERNON PUMPHOUSE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NM148.html">08NM148: TWIN LAKES NEAR OLALLA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NM171.html">08NM171: VASEUX CREEK ABOVE SOLCO CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NM172.html">08NM172: PEARSON CREEK NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NM233.html">08NM233: MISSION CREEK ABOVE PEARSON CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NM238.html">08NM238: THIRSK LAKE NEAR THE OUTLET</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NN017.html">08NN017: CHRISTINA LAKE NEAR GRAND FORKS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NN021.html">08NN021: MOODY CREEK NEAR CHRISTINA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NN023.html">08NN023: BURRELL CREEK ABOVE GLOUCESTER CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08NN027.html">08NN027: BEAVERDELL CREEK NEAR BEAVERDELL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08OB002.html">08OB002: PALLANT CREEK NEAR DAAJING GIIDS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/08OB003.html">08OB003: MATHERS CREEK NEAR SANDSPIT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09AA014.html">09AA014: FANTAIL RIVER AT OUTLET OF FANTAIL LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09AA016.html">09AA016: FANTAIL LAKE NEAR ATLIN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09AC001.html">09AC001: TAKHINI RIVER NEAR WHITEHORSE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09AD002.html">09AD002: SIDNEY CREEK AT KILOMETRE 46 SOUTH CANOL ROAD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09AE006.html">09AE006: MORLEY RIVER AT KM 1251 ALASKA HIGHWAY</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09CA004.html">09CA004: DUKE RIVER NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09DC001.html">09DC001: MAYO RIVER NEAR MAYO</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09DC006.html">09DC006: STEWART RIVER NEAR MAYO</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09EA005.html">09EA005: LITTLE SOUTH KLONDIKE RIVER BELOW ROSS CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/09EA006.html">09EA006: KLONDIKE RIVER AT ROCK CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10BA001.html">10BA001: TURNAGAIN RIVER ABOVE SANDPILE CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10CD001.html">10CD001: MUSKWA RIVER NEAR FORT NELSON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10CD006.html">10CD006: PROPHET RIVER ABOVE CHEVES CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10FA001.html">10FA001: TROUT RIVER NEAR OUTLET OF TROUT LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10GB006.html">10GB006: WILLOWLAKE RIVER ABOVE METAHDALI CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10GC002.html">10GC002: HARRIS RIVER NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10GC003.html">10GC003: MARTIN RIVER AT HIGHWAY NO. 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10HC008.html">10HC008: OCHRE RIVER NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10LB004.html">10LB004: LOON RIVER NEAR THE ARCTIC CIRCLE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10MD002.html">10MD002: BABBAGE RIVER BELOW CARIBOU CREEK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10PA001.html">10PA001: COPPERMINE RIVER BELOW DESTEFFANY LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10PB002.html">10PB002: IZOK LAKE INFLOW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10SA002.html">10SA002: LORD LINDSAY RIVER ABOVE SANAGAK LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10UH007.html">10UH007: BURTON RIVER AT BURTON LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10VC010.html">10VC010: ELEANOR RIVER ABOVE ELEANOR LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10VC013.html">10VC013: SNOWBIRD CREEK NEAR BRADFORD ISLAND</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../station_pages/stations/10VK001.html">10VK001: RUGGLES RIVER AT OUTLET LAKE HAZEN</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/dankovacek/camel_farrier" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/dankovacek/camel_farrier/issues/new?title=Issue%20on%20page%20%2Fguides/user_guide.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/guides/user_guide.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Getting Started</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#purpose">Purpose</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#environment-setup">Environment Setup</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clone-repository-and-install-dependencies">Clone Repository and Install Dependencies</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#configure-external-data-path">Configure External Data Path</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#download-required-datasets">Download Required Datasets</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#verify-setup">Verify Setup</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-start-workflow">Quick Start Workflow</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#station-data-initialization">Station Data Initialization</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#demo-stations">Demo Stations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#running-initialization">Running Initialization</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#git-tracking-philosophy">Git Tracking Philosophy</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#integrating-hydat-catchment-polygons">Integrating HYDAT Catchment Polygons</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#download-hydat-polygons">Download HYDAT Polygons</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#integration-workflow">Integration Workflow</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comparison-metrics">Comparison Metrics</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#version-graph-structure">Version Graph Structure</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#diagnostic-page-generation">Diagnostic Page Generation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#generate-station-pages">Generate Station Pages</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#plot-generation">Plot Generation</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#validation-rules">Validation Rules</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#build-and-deploy-documentation">Build and Deploy Documentation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#build-jupyter-book">Build Jupyter Book</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#deploy-to-github-pages">Deploy to GitHub Pages</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scripts-architecture">Scripts Architecture</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#configuration-layer-scripts-config">Configuration Layer (<code class="docutils literal notranslate"><span class="pre">scripts/config/</span></code>)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#utilities-layer-scripts-utils">Utilities Layer (<code class="docutils literal notranslate"><span class="pre">scripts/utils/</span></code>)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#generation-layer-scripts-generation">Generation Layer (<code class="docutils literal notranslate"><span class="pre">scripts/generation/</span></code>)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#workflow-scripts-scripts-demo-setup">Workflow Scripts (<code class="docutils literal notranslate"><span class="pre">scripts/demo_setup/</span></code>)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#troubleshooting">Troubleshooting</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wateroffice-export-not-found">“WaterOffice export not found”</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hydat-database-not-found">“HYDAT database not found”</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#import-error-supporting-figure-functions">“Import error: supporting_figure_functions”</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crs-projection-warnings">CRS/Projection Warnings</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#full-rebuild-workflow">Full Rebuild Workflow</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#next-steps">Next Steps</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="getting-started">
+<h1>Getting Started<a class="headerlink" href="#getting-started" title="Link to this heading">#</a></h1>
+<section id="purpose">
+<h2>Purpose<a class="headerlink" href="#purpose" title="Link to this heading">#</a></h2>
+<p>This guide walks you through setting up and using the Camel Farrier repository to work with hydrometric station data, catchment polygons, and diagnostic documentation.</p>
+<p><strong>What is covered in this guide:</strong></p>
+<ul class="simple">
+<li><p>Environment configuration and dependencies</p></li>
+<li><p>Data initialization workflow</p></li>
+<li><p>Polygon version integration</p></li>
+<li><p>Diagnostic page generation and validation</p></li>
+<li><p>Documentation building and deployment</p></li>
+</ul>
+<p><strong>For data schema reference,</strong> see <a class="reference internal" href="data_specification.html"><span class="std std-doc">Data Specification</span></a>.</p>
+<p><strong>For dataset provenance and citations,</strong> see <a class="reference internal" href="DATA_SOURCES.html"><span class="std std-doc">Data Sources</span></a>.</p>
+</section>
+<hr class="docutils" />
+<section id="environment-setup">
+<h2>Environment Setup<a class="headerlink" href="#environment-setup" title="Link to this heading">#</a></h2>
+<section id="clone-repository-and-install-dependencies">
+<h3>Clone Repository and Install Dependencies<a class="headerlink" href="#clone-repository-and-install-dependencies" title="Link to this heading">#</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/dankovacek/camel_farrier.git
+<span class="nb">cd</span><span class="w"> </span>camel_farrier
+pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>book_docs/requirements.txt
+</pre></div>
+</div>
+</section>
+<section id="configure-external-data-path">
+<h3>Configure External Data Path<a class="headerlink" href="#configure-external-data-path" title="Link to this heading">#</a></h3>
+<p>External geospatial datasets (HYDAT database, WSC basins) are accessed via the <code class="docutils literal notranslate"><span class="pre">COMMON_DATA_DIR</span></code> environment variable.</p>
+<p><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">~/data/hydrometric/</span></code> (if not set)</p>
+<p><strong>To customize:</strong></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span><span class="w"> </span><span class="nv">COMMON_DATA_DIR</span><span class="o">=</span>/path/to/your/geospatial/data
+
+<span class="c1"># Persist in shell profile</span>
+<span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;export COMMON_DATA_DIR=/path/to/your/geospatial/data&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.bashrc
+<span class="nb">source</span><span class="w"> </span>~/.bashrc
+</pre></div>
+</div>
+</section>
+<section id="download-required-datasets">
+<h3>Download Required Datasets<a class="headerlink" href="#download-required-datasets" title="Link to this heading">#</a></h3>
+<p>See <a class="reference internal" href="DATA_SOURCES.html"><span class="std std-doc">Data Sources</span></a> for download links and provenance. Required datasets:</p>
+<ul class="simple">
+<li><p><strong>HYDAT database</strong> — Canadian hydrometric database (SQLite)</p></li>
+<li><p><strong>WSC catchment polygons</strong> — Water Survey of Canada basin boundaries</p></li>
+<li><p><strong>HYDAT drainage basins</strong> — (Optional) For polygon version comparisons</p></li>
+</ul>
+<p>Expected directory structure:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$COMMON_DATA_DIR/
+└── HYDAT/
+    ├── Hydat.sqlite3
+    ├── WSC_basin_polygons/
+    └── polygons/              # Optional: For HYDAT polygon integration
+        ├── MDA_ADP_07/
+        ├── MDA_ADP_08/
+        └── MDA_ADP_09/
+</pre></div>
+</div>
+</section>
+<section id="verify-setup">
+<h3>Verify Setup<a class="headerlink" href="#verify-setup" title="Link to this heading">#</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;</span>
+<span class="s2">from scripts.config.paths import HYDAT_DB_PATH, COMMON_DATA_DIR</span>
+<span class="s2">print(f&#39;COMMON_DATA_DIR: {COMMON_DATA_DIR}&#39;)</span>
+<span class="s2">print(f&#39;HYDAT path: {HYDAT_DB_PATH}&#39;)</span>
+<span class="s2">print(f&#39;HYDAT exists: {HYDAT_DB_PATH.exists()}&#39;)</span>
+<span class="s2">&quot;</span>
+</pre></div>
+</div>
+<p><strong>Expected output:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">COMMON_DATA_DIR</span><span class="p">:</span> <span class="o">/</span><span class="n">your</span><span class="o">/</span><span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">common_data</span>
+<span class="n">HYDAT</span> <span class="n">path</span><span class="p">:</span> <span class="o">/</span><span class="n">your</span><span class="o">/</span><span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">common_data</span><span class="o">/</span><span class="n">HYDAT</span><span class="o">/</span><span class="n">Hydat_sqlite3_20260116</span><span class="o">/</span><span class="n">Hydat</span><span class="o">.</span><span class="n">sqlite3</span>
+<span class="n">HYDAT</span> <span class="n">exists</span><span class="p">:</span> <span class="kc">True</span>
+</pre></div>
+</div>
+<p><strong>If <code class="docutils literal notranslate"><span class="pre">HYDAT</span> <span class="pre">exists:</span> <span class="pre">False</span></code></strong>, check environment variables and download paths.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="quick-start-workflow">
+<h2>Quick Start Workflow<a class="headerlink" href="#quick-start-workflow" title="Link to this heading">#</a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Initialize random set of stations (n=number, m=min per region)</span>
+python<span class="w"> </span>scripts/demo_data/generate_demo_stn_list.py<span class="w"> </span>-n<span class="w"> </span><span class="m">25</span><span class="w"> </span>-m<span class="w"> </span><span class="m">2</span>
+
+<span class="c1"># Initialize demo stations</span>
+python<span class="w"> </span>scripts/demo_setup/populate_demo_data.py
+
+<span class="c1"># (Optional) Integrate HYDAT polygon versions</span>
+python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py<span class="w"> </span>--dry-run
+python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py
+
+<span class="c1"># Generate diagnostic pages</span>
+python<span class="w"> </span>scripts/demo_setup/process_station_pages.py
+
+<span class="c1"># Build documentation</span>
+<span class="nb">cd</span><span class="w"> </span>book_docs/
+jupyter<span class="w"> </span>book<span class="w"> </span>build<span class="w"> </span>.
+open<span class="w"> </span>_build/html/index.html
+</pre></div>
+</div>
+</section>
+<hr class="docutils" />
+<section id="station-data-initialization">
+<h2>Station Data Initialization<a class="headerlink" href="#station-data-initialization" title="Link to this heading">#</a></h2>
+<section id="demo-stations">
+<h3>Demo Stations<a class="headerlink" href="#demo-stations" title="Link to this heading">#</a></h3>
+<p>The repository includes 10 demonstration stations from across Canada:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">07</span><span class="n">AF010</span><span class="p">,</span> <span class="mi">07</span><span class="n">DB005</span><span class="p">,</span> <span class="mi">07</span><span class="n">EE009</span><span class="p">,</span> <span class="mi">07</span><span class="n">FD014</span><span class="p">,</span> <span class="mi">07</span><span class="n">GA002</span>
+<span class="mi">07</span><span class="n">JC003</span><span class="p">,</span> <span class="mi">07</span><span class="n">QC005</span><span class="p">,</span> <span class="mi">08</span><span class="n">GA065</span><span class="p">,</span> <span class="mi">08</span><span class="n">LB053</span><span class="p">,</span> <span class="mi">08</span><span class="n">LE067</span>
+<span class="mi">08</span><span class="n">NE067</span><span class="p">,</span> <span class="mi">08</span><span class="n">NJ134</span><span class="p">,</span> <span class="mi">08</span><span class="n">NM133</span><span class="p">,</span> <span class="mi">08</span><span class="n">NM134</span><span class="p">,</span> <span class="mi">09</span><span class="n">DA001</span>
+<span class="mi">09</span><span class="n">DC004</span><span class="p">,</span> <span class="mi">09</span><span class="n">EA005</span><span class="p">,</span> <span class="mi">09</span><span class="n">FA001</span><span class="p">,</span> <span class="mi">09</span><span class="n">FC001</span><span class="p">,</span> <span class="mi">10</span><span class="n">CD003</span>
+<span class="mi">10</span><span class="n">ED009</span><span class="p">,</span> <span class="mi">10</span><span class="n">FB005</span><span class="p">,</span> <span class="mi">10</span><span class="n">JA004</span><span class="p">,</span> <span class="mi">10</span><span class="n">KC001</span><span class="p">,</span> <span class="mi">10</span><span class="n">LA002</span>
+</pre></div>
+</div>
+<p>Station IDs are defined in <code class="docutils literal notranslate"><span class="pre">demo_data/DEMO_STATIONS.txt</span></code>.</p>
+</section>
+<section id="running-initialization">
+<h3>Running Initialization<a class="headerlink" href="#running-initialization" title="Link to this heading">#</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>scripts/demo_setup/populate_demo_data.py
+</pre></div>
+</div>
+<p>This script:</p>
+<ol class="arabic simple">
+<li><p>Extracts Water Office export (corrections, field visits, rating curves)</p></li>
+<li><p>Queries HYDAT for station metadata</p></li>
+<li><p>Extracts catchment polygons from WSC basins</p></li>
+<li><p>Generates JSON metadata files</p></li>
+</ol>
+<p><strong>Output files per station:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>book_docs/stations/{STATION_ID}/
+├── _metadata.json                 # Station info from HYDAT (tracked in git)
+├── _versions.json                 # Polygon version history (tracked in git)
+├── _comparison_stats.json         # Pre-computed comparison metrics (tracked in git)
+├── _qc_status.json                # Quality control status (tracked in git)
+├── _data_sources.json             # Data provenance tracking (tracked in git)
+├── {STATION_ID}_corrections.csv   # Data corrections (tracked in git)
+├── {STATION_ID}_field_visits.csv  # Field visit records (tracked in git)
+├── {STATION_ID}_RCs.csv           # Rating curves (tracked in git)
+├── {STATION_ID}_daily_flows.csv   # Daily flow timeseries (local only)
+├── {STATION_ID}_daily_levels.csv  # Daily level timeseries (local only)
+├── {STATION_ID}_annual_peaks.csv  # Annual peak flows (local only)
+└── {STATION_ID}_polygon_v*.geojson # Catchment polygons (local only, not in git)
+</pre></div>
+</div>
+</section>
+<section id="git-tracking-philosophy">
+<h3>Git Tracking Philosophy<a class="headerlink" href="#git-tracking-philosophy" title="Link to this heading">#</a></h3>
+<p><strong>Metadata-only approach:</strong></p>
+<ul class="simple">
+<li><p>✓ <strong>Tracked in git:</strong> CSV files, JSON metadata</p></li>
+<li><p>✗ <strong>Not tracked:</strong> Polygon GeoJSON files (large geospatial data)</p></li>
+</ul>
+<p><strong>Rationale:</strong></p>
+<ul class="simple">
+<li><p><strong>Data Integrity:</strong> Polygons remain unmodified from source</p></li>
+<li><p><strong>Repository Size:</strong> Keeps git history lightweight</p></li>
+<li><p><strong>Provenance:</strong> Metadata tracks exactly where data originated</p></li>
+<li><p><strong>Production Pattern:</strong> Large files stored externally; metadata in git</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="integrating-hydat-catchment-polygons">
+<h2>Integrating HYDAT Catchment Polygons<a class="headerlink" href="#integrating-hydat-catchment-polygons" title="Link to this heading">#</a></h2>
+<p>To create versioned polygon histories, integrate alternative catchment polygons from HYDAT’s drainage basin dataset.</p>
+<section id="download-hydat-polygons">
+<h3>Download HYDAT Polygons<a class="headerlink" href="#download-hydat-polygons" title="Link to this heading">#</a></h3>
+<p>Download from <a class="reference external" href="https://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/HydrometricNetworkBasinPolygons/">Hydrometric Network Basin Polygons</a>.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span><span class="nv">$COMMON_DATA_DIR</span>/HYDAT/
+mkdir<span class="w"> </span>-p<span class="w"> </span>polygons
+
+<span class="c1"># Download regional files (example: regions 07, 08, 09)</span>
+wget<span class="w"> </span>https://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/HydrometricNetworkBasinPolygons/geojson/MDA_ADP_07.zip
+wget<span class="w"> </span>https://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/HydrometricNetworkBasinPolygons/geojson/MDA_ADP_08.zip
+wget<span class="w"> </span>https://collaboration.cmc.ec.gc.ca/cmc/hydrometrics/www/HydrometricNetworkBasinPolygons/geojson/MDA_ADP_09.zip
+
+<span class="c1"># Extract</span>
+unzip<span class="w"> </span>MDA_ADP_07.zip<span class="w"> </span>-d<span class="w"> </span>polygons/
+unzip<span class="w"> </span>MDA_ADP_08.zip<span class="w"> </span>-d<span class="w"> </span>polygons/
+unzip<span class="w"> </span>MDA_ADP_09.zip<span class="w"> </span>-d<span class="w"> </span>polygons/
+</pre></div>
+</div>
+</section>
+<section id="integration-workflow">
+<h3>Integration Workflow<a class="headerlink" href="#integration-workflow" title="Link to this heading">#</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Preview changes (dry-run mode)</span>
+python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py<span class="w"> </span>--dry-run
+
+<span class="c1"># Integrate all demo stations</span>
+python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py
+
+<span class="c1"># Integrate specific stations</span>
+<span class="nb">echo</span><span class="w"> </span>-e<span class="w"> </span><span class="s2">&quot;07DB005\n08NM134&quot;</span><span class="w"> </span>&gt;<span class="w"> </span>/tmp/my_stations.txt
+python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py<span class="w"> </span>--stations-file<span class="w"> </span>/tmp/my_stations.txt
+</pre></div>
+</div>
+<p><strong>What it does:</strong></p>
+<ol class="arabic simple">
+<li><p><strong>Find HYDAT Polygon:</strong> Searches regional directories for matching StationNum</p></li>
+<li><p><strong>Compare Geometries:</strong> Computes Jaccard similarity and area differences (equal-area projection)</p></li>
+<li><p><strong>Determine Version:</strong> Assigns semantic version (major vs minor) based on keywords</p></li>
+<li><p><strong>Extract Polygon:</strong> Transforms to EPSG:3857, saves as versioned GeoJSON</p></li>
+<li><p><strong>Update Metadata:</strong> Adds version entry and comparison metrics to <code class="docutils literal notranslate"><span class="pre">_versions.json</span></code></p></li>
+</ol>
+</section>
+<section id="comparison-metrics">
+<h3>Comparison Metrics<a class="headerlink" href="#comparison-metrics" title="Link to this heading">#</a></h3>
+<p><strong>Jaccard Similarity Index (JSI):</strong></p>
+<ul class="simple">
+<li><p>JSI = Area(intersection) / Area(union)</p></li>
+<li><p>Range: 0 (no overlap) to 1 (identical)</p></li>
+<li><p>Values &gt; 0.95 indicate high similarity</p></li>
+</ul>
+<p><strong>Area Difference:</strong></p>
+<ul class="simple">
+<li><p>Percent diff = ((new_area - old_area) / old_area) × 100</p></li>
+<li><p>Positive: new polygon larger</p></li>
+<li><p>Negative: new polygon smaller</p></li>
+</ul>
+<p><strong>Projection:</strong> Uses Lambert Azimuthal Equal Area (LAEA) centered at polygon centroid for accurate area calculations.</p>
+</section>
+<section id="version-graph-structure">
+<h3>Version Graph Structure<a class="headerlink" href="#version-graph-structure" title="Link to this heading">#</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">_versions.json</span></code> uses a graph-based structure allowing any-to-any version comparisons:</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;station_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;07DB005&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;current_version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;v1.1.0&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;versions&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;semantic_tag&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;v1.0.0&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;timestamp&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-02-05T03:19:25.266031&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;data_source&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WSC_basins&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;polygon_file&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;07DB005_polygon_v1.0.0.geojson&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;semantic_tag&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;v1.1.0&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;timestamp&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-02-05T04:11:56.142026&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;data_source&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;HYDAT_polygons&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;polygon_file&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;07DB005_polygon_v1.1.0.geojson&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">],</span>
+<span class="w">  </span><span class="nt">&quot;comparisons&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;v1.0.0_vs_v1.1.0&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;computed_at&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-02-05T04:11:56.142190&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;jaccard_index&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.9945</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;old_area_km2&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">1823.45</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;new_area_km2&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">1833.12</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;absolute_area_diff_km2&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">9.67</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;percent_area_diff&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.5</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="diagnostic-page-generation">
+<h2>Diagnostic Page Generation<a class="headerlink" href="#diagnostic-page-generation" title="Link to this heading">#</a></h2>
+<section id="generate-station-pages">
+<h3>Generate Station Pages<a class="headerlink" href="#generate-station-pages" title="Link to this heading">#</a></h3>
+<p>After initializing data, run:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>scripts/demo_setup/process_station_pages.py
+</pre></div>
+</div>
+<p>This creates Markdown pages for each station in <code class="docutils literal notranslate"><span class="pre">book_docs/station_pages/stations/</span></code> with:</p>
+<ul class="simple">
+<li><p><strong>Station Metadata Table</strong> — Coordinates, drainage area, source, retrieval date</p></li>
+<li><p><strong>Version History</strong> — Polygon version provenance with comparison metrics</p></li>
+<li><p><strong>Data Quality Status</strong> — QC validation results</p></li>
+<li><p><strong>Interactive Visualizations</strong> — Catchment maps, polygon comparisons, flow plots</p></li>
+</ul>
+</section>
+<section id="plot-generation">
+<h3>Plot Generation<a class="headerlink" href="#plot-generation" title="Link to this heading">#</a></h3>
+<p>Interactive visualizations use Bokeh plots generated by <code class="docutils literal notranslate"><span class="pre">scripts/catchment_page_utils.py</span></code>:</p>
+<ul class="simple">
+<li><p><strong>Catchment Boundary Map</strong> — Interactive polygon visualization with basemap tiles</p></li>
+<li><p><strong>Polygon Comparison</strong> — When 2+ versions exist, shows spatial differences:</p>
+<ul>
+<li><p><strong>Light green:</strong> Agreement (intersection)</p></li>
+<li><p><strong>Red:</strong> Old area NOT in new (false positive)</p></li>
+<li><p><strong>Purple:</strong> New area NOT in old (false negative)</p></li>
+</ul>
+</li>
+<li><p><strong>Timeseries Charts</strong> — Flow/level data over time</p></li>
+</ul>
+<p>Plots execute at build time using MyST <code class="docutils literal notranslate"><span class="pre">bokeh-plot</span></code> directives.</p>
+</section>
+<section id="validation-rules">
+<h3>Validation Rules<a class="headerlink" href="#validation-rules" title="Link to this heading">#</a></h3>
+<p>Automated checks include:</p>
+<ul class="simple">
+<li><p><strong>Data Completeness</strong> — Required CSV/JSON files present</p></li>
+<li><p><strong>CSV Format</strong> — Valid column structure and data types</p></li>
+<li><p><strong>Discharge Values</strong> — No negative streamflow (≥0)</p></li>
+<li><p><strong>Timestamps</strong> — Valid ISO 8601 format</p></li>
+<li><p><strong>Polygon Geometry</strong> — Valid GeoJSON, no self-intersections</p></li>
+<li><p><strong>Metadata Quality</strong> — Required fields populated</p></li>
+</ul>
+<p>Results stored in <code class="docutils literal notranslate"><span class="pre">_qc_status.json</span></code> per station.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="build-and-deploy-documentation">
+<h2>Build and Deploy Documentation<a class="headerlink" href="#build-and-deploy-documentation" title="Link to this heading">#</a></h2>
+<section id="build-jupyter-book">
+<h3>Build Jupyter Book<a class="headerlink" href="#build-jupyter-book" title="Link to this heading">#</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>book_docs/
+jupyter<span class="w"> </span>book<span class="w"> </span>build<span class="w"> </span>.
+</pre></div>
+</div>
+<p>View locally:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>open<span class="w"> </span>_build/html/index.html
+</pre></div>
+</div>
+</section>
+<section id="deploy-to-github-pages">
+<h3>Deploy to GitHub Pages<a class="headerlink" href="#deploy-to-github-pages" title="Link to this heading">#</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ghp-import<span class="w"> </span>-n<span class="w"> </span>-p<span class="w"> </span>-f<span class="w"> </span>book_docs/_build/html
+</pre></div>
+</div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="scripts-architecture">
+<h2>Scripts Architecture<a class="headerlink" href="#scripts-architecture" title="Link to this heading">#</a></h2>
+<p>The workflow uses modular, reusable scripts organized into layers:</p>
+<section id="configuration-layer-scripts-config">
+<h3>Configuration Layer (<code class="docutils literal notranslate"><span class="pre">scripts/config/</span></code>)<a class="headerlink" href="#configuration-layer-scripts-config" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">paths.py</span></code></strong> — Centralized path resolution (single source of truth)</p></li>
+</ul>
+</section>
+<section id="utilities-layer-scripts-utils">
+<h3>Utilities Layer (<code class="docutils literal notranslate"><span class="pre">scripts/utils/</span></code>)<a class="headerlink" href="#utilities-layer-scripts-utils" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">bokeh.py</span></code></strong> — Bokeh visualization utilities</p></li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">geometry.py</span></code></strong> — Geospatial operations (Jaccard, projections)</p></li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">markdown.py</span></code></strong> — Template rendering and table generation</p></li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">data_loaders.py</span></code></strong> — Unified data loading with caching</p></li>
+</ul>
+</section>
+<section id="generation-layer-scripts-generation">
+<h3>Generation Layer (<code class="docutils literal notranslate"><span class="pre">scripts/generation/</span></code>)<a class="headerlink" href="#generation-layer-scripts-generation" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">page_generator.py</span></code></strong> — Unified page generation</p></li>
+</ul>
+</section>
+<section id="workflow-scripts-scripts-demo-setup">
+<h3>Workflow Scripts (<code class="docutils literal notranslate"><span class="pre">scripts/demo_setup/</span></code>)<a class="headerlink" href="#workflow-scripts-scripts-demo-setup" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">populate_demo_data.py</span></code></strong> — Initialize station data</p></li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">integrate_hydat_polygons.py</span></code></strong> — Add polygon versions</p></li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">process_station_pages.py</span></code></strong> — Generate diagnostic pages</p></li>
+</ul>
+<p><strong>Design Benefits:</strong></p>
+<ul class="simple">
+<li><p><strong>Single Source of Truth:</strong> Path changes only require editing <code class="docutils literal notranslate"><span class="pre">paths.py</span></code></p></li>
+<li><p><strong>Reusability:</strong> Utilities enable multiple workflows without duplication</p></li>
+<li><p><strong>Testability:</strong> Each layer can be tested independently</p></li>
+<li><p><strong>Maintainability:</strong> Clear separation of concerns</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="troubleshooting">
+<h2>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Link to this heading">#</a></h2>
+<section id="wateroffice-export-not-found">
+<h3>“WaterOffice export not found”<a class="headerlink" href="#wateroffice-export-not-found" title="Link to this heading">#</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ls<span class="w"> </span>data/WaterOffice_RC_Export_20260203.zip
+</pre></div>
+</div>
+<p>Download from Zenodo using DOI (see <a class="reference internal" href="DATA_SOURCES.html"><span class="std std-doc">Data Sources</span></a>).</p>
+</section>
+<section id="hydat-database-not-found">
+<h3>“HYDAT database not found”<a class="headerlink" href="#hydat-database-not-found" title="Link to this heading">#</a></h3>
+<p>Complete environment setup above. Script creates placeholder metadata if HYDAT unavailable.</p>
+</section>
+<section id="import-error-supporting-figure-functions">
+<h3>“Import error: supporting_figure_functions”<a class="headerlink" href="#import-error-supporting-figure-functions" title="Link to this heading">#</a></h3>
+<p>Run from repository root:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>/path/to/camel_farrier
+python<span class="w"> </span>scripts/demo_setup/populate_demo_data.py
+</pre></div>
+</div>
+</section>
+<section id="crs-projection-warnings">
+<h3>CRS/Projection Warnings<a class="headerlink" href="#crs-projection-warnings" title="Link to this heading">#</a></h3>
+<p>Non-fatal warnings indicate potential data updates needed. Safe to ignore for most operations.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="full-rebuild-workflow">
+<h2>Full Rebuild Workflow<a class="headerlink" href="#full-rebuild-workflow" title="Link to this heading">#</a></h2>
+<p>To clean legacy data and rebuild with latest polygons:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># 1. Clean existing station data</span>
+rm<span class="w"> </span>-rf<span class="w"> </span>book_docs/stations/*
+
+<span class="c1"># 2. Repopulate from scratch (creates v1.0.0 from WSC_basins)</span>
+python<span class="w"> </span>scripts/demo_setup/populate_demo_data.py
+
+<span class="c1"># 3. Integrate HYDAT polygons (creates v1.1.0 or higher)</span>
+python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py
+
+<span class="c1"># 4. Generate diagnostic pages</span>
+python<span class="w"> </span>scripts/demo_setup/process_station_pages.py
+
+<span class="c1"># 5. Build documentation</span>
+<span class="nb">cd</span><span class="w"> </span>book_docs/
+jupyter<span class="w"> </span>book<span class="w"> </span>build<span class="w"> </span>.
+</pre></div>
+</div>
+</section>
+<hr class="docutils" />
+<section id="next-steps">
+<h2>Next Steps<a class="headerlink" href="#next-steps" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong><a class="reference internal" href="data_specification.html"><span class="std std-doc">Data Specification</span></a></strong> — Detailed CSV schemas and JSON metadata formats</p></li>
+<li><p><strong><a class="reference internal" href="DATA_SOURCES.html"><span class="std std-doc">Data Sources</span></a></strong> — Dataset provenance and citation information</p></li>
+<li><p><strong><a class="reference internal" href="../CONTRIBUTING.html"><span class="std std-doc">CONTRIBUTING</span></a></strong> — Guidelines for contributing to the project</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./guides"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="lsh_inputs_review.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">LSH Dataset Input Review</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="DATA_SOURCES.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Data Sources and Provenance</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#purpose">Purpose</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#environment-setup">Environment Setup</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clone-repository-and-install-dependencies">Clone Repository and Install Dependencies</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#configure-external-data-path">Configure External Data Path</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#download-required-datasets">Download Required Datasets</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#verify-setup">Verify Setup</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-start-workflow">Quick Start Workflow</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#station-data-initialization">Station Data Initialization</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#demo-stations">Demo Stations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#running-initialization">Running Initialization</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#git-tracking-philosophy">Git Tracking Philosophy</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#integrating-hydat-catchment-polygons">Integrating HYDAT Catchment Polygons</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#download-hydat-polygons">Download HYDAT Polygons</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#integration-workflow">Integration Workflow</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comparison-metrics">Comparison Metrics</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#version-graph-structure">Version Graph Structure</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#diagnostic-page-generation">Diagnostic Page Generation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#generate-station-pages">Generate Station Pages</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#plot-generation">Plot Generation</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#validation-rules">Validation Rules</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#build-and-deploy-documentation">Build and Deploy Documentation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#build-jupyter-book">Build Jupyter Book</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#deploy-to-github-pages">Deploy to GitHub Pages</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scripts-architecture">Scripts Architecture</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#configuration-layer-scripts-config">Configuration Layer (<code class="docutils literal notranslate"><span class="pre">scripts/config/</span></code>)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#utilities-layer-scripts-utils">Utilities Layer (<code class="docutils literal notranslate"><span class="pre">scripts/utils/</span></code>)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#generation-layer-scripts-generation">Generation Layer (<code class="docutils literal notranslate"><span class="pre">scripts/generation/</span></code>)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#workflow-scripts-scripts-demo-setup">Workflow Scripts (<code class="docutils literal notranslate"><span class="pre">scripts/demo_setup/</span></code>)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#troubleshooting">Troubleshooting</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wateroffice-export-not-found">“WaterOffice export not found”</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hydat-database-not-found">“HYDAT database not found”</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#import-error-supporting-figure-functions">“Import error: supporting_figure_functions”</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crs-projection-warnings">CRS/Projection Warnings</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#full-rebuild-workflow">Full Rebuild Workflow</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#next-steps">Next Steps</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Dan Kovacek
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
