@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10PA001,4.0,Rating based off of new measurements in 2021 and 2022. Suspect control has changed with high water. more measurements needed to confirm/refine.,LogarithmicTable,Provisional/Provisoire,(5.64);
+10PA001,3.0,REVISED AND EXTENDED TO 7.8 M.,LinearTable,Provisional/Provisoire,
+10PA001,2.0,Significant revision above 6.70 meters,LinearTable,Final/Finales,
+10PA001,1.0,"Was originally used up to Dec. 31, 1999",LinearTable,Final/Finales,

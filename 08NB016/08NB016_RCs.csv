@@ -1,0 +1,26 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08NB016,64.0,"The Stage discharge relationship is unstable since an extreme high water event May 31, 2020 that moved a large sediment load into the gauging area, including boulders greater than 1m.  64.00 created based on 2020 May measurement and 2021 (except June 2) and 2022 open water measurements.",LogarithmicTable,Provisional/Provisoire,(0.739:0.266);(0.465);
+08NB016,63.01,Cloned 63.00 and extended top and bottom rating points - TR 20210603,LogarithmicTable,Final/Finales,(0.076);
+08NB016,63.0,,LogarithmicTable,Final/Finales,(0.076);
+08NB016,62.0,,LogarithmicTable,Final/Finales,(0.675:0.08);(0.28);
+08NB016,61.001,Low end extension,LogarithmicTable,Final/Finales,(0.72:0.205);(0.2);
+08NB016,61.0,,LogarithmicTable,Final/Finales,(0.72:0.205);(0.2);
+08NB016,60.0,,LogarithmicTable,Final/Finales,(0.56:0.385);(0.395);
+08NB016,59.0,T#59 coincident with T#58 at & abv GH=1.050m,LinearTable,Final/Finales,
+08NB016,58.0,T#58 coincident with T#57 at & abv GH=0.900m,LinearTable,Final/Finales,
+08NB016,57.0,"T#57 start at ice out, no coincidence with T#56",LinearTable,Final/Finales,
+08NB016,56.0,T#56 ends at ice out,LinearTable,Final/Finales,
+08NB016,55.0,hw,LinearTable,Final/Finales,
+08NB016,54.0,First Ice out of year,LinearTable,Final/Finales,
+08NB016,53.0,,LinearTable,Final/Finales,
+08NB016,52.0,,LinearTable,Final/Finales,
+08NB016,51.0,,LinearTable,Final/Finales,
+08NB016,50.0,,LinearTable,Final/Finales,
+08NB016,49.0,,LinearTable,Final/Finales,
+08NB016,48.0,,LinearTable,Final/Finales,
+08NB016,47.0,,LinearTable,Final/Finales,
+08NB016,46.0,,LinearTable,Final/Finales,
+08NB016,45.0,,LinearTable,Final/Finales,
+08NB016,44.0,,LinearTable,Final/Finales,
+08NB016,43.0,,LinearTable,Final/Finales,
+08NB016,41.0,,LinearTable,Final/Finales,

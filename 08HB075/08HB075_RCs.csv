@@ -1,0 +1,23 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08HB075,26.01,Clone of Curve 26.00 with the upper rating point extended for high flows January 2026.,LogarithmicTable,Provisional/Provisoire,(1.027);
+08HB075,26.00,Replaces curve 25.01 which did not extend low enough and had an offset greater than the lowest stages recorded in 2018.  Incorporates 2018 mmts and historic high from 2015.,LogarithmicTable,Final/Finales,(1.027);
+08HB075,25.01,,LogarithmicTable,Final/Finales,(1.041);
+08HB075,25.0,,LogarithmicTable,Final/Finales,(1.041);
+08HB075,24,,LogarithmicTable,Final/Finales,(1.361:1.037);(1.05);
+08HB075,23.000,Approved Coincident to #22 at and above 1.090,LinearTable,Final/Finales,
+08HB075,22.000,Approved - coincident with #21 ab 1.45,LinearTable,Final/Finales,
+08HB075,21.000,"Approved, coindident with #20 above 2.7 m",LinearTable,Final/Finales,
+08HB075,20.000,APPROVED:  Coinc. to 19 @/abv 1.400 m,LinearTable,Final/Finales,
+08HB075,19.000,APPROVED,LinearTable,Final/Finales,
+08HB075,18.000,Low-end extended to cover 2006 range.,LinearTable,Final/Finales,
+08HB075,18.000-SC3,,LinearTable,Final/Finales,
+08HB075,17.000,,LinearTable,Final/Finales,
+08HB075,17.000-SC2,,LinearTable,Final/Finales,
+08HB075,16.000,,LinearTable,Final/Finales,
+08HB075,15.000,Coincident to #14 above 1.37 m.,LinearTable,Final/Finales,
+08HB075,14.000,,LinearTable,Final/Finales,
+08HB075,13.000,,LinearTable,Final/Finales,
+08HB075,12.000,,LinearTable,Final/Finales,
+08HB075,11.000,,LinearTable,Final/Finales,
+08HB075,10.000,,LinearTable,Final/Finales,
+08HB075,9.000,,LinearTable,Final/Finales,

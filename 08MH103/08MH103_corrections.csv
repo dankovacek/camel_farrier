@@ -1,0 +1,95 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+08MH103,DeleteRegion,HG,2025-11-19T19:55:00,2025-11-19T19:55:00,2025-11-20T21:12:19,-8,DR - Purge,,Normal
+08MH103,Drift,HG,2025-09-18T21:10:00,2025-11-19T19:50:00,2025-11-20T21:10:50,-8,"SRC - Visit to visitDrift correction settings:‌Timestamp 1: 2025-09-18 13:10:00, Offset 1: 0‌Timestamp 2: 2025-11-19 10:50:00, Offset 2: 0.033‌Timestamp 3: 2025-11-19 11:50:00, Offset 3: 0.037‌","DriftPoints:(Offset:0,Time:2025-09-18T21:10:00Z);(Offset:0.033,Time:2025-11-19T18:50:00Z);(Offset:0.037,Time:2025-11-19T19:50:00Z)",Normal
+08MH103,CopyPaste,HG,2025-09-18T21:10:00,2025-11-19T18:50:00,2025-11-20T21:10:00,-8,"OC - CP from stage loggerOverride: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,CopyPaste,HG,2025-09-18T20:45:00,2025-09-18T21:20:00,2025-09-22T18:52:49,-8,"C/P from 08MH103 logger dataOverride: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,Drift,HG,2025-05-28T23:05:00,2025-09-18T19:50:00,2025-09-19T22:35:01,-8,"SRC drift correctionDrift correction settings:‌Timestamp 1: 2025-05-28 15:05:00, Offset 1: 0‌Timestamp 2: 2025-09-18 11:50:00, Offset 2: -0.015‌","DriftPoints:(Offset:0,Time:2025-05-28T23:05:00Z);(Offset:-0.015,Time:2025-09-18T19:50:00Z)",Normal
+08MH103,CopyPaste,HG,2025-05-28T23:00:00,2025-09-16T03:10:00,2025-09-22T17:40:24,-8,"Source Data Set: Override: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,DeleteRegion,HG,2025-05-28T21:55:00,2025-05-28T22:15:00,2025-05-30T16:49:43,-8,DEL - purge affected data,,Normal
+08MH103,Offset,HG,2025-05-28T21:55:00,2025-05-28T23:00:00,2025-05-29T16:50:58,-8,SRC - post purge,Offset:-0.006,Normal
+08MH103,CopyPaste,HG,2025-03-25T21:15:00,2025-05-28T23:05:00,2025-05-29T16:47:04,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,Drift,HG,2025-03-25T20:05:00,2025-05-28T21:50:00,2025-05-29T16:49:38,-8,SRC - visit to visit. No SRC applied to stage data or MGH Mar.25. See note that day.,"DriftPoints:(Offset:0,Time:2025-03-25T20:05:00Z);(Offset:0.009,Time:2025-05-28T21:50:00Z)",Normal
+08MH103,CopyPaste,HG,2025-01-23T21:20:00,2025-03-25T21:10:00,2025-05-12T20:37:17,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,CopyPaste,HG,2025-01-23T20:30:00,2025-01-23T21:15:00,2025-03-07T21:05:47,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,CopyPaste,HG,2024-11-14T18:00:00,2025-01-23T20:30:00,2025-02-27T19:46:08,-8,"OC - C&P FROM LOGGEROverride: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,DeleteRegion,HG,2024-11-14T17:00:00,2024-11-14T17:00:00,2024-11-15T15:46:25,-8,DR - PURGE,,Normal
+08MH103,Drift,QR,2024-10-07T18:55:00,2024-10-07T21:55:00,2025-02-27T23:11:52,-8,Drift Correction ,"DriftPoints:(Offset:1.75,Time:2024-10-07T18:55:00Z);(Offset:1.96,Time:2024-10-07T21:55:00Z)",Normal
+08MH103,DeleteRegion,HG,2024-10-07T18:55:00,2024-10-07T21:55:00,2024-10-08T17:05:16,-8,DR - MAINTENANCE,,Normal
+08MH103,CopyPaste,QR,2024-10-07T18:55:00,2024-10-07T21:55:00,2025-02-27T22:39:32,-8,"OC - C/P from Chilliwack River at Vedder Crossing (08MH001)Override: Copy & Paste‌Source Data Set: Discharge.Working@08MH001, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,USGSMultiPoint,QR,2024-10-07T18:55:00,2024-10-07T21:55:00,2025-02-27T23:11:17,-8,Multiplier Correction - Scale conversion from 08MH001 to 08MH103Multiplier: 0.5‌,"StartShiftPoints:(Value:-9007199254740991,Offset:4503599627370495.5);(Value:0,Offset:0);(Value:9007199254740991,Offset:-4503599627370495.5),UsgsType:Set 2",Normal
+08MH103,CopyPaste,HG,2024-10-07T18:40:00,2024-11-14T18:05:00,2024-11-15T15:39:37,-8,"OC - C&P FROM LOGGEROverride: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,CopyPaste,HG,2024-08-14T17:50:00,2024-10-07T18:35:00,2024-10-08T17:00:16,-8,"OC - C&P FROM LOGGEROverride: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,Drift,HG,2024-06-12T17:35:00,2024-08-14T18:05:00,2024-08-15T17:37:56,-8,SRC - visit to visit,"DriftPoints:(Offset:0,Time:2024-06-12T17:35:00Z);(Offset:-0.018,Time:2024-08-14T18:05:00Z)",Normal
+08MH103,CopyPaste,HG,2024-06-12T17:35:00,2024-08-14T17:46:18,2024-08-15T17:39:06,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,DeleteRegion,HG,2024-06-12T17:20:00,2024-06-12T17:30:00,2024-06-13T16:02:03,-8,DATA SPIKE,,Normal
+08MH103,Offset,HG,2024-06-12T16:35:00,2024-06-12T17:15:00,2024-06-13T16:00:54,-8,SRC - mid visit,Offset:0.004,Normal
+08MH103,DeleteRegion,HG,2024-06-12T16:20:00,2024-06-12T16:20:00,2024-06-13T15:59:42,-8,Purge,,Normal
+08MH103,Drift,HG,2024-04-25T17:15:00,2024-06-12T16:15:00,2024-06-13T15:59:14,-8,SRC - visit to visit,"DriftPoints:(Offset:0,Time:2024-04-25T17:15:00Z);(Offset:0.006,Time:2024-06-12T16:15:00Z)",Normal
+08MH103,CopyPaste,HG,2024-04-25T17:15:00,2024-06-12T15:54:27,2024-06-13T15:57:50,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,CopyPaste,HG,2024-04-25T16:05:00,2024-04-25T17:15:00,2025-03-07T20:59:55,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,Offset,HG,2024-04-25T15:50:00,2024-04-25T17:15:00,2024-04-25T23:13:53,-8,SRC - Intravisit,Offset:-0.005,Normal
+08MH103,Drift,HG,2024-01-29T22:50:00,2024-04-25T15:50:00,2024-04-25T23:12:40,-8,SRC - visit to visit,"DriftPoints:(Offset:0,Time:2024-01-29T22:50:00Z);(Offset:-0.041,Time:2024-04-25T15:50:00Z)",Normal
+08MH103,CopyPaste,HG,2024-01-29T22:50:00,2024-04-25T15:45:00,2024-04-25T23:11:34,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,Offset,HG,2024-01-29T19:50:00,2024-01-29T22:45:00,2024-01-30T21:02:48,-8,SRC - INTRAVISIT,Offset:-0.016,Normal
+08MH103,USGSMultiPoint,QR,2024-01-29T08:01:01,2024-01-29T19:50:00,2024-07-30T16:55:49,-8,Multiplier: 0.44‌,"StartShiftPoints:(Value:-9007199254740991,Offset:5044031582654955);(Value:0,Offset:0);(Value:9007199254740991,Offset:-5044031582654955),UsgsType:Set 2",Normal
+08MH103,Drift,QR,2024-01-29T08:01:01,2024-01-29T19:50:00,2024-07-30T17:01:26,-8,,"DriftPoints:(Offset:2,Time:2024-01-29T08:01:01Z);(Offset:18,Time:2024-01-29T19:50:00Z)",Normal
+08MH103,CopyPaste,QR,2024-01-29T08:01:01,2024-01-29T19:50:00,2024-07-30T16:54:30,-8,"OC - ESTIMATED DATA USING 08MH001Override: Copy & Paste‌Source Data Set: Discharge.Working@08MH001, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,DeleteRegion,HG,2024-01-25T18:15:00,2024-01-29T19:45:00,2024-01-30T21:01:31,-8,"RFT - invalid, orifice unsecured",,Normal
+08MH103,USGSMultiPoint,QR,2024-01-25T18:10:00,2024-01-29T08:00:59,2024-07-30T16:53:13,-8,Multiplier: 0.44‌,"StartShiftPoints:(Value:-9007199254740991,Offset:5044031582654955);(Value:0,Offset:0);(Value:9007199254740991,Offset:-5044031582654955),UsgsType:Set 2",Normal
+08MH103,Drift,QR,2024-01-25T18:10:00,2024-01-29T08:00:00,2024-07-30T17:06:57,-8,,"DriftPoints:(Offset:-3.7266324299705325,Time:2024-01-25T18:10:00Z);(Offset:0,Time:2024-01-29T08:00:00Z)",Normal
+08MH103,CopyPaste,QR,2024-01-25T18:10:00,2024-01-29T08:00:59,2024-04-03T17:45:44,-8,"OC - ESTIMATED DATA USING 08MH001Override: Copy & Paste‌Source Data Set: Discharge.Working@08MH001, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,CopyPaste,QR,2024-01-12T17:00:00,2024-01-22T17:00:00,2024-10-08T21:42:24,-8,IceOverride: Linear‌Q(t) = (0.14720874811437704)t + 16.36707000996698‌,,Normal
+08MH103,DeleteRegion,HG,2023-12-21T23:10:00,2023-12-21T23:10:00,2024-01-05T16:08:33,-8,DR - SPIKE,,Normal
+08MH103,CopyPaste,HG,2023-11-07T20:55:00,2024-01-29T19:45:00,2024-01-30T20:57:47,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,RevertToRaw,HG,2023-11-07T20:50:00,2023-11-08T08:00:00,2024-01-30T21:04:35,-8,RFT - logger data missing for this period during processing.,,Normal
+08MH103,Drift,HG,2023-11-07T20:00:00,2023-11-07T20:50:00,2023-11-08T22:19:04,-8,SRC - INTRAVISIT,"DriftPoints:(Offset:0.008,Time:2023-11-07T20:00:00Z);(Offset:0.008,Time:2023-11-07T20:50:00Z)",Normal
+08MH103,CopyPaste,HG,2023-10-04T20:25:00,2023-11-07T19:50:00,2023-11-08T22:17:46,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,Drift,HG,2023-10-04T20:25:00,2023-11-07T19:55:00,2023-11-08T22:18:32,-8,SRC - VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2023-10-04T20:25:00Z);(Offset:0.008,Time:2023-11-07T19:55:00Z)",Normal
+08MH103,Drift,HG,2023-08-16T20:25:00,2023-08-16T21:15:00,2023-08-17T21:40:14,-8,SRC - INTRAVISIT,"DriftPoints:(Offset:-0.018,Time:2023-08-16T20:25:00Z);(Offset:-0.015,Time:2023-08-16T21:15:00Z)",Normal
+08MH103,CopyPaste,HG,2023-08-16T20:20:00,2023-10-04T18:45:00,2023-10-10T19:49:58,-8,"OC - FILL TELEM GAPSOverride: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,Drift,HG,2023-06-07T21:20:00,2023-08-16T20:20:00,2023-08-17T21:39:36,-8,SRC - VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2023-06-07T21:20:00Z);(Offset:-0.018,Time:2023-08-16T20:20:00Z)",Normal
+08MH103,CopyPaste,HG,2023-06-07T21:20:00,2023-08-16T20:15:00,2023-08-17T21:38:39,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,Drift,HG,2023-06-07T20:15:00,2023-06-07T21:15:00,2023-06-08T21:56:14,-8,SRC - INTRAVISIT,"DriftPoints:(Offset:0.02,Time:2023-06-07T20:15:00Z);(Offset:0.018,Time:2023-06-07T21:15:00Z)",Normal
+08MH103,Drift,HG,2023-04-04T21:35:00,2023-06-07T20:10:00,2023-06-08T21:55:37,-8,SRC - VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2023-04-04T21:35:00Z);(Offset:0.02,Time:2023-06-07T20:10:00Z)",Normal
+08MH103,CopyPaste,HG,2023-04-04T21:05:00,2023-06-07T20:00:00,2023-06-08T21:54:39,-8,"OC - FILL TELEM GAPSOverride: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,DeleteRegion,HG,2023-03-20T23:55:00,2023-03-20T23:55:00,2023-03-23T22:09:07,-8,DR - ERRONEOUS POINT,,Normal
+08MH103,CopyPaste,HG,2023-02-08T08:10:00,2023-04-04T21:30:00,2024-10-08T19:21:38,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,CopyPaste,QR,2022-12-20T09:30:00,2022-12-23T21:45:00,2023-12-27T22:34:20,-8,ICEOverride: Linear‌Q(t) = (-0.04907873092631585)t + 6.34764536247814‌,,Normal
+08MH103,CopyPaste,HG,2022-12-15T18:05:00,2023-02-07T20:15:00,2023-06-27T22:44:21,-8,"OC - FILL TELEM GAPSOverride: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,Drift,HG,2022-10-24T06:50:00,2022-12-15T18:05:00,2022-12-16T21:30:21,-8,OC - ASSUMED OM BUT NO SRC ON NEXT VISIT. DISTRIBUTED OFFSET FROM TIME OF MOVEMENT TO NEXT VISIT.,"DriftPoints:(Offset:0.01,Time:2022-10-24T06:50:00Z);(Offset:0,Time:2022-12-15T18:05:00Z)",Normal
+08MH103,Offset,HG,2022-10-19T19:30:00,2022-10-19T21:25:00,2023-06-27T22:10:20,-8,SRC - INTRAVISIT,Offset:-0.004,Normal
+08MH103,CopyPaste,HG,2022-10-19T19:25:00,2022-12-15T18:00:00,2023-06-27T22:42:06,-8,"OC - FILL TELEM GAPSOverride: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,CopyPaste,HG,2022-08-10T16:55:00,2022-10-19T19:20:00,2023-06-27T22:39:33,-8,"OC - FILL TELEM GAPSOverride: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,CopyPaste,HG,2022-06-15T20:10:00,2022-08-10T16:45:00,2023-06-27T22:38:05,-8,"OC - FILL TELEM GAPSOverride: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,Drift,HG,2022-06-15T20:05:00,2022-10-19T19:25:00,2022-08-11T12:42:29,-8,SRC- VISIT TO VISIT,"DriftPoints:(Offset:0.019,Time:2022-06-15T20:05:00Z);(Offset:-0.004,Time:2022-10-19T19:25:00Z)",Normal
+08MH103,Drift,HG,2022-06-15T18:25:00,2022-06-15T19:45:00,2023-06-27T21:54:24,-8,SRC - INTRAVISIT,"DriftPoints:(Offset:0.046,Time:2022-06-15T18:25:00Z);(Offset:0.004,Time:2022-06-15T19:45:00Z)",Normal
+08MH103,Offset,HG,2022-06-05T20:30:00,2022-06-15T18:20:00,2023-06-27T21:57:34,-8,SRC - ORIFICE MOVEMENT,Offset:0.043,Normal
+08MH103,CopyPaste,HG,2022-04-05T21:50:00,2022-06-15T18:15:00,2023-06-27T21:48:41,-8,"OC - FILL TELEM GAPSOverride: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,Drift,HG,2022-04-05T21:40:00,2022-06-15T20:00:00,2022-06-16T16:49:25,-8,SRC- VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2022-04-05T21:40:00Z);(Offset:0.004,Time:2022-06-15T20:00:00Z)",Normal
+08MH103,CopyPaste,HG,2022-02-08T20:00:00,2022-04-05T20:04:00,2023-06-27T21:46:22,-8,"OC - FILL TELEM GAPSOverride: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,Offset,HG,2022-02-08T19:30:00,2022-02-08T19:30:00,2023-06-27T21:44:52,-8,SRC - INTRAVISIT,Offset:-0.009,Normal
+08MH103,CopyPaste,HG,2022-02-08T19:05:00,2022-02-08T19:50:00,2022-02-09T17:13:18,-8,"OC- TELEM GAPOverride: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,CopyPaste,QR,2021-12-27T18:45:00,2022-01-02T17:20:00,2022-03-24T21:55:46,-8,ICEOverride: Log Linear‌Q(t) = 24.181517955522228e^(-0.1t)‌,,PreProcessing
+08MH103,Drift,HG,2021-10-27T18:25:00,2021-11-24T19:10:00,2021-11-25T21:57:56,-8,SRC - VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2021-10-27T18:25:00Z);(Offset:0.009,Time:2021-11-24T17:35:00Z);(Offset:0.012,Time:2021-11-24T19:10:00Z)",Normal
+08MH103,CopyPaste,HG,2021-10-27T18:25:00,2021-11-24T17:05:00,2021-11-25T21:56:07,-8,"FILL TELEM GAPSOverride: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,CopyPaste,HG,2021-07-22T09:10:00,2021-08-26T19:25:00,2022-03-24T21:39:53,-8,"OC - FILL TELEMETRY GAPSOverride: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,CopyPaste,HG,2021-04-14T18:40:00,2021-07-22T17:10:00,2021-07-23T18:10:32,-8,"FILL TELEM GAPSOverride: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,DeleteRegion,HG,2021-03-30T07:55:00,2021-03-30T08:05:00,2021-04-13T17:52:17,-8,DEL - EQUIPMENT MALFUNCTION,,Normal
+08MH103,CopyPaste,HG,2021-01-28T20:20:00,2021-04-14T18:40:00,2021-04-22T17:28:57,-8,"Override: Copy & Paste‌Source Data Set: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,Normal
+08MH103,Drift,HG,2020-12-10T20:55:00,2021-01-28T20:15:00,2021-01-29T19:58:28,-8,SRC - VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2020-12-10T20:55:00Z);(Offset:-0.026,Time:2021-01-28T20:15:00Z)",Normal
+08MH103,CopyPaste,HG,2020-12-10T18:05:00,2020-12-10T19:10:00,2020-12-14T19:53:53,-8,"Override: Copy & Paste‌Source signal: Stage.Logger@08MH103, time shift: 00:00 minutes.‌",,PreProcessing
+08MH103,Offset,HG,2020-08-09T00:20:00,2020-12-10T20:50:00,2022-03-24T21:26:06,-8,SRC - OM TO VISIT,Offset:0.016,Normal
+08MH103,Drift,HG,2020-02-11T23:40:00,2020-08-05T21:20:00,2020-08-08T01:26:21,-8,SRC - VISIT TO VISIT,"DriftPoints:(Offset:-0.004,Time:2020-02-11T23:40:00Z);(Offset:0,Time:2020-08-05T21:20:00Z)",Normal
+08MH103,DeleteRegion,HG,2019-12-11T19:05:00,2019-12-11T19:05:00,2019-12-18T16:46:01,-8,Delete region,,Normal
+08MH103,Drift,HG,2019-12-11T18:35:01,2020-02-11T23:35:00,2020-02-14T17:40:24,-8,"SRC - Drift Correction of (Date/Time, Diff): (2019-12-11 10:35:01, -0.010m), (2020-02-11 15:35:00, -0.004m)","DriftPoints:(Offset:-0.01,Time:2019-12-11T18:35:01Z);(Offset:-0.004,Time:2020-02-11T23:35:00Z)",Normal
+08MH103,CopyPaste,HG,2019-12-11T18:05:00,2019-12-11T19:10:00,2019-12-24T17:37:27,-8,Copy and Paste from Stage.Logger@08MH103,,PreProcessing
+08MH103,CopyPaste,HG,2019-12-11T17:30:00,2020-02-11T22:35:00,2020-02-14T17:38:22,-8,Copy and Paste from Stage.Logger@08MH103,,PreProcessing
+08MH103,Drift,HG,2019-10-16T21:25:01,2019-12-11T18:35:00,2019-12-24T17:34:33,-8,"SRC - Drift Correction of (Date/Time, Diff): (2019-10-16 13:25:01, -0.009m), (2019-12-11 10:35:00, -0.010m)","DriftPoints:(Offset:-0.009,Time:2019-10-16T21:25:01Z);(Offset:-0.01,Time:2019-12-11T18:35:00Z)",Normal
+08MH103,Offset,HG,2019-10-16T21:25:01,2019-11-14T10:05:00,2019-12-24T18:34:37,-8,Offset Correction with value of 0.009m,Offset:0.009,Normal
+08MH103,Offset,HG,2019-07-14T01:15:00,2019-08-21T22:31:00,2020-03-30T21:53:05,-8,OM - Offset Correction with value of -0.011m,Offset:-0.011,Normal
+08MH103,CopyPaste,HG,2019-02-15T12:05:00,2019-02-15T13:10:00,2020-03-30T21:59:34,-8,Copy and Paste from Stage.Logger@08MH103,,PreProcessing
+08MH103,Offset,HG,2019-02-15T12:05:00,2019-02-15T13:10:00,2020-03-30T21:59:43,-8,Offset Correction with value of -0.007m,Offset:-0.007,Normal
+08MH103,Offset,HG,2019-02-02T08:05:00,2019-02-02T09:10:00,2020-03-30T21:58:51,-8,Offset Correction with value of -0.007m,Offset:-0.007,Normal
+08MH103,CopyPaste,HG,2019-02-02T08:05:00,2019-02-02T09:10:00,2020-03-30T21:58:44,-8,Copy and Paste from Stage.Logger@08MH103,,PreProcessing
+08MH103,CopyPaste,HG,2019-02-01T11:05:00,2019-02-01T12:10:00,2020-03-30T21:57:56,-8,Copy and Paste from Stage.Logger@08MH103,,PreProcessing
+08MH103,Offset,HG,2019-02-01T11:05:00,2019-02-01T12:10:00,2020-03-30T21:58:08,-8,Offset Correction with value of -0.007m,Offset:-0.007,Normal

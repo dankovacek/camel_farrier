@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=5355688a" />
@@ -675,7 +675,7 @@ document.write(`
 <h1>07AA001: MIETTE RIVER NEAR JASPER<a class="headerlink" href="#aa001-miette-river-near-jasper" title="Link to this heading">#</a></h1>
 <section id="catchment-boundary">
 <h2>Catchment boundary<a class="headerlink" href="#catchment-boundary" title="Link to this heading">#</a></h2>
-<script src="bokeh-content-7cf09f43d13144f9a7aa94d01bad97dd-station_pages-stations-07AA001.js" id="e7d4a4f5-9896-496b-9059-d37d2f5b30a4"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<script src="bokeh-content-5eb6fe8389ec401ba6cc11ed42fdb21e-station_pages-stations-07AA001.js" id="c5c66827-ef56-4be0-befc-45083e9c00a6"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -696,24 +696,29 @@ document.write(`
 <h2>Polygon version history<a class="headerlink" href="#polygon-version-history" title="Link to this heading">#</a></h2>
 <table class="dataframe table">
 <tr><th>Version</th><th>Date</th><th>Data Source</th><th>Source Version</th><th>Notes</th><th>Comparison</th></tr>
-<tr><td><strong>v1.0.0</strong></td><td>2026-02-06</td><td>WSC_basins</td><td>Prerelease/Préliminaire (2021-12-17)</td><td><em>Export date (no official revision date available)</em></td><td>-</td></tr>
-<tr><td><strong>v1.1.0</strong></td><td>2026-02-06</td><td>HYDAT_polygons</td><td>June 2024 / juin 2024 (2024-06-01)</td><td><em>Official revision date</em></td><td>JSI: 0.99, ΔArea: -0.7%</td></tr>
+<tr><td><strong>v1.0.0</strong></td><td>2026-02-09</td><td>WSC_basins</td><td>Prerelease/Préliminaire (2021-12-17)</td><td><em>Export date (no official revision date available)</em></td><td>-</td></tr>
+<tr><td><strong>v1.1.0</strong></td><td>2026-02-09</td><td>HYDAT_polygons</td><td>June 2024 / juin 2024 (2024-06-01)</td><td><em>Official revision date</em></td><td>JSI: 0.99, ΔArea: -0.7%</td></tr>
 </table>
 </section>
 <section id="data-sources">
 <h2>Data Sources<a class="headerlink" href="#data-sources" title="Link to this heading">#</a></h2>
-<p><em>No data sources recorded.</em></p>
+<table class="dataframe table">
+<tr><th>Data Type</th><th>Source</th><th>Version</th><th>Retrieval Method</th></tr>
+<tr><td>corrections</td><td>WaterOffice_RC_Export</td><td>20260203</td><td>WaterOffice Portal export</td></tr>
+<tr><td>field_visits</td><td>WaterOffice_RC_Export</td><td>20260203</td><td>WaterOffice Portal export</td></tr>
+<tr><td>rating_curves</td><td>WaterOffice_RC_Export</td><td>20260203</td><td>WaterOffice Portal export</td></tr>
+</table>
 </section>
 <section id="basic-data-completeness-review">
 <h2>Basic data completeness review<a class="headerlink" href="#basic-data-completeness-review" title="Link to this heading">#</a></h2>
 <p><strong>Overall Status:</strong> needs_revision<br>
-<strong>QC Date:</strong> 2026-02-06<br>
+<strong>Review Date:</strong> 2026-02-09<br>
 <strong>Reviewed By:</strong> automated_setup
 <br><strong>Record Length:</strong> 110.7 years
 <br><strong>Timeseries Summary:</strong> 21,067 daily observations, seasonal gaps: 6452 days avg (N=3) | 45.8% flagged (backwater: 9165, estimated: 369, partial day: 111)</p>
 <table class="dataframe table">
 <tr><th>Check Category</th><th>Status</th><th>Notes</th></tr>
-<tr><td><strong>Data Completeness</strong></td><td>⚠️ Warning</td><td>Missing: RCs, corrections, field_visits</td></tr>
+<tr><td><strong>Data Completeness</strong></td><td>✅ Passed</td><td>Available: rating curves, corrections, field visits</td></tr>
 <tr><td><strong>Polygon Bounds</strong></td><td>✅ Passed</td><td>Catchment area: 1799.9 km²</td></tr>
 <tr><td><strong>Hydrometric Continuity</strong></td><td>⚠️ Warning</td><td>21,067 daily observations, seasonal gaps: 6452 days avg (N=3) | 45.8% flagged (backwater: 9165, estimated: 369, partial day: 111) | Record: 110.7 years</td></tr>
 <tr><td><strong>Metadata Completeness</strong></td><td>✅ Passed</td><td>All key metadata present</td></tr>
@@ -721,7 +726,7 @@ document.write(`
 </section>
 <section id="timeseries-streamflow">
 <h2>Timeseries streamflow<a class="headerlink" href="#timeseries-streamflow" title="Link to this heading">#</a></h2>
-<script src="bokeh-content-8516ddb60fdb4a468cef189cf3a693ad-station_pages-stations-07AA001.js" id="dcc24576-7c06-4c43-bc4d-6d825d09a405"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<script src="bokeh-content-1c2fdd668bf44f5ab927ae4244b831b5-station_pages-stations-07AA001.js" id="b0df5c85-2b6a-4d77-b862-da92089c0437"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -732,7 +737,7 @@ document.write(`
 </section>
 <section id="flow-distributions">
 <h2>Flow distributions<a class="headerlink" href="#flow-distributions" title="Link to this heading">#</a></h2>
-<script src="bokeh-content-53c53b74bd3b47f8aaf0d0a479a2cfcf-station_pages-stations-07AA001.js" id="ccc1bee9-1b53-4d21-ad28-4ba993287bb3"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<script src="bokeh-content-c162f88c0e984b47b6914740fad0dce7-station_pages-stations-07AA001.js" id="c0a599c3-ec59-46f0-a3f0-7a33b09d5005"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -757,7 +762,48 @@ document.write(`
 </section>
 <section id="rating-curves-summary">
 <h2>Rating curves summary<a class="headerlink" href="#rating-curves-summary" title="Link to this heading">#</a></h2>
-<p><em>No rating curve data available.</em></p>
+<table class="dataframe dataframe table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Curve #</th>
+      <th>Type</th>
+      <th>Approval Status</th>
+      <th>Remarks</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>9.0</td>
+      <td>LogarithmicTable</td>
+      <td>Provisional/Provisoire</td>
+      <td>New rating curve developed to modernize imported Compumod curve.</td>
+    </tr>
+    <tr>
+      <td>8.0</td>
+      <td>LinearTable</td>
+      <td>Final/Finales</td>
+      <td>Curve 8 same as Curve 7 above 2.550 m.</td>
+    </tr>
+    <tr>
+      <td>7.0</td>
+      <td>LinearTable</td>
+      <td>Final/Finales</td>
+      <td>Same as #5 Ext: 2007: 2.7m - 3.2m</td>
+    </tr>
+    <tr>
+      <td>6.0</td>
+      <td>LinearTable</td>
+      <td>Final/Finales</td>
+      <td>nan</td>
+    </tr>
+    <tr>
+      <td>5.0</td>
+      <td>LinearTable</td>
+      <td>Final/Finales</td>
+      <td>nan</td>
+    </tr>
+  </tbody>
+</table>
 <section id="notes">
 <h3>Notes<a class="headerlink" href="#notes" title="Link to this heading">#</a></h3>
 <ol class="arabic simple">

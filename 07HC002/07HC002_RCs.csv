@@ -1,0 +1,6 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07HC002,7.00,Compumod to stage/Q rating curve,LogarithmicTable,Provisional/Provisoire,(2.89:2.094);(2.042);
+07HC002,6.01,SAME AS 6.00 WITH ZERO VALUE,LinearTable,Final/Finales,
+07HC002,6.000,,LinearTable,Final/Finales,
+07HC002,6.000-SC1,,LinearTable,Final/Finales,
+07HC002,5.000,,LinearTable,Final/Finales,

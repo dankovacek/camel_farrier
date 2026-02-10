@@ -1,0 +1,11 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07AF015,12.00 ,"Updating rating curve after a high water event in June 2023 caused a significant alteration (deposition) to channel morphology and control conditions. This curve has multiple sections to represent the larger gravel bar, and the smaller downstream gravel bar. Two sections control and one channel control segments.",LogarithmicTable,Provisional/Provisoire,(1.2629279301420033:0.8);(1.53:0.875);(0.875);
+07AF015,11.00,"Change to curve observed in 2021- Deposition on control for lower segment, upper segment unchanged",LogarithmicTable,Final/Finales,(0.254);
+07AF015,10.00,Extend low end of previous curve 9.00 to cover low stage recorded in 2019. Minor adjustment to low end to better follow trends of recent low water measurements. Upper segment same as previous curve 9.00.,LogarithmicTable,Final/Finales,(1.06:0.242);(0.58);
+07AF015,9.00,New curve to account for scour,LogarithmicTable,Final/Finales,(1.06:0.242);(0.58);
+07AF015,8.000,New curve based on high water events of June 2011,LogarithmicTable,Final/Finales,(0.82:0.29);(0.695);
+07AF015,7.000,"Extended curve above 2.080m on Nov 16,2005.",LinearTable,Final/Finales,
+07AF015,7.000-SC2,,LinearTable,Final/Finales,
+07AF015,7.000-SC1,,LinearTable,Final/Finales,
+07AF015,6.000,,LinearTable,Final/Finales,
+07AF015,5.000,,LinearTable,Final/Finales,

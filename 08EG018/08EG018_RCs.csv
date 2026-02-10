@@ -1,0 +1,31 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08EG018,29.0,,LogarithmicTable,Provisional/Provisoire,(1.925);
+08EG018,28.0,Shift during non-operational period.,LogarithmicTable,Final/Finales,(1.987);
+08EG018,27.0,Shift during non-operational period.,LogarithmicTable,Final/Finales,(2.024);
+08EG018,26.0,Shift during non-operational period.,LogarithmicTable,Final/Finales,(2.365:1.86);(2.3);
+08EG018,25.0,Shift during non-operational period.,LogarithmicTable,Final/Finales,(2.112);
+08EG018,24.0,Curve for 2016 data to accomodate low end shift to right.,LogarithmicTable,Final/Finales,(2.112);
+08EG018,23.0,New curve for new gauging pool 13.5m downstream from old gauging location.,LogarithmicTable,Final/Finales,(2.135);
+08EG018,22.0,"Orifice moved downstream ~1m from previous location, as it had gone dry. Resulted in changed rating curve.",LogarithmicTable,Final/Finales,(3.13);
+08EG018,21.0,New curve for new orifice location after orifice was pulled up in ice in high water winter event. Jan 2014 high water also thought to have changed control substantially.,LogarithmicTable,Final/Finales,(3.15);
+08EG018,20.0,Shift during non-operational period.,LogarithmicTable,Final/Finales,(3.308);
+08EG018,19.0,,LogarithmicTable,Final/Finales,(3.342);
+08EG018,18.0,Moved to new curve during non-operational period,LogarithmicTable,Final/Finales,(3.273);
+08EG018,17.0,Approved: Shift during non-operational period,LinearTable,Final/Finales,
+08EG018,16.0,Approved: Shift during HW peak,LinearTable,Final/Finales,
+08EG018,15.0,Shift during non-operational period.,LinearTable,Final/Finales,
+08EG018,14.0,APPROVED Shift during non-operational period.,LinearTable,Final/Finales,
+08EG018,13.0,APPROVED,LinearTable,Final/Finales,
+08EG018,12.0,Shift during ice and the non-operational period,LinearTable,Final/Finales,
+08EG018,11.0,Shift curve at HW peak,LinearTable,Final/Finales,
+08EG018,10.0,,LinearTable,Final/Finales,
+08EG018,9.0,,LinearTable,Final/Finales,
+08EG018,8.0,,LinearTable,Final/Finales,
+08EG018,7.0,,LinearTable,Final/Finales,
+08EG018,6.0,,LinearTable,Final/Finales,
+08EG018,4.1,,LinearTable,Final/Finales,
+08EG018,5.0,,LinearTable,Final/Finales,
+08EG018,4.0,,LinearTable,Final/Finales,
+08EG018,3.0,,LinearTable,Final/Finales,
+08EG018,2.0,,LinearTable,Final/Finales,
+08EG018,1.0,,LinearTable,Final/Finales,

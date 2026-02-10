@@ -1,0 +1,9 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08EE005,11.01,"Clone of Curve 11.00 - Grades revised based on 2022 data. From previous approved Curve, 'Curve 11.00 shifted to the right due to scour noted in 2019/2020 measurements.'",LogarithmicTable,Provisional/Provisoire,(1.61);
+08EE005,11.0,Curve shifted to the right due to scour noted in 2019/2020 measurements.,LogarithmicTable,Final/Finales,(1.61);
+08EE005,10.0,Shift from curve 9.000 on move to new o-line location May 1/2018.,LogarithmicTable,Final/Finales,(1.615);
+08EE005,9.0,Shift from curve 8.000 during ice period,LogarithmicTable,Final/Finales,(1.62);
+08EE005,8.0,Shift from curve 7.000 to curve 8.000 at highwater.,LogarithmicTable,Final/Finales,(4.8:1.12);(1.92);
+08EE005,7.0,Shift to right at highwater from curve 6. Breakpoint is approximate height of shift from channel control to bank full with assumed transition points.,LogarithmicTable,Final/Finales,(4.8:1.03);(1.92);
+08EE005,6.0,Shift to New logarithmic curve during ice to extend upper and lower end,LogarithmicTable,Final/Finales,(3.674:1.18);(4.74:1.82);(1.9);
+08EE005,5.0,Approved.Extended below 2.9m for2010 computation.,LinearTable,Final/Finales,

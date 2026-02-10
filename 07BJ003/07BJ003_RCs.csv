@@ -1,0 +1,11 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07BJ003,25.0,"Work Objective and Rationale: Discharge measurements were collected in 2023 and 2024 to collect enough information to build a preliminary curve, however additional information was collected in 2025 allowing for further curve refinement to occur. Additionally, a high-water event in July of 2024 is suspected to have altered the channel, as most measurements in 2025 were found to be significantly off the rating curve by close to the same margin, plotting as scour. Modeling Assumptions: It is expected that a 2-segment curve is required at this station. During low flow, a cross sectional (section) control exists which is comprised of shifting gravel and cobbles that dictate the flow. The section control is variable and tends to change in response to higher flow events that move the bed material around. During high flow, bank-full or channel control conditions exist. There is no evidence to suggest that overland flow has occurred at the site and therefore a third segment is not needed.",LogarithmicTable,Provisional/Provisoire,(25.673);
+07BJ003,24.0,"Record low water induced a need for a datum adjustment in 2023. Significant scour and channel instability has persisted for many years due to regular bank erosion during high water events. The cobble bed is unstable, and the riffle control is subject to change as well.  2 segments curve.",LogarithmicTable,Final/Finales,(26.61282371028252:25.75);(26.3);
+07BJ003,23.0,Same as HQ No. 22 above 1.139 m,LinearTable,Final/Finales,
+07BJ003,22.0,HQFIT1.0. Extreme low water drawn by hand.,LinearTable,Final/Finales,
+07BJ003,21.0,SAME AS CURVE NO. 20 ABOVE 1.800 METERS,LinearTable,Final/Finales,
+07BJ003,20.0,,LinearTable,Final/Finales,
+07BJ003,19.0,Same as Curve #18 below 0.593 m and above 1.637 m,LinearTable,Final/Finales,
+07BJ003,18.0,Same as Curve No. 17 above 0.950 meters,LinearTable,Final/Finales,
+07BJ003,17.0,,LinearTable,Final/Finales,
+07BJ003,16.0,,LinearTable,Final/Finales,

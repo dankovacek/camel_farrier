@@ -1,0 +1,11 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10HC008,8.0,Single equation curve using entire range of measurements for development.,LogarithmicTable,Provisional/Provisoire,(2.223);
+10HC008,7.0 ,ADJUSTED 6.0 SO 2019 MEASUREMENTS ARE WITHIN 5%,LogarithmicTable,Provisional/Provisoire,(2.8:2.23);(2.3);
+10HC008,6.0,,LogarithmicTable,Provisional/Provisoire,(2.517:2.144);(2.29);
+10HC008,5.0,"Clone of curve 4.0, but changed between",LogarithmicTable,Provisional/Provisoire,(1.91);
+10HC008,4.0,,LogarithmicTable,Provisional/Provisoire,(1.91);
+10HC008,3.0,,LogarithmicTable,Provisional/Provisoire,(1.91);
+10HC008,2.000,Zero flow 2.075. Log-Log used. E above 3.4 m,LinearTable,Final/Finales,
+10HC008,2.000-SC2,,LinearTable,Final/Finales,
+10HC008,2.000-SC1,,LinearTable,Final/Finales,
+10HC008,1.000,,LinearTable,Final/Finales,

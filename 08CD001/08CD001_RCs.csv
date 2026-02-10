@@ -1,0 +1,8 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08CD001,19.0,Curve 19.00 created in consideration of new 2023 and 2024 data which suggests rating is consistent with historical compumod curve 16.00. Breakpoint required due to change in rating relationship which occurs at apx. 1.510m when large boulders in the control reach are submerged and over bank flow occurs.,LogarithmicTable,Provisional/Provisoire,(1.51:0.14);(0.54);
+08CD001,18.01,Extension of rating 18.00,LogarithmicTable,Final/Finales,(0.112);
+08CD001,18.0,New Curve for 2016-2018 data which indicates scour of control relative to Curve 17.000. New curve applied during 2016 ice conditions. No shifts required for 2016-2018 open water periods. Used historic high flow measurements and 2016-2018 data to guide curve development.,LogarithmicTable,Final/Finales,(0.112);
+08CD001,17.0,Curve 17.000 replaces compumod curve; change to new curve occurs under ice conditions.,LogarithmicTable,Final/Finales,(0.15);
+08CD001,16.0,APPROVED,LinearTable,Final/Finales,
+08CD001,15.0,,LinearTable,Final/Finales,
+08CD001,14.0,,LinearTable,Final/Finales,

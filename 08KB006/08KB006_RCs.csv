@@ -1,0 +1,20 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08KB006,26.00,"Three of the four 2023 open water measurements plot >5% negative off previous Curve 25.00, including the highest collected since 2019, indicating the need for adjustments to the low and high ends. A one segment curve continues to be suitable here. The cableway was condemned from ~2015 to 2022, and is re-established for bank operation (BOC). Peaks are flashy and difficult to catch at this helicopter-access site. All open water measurements from 2022, three of the four from 2023, the mid-high measurements from 2020-2022, and a high measurement from 2012 are used to build this curve. The record high measurement was not used on most previous curves in the last decade, but is used as a guide here and plots within 5%. The estimated ranges are applied based on the October 2022 low measurement and 2012 high measurement.",LogarithmicTable,Provisional/Provisoire,(3.21);
+08KB006,25.00,"Curve created using open water measurements from 2021 and 2022. The upper end is defined by the high water measurement in 2012, NOT high water measurement in 2019 which was collected by conventional boat- unusual for this station. Two mid-high measurements in 2021 and 2022 align well with the 2012 high measurement. The low end is defined by a low measurement in 2022. There are estimated grades applied to the very low and very high ranges of the curve.",LogarithmicTable,Final/Finales,(3.21);
+08KB006,24.00,Curve for 2020/01/28 Review Period,LogarithmicTable,Final/Finales,(3.163);
+08KB006,23.01,extension of curve 23.000 to accomodate highwater and rainfall events,LogarithmicTable,Final/Finales,(3.223);
+08KB006,23.000,left of curve 22.000 at mid to low stages,LogarithmicTable,Final/Finales,(3.223);
+08KB006,22.0,,LogarithmicTable,Final/Finales,(3.223);
+08KB006,21.000,"2013 - slight upward movement of lower rating point, shift during ice",LogarithmicTable,Final/Finales,(3.223);
+08KB006,20.000-CLONE,Shift during ice period,LogarithmicTable,Final/Finales,(3.24);
+08KB006,20.000,Shift during ice period,LogarithmicTable,Final/Finales,(3.24);
+08KB006,19.000,Coincident with #18 blo 3.40 & abv 3.625m.,LinearTable,Final/Finales,
+08KB006,18.000,Coincident with #17 blo 3.40 & abv 3.55m.,LinearTable,Final/Finales,
+08KB006,17.000,,LinearTable,Final/Finales,
+08KB006,16.000,,LinearTable,Final/Finales,
+08KB006,15.000,,LinearTable,Final/Finales,
+08KB006,14.000-SC2,,LinearTable,Final/Finales,
+08KB006,14.000,,LinearTable,Final/Finales,
+08KB006,13.000,,LinearTable,Final/Finales,
+08KB006,12.000-SC1,,LinearTable,Final/Finales,
+08KB006,12.000,,LinearTable,Final/Finales,

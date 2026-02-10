@@ -1,0 +1,24 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08MH141,32.0,Curve 32.00 created to account for new low water measurements taken during the 2022 and 2023 review periods. Reduced breakpoint discharge to help in aligning lower measurements within realistic river profile. Offset reduced. Lower rating point stage portion lowered and new discharge calculated based on required extension. Lower estimate grade decreased to reflect new mmts. Upper estimate grade range remains the same as 31.00. Extended curves to cover known possible range of stage. Reduces discharge above stage of approx. 1.79m and increases discharge below this stage.,LogarithmicTable,Provisional/Provisoire,(2.3:1.386);(1.65);
+08MH141,31.0,"High water event on Sept 23, 2020 altered control",LogarithmicTable,Final/Finales,(2.3:1.58);(1.65);
+08MH141,30.01,,LogarithmicTable,Final/Finales,(2.3:1.47);(1.57);
+08MH141,30.0,,LogarithmicTable,Final/Finales,(2.3:1.47);(1.57);
+08MH141,29.01,Extension to upper end of RC29.000,LogarithmicTable,Final/Finales,(1.508);
+08MH141,29.0,,LogarithmicTable,Final/Finales,(1.508);
+08MH141,28.0,T#28 refined version of T#27. Coincident at 2.30m,LinearTable,Final/Finales,
+08MH141,27.0,coincident with table 26 above 2.80m,LinearTable,Final/Finales,
+08MH141,26.0,coincident with table 25 at and above 2.7 m,LinearTable,Final/Finales,
+08MH141,25.0,Coincident with table 24 at 3.000 m,LinearTable,Final/Finales,
+08MH141,24.0,T#24 is coincident with T#23 at & abv GH=2.350m,LinearTable,Final/Finales,
+08MH141,23.0,T#23 is coincident with T#22 at & abv GH=1.940m,LinearTable,Final/Finales,
+08MH141,22.0,T#22 is coincident with T#21 at & abv GH=1.960m,LinearTable,Final/Finales,
+08MH141,21.0,T#21 is coincident with T#20 at & abv GH=2.400m,LinearTable,Final/Finales,
+08MH141,20.0,,LinearTable,Final/Finales,
+08MH141,19.0,,LinearTable,Final/Finales,
+08MH141,18.0,,LinearTable,Final/Finales,
+08MH141,17.0,,LinearTable,Final/Finales,
+08MH141,16.0,,LinearTable,Final/Finales,
+08MH141,15.0,,LinearTable,Final/Finales,
+08MH141,14.0,,LinearTable,Final/Finales,
+08MH141,13.0,,LinearTable,Final/Finales,
+08MH141,0.0,,LinearTable,Final/Finales,

@@ -1,0 +1,15 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08FC003,30.0,Created for 2023 and in development,LogarithmicTable,Provisional/Provisoire,(0.47);
+08FC003,29.0,Curve created using open water measurements from 2021 and the 2011 and 2018 historic high measurements.,LogarithmicTable,Final/Finales,(0.506);
+08FC003,28.0,"Curve created using open water measurements from 2020 and 2021, and the 2011 and 2018 historic high measurements.",LogarithmicTable,Final/Finales,(0.547);
+08FC003,27.0,"New curve for 2014.  This contains 3 record low measurements, that show the low end of Curve 26 was not well defined.",LogarithmicTable,Final/Finales,(0.481);
+08FC003,26.0,,LogarithmicTable,Final/Finales,(0.522);
+08FC003,25.0,First Curve Created in HWS,LogarithmicTable,Final/Finales,(0.562);
+08FC003,24.0,coincident to table #23 at and above GH 2.300m,LinearTable,Final/Finales,
+08FC003,23.0,coincident to table #22 at and above GH 1.03m,LinearTable,Final/Finales,
+08FC003,22.0,,LinearTable,Final/Finales,
+08FC003,21.0,,LinearTable,Final/Finales,
+08FC003,20.0,,LinearTable,Final/Finales,
+08FC003,19.0,,LinearTable,Final/Finales,
+08FC003,18.0,,LinearTable,Final/Finales,
+08FC003,17.0,,LinearTable,Final/Finales,

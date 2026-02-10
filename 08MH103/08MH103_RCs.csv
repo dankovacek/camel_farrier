@@ -1,0 +1,19 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08MH103,31.0,Extended bottom of curve to capture trend in lower end,LogarithmicTable,Provisional/Provisoire,(-0.178);
+08MH103,30.02,Extended top of curve to capture max discharge,LogarithmicTable,Final/Finales,(0.081);
+08MH103,30.01,"New curve with a lower offset as measurements below 0.700m since May, 2014 have been plotting to the right.",LogarithmicTable,Final/Finales,(0.081);
+08MH103,30.0,"New curve with a lower offset as measurements below 0.700m since May, 2014 have been plotting to the right.",LogarithmicTable,Final/Finales,(0.081);
+08MH103,29.001,,LogarithmicTable,Final/Finales,(0.12);
+08MH103,29.0,,LogarithmicTable,Final/Finales,(0.12);
+08MH103,28.0,,LogarithmicTable,Final/Finales,(0.04);
+08MH103,27.0,coincident with #26 below 0.600m and above 2.10m,LinearTable,Final/Finales,
+08MH103,26.0,coincident#25@abv 1.90m,LinearTable,Final/Finales,
+08MH103,25.0,coincident#24@abv 1.9m,LinearTable,Final/Finales,
+08MH103,24.0,coincident#23@abv 1.90m,LinearTable,Final/Finales,
+08MH103,23.0,,LinearTable,Final/Finales,
+08MH103,22.0,,LinearTable,Final/Finales,
+08MH103,21.0,,LinearTable,Final/Finales,
+08MH103,20.0,,LinearTable,Final/Finales,
+08MH103,19.0,,LinearTable,Final/Finales,
+08MH103,18.0,,LinearTable,Final/Finales,
+08MH103,17.0,,LinearTable,Final/Finales,

@@ -1,0 +1,6 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07AA001,9.0,New rating curve developed to modernize imported Compumod curve.,LogarithmicTable,Provisional/Provisoire,(1.228:0);(0);
+07AA001,8.0,Curve 8 same as Curve 7 above 2.550 m.,LinearTable,Final/Finales,
+07AA001,7.0,Same as #5 Ext: 2007: 2.7m - 3.2m,LinearTable,Final/Finales,
+07AA001,6.0,,LinearTable,Final/Finales,
+07AA001,5.0,,LinearTable,Final/Finales,

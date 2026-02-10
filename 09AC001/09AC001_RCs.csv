@@ -1,0 +1,11 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+09AC001,18.00,,LogarithmicTable,Provisional/Provisoire,(1.6);
+09AC001,17.0,"Quick curve, 16.2 not valid, linear curve that should have been replaced last year",LogarithmicTable,Final/Finales,(4.5307:1.4);(2.4);
+09AC001,16.100,"APPROVED very slight left shift, entire curve",LinearTable,Final/Finales,
+09AC001,16.000,"late fall/winter scour, right shift fm table #15",LinearTable,Final/Finales,
+09AC001,15.000,Low-end adjustment using 1980-2006 mmnts,LinearTable,Final/Finales,
+09AC001,14.000,Coincides with curve #13 above 3.4m,LinearTable,Final/Finales,
+09AC001,13.000,Coincides with #12 @ and Below 2.479,LinearTable,Final/Finales,
+09AC001,12.000,,LinearTable,Final/Finales,
+09AC001,11.000-SC1,,LinearTable,Final/Finales,
+09AC001,11.000,,LinearTable,Final/Finales,

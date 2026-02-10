@@ -1,0 +1,21 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07FA005,32.0,,LogarithmicTable,Provisional/Provisoire,(0.212:-0.6);(-0.6);
+07FA005,31.0,Rating curve created for 2022 review period. Built using open water discharge measurements from 2022 and 2023. Upper end of the curve was defined using a high water measurement from 2012. Lower end of the curve was defined using a low water measurement from Oct 2014,LogarithmicTable,Final/Finales,(-0.61);
+07FA005,30.0,Used 2018 mmt. and 2019 mmt.  Used a recent low mmt. and all time high mmt. (2012),LogarithmicTable,Final/Finales,(-0.614);
+07FA005,29.0,"Used most mmts. from 2015, 2016, and 2017.  Also kept most recent low mmt, and highest mmt on record.",LogarithmicTable,Final/Finales,(-0.62);
+07FA005,28.0,,LogarithmicTable,Final/Finales,(-0.559);
+07FA005,27.0,Curve Change after extreme High Water,LogarithmicTable,Final/Finales,(-0.88);
+07FA005,25.0,COINCIDENT WITH #24 ABOVE 1.100m.,LinearTable,Final/Finales,
+07FA005,26.0,APPROVED Coinc w/ # 25 at & above 0.4m,LinearTable,Final/Finales,
+07FA005,24.0,Coincident with curve #23 above 0.200m,LinearTable,Final/Finales,
+07FA005,23.0,Coincident with curve #22. at & above 1.6m,LinearTable,Final/Finales,
+07FA005,22.0,Coincident with 21 @ & above 0.600 and below 0.160,LinearTable,Final/Finales,
+07FA005,21.0,,LinearTable,Final/Finales,
+07FA005,20.0,,LinearTable,Final/Finales,
+07FA005,19.0,,LinearTable,Final/Finales,
+07FA005,18.0,,LinearTable,Final/Finales,
+07FA005,17.0,,LinearTable,Final/Finales,
+07FA005,16.0,,LinearTable,Final/Finales,
+07FA005,15.0,,LinearTable,Final/Finales,
+07FA005,14.0,,LinearTable,Final/Finales,
+07FA005,13.0,,LinearTable,Final/Finales,

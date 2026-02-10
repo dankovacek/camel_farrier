@@ -1,0 +1,7 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10VK001,6.0,"Rating of best fit for most recent open water measurements and high water measurements.  Good exponent reflecting a wide 'V' channel.  When shifted to previous years measurements over 9cms, they plot within 3% of the shift each year (assuming all measurements in June are backwater, supported by photos and the way they plot (1996)). 1997 and 1999 measurements (n=14) plot within 3% of the shift for that year (except 1 outlier).",LogarithmicTable,Provisional/Provisoire,(5.42);
+10VK001,5.0,revising on the assumption all June mmts since scour event (2013) are B,LogarithmicTable,Final/Finales,(5.6);
+10VK001,4.0,,LogarithmicTable,Provisional/Provisoire,(6.19:5.4);(6.09);
+10VK001,2.0,"Made with HQfit, smoothed manually",LinearTable,Provisional/Provisoire,
+10VK001,1.0,,LinearTable,Final/Finales,
+10VK001,1.01,,LinearTable,Final/Finales,

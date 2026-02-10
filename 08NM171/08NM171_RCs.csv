@@ -1,0 +1,26 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08NM171,50.0,New rating based on all open water mmnts from 2022 and 2023,LogarithmicTable,Provisional/Provisoire,(0.896);
+08NM171,49.01,Extension of Curve #49.01,LogarithmicTable,Final/Finales,(0.696);
+08NM171,49.0,,LogarithmicTable,Final/Finales,(0.696);
+08NM171,48.0,,LogarithmicTable,Final/Finales,(0.95);
+08NM171,47.0,,LogarithmicTable,Provisional/Provisoire,(1.254:0.95);(1.05);
+08NM171,46.0,,LinearTable,Provisional/Provisoire,
+08NM171,45.0,,LinearTable,Final/Finales,
+08NM171,44.0,Co-incident with#43 @ 1.400 and abv.,LinearTable,Final/Finales,
+08NM171,43.0,,LinearTable,Final/Finales,
+08NM171,42.0,,LinearTable,Final/Finales,
+08NM171,41.0,,LinearTable,Final/Finales,
+08NM171,40.0,,LinearTable,Final/Finales,
+08NM171,39.0,,LinearTable,Final/Finales,
+08NM171,38.0,,LinearTable,Final/Finales,
+08NM171,37.0,,LinearTable,Final/Finales,
+08NM171,36.0,,LinearTable,Final/Finales,
+08NM171,35.0,,LinearTable,Final/Finales,
+08NM171,34.0,,LinearTable,Final/Finales,
+08NM171,33.0,,LinearTable,Final/Finales,
+08NM171,32.0,,LinearTable,Final/Finales,
+08NM171,31.0,,LinearTable,Final/Finales,
+08NM171,30.0,,LinearTable,Final/Finales,
+08NM171,29.0,,LinearTable,Final/Finales,
+08NM171,28.0,,LinearTable,Final/Finales,
+08NM171,27.0,,LinearTable,Final/Finales,

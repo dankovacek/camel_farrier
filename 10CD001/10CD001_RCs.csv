@@ -1,0 +1,19 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10CD001,48.0,Curve 48.00 was created using 2023 open water measurements. The upper end of the curve was defined by a high-water measurement from 2008.,LogarithmicTable,Provisional/Provisoire,(-1.3);
+10CD001,47.0,created using  2021 and 2022 open water measurements Upper end is defined by 2008 highwater measurement.,LogarithmicTable,Final/Finales,(-1.24);
+10CD001,46.0,For 2020 measurements Upper end is defined by 2008 highwater measurement.  Other measurements from previous years do not plot.,LogarithmicTable,Final/Finales,(-1.22);
+10CD001,45.0,For 2018 - 2019 measurements Upper end is defined by 2008 highwater measurement.,LogarithmicTable,Final/Finales,(-1.222);
+10CD001,44.0,USE THROUGH 2017,LogarithmicTable,Final/Finales,(-1.26);
+10CD001,43.0,,LogarithmicTable,Final/Finales,(-1.15);
+10CD001,42.0,COINCIDENT WITH TABLE 41 AT AND ABOVE 0.7m,LinearTable,Final/Finales,
+10CD001,41.0,COINCIDENT WITH TABLE 40 ABOVE 5.5m,LinearTable,Final/Finales,
+10CD001,40.0,Coincident with table #39. from 1.5 to 7.50,LinearTable,Final/Finales,
+10CD001,39.0,,LinearTable,Final/Finales,
+10CD001,38.0,,LinearTable,Final/Finales,
+10CD001,37.0,,LinearTable,Final/Finales,
+10CD001,36.0,,LinearTable,Final/Finales,
+10CD001,35.0,,LinearTable,Final/Finales,
+10CD001,34.0,,LinearTable,Final/Finales,
+10CD001,33.0,,LinearTable,Final/Finales,
+10CD001,32.0,,LinearTable,Final/Finales,
+10CD001,31.0,,LinearTable,Final/Finales,

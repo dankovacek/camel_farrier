@@ -1,0 +1,154 @@
+(function() {
+  const fn = function() {
+    'use strict';
+    (function(root) {
+      function now() {
+        return new Date();
+      }
+    
+      const force = false;
+    
+      if (typeof root._bokeh_onload_callbacks === "undefined" || force === true) {
+        root._bokeh_onload_callbacks = [];
+        root._bokeh_is_loading = undefined;
+      }
+    
+    
+    const element = document.getElementById("cba3d383-4d33-450c-8a87-cdf4fb231080");
+        if (element == null) {
+          console.warn("Bokeh: autoload.js configured with elementid 'cba3d383-4d33-450c-8a87-cdf4fb231080' but no matching script tag was found.")
+        }
+      function run_callbacks() {
+        try {
+          root._bokeh_onload_callbacks.forEach(function(callback) {
+            if (callback != null)
+              callback();
+          });
+        } finally {
+          delete root._bokeh_onload_callbacks
+        }
+        console.debug("Bokeh: all callbacks have finished");
+      }
+    
+      function load_libs(css_urls, js_urls, callback) {
+        if (css_urls == null) css_urls = [];
+        if (js_urls == null) js_urls = [];
+    
+        root._bokeh_onload_callbacks.push(callback);
+        if (root._bokeh_is_loading > 0) {
+          console.debug("Bokeh: BokehJS is being loaded, scheduling callback at", now());
+          return null;
+        }
+        if (js_urls == null || js_urls.length === 0) {
+          run_callbacks();
+          return null;
+        }
+        console.debug("Bokeh: BokehJS not loaded, scheduling load and callback at", now());
+        root._bokeh_is_loading = css_urls.length + js_urls.length;
+    
+        function on_load() {
+          root._bokeh_is_loading--;
+          if (root._bokeh_is_loading === 0) {
+            console.debug("Bokeh: all BokehJS libraries/stylesheets loaded");
+            run_callbacks()
+          }
+        }
+    
+        function on_error(url) {
+          console.error("failed to load " + url);
+        }
+    
+        for (let i = 0; i < css_urls.length; i++) {
+          const url = css_urls[i];
+          const element = document.createElement("link");
+          element.onload = on_load;
+          element.onerror = on_error.bind(null, url);
+          element.rel = "stylesheet";
+          element.type = "text/css";
+          element.href = url;
+          console.debug("Bokeh: injecting link tag for BokehJS stylesheet: ", url);
+          document.body.appendChild(element);
+        }
+    
+        for (let i = 0; i < js_urls.length; i++) {
+          const url = js_urls[i];
+          const element = document.createElement('script');
+          element.onload = on_load;
+          element.onerror = on_error.bind(null, url);
+          element.async = false;
+          element.src = url;
+          console.debug("Bokeh: injecting script tag for BokehJS library: ", url);
+          document.head.appendChild(element);
+        }
+      };
+    
+      function inject_raw_css(css) {
+        const element = document.createElement("style");
+        element.appendChild(document.createTextNode(css));
+        document.body.appendChild(element);
+      }
+    
+      const js_urls = ["https://cdn.bokeh.org/bokeh/release/bokeh-3.8.0.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.8.0.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.8.0.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.8.0.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.8.0.min.js"];
+      const css_urls = [];
+    
+      const inline_js = [    function(Bokeh) {
+          Bokeh.set_log_level("info");
+        },
+        function(Bokeh) {
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                  const docs_json = '{"b2e4b44f-6d05-46d7-99e9-77322a974128":{"version":"3.8.0","title":"Bokeh Application","config":{"type":"object","name":"DocumentConfig","id":"p89436","attributes":{"notifications":{"type":"object","name":"Notifications","id":"p89437"}}},"roots":[{"type":"object","name":"Column","id":"p89618","attributes":{"children":[{"type":"object","name":"GridPlot","id":"p89616","attributes":{"rows":null,"cols":null,"toolbar":{"type":"object","name":"Toolbar","id":"p89615","attributes":{"tools":[{"type":"object","name":"ToolProxy","id":"p89608","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p89460"},{"type":"object","name":"PanTool","id":"p89545"}]}},{"type":"object","name":"ToolProxy","id":"p89609","attributes":{"tools":[{"type":"object","name":"WheelZoomTool","id":"p89461","attributes":{"renderers":"auto"}},{"type":"object","name":"WheelZoomTool","id":"p89546","attributes":{"renderers":"auto"}}]}},{"type":"object","name":"ToolProxy","id":"p89610","attributes":{"tools":[{"type":"object","name":"BoxZoomTool","id":"p89462","attributes":{"dimensions":"both","overlay":{"type":"object","name":"BoxAnnotation","id":"p89463","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p89469","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p89468","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"BoxZoomTool","id":"p89547","attributes":{"dimensions":"both","overlay":{"type":"object","name":"BoxAnnotation","id":"p89548","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p89554","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p89553","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}}]}},{"type":"object","name":"ToolProxy","id":"p89611","attributes":{"tools":[{"type":"object","name":"ResetTool","id":"p89470"},{"type":"object","name":"ResetTool","id":"p89555"}]}},{"type":"object","name":"SaveTool","id":"p89612"},{"type":"object","name":"ToolProxy","id":"p89613","attributes":{"tools":[{"type":"object","name":"HoverTool","id":"p89521","attributes":{"renderers":"auto","tooltips":[["Exceedance","@x{0.1f}%"],["Flow","@y{0.2f} m\\u00b3/s"]],"sort_by":null}}]}},{"type":"object","name":"ToolProxy","id":"p89614","attributes":{"tools":[{"type":"object","name":"HoverTool","id":"p89606","attributes":{"renderers":"auto","tooltips":[["Month","@x"],["Flow","@y{0.2f} m\\u00b3/s"]],"sort_by":null}}]}}]}},"toolbar_location":"right","children":[[{"type":"object","name":"Figure","id":"p89438","attributes":{"width":450,"height":450,"x_range":{"type":"object","name":"DataRange1d","id":"p89439"},"y_range":{"type":"object","name":"DataRange1d","id":"p89440"},"x_scale":{"type":"object","name":"LinearScale","id":"p89448"},"y_scale":{"type":"object","name":"LogScale","id":"p89449"},"title":{"type":"object","name":"Title","id":"p89441","attributes":{"text":"Flow Duration Curve"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p89478","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p89472","attributes":{"selected":{"type":"object","name":"Selection","id":"p89473","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p89474"},"data":{"type":"map","entries":[["x",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAC/w3DhzZCAQAA0Eche69IGrYIISMrRGYI2cX/f4N7z7lBEARNNhsybIutthmx3Q477bLbHnvts98BBx1y2BFHHXPcqBNOGnPKuNMmTJoy7YyzzjnvgosuuWzGFVfNuua6G+bcdMtt8+646577Fjzw0COPPbHoqWeeW/LCS8teee2Nt955b8UHH32y6rMvvlrzzXc//PTLb3+s2/DXP/8B4Wgqd5QBAAA="},"shape":[101],"dtype":"int32","order":"little"}],["y",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAC/2NgYFCI6Rd0YCCRXlJgWxXoKeigGdP/6e1rAYd17g+zuvoEHIyNjR+rGQo4FNpybW9bzu9QLbJu+f43fCB1jx6Z8YH46R9aeR3Onjnz5u8VHgf51teF3Co8IPXfJYq5HQ591ahRO8QFsmdBgS3pNMie3ys5HYJ2yKm2i3GC7RNq5gC5d9Xc9+xgezVi2B2+acTobznB5jBr5kzJDUVsDmlpac/UDNlA7t889z0ryLwGkXWsIPU+3TmsYHVM2qwOD6uABm5mAZnHtYeVBaQvTSCCGWTvoZRVTA5vAnfI7fzDCAqPKl5/Rocdcq3aPw4xgPTfXDqbAeSe9uASBgegclNGXwYHW67rj9epgmnlnX/+20Ps/W8PDI/w7Fn/7R9ViegdavtvD/QPq2Txf/vDXzXu5Mf/tzcBuvOY93/7pQW2XbIW/+13yrVyK/39Z7/e/aEU99Z/9kD3aX3J+WcPtNfyrso/+wmHvnocu/PXvvV1YMT6KX/tgf68fNjpL0h+J/PzPyB7Fzh3/7EHeqetWf+PPdDfOYcv/wapC2au+A2SB4YN6TQwnP1lXv+yB4ZLHOviX/bA8Mt7F/XL/vrigtrrQr9A9vQcOPUT5K85K5t+gvQ9WFxAPA10n7Cb6k+QPyq7+n6Axc99/w7yh5tw4neQ+WvCT30Dq5tj/A0kn9B/6CvJNACChWaXKAMAAA=="},"shape":[101],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p89479","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p89480"}}},"glyph":{"type":"object","name":"Line","id":"p89475","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"lightgrey","line_alpha":0.7}},"nonselection_glyph":{"type":"object","name":"Line","id":"p89476","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"lightgrey","line_alpha":0.1}},"muted_glyph":{"type":"object","name":"Line","id":"p89477","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"lightgrey","line_alpha":0.2}}}},{"type":"object","name":"GlyphRenderer","id":"p89487","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p89481","attributes":{"selected":{"type":"object","name":"Selection","id":"p89482","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p89483"},"data":{"type":"map","entries":[["x",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAC/w3DhzZCAQAA0Eche69IGrYIISMrRGYI2cX/f4N7z7lBEARNNhsybIutthmx3Q477bLbHnvts98BBx1y2BFHHXPcqBNOGnPKuNMmTJoy7YyzzjnvgosuuWzGFVfNuua6G+bcdMtt8+646577Fjzw0COPPbHoqWeeW/LCS8teee2Nt955b8UHH32y6rMvvlrzzXc//PTLb3+s2/DXP/8B4Wgqd5QBAAA="},"shape":[101],"dtype":"int32","order":"little"}],["y",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAC/2NgYFgwc6a2AwMO2pbr+uPfK7UcUtPS5h3r1nBY5/5wVaW7Mkj+weICRYdvGjH/SxMUHUTWuecuTlQAiwfukMegY/oPLdXTkwepW6iaIutgbGxcnLVHBiSvENOPoIH2XXZrlnZ4HbjjWMckSZC4w8Mq3LTbw6opi5QlHf7//98/M1IcJM5wfbEY1Wmgu5gbr4o6HPqqIaNrJAISb7Dlopw2BIbDvUJhhxkzZ3588lAQGg7k04+qRMx0QgSgfD6y6WeBO+7JLud1WOP+UCr5HRc4PRTYcjn8/P8/P2Mip8PMmTMdZ4eyAuNAZF6eEKPDucUFR0sm/7SHpIuf9kwMDAfkWn/YA+NZeI7xN/vMtLQ0yUefwfJVIp9oTns9rPrTw/3Rfqdc6+pe5Xf2jECJkMdviabvVYn0fTZ/AzKvwTHhpT0ACnAlUygDAAA="},"shape":[101],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p89488","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p89489"}}},"glyph":{"type":"object","name":"Line","id":"p89484","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"lightgrey","line_alpha":0.7}},"nonselection_glyph":{"type":"object","name":"Line","id":"p89485","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"lightgrey","line_alpha":0.1}},"muted_glyph":{"type":"object","name":"Line","id":"p89486","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"lightgrey","line_alpha":0.2}}}},{"type":"object","name":"GlyphRenderer","id":"p89496","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p89490","attributes":{"selected":{"type":"object","name":"Selection","id":"p89491","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p89492"},"data":{"type":"map","entries":[["x",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAC/w3DhzZCAQAA0Eche69IGrYIISMrRGYI2cX/f4N7z7lBEARNNhsybIutthmx3Q477bLbHnvts98BBx1y2BFHHXPcqBNOGnPKuNMmTJoy7YyzzjnvgosuuWzGFVfNuua6G+bcdMtt8+646577Fjzw0COPPbHoqWeeW/LCS8teee2Nt955b8UHH32y6rMvvlrzzXc//PTLb3+s2/DXP/8B4Wgqd5QBAAA="},"shape":[101],"dtype":"int32","order":"little"}],["y",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAC/2NgYLix2EDJgQEHLdf6+ueVHYoORsbG4btWKjisc3+4S51fxiFoh9xcH1EpB67ri3/kXJN0eB24Y9GLFRIOs2bOTNzzRdwhpv/QXK5j4g7yra9vRkwXd9gh18p9QUXcQTOm/1WfsJjD2TNntpRMFnXweFj1ZkOAKEi9b4mKqEP/oa8cukUiDt80YroXRAiD3HHijA9uenGBbZGuIpj/QcNGCOSeiqw9gg4i69w9e6cLguyX3FAkCLb3kq+gg7Gx8e6vGoIOdlzXuyVYBB3S0tLapr8TALnb0vSeAMhdby6dFQCZt6BgrwBIfTDfWgGH1teBHI2mAqBw+Pygmw/k/1ZpXj6Q/GbXbbwg+x7mx/OC3M0/i4PX4TrQYUc28oD8NXVnNg/I3ByBCB6Qvc7pLjygcJTaZ8DjELBD7unWFm4H9Zh+K+GHnCB7HR5WcYL0ff1WygkKt9U8hZwg8xOVcjgdCm25xC3SOUHmnfFN4gT5qyk5lhNk3qIlfpwO586c+ZPHyAESl3r9iA3kv7inF9gclhTYLrq/jw1otsizm2vYQPpZ4meA5f/lNbKB7P1Rl8UGCoePfcFsDmox/afqT7CCwjfJKJQFJK/Q+prZ4c///+yNU5kdgNYXzCpnBJlnx7Hmn/3zwB1MIcm/7IHqJrwO/GXPCGRo3vlpD3S3YUz/D3utmP6kfqfv9gW2XMu3mH+zfxO4Q2+l8Dd7oP3b5r7/av8IaM6k019B+hOAXieaBrq38sGcr/ZA/6xpCgSLP1Bh+2p/Y3GBYoDZF3vRde6O/O8+gdRxLp70CSS/QSaKMA0M98ku7z+C+AIRlh/tAe1iCEgoAwAA"},"shape":[101],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p89497","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p89498"}}},"glyph":{"type":"object","name":"Line","id":"p89493","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"orange","line_alpha":0.9,"line_width":2.5}},"nonselection_glyph":{"type":"object","name":"Line","id":"p89494","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"orange","line_alpha":0.1,"line_width":2.5}},"muted_glyph":{"type":"object","name":"Line","id":"p89495","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"orange","line_alpha":0.2,"line_width":2.5}}}},{"type":"object","name":"GlyphRenderer","id":"p89507","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p89501","attributes":{"selected":{"type":"object","name":"Selection","id":"p89502","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p89503"},"data":{"type":"map","entries":[["x",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAC/y1QXUSDURiOEksyyliUsoyVslr/WT2ttbWt1f63YhERu4iIYkTpIkoUEaWLiFh2EWUsoiy7iBLFiNJFRBRLKbvo+07PuXnPOe/7Pn+LBzMT1/jsWRS1ABe5uKptvAT/7zLs3a4b891q/ldiuvRl9jhRzX4NNqTua1rLOR2OJqtqKzJ1nG/Aa3p34WBGz71G/Ibrp85zTdxvRlE2Ofqw1EKcVpQv261fxe3E64CuImNQbnYStwud4mIkfjcc0rR5v4c8gIweV/WSrxcnCYXEYCKvCYJmt4/8Zlw6tx7vns3U0Q/x1Fqox4L7Z+3Ve8RKXQMYEwQD1GeDzKLI2qjTDkHf5qBeB74ldZroIHU7MR9c2dafOal/CIUCaJg+hiGKxkU/LqxK07GUi77cuIFPgnLTnxuiKDz06YGAj3no14Mded3ppW8vnu5kQ17696EmKivwMQcfhGyDn3n4cZiSG37mEsBHRGYOMJ8AmpWba2/qIHMKYk6OIxlkXiGcSig/4RBzCyFPnBH8ASUTGqF4AgAA"},"shape":[79],"dtype":"float64","order":"little"}],["y",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAC/2NgYFgwc6a2AwOU/v////4zZzRB/AeLCxRR6MAd8tjoBe4PZUC0Qkw/Cu3wsEoSH81wfbEYJXSDLZcIOTTQfYJk0nzk0AsKbLnw0UD/sEHdxwqiD8i1MoPpM2cYwOIi6/7bMwLDzdj4vz0kPv6CaCD/NzINFP+Jj07oP/QVG/2gSuQTxTTQfQwhj98SpEH+cUx4aQ8As7hPiXgCAAA="},"shape":[79],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p89508","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p89509"}}},"glyph":{"type":"object","name":"Line","id":"p89504","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"navy","line_alpha":0.8,"line_width":2}},"nonselection_glyph":{"type":"object","name":"Line","id":"p89505","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"navy","line_alpha":0.1,"line_width":2}},"muted_glyph":{"type":"object","name":"Line","id":"p89506","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"navy","line_alpha":0.2,"line_width":2}}}},{"type":"object","name":"GlyphRenderer","id":"p89517","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p89511","attributes":{"selected":{"type":"object","name":"Selection","id":"p89512","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p89513"},"data":{"type":"map","entries":[["x",[{"type":"number","value":"nan"}]],["y",[{"type":"number","value":"nan"}]]]}}},"view":{"type":"object","name":"CDSView","id":"p89518","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p89519"}}},"glyph":{"type":"object","name":"Line","id":"p89514","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"lightgrey","line_alpha":0.7}},"nonselection_glyph":{"type":"object","name":"Line","id":"p89515","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"lightgrey","line_alpha":0.1}},"muted_glyph":{"type":"object","name":"Line","id":"p89516","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"lightgrey","line_alpha":0.2}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p89447","attributes":{"tools":[{"id":"p89460"},{"id":"p89461"},{"id":"p89462"},{"id":"p89470"},{"type":"object","name":"SaveTool","id":"p89471"},{"id":"p89521"}]}},"toolbar_location":null,"left":[{"type":"object","name":"LogAxis","id":"p89455","attributes":{"ticker":{"type":"object","name":"LogTicker","id":"p89456","attributes":{"num_minor_ticks":10,"mantissas":[1,5]}},"formatter":{"type":"object","name":"LogTickFormatter","id":"p89457"},"axis_label":"Discharge (m\\u00b3/s)","major_label_policy":{"type":"object","name":"AllLabels","id":"p89458"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p89450","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p89451","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p89452"},"axis_label":"Exceedance Probability (%)","major_label_policy":{"type":"object","name":"AllLabels","id":"p89453"}}}],"center":[{"type":"object","name":"Grid","id":"p89454","attributes":{"axis":{"id":"p89450"}}},{"type":"object","name":"Grid","id":"p89459","attributes":{"dimension":1,"axis":{"id":"p89455"}}},{"type":"object","name":"Legend","id":"p89499","attributes":{"click_policy":"hide","items":[{"type":"object","name":"LegendItem","id":"p89500","attributes":{"label":{"type":"value","value":"Ensemble Median"},"renderers":[{"id":"p89496"}]}},{"type":"object","name":"LegendItem","id":"p89510","attributes":{"label":{"type":"value","value":"POR"},"renderers":[{"id":"p89507"}]}},{"type":"object","name":"LegendItem","id":"p89520","attributes":{"label":{"type":"value","value":"Annual (n=2)"},"renderers":[{"id":"p89517"}]}}]}}]}},0,0],[{"type":"object","name":"Figure","id":"p89522","attributes":{"width":450,"height":450,"x_range":{"type":"object","name":"FactorRange","id":"p89532","attributes":{"factors":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]}},"y_range":{"type":"object","name":"DataRange1d","id":"p89524"},"x_scale":{"type":"object","name":"CategoricalScale","id":"p89533"},"y_scale":{"type":"object","name":"LinearScale","id":"p89534"},"title":{"type":"object","name":"Title","id":"p89525","attributes":{"text":"Monthly Hydrograph"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p89563","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p89557","attributes":{"selected":{"type":"object","name":"Selection","id":"p89558","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p89559"},"data":{"type":"map","entries":[["x",["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]],["y",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAC/2NgAIEf9QzUp42NNzM5AADzaTGPYAAAAA=="},"shape":[12],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p89564","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p89565"}}},"glyph":{"type":"object","name":"Line","id":"p89560","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"lightgrey","line_alpha":0.7}},"nonselection_glyph":{"type":"object","name":"Line","id":"p89561","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"lightgrey","line_alpha":0.1}},"muted_glyph":{"type":"object","name":"Line","id":"p89562","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"lightgrey","line_alpha":0.2}}}},{"type":"object","name":"GlyphRenderer","id":"p89572","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p89566","attributes":{"selected":{"type":"object","name":"Selection","id":"p89567","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p89568"},"data":{"type":"map","entries":[["x",["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]],["y",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAC/5uk4llUcu2DPQMY/KhHohP6D321P3vmTMm++WIOF13Fc4vfSDm8OeIX4+gp7IBFPVYaACpNSphgAAAA"},"shape":[12],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p89573","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p89574"}}},"glyph":{"type":"object","name":"Line","id":"p89569","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"lightgrey","line_alpha":0.7}},"nonselection_glyph":{"type":"object","name":"Line","id":"p89570","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"lightgrey","line_alpha":0.1}},"muted_glyph":{"type":"object","name":"Line","id":"p89571","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"lightgrey","line_alpha":0.2}}}},{"type":"object","name":"GlyphRenderer","id":"p89581","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p89575","attributes":{"selected":{"type":"object","name":"Selection","id":"p89576","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p89577"},"data":{"type":"map","entries":[["x",["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]],["y",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAC/5uk4llUcu2DPQMY/KhHohP6D321P3vmTMm++WIOF13Fc4vfSDm8OeIX4+gp7IBFPTptbLyZyQEAcLx4A2AAAAA="},"shape":[12],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p89582","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p89583"}}},"glyph":{"type":"object","name":"Line","id":"p89578","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"navy","line_width":2}},"nonselection_glyph":{"type":"object","name":"Line","id":"p89579","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"navy","line_alpha":0.1,"line_width":2}},"muted_glyph":{"type":"object","name":"Line","id":"p89580","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"navy","line_alpha":0.2,"line_width":2}}}},{"type":"object","name":"GlyphRenderer","id":"p89592","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p89586","attributes":{"selected":{"type":"object","name":"Selection","id":"p89587","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p89588"},"data":{"type":"map","entries":[["x",["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]],["y",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAC/2NgAIEf9QzUp42NNzM5AADzaTGPYAAAAA=="},"shape":[12],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p89593","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p89594"}}},"glyph":{"type":"object","name":"Line","id":"p89589","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"orange","line_alpha":0.9,"line_width":2.5}},"nonselection_glyph":{"type":"object","name":"Line","id":"p89590","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"orange","line_alpha":0.1,"line_width":2.5}},"muted_glyph":{"type":"object","name":"Line","id":"p89591","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"orange","line_alpha":0.2,"line_width":2.5}}}},{"type":"object","name":"GlyphRenderer","id":"p89602","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p89596","attributes":{"selected":{"type":"object","name":"Selection","id":"p89597","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p89598"},"data":{"type":"map","entries":[["x",[{"type":"number","value":"nan"}]],["y",[{"type":"number","value":"nan"}]]]}}},"view":{"type":"object","name":"CDSView","id":"p89603","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p89604"}}},"glyph":{"type":"object","name":"Line","id":"p89599","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"lightgrey","line_alpha":0.7}},"nonselection_glyph":{"type":"object","name":"Line","id":"p89600","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"lightgrey","line_alpha":0.1}},"muted_glyph":{"type":"object","name":"Line","id":"p89601","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"lightgrey","line_alpha":0.2}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p89531","attributes":{"tools":[{"id":"p89545"},{"id":"p89546"},{"id":"p89547"},{"id":"p89555"},{"type":"object","name":"SaveTool","id":"p89556"},{"id":"p89606"}]}},"toolbar_location":null,"left":[{"type":"object","name":"LinearAxis","id":"p89540","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p89541","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p89542"},"axis_label":"Discharge (m\\u00b3/s)","major_label_policy":{"type":"object","name":"AllLabels","id":"p89543"}}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p89535","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p89536"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p89537"},"axis_label":"Month","major_label_policy":{"type":"object","name":"AllLabels","id":"p89538"}}}],"center":[{"type":"object","name":"Grid","id":"p89539","attributes":{"axis":{"id":"p89535"}}},{"type":"object","name":"Grid","id":"p89544","attributes":{"dimension":1,"axis":{"id":"p89540"}}},{"type":"object","name":"Legend","id":"p89584","attributes":{"click_policy":"hide","items":[{"type":"object","name":"LegendItem","id":"p89585","attributes":{"label":{"type":"value","value":"POR Mean"},"renderers":[{"id":"p89581"}]}},{"type":"object","name":"LegendItem","id":"p89595","attributes":{"label":{"type":"value","value":"Median Year (1929)"},"renderers":[{"id":"p89592"}]}},{"type":"object","name":"LegendItem","id":"p89605","attributes":{"label":{"type":"value","value":"Annual (n=2)"},"renderers":[{"id":"p89602"}]}}]}}]}},0,1]]}},{"type":"object","name":"Div","id":"p89607","attributes":{"width":900,"text":"\\n    &lt;div style=\\"margin-top: 10px; padding: 10px; background-color: #f8f9fa; border-radius: 4px; font-size: 14px;\\"&gt;\\n        &lt;strong&gt;Notes:&lt;/strong&gt;&lt;br&gt;\\n        &lt;ol style=\\"margin: 5px 0; padding-left: 20px;\\"&gt;\\n            &lt;li&gt;&lt;strong&gt;POR&lt;/strong&gt;: Period of Record - uses all daily observations across entire time period&lt;/li&gt;\\n            &lt;li&gt;&lt;strong&gt;Ensemble Median&lt;/strong&gt;: At each exceedance percentile (FDC) or month (hydrograph), the median value across all individual years&lt;/li&gt;\\n            &lt;li&gt;&lt;strong&gt;Median Year&lt;/strong&gt;: The actual year with total annual volume closest to the median of all years&lt;/li&gt;\\n            &lt;li&gt;&lt;strong&gt;Annual&lt;/strong&gt;: Light grey lines show individual year patterns preserving inter-annual variability&lt;/li&gt;\\n        &lt;/ol&gt;\\n    &lt;/div&gt;\\n    "}}]}}]}}';
+                  const render_items = [{"docid":"b2e4b44f-6d05-46d7-99e9-77322a974128","roots":{"p89618":"cba3d383-4d33-450c-8a87-cdf4fb231080"},"root_ids":["p89618"]}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        },
+    function(Bokeh) {
+        }
+      ];
+    
+      function run_inline_js() {
+        for (let i = 0; i < inline_js.length; i++) {
+          inline_js[i].call(root, root.Bokeh);
+        }
+      }
+    
+      if (root._bokeh_is_loading === 0) {
+        console.debug("Bokeh: BokehJS loaded, going straight to plotting");
+        run_inline_js();
+      } else {
+        load_libs(css_urls, js_urls, function() {
+          console.debug("Bokeh: BokehJS plotting callback run at", now());
+          run_inline_js();
+        });
+      }
+    }(window));
+  };
+  if (document.readyState != "loading") fn();
+  else document.addEventListener("DOMContentLoaded", fn);
+})();

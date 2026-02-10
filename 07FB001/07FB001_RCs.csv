@@ -1,0 +1,13 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07FB001,23.0,"Curve created using open water measurements from 2022 and the historic high measurements from 1972, 1981, and 2008. The measurements in 2022 cover a range of flows from very low to mid-high. There is a gap in the curve between the historic high measurement from 1972 and the next highest measurement from 2008, of >2000cms. When flows reach that level it typically does not last long and therefore is difficult to capture. There is a measurement from May 2021 that is slightly higher than the highest 2022 measurement, but is considered poor quality and is not used to build this curve. This new curve was created because low measurements in 2021 and 2022 had been plotting positive on previous Curve 22.01, likely as a result of scour in the channel.",LogarithmicTable,Provisional/Provisoire,(0.69);
+07FB001,22.01,Extend lower end of curve 22.00. created using open water measurements from 2017 and the historic maximum from 1972,LogarithmicTable,Final/Finales,(0.8);
+07FB001,22.0,created using open water measurements from 2017 and the historic maximum from 1972,LogarithmicTable,Final/Finales,(0.8);
+07FB001,21.0,built using open water measurements from 2013-2016 and historic high measurement from 1972,LogarithmicTable,Final/Finales,(0.97);
+07FB001,20.0,coincident to Table #19 at and above 4.000 m.,LinearTable,Final/Finales,
+07FB001,19.0,coincident to #18 below 1.7m & above 3.15m,LinearTable,Final/Finales,
+07FB001,18.0,coincident to #17 below 4.15m & above 7.5m,LinearTable,Final/Finales,
+07FB001,17.0,coincident to Table #16 at and above 1.600 m,LinearTable,Final/Finales,
+07FB001,16.0,,LinearTable,Final/Finales,
+07FB001,15.0,,LinearTable,Final/Finales,
+07FB001,14.0,,LinearTable,Final/Finales,
+07FB001,13.0,,LinearTable,Final/Finales,

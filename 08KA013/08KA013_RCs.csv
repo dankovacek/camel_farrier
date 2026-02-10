@@ -1,0 +1,17 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08KA013,13.00,New curve for 2022 using 2019-22 measurements. Top end of the curve is defined by 2012 max measurement.  Low end of the curve is defined by the low Apr 2023 measurement,LogarithmicTable,Provisional/Provisoire,(0.86);
+08KA013,12.02,Revised grades due to recent measurements/shifts,LogarithmicTable,Final/Finales,(0.913);
+08KA013,12.01,Extended bottom end to accmodate water levels on 20180331,LogarithmicTable,Final/Finales,(0.913);
+08KA013,12.000,New curve with no BP shift during ice period,LogarithmicTable,Final/Finales,(0.913);
+08KA013,11,First Curve on HWS,LogarithmicTable,Final/Finales,(1.5935:0.45);(0.81);
+08KA013,10.000,Coincident with table # 9 at and above 1.600 m,LinearTable,Final/Finales,
+08KA013,9.000,Coincident with table # 8 at and above 2.700 m,LinearTable,Final/Finales,
+08KA013,8.000,Coincident with table # 7 at and above 2.80m,LinearTable,Final/Finales,
+08KA013,7.000,Coincident with table # 6 at and above 2.100 m,LinearTable,Final/Finales,
+08KA013,6.000,Coincident with table # 5 at and above 1.900 m,LinearTable,Final/Finales,
+08KA013,5.000,,LinearTable,Final/Finales,
+08KA013,4.000,,LinearTable,Final/Finales,
+08KA013,3.000,,LinearTable,Final/Finales,
+08KA013,2.000,,LinearTable,Final/Finales,
+08KA013,1.000-SC1,,LinearTable,Final/Finales,
+08KA013,1.000,,LinearTable,Final/Finales,

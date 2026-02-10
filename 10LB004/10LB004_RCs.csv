@@ -1,0 +1,8 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10LB004,5.01,Updating E grade at high and low end. See RMD for further detail.,LogarithmicTable,Provisional/Provisoire,(6.78);
+10LB004,5.0,,LogarithmicTable,Provisional/Provisoire,(6.78);
+10LB004,4.000,,LogarithmicTable,Provisional/Provisoire,(6.81);
+10LB004,3.000,New curve created for 2014 using open water msmts back to 2006,LogarithmicTable,Final/Finales,(6.629);
+10LB004,C2.1,Same as #1 with minor change so slope decreases,LinearTable,Provisional/Provisoire,
+10LB004,2.000,Same as #1 with minor change so slope decreases,LinearTable,Provisional/Provisoire,
+10LB004,1.000,HQFit for Windows used to develop curve.,LinearTable,Final/Finales,

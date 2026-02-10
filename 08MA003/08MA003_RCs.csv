@@ -1,0 +1,8 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08MA003,14.0,Created using open water measurements from 2017 -2021.  Not including ADCP measurements which show a bias. The upper end was defined using the historical max measurements from 2007 and 2012.  The low end was defined with the historic low measurement from 2009.  The majority of measurements going back to 1995 plot on this curve.,LogarithmicTable,Provisional/Provisoire,(2.17:0.45);(1);
+08MA003,13.0,Curve created using open water measurements from Jan 2017-May 2019.  Upper end was defined using historic measurements from 2011 and 2012.  The low end was defined by the March 2009 measurement.,LogarithmicTable,Final/Finales,(0.35);
+08MA003,11.1,coincident with table 12 & 10 at and above 1.40,LinearTable,Final/Finales,
+08MA003,12.0,,LinearTable,Final/Finales,
+08MA003,11.0,,LinearTable,Final/Finales,
+08MA003,10.0,,LinearTable,Final/Finales,
+08MA003,9.0,,LinearTable,Final/Finales,

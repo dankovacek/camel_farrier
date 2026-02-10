@@ -1,0 +1,21 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08LG048,50.0,Clone of 49.00 with slight adjustments made as more measurements have been collected to determine more accurate trend.,LogarithmicTable,Provisional/Provisoire,(2.29);
+08LG048,49.0,"First rating at new site, located 300m d/s from old gauge",LogarithmicTable,Final/Finales,(2.29);
+08LG048,48.02,"Extension to upper end, again on 2021-11-15",LogarithmicTable,Final/Finales,(0.477);
+08LG048,48.01,Extension to upper end,LogarithmicTable,Final/Finales,(0.477);
+08LG048,48.0,,LogarithmicTable,Final/Finales,(0.477);
+08LG048,47.0,,LogarithmicTable,Final/Finales,(0.48);
+08LG048,46.0,co-inc. 45 >0.900,LinearTable,Final/Finales,
+08LG048,45.0,co-incident # 44 1.900 and above.,LinearTable,Final/Finales,
+08LG048,44.0,,LinearTable,Final/Finales,
+08LG048,43.0,,LinearTable,Final/Finales,
+08LG048,42.0,,LinearTable,Final/Finales,
+08LG048,41.0,,LinearTable,Final/Finales,
+08LG048,40.0,,LinearTable,Final/Finales,
+08LG048,39.0,,LinearTable,Final/Finales,
+08LG048,38.0,,LinearTable,Final/Finales,
+08LG048,37.0,,LinearTable,Final/Finales,
+08LG048,36.0,,LinearTable,Final/Finales,
+08LG048,35.0,,LinearTable,Final/Finales,
+08LG048,34.0,,LinearTable,Final/Finales,
+08LG048,33.0,,LinearTable,Final/Finales,
