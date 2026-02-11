@@ -1,9 +1,13 @@
-# Broken Telephone: Caravan Divergence
+# Broken Telephone: Caravan divergence
 
 Caravan re-published HYSETS catchment polygons in 2023 using the 2021 HYDAT drainage basin archive. Meanwhile, Water Survey of Canada (WSC) released 8,000+ polygon revisions between 2022 and late 2024. There are no DOIs to verify if these updates propagated downstream. This case study quantifies how far Caravan's polygons are from the current WSC geometry to make the case for automated provenance checks for derived datasets.
 
-## Spatial Divergence Map
+## Why polygons matter
 
+When stale polygons remain into hydrologic workflows, runoff statistics inherit the bias.  A 5% drainage-area error instantly becomes a 5% bias in area-normalized discharge and any flow statistics derived from it.
+
+
+## Spatial Divergence Map
 
 :::{margin}
 **Linked selection.** Use box-select or lasso-select tools on the CDF to highlight stations on the map (and vice versa). Toggle legend entries to isolate specific area-change bins.
@@ -45,21 +49,6 @@ flowchart TD
 :::
 
 
-
-
-The "broken telephone" happens because each step copied polygons prior to a new polygon set being available.
-
-## Why It Matters
-
-Three invisible failure modes compound when stale polygons sneak into hydrologic workflows: runoff statistics inherit area bias one-to-one, calibration targets drift away from reality, and provenance breadcrumbs disappear.
-
-Runoff math is unforgiving. A 5% drainage-area error instantly becomes a 5% bias in area-normalized discharge and any flow statistics derived from it.
-
-Model calibration drifts. Large-sample workflows tune parameters against physiographic descriptors. When the descriptor is out-of-date, the calibrated model is answering yesterday's basin.
-
-Provenance is invisible today. Polygons lack version identifiers or DOIs, so downstream users have difficulty verifying if their data is up-to-date or tracking the source of errors.
-
-
 ## Network-wide summary
 
 :::{bokeh-plot}
@@ -81,7 +70,7 @@ show(generate_caravan_summary_table())
 All calculations convert geometries to Lambert Azimuthal Equal Area (LAEA) centered on each basin so area and overlap metrics are unbiased across Canada's span.
 
 
-## Distribution of Overlap
+## Distribution of geometric match
 
 :::{bokeh-plot}
 import sys
@@ -92,7 +81,7 @@ from scripts.generation.revision_plots import load_caravan_comparison_data, plot
 show(plot_area_change_cdf(load_caravan_comparison_data(include_coordinates=False)))
 :::
 
-## Per-Station Metrics
+## Per-station metrics
 
 :::{margin}
 Sort by Jaccard similarity or |Δarea| to find the basins most impacted by the HYDAT→HYSETS→Caravan lag (closer to zero is less overlap). Station links activate when a diagnostic page already exists in this repository.
@@ -107,7 +96,7 @@ from scripts.generation.revision_plots import generate_caravan_comparison_table
 show(generate_caravan_comparison_table())
 :::
 
-## Per-Station Basin Comparison
+## Per-station polygon comparison summary
 
 Running the `compare_caravan_polygons.py` script generates station-level comparison tables with all metrics and source metadata, but to avoid excessive computaton, these do not generate visualizations. A function is provided to generate polygon overlay plots between the Caravan and current WSC polygons for a station on demand so long
 as there are polygons in the source data.
@@ -128,16 +117,29 @@ show(plot_caravan_wsc_comparison("07DB005", width=800))
 :::
 
 
-## Implications for LSH Datasets
+## Implications for LSH datasets
 
 1. **Area errors propagate directly**: 5% polygon error = 5% unit area runoff bias
 2. **Calibrated models drift**: Parameters tuned on wrong geometry answer the wrong question
+
+## Update catchment descriptors
+
+For all polygons in common between Caravan and the current WSC set, we reprocessed catchment descriptors using the more recent WSC polygons using the Caravan workflow computed through Google Earth Engine. See the [Caravan github repository](https://github.com/kratzert/Caravan) for details.
+
+:::{bokeh-plot}
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from bokeh.io import show
+from scripts.generation.compare_caravan_polygons import plot_caravan_descriptor_regressions
+show(plot_caravan_descriptor_regressions())
+:::
 
 ## Repeatable results
 
 This repository maintains `compare_caravan_polygons.py` in the `scripts/generation/` directory to replicate the results presented here.
 
-## Reproduction Checklist
+## Reproduction checklist
 
 1. **Quick test (39 stations, <15 s):**
    ```bash
