@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LC034_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LC034", "NameNom": "FERRY CREEK NEAR LUMBY", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13207745.888047687709332, 6488281.494657485745847 ] } }
+]
+}

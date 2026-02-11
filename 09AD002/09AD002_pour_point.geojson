@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09AD002_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "09AD002", "NameNom": "SIDNEY CREEK AT KILOMETRE 46 SOUTH CANOL ROAD", "Status": "active", "Etat": "en service", "ProvTerr": "YT" }, "geometry": { "type": "Point", "coordinates": [ -14812680.175025906413794, 8577400.008139349520206 ] } }
+]
+}

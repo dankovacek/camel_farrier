@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NN023_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NN023", "NameNom": "BURRELL CREEK ABOVE GLOUCESTER CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13170438.273903230205178, 6375365.453955567441881 ] } }
+]
+}

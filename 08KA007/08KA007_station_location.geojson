@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08KA007_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08KA007", "NameNom": "FRASER RIVER AT RED PASS", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13247765.244987869635224, 6980460.494847075082362 ] } }
+]
+}

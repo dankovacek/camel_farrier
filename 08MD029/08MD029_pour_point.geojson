@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MD029_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MD029", "NameNom": "BLACKHILL CREEK NEAR PAVILION", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13569304.914974791929126, 6586432.335550121031702 ] } }
+]
+}

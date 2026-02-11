@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MH103_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MH103", "NameNom": "CHILLIWACK RIVER ABOVE SLESSE CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13543463.208382042124867, 6292138.807734007015824 ] } }
+]
+}

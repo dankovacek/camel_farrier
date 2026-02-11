@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08JC006_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08JC006", "NameNom": "MURRAY CREEK AT VANDERHOOF", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13805320.046575058251619, 7175839.983433098532259 ] } }
+]
+}

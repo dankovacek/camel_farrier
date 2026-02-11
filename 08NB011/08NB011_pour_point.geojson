@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NB011_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NB011", "NameNom": "COLUMBIA RIVER AT BIG BEND HIGHWAY CROSSING", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13182160.216283762827516, 6821213.995665585622191 ] } }
+]
+}

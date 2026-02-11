@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10VK001_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10VK001", "NameNom": "RUGGLES RIVER AT OUTLET LAKE HAZEN", "Status": "active", "Etat": "en service", "ProvTerr": "NU", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -7841376.100935612805188, 16805229.659343495965004 ] } }
+]
+}

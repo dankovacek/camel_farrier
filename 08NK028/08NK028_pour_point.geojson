@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NK028_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NK028", "NameNom": "MICHEL CREEK ABOVE CORBIN CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -12765744.057488638907671, 6362266.735456415452063 ] } }
+]
+}

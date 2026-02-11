@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HB063_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HB063", "NameNom": "KITSUCKSUS CREEK ABOVE CHERRY CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13892749.261449189856648, 6322667.884036454372108 ] } }
+]
+}

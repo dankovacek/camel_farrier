@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LF030_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LF030", "NameNom": "DURAND CREEK (FERGUSON DIVERSION) NEAR SAVONA", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13443651.926546977832913, 6562058.999329933896661 ] } }
+]
+}

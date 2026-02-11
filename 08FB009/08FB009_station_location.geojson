@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08FB009_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08FB009", "NameNom": "CLAYTON FALLS CREEK NEAR THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -14116213.120462512597442, 6866291.031272887252271 ] } }
+]
+}

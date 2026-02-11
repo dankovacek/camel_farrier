@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10GB006_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10GB006", "NameNom": "WILLOWLAKE RIVER ABOVE METAHDALI CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "NT" }, "geometry": { "type": "Point", "coordinates": [ -13681075.249705780297518, 9014809.12631786800921 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LG020_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LG020", "NameNom": "SPAHOMIN CREEK AT OUTLET OF PENNASK LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13371507.990953672677279, 6451136.757584527134895 ] } }
+]
+}

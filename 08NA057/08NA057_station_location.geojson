@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NA057_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NA057", "NameNom": "WILMER CREEK NEAR WILMER", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12924003.637964712455869, 6541444.231559799052775 ] } }
+]
+}

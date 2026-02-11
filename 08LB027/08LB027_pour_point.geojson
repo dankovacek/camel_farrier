@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LB027_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LB027", "NameNom": "PAUL CREEK NEAR KAMLOOPS (STATION F)", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13393990.075314283370972, 6570006.091190260834992 ] } }
+]
+}

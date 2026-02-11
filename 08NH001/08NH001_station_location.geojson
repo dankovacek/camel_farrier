@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH001_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NH001", "NameNom": "DUNCAN RIVER NEAR HOWSER", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13018324.642513854429126, 6495924.502187823876739 ] } }
+]
+}

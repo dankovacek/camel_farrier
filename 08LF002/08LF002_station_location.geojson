@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LF002_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LF002", "NameNom": "BONAPARTE RIVER BELOW CACHE CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13505647.977359568700194, 6586516.883036601357162 ] } }
+]
+}

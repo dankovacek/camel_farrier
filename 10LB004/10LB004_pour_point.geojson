@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10LB004_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10LB004", "NameNom": "LOON RIVER NEAR THE ARCTIC CIRCLE", "Status": "active", "Etat": "en service", "ProvTerr": "NT" }, "geometry": { "type": "Point", "coordinates": [ -14338047.262130627408624, 10018832.257794562727213 ] } }
+]
+}

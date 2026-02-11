@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MF001_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MF001", "NameNom": "ANDERSON RIVER NEAR BOSTON BAR", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13517336.523892860859632, 6418612.629764614626765 ] } }
+]
+}

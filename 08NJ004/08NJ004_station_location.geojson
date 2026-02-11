@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ004_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NJ004", "NameNom": "CARPENTER CREEK (SOUTH FORK) AT SANDON", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13050195.41272796690464, 6442428.617323132231832 ] } }
+]
+}

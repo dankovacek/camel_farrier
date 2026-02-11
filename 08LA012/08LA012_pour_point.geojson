@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LA012_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LA012", "NameNom": "CLEARWATER LAKE NEAR CLEARWATER STATION", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13379969.38544886931777, 6825469.873218859545887 ] } }
+]
+}

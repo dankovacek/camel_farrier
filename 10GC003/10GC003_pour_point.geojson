@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10GC003_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10GC003", "NameNom": "MARTIN RIVER AT HIGHWAY NO. 1", "Status": "active", "Etat": "en service", "ProvTerr": "NT" }, "geometry": { "type": "Point", "coordinates": [ -13537827.102563178166747, 8834073.321035582572222 ] } }
+]
+}

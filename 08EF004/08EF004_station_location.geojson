@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08EF004_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08EF004", "NameNom": "KITSEGUECLA RIVER NEAR SKEENA CROSSING", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -14227866.569728165864944, 7379407.371496195904911 ] } }
+]
+}

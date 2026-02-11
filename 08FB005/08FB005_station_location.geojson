@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08FB005_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08FB005", "NameNom": "NUSATSUM RIVER NEAR HAGENSBORG", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -14077496.20156461559236, 6870849.838038918562233 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MC025_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MC025", "NameNom": "MISSIONER CREEK BELOW RESERVOIR LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13592299.068993050605059, 6831123.665582925081253 ] } }
+]
+}

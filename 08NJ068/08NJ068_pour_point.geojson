@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ068_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NJ068", "NameNom": "FORTY-NINE CREEK NEAR BLEWETT", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13071816.997424745932221, 6353203.644571919925511 ] } }
+]
+}

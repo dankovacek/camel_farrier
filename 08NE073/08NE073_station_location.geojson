@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE073_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NE073", "NameNom": "BLUEBERRY CREEK NEAR BLUEBERRY CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13100144.468246908858418, 6318336.355352962389588 ] } }
+]
+}

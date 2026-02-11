@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08KE008_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08KE008", "NameNom": "CUISSON CREEK (SOUTH FORK) NEAR MARGUERITE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13617578.612157296389341, 6894335.747991823591292 ] } }
+]
+}

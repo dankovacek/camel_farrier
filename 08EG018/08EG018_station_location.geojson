@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08EG018_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08EG018", "NameNom": "CLARENCE CREEK NEAR ROSSWOOD", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -14338696.254761951044202, 7360410.652016393840313 ] } }
+]
+}

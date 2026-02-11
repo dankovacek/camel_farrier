@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MH091_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MH091", "NameNom": "SILVERDALE CREEK NEAR MISSION", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13618590.506328608840704, 6300098.105481174774468 ] } }
+]
+}

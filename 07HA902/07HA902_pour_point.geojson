@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07HA902_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07HA902", "NameNom": "KRAWCHUK DRAINAGE NEAR MCLENNAN", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -13027967.136806366965175, 7549100.758642128668725 ] } }
+]
+}

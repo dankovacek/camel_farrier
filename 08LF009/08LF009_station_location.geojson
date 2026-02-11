@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LF009_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LF009", "NameNom": "DEADMAN RIVER ABOVE WALHACHIN FLUME", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13466563.704142048954964, 6599702.828470688313246 ] } }
+]
+}

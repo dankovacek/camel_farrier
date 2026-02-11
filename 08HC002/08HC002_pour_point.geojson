@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HC002_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HC002", "NameNom": "UCONA RIVER AT THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -14037216.357015976682305, 6395931.616213577799499 ] } }
+]
+}

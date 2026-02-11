@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07AF910_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07AF910", "NameNom": "WHITEHORSE CREEK NEAR CADOMIN", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13062718.855442211031914, 6979915.016644567251205 ] } }
+]
+}

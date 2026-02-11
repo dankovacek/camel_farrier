@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08KA008_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08KA008", "NameNom": "MOOSE RIVER NEAR RED PASS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13224755.506240898743272, 6968213.773414450697601 ] } }
+]
+}

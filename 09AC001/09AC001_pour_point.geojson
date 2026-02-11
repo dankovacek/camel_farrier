@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09AC001_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "09AC001", "NameNom": "TAKHINI RIVER NEAR WHITEHORSE", "Status": "active", "Etat": "en service", "ProvTerr": "YT" }, "geometry": { "type": "Point", "coordinates": [ -15110712.508142014965415, 8591834.536300849169493 ] } }
+]
+}

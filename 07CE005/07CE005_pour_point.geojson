@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07CE005_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07CE005", "NameNom": "JACKFISH RIVER BELOW CHRISTINA LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -12367527.522243309766054, 7493578.893955789506435 ] } }
+]
+}

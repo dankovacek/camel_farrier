@@ -107,6 +107,26 @@ from scripts.generation.revision_plots import generate_caravan_comparison_table
 show(generate_caravan_comparison_table())
 :::
 
+## Per-Station Basin Comparison
+
+Running the `compare_caravan_polygons.py` script generates station-level comparison tables with all metrics and source metadata, but to avoid excessive computaton, these do not generate visualizations. A function is provided to generate polygon overlay plots between the Caravan and current WSC polygons for a station on demand so long
+as there are polygons in the source data.
+
+:::{margin}
+In the example below, the drainage areas are close, but the catchment polygon is non-overlapping!
+
+The example station ID is 07DB005.
+:::
+
+:::{bokeh-plot}
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from bokeh.io import show
+from scripts.generation.compare_caravan_polygons import plot_caravan_wsc_comparison
+show(plot_caravan_wsc_comparison("07DB005", width=800))
+:::
+
 
 ## Implications for LSH Datasets
 

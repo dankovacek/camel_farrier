@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NB009_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NB009", "NameNom": "HOSPITAL CREEK NORTH FORK NEAR GOLDEN", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13018827.806612238287926, 6681917.758556648157537 ] } }
+]
+}

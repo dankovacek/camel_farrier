@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LB039_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LB039", "NameNom": "MAD RIVER NEAR IRVINE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13314671.598539350554347, 6741880.239930747076869 ] } }
+]
+}

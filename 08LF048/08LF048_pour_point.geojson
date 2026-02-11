@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LF048_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LF048", "NameNom": "FIFTYNINE CREEK NEAR CHASM", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13526364.534596195444465, 6659971.250711420550942 ] } }
+]
+}

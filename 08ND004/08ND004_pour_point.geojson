@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08ND004_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08ND004", "NameNom": "JORDAN RIVER NEAR REVELSTOKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13162350.912897098809481, 6623828.925376214087009 ] } }
+]
+}

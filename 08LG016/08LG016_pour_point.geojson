@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LG016_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LG016", "NameNom": "PENNASK CREEK NEAR QUILCHENA", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13373387.063958263024688, 6440194.165162998251617 ] } }
+]
+}

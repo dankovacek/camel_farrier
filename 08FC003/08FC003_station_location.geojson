@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08FC003_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08FC003", "NameNom": "DEAN RIVER BELOW TANSWANKET CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -14000785.940458968281746, 6962578.974598464556038 ] } }
+]
+}

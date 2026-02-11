@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NN021_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NN021", "NameNom": "MOODY CREEK NEAR CHRISTINA", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13166150.24711787328124, 6283390.374284794554114 ] } }
+]
+}

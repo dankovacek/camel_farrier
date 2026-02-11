@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08EE005_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08EE005", "NameNom": "BULKLEY RIVER NEAR SMITHERS", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -14152369.691072169691324, 7317283.75119539257139 ] } }
+]
+}

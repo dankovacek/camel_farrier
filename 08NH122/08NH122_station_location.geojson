@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH122_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NH122", "NameNom": "PEAVINE CREEK NEAR CRANBROOK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12883962.017126373946667, 6351754.868982937186956 ] } }
+]
+}

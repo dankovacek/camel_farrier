@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08KH024_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08KH024", "NameNom": "MOLYBDENITE CREEK NEAR HENDRIX LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13456858.870934689417481, 6824713.552237115800381 ] } }
+]
+}

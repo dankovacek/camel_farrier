@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE106_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NE106", "NameNom": "BEAVER CREEK AT THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13091261.172881608828902, 6286652.133247937075794 ] } }
+]
+}

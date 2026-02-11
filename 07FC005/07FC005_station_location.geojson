@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07FC005_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07FC005", "NameNom": "CHARLIE LAKE NEAR FORT ST. JOHN", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13464860.515932913869619, 7614471.159862990491092 ] } }
+]
+}

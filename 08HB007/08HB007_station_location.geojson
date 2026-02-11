@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HB007_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HB007", "NameNom": "PUNTLEDGE RIVER NEAR CUMBERLAND", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13925300.19375205039978, 6388269.705542350187898 ] } }
+]
+}

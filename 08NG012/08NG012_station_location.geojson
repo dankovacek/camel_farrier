@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NG012_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NG012", "NameNom": "ST. MARY RIVER AT WYCLIFFE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12897787.897882897406816, 6377337.009972750209272 ] } }
+]
+}

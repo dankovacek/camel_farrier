@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08GB005_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08GB005", "NameNom": "SLIAMMON CREEK NEAR POWELL RIVER", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13871089.828125542029738, 6428711.1646125651896 ] } }
+]
+}

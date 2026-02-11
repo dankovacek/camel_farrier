@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LF014_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LF014", "NameNom": "HAT CREEK - HAMMOND DIVERSION TO OREGON JACK CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13533043.704043792560697, 6554495.031103586778045 ] } }
+]
+}

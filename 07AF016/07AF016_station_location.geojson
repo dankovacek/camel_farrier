@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07AF016_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07AF016", "NameNom": "ERITH RIVER BELOW HANLAN CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12976023.236012410372496, 7026791.859583639539778 ] } }
+]
+}

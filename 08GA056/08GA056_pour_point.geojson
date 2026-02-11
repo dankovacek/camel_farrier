@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08GA056_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08GA056", "NameNom": "SENTINEL CREEK ABOVE GARIBALDI LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13692186.048081856220961, 6429229.633815437555313 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08ME005_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08ME005", "NameNom": "BRIDGE RIVER NEAR GOLD BRIDGE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13675131.902092326432467, 6594998.943874279968441 ] } }
+]
+}

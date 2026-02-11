@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07AC003_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07AC003", "NameNom": "EAST CABIN CREEK NEAR MUSKEG", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13176520.770880173891783, 7126089.648342432454228 ] } }
+]
+}

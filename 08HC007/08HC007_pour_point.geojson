@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HC007_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HC007", "NameNom": "HEBER DIVERSION NEAR GOLD RIVER", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -14021022.710690276697278, 6421110.650278812274337 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM131_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NM131", "NameNom": "OKANOGAN RIVER AT BRIDGE STREET AT OROVILLE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "WA" }, "geometry": { "type": "Point", "coordinates": [ -13294458.205401109531522, 6264539.332790402695537 ] } }
+]
+}

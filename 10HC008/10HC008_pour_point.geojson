@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10HC008_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10HC008", "NameNom": "OCHRE RIVER NEAR THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "NT" }, "geometry": { "type": "Point", "coordinates": [ -13760401.518845066428185, 9221391.322601288557053 ] } }
+]
+}

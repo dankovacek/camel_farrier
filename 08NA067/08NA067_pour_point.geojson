@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NA067_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NA067", "NameNom": "BOWER CREEK NEAR THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13007670.254050029441714, 6656548.97724665235728 ] } }
+]
+}

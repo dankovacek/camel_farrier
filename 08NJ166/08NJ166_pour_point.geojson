@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ166_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NJ166", "NameNom": "DUMONT CREEK NEAR WINLAW", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13084051.009462924674153, 6379578.758969259448349 ] } }
+]
+}

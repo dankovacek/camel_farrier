@@ -1088,6 +1088,7 @@ document.write(`
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#distribution-of-overlap">Distribution of Overlap</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#per-station-metrics">Per-Station Metrics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#per-station-basin-comparison">Per-Station Basin Comparison</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#implications-for-lsh-datasets">Implications for LSH Datasets</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#repeatable-results">Repeatable results</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reproduction-checklist">Reproduction Checklist</a></li>
@@ -1112,7 +1113,7 @@ document.write(`
 <p><strong>Linked selection.</strong> Use box-select or lasso-select tools on the CDF to highlight stations on the map (and vice versa). Toggle legend entries to isolate specific area-change bins.</p>
 <p>Warm colors highlight basins where Caravan’s inherited geometry deviates most from the latest WSC polygons.</p>
 </aside>
-<div style="height:900px;"><script src="bokeh-content-95a95a06c42d4113b34cbf2eb8e31f1d-summary_pages-broken_telephone_casestudy.js" id="b4597ed9-6925-4254-b3fe-fca738c7fba8"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:900px;"><script src="bokeh-content-0fbfe051086c4c41818fba8e300a7f96-summary_pages-broken_telephone_casestudy.js" id="c87e1f1b-ec8e-438f-93da-a868808a1ea0"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -1153,7 +1154,7 @@ flowchart TD
 </section>
 <section id="network-wide-summary">
 <h2>Network-wide summary<a class="headerlink" href="#network-wide-summary" title="Link to this heading">#</a></h2>
-<div style="height:230px;"><script src="bokeh-content-210b5feb269144018fa5e8afa0c75883-summary_pages-broken_telephone_casestudy.js" id="a3596e91-ee9f-4688-9a88-8af2e35ccd27"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:230px;"><script src="bokeh-content-c9e4c1f4b9d7418ca62bc38877d58446-summary_pages-broken_telephone_casestudy.js" id="a4d00997-09e7-4448-adbf-2c85fa0e0f8c"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -1173,7 +1174,7 @@ flowchart TD
 </section>
 <section id="distribution-of-overlap">
 <h2>Distribution of Overlap<a class="headerlink" href="#distribution-of-overlap" title="Link to this heading">#</a></h2>
-<div style="height:400px;"><script src="bokeh-content-264593e7098d44fe877eb284dff0fd10-summary_pages-broken_telephone_casestudy.js" id="f52cf4eb-e59a-481d-9d62-2341a7d75d88"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:400px;"><script src="bokeh-content-3fc3e2f69f004e489eb3dd69f4d09d50-summary_pages-broken_telephone_casestudy.js" id="b5ddc6c3-919f-4cee-b16e-fa17d8e673db"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -1188,12 +1189,30 @@ flowchart TD
 <p class="sidebar-title"></p>
 <p>Sort by Jaccard similarity or |Δarea| to find the basins most impacted by the HYDAT→HYSETS→Caravan lag (closer to zero is less overlap). Station links activate when a diagnostic page already exists in this repository.</p>
 </aside>
-<div style="height:450px;"><script src="bokeh-content-ed0a34560baf42b0be5b2175d90e3575-summary_pages-broken_telephone_casestudy.js" id="cd7ec3f7-dcb9-4fde-a793-5863f1d7369e"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:450px;"><script src="bokeh-content-b340ef7479dd42d69913919d5c886853-summary_pages-broken_telephone_casestudy.js" id="cdcc1f3f-106f-4ba3-88bf-4d84efa6947b"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">scripts.generation.revision_plots</span><span class="w"> </span><span class="kn">import</span> <span class="n">generate_caravan_comparison_table</span>
 <span class="n">show</span><span class="p">(</span><span class="n">generate_caravan_comparison_table</span><span class="p">())</span>
+</pre></div>
+</div>
+</section>
+<section id="per-station-basin-comparison">
+<h2>Per-Station Basin Comparison<a class="headerlink" href="#per-station-basin-comparison" title="Link to this heading">#</a></h2>
+<p>Running the <code class="docutils literal notranslate"><span class="pre">compare_caravan_polygons.py</span></code> script generates station-level comparison tables with all metrics and source metadata, but to avoid excessive computaton, these do not generate visualizations. A function is provided to generate polygon overlay plots between the Caravan and current WSC polygons for a station on demand so long
+as there are polygons in the source data.</p>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<p>In the example below, the drainage areas are close, but the catchment polygon is non-overlapping!</p>
+<p>The example station ID is 07DB005.</p>
+</aside>
+<script src="bokeh-content-58ea7e41e4064becb51d3b50c495cf0a-summary_pages-broken_telephone_casestudy.js" id="ba02b65c-cb86-42a2-ad1f-f41bbfa10382"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">scripts.generation.compare_caravan_polygons</span><span class="w"> </span><span class="kn">import</span> <span class="n">plot_caravan_wsc_comparison</span>
+<span class="n">show</span><span class="p">(</span><span class="n">plot_caravan_wsc_comparison</span><span class="p">(</span><span class="s2">&quot;07DB005&quot;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">800</span><span class="p">))</span>
 </pre></div>
 </div>
 </section>
@@ -1304,6 +1323,7 @@ jupyter<span class="w"> </span>book<span class="w"> </span>build<span class="w">
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#distribution-of-overlap">Distribution of Overlap</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#per-station-metrics">Per-Station Metrics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#per-station-basin-comparison">Per-Station Basin Comparison</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#implications-for-lsh-datasets">Implications for LSH Datasets</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#repeatable-results">Repeatable results</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reproduction-checklist">Reproduction Checklist</a></li>

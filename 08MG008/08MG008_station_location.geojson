@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MG008_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MG008", "NameNom": "BIRKENHEAD RIVER AT MOUNT CURRIE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13661996.202178720384836, 6505173.791444064117968 ] } }
+]
+}

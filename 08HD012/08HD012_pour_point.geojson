@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HD012_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HD012", "NameNom": "SPRINGER CREEK NEAR SAYWARD", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -14016179.199645863845944, 6504425.585460495203733 ] } }
+]
+}

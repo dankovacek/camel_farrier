@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07DB005_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07DB005", "NameNom": "MACKAY RIVER ABOVE DUNKIRK RIVER", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12536122.004244631156325, 7711165.277004783973098 ] } }
+]
+}

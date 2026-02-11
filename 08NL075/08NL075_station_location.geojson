@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NL075_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NL075", "NameNom": "SIMILKAMEEN RIVER ABOVE MEMALOOSE CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13451324.065852450206876, 6294585.845194640569389 ] } }
+]
+}

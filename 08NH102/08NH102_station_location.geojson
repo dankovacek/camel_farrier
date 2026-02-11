@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH102_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NH102", "NameNom": "AKOKLI CREEK NEAR BOSWELL", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12995904.897068088874221, 6347855.035023765638471 ] } }
+]
+}

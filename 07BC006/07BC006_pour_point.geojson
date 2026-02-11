@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07BC006_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07BC006", "NameNom": "DAPP CREEK AT HIGHWAY NO. 44", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -12673640.537196101620793, 7228764.104521981440485 ] } }
+]
+}

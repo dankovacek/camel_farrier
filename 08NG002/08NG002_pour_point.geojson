@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NG002_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NG002", "NameNom": "BULL RIVER NEAR WARDNER", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -12842440.960255388170481, 6358973.828143360093236 ] } }
+]
+}

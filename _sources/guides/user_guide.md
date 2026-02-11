@@ -94,9 +94,7 @@ cd book_docs/
 jupyter book build .
 open _build/html/index.html
 ```
-</div>
 
-<div class="cf-section">
 ## Station Data Initialization
 
 ### Demo Stations
@@ -261,9 +259,7 @@ Automated checks include:
 - **Metadata Quality** — Required fields populated
 
 Results stored in `_qc_status.json` per station.
-</div>
 
-<div class="cf-section">
 ## Caravan vs WSC Polygon Comparison
 
 Benchmark Caravan's inherited HYSETS polygons against the current WSC drainage basins. Start with the test region so you can validate dependencies and CRS handling before launching the full computation.
@@ -295,7 +291,7 @@ open _build/html/index.html
 
 ### Deploy to GitHub Pages
 
-{
+```bash
 ghp-import -n -p -f book_docs/_build/html
 ```
 

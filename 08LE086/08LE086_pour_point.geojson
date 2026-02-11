@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LE086_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LE086", "NameNom": "RATCHFORD CREEK AT 600 M CONTOUR", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13225513.591973202303052, 6686001.411516484804451 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08KE028_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08KE028", "NameNom": "TABOR CREEK AT HIGHWAY NO. 97 NEAR PRINCE GEORGE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13653619.410496527329087, 7131409.988918516784906 ] } }
+]
+}

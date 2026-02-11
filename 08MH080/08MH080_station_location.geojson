@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MH080_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MH080", "NameNom": "LONZO CREEK NEAR ABBOTSFORD", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13610132.45141813531518, 6279812.382866686210036 ] } }
+]
+}

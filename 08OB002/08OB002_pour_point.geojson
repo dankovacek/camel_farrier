@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08OB002_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08OB002", "NameNom": "PALLANT CREEK NEAR QUEEN CHARLOTTE", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -14699870.116250909864902, 6993557.606111934408545 ] } }
+]
+}

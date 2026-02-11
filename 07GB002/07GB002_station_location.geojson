@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07GB002_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07GB002", "NameNom": "KAKWA RIVER NEAR GRANDE PRAIRIE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13201868.218933802098036, 7240967.864478840492666 ] } }
+]
+}

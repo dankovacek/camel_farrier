@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10SA002_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10SA002", "NameNom": "LORD LINDSAY RIVER ABOVE SANAGAK LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NU", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -10458466.160028053447604, 11139605.714475011453032 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NG031_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NG031", "NameNom": "CASSIMAYOOK CREEK NEAR BAKER", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -12868747.982319656759501, 6361467.816675057634711 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NK017_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NK017", "NameNom": "WHITING CREEK NEAR NATAL", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -12790637.322019830346107, 6406797.304460157640278 ] } }
+]
+}

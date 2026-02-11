@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08KE033_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08KE033", "NameNom": "ALIX CREEK ABOVE ALIX LAKES", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13626129.06224512681365, 6916121.98573478218168 ] } }
+]
+}

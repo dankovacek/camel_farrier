@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NL067_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NL067", "NameNom": "TULAMEEN RIVER NEAR TULAMEEN", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13447394.487827446311712, 6367085.864045310765505 ] } }
+]
+}

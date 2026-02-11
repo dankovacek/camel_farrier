@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08EE010_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08EE010", "NameNom": "KATHLYN CREEK ABOVE SIMPSON CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -14159995.076191511005163, 7325560.893712067976594 ] } }
+]
+}

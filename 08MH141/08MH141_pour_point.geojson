@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MH141_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MH141", "NameNom": "COQUITLAM RIVER ABOVE COQUITLAM LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13669214.157961755990982, 6358034.703697456046939 ] } }
+]
+}

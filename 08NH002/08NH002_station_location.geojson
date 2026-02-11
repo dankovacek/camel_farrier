@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH002_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NH002", "NameNom": "FRY CREEK NEAR LARDO", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13008951.541389059275389, 6456191.240404141135514 ] } }
+]
+}

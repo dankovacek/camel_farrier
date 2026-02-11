@@ -652,7 +652,8 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#verify-setup">Verify Setup</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-start-workflow">Quick Start Workflow</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-start-workflow">Quick Start Workflow</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#station-data-initialization">Station Data Initialization</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#demo-stations">Demo Stations</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#running-initialization">Running Initialization</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#git-tracking-philosophy">Git Tracking Philosophy</a></li>
@@ -671,9 +672,21 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#validation-rules">Validation Rules</a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#caravan-vs-wsc-polygon-comparison">Caravan vs WSC Polygon Comparison</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#build-and-deploy-documentation">Build and Deploy Documentation</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#build-jupyter-book">Build Jupyter Book</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#deploy-to-github-pages">Deploy to GitHub Pages</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scripts-architecture">Scripts Architecture</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#configuration-layer-scripts-config">Configuration Layer (<code class="docutils literal notranslate"><span class="pre">scripts/config/</span></code>)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#utilities-layer-scripts-utils">Utilities Layer (<code class="docutils literal notranslate"><span class="pre">scripts/utils/</span></code>)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#generation-layer-scripts-generation">Generation Layer (<code class="docutils literal notranslate"><span class="pre">scripts/generation/</span></code>)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#workflow-scripts-scripts-demo-setup">Workflow Scripts (<code class="docutils literal notranslate"><span class="pre">scripts/demo_setup/</span></code>)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#troubleshooting">Troubleshooting</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wateroffice-export-not-found">“WaterOffice export not found”</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hydat-database-not-found">“HYDAT database not found”</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#import-error-supporting-figure-functions">“Import error: supporting_figure_functions”</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crs-projection-warnings">CRS/Projection Warnings</a></li>
@@ -781,9 +794,9 @@ jupyter<span class="w"> </span>book<span class="w"> </span>build<span class="w">
 open<span class="w"> </span>_build/html/index.html
 </pre></div>
 </div>
-</div>
-<div class="cf-section">
-## Station Data Initialization
+</section>
+<section id="station-data-initialization">
+<h2>Station Data Initialization<a class="headerlink" href="#station-data-initialization" title="Link to this heading">#</a></h2>
 <section id="demo-stations">
 <h3>Demo Stations<a class="headerlink" href="#demo-stations" title="Link to this heading">#</a></h3>
 <p>The repository includes 10 demonstration stations from across Canada:</p>
@@ -940,9 +953,10 @@ python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py<spa
 <li><p><strong>Metadata Quality</strong> — Required fields populated</p></li>
 </ul>
 <p>Results stored in <code class="docutils literal notranslate"><span class="pre">_qc_status.json</span></code> per station.</p>
-</div>
-<div class="cf-section">
-## Caravan vs WSC Polygon Comparison
+</section>
+</section>
+<section id="caravan-vs-wsc-polygon-comparison">
+<h2>Caravan vs WSC Polygon Comparison<a class="headerlink" href="#caravan-vs-wsc-polygon-comparison" title="Link to this heading">#</a></h2>
 <p>Benchmark Caravan’s inherited HYSETS polygons against the current WSC drainage basins. Start with the test region so you can validate dependencies and CRS handling before launching the full computation.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Fast validation (39 stations, MDA_ADP_06 only)</span>
 python<span class="w"> </span>scripts/generation/compare_caravan_polygons.py<span class="w"> </span>--test
@@ -952,7 +966,6 @@ python<span class="w"> </span>scripts/generation/compare_caravan_polygons.py
 </pre></div>
 </div>
 <p>Outputs land in <code class="docutils literal notranslate"><span class="pre">book_docs/data/polygon_comparisons/caravan_vs_wsc2024/</span></code> and drive the “Broken Telephone” case study page. Rebuild the Jupyter Book after a successful run to refresh the plots.</p>
-</section>
 </section>
 <section id="build-and-deploy-documentation">
 <h2>Build and Deploy Documentation<a class="headerlink" href="#build-and-deploy-documentation" title="Link to this heading">#</a></h2>
@@ -969,40 +982,44 @@ jupyter<span class="w"> </span>book<span class="w"> </span>build<span class="w">
 </section>
 <section id="deploy-to-github-pages">
 <h3>Deploy to GitHub Pages<a class="headerlink" href="#deploy-to-github-pages" title="Link to this heading">#</a></h3>
-<p>{
-ghp-import -n -p -f book_docs/_build/html</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
-## Scripts Architecture
-
-The workflow uses modular, reusable scripts organized into layers:
-
-### Configuration Layer (`scripts/config/`)
-
-- **`paths.py`** — Centralized path resolution (single source of truth)
-
-### Utilities Layer (`scripts/utils/`)
-
-- **`bokeh.py`** — Bokeh visualization utilities
-- **`geometry.py`** — Geospatial operations (Jaccard, projections)
-- **`markdown.py`** — Template rendering and table generation
-- **`data_loaders.py`** — Unified data loading with caching
-
-### Generation Layer (`scripts/generation/`)
-
-The generation layer contains `page_generator.py` for unified page generation.
-
-### Workflow Scripts (`scripts/demo_setup/`)
-
-Workflow scripts include `populate_demo_data.py` to initialize station data, `integrate_hydat_polygons.py` to add polygon versions, and `process_station_pages.py` to generate diagnostic pages.
-
-This design provides single source of truth where path changes only require editing `paths.py`, reusability enabling multiple workflows without duplication, testability with each layer tested independently, and maintainability through clear separation of concerns.
-
-## Troubleshooting
-
-### &quot;WaterOffice export not found&quot;
-
-```bash
-ls data/WaterOffice_RC_Export_20260203.zip
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ghp-import<span class="w"> </span>-n<span class="w"> </span>-p<span class="w"> </span>-f<span class="w"> </span>book_docs/_build/html
+</pre></div>
+</div>
+</section>
+</section>
+<section id="scripts-architecture">
+<h2>Scripts Architecture<a class="headerlink" href="#scripts-architecture" title="Link to this heading">#</a></h2>
+<p>The workflow uses modular, reusable scripts organized into layers:</p>
+<section id="configuration-layer-scripts-config">
+<h3>Configuration Layer (<code class="docutils literal notranslate"><span class="pre">scripts/config/</span></code>)<a class="headerlink" href="#configuration-layer-scripts-config" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">paths.py</span></code></strong> — Centralized path resolution (single source of truth)</p></li>
+</ul>
+</section>
+<section id="utilities-layer-scripts-utils">
+<h3>Utilities Layer (<code class="docutils literal notranslate"><span class="pre">scripts/utils/</span></code>)<a class="headerlink" href="#utilities-layer-scripts-utils" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">bokeh.py</span></code></strong> — Bokeh visualization utilities</p></li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">geometry.py</span></code></strong> — Geospatial operations (Jaccard, projections)</p></li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">markdown.py</span></code></strong> — Template rendering and table generation</p></li>
+<li><p><strong><code class="docutils literal notranslate"><span class="pre">data_loaders.py</span></code></strong> — Unified data loading with caching</p></li>
+</ul>
+</section>
+<section id="generation-layer-scripts-generation">
+<h3>Generation Layer (<code class="docutils literal notranslate"><span class="pre">scripts/generation/</span></code>)<a class="headerlink" href="#generation-layer-scripts-generation" title="Link to this heading">#</a></h3>
+<p>The generation layer contains <code class="docutils literal notranslate"><span class="pre">page_generator.py</span></code> for unified page generation.</p>
+</section>
+<section id="workflow-scripts-scripts-demo-setup">
+<h3>Workflow Scripts (<code class="docutils literal notranslate"><span class="pre">scripts/demo_setup/</span></code>)<a class="headerlink" href="#workflow-scripts-scripts-demo-setup" title="Link to this heading">#</a></h3>
+<p>Workflow scripts include <code class="docutils literal notranslate"><span class="pre">populate_demo_data.py</span></code> to initialize station data, <code class="docutils literal notranslate"><span class="pre">integrate_hydat_polygons.py</span></code> to add polygon versions, and <code class="docutils literal notranslate"><span class="pre">process_station_pages.py</span></code> to generate diagnostic pages.</p>
+<p>This design provides single source of truth where path changes only require editing <code class="docutils literal notranslate"><span class="pre">paths.py</span></code>, reusability enabling multiple workflows without duplication, testability with each layer tested independently, and maintainability through clear separation of concerns.</p>
+</section>
+</section>
+<section id="troubleshooting">
+<h2>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Link to this heading">#</a></h2>
+<section id="wateroffice-export-not-found">
+<h3>“WaterOffice export not found”<a class="headerlink" href="#wateroffice-export-not-found" title="Link to this heading">#</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ls<span class="w"> </span>data/WaterOffice_RC_Export_20260203.zip
 </pre></div>
 </div>
 <p>Download from Zenodo using DOI (see <a class="reference internal" href="DATA_SOURCES.html"><span class="std std-doc">Data Sources</span></a>).</p>
@@ -1126,7 +1143,8 @@ jupyter<span class="w"> </span>book<span class="w"> </span>build<span class="w">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#verify-setup">Verify Setup</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-start-workflow">Quick Start Workflow</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-start-workflow">Quick Start Workflow</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#station-data-initialization">Station Data Initialization</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#demo-stations">Demo Stations</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#running-initialization">Running Initialization</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#git-tracking-philosophy">Git Tracking Philosophy</a></li>
@@ -1145,9 +1163,21 @@ jupyter<span class="w"> </span>book<span class="w"> </span>build<span class="w">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#validation-rules">Validation Rules</a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#caravan-vs-wsc-polygon-comparison">Caravan vs WSC Polygon Comparison</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#build-and-deploy-documentation">Build and Deploy Documentation</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#build-jupyter-book">Build Jupyter Book</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#deploy-to-github-pages">Deploy to GitHub Pages</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scripts-architecture">Scripts Architecture</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#configuration-layer-scripts-config">Configuration Layer (<code class="docutils literal notranslate"><span class="pre">scripts/config/</span></code>)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#utilities-layer-scripts-utils">Utilities Layer (<code class="docutils literal notranslate"><span class="pre">scripts/utils/</span></code>)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#generation-layer-scripts-generation">Generation Layer (<code class="docutils literal notranslate"><span class="pre">scripts/generation/</span></code>)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#workflow-scripts-scripts-demo-setup">Workflow Scripts (<code class="docutils literal notranslate"><span class="pre">scripts/demo_setup/</span></code>)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#troubleshooting">Troubleshooting</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wateroffice-export-not-found">“WaterOffice export not found”</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hydat-database-not-found">“HYDAT database not found”</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#import-error-supporting-figure-functions">“Import error: supporting_figure_functions”</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crs-projection-warnings">CRS/Projection Warnings</a></li>

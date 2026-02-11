@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE110_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NE110", "NameNom": "INONOAKLIN CREEK ABOVE VALLEY CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13156828.352958844974637, 6428448.485853984951973 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LF005_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LF005", "NameNom": "CHERRY CREEK NEAR KAMLOOPS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13418106.329799737781286, 6555226.725001369602978 ] } }
+]
+}

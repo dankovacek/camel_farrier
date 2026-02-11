@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NG083_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NG083", "NameNom": "MILLER CREEK NEAR 1160 M CONTOUR", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12806684.026617679744959, 6284482.583448286168277 ] } }
+]
+}

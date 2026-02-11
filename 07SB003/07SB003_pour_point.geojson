@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07SB003_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07SB003", "NameNom": "YELLOWKNIFE RIVER AT INLET TO PROSPEROUS LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "NT" }, "geometry": { "type": "Point", "coordinates": [ -12719469.658360784873366, 9019877.353990267962217 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MH093_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MH093", "NameNom": "SUMAS RIVER AT ATKINSON ROAD", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13600092.546543488278985, 6285649.687782686203718 ] } }
+]
+}
