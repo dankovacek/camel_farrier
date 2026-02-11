@@ -35,7 +35,8 @@
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
-    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=5355688a" />
+    <link rel="stylesheet" type="text/css" href="../_static/tufte_table.css?v=0ecb9985" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=9aff115b" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
@@ -181,11 +182,10 @@
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary &amp; Diagnostics</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Network-Wide Summaries</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../summary_pages/changelog_intro.html">Project Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../summary_pages/revision_summary.html">Cross-Station Comparisons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="lsh_inputs_review.html">LSH Dataset Comparison</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../summary_pages/revision_summary.html">Polygon Revision Summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../summary_pages/broken_telephone_casestudy.html">Broken Telephone: Caravan Divergence</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
 <ul class="nav bd-sidenav">
@@ -622,9 +622,7 @@ document.write(`
   </button>
 `);
 </script>
-<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</button>
+
 </div></div>
       
     </div>
@@ -640,15 +638,6 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#browse-stations">Browse Stations</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#search-hydrometric-stations">Search Hydrometric Stations</a></li>
-</ul>
-            </nav>
         </div>
     </div>
 </div>
@@ -660,6 +649,7 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="station-directory">
 <h1>Station Directory<a class="headerlink" href="#station-directory" title="Link to this heading">#</a></h1>
+<div class="cf-section docutils">
 <p>This section provides access to diagnostic pages for individual hydrometric monitoring stations. Each station page includes:</p>
 <ul class="simple">
 <li><p><strong>Catchment Boundary Visualization</strong> — Interactive maps showing polygon revisions and geometric changes</p></li>
@@ -669,12 +659,13 @@ document.write(`
 <li><p><strong>Station Metadata</strong> — Geographic coordinates, drainage area, operational status, and hydrometric network affiliation</p></li>
 </ul>
 <p>Station pages are generated automatically from version-controlled data files and updated with each repository commit.</p>
-<section id="browse-stations">
-<h2>Browse Stations<a class="headerlink" href="#browse-stations" title="Link to this heading">#</a></h2>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="browse-stations">Browse Stations</h2>
 <p>Use the navigation menu at left or the search bar below to find station summary pages.</p>
-</section>
-<section id="search-hydrometric-stations">
-<h2>Search Hydrometric Stations<a class="headerlink" href="#search-hydrometric-stations" title="Link to this heading">#</a></h2>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="search-hydrometric-stations">Search Hydrometric Stations</h2>
 <div class="search-container">
     <input type="text" id="stationSearch" placeholder="Search by ID or name..." onkeyup="filterStations()">
     <div id="searchResults" class="search-results"></div>
@@ -933,7 +924,7 @@ const stations = [
   {id: "10VC013", name: "", folder: "station_pages/stations/10VC013.html"},
   {id: "10VK001", name: "", folder: "station_pages/stations/10VK001.html"},
 ];</script>
-</section>
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -990,22 +981,6 @@ const stations = [
             </div>
             
             
-              
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#browse-stations">Browse Stations</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#search-hydrometric-stations">Search Hydrometric Stations</a></li>
-</ul>
-  </nav></div>
-
-</div></div>
               
             
           </div>

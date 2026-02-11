@@ -32,10 +32,11 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
-    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=5355688a" />
+    <link rel="stylesheet" type="text/css" href="_static/tufte_table.css?v=0ecb9985" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=9aff115b" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
@@ -181,11 +182,10 @@
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary &amp; Diagnostics</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Network-Wide Summaries</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="summary_pages/changelog_intro.html">Project Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="summary_pages/revision_summary.html">Cross-Station Comparisons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guides/lsh_inputs_review.html">LSH Dataset Comparison</a></li>
+<li class="toctree-l1"><a class="reference internal" href="summary_pages/revision_summary.html">Polygon Revision Summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="summary_pages/broken_telephone_casestudy.html">Broken Telephone: Caravan Divergence</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
 <ul class="nav bd-sidenav">
@@ -622,9 +622,7 @@ document.write(`
   </button>
 `);
 </script>
-<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</button>
+
 </div></div>
       
     </div>
@@ -640,50 +638,6 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of Contents</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#code-of-conduct">Code of Conduct</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-contribute">How to Contribute</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#types-of-contributions">Types of Contributions</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">Getting Started</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-contribution-guidelines">Data Contribution Guidelines</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#polygon-revisions">Polygon Revisions</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-corrections">Data Corrections</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#metadata-updates">Metadata Updates</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pull-request-process">Pull Request Process</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#before-submitting">Before Submitting</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pr-template">PR Template</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#review-process">Review Process</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#after-merge">After Merge</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quality-standards">Quality Standards</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-quality-tiers">Data Quality Tiers</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#validation-requirements">Validation Requirements</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#commit-message-guidelines">Commit Message Guidelines</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#commit-message-format">Commit Message Format</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#issue-reporting">Issue Reporting</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#development-workflow">Development Workflow</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#local-development">Local Development</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#code-style">Code Style</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sources-and-attribution">Data Sources and Attribution</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contact">Contact</a></li>
-</ul>
-            </nav>
         </div>
     </div>
 </div>
@@ -696,8 +650,8 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="contributing-to-camel-farrier">
 <h1>Contributing to Camel Farrier<a class="headerlink" href="#contributing-to-camel-farrier" title="Link to this heading">#</a></h1>
 <p>Thank you for your interest in contributing to the Camel Farrier hydrometric data repository! This document provides guidelines for contributing data corrections, polygon revisions, and code improvements.</p>
-<section id="table-of-contents">
-<h2>Table of Contents<a class="headerlink" href="#table-of-contents" title="Link to this heading">#</a></h2>
+<div class="cf-section docutils">
+<h2 class="rubric" id="table-of-contents">Table of Contents</h2>
 <ul class="simple">
 <li><p><a class="reference internal" href="#code-of-conduct">Code of Conduct</a></p></li>
 <li><p><a class="reference internal" href="#how-to-contribute">How to Contribute</a></p></li>
@@ -706,9 +660,9 @@ document.write(`
 <li><p><a class="reference internal" href="#quality-standards">Quality Standards</a></p></li>
 <li><p><a class="reference internal" href="#contact">Contact</a></p></li>
 </ul>
-</section>
-<section id="code-of-conduct">
-<span id="id1"></span><h2>Code of Conduct<a class="headerlink" href="#code-of-conduct" title="Link to this heading">#</a></h2>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="id1"><span id="code-of-conduct"></span>Code of Conduct</h2>
 <p>This project is committed to providing a welcoming and inclusive environment. We expect all contributors to:</p>
 <ul class="simple">
 <li><p>Use welcoming and inclusive language</p></li>
@@ -717,11 +671,10 @@ document.write(`
 <li><p>Focus on what is best for the community</p></li>
 <li><p>Show empathy towards other community members</p></li>
 </ul>
-</section>
-<section id="how-to-contribute">
-<span id="id2"></span><h2>How to Contribute<a class="headerlink" href="#how-to-contribute" title="Link to this heading">#</a></h2>
-<section id="types-of-contributions">
-<h3>Types of Contributions<a class="headerlink" href="#types-of-contributions" title="Link to this heading">#</a></h3>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="id2"><span id="how-to-contribute"></span>How to Contribute</h2>
+<h3 class="rubric" id="types-of-contributions">Types of Contributions</h3>
 <p>We welcome several types of contributions:</p>
 <ol class="arabic simple">
 <li><p><strong>Data Corrections</strong> — Corrections to hydrometric data, rating curves, or field visit records</p></li>
@@ -731,9 +684,7 @@ document.write(`
 <li><p><strong>Code Improvements</strong> — Bug fixes, feature enhancements, or workflow optimizations</p></li>
 <li><p><strong>Quality Assurance</strong> — Validation improvements or test enhancements</p></li>
 </ol>
-</section>
-<section id="getting-started">
-<h3>Getting Started<a class="headerlink" href="#getting-started" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="getting-started">Getting Started</h3>
 <ol class="arabic">
 <li><p><strong>Fork the repository</strong> to your GitHub account</p></li>
 <li><p><strong>Clone your fork</strong> locally:</p>
@@ -749,12 +700,10 @@ document.write(`
 </div>
 </li>
 </ol>
-</section>
-</section>
-<section id="data-contribution-guidelines">
-<span id="id3"></span><h2>Data Contribution Guidelines<a class="headerlink" href="#data-contribution-guidelines" title="Link to this heading">#</a></h2>
-<section id="polygon-revisions">
-<h3>Polygon Revisions<a class="headerlink" href="#polygon-revisions" title="Link to this heading">#</a></h3>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="id3"><span id="data-contribution-guidelines"></span>Data Contribution Guidelines</h2>
+<h3 class="rubric" id="polygon-revisions">Polygon Revisions</h3>
 <p>When submitting improved catchment boundaries:</p>
 <ol class="arabic simple">
 <li><p><strong>Document your methodology</strong> in the commit message or PR description</p></li>
@@ -767,9 +716,7 @@ document.write(`
 </pre></div>
 </div>
 <p>Example: <code class="docutils literal notranslate"><span class="pre">08NM134_polygon_v2.geojson</span></code></p>
-</section>
-<section id="data-corrections">
-<h3>Data Corrections<a class="headerlink" href="#data-corrections" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="data-corrections">Data Corrections</h3>
 <p>When submitting corrections to hydrometric data:</p>
 <ol class="arabic">
 <li><p><strong>Verify against authoritative sources</strong> (Water Office Portal, HYDAT database)</p></li>
@@ -782,9 +729,7 @@ document.write(`
 </div>
 </li>
 </ol>
-</section>
-<section id="metadata-updates">
-<h3>Metadata Updates<a class="headerlink" href="#metadata-updates" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="metadata-updates">Metadata Updates</h3>
 <p>For station metadata changes:</p>
 <ol class="arabic simple">
 <li><p><strong>Update <code class="docutils literal notranslate"><span class="pre">_metadata.json</span></code></strong> with new information</p></li>
@@ -792,12 +737,10 @@ document.write(`
 <li><p><strong>Document source</strong> of metadata changes</p></li>
 <li><p><strong>Include retrieval date</strong> for external data sources</p></li>
 </ol>
-</section>
-</section>
-<section id="pull-request-process">
-<span id="id4"></span><h2>Pull Request Process<a class="headerlink" href="#pull-request-process" title="Link to this heading">#</a></h2>
-<section id="before-submitting">
-<h3>Before Submitting<a class="headerlink" href="#before-submitting" title="Link to this heading">#</a></h3>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="id4"><span id="pull-request-process"></span>Pull Request Process</h2>
+<h3 class="rubric" id="before-submitting">Before Submitting</h3>
 <ul>
 <li><p>[ ] <strong>Run validation checks:</strong></p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pytest<span class="w"> </span>-q
@@ -810,9 +753,7 @@ python<span class="w"> </span>tools/validate_data.py
 <li><p>[ ] <strong>Write clear commit messages</strong> describing what and why</p></li>
 <li><p>[ ] <strong>Reference related issues</strong> using GitHub keywords (Closes #123)</p></li>
 </ul>
-</section>
-<section id="pr-template">
-<h3>PR Template<a class="headerlink" href="#pr-template" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="pr-template">PR Template</h3>
 <p>When creating a pull request, please use the provided template and include:</p>
 <ol class="arabic simple">
 <li><p><strong>Summary of changes</strong> — What was modified and why</p></li>
@@ -821,29 +762,23 @@ python<span class="w"> </span>tools/validate_data.py
 <li><p><strong>Related issues</strong> — Link to any related GitHub issues</p></li>
 <li><p><strong>Additional context</strong> — Screenshots, external references, or methodology notes</p></li>
 </ol>
-</section>
-<section id="review-process">
-<h3>Review Process<a class="headerlink" href="#review-process" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="review-process">Review Process</h3>
 <ol class="arabic simple">
 <li><p><strong>Automated checks</strong> will run on your PR (linting, tests, validation)</p></li>
 <li><p><strong>Maintainer review</strong> will assess data quality and adherence to standards</p></li>
 <li><p><strong>Feedback incorporation</strong> — Address any requested changes</p></li>
 <li><p><strong>Approval and merge</strong> — Once approved, your contribution will be merged</p></li>
 </ol>
-</section>
-<section id="after-merge">
-<h3>After Merge<a class="headerlink" href="#after-merge" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="after-merge">After Merge</h3>
 <ul class="simple">
 <li><p>Your contribution will be recorded in the version history</p></li>
 <li><p>Diagnostic pages will be automatically regenerated</p></li>
 <li><p>Changes will be reflected in the next release</p></li>
 </ul>
-</section>
-</section>
-<section id="quality-standards">
-<span id="id5"></span><h2>Quality Standards<a class="headerlink" href="#quality-standards" title="Link to this heading">#</a></h2>
-<section id="data-quality-tiers">
-<h3>Data Quality Tiers<a class="headerlink" href="#data-quality-tiers" title="Link to this heading">#</a></h3>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="id5"><span id="quality-standards"></span>Quality Standards</h2>
+<h3 class="rubric" id="data-quality-tiers">Data Quality Tiers</h3>
 <p>Contributions are assigned quality tiers based on review status:</p>
 <ul class="simple">
 <li><p><strong>Tier 1 (Canonical)</strong> — Peer-reviewed, publication-ready</p></li>
@@ -851,9 +786,7 @@ python<span class="w"> </span>tools/validate_data.py
 <li><p><strong>Tier 3 (Provisional)</strong> — Unreviewed, use with caution</p></li>
 <li><p><strong>Tier 4 (Deprecated)</strong> — Superseded by newer versions</p></li>
 </ul>
-</section>
-<section id="validation-requirements">
-<h3>Validation Requirements<a class="headerlink" href="#validation-requirements" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="validation-requirements">Validation Requirements</h3>
 <p>All contributions must:</p>
 <ul class="simple">
 <li><p>✅ Pass automated validation checks</p></li>
@@ -862,10 +795,9 @@ python<span class="w"> </span>tools/validate_data.py
 <li><p>✅ Use consistent units and coordinate systems</p></li>
 <li><p>✅ Document data sources and methods</p></li>
 </ul>
-</section>
-</section>
-<section id="commit-message-guidelines">
-<h2>Commit Message Guidelines<a class="headerlink" href="#commit-message-guidelines" title="Link to this heading">#</a></h2>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="commit-message-guidelines">Commit Message Guidelines</h2>
 <p>Use clear, descriptive commit messages:</p>
 <p><strong>Good examples:</strong></p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Add</span> <span class="n">polygon</span> <span class="n">v2</span> <span class="k">for</span> <span class="mi">08</span><span class="n">NM134</span> <span class="kn">from</span><span class="w"> </span><span class="nn">HYSETS</span> <span class="n">comparison</span>
@@ -879,8 +811,7 @@ python<span class="w"> </span>tools/validate_data.py
 <span class="n">Changes</span>
 </pre></div>
 </div>
-<section id="commit-message-format">
-<h3>Commit Message Format<a class="headerlink" href="#commit-message-format" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="commit-message-format">Commit Message Format</h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="nb">type</span><span class="o">&gt;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">short</span> <span class="n">summary</span><span class="o">&gt;</span>
 
 <span class="o">&lt;</span><span class="n">optional</span> <span class="n">detailed</span> <span class="n">description</span><span class="o">&gt;</span>
@@ -898,10 +829,9 @@ python<span class="w"> </span>tools/validate_data.py
 <li><p><code class="docutils literal notranslate"><span class="pre">test:</span></code> — Test additions or modifications</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">refactor:</span></code> — Code restructuring without behavior changes</p></li>
 </ul>
-</section>
-</section>
-<section id="issue-reporting">
-<h2>Issue Reporting<a class="headerlink" href="#issue-reporting" title="Link to this heading">#</a></h2>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="issue-reporting">Issue Reporting</h2>
 <p>Found a problem? Please open an issue using the appropriate template:</p>
 <ul class="simple">
 <li><p><strong><a class="reference external" href="https://github.com/dankovacek/distribution_estimation/blob/main/.github/ISSUE_TEMPLATE/data_correction.md">Data Correction</a></strong> — Errors in hydrometric data</p></li>
@@ -910,11 +840,10 @@ python<span class="w"> </span>tools/validate_data.py
 <li><p><strong><a class="reference external" href="https://github.com/dankovacek/distribution_estimation/blob/main/.github/ISSUE_TEMPLATE/bug_report.md">Bug Report</a></strong> — Code or workflow issues</p></li>
 <li><p><strong><a class="reference external" href="https://github.com/dankovacek/distribution_estimation/blob/main/.github/ISSUE_TEMPLATE/documentation.md">Documentation</a></strong> — Documentation improvements</p></li>
 </ul>
-</section>
-<section id="development-workflow">
-<h2>Development Workflow<a class="headerlink" href="#development-workflow" title="Link to this heading">#</a></h2>
-<section id="local-development">
-<h3>Local Development<a class="headerlink" href="#local-development" title="Link to this heading">#</a></h3>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="development-workflow">Development Workflow</h2>
+<h3 class="rubric" id="local-development">Local Development</h3>
 <ol class="arabic">
 <li><p><strong>Create a virtual environment:</strong></p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>.venv
@@ -940,19 +869,16 @@ open<span class="w"> </span>_build/html/index.html
 </div>
 </li>
 </ol>
-</section>
-<section id="code-style">
-<h3>Code Style<a class="headerlink" href="#code-style" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="code-style">Code Style</h3>
 <ul class="simple">
 <li><p><strong>Python:</strong> Follow PEP 8 style guidelines</p></li>
 <li><p><strong>Formatting:</strong> Use <code class="docutils literal notranslate"><span class="pre">black</span></code> for code formatting</p></li>
 <li><p><strong>Linting:</strong> Run <code class="docutils literal notranslate"><span class="pre">pre-commit</span> <span class="pre">run</span> <span class="pre">--all-files</span></code> before committing</p></li>
 <li><p><strong>Type hints:</strong> Include type annotations for function signatures</p></li>
 </ul>
-</section>
-</section>
-<section id="data-sources-and-attribution">
-<h2>Data Sources and Attribution<a class="headerlink" href="#data-sources-and-attribution" title="Link to this heading">#</a></h2>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="data-sources-and-attribution">Data Sources and Attribution</h2>
 <p>When contributing data derived from external sources:</p>
 <ol class="arabic simple">
 <li><p><strong>Cite the original source</strong> in metadata or commit messages</p></li>
@@ -961,18 +887,17 @@ open<span class="w"> </span>_build/html/index.html
 <li><p><strong>Document processing steps</strong> if data was transformed</p></li>
 </ol>
 <p>See <a class="reference internal" href="guides/DATA_SOURCES.html"><span class="std std-doc">DATA_SOURCES</span></a> for comprehensive provenance documentation.</p>
-</section>
-<section id="contact">
-<span id="id6"></span><h2>Contact<a class="headerlink" href="#contact" title="Link to this heading">#</a></h2>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="id6"><span id="contact"></span>Contact</h2>
 <ul class="simple">
 <li><p><strong>Maintainer:</strong> Dan Kovacek</p></li>
 <li><p><strong>Repository:</strong> https://github.com/dankovacek/camel_farrier</p></li>
 <li><p><strong>Issues:</strong> https://github.com/dankovacek/camel_farrier/issues</p></li>
 </ul>
 <p>For questions not covered in this guide, please open a discussion on GitHub or contact the maintainer.</p>
-<hr class="docutils" />
+</div>
 <p>Thank you for contributing to Camel Farrier! Your efforts help improve hydrometric data quality and accessibility for the research and practitioner community.</p>
-</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -1029,57 +954,6 @@ open<span class="w"> </span>_build/html/index.html
             </div>
             
             
-              
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of Contents</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#code-of-conduct">Code of Conduct</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-contribute">How to Contribute</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#types-of-contributions">Types of Contributions</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">Getting Started</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-contribution-guidelines">Data Contribution Guidelines</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#polygon-revisions">Polygon Revisions</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-corrections">Data Corrections</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#metadata-updates">Metadata Updates</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pull-request-process">Pull Request Process</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#before-submitting">Before Submitting</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pr-template">PR Template</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#review-process">Review Process</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#after-merge">After Merge</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quality-standards">Quality Standards</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-quality-tiers">Data Quality Tiers</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#validation-requirements">Validation Requirements</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#commit-message-guidelines">Commit Message Guidelines</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#commit-message-format">Commit Message Format</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#issue-reporting">Issue Reporting</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#development-workflow">Development Workflow</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#local-development">Local Development</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#code-style">Code Style</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sources-and-attribution">Data Sources and Attribution</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contact">Contact</a></li>
-</ul>
-  </nav></div>
-
-</div></div>
               
             
           </div>

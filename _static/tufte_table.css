@@ -1,0 +1,123 @@
+/* HTML Table Styling (for pandas to_html output) */
+.tufte-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: transparent;
+    font-size: 0.85rem;
+    margin: 1.5rem 0;
+}
+
+.tufte-table thead th {
+    background: transparent;
+    color: #1f1e1b;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: 2px solid #1f1e1b;
+    padding: 0.75rem 1rem 0.75rem 0;
+    text-align: left;
+}
+
+.tufte-table tbody td {
+    background: transparent;
+    color: #1f1e1b;
+    border: none;
+    border-bottom: 1px solid #d5cfc0;
+    padding: 0.5rem 1rem 0.5rem 0;
+    line-height: 1.4;
+}
+
+.tufte-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.tufte-table tbody tr:hover {
+    background: rgba(0, 109, 119, 0.03);
+}
+
+/* Bokeh DataTable (SlickGrid) Styling */
+.slick-header {
+    background: transparent !important;
+    border: none !important;
+}
+
+.slick-header-column {
+    background: transparent !important;
+    color: #1f1e1b !important;
+    font-weight: 700 !important;
+    font-size: 0.75rem !important;
+    letter-spacing: 0.02em !important;
+    text-transform: uppercase !important;
+    border: none !important;
+    border-bottom: 2px solid #1f1e1b !important;
+    /* padding: 0.75rem 1rem 0.75rem 0 !important; */
+    text-align: left !important;
+    cursor: pointer !important;
+}
+
+.slick-header-column:hover {
+    background: rgba(0, 109, 119, 0.05) !important;
+}
+
+.slick-sort-indicator {
+    color: #006d77 !important;
+    font-weight: bold !important;
+    margin-left: 0.25rem !important;
+}
+
+.slick-cell {
+    background: transparent !important;
+    color: #1f1e1b !important;
+    border: none !important;
+    border-bottom: 1px solid #d5cfc0 !important;
+    font-size: 0.85rem !important;
+    line-height: 1.4 !important;
+}
+
+/* Override alternating row colors */
+.slick-row {
+    background: transparent !important;
+}
+
+.slick-row.even,
+.slick-row.odd {
+    background: transparent !important;
+}
+
+.slick-row.even .slick-cell,
+.slick-row.odd .slick-cell {
+    background: transparent !important;
+}
+
+/* Hover effect on entire row */
+.slick-row:hover {
+    background: rgba(0, 109, 119, 0.03) !important;
+}
+
+.slick-row:hover .slick-cell {
+    background: rgba(0, 109, 119, 0.03) !important;
+}
+
+.slick-row:last-child .slick-cell {
+    border-bottom: none !important;
+}
+
+.slick-viewport {
+    background: transparent !important;
+}
+
+.grid-canvas {
+    background: transparent !important;
+}
+
+/* Links */
+a {
+    color: #006d77 !important;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #1f1e1b !important;
+}

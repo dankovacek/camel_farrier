@@ -2,6 +2,7 @@
 
 This document records all data sources used in the Camel Farrier demonstration repository, including local hydrometric data and external polygon datasets.
 
+:::{div} cf-section
 ## Local Hydrometric Data
 
 Hydrometric data comes from two distinct Water Survey of Canada sources with different access methods and update frequencies.
@@ -55,7 +56,9 @@ data/
 - **File Format**: CSV per station with standardized column structure
 
 **Note**: The Water Office portal data is **not included directly in this repository** due to access restrictions. For demo replication, download the archived extraction from Zenodo using the DOI above and extract to the `data/` directory.
+:::
 
+:::{div} cf-section
 ## External Polygon Datasets
 
 External watershed polygon datasets are used for cross-dataset comparisons and validation. These datasets are **NOT included in this repository** but are referenced for reproducibility.
@@ -105,7 +108,9 @@ External watershed polygon datasets are used for cross-dataset comparisons and v
 - **Stations**: 638 Canadian stations with HYDAT IDs
 - **Use**: Cross-dataset comparison for Scenario 4 (LSH dataset polygon differences)
 - **Note**: Caravan polygons for Canadian stations are identical to HYSETS polygons
+:::
 
+:::{div} cf-section
 ## Data Processing and Quality Control
 
 ### Station Selection Criteria
@@ -123,7 +128,9 @@ All polygon datasets are standardized to:
 
 - **Storage CRS**: EPSG:4326 (WGS84 lat/lon)
 - **Area calculations**: Local Lambert Azimuthal Equal Area (LAEA) projection centered on each polygon centroid to minimize distortion
+:::
 
+:::{div} cf-section
 ## Version Control and Provenance
 
 Each station maintains version metadata tracking:
@@ -133,7 +140,9 @@ Each station maintains version metadata tracking:
 - **Source dataset**: Which polygon source was used
 - **Quality tier**: Canonical, reviewed, experimental, or superseded
 - **External comparisons**: Jaccard Index and area differences with HYSETS/Caravan
+:::
 
+:::{div} cf-section
 ## Data Acquisition for Demo Replication
 
 ### Required External Data
@@ -164,7 +173,9 @@ python scripts/demo_setup/init_demo_repo.py \
   --wateroffice-archive data/WaterOffice_RC_Export_20260203.zip \
   --verify-checksums
 ```
+:::
 
+:::{div} cf-section
 ## Reproducibility
 
 To ensure reproducibility:
@@ -175,7 +186,9 @@ To ensure reproducibility:
 4. Version metadata links data versions to specific git commits
 5. Checksums enable verification of data integrity
 6. Extraction dates documented for time-sensitive data
+:::
 
+:::{div} cf-section
 ## Future Updates
 
 When external polygon datasets are published to Zenodo or similar repository:
@@ -184,7 +197,9 @@ When external polygon datasets are published to Zenodo or similar repository:
 2. Update citation information
 3. Verify all links and checksums
 4. Document any versioning changes
+:::
 
+:::{div} cf-section
 ## Contact
 
 For questions about data sources or access:
@@ -215,8 +230,7 @@ When using data from this repository in publications, please cite:
 
 **For Caravan**:
 > Kratzert, F., Nearing, G., Addor, N., Erickson, T., Gauch, M., Gilon, O., ... & Matias, Y. (2023). Caravan - A global community dataset for large-sample hydrology. Scientific Data, 10(1), 61. https://doi.org/10.5281/zenodo.15529786
-
----
+:::
 
 **Last Updated**: February 3, 2026
 **Schema Version**: 1.0.0

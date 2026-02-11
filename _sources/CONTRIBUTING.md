@@ -2,6 +2,7 @@
 
 Thank you for your interest in contributing to the Camel Farrier hydrometric data repository! This document provides guidelines for contributing data corrections, polygon revisions, and code improvements.
 
+:::{div} cf-section
 ## Table of Contents
 
 - [Code of Conduct](#code-of-conduct)
@@ -10,7 +11,9 @@ Thank you for your interest in contributing to the Camel Farrier hydrometric dat
 - [Pull Request Process](#pull-request-process)
 - [Quality Standards](#quality-standards)
 - [Contact](#contact)
+:::
 
+:::{div} cf-section
 (code-of-conduct)=
 ## Code of Conduct
 
@@ -21,7 +24,9 @@ This project is committed to providing a welcoming and inclusive environment. We
 - Gracefully accept constructive criticism
 - Focus on what is best for the community
 - Show empathy towards other community members
+:::
 
+:::{div} cf-section
 (how-to-contribute)=
 ## How to Contribute
 
@@ -49,7 +54,9 @@ We welcome several types of contributions:
    ```bash
    git checkout -b feature/your-contribution-name
    ```
+:::
 
+:::{div} cf-section
 (data-contribution-guidelines)=
 ## Data Contribution Guidelines
 
@@ -90,7 +97,9 @@ For station metadata changes:
 2. **Verify against HYDAT** database when possible
 3. **Document source** of metadata changes
 4. **Include retrieval date** for external data sources
+:::
 
+:::{div} cf-section
 (pull-request-process)=
 ## Pull Request Process
 
@@ -128,7 +137,9 @@ When creating a pull request, please use the provided template and include:
 - Your contribution will be recorded in the version history
 - Diagnostic pages will be automatically regenerated
 - Changes will be reflected in the next release
+:::
 
+:::{div} cf-section
 (quality-standards)=
 ## Quality Standards
 
@@ -150,7 +161,9 @@ All contributions must:
 - ✅ Follow established naming conventions
 - ✅ Use consistent units and coordinate systems
 - ✅ Document data sources and methods
+:::
 
+:::{div} cf-section
 ## Commit Message Guidelines
 
 Use clear, descriptive commit messages:
@@ -187,7 +200,9 @@ Changes
 - `fix:` — Bug fixes
 - `test:` — Test additions or modifications
 - `refactor:` — Code restructuring without behavior changes
+:::
 
+:::{div} cf-section
 ## Issue Reporting
 
 Found a problem? Please open an issue using the appropriate template:
@@ -197,7 +212,9 @@ Found a problem? Please open an issue using the appropriate template:
 - **[Data Quality](https://github.com/dankovacek/distribution_estimation/blob/main/.github/ISSUE_TEMPLATE/data-quality.md)** — Quality concerns or validation failures
 - **[Bug Report](https://github.com/dankovacek/distribution_estimation/blob/main/.github/ISSUE_TEMPLATE/bug_report.md)** — Code or workflow issues
 - **[Documentation](https://github.com/dankovacek/distribution_estimation/blob/main/.github/ISSUE_TEMPLATE/documentation.md)** — Documentation improvements
+:::
 
+:::{div} cf-section
 ## Development Workflow
 
 ### Local Development
@@ -231,7 +248,9 @@ Found a problem? Please open an issue using the appropriate template:
 - **Formatting:** Use `black` for code formatting
 - **Linting:** Run `pre-commit run --all-files` before committing
 - **Type hints:** Include type annotations for function signatures
+:::
 
+:::{div} cf-section
 ## Data Sources and Attribution
 
 When contributing data derived from external sources:
@@ -242,7 +261,9 @@ When contributing data derived from external sources:
 4. **Document processing steps** if data was transformed
 
 See [DATA_SOURCES](guides/DATA_SOURCES.md) for comprehensive provenance documentation.
+:::
 
+:::{div} cf-section
 (contact)=
 ## Contact
 
@@ -251,7 +272,6 @@ See [DATA_SOURCES](guides/DATA_SOURCES.md) for comprehensive provenance document
 - **Issues:** https://github.com/dankovacek/camel_farrier/issues
 
 For questions not covered in this guide, please open a discussion on GitHub or contact the maintainer.
-
----
+:::
 
 Thank you for contributing to Camel Farrier! Your efforts help improve hydrometric data quality and accessibility for the research and practitioner community.

@@ -35,7 +35,8 @@
     <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
-    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=5355688a" />
+    <link rel="stylesheet" type="text/css" href="_static/tufte_table.css?v=0ecb9985" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=9aff115b" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
@@ -64,7 +65,7 @@
     <script src="_static/searchindex.js?v=4891b222"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Project Overview" href="summary_pages/changelog_intro.html" />
+    <link rel="next" title="Polygon Revision Summary" href="summary_pages/revision_summary.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -184,11 +185,10 @@
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary &amp; Diagnostics</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Network-Wide Summaries</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="summary_pages/changelog_intro.html">Project Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="summary_pages/revision_summary.html">Cross-Station Comparisons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guides/lsh_inputs_review.html">LSH Dataset Comparison</a></li>
+<li class="toctree-l1"><a class="reference internal" href="summary_pages/revision_summary.html">Polygon Revision Summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="summary_pages/broken_telephone_casestudy.html">Broken Telephone: Caravan Divergence</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
 <ul class="nav bd-sidenav">
@@ -648,7 +648,11 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reporting-backlog-example">Reporting Backlog Example</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#large-sample-hydrology-impact">Large-Sample Hydrology Impact</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#opportunities-for-improvement">Opportunities for Improvement</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contents">Contents</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#theme">Theme</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
 </ul>
             </nav>
@@ -667,13 +671,16 @@ document.write(`
 <p><span class="term">Camel Farrier</span>
 <span class="definition">A caretaker who trims, shoes, and maintains the hooves of camels.</span></p>
 </div>
-<p>Hydrometric data produced by the Water Survey of Canada (WSC) are critical inputs to many decisions in water resources practice and research.  This supplementary material provides a “changelog” of catchment polygons and other data for hydrometric monitoring stations, and some diagnostic information for helping assess data quality and changes over time.  The Camel Farrier framework tracks polygon revisions with complete provenance metadata, automated validation tests, and interactive diagnostic pages for each station.</p>
-<p>Another important use case of WSC hydrometric data is in large-sample hydrology (LSH) studies, which often rely on catchment boundaries to derive physiographic attributes and climate forcings.  However, as this repository shows, the national monitoring network drainage basins have been updated in recent years.  As a result, old polygons remain in current versions of LSH datasets like HYSETS <span id="id1">[<a class="reference internal" href="summary_pages/changelog_intro.html#id12" title="Richard Arsenault, François Brissette, Jean-Luc Martel, Magali Troin, Guillaume Lévesque, Jonathan Davidson-Chaput, Mariana Castañeda Gonzalez, Ali Ameli, and Annie Poulin. A comprehensive, multisource database for hydrometeorological modeling of 14,425 north american watersheds. Scientific Data, 7(1):243, 2020.">Arsenault <em>et al.</em>, 2020</a>]</span> and Caravan <span id="id2">[<a class="reference internal" href="summary_pages/changelog_intro.html#id19" title="Frederik Kratzert, Grey Nearing, Nans Addor, Tyler Erickson, Martin Gauch, Oren Gilon, Lukas Gudmundsson, Avinatan Hassidim, Daniel Klotz, Sella Nevo, and others. Caravan-a global community dataset for large-sample hydrology. Scientific Data, 10(1):61, 2023.">Kratzert <em>et al.</em>, 2023</a>]</span>.  The Camel Farrier framework helps quantify the degree of change between the current polygon set and those included in other datasets.</p>
-<div class="note admonition">
-<p class="admonition-title"><strong>Example</strong></p>
+<p>Hydrometric data produced by the Water Survey of Canada (WSC) are critical inputs to many decisions in water resources practice and research. This supplementary material provides data summary pages with interactive visualizations of estimated streamflow timeseries with supporting information (rating curve calibration points), as well as a “changelog” of polygons representing the upstream contributing area of hydrometric monitoring stations, and some diagnostic information for helping assess data quality and changes over time.</p>
+<section id="reporting-backlog-example">
+<h2>Reporting Backlog Example<a class="headerlink" href="#reporting-backlog-example" title="Link to this heading">#</a></h2>
 <p>The map below shows the reporting backlog for daily streamflow data in HYDAT, defined as the time since the most recent flow record for each station. Hovering over points shows station metadata and backlog duration. Clicking on map points takes you to the station summary page.</p>
-</div>
-<div style="height:850px;"><script src="bokeh-content-5246edfa70a14269a151b41b9d9889f9-index.js" id="d575ed19-3f64-4231-9572-d86788709d58"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<p><strong>Linked selection.</strong> Use box-select or lasso-select tools on the CDF to highlight stations on the map (and vice versa). Toggle legend entries to isolate specific area-change bins.</p>
+<p>Warm colors highlight basins where Caravan’s inherited geometry deviates most from the latest WSC polygons.</p>
+</aside>
+<div style="height:850px;"><script src="bokeh-content-ebb6ee82bb0f45d1b0c4dfe34e3aeba4-index.js" id="d7208289-a35b-4e07-9a5b-c95f64cab30c"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -681,35 +688,35 @@ document.write(`
 <span class="n">show</span><span class="p">(</span><span class="n">plot_network_backlog</span><span class="p">())</span>
 </pre></div>
 </div>
-<div class="tip admonition">
-<p class="admonition-title"><strong>Interactive Selection</strong></p>
-<p>The map and CDF share linked data: use box select or lasso select tools on the CDF plot to highlight corresponding stations on the map. This allows you to explore geographic patterns in reporting backlog.</p>
-</div>
+</section>
+<section id="large-sample-hydrology-impact">
+<h2>Large-Sample Hydrology Impact<a class="headerlink" href="#large-sample-hydrology-impact" title="Link to this heading">#</a></h2>
+<p>WSC hydrometric data underpin large-sample hydrology (LSH) studies, which rely on catchment boundaries to derive physiographic attributes and climate forcings. However, as this repository shows, the national monitoring network drainage basins have been updated in recent years. As a result, old polygons remain in current versions of LSH datasets like HYSETS and Caravan. The Camel Farrier framework helps quantify the degree of change between the current polygon set and those included in other datasets.</p>
+<p>See the <a class="reference internal" href="summary_pages/broken_telephone_casestudy.html"><span class="std std-doc">Broken Telephone case study</span></a> for a detailed analysis of how polygon versioning gaps propagate through derived datasets.</p>
+</section>
+<section id="opportunities-for-improvement">
+<h2>Opportunities for Improvement<a class="headerlink" href="#opportunities-for-improvement" title="Link to this heading">#</a></h2>
+<p>Catchment delineation is challenging when basin size decreases relative to DEM resolution, and in areas of low relief. These cases represent opportunities for collaborative improvement through:</p>
+<ol class="arabic simple">
+<li><p>High-resolution DEM delineation</p></li>
+<li><p>Field validation</p></li>
+<li><p>Cross-dataset and delineation methodology comparison</p></li>
+<li><p>Community contributions with local knowledge and experience</p></li>
+</ol>
+<p>See <a class="reference internal" href="CONTRIBUTING.html"><span class="std std-doc">Contributing</span></a> for guidelines on proposing polygon improvements.</p>
+</section>
 <section id="contents">
 <h2>Contents<a class="headerlink" href="#contents" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p><strong>Station Pages</strong> — Catchment polygons (GeoJSON), metadata, rating curves, field visit records, and revision history</p></li>
-<li><p><strong>Validation Framework</strong> — Automated tests for data completeness, temporal continuity, and geometric validity</p></li>
-<li><p><strong>Version Control Workflows</strong> — Git-based tracking with semantic versioning and metadata schemas</p></li>
-<li><p><strong>Interactive Visualizations</strong> — Bokeh plots showing polygon evolution and data availability</p></li>
-</ul>
+<p>Station pages provide catchment polygons (GeoJSON), metadata, rating curves, field visit records, and revision history. The validation framework includes automated tests for data completeness, temporal continuity, and geometric validity. Version control workflows use Git-based tracking with semantic versioning and metadata schemas. Interactive visualizations show polygon evolution and data availability.</p>
 <p>All data provided in open formats (GeoJSON, CSV, JSON).</p>
+</section>
+<section id="theme">
+<h2>Theme<a class="headerlink" href="#theme" title="Link to this heading">#</a></h2>
+<p>The theme of this book is adapted from the <a class="reference external" href="https://github.com/edwardtufte/tufte-css">Tufte CSS</a>.</p>
 </section>
 <section id="references">
 <h2>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>
-<div class="docutils container" id="id3">
-<div role="list" class="citation-list">
-<div class="citation" id="id12" role="doc-biblioentry">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
-<p>Richard Arsenault, François Brissette, Jean-Luc Martel, Magali Troin, Guillaume Lévesque, Jonathan Davidson-Chaput, Mariana Castañeda Gonzalez, Ali Ameli, and Annie Poulin. A comprehensive, multisource database for hydrometeorological modeling of 14,425 north american watersheds. <em>Scientific Data</em>, 7(1):243, 2020.</p>
-</div>
-<div class="citation" id="id19" role="doc-biblioentry">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">2</a><span class="fn-bracket">]</span></span>
-<p>Frederik Kratzert, Grey Nearing, Nans Addor, Tyler Erickson, Martin Gauch, Oren Gilon, Lukas Gudmundsson, Avinatan Hassidim, Daniel Klotz, Sella Nevo, and others. Caravan-a global community dataset for large-sample hydrology. <em>Scientific Data</em>, 10(1):61, 2023.</p>
-</div>
-</div>
-</div>
-</section>
+<span class="target" id="id1"></span></section>
 <div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
@@ -751,11 +758,11 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="right-next"
-       href="summary_pages/changelog_intro.html"
+       href="summary_pages/revision_summary.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Project Overview</p>
+        <p class="prev-next-title">Polygon Revision Summary</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -775,7 +782,11 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reporting-backlog-example">Reporting Backlog Example</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#large-sample-hydrology-impact">Large-Sample Hydrology Impact</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#opportunities-for-improvement">Opportunities for Improvement</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contents">Contents</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#theme">Theme</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
 </ul>
   </nav></div>

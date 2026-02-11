@@ -1,3 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&family=Source+Serif+4:wght@400;500;600&display=swap');
+@import url('tufte_table.css');
+
+:root {
+  --cf-bg: #fdfbf7;
+  --cf-ink: #1f1e1b;
+  --cf-muted: #6b665c;
+  --cf-border: #d5cfc0;
+  --cf-accent: #006d77;
+  --cf-accent-soft: #83c5be22;
+
+  /* Override PyData Sphinx theme tokens for unified background */
+  --pst-color-background: var(--cf-bg);
+  --pst-color-surface: var(--cf-bg);
+  --pst-color-on-background: var(--cf-ink);
+  --pst-color-on-surface: var(--cf-ink);
+  --pst-color-border: var(--cf-border);
+}
+
+[data-theme="dark"] {
+  --cf-bg: #1a1816;
+  --cf-ink: #e8e6e3;
+  --cf-muted: #9b9691;
+  --cf-border: #3d3935;
+  --cf-accent: #52b3be;
+  --cf-accent-soft: #52b3be22;
+
+  /* Override PyData tokens for dark mode */
+  --pst-color-background: var(--cf-bg);
+  --pst-color-surface: var(--cf-bg);
+  --pst-color-on-background: var(--cf-ink);
+  --pst-color-on-surface: var(--cf-ink);
+  --pst-color-border: var(--cf-border);
+}
+
+body {
+  font-family: 'Source Sans 3', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--cf-ink);
+  background: var(--cf-bg);
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+/* Unified panel backgrounds - remove all chrome */
+.bd-sidebar-primary,
+.bd-sidebar-secondary,
+.bd-header,
+.bd-main,
+.bd-article-container {
+  background: var(--cf-bg) !important;
+}
+
+.bd-sidebar-primary {
+  border-right: 1px solid var(--cf-border);
+}
+
+.bd-sidebar-secondary {
+  border-left: 1px solid var(--cf-border);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Source Serif 4', 'Source Sans 3', serif;
+  font-weight: 500;
+  color: var(--cf-ink);
+  letter-spacing: -0.01em;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.8rem;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+
+p {
+  margin-bottom: 1.2rem;
+}
+
+/* Tufte-style section: no box, just generous spacing */
+.cf-section {
+  margin: clamp(2rem, 4vw, 4rem) 0;
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  overflow: visible;
+}
+
+.cf-grid {
+  position: relative;
+  display: block;
+}
+
+.cf-main {
+  min-width: 0;
+  max-width: 55ch;
+}
+
+.cf-sidenote {
+  font-size: 0.85rem;
+  color: var(--cf-muted);
+  border: none;
+  padding: 0;
+  margin-top: 1.25rem;
+  line-height: 1.5;
+}
+
+.cf-inline-stat {
+  font-family: 'Source Serif 4', serif;
+  font-size: 1.15rem;
+  color: var(--cf-accent);
+  font-weight: 500;
+}
+
+.cf-note {
+  font-style: italic;
+  font-size: 0.92rem;
+  color: var(--cf-muted);
+}
+
+/* Tables: minimal Tufte style */
+.cf-summary-table table.dataframe {
+  border: none;
+  width: auto;
+  font-size: 0.95rem;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background: transparent;
+}
+
+.cf-summary-table table.dataframe th,
+.cf-summary-table table.dataframe td {
+  border: none;
+  padding: 0.4rem 1rem 0.4rem 0;
+  text-align: left;
+  border-bottom: 1px solid var(--cf-border);
+  background: transparent;
+}
+
+.cf-summary-table table.dataframe thead tr {
+  border-bottom: 2px solid var(--cf-ink);
+}
+
+.cf-summary-table table.dataframe tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.cf-summary-table table.dataframe th {
+  font-weight: 600;
+  color: var(--cf-ink);
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.cf-summary-table table.dataframe td:last-child {
+  text-align: right;
+}
+
+.cf-summary-table table.dataframe tr:hover td {
+  background: transparent;
+}
+
+/* Callout: minimal accent bar only */
+.cf-callout {
+  background: transparent;
+  border-left: 2px solid var(--cf-accent);
+  padding: 0 0 0 1.5rem;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  color: var(--cf-ink);
+}
+
+@media (max-width: 960px) {
+  .cf-sidenote {
+    border-top: 1px solid var(--cf-border);
+    padding-top: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .cf-grid {
+    display: grid;
+    grid-template-columns: 55ch 2rem 20rem;
+    column-gap: 0;
+  }
+
+  .cf-main {
+    grid-column: 1;
+    width: 55ch;
+  }
+
+  .cf-sidenote {
+    grid-column: 3;
+    position: static;
+    width: auto;
+    margin-top: 0;
+  }
+}
+
+.cf-summary-table table.dataframe {
+  border: none;
+  width: auto;
+  font-size: 0.95rem;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background: transparent;
+}
+
+.cf-summary-table table.dataframe th,
+.cf-summary-table table.dataframe td {
+  border: none;
+  padding: 0.4rem 1rem 0.4rem 0;
+  text-align: left;
+  border-bottom: 1px solid var(--cf-border);
+  background: transparent;
+}
+
+.cf-summary-table table.dataframe thead tr {
+  border-bottom: 2px solid var(--cf-ink);
+}
+
+.cf-summary-table table.dataframe tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.cf-summary-table table.dataframe th {
+  font-weight: 600;
+  color: var(--cf-ink);
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.cf-summary-table table.dataframe td:last-child {
+  text-align: right;
+}
+
+.cf-summary-table table.dataframe tr:hover td {
+  background: transparent;
+}
+
+/* Callout: minimal accent bar only */
+.cf-callout {
+  background: transparent;
+  border-left: 2px solid var(--cf-accent);
+  padding: 0 0 0 1.5rem;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  color: var(--cf-ink);
+}
+
+.cf-callout strong {
+  color: var(--cf-accent);
+}
+
+/* Bokeh plots: minimal chrome, transparent backgrounds */
+.bk-root {
+  background: transparent !important;
+}
+
+.bk-root .bk-plot-layout {
+  background: transparent !important;
+}
+
+.bk-root .bk-toolbar-button {
+  color: var(--cf-muted);
+}
+
+.bk-root .bk-toolbar-button:hover {
+  color: var(--cf-accent);
+}
+
+.bk-root .bk-figure {
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.bk-root .bk-tooltip {
+  font-size: 0.85rem;
+  font-family: 'Source Sans 3', sans-serif;
+  background: var(--cf-bg) !important;
+  border: 1px solid var(--cf-border) !important;
+  color: var(--cf-ink) !important;
+}
+
+/* Code blocks: blend into page */
+div.highlight,
+.literal-block,
+pre {
+  background: var(--cf-accent-soft) !important;
+  border: none !important;
+  border-left: 2px solid var(--cf-border) !important;
+  padding: 0.5rem 0 0.5rem 1rem !important;
+  margin: 1rem 0 !important;
+  font-size: 0.9rem;
+  overflow-x: auto;
+}
+
+div.highlight pre {
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+code {
+  background: transparent;
+  color: var(--cf-ink);
+  font-size: 0.9em;
+  padding: 0.1em 0.2em;
+}
+
 .search-container {
   margin: 20px 0;
 }
@@ -6,25 +332,28 @@
   width: 100%;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  border: 1px solid var(--cf-border);
+  border-radius: 0;
+  background: var(--cf-bg);
+  color: var(--cf-ink);
 }
 
 .search-results {
   max-height: 300px;
   overflow-y: auto;
-  border: 1px solid #ddd;
+  border: 1px solid var(--cf-border);
   border-top: none;
   display: block;
+  background: var(--cf-bg);
 }
 
 .search-result {
   padding: 10px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--cf-border);
 }
 
 .search-result:hover {
-  background-color: #f5f5f5;
+  background: var(--cf-accent-soft);
 }
 
 .search-more {
@@ -45,107 +374,136 @@
 .download-btn {
   display: inline-block;
   padding: 10px 20px;
-  background: #2563eb;
+  background: var(--cf-accent);
   color: white !important;
   text-decoration: none;
-  border: 2px solid #2563eb;
-  border-radius: 3px;
+  border: none;
+  border-radius: 0;
   font-weight: 500;
   font-size: 14px;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
   transition: all 0.2s ease;
 }
 
 .download-btn:hover {
-  background: #1d4ed8;
-  border-color: #1d4ed8;
+  background: var(--cf-ink);
   color: white !important;
 }
 
-.download-btn:active {
-  background: #1e40af;
-  border-color: #1e40af;
-}
-
 /* ============================================
-   Dark Mode Bokeh Table Fixes
+   Bokeh Tables (light & dark unified)
    ============================================ */
 
-/* Dark mode table background and text */
-[data-theme="dark"] .bk-root table,
-html[data-theme="dark"] .bk-root table {
-  background-color: #1e1e1e !important;
-  color: #e0e0e0 !important;
+/* Tufte-styled DataTables */
+.tufte-table.bk-root {
+  font-family: 'Source Sans 3', system-ui, sans-serif !important;
 }
 
-/* Dark mode table headers */
-[data-theme="dark"] .bk-root th {
-  background-color: #2d2d2d !important;
-  color: #ffffff !important;
-  font-weight: bold !important;
+.tufte-table .slick-header {
+  background: transparent !important;
+  border: none !important;
 }
 
-/* Dark mode table cells */
-[data-theme="dark"] .bk-root td {
-  background-color: #1e1e1e !important;
-  color: #e0e0e0 !important;
+.tufte-table .slick-header-column {
+  background: transparent !important;
+  color: var(--cf-ink) !important;
+  font-weight: 600 !important;
+  font-size: 0.85rem !important;
+  letter-spacing: 0.02em !important;
+  text-transform: uppercase !important;
+  border: none !important;
+  border-bottom: 2px solid var(--cf-ink) !important;
+  padding: 0.5rem 1rem 0.5rem 0 !important;
+  text-align: left !important;
 }
 
-/* Dark mode hover effect */
-[data-theme="dark"] .bk-root tr:hover td {
-  background-color: #3a3a3a !important;
+.tufte-table .slick-cell {
+  background: transparent !important;
+  color: var(--cf-ink) !important;
+  border: none !important;
+  border-bottom: 1px solid var(--cf-border) !important;
+  padding: 0.4rem 1rem 0.4rem 0 !important;
+  font-size: 0.95rem !important;
+  line-height: 1.6 !important;
 }
 
-/* Increase readability for all tables */
-.bk-root td,
+.tufte-table .slick-row:hover .slick-cell {
+  background: transparent !important;
+}
+
+.tufte-table .slick-row:last-child .slick-cell {
+  border-bottom: none !important;
+}
+
+.tufte-table .slick-viewport {
+  background: transparent !important;
+}
+
+.tufte-table .grid-canvas {
+  background: transparent !important;
+}
+
+/* Links within Tufte tables */
+.tufte-table a {
+  color: var(--cf-accent) !important;
+  text-decoration: underline;
+}
+
+.tufte-table a:hover {
+  color: var(--cf-ink) !important;
+}
+
+/* Fallback for other Bokeh tables */
+.bk-root table {
+  background: transparent !important;
+  color: var(--cf-ink) !important;
+  border: none !important;
+}
+
 .bk-root th {
-  font-size: 1.05em !important;
-  padding: 8px !important;
+  background: transparent !important;
+  color: var(--cf-ink) !important;
+  font-weight: 600 !important;
+  border-bottom: 2px solid var(--cf-ink) !important;
+  padding: 0.5rem 1rem !important;
+  text-align: left !important;
 }
 
-/* Links in dark mode tables */
-[data-theme="dark"] .bk-root a {
-  color: #58a6ff !important;
+.bk-root td {
+  background: transparent !important;
+  color: var(--cf-ink) !important;
+  border-bottom: 1px solid var(--cf-border) !important;
+  padding: 0.4rem 1rem !important;
 }
 
-[data-theme="dark"] .bk-root a:hover {
-  color: #79c0ff !important;
+.bk-root tbody tr:last-child td {
+  border-bottom: none !important;
+}
+
+.bk-root tr:hover td {
+  background: transparent !important;
 }
 
 /* Custom dictionary-entry blockquote */
 .dictionary-entry {
-  border-left: 4px solid #6c757d;
-  background-color: #f8f9fa;
-  padding: 0.5rem 0.5rem 0.05rem 1.5rem;
+  border-left: 2px solid var(--cf-border);
+  background: transparent;
+  padding: 0 0 0 1.5rem;
   margin: 1rem 0 1rem 1.5rem;
-  border-radius: 0.25rem;
 }
 
 .dictionary-entry .term {
   font-weight: 700;
   font-size: 1.15em;
   margin-bottom: 0.5rem;
-  color: #212529;
+  color: var(--cf-ink);
   font-style: italic;
   display: block;
 }
 
 .dictionary-entry .definition {
-  color: #495057;
+  color: var(--cf-muted);
   font-size: 0.95em;
   line-height: 1.6;
-}
-
-/* Dark mode support */
-[data-theme="dark"] .dictionary-entry {
-  background-color: #2d3748;
-  border-left-color: #a0aec0;
-}
-
-[data-theme="dark"] .dictionary-entry .term {
-  color: #e2e8f0;
-}
-
-[data-theme="dark"] .dictionary-entry .definition {
-  color: #cbd5e0;
 }

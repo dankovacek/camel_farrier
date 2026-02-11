@@ -11,6 +11,7 @@
 
 **This is reference documentation** — not a workflow guide. For workflow instructions, see the [User Guide](user_guide) for page generation and building procedures.
 
+:::{div} cf-section
 ## Overview
 
 This document defines the schema and format requirements for hydrometric data in the Camel Farrier demonstration repository. All station data is extracted from the Water Office portal export (`WaterOffice_RC_Export_*.zip`) and organized into individual station folders.
@@ -31,7 +32,9 @@ demo_data/stations/
     ├── {STATION_ID}_RCs.csv              # Rating curves
     └── {STATION_ID}_polygon_v*.geojson   # Catchment boundary (local files only)
 ```
+:::
 
+:::{div} cf-section
 ## CSV Data Schemas
 
 ### 1. Corrections
@@ -59,8 +62,6 @@ demo_data/stations/
 - All timestamps must be in UTC (Z or +00:00 designation)
 - Start Time must be before or equal to End Time (if End Time present)
 - Station ID must match parent directory name
-
----
 
 ### 2. Field Visits
 
@@ -99,8 +100,6 @@ demo_data/stations/
 - Discharge values must be ≥ 0 (no negative flows)
 - Date must be parseable and within reasonable historical range (station establishment date onwards)
 
----
-
 ### 3. Rating Curves
 
 **Source:** Water Office Portal export
@@ -122,9 +121,9 @@ demo_data/stations/
 - Station ID must match parent directory name
 - Curve Number must be unique within station file
 - Type field determines how curve is interpreted (LinearTable = tabular stage-discharge pairs)
+:::
 
----
-
+:::{div} cf-section
 ## Provenance and Attribution
 
 ### `_data_sources.json` Schema
@@ -316,14 +315,13 @@ Example interpretations:
 - "backwater: 3447": Ice/backwater affected readings (common in winter)
 - "estimated: 212": Gap-filled estimates from rating curve
 - "partial day: 51": Incomplete daily records
+:::
 
----
-
+:::{div} cf-section
 ## Data Initialization Workflow
 
 For step-by-step instructions on extracting and organizing data from the Water Office export, see the [User Guide](user_guide).
-
----
+:::
 
 ## References
 

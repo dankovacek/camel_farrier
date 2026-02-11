@@ -2,6 +2,15 @@
 
 This page summarizes catchment polygon revisions across a sample of the national hydrometric monitoring stations in HYDAT. When alternate polygon sources are published (e.g., HYDAT 2024 release), we compare them against baseline polygons (earlier, unversioned files) to quantify changes.
 
+## Revision Map
+
+:::{margin}
+**Linked selection.**
+Click on a dot to navigate to the corresponding station summary page.
+
+Warm colors highlight basins where a previous polygon version (December 2021) deviates most from the latest WSC polygons.
+:::
+
 :::{bokeh-plot}
 import sys
 from pathlib import Path
@@ -14,6 +23,9 @@ show(plot_revision_map())
 ## Polygon Comparison Metrics
 
 ### Jaccard Similarity Index
+:::{margin}
+**Interpreting JSI:** Values near 1.0 indicate nearly perfect overlap of polygons; a value of 0 indicates no overlap.
+:::
 
 The **Jaccard Similarity Index** (JSI) quantifies geometric overlap between polygon versions. For geometries $A$ and $B$:
 
@@ -21,11 +33,14 @@ $$
 J(A, B) = \frac{|A \cap B|}{|A \cup B|}
 $$
 
-Where:
-- $|A \cap B|$ is the intersection area
-- $|A \cup B|$ is the union area
+Where $|A \cap B|$ is the intersection area and $|A \cup B|$ is the union area.
+
+
 
 ### Area Change
+:::{margin}
+**Area Change Context:** Changes reflect unique DEM inputs or hyraulic conditioning steps, or detailed site information.
+:::
 
 Percent area difference between versions:
 
@@ -34,6 +49,8 @@ $$
 $$
 
 Positive values indicate catchment expansion; negative values indicate reduction.
+
+
 
 ## Sample distributions
 
@@ -61,6 +78,10 @@ show(plot_area_change_cdf())
 
 ## Detailed comparison table
 
+:::{margin}
+Sort the table by clicking on the column headers.  Click station links to navigate to the station summary page.
+:::
+
 :::{bokeh-plot}
 import sys
 from pathlib import Path
@@ -70,16 +91,9 @@ from scripts.generation.revision_plots import generate_revision_table
 show(generate_revision_table())
 :::
 
-## Version tracking
+All polygon changes are tracked in station-level `_versions.json` files with complete provenance — data source (origin of polygon: WSC_basins, HYDAT, custom), source version (original dataset version/date), source metadata (all attributes from GeoJSON properties), timestamp (when polygon was integrated), and comparison metrics (Jaccard index, area differences, overlap statistics).
 
-All polygon changes are tracked in station-level `_versions.json` files with complete provenance:
-
-- **Data Source**: Origin of polygon (WSC_basins, HYDAT, custom)
-- **Source Version**: Original dataset version/date
-- **Source Metadata**: All attributes from GeoJSON properties
-- **Timestamp**: When polygon was integrated
-- **Comparison Metrics**: Jaccard index, area differences, overlap statistics
-
+:::{margin}
 Example version entry:
 
 ```json
@@ -88,15 +102,10 @@ Example version entry:
   "timestamp": "2026-02-04T19:23:45Z",
   "data_source": "HYDAT_polygons",
   "source_version": "June 2024",
-  "polygon_file": "07AF010_polygon_v1.1.0.geojson",
-  "source_metadata": {
-    "StationNum": "07AF010",
-    "Version": "June 2024 / juin 2024",
-    "Date_rev": "2024-06-01",
-    "Area_km2": 504.8
-  }
+  "polygon_file": "07AF010_polygon_v1.1.0.geojson"
 }
 ```
+:::
 
 ## Integration Workflow
 
@@ -116,10 +125,7 @@ python scripts/demo_setup/integrate_hydat_polygons.py --stations-file /tmp/stati
 
 Comparison metrics are calculated automatically using LAEA projection for accurate area calculations.
 
-## Notes
-
-For methodology and implementation details, see:
-- [Getting Started](../guides/user_guide.md)
-- [Data Specification](../guides/data_specification.md)
+For methodology and implementation details, see [Getting Started](../guides/user_guide.md) and [Data Specification](../guides/data_specification.md).
+:::
 
 

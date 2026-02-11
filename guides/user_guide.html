@@ -35,7 +35,8 @@
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
-    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=5355688a" />
+    <link rel="stylesheet" type="text/css" href="../_static/tufte_table.css?v=0ecb9985" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=9aff115b" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
@@ -63,7 +64,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Data Sources and Provenance" href="DATA_SOURCES.html" />
-    <link rel="prev" title="LSH Dataset Input Review" href="lsh_inputs_review.html" />
+    <link rel="prev" title="Broken Telephone: Caravan Divergence" href="../summary_pages/broken_telephone_casestudy.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -181,11 +182,10 @@
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary &amp; Diagnostics</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Network-Wide Summaries</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../summary_pages/changelog_intro.html">Project Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../summary_pages/revision_summary.html">Cross-Station Comparisons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="lsh_inputs_review.html">LSH Dataset Comparison</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../summary_pages/revision_summary.html">Polygon Revision Summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../summary_pages/broken_telephone_casestudy.html">Broken Telephone: Caravan Divergence</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
 <ul class="current nav bd-sidenav">
@@ -645,7 +645,6 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#purpose">Purpose</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#environment-setup">Environment Setup</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clone-repository-and-install-dependencies">Clone Repository and Install Dependencies</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#configure-external-data-path">Configure External Data Path</a></li>
@@ -653,8 +652,7 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#verify-setup">Verify Setup</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-start-workflow">Quick Start Workflow</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#station-data-initialization">Station Data Initialization</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-start-workflow">Quick Start Workflow</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#demo-stations">Demo Stations</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#running-initialization">Running Initialization</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#git-tracking-philosophy">Git Tracking Philosophy</a></li>
@@ -676,17 +674,6 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#build-and-deploy-documentation">Build and Deploy Documentation</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#build-jupyter-book">Build Jupyter Book</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#deploy-to-github-pages">Deploy to GitHub Pages</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scripts-architecture">Scripts Architecture</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#configuration-layer-scripts-config">Configuration Layer (<code class="docutils literal notranslate"><span class="pre">scripts/config/</span></code>)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#utilities-layer-scripts-utils">Utilities Layer (<code class="docutils literal notranslate"><span class="pre">scripts/utils/</span></code>)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#generation-layer-scripts-generation">Generation Layer (<code class="docutils literal notranslate"><span class="pre">scripts/generation/</span></code>)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#workflow-scripts-scripts-demo-setup">Workflow Scripts (<code class="docutils literal notranslate"><span class="pre">scripts/demo_setup/</span></code>)</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#troubleshooting">Troubleshooting</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wateroffice-export-not-found">“WaterOffice export not found”</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hydat-database-not-found">“HYDAT database not found”</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#import-error-supporting-figure-functions">“Import error: supporting_figure_functions”</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crs-projection-warnings">CRS/Projection Warnings</a></li>
@@ -707,21 +694,13 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="getting-started">
 <h1>Getting Started<a class="headerlink" href="#getting-started" title="Link to this heading">#</a></h1>
-<section id="purpose">
-<h2>Purpose<a class="headerlink" href="#purpose" title="Link to this heading">#</a></h2>
-<p>This guide walks you through setting up and using the Camel Farrier repository to work with hydrometric station data, catchment polygons, and diagnostic documentation.</p>
-<p><strong>What is covered in this guide:</strong></p>
-<ul class="simple">
-<li><p>Environment configuration and dependencies</p></li>
-<li><p>Data initialization workflow</p></li>
-<li><p>Polygon version integration</p></li>
-<li><p>Diagnostic page generation and validation</p></li>
-<li><p>Documentation building and deployment</p></li>
-</ul>
+<p>This guide walks you through setting up and using the Camel Farrier repository to work with hydrometric station data and catchment polygons to automatically generate interactive documentation.</p>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
 <p><strong>For data schema reference,</strong> see <a class="reference internal" href="data_specification.html"><span class="std std-doc">Data Specification</span></a>.</p>
 <p><strong>For dataset provenance and citations,</strong> see <a class="reference internal" href="DATA_SOURCES.html"><span class="std std-doc">Data Sources</span></a>.</p>
-</section>
-<hr class="docutils" />
+</aside>
+<p>This guide covers environment configuration and dependencies, data initialization workflow, polygon version integration, diagnostic page generation and validation, and documentation building and deployment.</p>
 <section id="environment-setup">
 <h2>Environment Setup<a class="headerlink" href="#environment-setup" title="Link to this heading">#</a></h2>
 <section id="clone-repository-and-install-dependencies">
@@ -735,8 +714,10 @@ pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </s
 <section id="configure-external-data-path">
 <h3>Configure External Data Path<a class="headerlink" href="#configure-external-data-path" title="Link to this heading">#</a></h3>
 <p>External geospatial datasets (HYDAT database, WSC basins) are accessed via the <code class="docutils literal notranslate"><span class="pre">COMMON_DATA_DIR</span></code> environment variable.</p>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
 <p><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">~/data/hydrometric/</span></code> (if not set)</p>
-<p><strong>To customize:</strong></p>
+</aside>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span><span class="w"> </span><span class="nv">COMMON_DATA_DIR</span><span class="o">=</span>/path/to/your/geospatial/data
 
 <span class="c1"># Persist in shell profile</span>
@@ -747,12 +728,7 @@ pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </s
 </section>
 <section id="download-required-datasets">
 <h3>Download Required Datasets<a class="headerlink" href="#download-required-datasets" title="Link to this heading">#</a></h3>
-<p>See <a class="reference internal" href="DATA_SOURCES.html"><span class="std std-doc">Data Sources</span></a> for download links and provenance. Required datasets:</p>
-<ul class="simple">
-<li><p><strong>HYDAT database</strong> — Canadian hydrometric database (SQLite)</p></li>
-<li><p><strong>WSC catchment polygons</strong> — Water Survey of Canada basin boundaries</p></li>
-<li><p><strong>HYDAT drainage basins</strong> — (Optional) For polygon version comparisons</p></li>
-</ul>
+<p>See <a class="reference internal" href="DATA_SOURCES.html"><span class="std std-doc">Data Sources</span></a> for download links and provenance. Required datasets include HYDAT database (Canadian hydrometric SQLite), WSC catchment polygons (Water Survey basin boundaries), and optionally HYDAT drainage basins for polygon version comparisons.</p>
 <p>Expected directory structure:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$COMMON_DATA_DIR/
 └── HYDAT/
@@ -784,7 +760,6 @@ pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </s
 <p><strong>If <code class="docutils literal notranslate"><span class="pre">HYDAT</span> <span class="pre">exists:</span> <span class="pre">False</span></code></strong>, check environment variables and download paths.</p>
 </section>
 </section>
-<hr class="docutils" />
 <section id="quick-start-workflow">
 <h2>Quick Start Workflow<a class="headerlink" href="#quick-start-workflow" title="Link to this heading">#</a></h2>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Initialize random set of stations (n=number, m=min per region)</span>
@@ -806,10 +781,9 @@ jupyter<span class="w"> </span>book<span class="w"> </span>build<span class="w">
 open<span class="w"> </span>_build/html/index.html
 </pre></div>
 </div>
-</section>
-<hr class="docutils" />
-<section id="station-data-initialization">
-<h2>Station Data Initialization<a class="headerlink" href="#station-data-initialization" title="Link to this heading">#</a></h2>
+</div>
+<div class="cf-section">
+## Station Data Initialization
 <section id="demo-stations">
 <h3>Demo Stations<a class="headerlink" href="#demo-stations" title="Link to this heading">#</a></h3>
 <p>The repository includes 10 demonstration stations from across Canada:</p>
@@ -853,21 +827,9 @@ open<span class="w"> </span>_build/html/index.html
 </section>
 <section id="git-tracking-philosophy">
 <h3>Git Tracking Philosophy<a class="headerlink" href="#git-tracking-philosophy" title="Link to this heading">#</a></h3>
-<p><strong>Metadata-only approach:</strong></p>
-<ul class="simple">
-<li><p>✓ <strong>Tracked in git:</strong> CSV files, JSON metadata</p></li>
-<li><p>✗ <strong>Not tracked:</strong> Polygon GeoJSON files (large geospatial data)</p></li>
-</ul>
-<p><strong>Rationale:</strong></p>
-<ul class="simple">
-<li><p><strong>Data Integrity:</strong> Polygons remain unmodified from source</p></li>
-<li><p><strong>Repository Size:</strong> Keeps git history lightweight</p></li>
-<li><p><strong>Provenance:</strong> Metadata tracks exactly where data originated</p></li>
-<li><p><strong>Production Pattern:</strong> Large files stored externally; metadata in git</p></li>
-</ul>
+<p>This repository tracks metadata only. CSV files and JSON metadata are tracked in git, while polygon GeoJSON files (large geospatial data) remain local only. This approach maintains data integrity by keeping polygons unmodified from source, keeps repository size lightweight with streamlined git history, ensures complete provenance tracking via metadata, and follows production patterns where large files stay external while metadata lives in git.</p>
 </section>
 </section>
-<hr class="docutils" />
 <section id="integrating-hydat-catchment-polygons">
 <h2>Integrating HYDAT Catchment Polygons<a class="headerlink" href="#integrating-hydat-catchment-polygons" title="Link to this heading">#</a></h2>
 <p>To create versioned polygon histories, integrate alternative catchment polygons from HYDAT’s drainage basin dataset.</p>
@@ -913,19 +875,8 @@ python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py<spa
 </section>
 <section id="comparison-metrics">
 <h3>Comparison Metrics<a class="headerlink" href="#comparison-metrics" title="Link to this heading">#</a></h3>
-<p><strong>Jaccard Similarity Index (JSI):</strong></p>
-<ul class="simple">
-<li><p>JSI = Area(intersection) / Area(union)</p></li>
-<li><p>Range: 0 (no overlap) to 1 (identical)</p></li>
-<li><p>Values &gt; 0.95 indicate high similarity</p></li>
-</ul>
-<p><strong>Area Difference:</strong></p>
-<ul class="simple">
-<li><p>Percent diff = ((new_area - old_area) / old_area) × 100</p></li>
-<li><p>Positive: new polygon larger</p></li>
-<li><p>Negative: new polygon smaller</p></li>
-</ul>
-<p><strong>Projection:</strong> Uses Lambert Azimuthal Equal Area (LAEA) centered at polygon centroid for accurate area calculations.</p>
+<p>Jaccard Similarity Index (JSI) measures overlap as the ratio of intersection to union area, ranging from 0 (no overlap) to 1 (identical), with values above 0.95 indicating high similarity. Area difference expresses percent change as ((new_area - old_area) / old_area) × 100, with positive values indicating the new polygon is larger and negative values showing it is smaller.</p>
+<p>Projection: Uses Lambert Azimuthal Equal Area (LAEA) centered at polygon centroid for accurate area calculations.</p>
 </section>
 <section id="version-graph-structure">
 <h3>Version Graph Structure<a class="headerlink" href="#version-graph-structure" title="Link to this heading">#</a></h3>
@@ -962,7 +913,6 @@ python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py<spa
 </div>
 </section>
 </section>
-<hr class="docutils" />
 <section id="diagnostic-page-generation">
 <h2>Diagnostic Page Generation<a class="headerlink" href="#diagnostic-page-generation" title="Link to this heading">#</a></h2>
 <section id="generate-station-pages">
@@ -971,28 +921,11 @@ python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py<spa
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>scripts/demo_setup/process_station_pages.py
 </pre></div>
 </div>
-<p>This creates Markdown pages for each station in <code class="docutils literal notranslate"><span class="pre">book_docs/station_pages/stations/</span></code> with:</p>
-<ul class="simple">
-<li><p><strong>Station Metadata Table</strong> — Coordinates, drainage area, source, retrieval date</p></li>
-<li><p><strong>Version History</strong> — Polygon version provenance with comparison metrics</p></li>
-<li><p><strong>Data Quality Status</strong> — QC validation results</p></li>
-<li><p><strong>Interactive Visualizations</strong> — Catchment maps, polygon comparisons, flow plots</p></li>
-</ul>
+<p>This creates Markdown pages for each station in <code class="docutils literal notranslate"><span class="pre">book_docs/station_pages/stations/</span></code> containing station metadata table (coordinates, drainage area, source, retrieval date), version history with polygon provenance and comparison metrics, data quality status from QC validation results, and interactive visualizations showing catchment maps, polygon comparisons, and flow plots.</p>
 </section>
 <section id="plot-generation">
 <h3>Plot Generation<a class="headerlink" href="#plot-generation" title="Link to this heading">#</a></h3>
-<p>Interactive visualizations use Bokeh plots generated by <code class="docutils literal notranslate"><span class="pre">scripts/catchment_page_utils.py</span></code>:</p>
-<ul class="simple">
-<li><p><strong>Catchment Boundary Map</strong> — Interactive polygon visualization with basemap tiles</p></li>
-<li><p><strong>Polygon Comparison</strong> — When 2+ versions exist, shows spatial differences:</p>
-<ul>
-<li><p><strong>Light green:</strong> Agreement (intersection)</p></li>
-<li><p><strong>Red:</strong> Old area NOT in new (false positive)</p></li>
-<li><p><strong>Purple:</strong> New area NOT in old (false negative)</p></li>
-</ul>
-</li>
-<li><p><strong>Timeseries Charts</strong> — Flow/level data over time</p></li>
-</ul>
+<p>Interactive visualizations use Bokeh plots generated by <code class="docutils literal notranslate"><span class="pre">scripts/catchment_page_utils.py</span></code>. The catchment boundary map provides interactive polygon visualization with basemap tiles. When two or more versions exist, polygon comparison plots show spatial differences using light green for agreement (intersection), red for old area not in new (false positive), and purple for new area not in old (false negative). Timeseries charts display flow and level data over time.</p>
 <p>Plots execute at build time using MyST <code class="docutils literal notranslate"><span class="pre">bokeh-plot</span></code> directives.</p>
 </section>
 <section id="validation-rules">
@@ -1007,9 +940,20 @@ python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py<spa
 <li><p><strong>Metadata Quality</strong> — Required fields populated</p></li>
 </ul>
 <p>Results stored in <code class="docutils literal notranslate"><span class="pre">_qc_status.json</span></code> per station.</p>
+</div>
+<div class="cf-section">
+## Caravan vs WSC Polygon Comparison
+<p>Benchmark Caravan’s inherited HYSETS polygons against the current WSC drainage basins. Start with the test region so you can validate dependencies and CRS handling before launching the full computation.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Fast validation (39 stations, MDA_ADP_06 only)</span>
+python<span class="w"> </span>scripts/generation/compare_caravan_polygons.py<span class="w"> </span>--test
+
+<span class="c1"># Full national run (1,432 stations)</span>
+python<span class="w"> </span>scripts/generation/compare_caravan_polygons.py
+</pre></div>
+</div>
+<p>Outputs land in <code class="docutils literal notranslate"><span class="pre">book_docs/data/polygon_comparisons/caravan_vs_wsc2024/</span></code> and drive the “Broken Telephone” case study page. Rebuild the Jupyter Book after a successful run to refresh the plots.</p>
 </section>
 </section>
-<hr class="docutils" />
 <section id="build-and-deploy-documentation">
 <h2>Build and Deploy Documentation<a class="headerlink" href="#build-and-deploy-documentation" title="Link to this heading">#</a></h2>
 <section id="build-jupyter-book">
@@ -1025,58 +969,40 @@ jupyter<span class="w"> </span>book<span class="w"> </span>build<span class="w">
 </section>
 <section id="deploy-to-github-pages">
 <h3>Deploy to GitHub Pages<a class="headerlink" href="#deploy-to-github-pages" title="Link to this heading">#</a></h3>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ghp-import<span class="w"> </span>-n<span class="w"> </span>-p<span class="w"> </span>-f<span class="w"> </span>book_docs/_build/html
-</pre></div>
-</div>
-</section>
-</section>
-<hr class="docutils" />
-<section id="scripts-architecture">
-<h2>Scripts Architecture<a class="headerlink" href="#scripts-architecture" title="Link to this heading">#</a></h2>
-<p>The workflow uses modular, reusable scripts organized into layers:</p>
-<section id="configuration-layer-scripts-config">
-<h3>Configuration Layer (<code class="docutils literal notranslate"><span class="pre">scripts/config/</span></code>)<a class="headerlink" href="#configuration-layer-scripts-config" title="Link to this heading">#</a></h3>
-<ul class="simple">
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">paths.py</span></code></strong> — Centralized path resolution (single source of truth)</p></li>
-</ul>
-</section>
-<section id="utilities-layer-scripts-utils">
-<h3>Utilities Layer (<code class="docutils literal notranslate"><span class="pre">scripts/utils/</span></code>)<a class="headerlink" href="#utilities-layer-scripts-utils" title="Link to this heading">#</a></h3>
-<ul class="simple">
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">bokeh.py</span></code></strong> — Bokeh visualization utilities</p></li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">geometry.py</span></code></strong> — Geospatial operations (Jaccard, projections)</p></li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">markdown.py</span></code></strong> — Template rendering and table generation</p></li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">data_loaders.py</span></code></strong> — Unified data loading with caching</p></li>
-</ul>
-</section>
-<section id="generation-layer-scripts-generation">
-<h3>Generation Layer (<code class="docutils literal notranslate"><span class="pre">scripts/generation/</span></code>)<a class="headerlink" href="#generation-layer-scripts-generation" title="Link to this heading">#</a></h3>
-<ul class="simple">
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">page_generator.py</span></code></strong> — Unified page generation</p></li>
-</ul>
-</section>
-<section id="workflow-scripts-scripts-demo-setup">
-<h3>Workflow Scripts (<code class="docutils literal notranslate"><span class="pre">scripts/demo_setup/</span></code>)<a class="headerlink" href="#workflow-scripts-scripts-demo-setup" title="Link to this heading">#</a></h3>
-<ul class="simple">
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">populate_demo_data.py</span></code></strong> — Initialize station data</p></li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">integrate_hydat_polygons.py</span></code></strong> — Add polygon versions</p></li>
-<li><p><strong><code class="docutils literal notranslate"><span class="pre">process_station_pages.py</span></code></strong> — Generate diagnostic pages</p></li>
-</ul>
-<p><strong>Design Benefits:</strong></p>
-<ul class="simple">
-<li><p><strong>Single Source of Truth:</strong> Path changes only require editing <code class="docutils literal notranslate"><span class="pre">paths.py</span></code></p></li>
-<li><p><strong>Reusability:</strong> Utilities enable multiple workflows without duplication</p></li>
-<li><p><strong>Testability:</strong> Each layer can be tested independently</p></li>
-<li><p><strong>Maintainability:</strong> Clear separation of concerns</p></li>
-</ul>
-</section>
-</section>
-<hr class="docutils" />
-<section id="troubleshooting">
-<h2>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Link to this heading">#</a></h2>
-<section id="wateroffice-export-not-found">
-<h3>“WaterOffice export not found”<a class="headerlink" href="#wateroffice-export-not-found" title="Link to this heading">#</a></h3>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ls<span class="w"> </span>data/WaterOffice_RC_Export_20260203.zip
+<p>{
+ghp-import -n -p -f book_docs/_build/html</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+## Scripts Architecture
+
+The workflow uses modular, reusable scripts organized into layers:
+
+### Configuration Layer (`scripts/config/`)
+
+- **`paths.py`** — Centralized path resolution (single source of truth)
+
+### Utilities Layer (`scripts/utils/`)
+
+- **`bokeh.py`** — Bokeh visualization utilities
+- **`geometry.py`** — Geospatial operations (Jaccard, projections)
+- **`markdown.py`** — Template rendering and table generation
+- **`data_loaders.py`** — Unified data loading with caching
+
+### Generation Layer (`scripts/generation/`)
+
+The generation layer contains `page_generator.py` for unified page generation.
+
+### Workflow Scripts (`scripts/demo_setup/`)
+
+Workflow scripts include `populate_demo_data.py` to initialize station data, `integrate_hydat_polygons.py` to add polygon versions, and `process_station_pages.py` to generate diagnostic pages.
+
+This design provides single source of truth where path changes only require editing `paths.py`, reusability enabling multiple workflows without duplication, testability with each layer tested independently, and maintainability through clear separation of concerns.
+
+## Troubleshooting
+
+### &quot;WaterOffice export not found&quot;
+
+```bash
+ls data/WaterOffice_RC_Export_20260203.zip
 </pre></div>
 </div>
 <p>Download from Zenodo using DOI (see <a class="reference internal" href="DATA_SOURCES.html"><span class="std std-doc">Data Sources</span></a>).</p>
@@ -1098,7 +1024,6 @@ python<span class="w"> </span>scripts/demo_setup/populate_demo_data.py
 <p>Non-fatal warnings indicate potential data updates needed. Safe to ignore for most operations.</p>
 </section>
 </section>
-<hr class="docutils" />
 <section id="full-rebuild-workflow">
 <h2>Full Rebuild Workflow<a class="headerlink" href="#full-rebuild-workflow" title="Link to this heading">#</a></h2>
 <p>To clean legacy data and rebuild with latest polygons:</p>
@@ -1120,7 +1045,6 @@ jupyter<span class="w"> </span>book<span class="w"> </span>build<span class="w">
 </pre></div>
 </div>
 </section>
-<hr class="docutils" />
 <section id="next-steps">
 <h2>Next Steps<a class="headerlink" href="#next-steps" title="Link to this heading">#</a></h2>
 <ul class="simple">
@@ -1162,12 +1086,12 @@ jupyter<span class="w"> </span>book<span class="w"> </span>build<span class="w">
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="lsh_inputs_review.html"
+       href="../summary_pages/broken_telephone_casestudy.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">LSH Dataset Input Review</p>
+        <p class="prev-next-title">Broken Telephone: Caravan Divergence</p>
       </div>
     </a>
     <a class="right-next"
@@ -1195,7 +1119,6 @@ jupyter<span class="w"> </span>book<span class="w"> </span>build<span class="w">
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#purpose">Purpose</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#environment-setup">Environment Setup</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clone-repository-and-install-dependencies">Clone Repository and Install Dependencies</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#configure-external-data-path">Configure External Data Path</a></li>
@@ -1203,8 +1126,7 @@ jupyter<span class="w"> </span>book<span class="w"> </span>build<span class="w">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#verify-setup">Verify Setup</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-start-workflow">Quick Start Workflow</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#station-data-initialization">Station Data Initialization</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-start-workflow">Quick Start Workflow</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#demo-stations">Demo Stations</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#running-initialization">Running Initialization</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#git-tracking-philosophy">Git Tracking Philosophy</a></li>
@@ -1226,17 +1148,6 @@ jupyter<span class="w"> </span>book<span class="w"> </span>build<span class="w">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#build-and-deploy-documentation">Build and Deploy Documentation</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#build-jupyter-book">Build Jupyter Book</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#deploy-to-github-pages">Deploy to GitHub Pages</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scripts-architecture">Scripts Architecture</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#configuration-layer-scripts-config">Configuration Layer (<code class="docutils literal notranslate"><span class="pre">scripts/config/</span></code>)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#utilities-layer-scripts-utils">Utilities Layer (<code class="docutils literal notranslate"><span class="pre">scripts/utils/</span></code>)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#generation-layer-scripts-generation">Generation Layer (<code class="docutils literal notranslate"><span class="pre">scripts/generation/</span></code>)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#workflow-scripts-scripts-demo-setup">Workflow Scripts (<code class="docutils literal notranslate"><span class="pre">scripts/demo_setup/</span></code>)</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#troubleshooting">Troubleshooting</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wateroffice-export-not-found">“WaterOffice export not found”</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hydat-database-not-found">“HYDAT database not found”</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#import-error-supporting-figure-functions">“Import error: supporting_figure_functions”</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crs-projection-warnings">CRS/Projection Warnings</a></li>

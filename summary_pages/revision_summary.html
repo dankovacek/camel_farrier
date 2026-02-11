@@ -35,7 +35,8 @@
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
-    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=5355688a" />
+    <link rel="stylesheet" type="text/css" href="../_static/tufte_table.css?v=0ecb9985" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=9aff115b" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
@@ -64,8 +65,8 @@
     <script src="../_static/searchindex.js?v=4891b222"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="LSH Dataset Input Review" href="../guides/lsh_inputs_review.html" />
-    <link rel="prev" title="Project Overview" href="changelog_intro.html" />
+    <link rel="next" title="Broken Telephone: Caravan Divergence" href="broken_telephone_casestudy.html" />
+    <link rel="prev" title="Automated Quality Documentation for Hydrometric Data" href="../index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -183,11 +184,10 @@
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary &amp; Diagnostics</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Network-Wide Summaries</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="changelog_intro.html">Project Overview</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Cross-Station Comparisons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../guides/lsh_inputs_review.html">LSH Dataset Comparison</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Polygon Revision Summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="broken_telephone_casestudy.html">Broken Telephone: Caravan Divergence</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
 <ul class="nav bd-sidenav">
@@ -647,6 +647,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#revision-map">Revision Map</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#polygon-comparison-metrics">Polygon Comparison Metrics</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jaccard-similarity-index">Jaccard Similarity Index</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#area-change">Area Change</a></li>
@@ -658,9 +659,7 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#detailed-comparison-table">Detailed comparison table</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#version-tracking">Version tracking</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#integration-workflow">Integration Workflow</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
 </ul>
             </nav>
         </div>
@@ -675,7 +674,15 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="polygon-revision-summary">
 <h1>Polygon Revision Summary<a class="headerlink" href="#polygon-revision-summary" title="Link to this heading">#</a></h1>
 <p>This page summarizes catchment polygon revisions across a sample of the national hydrometric monitoring stations in HYDAT. When alternate polygon sources are published (e.g., HYDAT 2024 release), we compare them against baseline polygons (earlier, unversioned files) to quantify changes.</p>
-<div style="height:600px;"><script src="bokeh-content-d1d75f4d59784099bdc1b2d0317af7c7-summary_pages-revision_summary.js" id="c3ab94b8-ab55-4e86-85a7-1729c177d38a"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<section id="revision-map">
+<h2>Revision Map<a class="headerlink" href="#revision-map" title="Link to this heading">#</a></h2>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<p><strong>Linked selection.</strong>
+Click on a dot to navigate to the corresponding station summary page.</p>
+<p>Warm colors highlight basins where a previous polygon version (December 2021) deviates most from the latest WSC polygons.</p>
+</aside>
+<div style="height:600px;"><script src="bokeh-content-4b223135d4484d54a0fb3e104191073e-summary_pages-revision_summary.js" id="ccb141be-89a6-46ec-91ff-8bdf2f3a35cc"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -683,23 +690,28 @@ document.write(`
 <span class="n">show</span><span class="p">(</span><span class="n">plot_revision_map</span><span class="p">())</span>
 </pre></div>
 </div>
+</section>
 <section id="polygon-comparison-metrics">
 <h2>Polygon Comparison Metrics<a class="headerlink" href="#polygon-comparison-metrics" title="Link to this heading">#</a></h2>
 <section id="jaccard-similarity-index">
 <h3>Jaccard Similarity Index<a class="headerlink" href="#jaccard-similarity-index" title="Link to this heading">#</a></h3>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<p><strong>Interpreting JSI:</strong> Values near 1.0 indicate nearly perfect overlap of polygons; a value of 0 indicates no overlap.</p>
+</aside>
 <p>The <strong>Jaccard Similarity Index</strong> (JSI) quantifies geometric overlap between polygon versions. For geometries <span class="math notranslate nohighlight">\(A\)</span> and <span class="math notranslate nohighlight">\(B\)</span>:</p>
 <div class="math notranslate nohighlight">
 \[
 J(A, B) = \frac{|A \cap B|}{|A \cup B|}
 \]</div>
-<p>Where:</p>
-<ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(|A \cap B|\)</span> is the intersection area</p></li>
-<li><p><span class="math notranslate nohighlight">\(|A \cup B|\)</span> is the union area</p></li>
-</ul>
+<p>Where <span class="math notranslate nohighlight">\(|A \cap B|\)</span> is the intersection area and <span class="math notranslate nohighlight">\(|A \cup B|\)</span> is the union area.</p>
 </section>
 <section id="area-change">
 <h3>Area Change<a class="headerlink" href="#area-change" title="Link to this heading">#</a></h3>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<p><strong>Area Change Context:</strong> Changes reflect unique DEM inputs or hyraulic conditioning steps, or detailed site information.</p>
+</aside>
 <p>Percent area difference between versions:</p>
 <div class="math notranslate nohighlight">
 \[
@@ -712,7 +724,7 @@ J(A, B) = \frac{|A \cap B|}{|A \cup B|}
 <h2>Sample distributions<a class="headerlink" href="#sample-distributions" title="Link to this heading">#</a></h2>
 <section id="jaccard-similarity-index-distribution">
 <h3>Jaccard similarity index distribution<a class="headerlink" href="#jaccard-similarity-index-distribution" title="Link to this heading">#</a></h3>
-<div style="height:400px;"><script src="bokeh-content-2f3abcba683740aba92d2cf4316533d7-summary_pages-revision_summary.js" id="d0980d08-45d0-46dc-917b-d3a1fc230617"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:400px;"><script src="bokeh-content-74b096306ffc432497b52e3df3e45e1f-summary_pages-revision_summary.js" id="bc0fd65d-7d45-49d4-9c26-eec260529fe5"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -723,7 +735,7 @@ J(A, B) = \frac{|A \cap B|}{|A \cup B|}
 </section>
 <section id="area-change-distribution">
 <h3>Area change distribution<a class="headerlink" href="#area-change-distribution" title="Link to this heading">#</a></h3>
-<div style="height:400px;"><script src="bokeh-content-82267a67e6bd49bfa60abeadb155e115-summary_pages-revision_summary.js" id="b02bb1a9-0b67-47b8-9854-ae6dd6257b25"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:400px;"><script src="bokeh-content-4b9a94e6acde48848eb611e59ac49de3-summary_pages-revision_summary.js" id="eed7975c-498c-4c6f-9a84-398b71b3a3d4"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -735,7 +747,11 @@ J(A, B) = \frac{|A \cap B|}{|A \cup B|}
 </section>
 <section id="detailed-comparison-table">
 <h2>Detailed comparison table<a class="headerlink" href="#detailed-comparison-table" title="Link to this heading">#</a></h2>
-<div style="height:400px;"><script src="bokeh-content-eaf8108f9ac2485985f649422f83262d-summary_pages-revision_summary.js" id="c960e139-dcd6-4f60-9247-a532cca5ad3d"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<p>Sort the table by clicking on the column headers.  Click station links to navigate to the station summary page.</p>
+</aside>
+<div style="height:400px;"><script src="bokeh-content-15928bd0bbeb46eeaa365ef4e244cb9b-summary_pages-revision_summary.js" id="dc6b79f8-c319-4dca-a003-80b0ffe5c5ea"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -743,33 +759,20 @@ J(A, B) = \frac{|A \cap B|}{|A \cup B|}
 <span class="n">show</span><span class="p">(</span><span class="n">generate_revision_table</span><span class="p">())</span>
 </pre></div>
 </div>
-</section>
-<section id="version-tracking">
-<h2>Version tracking<a class="headerlink" href="#version-tracking" title="Link to this heading">#</a></h2>
-<p>All polygon changes are tracked in station-level <code class="docutils literal notranslate"><span class="pre">_versions.json</span></code> files with complete provenance:</p>
-<ul class="simple">
-<li><p><strong>Data Source</strong>: Origin of polygon (WSC_basins, HYDAT, custom)</p></li>
-<li><p><strong>Source Version</strong>: Original dataset version/date</p></li>
-<li><p><strong>Source Metadata</strong>: All attributes from GeoJSON properties</p></li>
-<li><p><strong>Timestamp</strong>: When polygon was integrated</p></li>
-<li><p><strong>Comparison Metrics</strong>: Jaccard index, area differences, overlap statistics</p></li>
-</ul>
+<p>All polygon changes are tracked in station-level <code class="docutils literal notranslate"><span class="pre">_versions.json</span></code> files with complete provenance — data source (origin of polygon: WSC_basins, HYDAT, custom), source version (original dataset version/date), source metadata (all attributes from GeoJSON properties), timestamp (when polygon was integrated), and comparison metrics (Jaccard index, area differences, overlap statistics).</p>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
 <p>Example version entry:</p>
 <div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;semantic_tag&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;v1.1.0&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">&quot;timestamp&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-02-04T19:23:45Z&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">&quot;data_source&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;HYDAT_polygons&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">&quot;source_version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;June 2024&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;polygon_file&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;07AF010_polygon_v1.1.0.geojson&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;source_metadata&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;StationNum&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;07AF010&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;Version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;June 2024 / juin 2024&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;Date_rev&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2024-06-01&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;Area_km2&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">504.8</span>
-<span class="w">  </span><span class="p">}</span>
+<span class="w">  </span><span class="nt">&quot;polygon_file&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;07AF010_polygon_v1.1.0.geojson&quot;</span>
 <span class="p">}</span>
 </pre></div>
 </div>
+</aside>
 </section>
 <section id="integration-workflow">
 <h2>Integration Workflow<a class="headerlink" href="#integration-workflow" title="Link to this heading">#</a></h2>
@@ -786,14 +789,9 @@ python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py<spa
 </pre></div>
 </div>
 <p>Comparison metrics are calculated automatically using LAEA projection for accurate area calculations.</p>
-</section>
-<section id="notes">
-<h2>Notes<a class="headerlink" href="#notes" title="Link to this heading">#</a></h2>
-<p>For methodology and implementation details, see:</p>
-<ul class="simple">
-<li><p><a class="reference internal" href="../guides/user_guide.html"><span class="std std-doc">Getting Started</span></a></p></li>
-<li><p><a class="reference internal" href="../guides/data_specification.html"><span class="std std-doc">Data Specification</span></a></p></li>
-</ul>
+<p>For methodology and implementation details, see <a class="reference internal" href="../guides/user_guide.html"><span class="std std-doc">Getting Started</span></a> and <a class="reference internal" href="../guides/data_specification.html"><span class="std std-doc">Data Specification</span></a>.</p>
+<div class="docutils">
+</div>
 </section>
 </section>
 
@@ -828,20 +826,20 @@ python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py<spa
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="changelog_intro.html"
+       href="../index.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Project Overview</p>
+        <p class="prev-next-title">Automated Quality Documentation for Hydrometric Data</p>
       </div>
     </a>
     <a class="right-next"
-       href="../guides/lsh_inputs_review.html"
+       href="broken_telephone_casestudy.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">LSH Dataset Input Review</p>
+        <p class="prev-next-title">Broken Telephone: Caravan Divergence</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -861,6 +859,7 @@ python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py<spa
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#revision-map">Revision Map</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#polygon-comparison-metrics">Polygon Comparison Metrics</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jaccard-similarity-index">Jaccard Similarity Index</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#area-change">Area Change</a></li>
@@ -872,9 +871,7 @@ python<span class="w"> </span>scripts/demo_setup/integrate_hydat_polygons.py<spa
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#detailed-comparison-table">Detailed comparison table</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#version-tracking">Version tracking</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#integration-workflow">Integration Workflow</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
 </ul>
   </nav></div>
 

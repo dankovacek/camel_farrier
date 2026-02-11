@@ -35,7 +35,8 @@
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
-    <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=5355688a" />
+    <link rel="stylesheet" type="text/css" href="../../_static/tufte_table.css?v=0ecb9985" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=9aff115b" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
@@ -181,11 +182,10 @@
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary &amp; Diagnostics</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Network-Wide Summaries</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../../summary_pages/changelog_intro.html">Project Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../summary_pages/revision_summary.html">Cross-Station Comparisons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../guides/lsh_inputs_review.html">LSH Dataset Comparison</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../summary_pages/revision_summary.html">Polygon Revision Summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../summary_pages/broken_telephone_casestudy.html">Broken Telephone: Caravan Divergence</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
 <ul class="nav bd-sidenav">
@@ -648,14 +648,15 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#catchment-boundary">Catchment boundary</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#station-metadata">Station metadata</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#polygon-version-history">Polygon version history</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sources">Data Sources</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rating-curve-calibration-metadata">Rating curve calibration metadata</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-data-completeness-review">Basic data completeness review</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#timeseries-streamflow">Timeseries streamflow</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#flow-distributions">Flow distributions</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#download-timeseries-data">Download timeseries data</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rating-curves-summary">Rating curves summary</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rating-curves-summary">Rating curves summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#field-visit-measurements">Field visit measurements</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
 </ul>
@@ -675,7 +676,7 @@ document.write(`
 <h1>10SA002: LORD LINDSAY RIVER ABOVE SANAGAK LAKE<a class="headerlink" href="#sa002-lord-lindsay-river-above-sanagak-lake" title="Link to this heading">#</a></h1>
 <section id="catchment-boundary">
 <h2>Catchment boundary<a class="headerlink" href="#catchment-boundary" title="Link to this heading">#</a></h2>
-<script src="bokeh-content-429142a70f2b4264bcaee92e5190350f-station_pages-stations-10SA002.js" id="ea731f24-3231-482b-9893-2783b82cd02b"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<script src="bokeh-content-3384249af6cc4e3ba0b87f3f65433ee0-station_pages-stations-10SA002.js" id="e932057d-322a-4506-bb86-4766027de72b"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -686,7 +687,10 @@ document.write(`
 </section>
 <section id="station-metadata">
 <h2>Station metadata<a class="headerlink" href="#station-metadata" title="Link to this heading">#</a></h2>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
 <p>The data used in generating the tables on this page can be downloaded from the <a href="https://github.com/dankovacek/camel_farrier/tree/main/book_docs/stations/10SA002">stations/10SA002 folder on GitHub</a>.</p>
+</aside>
 <table class="dataframe table">
 <tr><th>Station ID</th><th>Station Name</th><th>Latitude</th><th>Longitude</th><th>Gross (Effective) Area [km²]</th><th>Province</th><th>Status</th></tr>
 <tr><td>10SA002</td><td>LORD LINDSAY RIVER ABOVE SANAGAK LAKE</td><td>70.217</td><td>-93.950</td><td>1440.0 (0.0)</td><td>NU</td><td>D</td></tr>
@@ -700,8 +704,8 @@ document.write(`
 <tr><td><strong>v1.1.0</strong></td><td>2026-02-09</td><td>HYDAT_polygons</td><td>June 2024 / juin 2024 (2024-06-01)</td><td><em>Official revision date</em></td><td>JSI: 1.00, ΔArea: +0.0%</td></tr>
 </table>
 </section>
-<section id="data-sources">
-<h2>Data Sources<a class="headerlink" href="#data-sources" title="Link to this heading">#</a></h2>
+<section id="rating-curve-calibration-metadata">
+<h2>Rating curve calibration metadata<a class="headerlink" href="#rating-curve-calibration-metadata" title="Link to this heading">#</a></h2>
 <p><em>No data sources recorded.</em></p>
 </section>
 <section id="basic-data-completeness-review">
@@ -720,7 +724,7 @@ document.write(`
 </section>
 <section id="timeseries-streamflow">
 <h2>Timeseries streamflow<a class="headerlink" href="#timeseries-streamflow" title="Link to this heading">#</a></h2>
-<script src="bokeh-content-d669099bcb56444693bccb3be541b31f-station_pages-stations-10SA002.js" id="b26de52a-372e-4125-943d-c6402bcbb7e5"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<script src="bokeh-content-476822698d6c4f02a7ae8c047625373e-station_pages-stations-10SA002.js" id="f56c558e-1061-4991-9df2-a06503a0adf0"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -731,7 +735,7 @@ document.write(`
 </section>
 <section id="flow-distributions">
 <h2>Flow distributions<a class="headerlink" href="#flow-distributions" title="Link to this heading">#</a></h2>
-<div style="height:400px;"><script src="bokeh-content-eb132846c90c485fa630f8db6f0ff32a-station_pages-stations-10SA002.js" id="ade776b7-9ba0-4e97-adac-04e01529da8f"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:400px;"><script src="bokeh-content-274904a08c0343e18596693f5ef4de37-station_pages-stations-10SA002.js" id="d9cd4fcd-8334-4daf-81ce-d468372470f3"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -751,6 +755,17 @@ document.write(`
 <section id="rating-curves-summary">
 <h2>Rating curves summary<a class="headerlink" href="#rating-curves-summary" title="Link to this heading">#</a></h2>
 <p><em>No rating curve data available.</em></p>
+</section>
+<section id="field-visit-measurements">
+<h2>Field visit measurements<a class="headerlink" href="#field-visit-measurements" title="Link to this heading">#</a></h2>
+<script src="bokeh-content-253abb3b48b64b0988784dddd93ff65e-station_pages-stations-10SA002.js" id="b8c3819f-818a-4222-b218-30f81e68e8fa"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">scripts.plotting.station_timeseries</span><span class="w"> </span><span class="kn">import</span> <span class="n">generate_field_visits_table</span>
+<span class="n">show</span><span class="p">(</span><span class="n">generate_field_visits_table</span><span class="p">(</span><span class="s2">&quot;10SA002&quot;</span><span class="p">))</span>
+</pre></div>
+</div>
 <section id="notes">
 <h3>Notes<a class="headerlink" href="#notes" title="Link to this heading">#</a></h3>
 <ol class="arabic simple">
@@ -831,14 +846,15 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#catchment-boundary">Catchment boundary</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#station-metadata">Station metadata</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#polygon-version-history">Polygon version history</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sources">Data Sources</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rating-curve-calibration-metadata">Rating curve calibration metadata</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-data-completeness-review">Basic data completeness review</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#timeseries-streamflow">Timeseries streamflow</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#flow-distributions">Flow distributions</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#download-timeseries-data">Download timeseries data</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rating-curves-summary">Rating curves summary</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rating-curves-summary">Rating curves summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#field-visit-measurements">Field visit measurements</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
 </ul>

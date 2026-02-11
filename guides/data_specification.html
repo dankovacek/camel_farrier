@@ -32,10 +32,11 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
-    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=5355688a" />
+    <link rel="stylesheet" type="text/css" href="../_static/tufte_table.css?v=0ecb9985" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=9aff115b" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
@@ -181,11 +182,10 @@
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary &amp; Diagnostics</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Network-Wide Summaries</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../summary_pages/changelog_intro.html">Project Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../summary_pages/revision_summary.html">Cross-Station Comparisons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="lsh_inputs_review.html">LSH Dataset Comparison</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../summary_pages/revision_summary.html">Polygon Revision Summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../summary_pages/broken_telephone_casestudy.html">Broken Telephone: Caravan Divergence</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
 <ul class="nav bd-sidenav">
@@ -646,21 +646,6 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#when-to-use-this-guide">When to Use This Guide</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-organization">Data Organization</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#csv-data-schemas">CSV Data Schemas</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#corrections">1. Corrections</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#field-visits">2. Field Visits</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rating-curves">3. Rating Curves</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#provenance-and-attribution">Provenance and Attribution</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sources-json-schema"><code class="docutils literal notranslate"><span class="pre">_data_sources.json</span></code> Schema</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#versions-json-schema"><code class="docutils literal notranslate"><span class="pre">_versions.json</span></code> Schema</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#qc-status-json-schema"><code class="docutils literal notranslate"><span class="pre">_qc_status.json</span></code> Schema</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-initialization-workflow">Data Initialization Workflow</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
 </ul>
             </nav>
@@ -686,13 +671,10 @@ document.write(`
 <li><p>Planning data integration for new stations</p></li>
 </ul>
 <p><strong>This is reference documentation</strong> — not a workflow guide. For workflow instructions, see the <a class="reference internal" href="user_guide.html"><span class="doc std std-doc">User Guide</span></a> for page generation and building procedures.</p>
-</section>
-<section id="overview">
-<h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">#</a></h2>
+<div class="cf-section docutils">
+<h2 class="rubric" id="overview">Overview</h2>
 <p>This document defines the schema and format requirements for hydrometric data in the Camel Farrier demonstration repository. All station data is extracted from the Water Office portal export (<code class="docutils literal notranslate"><span class="pre">WaterOffice_RC_Export_*.zip</span></code>) and organized into individual station folders.</p>
-</section>
-<section id="data-organization">
-<h2>Data Organization<a class="headerlink" href="#data-organization" title="Link to this heading">#</a></h2>
+<h2 class="rubric" id="data-organization">Data Organization</h2>
 <p>Station data is organized hierarchically:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>demo_data/stations/
 └── {STATION_ID}/
@@ -706,11 +688,10 @@ document.write(`
     └── {STATION_ID}_polygon_v*.geojson   # Catchment boundary (local files only)
 </pre></div>
 </div>
-</section>
-<section id="csv-data-schemas">
-<h2>CSV Data Schemas<a class="headerlink" href="#csv-data-schemas" title="Link to this heading">#</a></h2>
-<section id="corrections">
-<h3>1. Corrections<a class="headerlink" href="#corrections" title="Link to this heading">#</a></h3>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="csv-data-schemas">CSV Data Schemas</h2>
+<h3 class="rubric" id="corrections">1. Corrections</h3>
 <p><strong>Source:</strong> Water Office Portal export</p>
 <p><strong>File Pattern:</strong> <code class="docutils literal notranslate"><span class="pre">{STATION_ID}_corrections.csv</span></code></p>
 <p><strong>Columns:</strong></p>
@@ -804,10 +785,7 @@ document.write(`
 <li><p>Start Time must be before or equal to End Time (if End Time present)</p></li>
 <li><p>Station ID must match parent directory name</p></li>
 </ul>
-</section>
-<hr class="docutils" />
-<section id="field-visits">
-<h3>2. Field Visits<a class="headerlink" href="#field-visits" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="field-visits">2. Field Visits</h3>
 <p><strong>Source:</strong> Water Office Portal export</p>
 <p><strong>File Pattern:</strong> <code class="docutils literal notranslate"><span class="pre">{STATION_ID}_field_visits.csv</span></code></p>
 <p><strong>Columns:</strong></p>
@@ -978,10 +956,7 @@ document.write(`
 <li><p>Discharge values must be ≥ 0 (no negative flows)</p></li>
 <li><p>Date must be parseable and within reasonable historical range (station establishment date onwards)</p></li>
 </ul>
-</section>
-<hr class="docutils" />
-<section id="rating-curves">
-<h3>3. Rating Curves<a class="headerlink" href="#rating-curves" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="rating-curves">3. Rating Curves</h3>
 <p><strong>Source:</strong> Water Office Portal export</p>
 <p><strong>File Pattern:</strong> <code class="docutils literal notranslate"><span class="pre">{STATION_ID}_RCs.csv</span></code></p>
 <p><strong>Columns:</strong></p>
@@ -1047,13 +1022,10 @@ document.write(`
 <li><p>Curve Number must be unique within station file</p></li>
 <li><p>Type field determines how curve is interpreted (LinearTable = tabular stage-discharge pairs)</p></li>
 </ul>
-</section>
-</section>
-<hr class="docutils" />
-<section id="provenance-and-attribution">
-<h2>Provenance and Attribution<a class="headerlink" href="#provenance-and-attribution" title="Link to this heading">#</a></h2>
-<section id="data-sources-json-schema">
-<h3><code class="docutils literal notranslate"><span class="pre">_data_sources.json</span></code> Schema<a class="headerlink" href="#data-sources-json-schema" title="Link to this heading">#</a></h3>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="provenance-and-attribution">Provenance and Attribution</h2>
+<h3 class="rubric" id="data-sources-json-schema"><code class="docutils literal notranslate"><span class="pre">_data_sources.json</span></code> Schema</h3>
 <p>Each station maintains a <code class="docutils literal notranslate"><span class="pre">_data_sources.json</span></code> file documenting the source and retrieval method for each data type:</p>
 <div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;station_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;07DB005&quot;</span><span class="p">,</span>
@@ -1098,9 +1070,7 @@ document.write(`
 <span class="p">}</span>
 </pre></div>
 </div>
-</section>
-<section id="versions-json-schema">
-<h3><code class="docutils literal notranslate"><span class="pre">_versions.json</span></code> Schema<a class="headerlink" href="#versions-json-schema" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="versions-json-schema"><code class="docutils literal notranslate"><span class="pre">_versions.json</span></code> Schema</h3>
 <p>Version history tracks polygon source, quality tier, and commit metadata with graph-structured comparisons:</p>
 <div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;$schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://json-schema.org/draft/2020-12/schema&quot;</span><span class="p">,</span>
@@ -1172,9 +1142,7 @@ document.write(`
 <li><p>Jaccard Index 0.90-0.99: Minor revision (boundary refinement)</p></li>
 <li><p>Jaccard Index &lt; 0.90: Substantial revision (significant boundary change)</p></li>
 </ul>
-</section>
-<section id="qc-status-json-schema">
-<h3><code class="docutils literal notranslate"><span class="pre">_qc_status.json</span></code> Schema<a class="headerlink" href="#qc-status-json-schema" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="qc-status-json-schema"><code class="docutils literal notranslate"><span class="pre">_qc_status.json</span></code> Schema</h3>
 <p>Quality control status tracking for data validation and review workflow:</p>
 <div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;$schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://json-schema.org/draft/2020-12/schema&quot;</span><span class="p">,</span>
@@ -1241,14 +1209,12 @@ Pattern: <code class="docutils literal notranslate"><span class="pre">{N}</span>
 <li><p>“estimated: 212”: Gap-filled estimates from rating curve</p></li>
 <li><p>“partial day: 51”: Incomplete daily records</p></li>
 </ul>
-</section>
-</section>
-<hr class="docutils" />
-<section id="data-initialization-workflow">
-<h2>Data Initialization Workflow<a class="headerlink" href="#data-initialization-workflow" title="Link to this heading">#</a></h2>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="data-initialization-workflow">Data Initialization Workflow</h2>
 <p>For step-by-step instructions on extracting and organizing data from the Water Office export, see the <a class="reference internal" href="user_guide.html"><span class="doc std std-doc">User Guide</span></a>.</p>
+</div>
 </section>
-<hr class="docutils" />
 <section id="references">
 <h2>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>
 <p>Water Survey of Canada. Water Office Portal. Government of Canada. Accessed 2026-02-03.</p>
@@ -1320,21 +1286,6 @@ Pattern: <code class="docutils literal notranslate"><span class="pre">{N}</span>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#when-to-use-this-guide">When to Use This Guide</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-organization">Data Organization</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#csv-data-schemas">CSV Data Schemas</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#corrections">1. Corrections</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#field-visits">2. Field Visits</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rating-curves">3. Rating Curves</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#provenance-and-attribution">Provenance and Attribution</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sources-json-schema"><code class="docutils literal notranslate"><span class="pre">_data_sources.json</span></code> Schema</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#versions-json-schema"><code class="docutils literal notranslate"><span class="pre">_versions.json</span></code> Schema</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#qc-status-json-schema"><code class="docutils literal notranslate"><span class="pre">_qc_status.json</span></code> Schema</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-initialization-workflow">Data Initialization Workflow</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
 </ul>
   </nav></div>

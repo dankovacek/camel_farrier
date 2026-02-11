@@ -1,21 +1,14 @@
 # Getting Started
 
-## Purpose
+This guide walks you through setting up and using the Camel Farrier repository to work with hydrometric station data and catchment polygons to automatically generate interactive documentation.
 
-This guide walks you through setting up and using the Camel Farrier repository to work with hydrometric station data, catchment polygons, and diagnostic documentation.
-
-**What is covered in this guide:**
-- Environment configuration and dependencies
-- Data initialization workflow
-- Polygon version integration
-- Diagnostic page generation and validation
-- Documentation building and deployment
-
+:::{margin}
 **For data schema reference,** see [Data Specification](data_specification.md).
 
 **For dataset provenance and citations,** see [Data Sources](DATA_SOURCES.md).
+:::
 
----
+This guide covers environment configuration and dependencies, data initialization workflow, polygon version integration, diagnostic page generation and validation, and documentation building and deployment.
 
 ## Environment Setup
 
@@ -31,9 +24,9 @@ pip install -r book_docs/requirements.txt
 
 External geospatial datasets (HYDAT database, WSC basins) are accessed via the `COMMON_DATA_DIR` environment variable.
 
+:::{margin}
 **Default:** `~/data/hydrometric/` (if not set)
-
-**To customize:**
+:::
 
 ```bash
 export COMMON_DATA_DIR=/path/to/your/geospatial/data
@@ -45,11 +38,7 @@ source ~/.bashrc
 
 ### Download Required Datasets
 
-See [Data Sources](DATA_SOURCES.md) for download links and provenance. Required datasets:
-
-- **HYDAT database** — Canadian hydrometric database (SQLite)
-- **WSC catchment polygons** — Water Survey of Canada basin boundaries
-- **HYDAT drainage basins** — (Optional) For polygon version comparisons
+See [Data Sources](DATA_SOURCES.md) for download links and provenance. Required datasets include HYDAT database (Canadian hydrometric SQLite), WSC catchment polygons (Water Survey basin boundaries), and optionally HYDAT drainage basins for polygon version comparisons.
 
 Expected directory structure:
 
@@ -84,8 +73,6 @@ HYDAT exists: True
 
 **If `HYDAT exists: False`**, check environment variables and download paths.
 
----
-
 ## Quick Start Workflow
 
 ```bash
@@ -107,9 +94,9 @@ cd book_docs/
 jupyter book build .
 open _build/html/index.html
 ```
+</div>
 
----
-
+<div class="cf-section">
 ## Station Data Initialization
 
 ### Demo Stations
@@ -158,18 +145,7 @@ book_docs/stations/{STATION_ID}/
 
 ### Git Tracking Philosophy
 
-**Metadata-only approach:**
-
-- ✓ **Tracked in git:** CSV files, JSON metadata
-- ✗ **Not tracked:** Polygon GeoJSON files (large geospatial data)
-
-**Rationale:**
-- **Data Integrity:** Polygons remain unmodified from source
-- **Repository Size:** Keeps git history lightweight
-- **Provenance:** Metadata tracks exactly where data originated
-- **Production Pattern:** Large files stored externally; metadata in git
-
----
+This repository tracks metadata only. CSV files and JSON metadata are tracked in git, while polygon GeoJSON files (large geospatial data) remain local only. This approach maintains data integrity by keeping polygons unmodified from source, keeps repository size lightweight with streamlined git history, ensures complete provenance tracking via metadata, and follows production patterns where large files stay external while metadata lives in git.
 
 ## Integrating HYDAT Catchment Polygons
 
@@ -217,17 +193,9 @@ python scripts/demo_setup/integrate_hydat_polygons.py --stations-file /tmp/my_st
 
 ### Comparison Metrics
 
-**Jaccard Similarity Index (JSI):**
-- JSI = Area(intersection) / Area(union)
-- Range: 0 (no overlap) to 1 (identical)
-- Values > 0.95 indicate high similarity
+Jaccard Similarity Index (JSI) measures overlap as the ratio of intersection to union area, ranging from 0 (no overlap) to 1 (identical), with values above 0.95 indicating high similarity. Area difference expresses percent change as ((new_area - old_area) / old_area) × 100, with positive values indicating the new polygon is larger and negative values showing it is smaller.
 
-**Area Difference:**
-- Percent diff = ((new_area - old_area) / old_area) × 100
-- Positive: new polygon larger
-- Negative: new polygon smaller
-
-**Projection:** Uses Lambert Azimuthal Equal Area (LAEA) centered at polygon centroid for accurate area calculations.
+Projection: Uses Lambert Azimuthal Equal Area (LAEA) centered at polygon centroid for accurate area calculations.
 
 ### Version Graph Structure
 
@@ -263,9 +231,6 @@ python scripts/demo_setup/integrate_hydat_polygons.py --stations-file /tmp/my_st
   }
 }
 ```
-
----
-
 ## Diagnostic Page Generation
 
 ### Generate Station Pages
@@ -276,23 +241,11 @@ After initializing data, run:
 python scripts/demo_setup/process_station_pages.py
 ```
 
-This creates Markdown pages for each station in `book_docs/station_pages/stations/` with:
-
-- **Station Metadata Table** — Coordinates, drainage area, source, retrieval date
-- **Version History** — Polygon version provenance with comparison metrics
-- **Data Quality Status** — QC validation results
-- **Interactive Visualizations** — Catchment maps, polygon comparisons, flow plots
+This creates Markdown pages for each station in `book_docs/station_pages/stations/` containing station metadata table (coordinates, drainage area, source, retrieval date), version history with polygon provenance and comparison metrics, data quality status from QC validation results, and interactive visualizations showing catchment maps, polygon comparisons, and flow plots.
 
 ### Plot Generation
 
-Interactive visualizations use Bokeh plots generated by `scripts/catchment_page_utils.py`:
-
-- **Catchment Boundary Map** — Interactive polygon visualization with basemap tiles
-- **Polygon Comparison** — When 2+ versions exist, shows spatial differences:
-  - **Light green:** Agreement (intersection)
-  - **Red:** Old area NOT in new (false positive)
-  - **Purple:** New area NOT in old (false negative)
-- **Timeseries Charts** — Flow/level data over time
+Interactive visualizations use Bokeh plots generated by `scripts/catchment_page_utils.py`. The catchment boundary map provides interactive polygon visualization with basemap tiles. When two or more versions exist, polygon comparison plots show spatial differences using light green for agreement (intersection), red for old area not in new (false positive), and purple for new area not in old (false negative). Timeseries charts display flow and level data over time.
 
 Plots execute at build time using MyST `bokeh-plot` directives.
 
@@ -308,8 +261,22 @@ Automated checks include:
 - **Metadata Quality** — Required fields populated
 
 Results stored in `_qc_status.json` per station.
+</div>
 
----
+<div class="cf-section">
+## Caravan vs WSC Polygon Comparison
+
+Benchmark Caravan's inherited HYSETS polygons against the current WSC drainage basins. Start with the test region so you can validate dependencies and CRS handling before launching the full computation.
+
+```bash
+# Fast validation (39 stations, MDA_ADP_06 only)
+python scripts/generation/compare_caravan_polygons.py --test
+
+# Full national run (1,432 stations)
+python scripts/generation/compare_caravan_polygons.py
+```
+
+Outputs land in `book_docs/data/polygon_comparisons/caravan_vs_wsc2024/` and drive the "Broken Telephone" case study page. Rebuild the Jupyter Book after a successful run to refresh the plots.
 
 ## Build and Deploy Documentation
 
@@ -328,11 +295,9 @@ open _build/html/index.html
 
 ### Deploy to GitHub Pages
 
-```bash
+{
 ghp-import -n -p -f book_docs/_build/html
 ```
-
----
 
 ## Scripts Architecture
 
@@ -351,21 +316,13 @@ The workflow uses modular, reusable scripts organized into layers:
 
 ### Generation Layer (`scripts/generation/`)
 
-- **`page_generator.py`** — Unified page generation
+The generation layer contains `page_generator.py` for unified page generation.
 
 ### Workflow Scripts (`scripts/demo_setup/`)
 
-- **`populate_demo_data.py`** — Initialize station data
-- **`integrate_hydat_polygons.py`** — Add polygon versions
-- **`process_station_pages.py`** — Generate diagnostic pages
+Workflow scripts include `populate_demo_data.py` to initialize station data, `integrate_hydat_polygons.py` to add polygon versions, and `process_station_pages.py` to generate diagnostic pages.
 
-**Design Benefits:**
-- **Single Source of Truth:** Path changes only require editing `paths.py`
-- **Reusability:** Utilities enable multiple workflows without duplication
-- **Testability:** Each layer can be tested independently
-- **Maintainability:** Clear separation of concerns
-
----
+This design provides single source of truth where path changes only require editing `paths.py`, reusability enabling multiple workflows without duplication, testability with each layer tested independently, and maintainability through clear separation of concerns.
 
 ## Troubleshooting
 
@@ -394,8 +351,6 @@ python scripts/demo_setup/populate_demo_data.py
 
 Non-fatal warnings indicate potential data updates needed. Safe to ignore for most operations.
 
----
-
 ## Full Rebuild Workflow
 
 To clean legacy data and rebuild with latest polygons:
@@ -417,8 +372,6 @@ python scripts/demo_setup/process_station_pages.py
 cd book_docs/
 jupyter book build .
 ```
-
----
 
 ## Next Steps
 

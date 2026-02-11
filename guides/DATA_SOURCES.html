@@ -32,10 +32,11 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
-    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=5355688a" />
+    <link rel="stylesheet" type="text/css" href="../_static/tufte_table.css?v=0ecb9985" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=9aff115b" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
@@ -181,11 +182,10 @@
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary &amp; Diagnostics</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Network-Wide Summaries</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../summary_pages/changelog_intro.html">Project Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../summary_pages/revision_summary.html">Cross-Station Comparisons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="lsh_inputs_review.html">LSH Dataset Comparison</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../summary_pages/revision_summary.html">Polygon Revision Summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../summary_pages/broken_telephone_casestudy.html">Broken Telephone: Caravan Divergence</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
 <ul class="nav bd-sidenav">
@@ -622,9 +622,7 @@ document.write(`
   </button>
 `);
 </script>
-<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</button>
+
 </div></div>
       
     </div>
@@ -640,41 +638,6 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#local-hydrometric-data">Local Hydrometric Data</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#directory-structure">Directory Structure</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hydat-database-core-hydrometric-records">1. HYDAT Database (Core Hydrometric Records)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#water-office-portal-data-operational-metadata">2. Water Office Portal Data (Operational Metadata)</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#external-polygon-datasets">External Polygon Datasets</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wsc-basin-polygons-2021-12-version">1. WSC Basin Polygons (2021-12 Version)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wsc-basin-polygons-2024-version">2. WSC Basin Polygons (2024 Version)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hysets-watershed-boundaries">3. HYSETS Watershed Boundaries</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#caravan-dataset-hysets-subset">4. Caravan Dataset (HYSETS Subset)</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-processing-and-quality-control">Data Processing and Quality Control</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#station-selection-criteria">Station Selection Criteria</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#coordinate-reference-systems">Coordinate Reference Systems</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#version-control-and-provenance">Version Control and Provenance</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-acquisition-for-demo-replication">Data Acquisition for Demo Replication</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#required-external-data">Required External Data</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#automated-setup">Automated Setup</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reproducibility">Reproducibility</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#future-updates">Future Updates</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contact">Contact</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-citation">Data Citation</a></li>
-</ul>
-            </nav>
         </div>
     </div>
 </div>
@@ -687,11 +650,10 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="data-sources-and-provenance">
 <h1>Data Sources and Provenance<a class="headerlink" href="#data-sources-and-provenance" title="Link to this heading">#</a></h1>
 <p>This document records all data sources used in the Camel Farrier demonstration repository, including local hydrometric data and external polygon datasets.</p>
-<section id="local-hydrometric-data">
-<h2>Local Hydrometric Data<a class="headerlink" href="#local-hydrometric-data" title="Link to this heading">#</a></h2>
+<div class="cf-section docutils">
+<h2 class="rubric" id="local-hydrometric-data">Local Hydrometric Data</h2>
 <p>Hydrometric data comes from two distinct Water Survey of Canada sources with different access methods and update frequencies.</p>
-<section id="directory-structure">
-<h3>Directory Structure<a class="headerlink" href="#directory-structure" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="directory-structure">Directory Structure</h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>data/
 ├── RCs/                    # Rating curves (1,147 stations) - from Water Office portal
 │   └── {STATION_ID}_RCs.csv
@@ -705,9 +667,7 @@ document.write(`
 └── WaterOffice_RC_Export_20260203.zip  # Archived Water Office portal extraction
 </pre></div>
 </div>
-</section>
-<section id="hydat-database-core-hydrometric-records">
-<h3>1. HYDAT Database (Core Hydrometric Records)<a class="headerlink" href="#hydat-database-core-hydrometric-records" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="hydat-database-core-hydrometric-records">1. HYDAT Database (Core Hydrometric Records)</h3>
 <ul class="simple">
 <li><p><strong>Source</strong>: Water Survey of Canada - National Archive (HYDAT)</p></li>
 <li><p><strong>Database</strong>: <code class="docutils literal notranslate"><span class="pre">Hydat.sqlite3</span></code></p></li>
@@ -726,9 +686,7 @@ document.write(`
 <li><p><strong>Update Frequency</strong>: Quarterly releases</p></li>
 <li><p><strong>License</strong>: Open Government License - Canada</p></li>
 </ul>
-</section>
-<section id="water-office-portal-data-operational-metadata">
-<h3>2. Water Office Portal Data (Operational Metadata)<a class="headerlink" href="#water-office-portal-data-operational-metadata" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="water-office-portal-data-operational-metadata">2. Water Office Portal Data (Operational Metadata)</h3>
 <ul class="simple">
 <li><p><strong>Source</strong>: Water Survey of Canada - Water Office Portal</p></li>
 <li><p><strong>Extraction Date</strong>: February 3, 2026</p></li>
@@ -748,13 +706,11 @@ document.write(`
 <li><p><strong>File Format</strong>: CSV per station with standardized column structure</p></li>
 </ul>
 <p><strong>Note</strong>: The Water Office portal data is <strong>not included directly in this repository</strong> due to access restrictions. For demo replication, download the archived extraction from Zenodo using the DOI above and extract to the <code class="docutils literal notranslate"><span class="pre">data/</span></code> directory.</p>
-</section>
-</section>
-<section id="external-polygon-datasets">
-<h2>External Polygon Datasets<a class="headerlink" href="#external-polygon-datasets" title="Link to this heading">#</a></h2>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="external-polygon-datasets">External Polygon Datasets</h2>
 <p>External watershed polygon datasets are used for cross-dataset comparisons and validation. These datasets are <strong>NOT included in this repository</strong> but are referenced for reproducibility.</p>
-<section id="wsc-basin-polygons-2021-12-version">
-<h3>1. WSC Basin Polygons (2021-12 Version)<a class="headerlink" href="#wsc-basin-polygons-2021-12-version" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="wsc-basin-polygons-2021-12-version">1. WSC Basin Polygons (2021-12 Version)</h3>
 <ul class="simple">
 <li><p><strong>Description</strong>: Water Survey of Canada drainage basin polygons from December 2021</p></li>
 <li><p><strong>Version</strong>: 2021-12</p></li>
@@ -764,9 +720,7 @@ document.write(`
 <li><p><strong>Use</strong>: Baseline polygon version for v1_initial_state demonstration</p></li>
 <li><p><strong>DOI</strong>: <code class="docutils literal notranslate"><span class="pre">&lt;placeholder</span> <span class="pre">doi</span> <span class="pre">URL&gt;</span></code> <em>(to be assigned upon Zenodo publication)</em></p></li>
 </ul>
-</section>
-<section id="wsc-basin-polygons-2024-version">
-<h3>2. WSC Basin Polygons (2024 Version)<a class="headerlink" href="#wsc-basin-polygons-2024-version" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="wsc-basin-polygons-2024-version">2. WSC Basin Polygons (2024 Version)</h3>
 <ul class="simple">
 <li><p><strong>Description</strong>: Current Water Survey of Canada drainage basin polygons</p></li>
 <li><p><strong>Version</strong>: 2024</p></li>
@@ -777,9 +731,7 @@ document.write(`
 <li><p><strong>Use</strong>: Updated polygon version for v2_revised_state demonstration</p></li>
 <li><p><strong>DOI</strong>: <code class="docutils literal notranslate"><span class="pre">&lt;placeholder</span> <span class="pre">doi</span> <span class="pre">URL&gt;</span></code> <em>(to be assigned upon Zenodo publication)</em></p></li>
 </ul>
-</section>
-<section id="hysets-watershed-boundaries">
-<h3>3. HYSETS Watershed Boundaries<a class="headerlink" href="#hysets-watershed-boundaries" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="hysets-watershed-boundaries">3. HYSETS Watershed Boundaries</h3>
 <ul class="simple">
 <li><p><strong>Description</strong>: HYSETS (Hydrometeorological Sandbox) watershed boundaries</p></li>
 <li><p><strong>Citation</strong>: Arsenault, R., Brissette, F., Martel, J. L., Troin, M., Lévesque, G., Davidson-Chaput, J., … &amp; Poulin, A. (2020). A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds. <em>Scientific Data</em>, 7(1), 243.</p></li>
@@ -791,9 +743,7 @@ document.write(`
 <li><p><strong>Stations</strong>: 671 Canadian stations with HYDAT IDs</p></li>
 <li><p><strong>Use</strong>: Cross-dataset comparison for Scenario 4 (HYDAT-HYSETS polygon discrepancies)</p></li>
 </ul>
-</section>
-<section id="caravan-dataset-hysets-subset">
-<h3>4. Caravan Dataset (HYSETS Subset)<a class="headerlink" href="#caravan-dataset-hysets-subset" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="caravan-dataset-hysets-subset">4. Caravan Dataset (HYSETS Subset)</h3>
 <ul class="simple">
 <li><p><strong>Description</strong>: Caravan large-sample hydrology dataset (HYSETS subset polygons)</p></li>
 <li><p><strong>Citation</strong>: Kratzert, F., Nearing, G., Addor, N., Erickson, T., Gauch, M., Gilon, O., … &amp; Matias, Y. (2023). Caravan - A global community dataset for large-sample hydrology. <em>Scientific Data</em>, 10(1), 61.</p></li>
@@ -806,12 +756,10 @@ document.write(`
 <li><p><strong>Use</strong>: Cross-dataset comparison for Scenario 4 (LSH dataset polygon differences)</p></li>
 <li><p><strong>Note</strong>: Caravan polygons for Canadian stations are identical to HYSETS polygons</p></li>
 </ul>
-</section>
-</section>
-<section id="data-processing-and-quality-control">
-<h2>Data Processing and Quality Control<a class="headerlink" href="#data-processing-and-quality-control" title="Link to this heading">#</a></h2>
-<section id="station-selection-criteria">
-<h3>Station Selection Criteria<a class="headerlink" href="#station-selection-criteria" title="Link to this heading">#</a></h3>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="data-processing-and-quality-control">Data Processing and Quality Control</h2>
+<h3 class="rubric" id="station-selection-criteria">Station Selection Criteria</h3>
 <p>For the demonstration repository, 10 stations were selected based on:</p>
 <ol class="arabic simple">
 <li><p><strong>User-specified for case studies</strong> (7 stations): 05MA022, 07DB005, 05LL013, 05NG027, 07GH004, 05QA002, 03OD007</p></li>
@@ -819,18 +767,15 @@ document.write(`
 <li><p><strong>Data completeness</strong>: All stations have rating curves, corrections, and field visit records</p></li>
 <li><p><strong>Polygon availability</strong>: All stations present in WSC 2021-12, WSC 2024, HYSETS, and Caravan datasets</p></li>
 </ol>
-</section>
-<section id="coordinate-reference-systems">
-<h3>Coordinate Reference Systems<a class="headerlink" href="#coordinate-reference-systems" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="coordinate-reference-systems">Coordinate Reference Systems</h3>
 <p>All polygon datasets are standardized to:</p>
 <ul class="simple">
 <li><p><strong>Storage CRS</strong>: EPSG:4326 (WGS84 lat/lon)</p></li>
 <li><p><strong>Area calculations</strong>: Local Lambert Azimuthal Equal Area (LAEA) projection centered on each polygon centroid to minimize distortion</p></li>
 </ul>
-</section>
-</section>
-<section id="version-control-and-provenance">
-<h2>Version Control and Provenance<a class="headerlink" href="#version-control-and-provenance" title="Link to this heading">#</a></h2>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="version-control-and-provenance">Version Control and Provenance</h2>
 <p>Each station maintains version metadata tracking:</p>
 <ul class="simple">
 <li><p><strong>Commit SHA</strong>: Immutable git identifier</p></li>
@@ -839,11 +784,10 @@ document.write(`
 <li><p><strong>Quality tier</strong>: Canonical, reviewed, experimental, or superseded</p></li>
 <li><p><strong>External comparisons</strong>: Jaccard Index and area differences with HYSETS/Caravan</p></li>
 </ul>
-</section>
-<section id="data-acquisition-for-demo-replication">
-<h2>Data Acquisition for Demo Replication<a class="headerlink" href="#data-acquisition-for-demo-replication" title="Link to this heading">#</a></h2>
-<section id="required-external-data">
-<h3>Required External Data<a class="headerlink" href="#required-external-data" title="Link to this heading">#</a></h3>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="data-acquisition-for-demo-replication">Data Acquisition for Demo Replication</h2>
+<h3 class="rubric" id="required-external-data">Required External Data</h3>
 <p>To replicate this demonstration, you will need:</p>
 <ol class="arabic simple">
 <li><p><strong>Water Office Portal Data</strong> (rating curves, corrections, field visits)</p>
@@ -869,19 +813,16 @@ document.write(`
 </ul>
 </li>
 </ol>
-</section>
-<section id="automated-setup">
-<h3>Automated Setup<a class="headerlink" href="#automated-setup" title="Link to this heading">#</a></h3>
+<h3 class="rubric" id="automated-setup">Automated Setup</h3>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># After downloading required archives:</span>
 python<span class="w"> </span>scripts/demo_setup/init_demo_repo.py<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--wateroffice-archive<span class="w"> </span>data/WaterOffice_RC_Export_20260203.zip<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--verify-checksums
 </pre></div>
 </div>
-</section>
-</section>
-<section id="reproducibility">
-<h2>Reproducibility<a class="headerlink" href="#reproducibility" title="Link to this heading">#</a></h2>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="reproducibility">Reproducibility</h2>
 <p>To ensure reproducibility:</p>
 <ol class="arabic simple">
 <li><p>External datasets archived with persistent DOIs (Zenodo)</p></li>
@@ -891,9 +832,9 @@ python<span class="w"> </span>scripts/demo_setup/init_demo_repo.py<span class="w
 <li><p>Checksums enable verification of data integrity</p></li>
 <li><p>Extraction dates documented for time-sensitive data</p></li>
 </ol>
-</section>
-<section id="future-updates">
-<h2>Future Updates<a class="headerlink" href="#future-updates" title="Link to this heading">#</a></h2>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="future-updates">Future Updates</h2>
 <p>When external polygon datasets are published to Zenodo or similar repository:</p>
 <ol class="arabic simple">
 <li><p>Replace <code class="docutils literal notranslate"><span class="pre">&lt;placeholder</span> <span class="pre">doi</span> <span class="pre">URL&gt;</span></code> with actual DOI</p></li>
@@ -901,9 +842,9 @@ python<span class="w"> </span>scripts/demo_setup/init_demo_repo.py<span class="w
 <li><p>Verify all links and checksums</p></li>
 <li><p>Document any versioning changes</p></li>
 </ol>
-</section>
-<section id="contact">
-<h2>Contact<a class="headerlink" href="#contact" title="Link to this heading">#</a></h2>
+</div>
+<div class="cf-section docutils">
+<h2 class="rubric" id="contact">Contact</h2>
 <p>For questions about data sources or access:</p>
 <ul class="simple">
 <li><p><strong>HYDAT Database</strong>: Environment and Climate Change Canada</p>
@@ -929,9 +870,7 @@ python<span class="w"> </span>scripts/demo_setup/init_demo_repo.py<span class="w
 </li>
 <li><p><strong>This Repository</strong>: See <a class="reference internal" href="../CONTRIBUTING.html"><span class="std std-doc">CONTRIBUTING</span></a></p></li>
 </ul>
-</section>
-<section id="data-citation">
-<h2>Data Citation<a class="headerlink" href="#data-citation" title="Link to this heading">#</a></h2>
+<h2 class="rubric" id="data-citation">Data Citation</h2>
 <p>When using data from this repository in publications, please cite:</p>
 <p><strong>For HYDAT data</strong>:</p>
 <blockquote>
@@ -949,10 +888,9 @@ python<span class="w"> </span>scripts/demo_setup/init_demo_repo.py<span class="w
 <blockquote>
 <div><p>Kratzert, F., Nearing, G., Addor, N., Erickson, T., Gauch, M., Gilon, O., … &amp; Matias, Y. (2023). Caravan - A global community dataset for large-sample hydrology. Scientific Data, 10(1), 61. https://doi.org/10.5281/zenodo.15529786</p>
 </div></blockquote>
-<hr class="docutils" />
+</div>
 <p><strong>Last Updated</strong>: February 3, 2026
 <strong>Schema Version</strong>: 1.0.0</p>
-</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -1009,48 +947,6 @@ python<span class="w"> </span>scripts/demo_setup/init_demo_repo.py<span class="w
             </div>
             
             
-              
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#local-hydrometric-data">Local Hydrometric Data</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#directory-structure">Directory Structure</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hydat-database-core-hydrometric-records">1. HYDAT Database (Core Hydrometric Records)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#water-office-portal-data-operational-metadata">2. Water Office Portal Data (Operational Metadata)</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#external-polygon-datasets">External Polygon Datasets</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wsc-basin-polygons-2021-12-version">1. WSC Basin Polygons (2021-12 Version)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wsc-basin-polygons-2024-version">2. WSC Basin Polygons (2024 Version)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hysets-watershed-boundaries">3. HYSETS Watershed Boundaries</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#caravan-dataset-hysets-subset">4. Caravan Dataset (HYSETS Subset)</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-processing-and-quality-control">Data Processing and Quality Control</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#station-selection-criteria">Station Selection Criteria</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#coordinate-reference-systems">Coordinate Reference Systems</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#version-control-and-provenance">Version Control and Provenance</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-acquisition-for-demo-replication">Data Acquisition for Demo Replication</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#required-external-data">Required External Data</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#automated-setup">Automated Setup</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reproducibility">Reproducibility</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#future-updates">Future Updates</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contact">Contact</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-citation">Data Citation</a></li>
-</ul>
-  </nav></div>
-
-</div></div>
               
             
           </div>
