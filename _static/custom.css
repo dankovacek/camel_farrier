@@ -507,3 +507,114 @@ code {
   font-size: 0.95em;
   line-height: 1.6;
 }
+
+/* ===================================================================
+   Message Admonitions - Semantic styling for status messages
+   =================================================================== */
+
+.admonition.cf-message-error {
+  background-color: rgba(254, 226, 226, 0.3);
+  border-left: 4px solid #dc2626;
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.admonition.cf-message-error .admonition-title {
+  color: #991b1b;
+  font-weight: 600;
+}
+
+.admonition.cf-message-warning {
+  background-color: rgba(255, 251, 235, 0.3);
+  border-left: 4px solid #f59e0b;
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.admonition.cf-message-warning .admonition-title {
+  color: #92400e;
+  font-weight: 600;
+}
+
+.admonition.cf-message-info {
+  background-color: rgba(239, 246, 255, 0.3);
+  border-left: 4px solid var(--cf-accent);
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.admonition.cf-message-info .admonition-title {
+  color: var(--cf-accent);
+  font-weight: 600;
+}
+
+.admonition.cf-message-success {
+  background-color: rgba(220, 252, 231, 0.3);
+  border-left: 4px solid #16a34a;
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.admonition.cf-message-success .admonition-title {
+  color: #15803d;
+  font-weight: 600;
+}
+
+/* Placeholder states */
+.cf-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  background: rgba(var(--cf-border), 0.1);
+  border: 2px dashed var(--cf-border);
+  border-radius: 8px;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem 0;
+  color: var(--cf-muted);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Note boxes for methodology/definitions */
+.cf-note-box {
+  background: transparent;
+  border-left: 3px solid var(--cf-border);
+  padding: 0.75rem 1.25rem;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+.cf-note-box strong {
+  color: var(--cf-ink);
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.cf-note-box ul,
+.cf-note-box ol {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+
+.cf-note-box li {
+  margin: 0.3rem 0;
+  color: var(--cf-muted);
+}
+
+/* Link styling for embedded visualizations */
+.cf-link {
+  color: var(--cf-accent);
+  text-decoration: none;
+}
+
+.cf-link:hover {
+  text-decoration: underline;
+}

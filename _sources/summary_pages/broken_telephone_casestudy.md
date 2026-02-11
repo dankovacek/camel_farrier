@@ -7,7 +7,7 @@ Caravan re-published HYSETS catchment polygons in 2023 using the 2021 HYDAT drai
 When stale polygons remain into hydrologic workflows, runoff statistics inherit the bias.  A 5% drainage-area error instantly becomes a 5% bias in area-normalized discharge and any flow statistics derived from it.
 
 
-## Spatial Divergence Map
+## Spatial divergence map
 
 :::{margin}
 **Linked selection.** Use box-select or lasso-select tools on the CDF to highlight stations on the map (and vice versa). Toggle legend entries to isolate specific area-change bins.
@@ -113,7 +113,9 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
 from bokeh.io import show
 from scripts.generation.compare_caravan_polygons import plot_caravan_wsc_comparison
-show(plot_caravan_wsc_comparison("07DB005", width=800))
+from scripts.utils.bokeh_adapters import show_with_notes
+result = plot_caravan_wsc_comparison("07DB005", width=800)
+show(show_with_notes(result))
 :::
 
 
@@ -126,13 +128,21 @@ show(plot_caravan_wsc_comparison("07DB005", width=800))
 
 For all polygons in common between Caravan and the current WSC set, we reprocessed catchment descriptors using the more recent WSC polygons using the Caravan workflow computed through Google Earth Engine. See the [Caravan github repository](https://github.com/kratzert/Caravan) for details.
 
+:::{margin}
+The set of stations represented in the plot are those whose polygons changed by at least  $\pm$10% area or had a Jaccard similarity index below 0.9 indicating significant geometric divergence that could impact derived descriptors.
+:::
+
 :::{bokeh-plot}
+:tags: [hide-input]
+
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
 from bokeh.io import show
 from scripts.generation.compare_caravan_polygons import plot_caravan_descriptor_regressions
-show(plot_caravan_descriptor_regressions())
+from scripts.utils.bokeh_adapters import show_with_notes
+result = plot_caravan_descriptor_regressions(width=800)
+show(show_with_notes(result))
 :::
 
 ## Repeatable results
@@ -141,18 +151,56 @@ This repository maintains `compare_caravan_polygons.py` in the `scripts/generati
 
 ## Reproduction checklist
 
-1. **Quick test (39 stations, <15 s):**
-   ```bash
-   python scripts/generation/compare_caravan_polygons.py --test
+### 1. Polygon comparison (quick)
+
+Compare Caravan polygons with current WSC 2024 polygons:
+
+**Quick test (sub-sample of catchments):**
+```bash
+python scripts/generation/compare_caravan_polygons.py --test
+```
+
+**Full network comparison (1,432 stations, ~5 min):**
+```bash
+python scripts/generation/compare_caravan_polygons.py
+```
+
+This writes comparison metrics to `book_docs/data/polygon_comparisons/caravan_vs_wsc2024/comparison_metrics.csv`.
+
+### 2. Descriptor reprocessing (advanced)
+
+Recompute catchment descriptors using updated WSC 2024 polygons through the Caravan workflow:
+
+**Prerequisites:**
+- Google Earth Engine account with access to required datasets
+- Caravan attribute extraction code (see [Caravan repository](https://github.com/kratzert/Caravan))
+
+**Steps:**
+1. Save WSC 2024 polygons in Shapefile format (`.shp`) for upload to GEE.
+
+2. Run Caravan attribute extraction workflow in GEE:
+   - Clone the [Caravan repository](https://github.com/kratzert/Caravan)
+   - Follow their GEE extraction instructions
+   - Use WSC 2024 polygons as input instead of original HYSETS polygons
+
+3. Download results and save to (this file is included in the repository for convenience):
    ```
-2. **Full network comparison (1,432 stations, ~5 min):**
-   ```bash
-   python scripts/generation/compare_caravan_polygons.py
+   book_docs/data/GEE_attributes_<revision_date>.csv
    ```
-3. **Rebuild the book (optional):**
+
+4. Rebuild documentation:
    ```bash
    cd book_docs
    jupyter book build .
    ```
 
-Both commands read WSC polygons from `COMMON_DATA_DIR` and write comparison metrics to `book_docs/data/polygon_comparisons/caravan_vs_wsc2024/`. The documentation pulls directly from that CSV, so regenerated plots automatically reflect the latest run without any JSON summaries.
+The descriptor regression plots will automatically update to show old vs new values with RMSE statistics.
+
+### 3. Rebuild documentation
+
+```bash
+cd book_docs
+jupyter book build .
+```
+
+The documentation pulls directly from CSV files, so regenerated data automatically reflects in all plots.

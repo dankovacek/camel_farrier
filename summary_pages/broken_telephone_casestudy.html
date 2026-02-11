@@ -36,7 +36,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/tufte_table.css?v=0ecb9985" />
-    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=9aff115b" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=082d7782" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
@@ -59,6 +59,8 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
     <script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.12.1/dist/mermaid.esm.min.mjs";
 
@@ -1081,7 +1083,7 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#why-polygons-matter">Why polygons matter</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#spatial-divergence-map">Spatial Divergence Map</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#spatial-divergence-map">Spatial divergence map</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#network-wide-summary">Network-wide summary</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sources">Data sources</a></li>
 </ul>
@@ -1092,7 +1094,12 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#implications-for-lsh-datasets">Implications for LSH datasets</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#update-catchment-descriptors">Update catchment descriptors</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#repeatable-results">Repeatable results</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reproduction-checklist">Reproduction checklist</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reproduction-checklist">Reproduction checklist</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#polygon-comparison-quick">1. Polygon comparison (quick)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#descriptor-reprocessing-advanced">2. Descriptor reprocessing (advanced)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rebuild-documentation">3. Rebuild documentation</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -1112,13 +1119,13 @@ document.write(`
 <p>When stale polygons remain into hydrologic workflows, runoff statistics inherit the bias.  A 5% drainage-area error instantly becomes a 5% bias in area-normalized discharge and any flow statistics derived from it.</p>
 </section>
 <section id="spatial-divergence-map">
-<h2>Spatial Divergence Map<a class="headerlink" href="#spatial-divergence-map" title="Link to this heading">#</a></h2>
+<h2>Spatial divergence map<a class="headerlink" href="#spatial-divergence-map" title="Link to this heading">#</a></h2>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <p><strong>Linked selection.</strong> Use box-select or lasso-select tools on the CDF to highlight stations on the map (and vice versa). Toggle legend entries to isolate specific area-change bins.</p>
 <p>Warm colors highlight basins where Caravan’s inherited geometry deviates most from the latest WSC polygons.</p>
 </aside>
-<div style="height:900px;"><script src="bokeh-content-7f206326a61e4e03b69f47353a315e15-summary_pages-broken_telephone_casestudy.js" id="a264458f-a23b-436c-8cf0-d0ad8b6a46a8"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:900px;"><script src="bokeh-content-d95b0de3cdc6444c9516b975ed47cdde-summary_pages-broken_telephone_casestudy.js" id="e1e8ac13-3930-4790-b95d-a9a4310dc33f"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -1151,7 +1158,7 @@ flowchart TD
 </section>
 <section id="network-wide-summary">
 <h2>Network-wide summary<a class="headerlink" href="#network-wide-summary" title="Link to this heading">#</a></h2>
-<div style="height:230px;"><script src="bokeh-content-f10970ef1fb545d38b1b3da8c7dd8dd6-summary_pages-broken_telephone_casestudy.js" id="e6198f6c-57fa-4090-936c-5fbc48e9a217"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:230px;"><script src="bokeh-content-b1f8687b304b4f9694a7c0591e5d08fe-summary_pages-broken_telephone_casestudy.js" id="b7247ee4-9677-45d6-a60e-74b48d758091"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -1171,7 +1178,7 @@ flowchart TD
 </section>
 <section id="distribution-of-geometric-match">
 <h2>Distribution of geometric match<a class="headerlink" href="#distribution-of-geometric-match" title="Link to this heading">#</a></h2>
-<div style="height:400px;"><script src="bokeh-content-addbd954443d468eadffe6e765ffd4c4-summary_pages-broken_telephone_casestudy.js" id="ede8c507-80e6-43a7-a0f8-60108219086a"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:400px;"><script src="bokeh-content-b53761761b444ed6aa0b9d76b7802a17-summary_pages-broken_telephone_casestudy.js" id="a945bf98-d886-4e0a-9a2e-b33549ed8108"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -1186,7 +1193,7 @@ flowchart TD
 <p class="sidebar-title"></p>
 <p>Sort by Jaccard similarity or |Δarea| to find the basins most impacted by the HYDAT→HYSETS→Caravan lag (closer to zero is less overlap). Station links activate when a diagnostic page already exists in this repository.</p>
 </aside>
-<div style="height:450px;"><script src="bokeh-content-d1eef52afd894905a57ec535b65202a7-summary_pages-broken_telephone_casestudy.js" id="a884bd71-92df-4f10-967f-54cec24ff217"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:450px;"><script src="bokeh-content-903b59321b4f4bf0918f025d71ff8a33-summary_pages-broken_telephone_casestudy.js" id="f09ca347-186d-4182-8d41-f1395c5dcd12"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -1204,12 +1211,14 @@ as there are polygons in the source data.</p>
 <p>In the example below, the drainage areas are close, but the catchment polygon is non-overlapping!</p>
 <p>The example station ID is 07DB005.</p>
 </aside>
-<script src="bokeh-content-e2ab23f9c140408f8ab4847f62166bf8-summary_pages-broken_telephone_casestudy.js" id="a22a34ad-88ac-4a3e-bfa7-49ccc437f83d"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<script src="bokeh-content-dc53ac3de886417cb30842aae325f530-summary_pages-broken_telephone_casestudy.js" id="ea03ae38-7779-45a7-a361-645a36e5ab72"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">scripts.generation.compare_caravan_polygons</span><span class="w"> </span><span class="kn">import</span> <span class="n">plot_caravan_wsc_comparison</span>
-<span class="n">show</span><span class="p">(</span><span class="n">plot_caravan_wsc_comparison</span><span class="p">(</span><span class="s2">&quot;07DB005&quot;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">800</span><span class="p">))</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">scripts.utils.bokeh_adapters</span><span class="w"> </span><span class="kn">import</span> <span class="n">show_with_notes</span>
+<span class="n">result</span> <span class="o">=</span> <span class="n">plot_caravan_wsc_comparison</span><span class="p">(</span><span class="s2">&quot;07DB005&quot;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">800</span><span class="p">)</span>
+<span class="n">show</span><span class="p">(</span><span class="n">show_with_notes</span><span class="p">(</span><span class="n">result</span><span class="p">))</span>
 </pre></div>
 </div>
 </section>
@@ -1223,12 +1232,18 @@ as there are polygons in the source data.</p>
 <section id="update-catchment-descriptors">
 <h2>Update catchment descriptors<a class="headerlink" href="#update-catchment-descriptors" title="Link to this heading">#</a></h2>
 <p>For all polygons in common between Caravan and the current WSC set, we reprocessed catchment descriptors using the more recent WSC polygons using the Caravan workflow computed through Google Earth Engine. See the <a class="reference external" href="https://github.com/kratzert/Caravan">Caravan github repository</a> for details.</p>
-<div style="height:400px;"><script src="bokeh-content-5e2cbc45f8694e9d882128b98f42ddae-summary_pages-broken_telephone_casestudy.js" id="b4afe8e7-1b44-405d-b36d-c968d53d28ab"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<p>The set of stations represented in the plot are those whose polygons changed by at least  <span class="math notranslate nohighlight">\(\pm\)</span>10% area or had a Jaccard similarity index below 0.9 indicating significant geometric divergence that could impact derived descriptors.</p>
+</aside>
+<div style="height:400px;"><script src="bokeh-content-3a67dd94c1f743e48cebd499315ceb41-summary_pages-broken_telephone_casestudy.js" id="edb9f34d-deb7-4cb9-8300-54f8b90dc41b"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">scripts.generation.compare_caravan_polygons</span><span class="w"> </span><span class="kn">import</span> <span class="n">plot_caravan_descriptor_regressions</span>
-<span class="n">show</span><span class="p">(</span><span class="n">plot_caravan_descriptor_regressions</span><span class="p">())</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">scripts.utils.bokeh_adapters</span><span class="w"> </span><span class="kn">import</span> <span class="n">show_with_notes</span>
+<span class="n">result</span> <span class="o">=</span> <span class="n">plot_caravan_descriptor_regressions</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="mi">800</span><span class="p">)</span>
+<span class="n">show</span><span class="p">(</span><span class="n">show_with_notes</span><span class="p">(</span><span class="n">result</span><span class="p">))</span>
 </pre></div>
 </div>
 </section>
@@ -1238,25 +1253,59 @@ as there are polygons in the source data.</p>
 </section>
 <section id="reproduction-checklist">
 <h2>Reproduction checklist<a class="headerlink" href="#reproduction-checklist" title="Link to this heading">#</a></h2>
-<ol class="arabic">
-<li><p><strong>Quick test (39 stations, &lt;15 s):</strong></p>
+<section id="polygon-comparison-quick">
+<h3>1. Polygon comparison (quick)<a class="headerlink" href="#polygon-comparison-quick" title="Link to this heading">#</a></h3>
+<p>Compare Caravan polygons with current WSC 2024 polygons:</p>
+<p><strong>Quick test (sub-sample of catchments):</strong></p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>scripts/generation/compare_caravan_polygons.py<span class="w"> </span>--test
 </pre></div>
 </div>
-</li>
-<li><p><strong>Full network comparison (1,432 stations, ~5 min):</strong></p>
+<p><strong>Full network comparison (1,432 stations, ~5 min):</strong></p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>scripts/generation/compare_caravan_polygons.py
 </pre></div>
 </div>
+<p>This writes comparison metrics to <code class="docutils literal notranslate"><span class="pre">book_docs/data/polygon_comparisons/caravan_vs_wsc2024/comparison_metrics.csv</span></code>.</p>
+</section>
+<section id="descriptor-reprocessing-advanced">
+<h3>2. Descriptor reprocessing (advanced)<a class="headerlink" href="#descriptor-reprocessing-advanced" title="Link to this heading">#</a></h3>
+<p>Recompute catchment descriptors using updated WSC 2024 polygons through the Caravan workflow:</p>
+<p><strong>Prerequisites:</strong></p>
+<ul class="simple">
+<li><p>Google Earth Engine account with access to required datasets</p></li>
+<li><p>Caravan attribute extraction code (see <a class="reference external" href="https://github.com/kratzert/Caravan">Caravan repository</a>)</p></li>
+</ul>
+<p><strong>Steps:</strong></p>
+<ol class="arabic">
+<li><p>Save WSC 2024 polygons in Shapefile format (<code class="docutils literal notranslate"><span class="pre">.shp</span></code>) for upload to GEE.</p></li>
+<li><p>Run Caravan attribute extraction workflow in GEE:</p>
+<ul class="simple">
+<li><p>Clone the <a class="reference external" href="https://github.com/kratzert/Caravan">Caravan repository</a></p></li>
+<li><p>Follow their GEE extraction instructions</p></li>
+<li><p>Use WSC 2024 polygons as input instead of original HYSETS polygons</p></li>
+</ul>
 </li>
-<li><p><strong>Rebuild the book (optional):</strong></p>
+<li><p>Download results and save to (this file is included in the repository for convenience):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">book_docs</span><span class="o">/</span><span class="n">data</span><span class="o">/</span><span class="n">GEE_attributes_</span><span class="o">&lt;</span><span class="n">revision_date</span><span class="o">&gt;.</span><span class="n">csv</span>
+</pre></div>
+</div>
+</li>
+<li><p>Rebuild documentation:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>book_docs
 jupyter<span class="w"> </span>book<span class="w"> </span>build<span class="w"> </span>.
 </pre></div>
 </div>
 </li>
 </ol>
-<p>Both commands read WSC polygons from <code class="docutils literal notranslate"><span class="pre">COMMON_DATA_DIR</span></code> and write comparison metrics to <code class="docutils literal notranslate"><span class="pre">book_docs/data/polygon_comparisons/caravan_vs_wsc2024/</span></code>. The documentation pulls directly from that CSV, so regenerated plots automatically reflect the latest run without any JSON summaries.</p>
+<p>The descriptor regression plots will automatically update to show old vs new values with RMSE statistics.</p>
+</section>
+<section id="rebuild-documentation">
+<h3>3. Rebuild documentation<a class="headerlink" href="#rebuild-documentation" title="Link to this heading">#</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>book_docs
+jupyter<span class="w"> </span>book<span class="w"> </span>build<span class="w"> </span>.
+</pre></div>
+</div>
+<p>The documentation pulls directly from CSV files, so regenerated data automatically reflects in all plots.</p>
+</section>
 </section>
 </section>
 
@@ -1325,7 +1374,7 @@ jupyter<span class="w"> </span>book<span class="w"> </span>build<span class="w">
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#why-polygons-matter">Why polygons matter</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#spatial-divergence-map">Spatial Divergence Map</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#spatial-divergence-map">Spatial divergence map</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#network-wide-summary">Network-wide summary</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sources">Data sources</a></li>
 </ul>
@@ -1336,7 +1385,12 @@ jupyter<span class="w"> </span>book<span class="w"> </span>build<span class="w">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#implications-for-lsh-datasets">Implications for LSH datasets</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#update-catchment-descriptors">Update catchment descriptors</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#repeatable-results">Repeatable results</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reproduction-checklist">Reproduction checklist</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reproduction-checklist">Reproduction checklist</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#polygon-comparison-quick">1. Polygon comparison (quick)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#descriptor-reprocessing-advanced">2. Descriptor reprocessing (advanced)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rebuild-documentation">3. Rebuild documentation</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
