@@ -1,0 +1,12 @@
+{
+  "station_id": "08KE031",
+  "station_name": "GENERAL CREEK ABOVE DIVERSION",
+  "latitude": 52.59027862548828,
+  "longitude": -122.53333282470705,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:14.915493"
+}

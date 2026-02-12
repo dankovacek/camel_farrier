@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08AA007_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08AA007", "NameNom": "SEKULMUN LAKE NEAR WHITEHORSE", "Status": "active", "Etat": "en service", "ProvTerr": "YT", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -15316504.397991904988885, 8749948.97535989433527 ] } }
+]
+}

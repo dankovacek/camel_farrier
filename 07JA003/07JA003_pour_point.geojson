@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07JA003_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07JA003", "NameNom": "WILLOW RIVER NEAR WABASCA", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -12681686.70999063923955, 7541803.147767645306885 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ003_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NJ003", "NameNom": "CARPENTER CREEK NEAR NEW DENVER", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13063498.091877762228251, 6444833.356713351793587 ] } }
+]
+}

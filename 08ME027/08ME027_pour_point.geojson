@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08ME027_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08ME027", "NameNom": "HURLEY RIVER BELOW LONE GOAT CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13685805.214869586750865, 6573840.935480292886496 ] } }
+]
+}

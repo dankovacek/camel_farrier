@@ -1,0 +1,12 @@
+{
+  "station_id": "08MF063",
+  "station_name": "LYTTON CREEK AT LYTTON",
+  "latitude": 50.21667098999024,
+  "longitude": -121.5513916015625,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:20.692217"
+}

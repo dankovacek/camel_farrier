@@ -1,0 +1,9 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07CE002,10.0,Rating Model #10.00 accounts for scour on the section control during 2023 freshet. The channel control feature has been recalibrated based on more recent measurements in this feature.,LogarithmicTable,Provisional/Provisoire,(5.67629493912407:4.553);(4.589);
+07CE002,9.0,"Downstream deposition apparent, required new model.",LogarithmicTable,Final/Finales,(5.7425:4.687);(4.85);
+07CE002,8.0,Adjusted to represent latest data. Breakpoint represents flooding of shifting islands on control.,LogarithmicTable,Final/Finales,(5.498:4.75);(4.85);
+07CE002,7.0,New curve to accommodate 2013 high water measurements.  New Curve # 7.000 - Post High Water of 2013.  End Rating period following last approved data.,LogarithmicTable,Final/Finales,(5.8436:4.6);(4.93);
+07CE002,6.0,"HQFIT1.0, extended curve.  Same 0 flow as curve 5.",LinearTable,Final/Finales,
+07CE002,5.0,,LinearTable,Final/Finales,
+07CE002,4.0,,LinearTable,Final/Finales,
+07CE002,3.0,,LinearTable,Final/Finales,

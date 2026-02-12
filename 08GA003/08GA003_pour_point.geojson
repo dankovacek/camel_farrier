@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08GA003_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08GA003", "NameNom": "HIXON CREEK NEAR THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13679265.194785479456186, 6362210.157158860936761 ] } }
+]
+}

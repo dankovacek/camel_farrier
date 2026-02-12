@@ -1,6 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-07BC007,5.00,,LogarithmicTable,Provisional/Provisoire,(3.431);
-07BC007,4.00,Gauge relocation curve.,LogarithmicTable,Final/Finales,(3.738);
-07BC007,3.000,,LinearTable,Final/Finales,
-07BC007,3.000-SC1,,LinearTable,Final/Finales,
-07BC007,2.000,,LinearTable,Final/Finales,

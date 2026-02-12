@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH051_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NH051", "NameNom": "ARGENTA CREEK NEAR ARGENTA", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13013307.473063802346587, 6474670.735685306601226 ] } }
+]
+}

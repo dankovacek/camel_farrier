@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE006_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NE006", "NameNom": "KUSKANAX CREEK NEAR NAKUSP", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13106144.58880066499114, 6495415.794415433891118 ] } }
+]
+}

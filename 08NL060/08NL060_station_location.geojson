@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08NL060_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08NL060", "NameNom": "OTTER CREEK BELOW SPEARING CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13444143.958696283400059, 6406204.39147631265223 ] } }
-]
-}

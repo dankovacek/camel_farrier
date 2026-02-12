@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08GA058_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08GA058", "NameNom": "HOP RANCH CREEK ABOVE DRYDEN CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13706479.470699712634087, 6404689.552013351581991 ] } }
-]
-}

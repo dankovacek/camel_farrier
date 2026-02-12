@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LF082_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LF082", "NameNom": "MEDICINE CREEK NEAR THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13531563.15481624007225, 6578803.738562544807792 ] } }
+]
+}

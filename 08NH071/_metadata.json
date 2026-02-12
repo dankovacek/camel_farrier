@@ -1,0 +1,12 @@
+{
+  "station_id": "08NH071",
+  "station_name": "MCGREGOR CREEK NEAR BOSWELL",
+  "latitude": 49.456668853759766,
+  "longitude": -116.75193786621094,
+  "drainage_area_gross_km2": 3.369999885559082,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:25.351412"
+}

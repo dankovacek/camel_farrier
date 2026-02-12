@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08LF068_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08LF068", "NameNom": "VENABLES CREEK ABOVE VENABLES LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13508681.433483682572842, 6546303.436520084738731 ] } }
-]
-}

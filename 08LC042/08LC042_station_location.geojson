@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LC042_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LC042", "NameNom": "BESSETTE CREEK ABOVE LUMBY LAGOON OUTFALL", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13242700.20815677754581, 6490114.547524887137115 ] } }
+]
+}

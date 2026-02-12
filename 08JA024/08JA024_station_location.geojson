@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08JA024_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08JA024", "NameNom": "ENTIAKO RIVER NEAR THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13954054.018223952502012, 7047588.696158315986395 ] } }
+]
+}

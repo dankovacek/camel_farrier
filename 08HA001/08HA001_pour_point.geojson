@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HA001_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HA001", "NameNom": "CHEMAINUS RIVER NEAR WESTHOLME", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13770681.873819824308157, 6254243.393051990307868 ] } }
+]
+}

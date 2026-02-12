@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "07AA004_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "07AA004", "NameNom": "MALIGNE RIVER NEAR JASPER", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13138605.352315986528993, 6970213.577370037324727 ] } }
-]
-}

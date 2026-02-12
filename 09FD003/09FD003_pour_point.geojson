@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09FD003_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "09FD003", "NameNom": "PORCUPINE RIVER BELOW OLD CROW RIVER", "Status": "active", "Etat": "en service", "ProvTerr": "YT" }, "geometry": { "type": "Point", "coordinates": [ -15566332.052009806036949, 10319253.202430073171854 ] } }
+]
+}

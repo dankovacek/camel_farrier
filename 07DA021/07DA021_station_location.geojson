@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07DA021_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07DA021", "NameNom": "NAMUR LAKE AT BIRCH MOUNTAINS LODGE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12552196.538715180009604, 7836006.901294648647308 ] } }
+]
+}

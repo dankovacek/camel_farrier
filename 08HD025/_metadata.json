@@ -1,0 +1,12 @@
+{
+  "station_id": "08HD025",
+  "station_name": "WOKAS LAKE NEAR CAMPBELL RIVER",
+  "latitude": 49.9102783203125,
+  "longitude": -125.54638671875,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:13.517461"
+}

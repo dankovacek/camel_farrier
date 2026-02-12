@@ -1,0 +1,12 @@
+{
+  "station_id": "07DA029",
+  "station_name": "MUSKEG RIVER ABOVE MUSKEG CREEK",
+  "latitude": 57.30849838256836,
+  "longitude": -111.39769744873048,
+  "drainage_area_gross_km2": 567.0,
+  "drainage_area_effect_km2": 567.0,
+  "province_territory": "AB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:01.397137"
+}

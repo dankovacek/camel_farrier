@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08EG004_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08EG004", "NameNom": "THULME RIVER NEAR PORT SIMPSON", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -14471066.26126423291862, 7263828.13841165881604 ] } }
+]
+}

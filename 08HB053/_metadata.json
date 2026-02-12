@@ -1,0 +1,12 @@
+{
+  "station_id": "08HB053",
+  "station_name": "HOGGAN LAKE ON GABRIOLA ISLAND",
+  "latitude": 49.1533317565918,
+  "longitude": -123.82611083984376,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:12.643296"
+}

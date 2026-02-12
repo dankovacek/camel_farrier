@@ -1,0 +1,12 @@
+{
+  "station_id": "10KA006",
+  "station_name": "JUNGLE RIDGE CREEK NEAR THE MOUTH",
+  "latitude": 65.05756378173828,
+  "longitude": -126.12158203125,
+  "drainage_area_gross_km2": 60.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "NT",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:33.932441"
+}

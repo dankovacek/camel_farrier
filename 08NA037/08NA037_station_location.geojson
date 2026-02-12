@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08NA037_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08NA037", "NameNom": "CARBONATE CREEK NEAR MCMURDO", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12995403.959359519183636, 6646638.500562004745007 ] } }
-]
-}

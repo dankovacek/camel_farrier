@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NL046_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NL046", "NameNom": "MISSEZULA LAKE NEAR PRINCETON", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13413998.640589466318488, 6405964.825200892984867 ] } }
+]
+}

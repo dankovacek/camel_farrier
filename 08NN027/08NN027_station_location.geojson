@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08NN027_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08NN027", "NameNom": "BEAVERDELL CREEK NEAR BEAVERDELL", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13250147.482090845704079, 6357655.998949451372027 ] } }
-]
-}

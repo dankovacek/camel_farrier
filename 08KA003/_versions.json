@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Version history for station data",
+  "station_id": "08KA003",
+  "versions": [
+    {
+      "semantic_tag": "v1.0.0",
+      "timestamp": "2026-02-11T17:18:14.453097",
+      "data_source": "WSC_basins",
+      "polygon_file": "08KA003_polygon_v1.0.0.geojson",
+      "source_metadata": {
+        "StationNum": "08KA003",
+        "NameNom": "HOLMES RIVER NEAR MCBRIDE",
+        "Status": "discontinued",
+        "Etat": "ferm\u00e9e",
+        "Area_km2": "801.797",
+        "Aire_km2": "801.797",
+        "Version": "Prerelease/Pr\u00e9liminaire",
+        "Date": "2021-12-17"
+      }
+    },
+    {
+      "semantic_tag": "v1.1.0",
+      "timestamp": "2026-02-11T17:19:53.722717",
+      "data_source": "HYDAT_polygons",
+      "polygon_file": "08KA003_polygon_v1.1.0.geojson",
+      "source_metadata": {
+        "StationNum": "08KA003",
+        "NameNom": "HOLMES RIVER NEAR MCBRIDE",
+        "Status": "discontinued",
+        "Etat": "ferm\u00e9e",
+        "Area_km2": 806.179,
+        "Aire_km2": 806.179,
+        "Remark": null,
+        "Remarque": null,
+        "Version": "June 2024 / juin 2024",
+        "Date_rev": "2024-06-01",
+        "Shape_Leng": 298500.0,
+        "Shape_Area": 806178600.0
+      }
+    }
+  ],
+  "schema_version": "1.0.0",
+  "current_version": "v1.1.0",
+  "version_count": 2,
+  "first_committed": "2026-02-11T17:18:14.453097",
+  "last_updated": "2026-02-11T17:19:53.722717",
+  "comparisons": {
+    "v1.0.0_vs_v1.1.0": {
+      "computed_at": "2026-02-11T17:19:53.722717",
+      "jaccard_index": 0.9938,
+      "old_area_km2": 801.7974,
+      "new_area_km2": 806.1782,
+      "absolute_area_diff_km2": 4.3808,
+      "percent_area_diff": 0.55
+    }
+  }
+}

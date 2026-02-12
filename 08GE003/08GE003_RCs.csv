@@ -1,0 +1,29 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08GE003,26.0,All measurements since large event in mid 2021.,LogarithmicTable,Provisional/Provisoire,(2.759681760449766:2.297);(2.46);
+08GE003,25.0,,LogarithmicTable,Final/Finales,(2.29);
+08GE003,24.01,Curve renamed to allow extension of grading after 2017-09-06 measurement,LogarithmicTable,Final/Finales,(2.64);
+08GE003,24.0,,LogarithmicTable,Final/Finales,(2.64);
+08GE003,23.0,,LogarithmicTable,Final/Finales,(1.94);
+08GE003,22.0,,LogarithmicTable,Final/Finales,(3.062);
+08GE003,21.0,,LogarithmicTable,Final/Finales,(3.268:2.927);(3.065);
+08GE003,20.0,"Significant control change starting Sep 23, 2011 and stabilizing somewhat after Nov 10, 2011",LogarithmicTable,Final/Finales,(3.2433:2.906);(3.01);
+08GE003,19.0,,LogarithmicTable,Final/Finales,(3.214:1.855);(1.89);
+08GE003,18.0,Approved: Q's > 43 cms (G Ht 3.507) are estimates,LinearTable,Final/Finales,
+08GE003,17.0,Approved: new control. Q's>43cms are estimates,LinearTable,Final/Finales,
+08GE003,16.0,Approved - coincident to table 15.01 above 3.3m,LinearTable,Final/Finales,
+08GE003,15.01,Approved-coincident to table 15 above 3.35m,LinearTable,Final/Finales,
+08GE003,15.0,APPROVED: Extended in 2009 to meet extremes,LinearTable,Final/Finales,
+08GE003,14.0,"Approved -10 d. shift  13-14, 2006 revision req'd",LinearTable,Final/Finales,
+08GE003,13.0,Approved: Shift  May 20  when work done in stream,LinearTable,Final/Finales,
+08GE003,12.0,,LinearTable,Final/Finales,
+08GE003,11.0,Stabilization of cotrol from last major shift,LinearTable,Final/Finales,
+08GE003,10.0,Major control shift from table 9,LinearTable,Final/Finales,
+08GE003,9.0,,LinearTable,Final/Finales,
+08GE003,8.0,Coincident with Table 7 @ & above 3.700 m,LinearTable,Final/Finales,
+08GE003,7.0,Coincidental with Table #6 @ 3.600 m,LinearTable,Final/Finales,
+08GE003,6.0,,LinearTable,Final/Finales,
+08GE003,5.0,,LinearTable,Final/Finales,
+08GE003,4.0,,LinearTable,Final/Finales,
+08GE003,3.0,,LinearTable,Final/Finales,
+08GE003,2.0,,LinearTable,Final/Finales,
+08GE003,1.0,,LinearTable,Final/Finales,

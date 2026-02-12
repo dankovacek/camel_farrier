@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM156_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NM156", "NameNom": "BELLEVUE CREEK AT THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13301810.857768002897501, 6415112.860882661305368 ] } }
+]
+}

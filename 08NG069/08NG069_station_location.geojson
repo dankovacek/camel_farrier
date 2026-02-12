@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NG069_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NG069", "NameNom": "GOLD CREEK ABOVE DIVERSION", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12872061.963560570031404, 6338874.160516420379281 ] } }
+]
+}

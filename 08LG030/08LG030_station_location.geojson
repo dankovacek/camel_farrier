@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LG030_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LG030", "NameNom": "STUMPLAKE CREEK NEAR QUILCHENA", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13408677.568929547443986, 6489491.298922433517873 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NA009_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NA009", "NameNom": "FORSTER CREEK NEAR WILMER", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12927443.410230224952102, 6548794.602826033718884 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE060_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NE060", "NameNom": "BANGOR BROOK NEAR ROSSLAND", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13110719.81987227126956, 6287267.251934291794896 ] } }
+]
+}

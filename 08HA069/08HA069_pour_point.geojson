@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HA069_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HA069", "NameNom": "RENFREW CREEK NEAR PORT RENFREW", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13836056.471177991479635, 6213396.515015576966107 ] } }
+]
+}

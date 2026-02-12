@@ -1,0 +1,6 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07GE003,11.0,"Three segment curve representing section (low flow in culvert), channel (culvert filling), and overbank flow. There is a square edge on the right bank causing a narrow channel segment prior to the culvert. The lower end of the curve is more ambiguous due to dense vegetation and beaver damming in the channel. Discharge below 0.007m3/s is automatically graded as estimated. The range of stage covers 0.289m to 3.887m.",LogarithmicTable,Provisional/Provisoire,(0.7231:0.25);(1.588:0.208);(0.35);
+07GE003,10.0,HQFIT1.0,LinearTable,Final/Finales,
+07GE003,9.0,,LinearTable,Final/Finales,
+07GE003,8.0,,LinearTable,Final/Finales,
+07GE003,7.0,,LinearTable,Final/Finales,

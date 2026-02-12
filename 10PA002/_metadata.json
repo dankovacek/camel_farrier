@@ -1,0 +1,12 @@
+{
+  "station_id": "10PA002",
+  "station_name": "YAMBA RIVER BELOW DARING LAKE",
+  "latitude": 64.80667114257812,
+  "longitude": -111.67806243896484,
+  "drainage_area_gross_km2": 2012.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "NT",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:34.703993"
+}

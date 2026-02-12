@@ -1,0 +1,12 @@
+{
+  "station_id": "08FC004",
+  "station_name": "DEAN RIVER ABOVE TOWDYSTAN LAKE",
+  "latitude": 52.26028060913086,
+  "longitude": -125.084716796875,
+  "drainage_area_gross_km2": 316.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:10.181001"
+}

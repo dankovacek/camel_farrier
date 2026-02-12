@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10PA002_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10PA002", "NameNom": "YAMBA RIVER BELOW DARING LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "NT", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12431949.224760286509991, 9557630.811373692005873 ] } }
+]
+}

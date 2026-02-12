@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM066_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NM066", "NameNom": "WOOD LAKE AT INLET TO OYAMA CANAL", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13289599.109627980738878, 6465299.13939606398344 ] } }
+]
+}

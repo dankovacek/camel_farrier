@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HB025_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HB025", "NameNom": "BROWNS RIVER NEAR COURTENAY", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13922590.677346140146255, 6393275.908379152417183 ] } }
+]
+}

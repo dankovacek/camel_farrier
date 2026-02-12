@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LC025_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LC025", "NameNom": "BLURTON CREEK NEAR MARA", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13252117.83707788772881, 6564737.629360667429864 ] } }
+]
+}

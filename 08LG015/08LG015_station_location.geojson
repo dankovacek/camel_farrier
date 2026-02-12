@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08LG015_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08LG015", "NameNom": "CLAPPERTON CREEK NEAR NICOLA", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13432833.898431688547134, 6474707.228456013835967 ] } }
-]
-}

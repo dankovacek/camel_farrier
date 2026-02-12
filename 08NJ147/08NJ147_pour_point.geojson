@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ147_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NJ147", "NameNom": "THOMPSON CREEK NEAR WILLOW POINT", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13052119.013528876006603, 6371995.305244700051844 ] } }
+]
+}

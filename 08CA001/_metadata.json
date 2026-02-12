@@ -1,0 +1,12 @@
+{
+  "station_id": "08CA001",
+  "station_name": "SPATSIZI RIVER NEAR THE MOUTH",
+  "latitude": 57.67028045654297,
+  "longitude": -128.10333251953125,
+  "drainage_area_gross_km2": 3400.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:06.598221"
+}

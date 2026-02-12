@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "07SC006_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "07SC006", "NameNom": "FLETCHER LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NT", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12127011.743630271404982, 9274058.522758400067687 ] } }
-]
-}

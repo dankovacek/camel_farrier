@@ -1,0 +1,12 @@
+{
+  "station_id": "08LB079",
+  "station_name": "AVOLA CREEK (SOUTH FORK) NEAR AVOLA",
+  "latitude": 51.78221893310547,
+  "longitude": -119.3263931274414,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:16.143516"
+}

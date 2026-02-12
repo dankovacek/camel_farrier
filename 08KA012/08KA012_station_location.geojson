@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08KA012_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08KA012", "NameNom": "SWIFT CREEK NEAR THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13276708.312594119459391, 6953149.155868417583406 ] } }
+]
+}

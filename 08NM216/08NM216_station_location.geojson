@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM216_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NM216", "NameNom": "BROWNE LAKE RESERVOIR ABOVE THE DAM", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13267858.413076056167483, 6415112.860882661305368 ] } }
+]
+}

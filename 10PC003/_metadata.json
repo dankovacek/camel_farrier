@@ -1,0 +1,12 @@
+{
+  "station_id": "10PC003",
+  "station_name": "COPPERMINE RIVER ABOVE BLOODY FALLS",
+  "latitude": 67.74028015136719,
+  "longitude": -115.37860870361328,
+  "drainage_area_gross_km2": 50700.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "NU",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:34.977379"
+}

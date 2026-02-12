@@ -1,0 +1,12 @@
+{
+  "station_id": "07DA040",
+  "station_name": "BIG CREEK NEAR THE MOUTH",
+  "latitude": 57.64337921142578,
+  "longitude": -111.48870086669922,
+  "drainage_area_gross_km2": 323.0,
+  "drainage_area_effect_km2": 323.0,
+  "province_territory": "AB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:01.524593"
+}

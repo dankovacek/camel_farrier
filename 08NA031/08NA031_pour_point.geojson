@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NA031_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NA031", "NameNom": "WARM SPRINGS CREEK NEAR FAIRMONT", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -12895042.759239934384823, 6503375.769299160689116 ] } }
+]
+}

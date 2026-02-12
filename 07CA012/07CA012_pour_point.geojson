@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07CA012_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07CA012", "NameNom": "LOGAN RIVER NEAR THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -12437107.769963646307588, 7395444.366680078208447 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HA057_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HA057", "NameNom": "MAXWELL LAKE ON SALTSPRING ISLAND", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13752131.593874031677842, 6245219.553753772750497 ] } }
+]
+}

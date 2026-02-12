@@ -1,4 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-07BA003,6.0,Scour at mid-range.  New curve needed for technologic upgrade from compumod import.,LogarithmicTable,Provisional/Provisoire,(0.878:0.13);(1.46:0.16);(0.185);
-07BA003,5.0,Same As Curve #4 Above 0.970 m.,LinearTable,Final/Finales,
-07BA003,4.0,,LinearTable,Final/Finales,

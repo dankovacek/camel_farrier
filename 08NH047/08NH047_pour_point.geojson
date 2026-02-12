@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH047_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NH047", "NameNom": "ATHOL CREEK NEAR KASLO", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13014584.307623200118542, 6437422.269805048592389 ] } }
+]
+}

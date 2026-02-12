@@ -1,0 +1,12 @@
+{
+  "station_id": "07EE002",
+  "station_name": "PARSNIP RIVER NEAR FINLAY FORKS",
+  "latitude": 55.8477783203125,
+  "longitude": -123.7619400024414,
+  "drainage_area_gross_km2": 20300.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:02.123308"
+}

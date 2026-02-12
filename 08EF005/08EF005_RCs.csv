@@ -1,0 +1,22 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08EF005,34.00,New curve developed using 2023 data and respecting historic high flow measurements.,LogarithmicTable,Provisional/Provisoire,(1.885:-0.5);(4.134:-0.4);(0.318);
+08EF005,33.03,Clone of Curve 33.02 with revised grades for improved discharge measurement coverage beginning after cableway reinstated in 2022.,LogarithmicTable,Final/Finales,(4.134:0.318);(0.318);
+08EF005,33.020,"Shift at highwater significantly trending to the left, supported by observations. Otherwisw the curve remains unchanged from #32.000. Revised grading from curve 33.000 for 2018. 33.020 has extended lower end and revised 'E' grading for 2021",LogarithmicTable,Final/Finales,(4.134:0.318);(0.318);
+08EF005,33.010,"Shift at highwater significantly trending to the left, supported by observations. Otherwisw the curve remains unchanged from #32.000. Revised grading from curve 33.000 for 2018.",LogarithmicTable,Final/Finales,(4.134:0.318);(0.318);
+08EF005,33.000,"Shift at highwater significantly trending to the left, supported by observations. Otherwisw the curve remains unchanged from #32.000",LogarithmicTable,Final/Finales,(4.134:0.318);(0.318);
+08EF005,32.000,Shift at highwater.,LogarithmicTable,Final/Finales,(0.318);
+08EF005,31.000,Shift During Ice Period 2011,LogarithmicTable,Final/Finales,(0.28);
+08EF005,30.000,APPROVED: SHIFTED AT HW PEAK,LinearTable,Final/Finales,
+08EF005,30.000-SC3,,LinearTable,Final/Finales,
+08EF005,29.000,APPROVED Coincident with Curve No.28 at @ Abv 2.1m,LinearTable,Final/Finales,
+08EF005,28.000,,LinearTable,Final/Finales,
+08EF005,27.000,,LinearTable,Final/Finales,
+08EF005,26.000,,LinearTable,Final/Finales,
+08EF005,26.000-SC2,,LinearTable,Final/Finales,
+08EF005,25.000,,LinearTable,Final/Finales,
+08EF005,24.000,,LinearTable,Final/Finales,
+08EF005,23.000,,LinearTable,Final/Finales,
+08EF005,23.000-SC1,,LinearTable,Final/Finales,
+08EF005,22.000,,LinearTable,Final/Finales,
+08EF005,21.000,,LinearTable,Final/Finales,
+08EF005,0.000,,LinearTable,Final/Finales,

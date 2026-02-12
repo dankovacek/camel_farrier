@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "10PA001_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "10PA001", "NameNom": "COPPERMINE RIVER BELOW DESTEFFANY LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "NT" }, "geometry": { "type": "Point", "coordinates": [ -12462194.730408817529678, 9508444.675204925239086 ] } }
-]
-}

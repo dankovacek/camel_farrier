@@ -1,0 +1,12 @@
+{
+  "station_id": "08NA053",
+  "station_name": "KICKING HORSE RIVER BELOW SHERBROOKE CREEK",
+  "latitude": 51.43693923950195,
+  "longitude": -116.37444305419922,
+  "drainage_area_gross_km2": 119.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:22.756694"
+}

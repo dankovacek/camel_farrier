@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "07QC008_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "07QC008", "NameNom": "CHARLOT RIVER AT OUTLET OF WEBB LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "SK" }, "geometry": { "type": "Point", "coordinates": [ -12119433.112697064876556, 8320247.183131705969572 ] } }
-]
-}

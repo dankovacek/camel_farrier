@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NK007_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NK007", "NameNom": "QUAIL CREEK NEAR HOSMER", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -12800877.601977905258536, 6372057.099133089184761 ] } }
+]
+}

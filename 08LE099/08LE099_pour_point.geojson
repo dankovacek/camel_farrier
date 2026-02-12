@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LE099_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LE099", "NameNom": "NORTH PAXTON CREEK ABOVE DIVERSIONS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13337652.394218714907765, 6539228.486040885560215 ] } }
+]
+}

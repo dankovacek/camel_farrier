@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LG051_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LG051", "NameNom": "AXE CREEK AT LOT 781", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13454997.609048629179597, 6539351.080933447927237 ] } }
+]
+}

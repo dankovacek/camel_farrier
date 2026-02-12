@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07GE007_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07GE007", "NameNom": "BEAR RIVER NEAR VALHALLA CENTRE", "Status": "active", "Etat": "en service", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13289777.220813252031803, 7439919.562000742182136 ] } }
+]
+}

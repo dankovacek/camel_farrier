@@ -1,0 +1,35 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08HB048,57.00,Clone of Curve 56.00 with a slight tweak (+0.004m change to offset) to slightly improve error stats on all measurements above the breakpoint taken from 2015 to end of 2020 including highest measurement on record since the 70's.,LogarithmicTable,Provisional/Provisoire,(0.333:0.006);(0.138);
+08HB048,56.00,"Top end above breakpoint coincident (within 3%) of Curve 55.00. Slight improvement in definition around breakpoint.  Lower end drawn to 2018 measurements, with slight improvement over curve 55 error stats when all measurements selected.",LogarithmicTable,Final/Finales,(0.333:0.006);(0.134);
+08HB048,55.000,,LogarithmicTable,Final/Finales,(0.326:0.017);(0.131);
+08HB048,54,"Levels 2012-01-17 determined low point of notch of rectangular weir to be 0.019m and thus an offset of 0.019m was applied to the curve. A break-point was also surveyed in as 0.327m, where rectangular notch opens up to a broad shelf of the concrete control.",LogarithmicTable,Final/Finales,(0.328:0.019);(0.16);
+08HB048,53,"Levels 2012-01-17 determined low point of notch of rectangular weir to be 0.019m and thus an offset of 0.019m was applied to the curve. A break-point was also surveyed in as 0.327m, where rectangular notch opens up to a broad shelf of the concrete control.",LogarithmicTable,Final/Finales,(0.327:0.019);(0.05);
+08HB048,52.000,Approved-Coincident W #51 >GH.35m,LinearTable,Final/Finales,
+08HB048,51.000,Approved-coincident to #50 above 0.42 m,LinearTable,Final/Finales,
+08HB048,51.000-SC5,,LinearTable,Final/Finales,
+08HB048,50.000,"approved, coincident to #49 above 0.42 m",LinearTable,Final/Finales,
+08HB048,49.000-SC4,,LinearTable,Final/Finales,
+08HB048,49.000,APPROVED,LinearTable,Final/Finales,
+08HB048,49.000-SC3,,LinearTable,Final/Finales,
+08HB048,48.000,APPROVED,LinearTable,Final/Finales,
+08HB048,47.000,,LinearTable,Final/Finales,
+08HB048,46.000,,LinearTable,Final/Finales,
+08HB048,46.000-SC2,,LinearTable,Final/Finales,
+08HB048,45.000,,LinearTable,Final/Finales,
+08HB048,44.000,,LinearTable,Final/Finales,
+08HB048,43.000,,LinearTable,Final/Finales,
+08HB048,42.000,,LinearTable,Final/Finales,
+08HB048,40.010,,LinearTable,Final/Finales,
+08HB048,41.000,,LinearTable,Final/Finales,
+08HB048,40.000-SC1,,LinearTable,Final/Finales,
+08HB048,40.000,,LinearTable,Final/Finales,
+08HB048,38.010,,LinearTable,Final/Finales,
+08HB048,39.000,,LinearTable,Final/Finales,
+08HB048,38.000,,LinearTable,Final/Finales,
+08HB048,37.000,,LinearTable,Final/Finales,
+08HB048,36.000,,LinearTable,Final/Finales,
+08HB048,35.000,,LinearTable,Final/Finales,
+08HB048,34.000,,LinearTable,Final/Finales,
+08HB048,33.000,,LinearTable,Final/Finales,
+08HB048,32.000,,LinearTable,Final/Finales,
+08HB048,31.000,,LinearTable,Final/Finales,

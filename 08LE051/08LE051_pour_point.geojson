@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LE051_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LE051", "NameNom": "LOAKIN CREEK (INDIAN DIVERSION) NEAR SHUSWAP", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13331557.652097782120109, 6589591.126386741176248 ] } }
+]
+}

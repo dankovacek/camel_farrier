@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LE017_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LE017", "NameNom": "PEMBERTON CREEK NEAR PRITCHARD", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13343225.04792782664299, 6568404.811473038047552 ] } }
+]
+}

@@ -1,0 +1,13 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+09AC007,16.0,Developing new curve to produce higher and lower flow data than Curve 15.0,LogarithmicTable,Provisional/Provisoire,(4.1719:3.605);(3.84);
+09AC007,15.0,Developing new curv,LogarithmicTable,Final/Finales,(4.18:3.53);(3.83);
+09AC007,14.0,,LogarithmicTable,Final/Finales,(3.59);
+09AC007,12.0,,LogarithmicTable,Provisional/Provisoire,(3.7);
+09AC007,11.1,"Move orifice, left shift 3.500-4.700 m",LinearTable,Final/Finales,
+09AC007,11.0,"Move orifice, left shift 3.500-4.700 m",LinearTable,Final/Finales,
+09AC007,10.0,APPROVED.Coincides with table #9 above 4.3m,LinearTable,Final/Finales,
+09AC007,9.0,Coincides with #8 @4.640 and meets at 3.680,LinearTable,Final/Finales,
+09AC007,8.0,Coincident with #7 @GH 4.9 and extended to 5.2,LinearTable,Final/Finales,
+09AC007,7.0,,LinearTable,Final/Finales,
+09AC007,5.0,,LinearTable,Final/Finales,
+09AC007,6.0,,LinearTable,Final/Finales,

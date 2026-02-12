@@ -1,0 +1,12 @@
+{
+  "station_id": "08GA051",
+  "station_name": "LANGDALE CREEK AT HIGHWAY NO. 101 NEAR GIBSONS",
+  "latitude": 49.43333053588867,
+  "longitude": -123.47860717773438,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:10.810377"
+}

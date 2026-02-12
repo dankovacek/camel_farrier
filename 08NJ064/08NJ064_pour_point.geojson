@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ064_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NJ064", "NameNom": "RINGROSE CREEK BELOW CLAY'S DIVERSION", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13075876.819253975525498, 6398784.472719726152718 ] } }
+]
+}

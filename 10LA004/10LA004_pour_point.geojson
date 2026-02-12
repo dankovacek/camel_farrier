@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10LA004_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10LA004", "NameNom": "WELDON CREEK NEAR THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NT" }, "geometry": { "type": "Point", "coordinates": [ -14771929.449031211435795, 9989723.483389908447862 ] } }
+]
+}

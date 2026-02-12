@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10TN001_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10TN001", "NameNom": "LANG RIVER ABOVE PRINCE REGENT INLET", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NU", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -10486296.032726371660829, 11856035.770226279273629 ] } }
+]
+}

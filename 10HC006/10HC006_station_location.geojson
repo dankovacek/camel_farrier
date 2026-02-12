@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10HC006_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10HC006", "NameNom": "BLACKWATER RIVER AT OUTLET OF BLACKWATER LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NT", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13728231.299200717359781, 9324486.447575991973281 ] } }
+]
+}

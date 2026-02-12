@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ143_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NJ143", "NameNom": "EAGLE CREEK (WEST FORK) NEAR BLEWETT", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13066593.886916724964976, 6353376.623853428289294 ] } }
+]
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Version history for station data",
+  "station_id": "07FB004",
+  "versions": [
+    {
+      "semantic_tag": "v1.0.0",
+      "timestamp": "2026-02-11T17:18:02.768370",
+      "data_source": "WSC_basins",
+      "polygon_file": "07FB004_polygon_v1.0.0.geojson",
+      "source_metadata": {
+        "StationNum": "07FB004",
+        "NameNom": "DICKEBUSCH CREEK NEAR THE MOUTH",
+        "Status": "active",
+        "Etat": "en service",
+        "Area_km2": "85.311",
+        "Aire_km2": "85.311",
+        "Version": "Prerelease/Pr\u00e9liminaire",
+        "Date": "2021-12-17"
+      }
+    },
+    {
+      "semantic_tag": "v1.1.0",
+      "timestamp": "2026-02-11T17:19:28.608129",
+      "data_source": "HYDAT_polygons",
+      "polygon_file": "07FB004_polygon_v1.1.0.geojson",
+      "source_metadata": {
+        "StationNum": "07FB004",
+        "NameNom": "DICKEBUSCH CREEK NEAR THE MOUTH",
+        "Status": "active",
+        "Etat": "en service",
+        "Area_km2": 85.3146,
+        "Aire_km2": 85.3146,
+        "Remark": null,
+        "Remarque": null,
+        "Version": "June 2024 / juin 2024",
+        "Date_rev": "2024-06-01",
+        "Shape_Leng": 65340.0,
+        "Shape_Area": 85314600.0
+      }
+    }
+  ],
+  "schema_version": "1.0.0",
+  "current_version": "v1.1.0",
+  "version_count": 2,
+  "first_committed": "2026-02-11T17:18:02.768370",
+  "last_updated": "2026-02-11T17:19:28.608129",
+  "comparisons": {
+    "v1.0.0_vs_v1.1.0": {
+      "computed_at": "2026-02-11T17:19:28.608129",
+      "jaccard_index": 0.9995,
+      "old_area_km2": 85.311,
+      "new_area_km2": 85.3146,
+      "absolute_area_diff_km2": 0.0036,
+      "percent_area_diff": 0.0
+    }
+  }
+}

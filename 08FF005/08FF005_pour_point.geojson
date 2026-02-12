@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08FF005_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08FF005", "NameNom": "KILOMETRE 18.9 CREEK NEAR KITIMAT", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -14273525.37207193672657, 7211065.999736924655735 ] } }
+]
+}

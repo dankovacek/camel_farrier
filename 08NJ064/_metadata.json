@@ -1,0 +1,12 @@
+{
+  "station_id": "08NJ064",
+  "station_name": "RINGROSE CREEK BELOW CLAY'S DIVERSION",
+  "latitude": 49.72555923461914,
+  "longitude": -117.46221923828124,
+  "drainage_area_gross_km2": 0.9800000190734864,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:26.263160"
+}

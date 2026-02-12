@@ -1,0 +1,12 @@
+{
+  "station_id": "07DA037",
+  "station_name": "TAR RIVER ABOVE CANADIAN NATURAL RESOURCES LIMITED LAKE",
+  "latitude": 57.39393997192383,
+  "longitude": -111.98592376708984,
+  "drainage_area_gross_km2": 143.0,
+  "drainage_area_effect_km2": 143.0,
+  "province_territory": "AB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:01.463826"
+}

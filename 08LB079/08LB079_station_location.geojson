@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LB079_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LB079", "NameNom": "AVOLA CREEK (SOUTH FORK) NEAR AVOLA", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13283354.086194477975368, 6760843.419674924574792 ] } }
+]
+}

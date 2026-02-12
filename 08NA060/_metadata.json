@@ -1,0 +1,12 @@
+{
+  "station_id": "08NA060",
+  "station_name": "BRUCE CREEK NEAR WILMER",
+  "latitude": 50.56222152709961,
+  "longitude": -116.2411117553711,
+  "drainage_area_gross_km2": 80.80000305175781,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:22.842195"
+}

@@ -1,6 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-07GG001,5.01,"Same as Curve 5, only adjusted low end E Grade based on new low end mmnts",LogarithmicTable,Provisional/Provisoire,(1.42:0.619);(0.65);
-07GG001,5.000,Appears some fill has happened from 2020 highwater / April 2020 ice out period. New curve to replace compumod curve,LogarithmicTable,Final/Finales,(1.42:0.619);(0.65);
-07GG001,4.000,Extended to 3.90 m.,LinearTable,Final/Finales,
-07GG001,4.000-SC1,,LinearTable,Final/Finales,
-07GG001,3.000,,LinearTable,Final/Finales,

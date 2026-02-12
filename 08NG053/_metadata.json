@@ -1,0 +1,12 @@
+{
+  "station_id": "08NG053",
+  "station_name": "KOOTENAY RIVER NEAR SKOOKUMCHUCK",
+  "latitude": 49.91056060791016,
+  "longitude": -115.73555755615234,
+  "drainage_area_gross_km2": 7120.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:24.441810"
+}

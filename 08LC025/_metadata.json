@@ -1,0 +1,12 @@
+{
+  "station_id": "08LC025",
+  "station_name": "BLURTON CREEK NEAR MARA",
+  "latitude": 50.67916870117188,
+  "longitude": -119.04582977294922,
+  "drainage_area_gross_km2": 19.200000762939453,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:16.408748"
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LG053_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LG053", "NameNom": "WALLOPER CREEK ABOVE WALLOPER LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13419080.375344179570675, 6530639.113272421993315 ] } }
+]
+}

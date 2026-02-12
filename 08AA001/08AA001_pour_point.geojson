@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08AA001_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08AA001", "NameNom": "AISHIHIK RIVER NEAR WHITEHORSE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "YT" }, "geometry": { "type": "Point", "coordinates": [ -15257621.953336806967854, 8593935.193822519853711 ] } }
-]
-}

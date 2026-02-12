@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NL065_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NL065", "NameNom": "NICKEL PLATE LAKE NEAR HEDLEY", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13354351.431032614782453, 6342179.716302764602005 ] } }
+]
+}

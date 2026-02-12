@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07QD006_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07QD006", "NameNom": "PORTER LAKE OUTFLOW", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NT" }, "geometry": { "type": "Point", "coordinates": [ -12007914.360015273094177, 8815276.829870693385601 ] } }
+]
+}

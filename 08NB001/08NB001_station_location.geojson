@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NB001_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NB001", "NameNom": "BLAEBERRY RIVER NEAR GOLDEN", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13028899.994139214977622, 6696620.26677305996418 ] } }
+]
+}

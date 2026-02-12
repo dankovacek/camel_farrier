@@ -1,0 +1,12 @@
+{
+  "station_id": "07AG008",
+  "station_name": "GROAT CREEK NEAR WHITECOURT",
+  "latitude": 54.03253173828125,
+  "longitude": -115.8423309326172,
+  "drainage_area_gross_km2": 133.0,
+  "drainage_area_effect_km2": 133.0,
+  "province_territory": "AB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:17:59.512532"
+}

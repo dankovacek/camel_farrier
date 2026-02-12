@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "07BH001_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "07BH001", "NameNom": "ARCADIA CREEK NEAR ARCADIA", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12927254.167095875367522, 7439778.414671895094216 ] } }
-]
-}

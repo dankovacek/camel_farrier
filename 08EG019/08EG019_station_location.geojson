@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08EG019_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08EG019", "NameNom": "KITSUMKALUM RIVER BELOW ALICE CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -14331716.522689212113619, 7299871.912898096255958 ] } }
+]
+}

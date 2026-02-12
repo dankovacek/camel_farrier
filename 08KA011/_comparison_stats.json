@@ -1,0 +1,15 @@
+{
+  "station_id": "08KA011",
+  "comparisons": {
+    "v1.0.0_vs_v1.1.0": {
+      "from_version": "v1.0.0",
+      "to_version": "v1.1.0",
+      "timestamp": "2026-02-11T17:19:53.779538",
+      "jaccard_index": 0.9997,
+      "old_area_km2": 524.4363,
+      "new_area_km2": 524.4026,
+      "absolute_area_diff_km2": 0.0337,
+      "percent_area_diff": -0.01
+    }
+  }
+}

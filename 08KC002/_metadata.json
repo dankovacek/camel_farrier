@@ -1,0 +1,12 @@
+{
+  "station_id": "08KC002",
+  "station_name": "WRIGHT CREEK AT THE MOUTH",
+  "latitude": 54.09444046020508,
+  "longitude": -122.68611145019533,
+  "drainage_area_gross_km2": 181.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:14.591939"
+}

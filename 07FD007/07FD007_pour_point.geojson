@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07FD007_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07FD007", "NameNom": "POUCE COUPE RIVER BELOW HENDERSON CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13361726.347297668457031, 7531591.747587289661169 ] } }
+]
+}

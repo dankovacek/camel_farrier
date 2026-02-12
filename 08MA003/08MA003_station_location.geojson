@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08MA003_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08MA003", "NameNom": "TASEKO RIVER AT OUTLET OF TASEKO LAKES", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13762562.230161363258958, 6688610.243082892149687 ] } }
-]
-}

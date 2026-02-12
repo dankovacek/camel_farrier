@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "07FD908_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "07FD908", "NameNom": "GRIMSHAW DRAINAGE NEAR GRIMSHAW", "Status": "active", "Etat": "en service", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13091172.11728896945715, 7591666.738218935206532 ] } }
-]
-}

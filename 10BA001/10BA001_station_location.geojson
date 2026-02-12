@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "10BA001_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "10BA001", "NameNom": "TURNAGAIN RIVER ABOVE SANDPILE CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -14231606.904618820175529, 8194327.896995733492076 ] } }
-]
-}

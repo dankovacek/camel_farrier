@@ -1,0 +1,12 @@
+{
+  "station_id": "08NJ130",
+  "station_name": "ANDERSON CREEK NEAR NELSON",
+  "latitude": 49.501949310302734,
+  "longitude": -117.2612762451172,
+  "drainage_area_gross_km2": 9.06999969482422,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:26.361273"
+}

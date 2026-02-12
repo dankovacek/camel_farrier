@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH044_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NH044", "NameNom": "WILDS CREEK (NORTH FORK) NEAR WYNNDEL", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -12976469.627170491963625, 6310475.69278706703335 ] } }
+]
+}

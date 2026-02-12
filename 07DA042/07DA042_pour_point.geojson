@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07DA042_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07DA042", "NameNom": "RED CLAY CREEK NEAR THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -12403355.700355123728514, 7913478.727406048215926 ] } }
+]
+}

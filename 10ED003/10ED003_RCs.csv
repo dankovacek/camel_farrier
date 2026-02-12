@@ -1,0 +1,17 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10ED003,16.00,"Rating curve 16.00 is a 2-segment model governed by a cobble/boulder section control. The curve appears stable recently. It is subject to event-based scour/deposition and appears to exhibit progressive scour over time. All open  water measurements from 2019-2023 were used for the creation of this model. Due to the scatter around the curve  caused by the control movement, a mean-curve approach was used to develop rating curve 16.00. See rating  development notes for more details.",LogarithmicTable,Provisional/Provisoire,(1.43:0.469);(0.758);
+10ED003,15.0,Mid section shifting right,LogarithmicTable,Final/Finales,(0.82:0.5);(1.49:0.55);(0.38);
+10ED003,14.0,Mid section shifting left,LogarithmicTable,Final/Finales,(0.83:0.5);(1.49:0.55);(0.38);
+10ED003,13,test,LogarithmicTable,Provisional/Provisoire,(0.38);
+10ED003,12.0,2014 MMNTs btwn 3&4 m3/s plotting off curve 11,LogarithmicTable,Provisional/Provisoire,(0.752:0.524);(1.378:0.594);(-3.91);
+10ED003,11.0,,LogarithmicTable,Provisional/Provisoire,(0);
+10ED003,10.100,Same as Curve#10 below 1.9 Loglog for top.,LinearTable,Final/Finales,
+10ED003,10.100-SC5,,LinearTable,Final/Finales,
+10ED003,10.000,Same as Curve#8 below 1.0 and Curve#7 above 1.1m.,LinearTable,Final/Finales,
+10ED003,10.000-SC4,,LinearTable,Final/Finales,
+10ED003,9.000,Log/log used to define top end.,LinearTable,Final/Finales,
+10ED003,9.000-SC3,,LinearTable,Final/Finales,
+10ED003,9.000-SC2,,LinearTable,Final/Finales,
+10ED003,8.000,,LinearTable,Final/Finales,
+10ED003,8.000-SC1,,LinearTable,Final/Finales,
+10ED003,7.000,,LinearTable,Final/Finales,

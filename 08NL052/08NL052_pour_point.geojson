@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NL052_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NL052", "NameNom": "CHAIN LAKE AT THE OUTLET", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13389547.314436724409461, 6392782.036281703040004 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07BK004_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07BK004", "NameNom": "OTAUWAU RIVER NEAR SLAVE LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12736029.54581119120121, 7415421.974561996757984 ] } }
+]
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "08NK011",
+  "station_name": "HARTLEY CREEK NEAR FERNIE",
+  "latitude": 49.56694030761719,
+  "longitude": -115.01667022705078,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:26.804193"
+}

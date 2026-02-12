@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08ME012_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08ME012", "NameNom": "DICKEY CREEK NEAR LILLOOET", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13574487.950466128066182, 6574746.718641532585025 ] } }
+]
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "08HA001",
+  "station_name": "CHEMAINUS RIVER NEAR WESTHOLME",
+  "latitude": 48.878360748291016,
+  "longitude": -123.70464324951172,
+  "drainage_area_gross_km2": 355.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:11.420660"
+}

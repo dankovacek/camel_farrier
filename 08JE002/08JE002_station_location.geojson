@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08JE002_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08JE002", "NameNom": "PINCHI CREEK AT PINCHI LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13858163.408854626119137, 7283017.503144927322865 ] } }
+]
+}

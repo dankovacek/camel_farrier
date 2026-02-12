@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08GF009_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08GF009", "NameNom": "KINGCOME RIVER BELOW ATLATZI RIVER", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -14039191.164782648906112, 6621730.648772397078574 ] } }
+]
+}

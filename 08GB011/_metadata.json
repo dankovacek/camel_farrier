@@ -1,0 +1,12 @@
+{
+  "station_id": "08GB011",
+  "station_name": "TROUT CREEK AT OUTLET OF TROUT LAKE",
+  "latitude": 49.50056076049805,
+  "longitude": -123.88194274902344,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:11.138565"
+}

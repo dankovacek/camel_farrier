@@ -1,0 +1,12 @@
+{
+  "station_id": "08EF003",
+  "station_name": "ZYMOETZ RIVER NEAR TERRACE",
+  "latitude": 54.536109924316406,
+  "longitude": -128.45416259765625,
+  "drainage_area_gross_km2": 3080.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:09.284397"
+}

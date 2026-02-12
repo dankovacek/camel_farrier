@@ -1,0 +1,12 @@
+{
+  "station_id": "08NM154",
+  "station_name": "COLDSTREAM CREEK AT THE MOUTH",
+  "latitude": 50.22639083862305,
+  "longitude": -119.25,
+  "drainage_area_gross_km2": 205.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:29.039289"
+}

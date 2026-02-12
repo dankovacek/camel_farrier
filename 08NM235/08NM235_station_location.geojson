@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM235_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NM235", "NameNom": "RIBBLEWORTH CREEK NEAR OYAMA", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13289254.019206522032619, 6459274.665280259214342 ] } }
+]
+}

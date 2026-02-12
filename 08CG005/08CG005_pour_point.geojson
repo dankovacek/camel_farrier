@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08CG005_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08CG005", "NameNom": "MORE CREEK NEAR THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -14516274.219670288264751, 7768448.091752880252898 ] } }
+]
+}

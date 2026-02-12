@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "07SB005_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "07SB005", "NameNom": "YELLOWKNIFE RIVER AT OUTLET BLUEFISH LAKE DAM", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NT", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12720110.858627753332257, 9023020.434013528749347 ] } }
-]
-}

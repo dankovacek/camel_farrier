@@ -1,0 +1,12 @@
+{
+  "station_id": "07FD016",
+  "station_name": "SOUTH DAWSON CREEK AT THE MOUTH",
+  "latitude": 55.75638961791992,
+  "longitude": -120.25,
+  "drainage_area_gross_km2": 85.19999694824219,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:03.329983"
+}

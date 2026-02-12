@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08EE013_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08EE013", "NameNom": "BUCK CREEK AT THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -14098654.697179690003395, 7245574.745970137417316 ] } }
+]
+}

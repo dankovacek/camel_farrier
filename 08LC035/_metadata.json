@@ -1,0 +1,12 @@
+{
+  "station_id": "08LC035",
+  "station_name": "FORTUNE CREEK NEAR ARMSTRONG",
+  "latitude": 50.43833160400391,
+  "longitude": -119.14221954345705,
+  "drainage_area_gross_km2": 41.20000076293945,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:16.493725"
+}

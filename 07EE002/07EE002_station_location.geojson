@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07EE002_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07EE002", "NameNom": "PARSNIP RIVER NEAR FINLAY FORKS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13777111.687608042731881, 7528172.445593516342342 ] } }
+]
+}

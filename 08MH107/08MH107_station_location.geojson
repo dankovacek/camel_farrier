@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MH107_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MH107", "NameNom": "MURRAY CREEK NEAR MURRAYVILLE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13651788.204872976988554, 6290098.7352549796924 ] } }
+]
+}

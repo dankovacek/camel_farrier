@@ -1,0 +1,32 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08MH001,69.00,,LogarithmicTable,Provisional/Provisoire,(1.792);
+08MH001,68.000,,LogarithmicTable,Final/Finales,(0.661);
+08MH001,67.000,,LogarithmicTable,Final/Finales,(1.14);
+08MH001,66.000,,LogarithmicTable,Final/Finales,(0.968);
+08MH001,65.000,,LogarithmicTable,Final/Finales,(0.753);
+08MH001,64.000,,LogarithmicTable,Final/Finales,(-0.2);
+08MH001,63.000,,LogarithmicTable,Final/Finales,(-0.2);
+08MH001,62.000,Co-incident with Table 61.0 at and above 2.600m.,LinearTable,Final/Finales,
+08MH001,61.000,Co-incident with Table 61.0 at and above 2.800m.,LinearTable,Final/Finales,
+08MH001,60.000,coincident with table 59 at above  2.800m,LinearTable,Final/Finales,
+08MH001,59.100,coincident with table 59 at above  2.100m,LinearTable,Final/Finales,
+08MH001,59.000,coincident with table 58 at above  3.400m,LinearTable,Final/Finales,
+08MH001,58.000,coincident with table 57  at and above 3.300,LinearTable,Final/Finales,
+08MH001,57.000,,LinearTable,Final/Finales,
+08MH001,55.000,coincident#54@abv. gh.3.20m,LinearTable,Final/Finales,
+08MH001,54.000,coincident#53@abv. gh.2.80m,LinearTable,Final/Finales,
+08MH001,53.000,coincident#51@abv. gh.3.30m,LinearTable,Final/Finales,
+08MH001,52.000,,LinearTable,Final/Finales,
+08MH001,51.000,,LinearTable,Final/Finales,
+08MH001,50.000,,LinearTable,Final/Finales,
+08MH001,49.000,,LinearTable,Final/Finales,
+08MH001,48.000,,LinearTable,Final/Finales,
+08MH001,47.000,,LinearTable,Final/Finales,
+08MH001,46.000,,LinearTable,Final/Finales,
+08MH001,45.000,,LinearTable,Final/Finales,
+08MH001,44.000,,LinearTable,Final/Finales,
+08MH001,44.000-SC1,,LinearTable,Final/Finales,
+08MH001,43.000,,LinearTable,Final/Finales,
+08MH001,42.000,,LinearTable,Final/Finales,
+08MH001,41.000,,LinearTable,Final/Finales,
+08MH001,40.000,,LinearTable,Final/Finales,

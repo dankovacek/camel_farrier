@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NA063_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NA063", "NameNom": "MARION CREEK (WEST FORK) NEAR CANAL FLATS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -12900331.548247521743178, 6483066.559539651498199 ] } }
+]
+}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "07FA005_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "07FA005", "NameNom": "GRAHAM RIVER ABOVE COLT CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13620403.900833629071712, 7650492.653871268033981 ] } }
-]
-}

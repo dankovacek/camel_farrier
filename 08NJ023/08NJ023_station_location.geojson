@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ023_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NJ023", "NameNom": "SANDY CREEK NEAR NELSON", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13064110.349077127873898, 6356513.133961077779531 ] } }
+]
+}

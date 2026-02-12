@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08LC027_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08LC027", "NameNom": "SICAMOUS CREEK NEAR SICAMOUS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13243490.576541407033801, 6587753.489278769120574 ] } }
-]
-}

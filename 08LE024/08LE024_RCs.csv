@@ -1,0 +1,26 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08LE024,45.0,Rating to capture deposition on control causing a shift of mmnts to the left of the rating,LogarithmicTable,Provisional/Provisoire,(0.611);
+08LE024,44.01,Cloned Rating 44.00 - adjusted grading,LogarithmicTable,Final/Finales,(0.598);
+08LE024,44.0,,LogarithmicTable,Final/Finales,(0.598);
+08LE024,43.0,,LogarithmicTable,Final/Finales,(0.599);
+08LE024,42.0,,LogarithmicTable,Final/Finales,(0.6);
+08LE024,41.0,,LogarithmicTable,Final/Finales,(0.705);
+08LE024,40.0,,LinearTable,Final/Finales,
+08LE024,39.0,,LinearTable,Final/Finales,
+08LE024,38.0,,LinearTable,Final/Finales,
+08LE024,37.0,,LinearTable,Final/Finales,
+08LE024,36.0,,LinearTable,Final/Finales,
+08LE024,35.0,,LinearTable,Final/Finales,
+08LE024,34.0,,LinearTable,Final/Finales,
+08LE024,33.0,,LinearTable,Final/Finales,
+08LE024,32.0,,LinearTable,Final/Finales,
+08LE024,31.0,,LinearTable,Final/Finales,
+08LE024,30.0,,LinearTable,Final/Finales,
+08LE024,29.0,,LinearTable,Final/Finales,
+08LE024,28.0,,LinearTable,Final/Finales,
+08LE024,27.0,,LinearTable,Final/Finales,
+08LE024,26.0,,LinearTable,Final/Finales,
+08LE024,25.0,,LinearTable,Final/Finales,
+08LE024,24.0,,LinearTable,Final/Finales,
+08LE024,23.0,,LinearTable,Final/Finales,
+08LE024,22.0,,LinearTable,Final/Finales,

@@ -1,0 +1,12 @@
+{
+  "station_id": "08NH010",
+  "station_name": "HUGGARD CREEK NEAR WYNNDEL",
+  "latitude": 49.20138931274414,
+  "longitude": -116.52999877929688,
+  "drainage_area_gross_km2": 2.5899999141693115,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:25.128051"
+}

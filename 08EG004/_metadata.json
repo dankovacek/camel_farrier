@@ -1,0 +1,12 @@
+{
+  "station_id": "08EG004",
+  "station_name": "THULME RIVER NEAR PORT SIMPSON",
+  "latitude": 54.49166870117188,
+  "longitude": -129.99583435058594,
+  "drainage_area_gross_km2": 73.5999984741211,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:09.656343"
+}

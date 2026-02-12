@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08JD006_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08JD006", "NameNom": "DRIFTWOOD RIVER ABOVE KASTBERG CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -14101663.663015833124518, 7553633.44921944104135 ] } }
+]
+}

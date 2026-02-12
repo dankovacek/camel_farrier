@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "10UH007_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "10UH007", "NameNom": "BURTON RIVER AT BURTON LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NU" }, "geometry": { "type": "Point", "coordinates": [ -7605786.209790174849331, 9296348.929847739636898 ] } }
-]
-}

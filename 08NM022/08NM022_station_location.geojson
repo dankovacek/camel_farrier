@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM022_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NM022", "NameNom": "VERNON CREEK AT OUTLET OF SWALWELL LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13274081.172611400485039, 6453736.416711847297847 ] } }
+]
+}

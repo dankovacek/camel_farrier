@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10HB003_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10HB003", "NameNom": "WRIGLEY RIVER NEAR THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NT", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13769141.212067246437073, 9143564.318414028733969 ] } }
+]
+}

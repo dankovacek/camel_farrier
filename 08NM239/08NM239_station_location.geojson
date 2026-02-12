@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM239_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NM239", "NameNom": "MISSION CREEK BELOW B.M.I.D. INTAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13278556.216141289100051, 6420338.894454959779978 ] } }
+]
+}

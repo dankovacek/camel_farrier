@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM231_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NM231", "NameNom": "IDEAL LAKE NEAR THE OUTLET", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13257900.884624598547816, 6448155.081958958879113 ] } }
+]
+}

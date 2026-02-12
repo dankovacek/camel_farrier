@@ -1,0 +1,12 @@
+{
+  "station_id": "08LG029",
+  "station_name": "MOORE CREEK AT THE MOUTH",
+  "latitude": 50.25611114501953,
+  "longitude": -120.45333099365234,
+  "drainage_area_gross_km2": 181.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:19.296410"
+}

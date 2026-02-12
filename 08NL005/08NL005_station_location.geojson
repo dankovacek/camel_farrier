@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NL005_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NL005", "NameNom": "TULAMEEN RIVER NEAR PRINCETON", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13417527.468447612598538, 6351278.84837126173079 ] } }
+]
+}

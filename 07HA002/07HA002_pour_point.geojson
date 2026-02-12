@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07HA002_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07HA002", "NameNom": "HEART RIVER AT PEACE RIVER", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -13056276.796510003507137, 7604527.315635433420539 ] } }
+]
+}

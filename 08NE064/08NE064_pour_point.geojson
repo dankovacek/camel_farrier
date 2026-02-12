@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE064_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NE064", "NameNom": "BARCLAY CREEK NEAR FRUITVALE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13086346.41736308299005, 6290025.641809527762234 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10ED007_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10ED007", "NameNom": "BLACKSTONE RIVER AT HIGHWAY NO. 7", "Status": "active", "Etat": "en service", "ProvTerr": "NT" }, "geometry": { "type": "Point", "coordinates": [ -13680594.349505553022027, 8639603.922093164175749 ] } }
+]
+}

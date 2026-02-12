@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08KH014_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08KH014", "NameNom": "MITCHELL RIVER AT OUTLET OF MITCHELL LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13440904.56151419878006, 6954070.627020655199885 ] } }
+]
+}

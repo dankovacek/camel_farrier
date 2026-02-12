@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08EE012_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08EE012", "NameNom": "SIMPSON CREEK AT THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -14160306.770765729248524, 7325066.374188913032413 ] } }
+]
+}

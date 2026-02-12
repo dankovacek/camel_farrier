@@ -1,0 +1,7 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07AG004,9.0,Updated rating curve due to 2023 highwater events/significant bank erosion,LogarithmicTable,Provisional/Provisoire,(2.643464267571514:0.99);(1.28);
+07AG004,8.01,Extended for June 2023 high water,LogarithmicTable,Final/Finales,(3.39:0.996);(1.28);
+07AG004,8.0,Modification to high end with 20200704 mmt. Curve with 2 segments: channel control and overflow left bank/channel control. Used of 12 mmt for the first segment and 2 mmt for the high end. Estimated below 7m3/s. modification to high end with 20200704 mmt,LogarithmicTable,Final/Finales,(3.39:0.996);(1.28);
+07AG004,7.0,Curve with 2 segments: channel control and overflow left bank/channel control. Used of 12 mmt for the first segment and 2 mmt for the high end. Estimated below 7m3/s,LogarithmicTable,Final/Finales,(3.39:0.996);(1.28);
+07AG004,6.0,Same as Curve No. 5 above 1.79m.,LinearTable,Final/Finales,
+07AG004,5.0,,LinearTable,Final/Finales,

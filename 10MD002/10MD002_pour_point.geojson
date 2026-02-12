@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "10MD002_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "10MD002", "NameNom": "BABBAGE RIVER BELOW CARIBOU CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "YT" }, "geometry": { "type": "Point", "coordinates": [ -15436575.827151348814368, 10701333.578870512545109 ] } }
-]
-}

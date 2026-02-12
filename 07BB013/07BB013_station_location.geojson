@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07BB013_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07BB013", "NameNom": "PADDLE RIVER AT HIGHWAY NO. 764", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12765006.00926467962563, 7179314.736075684428215 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM014_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NM014", "NameNom": "MCDOUGALL CREEK NEAR WESTBANK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13312575.452527713030577, 6425376.449937038123608 ] } }
+]
+}

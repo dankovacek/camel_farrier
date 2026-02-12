@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07AG003_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07AG003", "NameNom": "WOLF CREEK AT HIGHWAY NO. 16A", "Status": "active", "Etat": "en service", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12943317.569617347791791, 7094452.605974276550114 ] } }
+]
+}

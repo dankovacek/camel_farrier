@@ -1,0 +1,12 @@
+{
+  "station_id": "08HF007",
+  "station_name": "RUSSELL CREEK NEAR THE MOUTH",
+  "latitude": 50.3247184753418,
+  "longitude": -126.41944122314452,
+  "drainage_area_gross_km2": 32.599998474121094,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:13.790242"
+}

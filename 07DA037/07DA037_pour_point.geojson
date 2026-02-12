@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07DA037_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07DA037", "NameNom": "TAR RIVER ABOVE CANADIAN NATURAL RESOURCES LIMITED LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -12466218.930000994354486, 7840948.751479526981711 ] } }
+]
+}

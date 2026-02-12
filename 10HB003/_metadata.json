@@ -1,0 +1,12 @@
+{
+  "station_id": "10HB003",
+  "station_name": "WRIGLEY RIVER NEAR THE MOUTH",
+  "latitude": 63.17610931396485,
+  "longitude": -123.69027709960938,
+  "drainage_area_gross_km2": 1230.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "NT",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:33.680176"
+}

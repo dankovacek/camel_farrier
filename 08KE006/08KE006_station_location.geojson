@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08KE006_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08KE006", "NameNom": "AUSTRALIAN CREEK AT AUSTRALIAN", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13630303.543149875476956, 6931576.514905283227563 ] } }
+]
+}

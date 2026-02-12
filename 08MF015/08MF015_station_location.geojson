@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MF015_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MF015", "NameNom": "TEXAS CREEK NEAR LILLOOET", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13561964.507751883938909, 6544023.302040417678654 ] } }
+]
+}

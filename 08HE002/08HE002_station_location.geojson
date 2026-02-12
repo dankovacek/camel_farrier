@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HE002_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HE002", "NameNom": "MARBLE RIVER AT OUTLET OF VICTORIA LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -14182537.273077145218849, 6521128.925718433223665 ] } }
+]
+}

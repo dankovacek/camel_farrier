@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LF024_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LF024", "NameNom": "TRANQUILLE RIVER NEAR KAMLOOPS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13415857.676085714250803, 6574746.718641532585025 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE085_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NE085", "NameNom": "SYRINGA CREEK NEAR SYRINGA CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13121454.358369465917349, 6333464.610283385030925 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HB011_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HB011", "NameNom": "TSOLUM RIVER NEAR COURTENAY", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13916216.523303320631385, 6395490.947870709002018 ] } }
+]
+}

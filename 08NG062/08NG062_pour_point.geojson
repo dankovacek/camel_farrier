@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NG062_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NG062", "NameNom": "LITTLE BULL CREEK NEAR BULL RIVER", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -12851632.610610188916326, 6360814.679965568706393 ] } }
+]
+}

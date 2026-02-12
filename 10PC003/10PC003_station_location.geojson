@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10PC003_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10PC003", "NameNom": "COPPERMINE RIVER ABOVE BLOODY FALLS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NU", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12843887.000440794974566, 10370247.436679270118475 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LA029_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LA029", "NameNom": "JUDSON CREEK NEAR THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13447272.036387573927641, 6722746.26928164344281 ] } }
+]
+}

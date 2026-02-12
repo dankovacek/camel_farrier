@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM183_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NM183", "NameNom": "KALAMALKA LAKE AT OUTLET OF OYAMA CANAL", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13276920.932821534574032, 6486372.277615292929113 ] } }
+]
+}

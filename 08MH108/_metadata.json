@@ -1,0 +1,12 @@
+{
+  "station_id": "08MH108",
+  "station_name": "JACOBS CREEK ABOVE JACOBS LAKE",
+  "latitude": 49.31888961791992,
+  "longitude": -122.54694366455078,
+  "drainage_area_gross_km2": 12.199999809265137,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:22.106428"
+}

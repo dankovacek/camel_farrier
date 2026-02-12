@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LF015_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LF015", "NameNom": "HAT CREEK NEAR CACHE CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13516445.967966513708234, 6600877.896853903308511 ] } }
+]
+}

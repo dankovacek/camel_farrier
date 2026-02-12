@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MH088_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MH088", "NameNom": "SAAR CREEK NEAR UPPER SUMAS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13601939.336895748972893, 6277783.772982550784945 ] } }
+]
+}

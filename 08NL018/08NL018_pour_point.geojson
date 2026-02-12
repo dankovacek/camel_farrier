@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08NL018_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08NL018", "NameNom": "HAYES CREEK NEAR JURA", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13404291.580992290750146, 6364348.396382443606853 ] } }
-]
-}

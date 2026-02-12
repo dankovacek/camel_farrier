@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MH108_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MH108", "NameNom": "JACOBS CREEK ABOVE JACOBS LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13641928.637573415413499, 6329153.136871914379299 ] } }
+]
+}

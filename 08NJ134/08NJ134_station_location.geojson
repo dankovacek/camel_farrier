@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ134_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NJ134", "NameNom": "CODY CREEK NEAR SANDON", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13046020.931823220103979, 6440985.068462898023427 ] } }
+]
+}

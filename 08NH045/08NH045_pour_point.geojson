@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH045_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NH045", "NameNom": "SIRDAR CREEK AT SIRDAR", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -12982043.394074510782957, 6316141.586970619857311 ] } }
+]
+}

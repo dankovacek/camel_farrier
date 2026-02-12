@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07DA007_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07DA007", "NameNom": "POPLAR CREEK NEAR FORT MCMURRAY", "Status": "active", "Etat": "en service", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12407670.443818271160126, 7742428.748355276882648 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH041_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NH041", "NameNom": "MUNN CREEK NEAR AINSWORTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13014795.814655708149076, 6400747.775894488207996 ] } }
+]
+}

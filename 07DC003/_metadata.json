@@ -1,0 +1,12 @@
+{
+  "station_id": "07DC003",
+  "station_name": "FIREBAG RIVER UPSTREAM OF SUNCOR FIREBAG",
+  "latitude": 57.33496856689453,
+  "longitude": -110.47364044189452,
+  "drainage_area_gross_km2": 2420.0,
+  "drainage_area_effect_km2": 2420.0,
+  "province_territory": "AB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:01.895103"
+}

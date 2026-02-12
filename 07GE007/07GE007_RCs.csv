@@ -1,0 +1,4 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07GE007,6.0,"Two segment curve representing channel, and overbank flow. The lower end of the curve is more ambiguous due to dense vegetation and beaver damming in the channel causing scatter. The range of stage covers 1.854m to 4.843m.",LogarithmicTable,Provisional/Provisoire,(3.7294:1.85);(2.4);
+07GE007,5.0,,LinearTable,Final/Finales,
+07GE007,4.0,,LinearTable,Final/Finales,

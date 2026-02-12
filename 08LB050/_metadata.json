@@ -1,0 +1,12 @@
+{
+  "station_id": "08LB050",
+  "station_name": "MANN CREEK NEAR BLACKPOOL",
+  "latitude": 51.57611083984375,
+  "longitude": -120.1383285522461,
+  "drainage_area_gross_km2": 295.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:15.838982"
+}

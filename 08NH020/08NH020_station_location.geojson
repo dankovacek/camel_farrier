@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH020_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NH020", "NameNom": "MCGREGOR CREEK NEAR CRAWFORD BAY", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12998031.099342240020633, 6350994.618719097226858 ] } }
+]
+}

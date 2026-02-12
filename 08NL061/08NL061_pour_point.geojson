@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NL061_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NL061", "NameNom": "DAVIS LAKE NEAR THALIA", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13439309.35321113280952, 6421758.151505864225328 ] } }
+]
+}

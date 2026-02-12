@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LG029_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LG029", "NameNom": "MOORE CREEK AT THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13408978.131554689258337, 6490703.020747270435095 ] } }
+]
+}

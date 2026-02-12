@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08LE092_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08LE092", "NameNom": "GORDON CREEK ABOVE DIVERSIONS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13289656.995763195678592, 6561446.110592603683472 ] } }
-]
-}

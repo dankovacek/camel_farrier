@@ -1,0 +1,12 @@
+{
+  "station_id": "10UH006",
+  "station_name": "ARMSHOW NORTH RIVER AT OUTLET ARMSHOW NORTH LAKE",
+  "latitude": 63.630859375,
+  "longitude": -69.03861999511719,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "NU",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:35.292461"
+}

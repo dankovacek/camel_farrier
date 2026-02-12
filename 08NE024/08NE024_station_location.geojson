@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE024_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NE024", "NameNom": "MCQUARRIE CREEK NEAR TRAIL", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13102092.559335792437196, 6292555.383165790699422 ] } }
+]
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "07FD009",
+  "station_name": "CLEAR RIVER NEAR BEAR CANYON",
+  "latitude": 56.30783081054688,
+  "longitude": -119.68049621582033,
+  "drainage_area_gross_km2": 2880.0,
+  "drainage_area_effect_km2": 2880.0,
+  "province_territory": "AB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:03.152166"
+}

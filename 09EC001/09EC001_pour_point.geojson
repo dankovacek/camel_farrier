@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09EC001_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "09EC001", "NameNom": "CLINTON CREEK ABOVE WOLVERINE CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "YT" }, "geometry": { "type": "Point", "coordinates": [ -15663283.536126390099525, 9464673.716779626905918 ] } }
+]
+}

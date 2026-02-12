@@ -1,0 +1,4 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07OB003,7.0,Two segment curve with transition from section control to channel control between 4.3 m and 4.8 m.,LogarithmicTable,Provisional/Provisoire,(4.55:2.75);(3.65);
+07OB003,6.001,Clone of 6.0 to circumvent locked shift . Renamed to 6.001,LinearTable,Final/Finales,
+07OB003,6.0,,LinearTable,Final/Finales,

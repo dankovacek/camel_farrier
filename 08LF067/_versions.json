@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Version history for station data",
+  "station_id": "08LF067",
+  "versions": [
+    {
+      "semantic_tag": "v1.0.0",
+      "timestamp": "2026-02-11T17:18:18.601979",
+      "data_source": "WSC_basins",
+      "polygon_file": "08LF067_polygon_v1.0.0.geojson",
+      "source_metadata": {
+        "StationNum": "08LF067",
+        "NameNom": "BARNARD CREEK NEAR ASHCROFT",
+        "Status": "discontinued",
+        "Etat": "ferm\u00e9e",
+        "Area_km2": "26.2692",
+        "Aire_km2": "26.2692",
+        "Version": "Prerelease/Pr\u00e9liminaire",
+        "Date": "2021-12-17"
+      }
+    },
+    {
+      "semantic_tag": "v1.1.0",
+      "timestamp": "2026-02-11T17:19:57.757948",
+      "data_source": "HYDAT_polygons",
+      "polygon_file": "08LF067_polygon_v1.1.0.geojson",
+      "source_metadata": {
+        "StationNum": "08LF067",
+        "NameNom": "BARNARD CREEK NEAR ASHCROFT",
+        "Status": "discontinued",
+        "Etat": "ferm\u00e9e",
+        "Area_km2": 26.5005,
+        "Aire_km2": 26.5005,
+        "Remark": null,
+        "Remarque": null,
+        "Version": "June 2024 / juin 2024",
+        "Date_rev": "2024-06-01",
+        "Shape_Leng": 35700.0,
+        "Shape_Area": 26500500.0
+      }
+    }
+  ],
+  "schema_version": "1.0.0",
+  "current_version": "v1.1.0",
+  "version_count": 2,
+  "first_committed": "2026-02-11T17:18:18.601979",
+  "last_updated": "2026-02-11T17:19:57.757948",
+  "comparisons": {
+    "v1.0.0_vs_v1.1.0": {
+      "computed_at": "2026-02-11T17:19:57.757948",
+      "jaccard_index": 0.9876,
+      "old_area_km2": 26.2692,
+      "new_area_km2": 26.5008,
+      "absolute_area_diff_km2": 0.2316,
+      "percent_area_diff": 0.88
+    }
+  }
+}

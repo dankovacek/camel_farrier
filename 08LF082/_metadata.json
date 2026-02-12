@@ -1,0 +1,12 @@
+{
+  "station_id": "08LF082",
+  "station_name": "MEDICINE CREEK NEAR THE MOUTH",
+  "latitude": 50.75917053222656,
+  "longitude": -121.5561065673828,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:18.686588"
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NG076_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NG076", "NameNom": "MATHER CREEK BELOW HOULE CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12901561.628620788455009, 6396833.681651512160897 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LF097_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LF097", "NameNom": "BONAPARTE RIVER BELOW BONAPARTE LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13433824.64189974591136, 6671170.275722481310368 ] } }
+]
+}

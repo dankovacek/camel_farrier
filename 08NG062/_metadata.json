@@ -1,0 +1,12 @@
+{
+  "station_id": "08NG062",
+  "station_name": "LITTLE BULL CREEK NEAR BULL RIVER",
+  "latitude": 49.50667190551758,
+  "longitude": -115.4477767944336,
+  "drainage_area_gross_km2": 16.799999237060547,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:24.621663"
+}

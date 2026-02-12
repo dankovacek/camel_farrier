@@ -1,0 +1,12 @@
+{
+  "station_id": "08EC007",
+  "station_name": "FULTON LAKE NEAR SMITHERS",
+  "latitude": 54.80416870117188,
+  "longitude": -126.21111297607422,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:08.529376"
+}

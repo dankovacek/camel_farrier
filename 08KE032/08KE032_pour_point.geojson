@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08KE032_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08KE032", "NameNom": "TABOR CREEK ABOVE SWEDE CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13644565.796310309320688, 7144167.766322928480804 ] } }
-]
-}

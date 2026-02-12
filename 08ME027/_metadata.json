@@ -1,0 +1,12 @@
+{
+  "station_id": "08ME027",
+  "station_name": "HURLEY RIVER BELOW LONE GOAT CREEK",
+  "latitude": 50.73088836669922,
+  "longitude": -122.9420166015625,
+  "drainage_area_gross_km2": 312.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:20.152497"
+}

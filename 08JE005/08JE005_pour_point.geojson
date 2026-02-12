@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08JE005_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08JE005", "NameNom": "KAZCHEK CREEK NEAR THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13930385.268091484904289, 7342526.817705038934946 ] } }
-]
-}

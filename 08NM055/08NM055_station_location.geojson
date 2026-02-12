@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM055_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NM055", "NameNom": "TROUT CREEK SUMMERLAND DIVERSION", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13332112.023161932826042, 6377146.360159748233855 ] } }
+]
+}

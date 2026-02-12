@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07GB001_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07GB001", "NameNom": "CUTBANK RIVER NEAR GRANDE PRAIRIE", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -13242986.299248114228249, 7268475.324716062285006 ] } }
+]
+}

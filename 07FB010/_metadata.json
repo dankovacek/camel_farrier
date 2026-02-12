@@ -1,0 +1,12 @@
+{
+  "station_id": "07FB010",
+  "station_name": "PINE RIVER ABOVE MOUNTAIN CREEK",
+  "latitude": 55.508331298828125,
+  "longitude": -122.57472229003906,
+  "drainage_area_gross_km2": 677.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:02.910139"
+}

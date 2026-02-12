@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07JD002_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07JD002", "NameNom": "WABASCA RIVER AT HIGHWAY NO. 88", "Status": "active", "Etat": "en service", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12845055.855094123631716, 7941027.195631488226354 ] } }
+]
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "07GB001",
+  "station_name": "CUTBANK RIVER NEAR GRANDE PRAIRIE",
+  "latitude": 54.51568984985352,
+  "longitude": -118.96311950683594,
+  "drainage_area_gross_km2": 842.0,
+  "drainage_area_effect_km2": 842.0,
+  "province_territory": "AB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:03.362310"
+}

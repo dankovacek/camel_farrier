@@ -1,0 +1,8 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07CA012,8.02,Extending rating 8.01 to model low stage heights reached in 2025.,LogarithmicTable,Provisional/Provisoire,(7.17:6.59);(6);
+07CA012,8.01,8.00 extended and estimated region added at 2x highest measurement.,LogarithmicTable,Final/Finales,(7.17:6.59);(6);
+07CA012,8.0,NEW curve.  Scour evident curve 7 on low end.,LogarithmicTable,Final/Finales,(7.17:6.59);(6);
+07CA012,7.0,HQFIT1.0,LinearTable,Final/Finales,
+07CA012,6.0,same as 5 above 7.3,LinearTable,Final/Finales,
+07CA012,5.0,,LinearTable,Final/Finales,
+07CA012,4.0,,LinearTable,Final/Finales,

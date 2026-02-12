@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08LE048_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08LE048", "NameNom": "NISKONLITH CREEK (INDIAN DIVERSION) NEAR SHUSWAP", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13333253.047942563891411, 6579263.05017374176532 ] } }
-]
-}

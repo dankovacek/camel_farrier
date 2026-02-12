@@ -1,0 +1,12 @@
+{
+  "station_id": "08EG006",
+  "station_name": "KITSUMKALUM RIVER NEAR TERRACE",
+  "latitude": 54.581939697265625,
+  "longitude": -128.6602783203125,
+  "drainage_area_gross_km2": 2180.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:09.684919"
+}

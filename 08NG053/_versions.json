@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Version history for station data",
+  "station_id": "08NG053",
+  "versions": [
+    {
+      "semantic_tag": "v1.0.0",
+      "timestamp": "2026-02-11T17:18:24.443154",
+      "data_source": "WSC_basins",
+      "polygon_file": "08NG053_polygon_v1.0.0.geojson",
+      "source_metadata": {
+        "StationNum": "08NG053",
+        "NameNom": "KOOTENAY RIVER NEAR SKOOKUMCHUCK",
+        "Status": "discontinued",
+        "Etat": "ferm\u00e9e",
+        "Area_km2": "7212.92",
+        "Aire_km2": "7212.92",
+        "Version": "Prerelease/Pr\u00e9liminaire",
+        "Date": "2021-12-17"
+      }
+    },
+    {
+      "semantic_tag": "v1.1.0",
+      "timestamp": "2026-02-11T17:20:03.120258",
+      "data_source": "HYDAT_polygons",
+      "polygon_file": "08NG053_polygon_v1.1.0.geojson",
+      "source_metadata": {
+        "StationNum": "08NG053",
+        "NameNom": "KOOTENAY RIVER NEAR SKOOKUMCHUCK",
+        "Status": "discontinued",
+        "Etat": "ferm\u00e9e",
+        "Area_km2": 7214.08,
+        "Aire_km2": 7214.08,
+        "Remark": null,
+        "Remarque": null,
+        "Version": "June 2024 / juin 2024",
+        "Date_rev": "2024-06-01",
+        "Shape_Leng": 1009500.0,
+        "Shape_Area": 7214078700.0
+      }
+    }
+  ],
+  "schema_version": "1.0.0",
+  "current_version": "v1.1.0",
+  "version_count": 2,
+  "first_committed": "2026-02-11T17:18:24.443154",
+  "last_updated": "2026-02-11T17:20:03.120258",
+  "comparisons": {
+    "v1.0.0_vs_v1.1.0": {
+      "computed_at": "2026-02-11T17:20:03.120258",
+      "jaccard_index": 0.9997,
+      "old_area_km2": 7212.9186,
+      "new_area_km2": 7214.0791,
+      "absolute_area_diff_km2": 1.1605,
+      "percent_area_diff": 0.02
+    }
+  }
+}

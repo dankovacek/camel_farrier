@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08HB014_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08HB014", "NameNom": "SARITA RIVER NEAR BAMFIELD", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13911553.349833987653255, 6256599.903715209104121 ] } }
-]
-}

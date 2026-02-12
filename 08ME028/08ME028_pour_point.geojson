@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08ME028_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08ME028", "NameNom": "BRIDGE RIVER ABOVE DOWNTON LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13714909.695737486705184, 6589726.807139811106026 ] } }
+]
+}

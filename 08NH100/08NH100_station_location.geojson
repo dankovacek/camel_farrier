@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08NH100_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08NH100", "NameNom": "SUMMIT CREEK NEAR CRESTON", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12985886.142896695062518, 6299170.636779844760895 ] } }
-]
-}

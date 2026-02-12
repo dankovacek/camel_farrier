@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MH005_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MH005", "NameNom": "ALOUETTE RIVER NEAR HANEY", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13645563.218947818502784, 6315534.588090918958187 ] } }
+]
+}

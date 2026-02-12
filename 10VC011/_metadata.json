@@ -1,0 +1,12 @@
+{
+  "station_id": "10VC011",
+  "station_name": "ABBOTT RIVER ABOVE MIDSHIPMAN BAY",
+  "latitude": 75.23332977294922,
+  "longitude": -95.6833267211914,
+  "drainage_area_gross_km2": 191.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "NU",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:35.401743"
+}

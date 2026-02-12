@@ -1,0 +1,12 @@
+{
+  "station_id": "08NL052",
+  "station_name": "CHAIN LAKE AT THE OUTLET",
+  "latitude": 49.69110870361328,
+  "longitude": -120.28028106689452,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:27.759064"
+}

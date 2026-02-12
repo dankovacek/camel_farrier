@@ -1,0 +1,92 @@
+Station ID/Identification de la station,Correction Type/Type de correction,Data Type/Type de données,Start Time (UTC)/Heure de début (TUC),End Time (UTC)/Heure de fin (TUC),Applied Time (UTC)/Temps appliqué (TUC),Timezone Offset/Décalage Horaire,Comment/Commentaire,Settings/Paramètre,Parameters Processing Order/Ordre d'application des paramètres
+10LB007,DeleteRegion,HG,2026-01-01T07:00:00,2026-05-15T19:00:00,2026-01-05T15:48:57,-7,seasonal - temp end date,,Normal
+10LB007,DeleteRegion,HG,2025-11-20T07:00:00,2026-01-01T06:59:59,2025-11-06T22:34:55,-7,Seasonal status.  6 months total data required,,Normal
+10LB007,CopyPaste,QR,2025-10-17T17:45:00,2025-11-20T06:20:00,2025-12-22T22:16:24,-7,"Started recession here as this seems to be a transition point where the trends change.  Prior to this point stage readings overall declining, after this point it start to flatten out and become increasingly unrelated to actual conditions.Override: Log Linear‌Q(t) = 0.12845929485265903e^(-0.09683046721920466t)‌",,Normal
+10LB007,CopyPaste,QR,2025-10-16T01:40:00,2025-10-17T11:25:00,2025-12-22T22:15:10,-7,Override: Freehand‌,,Normal
+10LB007,CopyPaste,QR,2025-10-12T11:35:00,2025-10-14T07:10:00,2025-12-22T22:14:16,-7,Override: Freehand‌,,Normal
+10LB007,CopyPaste,QR,2025-10-06T11:00:00,2025-10-07T11:55:00,2025-12-22T22:10:35,-7,Override: Freehand‌,,Normal
+10LB007,AdjustableTrim,HG,2025-09-19T07:00:00,2025-09-19T07:25:00,2025-09-19T18:41:25,-7,Appears to be a tx issue,"LowerThresholdPoints:(Time:2025-09-19T07:00:00Z,Value:7.0637705959788475);(Time:2025-09-19T07:25:00Z,Value:7.0637705959788475),TrimAction:Delete",Normal
+10LB007,CopyPaste,HG,2025-07-12T01:00:00,2025-09-18T21:35:00,2025-09-19T18:40:39,-7,"RFT - tx gap fillOverride: Copy & Paste‌Source Data Set: Stage.Logger@10LB007, time shift: 00:00 minutes.‌",,PreProcessing
+10LB007,CopyPaste,HG,2025-05-24T16:55:00,2025-07-12T00:55:00,2025-07-14T22:22:11,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LB007, time shift: 00:00 minutes.‌",,PreProcessing
+10LB007,Drift,HG,2025-05-24T16:55:00,2025-07-12T00:25:00,2025-07-14T22:27:35,-7,SRC- VISIT TO VISIT,"DriftPoints:(Offset:0,Time:2025-05-24T16:55:00Z);(Offset:-0.021,Time:2025-07-12T00:25:00Z)",Normal
+10LB007,CopyPaste,QR,2025-05-22T18:20:00,2025-05-22T19:25:00,2025-12-22T21:42:53,-7,Removed spike caused by ice dam.Override: Linear‌Q(t) = (5.8580627529285305)t + 12.818875940326452‌,,Normal
+10LB007,CopyPaste,QR,2025-05-20T19:10:00,2025-05-22T13:55:00,2025-12-22T20:56:02,-7,Reduced discharge due to suspected increase in stage from ice conditions.Override: Log Linear‌Q(t) = 9.593175682604468e^(0.12852499834192677t)‌,,Normal
+10LB007,Drift,QR,2025-05-20T00:05:00,2025-05-20T20:10:00,2025-12-22T21:37:31,-7,"Reduced discharge to match override recessionsDrift correction settings:‌Timestamp 1: 2025-05-19 17:05:00, Offset 1: -0.7966166902641731‌Timestamp 2: 2025-05-20 13:10:00, Offset 2: -0.6419883330201621‌","DriftPoints:(Offset:-0.7966166902641731,Time:2025-05-20T00:05:00Z);(Offset:-0.6419883330201621,Time:2025-05-20T20:10:00Z)",Normal
+10LB007,CopyPaste,QR,2025-05-20T00:05:00,2025-05-20T20:10:00,2025-12-22T21:38:26,-7,Override: Moving Average Filter‌Window: 10.‌Iterations: 2.‌,,Normal
+10LB007,CopyPaste,QR,2025-05-18T07:05:00,2025-05-20T00:45:00,2025-12-22T21:21:49,-7,Reduced discharge due to backwater conditions from ice at gauging location.Override: Log Linear‌Q(t) = 2.2057815731361687e^(0.5310100174578183t)‌,,Normal
+10LB007,Offset,HG,2025-01-01T07:00:00,2025-05-24T16:55:34,2025-10-08T20:11:09,-7,Suspected OM from Oct 2024.,Offset:0.019,Normal
+10LB007,DeleteRegion,HG,2025-01-01T07:00:00,2025-05-18T07:00:00,2025-10-22T16:51:32,-7,DR - Removing stage data outside of operating period.,,Normal
+10LB007,DeleteRegion,HG,2024-11-18T07:00:00,2025-01-01T06:59:59,2024-11-25T19:54:13,-7,seasonal station - removed stage to end of year,,Normal
+10LB007,CopyPaste,HG,2024-10-15T13:00:00,2024-11-18T06:55:00,2025-10-08T16:56:29,-7,"Copy and paste from stage logger to fill various missing telemetry gapsOverride: Copy & Paste‌Source Data Set: Stage.Logger@10LB007, time shift: 00:00 minutes.‌",,PreProcessing
+10LB007,CopyPaste,HG,2024-10-11T18:00:00,2024-10-11T19:05:00,2025-10-08T16:55:19,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LB007, time shift: 00:00 minutes.‌",,PreProcessing
+10LB007,CopyPaste,HG,2024-10-10T14:15:00,2024-10-11T06:15:00,2025-10-08T16:54:37,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LB007, time shift: 00:00 minutes.‌",,PreProcessing
+10LB007,CopyPaste,HG,2024-10-07T11:00:00,2024-10-07T12:05:00,2025-10-08T16:53:54,-7,"Missing telemetryOverride: Copy & Paste‌Source Data Set: Stage.Logger@10LB007, time shift: 00:00 minutes.‌",,PreProcessing
+10LB007,CopyPaste,HG,2024-10-06T23:00:00,2024-10-07T00:05:00,2025-10-08T16:52:28,-7,"Missing telemetryOverride: Copy & Paste‌Source Data Set: Stage.Logger@10LB007, time shift: 00:00 minutes.‌",,PreProcessing
+10LB007,Offset,HG,2024-10-05T21:50:00,2025-01-01T06:59:59,2025-10-08T17:16:35,-7,Suspected OM.  14:45 7.363 -14:50 7.343 =0.020.  Reduced to 0.019 for the trend in stage prior to and after the movement.,Offset:0.019,Normal
+10LB007,CopyPaste,QR,2024-10-04T07:00:00,2024-11-18T06:55:00,2025-10-08T20:26:04,-7,Backwater conditions due to ice.Override: Log Linear‌Q(t) = 0.3897302074033948e^(-0.04407934807131776t)‌,,Normal
+10LB007,CopyPaste,QR,2024-10-03T18:00:00,2024-10-04T07:30:00,2025-10-08T20:25:07,-7,Override: Freehand‌,,Normal
+10LB007,AdjustableTrim,QR,2024-10-03T02:20:00,2025-05-01T07:00:00,2025-10-08T20:22:20,-7,,"UpperThresholdPoints:(Time:2024-10-03T02:20:00Z,Value:0.6037838109043956);(Time:2025-05-01T07:00:00Z,Value:0.6037838109043956),TrimAction:Delete",Normal
+10LB007,CopyPaste,HG,2024-07-22T10:55:00,2024-07-22T11:40:00,2025-10-22T16:27:20,-7,"Copy Paste Tx GapOverride: Copy & Paste‌Source Data Set: Stage.Logger@10LB007, time shift: 00:00 minutes.‌",,PreProcessing
+10LB007,Drift,HG,2024-07-13T16:40:00,2025-05-24T16:55:00,2025-10-07T21:45:25,-7,"SRC-DWL/DWL.  Applied the correction through freeze up as fall visit in 2024 was missed.  May not be the most accurate way to apply the correction but given the information and methods known to tech it seemed reasonable to apply it this way in an attempt to keep the fall stage in 2024.  Reduced found SRC from 0.035m to 0.016m due to the suspected OM in Oct of 2024.Drift correction settings:‌Timestamp 1: 2024-07-13 09:40:00, Offset 1: 0‌Timestamp 2: 2025-05-24 09:55:00, Offset 2: 0.016‌","DriftPoints:(Offset:0,Time:2024-07-13T16:40:00Z);(Offset:0.016,Time:2025-05-24T16:55:00Z)",Normal
+10LB007,Offset,HG,2024-05-19T03:25:00,2024-07-13T16:35:00,2024-05-27T19:40:50,-7,Possible OM.  Estimated offset correction until next visit.,Offset:-0.125,Normal
+10LB007,Drift,HG,2024-05-17T18:50:00,2024-07-13T16:35:00,2024-07-15T17:57:39,-7,SRC - visit to visit,"DriftPoints:(Offset:0,Time:2024-05-17T18:50:00Z);(Offset:-0.04,Time:2024-07-13T16:35:00Z)",Normal
+10LB007,CopyPaste,HG,2024-05-17T18:50:00,2024-07-13T16:35:00,2024-07-15T17:58:20,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LB007, time shift: 00:00 minutes.‌",,PreProcessing
+10LB007,DeleteRegion,QR,2024-05-13T00:40:00,2024-05-17T15:25:00,2025-10-22T18:19:03,-7,"DR - Backwater affected data, no confirming measurement or shift profile.",,Normal
+10LB007,Offset,HG,2024-05-13T00:40:00,2024-05-17T18:35:00,2025-10-22T16:54:41,-7,SRC - Offset correction to DWL,Offset:0.1,Normal
+10LB007,DeleteRegion,HG,2024-01-01T07:00:00,2024-05-13T00:35:00,2025-10-22T16:53:42,-7,DR - Deleting Seasonal Record outside of operating period.,,Normal
+10LB007,DeleteRegion,HG,2023-12-01T07:00:00,2024-01-01T06:59:59,2023-11-01T20:33:29,-7,Seasonal Station,,Normal
+10LB007,CopyPaste,QR,2023-10-02T13:55:00,2023-10-25T10:10:00,2024-06-26T19:32:28,-7,Removed spikes in stage and resultant Q from backwater conditions due to ice.Override: Log Linear‌Q(t) = 0.2779679033649042e^(-0.03586907374240123t)‌,,Normal
+10LB007,Offset,QR,2023-10-02T13:55:00,2023-10-25T10:10:00,2024-06-27T20:18:22,-7,Applied offset correction to override as shift change after correction applied.,Offset:0.007,Normal
+10LB007,CopyPaste,HG,2023-09-21T16:52:00,2024-05-17T18:35:00,2024-05-21T16:06:24,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LB007, time shift: 00:00 minutes.‌",,PreProcessing
+10LB007,DeleteRegion,HG,2023-07-07T08:35:00,2023-07-07T08:35:00,2023-07-12T14:21:28,-7,TX Error,,Normal
+10LB007,Offset,HG,2023-05-23T21:05:00,2023-05-24T00:40:00,2023-09-22T23:34:00,-7,"OM - Reviewed June 26 2024 L Nixon, unlikely to be an OM as gauge return to trend observed prior to change in data.  Tren of data in correctin matches trends on prior to and after correction.  Left the correction in place.  Estimated value of correction used to match before and after trends.",Offset:-0.02,Normal
+10LB007,DeleteRegion,HG,2023-05-22T14:40:00,2023-05-22T21:20:00,2024-06-26T20:30:50,-7,"Something affecting sensor, cause unknown.  Deleted data instead of applying an offset like the other correction May 23rd as this one does not match the trends of the data before and after.  Showing some sort of recession.  ",,Normal
+10LB007,Offset,HG,2023-05-22T14:40:00,2023-05-22T21:20:00,2023-09-22T23:30:44,-7,OM,Offset:-0.015,Normal
+10LB007,CopyPaste,QR,2023-05-22T14:35:00,2023-05-22T21:25:00,2024-06-26T20:33:05,-7,filled gap from removal of stageOverride: Linear‌Q(t) = (-1.7073644785799145)t + 28.63194025019309‌,,PreProcessing
+10LB007,Offset,HG,2023-05-16T16:45:00,2023-05-16T17:00:00,2024-11-27T18:18:03,-7,"OC - Offset Correction - Second Reset, first did not take",Offset:0.015,Normal
+10LB007,Drift,HG,2023-05-16T16:45:00,2023-09-21T16:40:00,2023-09-22T23:28:08,-7,"SRC - VISIT TO VISIT (Gauge was reset, however a slight visual correction is applied to bring it in line with trend in data) Logger is an FTS logger which does not allow for manual calibration, this type of logger performs poorly during high surge environments.","DriftPoints:(Offset:-0.005,Time:2023-05-16T16:45:00Z);(Offset:-0.072,Time:2023-09-21T16:40:00Z)",Normal
+10LB007,CopyPaste,HG,2023-05-16T07:00:00,2023-09-21T17:05:00,2023-09-22T23:23:53,-7,"OC - GAP FILLOverride: Copy & Paste‌Source Data Set: Stage.Logger@10LB007, time shift: 00:00 minutes.‌",,PreProcessing
+10LB007,DeleteRegion,HG,2023-02-10T06:10:00,2023-05-13T00:35:00,2023-05-04T16:41:51,-7,"line frozen then reading error, thawed approx 17:30 deleted a few pointsto make sure the sensor was clear.",,Normal
+10LB007,Offset,HG,2023-01-01T07:00:00,2024-01-01T06:59:59,2024-06-26T20:38:49,-7,Gauge correction for movement of control BM,Offset:0.017,Normal
+10LB007,DeleteRegion,HG,2022-10-30T13:55:00,2022-10-30T13:55:00,2022-11-25T22:27:54,-7,,,Normal
+10LB007,DeleteRegion,HG,2022-10-15T07:00:00,2023-05-01T07:00:00,2024-11-27T17:05:56,-7,DR - Seasonal Station,,Normal
+10LB007,Drift,HG,2022-10-04T17:10:00,2023-05-16T16:40:00,2024-11-27T17:53:04,-7,SRC - Between Visits (No Reset) to (Reset),"DriftPoints:(Offset:-0.025,Time:2022-10-04T17:10:00Z);(Offset:0.024,Time:2023-05-16T16:40:00Z)",Normal
+10LB007,Offset,HG,2022-05-15T16:50:00,2023-05-16T16:40:00,2024-11-27T17:44:20,-7,OC - Suspect FTS Calibration Error on Spike. Surge noted as +/- 0.010m,Offset:-0.01,Normal
+10LB007,CopyPaste,HG,2022-05-15T16:45:00,2022-10-04T17:05:00,2022-10-06T17:00:33,-7,"filling data gapsOverride: Copy & Paste‌Source Data Set: Stage.Logger@10LB007, time shift: 00:00 minutes.‌",,PreProcessing
+10LB007,DeleteRegion,HG,2022-05-15T16:40:00,2022-05-15T16:40:00,2022-07-06T23:01:42,-7,resetting gauge,,Normal
+10LB007,Drift,HG,2022-05-15T16:35:00,2022-10-04T17:05:00,2024-11-27T17:50:15,-7,SRC - Between Visits (Reset) to (Not Reset),"DriftPoints:(Offset:0,Time:2022-05-15T16:35:00Z);(Offset:-0.025,Time:2022-10-04T17:05:00Z)",Normal
+10LB007,DeleteRegion,QR,2022-04-30T22:25:00,2022-05-08T07:00:00,2022-12-13T20:46:12,-7,Deleted due to the possibility of backwater affect.,,Normal
+10LB007,CopyPaste,HG,2022-02-20T02:45:00,2022-04-16T10:25:00,2022-07-06T22:55:42,-7,"Missing telemetryOverride: Copy & Paste‌Source Data Set: Stage.Logger@10LB007, time shift: 00:00 minutes.‌",,PreProcessing
+10LB007,SinglePoint,QR,2021-10-16T07:00:00,2021-10-16T07:00:00,2022-08-03T18:35:34,-7,est single point for overrride,Value:0.28,Normal
+10LB007,DeleteRegion,HG,2021-10-16T07:00:00,2022-04-15T07:00:00,2024-11-18T19:54:18,-7,,,Normal
+10LB007,Drift,QR,2021-10-15T08:50:00,2021-10-16T06:35:00,2022-08-03T18:41:36,-7,,"DriftPoints:(Offset:0,Time:2021-10-15T08:50:00Z);(Offset:-0.057055597892402,Time:2021-10-15T09:20:00Z);(Offset:-0.074170805702862,Time:2021-10-15T10:50:00Z);(Offset:-0.07297642902999674,Time:2021-10-15T18:20:00Z);(Offset:0,Time:2021-10-16T06:35:00Z)",Normal
+10LB007,CopyPaste,QR,2021-10-11T06:35:00,2021-10-16T07:00:00,2022-08-03T18:36:31,-7,Override: Freehand‌,,Normal
+10LB007,CopyPaste,QR,2021-10-07T20:15:00,2021-10-08T01:05:00,2022-08-03T18:25:00,-7,Increase of Q due to water stored as ice returning to stream as flow.  Rapid spike as control likely under some form of backwater from edge ice.  Override: Freehand‌,,Normal
+10LB007,CopyPaste,QR,2021-09-30T23:50:00,2021-10-01T01:10:00,2022-08-03T18:21:54,-7,Increase of Q due to water stored as ice returning to stream as flow.  Rapid spike as control likely under some form of backwater from edge ice.  Override: Freehand‌,,Normal
+10LB007,Drift,HG,2021-08-10T17:15:00,2022-05-15T16:35:00,2022-12-13T17:18:15,-7,"SRC - DWL to DWL, reset","DriftPoints:(Offset:-0.102,Time:2021-08-10T17:15:00Z);(Offset:-0.064,Time:2022-05-15T16:35:00Z)",Normal
+10LB007,CopyPaste,HG,2021-07-17T17:40:00,2021-07-29T09:05:00,2021-08-12T17:18:19,-7,"Override: Copy & Paste‌Source Data Set: Stage.Logger@10LB007, time shift: 00:00 minutes.‌",,PreProcessing
+10LB007,Offset,HG,2021-06-05T14:25:00,2022-05-15T16:35:00,2021-06-11T15:01:45,-7,Likely OM. Est correction based on data continuity.  Need to check offset next visit.  ,Offset:0.088,Normal
+10LB007,Drift,HG,2021-05-23T18:30:00,2021-08-10T17:10:00,2022-12-13T17:59:39,-7,SRC- DWL/DWL not reset,"DriftPoints:(Offset:-0.016,Time:2021-05-23T18:30:00Z);(Offset:-0.102,Time:2021-08-10T17:10:00Z)",Normal
+10LB007,Offset,HG,2021-05-15T07:00:00,2021-05-23T18:25:00,2022-12-13T17:57:29,-7,Used offset as an SRC and cast back for data previous to visit.,Offset:-0.016,Normal
+10LB007,DeleteRegion,HG,2021-05-02T01:05:00,2021-05-15T06:55:00,2021-10-04T21:16:50,-7,No confidence in data.,,Normal
+10LB007,DeleteRegion,HG,2020-10-12T07:05:00,2021-05-02T01:00:00,2021-09-28T18:02:51,-7,Deleted data due to seasonal station status.  ,,Normal
+10LB007,Offset,HG,2020-09-24T17:35:00,2022-05-15T16:35:00,2021-08-05T16:31:00,-7,UNSTABLE BM USED FOR DWL. CORRECTION BASED ON DIFFERENCE IN MEASURED ELEVATION VS ESTABLISHED AS FOUND DURING THE LEVEL TIE.,Offset:-0.062,Normal
+10LB007,DeleteRegion,HG,2020-09-24T17:30:00,2020-09-24T17:30:00,2020-09-25T13:17:18,-7,RESETTING BLOCK,,Normal
+10LB007,Offset,HG,2020-09-24T16:50:00,2020-09-24T17:25:00,2022-12-12T20:09:40,-7,FV note states orifice bumped during mmnt.  Offset approximate.  (After review of the FV this comment could not be located.  It does appear the sensor was affected right at the time of the mmnt.  Unsure how the comment of the bumping came to be but appears legitimate?)  Left the correction as is.  Used the DWL to determine the MGH as the data affected by this correction is questionable. ,Offset:-0.01,Normal
+10LB007,Offset,HG,2020-06-10T18:55:00,2020-09-24T17:25:00,2021-08-05T17:04:43,-7,-RAN DWL FROM DECOMMISSIONED LAG BOLT BM. OFFSTE OF -0.294 IS -0.232 DIFFERENCE BETWEEN LAG BOLT AND PRIMARY BM PLUS -0.062 DIFFERENCE BETWEEN ESTABLISHED AND FOUND ELEVATION OF LAG BOLT DURING 2020 LEVEL TIE.,Offset:-0.294,Normal
+10LB007,SinglePoint,HG,2020-06-10T18:50:00,2020-06-10T18:50:00,2022-12-12T19:52:40,-7,Surveyed WL,Value:7.713,PostProcessing
+10LB007,Offset,HG,2020-06-10T18:50:00,2022-05-15T16:35:00,2022-12-12T19:59:38,-7,GC - Gauge correction applied for movement of holding BM of approx  0.016m since 2017.,Offset:0.016,PreProcessing
+10LB007,Drift,HG,2020-06-10T18:50:00,2020-09-24T17:25:00,2022-12-12T20:11:15,-7,SRC-DWL/reset to DWL/reset.,"DriftPoints:(Offset:0,Time:2020-06-10T18:50:00Z);(Offset:-0.009,Time:2020-09-24T17:25:00Z)",Normal
+10LB007,DeleteRegion,HG,2020-01-01T07:00:00,2020-06-10T18:45:00,2020-06-11T13:00:45,-7,N2 TANK EMPTY,,Normal
+10LB007,CopyPaste,QR,2019-09-29T16:45:00,2019-09-30T00:10:00,2020-03-25T15:30:28,-7,OR: B conditionsOverride: Log Linear‌Q(t) = 0.553e^(0.09797940988992278t)‌,,Normal
+10LB007,CopyPaste,QR,2019-09-28T16:55:00,2019-09-28T21:25:00,2020-03-25T15:26:08,-7,Override: Log Linear‌Q(t) = 0.564e^(0.1030175429295546t)‌,,Normal
+10LB007,CopyPaste,QR,2019-05-16T22:10:00,2019-05-16T22:55:00,2020-03-25T21:01:51,-7,OR: B conditionsOverride: Log Linear‌Q(t) = 14e^(0.22775896860364656t)‌,,Normal
+10LB007,CopyPaste,QR,2019-05-16T05:40:00,2019-05-16T22:30:00,2020-03-25T17:22:15,-7,OR: B conditionsOverride: Log Linear‌Q(t) = 16.7e^(-0.2514316844779496t)‌,,Normal
+10LB007,CopyPaste,QR,2019-05-15T15:55:00,2019-05-16T07:25:00,2020-03-25T14:57:25,-7,OR: B conditionsOverride: Freehand‌,,Normal
+10LB007,CopyPaste,QR,2019-05-14T19:25:00,2019-05-14T22:25:00,2020-03-25T17:06:45,-7,OR: B conditionsOverride: Freehand‌,,Normal
+10LB007,Drift,QR,2019-05-14T18:25:00,2019-05-16T23:40:00,2023-11-03T15:40:42,-7,Applied drift to account for a change in stage data because of GC.,"DriftPoints:(Offset:0,Time:2019-05-14T18:25:00Z);(Offset:-1.027239448409924,Time:2019-05-16T23:40:00Z)",Normal
+10LB007,CopyPaste,QR,2019-05-14T18:25:00,2019-05-16T23:45:00,2020-03-25T17:34:11,-7,OR: B conditionsOverride: Freehand‌,,Normal
+10LB007,Offset,QR,2019-05-14T18:25:00,2019-05-16T23:40:00,2024-11-15T18:53:04,-7,Adjusting Correction after shift application,Offset:0.5627927867651117,Normal
+10LB007,CopyPaste,QR,2018-09-30T14:35:00,2018-09-30T17:30:00,2020-03-18T18:10:11,-7,OR: spike caused by B activity adjustedOverride: Log Linear‌Q(t) = 2.32e^(0t)‌,,Normal
+10LB007,CopyPaste,QR,2018-09-27T16:55:00,2018-09-27T19:05:00,2020-03-18T20:41:12,-7,OR: spike caused by ice activityOverride: Log Linear‌Q(t) = 2.55e^(-0.0435243117033907t)‌,,Normal
+10LB007,CopyPaste,QR,2018-09-20T13:00:00,2018-09-20T19:55:00,2020-03-18T20:45:19,-7,OR: spike caused by ice activityOverride: Log Linear‌Q(t) = 3.09e^(0.011211252138031369t)‌,,Normal

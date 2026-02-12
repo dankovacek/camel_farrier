@@ -1,0 +1,12 @@
+{
+  "station_id": "08GA027",
+  "station_name": "EASTCAP CREEK NEAR THE MOUTH",
+  "latitude": 49.45027923583984,
+  "longitude": -123.10333251953124,
+  "drainage_area_gross_km2": 41.400001525878906,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:10.722650"
+}

@@ -1,0 +1,5 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07GD001,7.0,"Three segment curve representing section, channel, and overbank flow. The lower end of the curve is more ambiguous due to dense vegetation and beaver damming in the channel causing scatter. Discharge below 0.011m3/s is automatically graded as estimated. The range of stage covers 0.781m to 9.044m.",LogarithmicTable,Provisional/Provisoire,(1.21:0.76);(0.805);
+07GD001,6.0,,LinearTable,Final/Finales,
+07GD001,5.0,,LinearTable,Final/Finales,
+07GD001,4.0,,LinearTable,Final/Finales,

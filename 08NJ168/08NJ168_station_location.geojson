@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ168_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NJ168", "NameNom": "FIVE MILE CREEK ABOVE CITY INTAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13047935.627064865082502, 6363309.21603665407747 ] } }
+]
+}

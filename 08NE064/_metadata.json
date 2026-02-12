@@ -1,0 +1,12 @@
+{
+  "station_id": "08NE064",
+  "station_name": "BARCLAY CREEK NEAR FRUITVALE",
+  "latitude": 49.08943939208984,
+  "longitude": -117.55638885498048,
+  "drainage_area_gross_km2": 2.490000009536743,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:23.686502"
+}

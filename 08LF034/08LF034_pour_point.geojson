@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LF034_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LF034", "NameNom": "HAT CREEK ABOVE MARBLE CANYON", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13537497.596870429813862, 6584577.793544289655983 ] } }
+]
+}

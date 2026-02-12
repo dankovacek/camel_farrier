@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Version history for station data",
+  "station_id": "09AC004",
+  "versions": [
+    {
+      "semantic_tag": "v1.0.0",
+      "timestamp": "2026-02-11T17:18:30.880159",
+      "data_source": "WSC_basins",
+      "polygon_file": "09AC004_polygon_v1.0.0.geojson",
+      "source_metadata": {
+        "StationNum": "09AC004",
+        "NameNom": "TAKHINI RIVER AT OUTLET OF KUSAWA LAKE",
+        "Status": "discontinued",
+        "Etat": "ferm\u00e9e",
+        "Area_km2": "4092.79",
+        "Aire_km2": "4092.79",
+        "Version": "Prerelease/Pr\u00e9liminaire",
+        "Date": "2021-12-17"
+      }
+    },
+    {
+      "semantic_tag": "v1.1.0",
+      "timestamp": "2026-02-11T17:20:09.521146",
+      "data_source": "HYDAT_polygons",
+      "polygon_file": "09AC004_polygon_v1.1.0.geojson",
+      "source_metadata": {
+        "StationNum": "09AC004",
+        "NameNom": "TAKHINI RIVER AT OUTLET OF KUSAWA LAKE",
+        "Status": "discontinued",
+        "Etat": "ferm\u00e9e",
+        "Area_km2": 4108.86,
+        "Aire_km2": 4108.86,
+        "Remark": null,
+        "Remarque": null,
+        "Version": "June 2024 / juin 2024",
+        "Date_rev": "2024-06-01",
+        "Shape_Leng": 568620.0,
+        "Shape_Area": 4108860000.0
+      }
+    }
+  ],
+  "schema_version": "1.0.0",
+  "current_version": "v1.1.0",
+  "version_count": 2,
+  "first_committed": "2026-02-11T17:18:30.880159",
+  "last_updated": "2026-02-11T17:20:09.521146",
+  "comparisons": {
+    "v1.0.0_vs_v1.1.0": {
+      "computed_at": "2026-02-11T17:20:09.521146",
+      "jaccard_index": 0.996,
+      "old_area_km2": 4092.7914,
+      "new_area_km2": 4108.8597,
+      "absolute_area_diff_km2": 16.0683,
+      "percent_area_diff": 0.39
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08KE031_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08KE031", "NameNom": "GENERAL CREEK ABOVE DIVERSION", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13640344.561219429597259, 6907567.508996891789138 ] } }
+]
+}

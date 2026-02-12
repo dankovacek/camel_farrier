@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "07BA003_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "07BA003", "NameNom": "LOVETT RIVER NEAR THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -12986024.179065277799964, 6982898.035629848018289 ] } }
-]
-}

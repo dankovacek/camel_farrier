@@ -1,0 +1,12 @@
+{
+  "station_id": "08DC006",
+  "station_name": "BEAR RIVER ABOVE BITTER CREEK",
+  "latitude": 56.042781829833984,
+  "longitude": -129.9250030517578,
+  "drainage_area_gross_km2": 350.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:07.475349"
+}

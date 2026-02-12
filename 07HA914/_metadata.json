@@ -1,0 +1,12 @@
+{
+  "station_id": "07HA914",
+  "station_name": "NAMPA (SOUTH) DRAINAGE NEAR NAMPA",
+  "latitude": 56.0141716003418,
+  "longitude": -117.14556121826172,
+  "drainage_area_gross_km2": 22.100000381469727,
+  "drainage_area_effect_km2": null,
+  "province_territory": "AB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:04.240745"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "07JA003",
+  "station_name": "WILLOW RIVER NEAR WABASCA",
+  "latitude": 55.91667175292969,
+  "longitude": -113.92130279541016,
+  "drainage_area_gross_km2": 1030.0,
+  "drainage_area_effect_km2": 1030.0,
+  "province_territory": "AB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:04.375858"
+}

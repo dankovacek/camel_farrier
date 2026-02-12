@@ -1,0 +1,12 @@
+{
+  "station_id": "08JA019",
+  "station_name": "CHEDAKUZ CREEK AT THE MOUTH",
+  "latitude": 53.4002799987793,
+  "longitude": -124.97110748291016,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:13.885051"
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE056_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NE056", "NameNom": "KELLY CREEK NEAR FRUITVALE (UPPER STATION)", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13079111.763656428083777, 6294187.876948794350028 ] } }
+]
+}

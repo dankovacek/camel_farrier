@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07FD014_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07FD014", "NameNom": "WAINSCOTT COULEE NEAR BROWNVALE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13128530.938399193808436, 7563780.518412420526147 ] } }
+]
+}

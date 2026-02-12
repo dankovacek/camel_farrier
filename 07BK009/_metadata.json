@@ -1,0 +1,12 @@
+{
+  "station_id": "07BK009",
+  "station_name": "SAWRIDGE CREEK NEAR SLAVE LAKE",
+  "latitude": 55.270790100097656,
+  "longitude": -114.77522277832033,
+  "drainage_area_gross_km2": 230.0,
+  "drainage_area_effect_km2": 230.0,
+  "province_territory": "AB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:00.701940"
+}

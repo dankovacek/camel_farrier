@@ -1,0 +1,12 @@
+{
+  "station_id": "08LF007",
+  "station_name": "CRISS CREEK NEAR SAVONA",
+  "latitude": 50.8838996887207,
+  "longitude": -120.9659423828125,
+  "drainage_area_gross_km2": 479.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:17.926070"
+}

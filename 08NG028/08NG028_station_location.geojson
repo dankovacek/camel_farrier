@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NG028_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NG028", "NameNom": "EIMER CREEK NEAR KIMBERLEY", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12910901.333898343145847, 6389224.265643729828298 ] } }
+]
+}

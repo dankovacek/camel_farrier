@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ044_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NJ044", "NameNom": "CARSON CREEK NEAR PROCTER", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13018502.75369912199676, 6380867.392074974253774 ] } }
+]
+}

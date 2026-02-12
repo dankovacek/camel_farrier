@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM234_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NM234", "NameNom": "MOORE LAKE RESERVOIR AT THE DAM", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13271142.338054455816746, 6450606.526837346144021 ] } }
+]
+}

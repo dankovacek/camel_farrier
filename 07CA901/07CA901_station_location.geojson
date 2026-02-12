@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07CA901_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07CA901", "NameNom": "PINE CREEK NEAR COLINTON", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12580583.008867463096976, 7287822.203451734036207 ] } }
+]
+}

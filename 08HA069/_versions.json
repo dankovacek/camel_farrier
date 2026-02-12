@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Version history for station data",
+  "station_id": "08HA069",
+  "versions": [
+    {
+      "semantic_tag": "v1.0.0",
+      "timestamp": "2026-02-11T17:18:11.925207",
+      "data_source": "WSC_basins",
+      "polygon_file": "08HA069_polygon_v1.0.0.geojson",
+      "source_metadata": {
+        "StationNum": "08HA069",
+        "NameNom": "RENFREW CREEK NEAR PORT RENFREW",
+        "Status": "active",
+        "Etat": "en service",
+        "Area_km2": "10.1799",
+        "Aire_km2": "10.1799",
+        "Version": "Prerelease/Pr\u00e9liminaire",
+        "Date": "2021-12-17"
+      }
+    },
+    {
+      "semantic_tag": "v1.1.0",
+      "timestamp": "2026-02-11T17:19:51.673838",
+      "data_source": "HYDAT_polygons",
+      "polygon_file": "08HA069_polygon_v1.1.0.geojson",
+      "source_metadata": {
+        "StationNum": "08HA069",
+        "NameNom": "RENFREW CREEK NEAR PORT RENFREW",
+        "Status": "active",
+        "Etat": "en service",
+        "Area_km2": 10.1916,
+        "Aire_km2": 10.1916,
+        "Remark": null,
+        "Remarque": null,
+        "Version": "June 2024 / juin 2024",
+        "Date_rev": "2024-06-01",
+        "Shape_Leng": 17460.0,
+        "Shape_Area": 10191600.0
+      }
+    }
+  ],
+  "schema_version": "1.0.0",
+  "current_version": "v1.1.0",
+  "version_count": 2,
+  "first_committed": "2026-02-11T17:18:11.925207",
+  "last_updated": "2026-02-11T17:19:51.673838",
+  "comparisons": {
+    "v1.0.0_vs_v1.1.0": {
+      "computed_at": "2026-02-11T17:19:51.673838",
+      "jaccard_index": 0.9982,
+      "old_area_km2": 10.1799,
+      "new_area_km2": 10.1922,
+      "absolute_area_diff_km2": 0.0123,
+      "percent_area_diff": 0.12
+    }
+  }
+}

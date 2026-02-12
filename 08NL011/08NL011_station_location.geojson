@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NL011_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NL011", "NameNom": "OLALLA CREEK AT OLALLA", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13339781.936077589169145, 6319757.205933609977365 ] } }
+]
+}

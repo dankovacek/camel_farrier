@@ -1,0 +1,28 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08NG076,58.0,"Ott moved, new curve as control also has been tampered with by public",LogarithmicTable,Provisional/Provisoire,(2.436:1.996);(1.996);
+08NG076,57.0,Rating change after the sensor was relocated to a new control,LogarithmicTable,Final/Finales,(1.999);
+08NG076,56.02,Curve cloned to adjust curve confidence,LogarithmicTable,Final/Finales,(2.0769);
+08NG076,56.01,Curve cloned to adjust curve confidence,LogarithmicTable,Final/Finales,(2.0769);
+08NG076,56.0,,LogarithmicTable,Final/Finales,(2.0769);
+08NG076,55.001,Station relocated,LogarithmicTable,Final/Finales,(1.9);
+08NG076,55.0,Station relocated,LogarithmicTable,Final/Finales,(1.9);
+08NG076,54.0,Ice out,LogarithmicTable,Final/Finales,(0.985:-0.343);(-0.143);
+08NG076,53.0,Ice out,LogarithmicTable,Final/Finales,(0.985:-0.343);(-0.143);
+08NG076,52.0,,LogarithmicTable,Final/Finales,(0.045);
+08NG076,51.0,"minor Ice move,  Co-inc with #50 @ .8m, as old 49",LinearTable,Final/Finales,
+08NG076,50.0,Co-incident with #49 @ .8m,LinearTable,Final/Finales,
+08NG076,49.0,07' low water extention,LinearTable,Final/Finales,
+08NG076,48.0,,LinearTable,Final/Finales,
+08NG076,47.0,,LinearTable,Final/Finales,
+08NG076,46.0,,LinearTable,Final/Finales,
+08NG076,45.0,,LinearTable,Final/Finales,
+08NG076,44.0,,LinearTable,Final/Finales,
+08NG076,43.0,,LinearTable,Final/Finales,
+08NG076,42.0,,LinearTable,Final/Finales,
+08NG076,41.0,,LinearTable,Final/Finales,
+08NG076,40.0,,LinearTable,Final/Finales,
+08NG076,39.0,,LinearTable,Final/Finales,
+08NG076,38.0,,LinearTable,Final/Finales,
+08NG076,37.0,,LinearTable,Final/Finales,
+08NG076,36.0,,LinearTable,Final/Finales,
+08NG076,35.0,,LinearTable,Final/Finales,

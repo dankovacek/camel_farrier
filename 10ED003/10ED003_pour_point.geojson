@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10ED003_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10ED003", "NameNom": "BIRCH RIVER AT HIGHWAY NO. 7", "Status": "active", "Etat": "en service", "ProvTerr": "NT" }, "geometry": { "type": "Point", "coordinates": [ -13591545.436040382832289, 8702948.961879789829254 ] } }
+]
+}

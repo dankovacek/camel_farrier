@@ -1,0 +1,12 @@
+{
+  "station_id": "08MH163",
+  "station_name": "FOLEY CREEK ABOVE FOLEY LAKE",
+  "latitude": 49.15277862548828,
+  "longitude": -121.53861236572266,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:22.339873"
+}

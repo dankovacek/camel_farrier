@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM125_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NM125", "NameNom": "B.X. CREEK ABOVE SWAN LAKE CONTROL DAM", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13276445.598595848307014, 6497222.545286692678928 ] } }
+]
+}

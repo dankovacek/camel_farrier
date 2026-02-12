@@ -1,0 +1,12 @@
+{
+  "station_id": "08ME012",
+  "station_name": "DICKEY CREEK NEAR LILLOOET",
+  "latitude": 50.73611068725586,
+  "longitude": -121.9416732788086,
+  "drainage_area_gross_km2": 14.800000190734863,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:20.019680"
+}

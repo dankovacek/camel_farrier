@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08KE014_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08KE014", "NameNom": "NAVER CREEK AT HIXON", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13646533.92490753531456, 7062261.303327092900872 ] } }
-]
-}

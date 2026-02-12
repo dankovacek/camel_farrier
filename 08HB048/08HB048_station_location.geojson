@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HB048_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HB048", "NameNom": "CARNATION CREEK AT THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13914691.446279449388385, 6260545.819144026376307 ] } }
+]
+}

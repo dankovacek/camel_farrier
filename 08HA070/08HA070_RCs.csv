@@ -1,0 +1,34 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08HA070,25.00,,LogarithmicTable,Provisional/Provisoire,(1.3463932606617117:1.203);(1.241);
+08HA070,24.000,Fix to November 17 2015 measurement and use of Jan 17 2018 WL instead of HG clean up the top end scatter. Based on best fit of data since station move (0ct 8 2013).,LogarithmicTable,Final/Finales,(1.207);
+08HA070,23.000,,LogarithmicTable,Final/Finales,(1.2);
+08HA070,22.000,,LogarithmicTable,Final/Finales,(1.2);
+08HA070,21.000,,LogarithmicTable,Final/Finales,(1.8749:1.201);(1.59);
+08HA070,20.000,Approved; Q's >159 cms (g ht 4.817) are estimates,LinearTable,Final/Finales,
+08HA070,20.000-SC4,,LinearTable,Final/Finales,
+08HA070,19.000,Approved; Q's >159 cms (g ht 4.817) are estimates,LinearTable,Final/Finales,
+08HA070,18.000,Approved; Q's >159 cms (g ht 4.817) are estimates,LinearTable,Final/Finales,
+08HA070,17.000,APPROVED Same as 16 below 1.53 m. & above 1.8 m,LinearTable,Final/Finales,
+08HA070,16.000,APPROVED Coincident to 15 above 2.7 m.,LinearTable,Final/Finales,
+08HA070,15.000-SC3,,LinearTable,Final/Finales,
+08HA070,15.000,APPROVED Coincident to 14 above 1.90 m,LinearTable,Final/Finales,
+08HA070,14.000-SC2,,LinearTable,Final/Finales,
+08HA070,14.000,"APPROVED Coincident to 13 ab. 3.6m, ext. 4.8m",LinearTable,Final/Finales,
+08HA070,13.000,Assumed start date following break in data set.,LinearTable,Final/Finales,
+08HA070,12.000,Coincident to #11 above 1.90 m.,LinearTable,Final/Finales,
+08HA070,11.000,Coincident to #10 below 1.80 m.,LinearTable,Final/Finales,
+08HA070,10.000-SC1,,LinearTable,Final/Finales,
+08HA070,10.000,Coincident to #9 above 1.70 m.,LinearTable,Final/Finales,
+08HA070,9.000,Coincident to #8 above 2.50 m.,LinearTable,Final/Finales,
+08HA070,8.000,Coincident to #7 above 3.00 m.,LinearTable,Final/Finales,
+08HA070,7.000,Coincident to Curve #6 above 2.7 m.,LinearTable,Final/Finales,
+08HA070,6.000,Coincident to #5 above1.56 m.,LinearTable,Final/Finales,
+08HA070,5.000,Coincident to #4 above 1.62 m.,LinearTable,Final/Finales,
+08HA070,2.020,,LinearTable,Final/Finales,
+08HA070,4.010,,LinearTable,Final/Finales,
+08HA070,2.010,,LinearTable,Final/Finales,
+08HA070,1.010,,LinearTable,Final/Finales,
+08HA070,4.000,,LinearTable,Final/Finales,
+08HA070,3.000,,LinearTable,Final/Finales,
+08HA070,2.000,,LinearTable,Final/Finales,
+08HA070,1.000,,LinearTable,Final/Finales,

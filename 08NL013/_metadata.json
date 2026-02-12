@@ -1,0 +1,12 @@
+{
+  "station_id": "08NL013",
+  "station_name": "SUMMERS CREEK AT THE MOUTH",
+  "latitude": 49.53556060791016,
+  "longitude": -120.5152816772461,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:27.471241"
+}

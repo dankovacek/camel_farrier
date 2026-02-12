@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08GA010_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08GA010", "NameNom": "CAPILANO RIVER ABOVE INTAKE", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13708554.466008096933365, 6342345.626888295635581 ] } }
+]
+}

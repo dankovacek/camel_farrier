@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07HA914_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07HA914", "NameNom": "NAMPA (SOUTH) DRAINAGE NEAR NAMPA", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -13043544.073153069242835, 7561422.226429655216634 ] } }
+]
+}

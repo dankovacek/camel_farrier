@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08NJ013_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08NJ013", "NameNom": "SLOCAN RIVER NEAR CRESCENT VALLEY", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13087253.671213049441576, 6353290.990100148133934 ] } }
-]
-}

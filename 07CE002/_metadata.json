@@ -1,0 +1,12 @@
+{
+  "station_id": "07CE002",
+  "station_name": "CHRISTINA RIVER NEAR CHARD",
+  "latitude": 55.83710861206055,
+  "longitude": -110.86910247802734,
+  "drainage_area_gross_km2": 4860.0,
+  "drainage_area_effect_km2": 4850.0,
+  "province_territory": "AB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:00.951030"
+}

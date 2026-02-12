@@ -1,6 +1,6 @@
 # Polygon Revision Summary
 
-This page summarizes catchment polygon revisions across a sample of the national hydrometric monitoring stations in HYDAT. When alternate polygon sources are published (e.g., HYDAT 2024 release), we compare them against baseline polygons (earlier, unversioned files) to quantify changes.
+This page summarizes catchment polygon revisions across a sample of the national hydrometric monitoring stations in HYDAT. When alternate polygon sources are published (e.g., HYDAT 2024 release), we compare them against baseline polygons (earlier, unversioned files) to quantify changes.  Note this only includes a sample of the full set.
 
 ## Revision Map
 

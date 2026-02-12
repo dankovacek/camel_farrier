@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HA044_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HA044", "NameNom": "ST.MARY LAKE AT THE PUMPHOUSE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13753367.240221837535501, 6256735.355297643691301 ] } }
+]
+}

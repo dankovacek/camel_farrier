@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "07AD004_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "07AD004", "NameNom": "WHISKEYJACK CREEK NEAR HINTON", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -13084254.724131077528, 7053655.289800195023417 ] } }
-]
-}

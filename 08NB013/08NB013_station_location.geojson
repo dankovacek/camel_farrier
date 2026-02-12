@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08NB013_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08NB013", "NameNom": "GOLD RIVER ABOVE BACHELOR CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13106879.297439903020859, 6730461.863019127398729 ] } }
-]
-}

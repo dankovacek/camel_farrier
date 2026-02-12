@@ -1,0 +1,12 @@
+{
+  "station_id": "07EE004",
+  "station_name": "CHICHOUYENILY CREEK NEAR MACKENZIE",
+  "latitude": 55.31943893432617,
+  "longitude": -123.09722137451172,
+  "drainage_area_gross_km2": 72.30000305175781,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:02.273832"
+}

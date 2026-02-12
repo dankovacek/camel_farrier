@@ -1,0 +1,33 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08HB086,23.01,Corrects top-end grading error reducing estimated above grade from 279  to 186 m^3/s,LogarithmicTable,Provisional/Provisoire,(0.971);
+08HB086,23.000,,LogarithmicTable,Final/Finales,(0.971);
+08HB086,22.000,Shift to new curve at HW peak,LogarithmicTable,Final/Finales,(1.09626:0.94);(0.941);
+08HB086,21.000,,LogarithmicTable,Final/Finales,(0.957);
+08HB086,20.000,Approved. Coincident w/#19  above 2.1m.,LinearTable,Final/Finales,
+08HB086,19.000,Approved Qs>223 are estimates. Coinc 18 <1.2&>2.4.,LinearTable,Final/Finales,
+08HB086,19.000-SC3,,LinearTable,Final/Finales,
+08HB086,18.000,APPROVED Same as #17 below 1.18 m & abov 1.70 m,LinearTable,Final/Finales,
+08HB086,17.000,APPROVED Coincident to 16 ab 1.58 m & bel 1.11 m,LinearTable,Final/Finales,
+08HB086,16.000,Coincident to 15 ab. 1.90 m & bel.1.16 m.,LinearTable,Final/Finales,
+08HB086,15.000-SC2,,LinearTable,Final/Finales,
+08HB086,15.000,APPROVED Coicident to #14 bel 1.6m and ab 2.4m,LinearTable,Final/Finales,
+08HB086,14.020,,LinearTable,Final/Finales,
+08HB086,10.020,,LinearTable,Final/Finales,
+08HB086,10.020-SC1,,LinearTable,Final/Finales,
+08HB086,14.000,Coincident to #11 below 1.7 m & above 2.5 m *.97,LinearTable,Final/Finales,
+08HB086,11.010,,LinearTable,Final/Finales,
+08HB086,10.010,,LinearTable,Final/Finales,
+08HB086,13.000,Coincident to #12 below 1.60 m.  Ext to 3.4 Dec/03,LinearTable,Final/Finales,
+08HB086,12.000,Coincident to #11 below 1.60 m.,LinearTable,Final/Finales,
+08HB086,11.000,Coincident to #10 above 1.60 m.,LinearTable,Final/Finales,
+08HB086,10.000,Coincident to #9 above 2.10 m.,LinearTable,Final/Finales,
+08HB086,9.000,Coincident to #8 below 1.10 m. and 1.60 m.,LinearTable,Final/Finales,
+08HB086,6.010,,LinearTable,Final/Finales,
+08HB086,8.000,,LinearTable,Final/Finales,
+08HB086,7.000,,LinearTable,Final/Finales,
+08HB086,6.000,,LinearTable,Final/Finales,
+08HB086,5.000,,LinearTable,Final/Finales,
+08HB086,4.000,,LinearTable,Final/Finales,
+08HB086,3.000,,LinearTable,Final/Finales,
+08HB086,2.000,,LinearTable,Final/Finales,
+08HB086,1.000,,LinearTable,Final/Finales,

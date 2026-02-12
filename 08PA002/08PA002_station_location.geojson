@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08PA002_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08PA002", "NameNom": "SUMALLO RIVER AT THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13479955.438884481787682, 6312369.013765532523394 ] } }
+]
+}

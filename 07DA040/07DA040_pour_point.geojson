@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07DA040_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07DA040", "NameNom": "BIG CREEK NEAR THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -12410967.727135570719838, 7892745.936297630891204 ] } }
+]
+}

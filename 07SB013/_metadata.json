@@ -1,0 +1,12 @@
+{
+  "station_id": "07SB013",
+  "station_name": "BAKER CREEK AT OUTLET OF LOWER MARTIN LAKE",
+  "latitude": 62.5135612487793,
+  "longitude": -114.40975189208984,
+  "drainage_area_gross_km2": 121.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "NT",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:06.144865"
+}

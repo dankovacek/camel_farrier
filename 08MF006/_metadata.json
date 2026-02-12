@@ -1,0 +1,12 @@
+{
+  "station_id": "08MF006",
+  "station_name": "WAHLEACH CREEK NEAR LAIDLAW (UPPER STATION)",
+  "latitude": 49.25056076049805,
+  "longitude": -121.60443878173828,
+  "drainage_area_gross_km2": 64.80000305175781,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:20.363845"
+}

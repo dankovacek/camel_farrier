@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07MC001_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07MC001", "NameNom": "OLDMAN RIVER NEAR GOLDFIELDS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "SK" }, "geometry": { "type": "Point", "coordinates": [ -12029541.510686589404941, 8287828.79054378438741 ] } }
+]
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Version history for station data",
+  "station_id": "07SB012",
+  "versions": [
+    {
+      "semantic_tag": "v1.0.0",
+      "timestamp": "2026-02-11T17:18:06.012632",
+      "data_source": "WSC_basins",
+      "polygon_file": "07SB012_polygon_v1.0.0.geojson",
+      "source_metadata": {
+        "StationNum": "07SB012",
+        "NameNom": "DUNCAN LAKE NEAR YELLOWKNIFE",
+        "Status": "active",
+        "Etat": "en service",
+        "Area_km2": "3491.64",
+        "Aire_km2": "3491.64",
+        "Version": "Prerelease/Pr\u00e9liminaire",
+        "Date": "2021-12-17"
+      }
+    },
+    {
+      "semantic_tag": "v1.1.0",
+      "timestamp": "2026-02-11T17:19:32.838040",
+      "data_source": "HYDAT_polygons",
+      "polygon_file": "07SB012_polygon_v1.1.0.geojson",
+      "source_metadata": {
+        "StationNum": "07SB012",
+        "NameNom": "DUNCAN LAKE NEAR YELLOWKNIFE",
+        "Status": "active",
+        "Etat": "en service",
+        "Area_km2": 3544.26,
+        "Aire_km2": 3544.26,
+        "Remark": null,
+        "Remarque": null,
+        "Version": "June 2024 / juin 2024",
+        "Date_rev": "2024-06-01",
+        "Shape_Leng": 882420.0,
+        "Shape_Area": 3544255800.0
+      }
+    }
+  ],
+  "schema_version": "1.0.0",
+  "current_version": "v1.1.0",
+  "version_count": 2,
+  "first_committed": "2026-02-11T17:18:06.012632",
+  "last_updated": "2026-02-11T17:19:32.838040",
+  "comparisons": {
+    "v1.0.0_vs_v1.1.0": {
+      "computed_at": "2026-02-11T17:19:32.838040",
+      "jaccard_index": 0.985,
+      "old_area_km2": 3491.6409,
+      "new_area_km2": 3544.2583,
+      "absolute_area_diff_km2": 52.6174,
+      "percent_area_diff": 1.51
+    }
+  }
+}

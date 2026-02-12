@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HA036_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HA036", "NameNom": "COWAN BROOK NEAR YOUBOU", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13834541.412908295169473, 6257158.655463277362287 ] } }
+]
+}

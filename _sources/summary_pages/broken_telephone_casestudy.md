@@ -16,7 +16,6 @@ Warm colors highlight basins where Caravan's inherited geometry deviates most fr
 :::
 
 :::{bokeh-plot}
-:tags: [hide-input]
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
@@ -133,8 +132,6 @@ The set of stations represented in the plot are those whose polygons changed by 
 :::
 
 :::{bokeh-plot}
-:tags: [hide-input]
-
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[3]))

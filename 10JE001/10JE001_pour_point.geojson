@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10JE001_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10JE001", "NameNom": "SLOAN RIVER NEAR THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NT" }, "geometry": { "type": "Point", "coordinates": [ -13054930.94386631436646, 10021148.236106161028147 ] } }
+]
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "08LG018",
+  "station_name": "SPAHOMIN CREEK NEAR DOUGLAS LAKE",
+  "latitude": 50.11528015136719,
+  "longitude": -120.2861099243164,
+  "drainage_area_gross_km2": 233.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:19.206992"
+}

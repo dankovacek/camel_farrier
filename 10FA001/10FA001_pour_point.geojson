@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "10FA001_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "10FA001", "NameNom": "TROUT RIVER NEAR OUTLET OF TROUT LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NT" }, "geometry": { "type": "Point", "coordinates": [ -13481752.135465882718563, 8573163.198404677212238 ] } }
-]
-}

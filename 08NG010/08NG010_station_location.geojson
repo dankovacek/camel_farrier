@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NG010_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NG010", "NameNom": "SAND CREEK NEAR GALLOWAY", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12829048.112318050116301, 6337687.692524064332247 ] } }
+]
+}

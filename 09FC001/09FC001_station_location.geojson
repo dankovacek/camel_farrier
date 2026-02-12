@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09FC001_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "09FC001", "NameNom": "OLD CROW RIVER NEAR THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "YT", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -15550932.113653462380171, 10339214.226988241076469 ] } }
+]
+}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08NG064_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08NG064", "NameNom": "SUPPLY CREEK NEAR BULL RIVER", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -12838472.420408608391881, 6356585.093880575150251 ] } }
-]
-}

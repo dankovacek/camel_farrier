@@ -1,0 +1,28 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07FD007,44.0,"Rating curve 44.00 was created for the 2023 review period because four of five open water measurements plotted >5% off previous curve 43.00. Curve 44.00 was built using open water measurements from 2023 and high-water measurements from 2022. A breakpoint was included in the curve because at higher stages the control is affected by large riprap on the left bank. During low flow periods, discharge was graded as estimated from half the value of the lowest measurement collected in 2023.",LogarithmicTable,Provisional/Provisoire,(11.27:9.82);(10.58);
+07FD007,43.0,"Curve 43.00 was created using open water measurements from 2022, May 2023 and a high water slope-area discharge calculation from 2016. During low flow periods, discharge was graded as estimated from the curve rating. A breakpoint was included in the curve where the river tops the banks of the main channel.",LogarithmicTable,Final/Finales,(13.69:9.965);(13.2);
+07FD007,42.0,Curve created using open water measurements from 2021 and the calculated high water estimate from 2016.  Graded E above 11.1 cms based on highest 2021 measurement.  The 2016 calculation is not accurate enough to base the grade on.,LogarithmicTable,Final/Finales,(13.58:10.134);(11.9);
+07FD007,41.01,Extended lower end of curve 41.00. Curve 41 was developed for 2018 and 2019 mmts.  Top section is copied from curve 39.00.,LogarithmicTable,Final/Finales,(13.58:10.2);(12);
+07FD007,41.0,For 2018 and 2019 mmts.  Top section is copied from curve 39.00.,LogarithmicTable,Final/Finales,(13.58:10.2);(12);
+07FD007,40.0,created for 2017 open water measurements after spring freshet. The breakpoint and upper section of the curve are copied from curve 39.00,LogarithmicTable,Final/Finales,(13.58:9.842);(12);
+07FD007,39.0,"Created using 2016 measurements after the June 16, 2016 high water event.  The lower section of the curve covers the normal range of stage.  The breakpoint elevation is located near the top of the banks (not surveyed).  The upper section of the curve is based on an estimated Q of 800 cms occuring at the peak surveyed HWM from June 16, 2016.  The 800 cms was estimated based on stream accounting.  The peak discharge from 07FD010 was subtracted from the peak discharge at 07FD003.  The remaining 800 cms was assumed to come from 07FD007.",LogarithmicTable,Final/Finales,(13.58:10.07);(12);
+07FD007,38.0,2015 THROUGH HIGH WATER 2016,LogarithmicTable,Final/Finales,(10.477);
+07FD007,37.0,,LogarithmicTable,Final/Finales,(10.07);
+07FD007,36.0,NEW CURVE AFTER HISTORIC HIGH -  MAJOR CONTROL CHANGES,LogarithmicTable,Final/Finales,(10.215);
+07FD007,35.0,COINCIDENTAL WITH #34 AT AND ABOVE 11.196m.,LinearTable,Final/Finales,
+07FD007,34.0,Coincident with #33 at origin and above 11.5m,LinearTable,Final/Finales,
+07FD007,33.0,#33 is a mean curve-coincident with #32 above 12.0,LinearTable,Final/Finales,
+07FD007,32.0,Coincident with table # 31 at & above13.2 M,LinearTable,Final/Finales,
+07FD007,31.0,coincident with table #30 at and above 11.200 m,LinearTable,Final/Finales,
+07FD007,30.0,,LinearTable,Final/Finales,
+07FD007,29.0,,LinearTable,Final/Finales,
+07FD007,28.0,,LinearTable,Final/Finales,
+07FD007,27.0,,LinearTable,Final/Finales,
+07FD007,26.0,,LinearTable,Final/Finales,
+07FD007,25.0,,LinearTable,Final/Finales,
+07FD007,24.0,,LinearTable,Final/Finales,
+07FD007,23.0,,LinearTable,Final/Finales,
+07FD007,22.0,,LinearTable,Final/Finales,
+07FD007,21.0,,LinearTable,Final/Finales,
+07FD007,20.0,,LinearTable,Final/Finales,
+07FD007,19.0,,LinearTable,Final/Finales,

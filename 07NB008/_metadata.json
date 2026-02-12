@@ -1,0 +1,12 @@
+{
+  "station_id": "07NB008",
+  "station_name": "DOG RIVER NEAR FITZGERALD",
+  "latitude": 59.87638854980469,
+  "longitude": -111.52082824707033,
+  "drainage_area_gross_km2": 2020.0,
+  "drainage_area_effect_km2": 2020.0,
+  "province_territory": "AB",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:05.009330"
+}

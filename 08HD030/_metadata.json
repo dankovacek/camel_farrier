@@ -1,0 +1,12 @@
+{
+  "station_id": "08HD030",
+  "station_name": "PIGGOTT CREEK AT MOUNT WASHINGTON",
+  "latitude": 49.75,
+  "longitude": -125.34027862548828,
+  "drainage_area_gross_km2": 8.369999885559082,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:13.576307"
+}

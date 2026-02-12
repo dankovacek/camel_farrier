@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08FC005_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08FC005", "NameNom": "DEAN RIVER NEAR ANAHIM LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13944280.166932303458452, 6883734.212243806570768 ] } }
+]
+}

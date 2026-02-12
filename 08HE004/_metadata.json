@@ -1,0 +1,12 @@
+{
+  "station_id": "08HE004",
+  "station_name": "RAGING RIVER NEAR PORT ALICE",
+  "latitude": 50.38943862915039,
+  "longitude": -127.23139190673828,
+  "drainage_area_gross_km2": 117.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:13.758412"
+}

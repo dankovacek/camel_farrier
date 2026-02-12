@@ -1,0 +1,19 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08ME028,16.0,Curve 16.00 was created for the 2022 data year using open-water discharge measurements from 2022 and 2023. The upper end of the curve was defined using high water measurements from 2007 and 2022. The lower end of the curve was defined using a low water measurement from 2023. Estimated grades are half of 2023-03-15 measurement and double 2007-07-24 measurement.,LogarithmicTable,Provisional/Provisoire,(0.13);
+08ME028,15.002,Same Rating updated grading,LogarithmicTable,Final/Finales,(0.139);
+08ME028,15.001,Same Rating updated grading,LogarithmicTable,Final/Finales,(0.139);
+08ME028,15.0,,LogarithmicTable,Final/Finales,(0.139);
+08ME028,14.0,,LogarithmicTable,Final/Finales,(0.119);
+08ME028,13.0,,LogarithmicTable,Final/Finales,(1.4945:-0.251);(-0.2);
+08ME028,12.0,,LinearTable,Final/Finales,
+08ME028,11.0,,LinearTable,Final/Finales,
+08ME028,10.0,,LinearTable,Final/Finales,
+08ME028,9.0,,LinearTable,Final/Finales,
+08ME028,8.0,,LinearTable,Final/Finales,
+08ME028,7.0,,LinearTable,Final/Finales,
+08ME028,6.0,,LinearTable,Final/Finales,
+08ME028,5.0,,LinearTable,Final/Finales,
+08ME028,4.0,,LinearTable,Final/Finales,
+08ME028,3.0,,LinearTable,Final/Finales,
+08ME028,2.0,,LinearTable,Final/Finales,
+08ME028,1.0,,LinearTable,Final/Finales,

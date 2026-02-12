@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07DA013_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07DA013", "NameNom": "PIERRE RIVER NEAR FORT MACKAY", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -12429371.065353512763977, 7855744.011666659265757 ] } }
+]
+}

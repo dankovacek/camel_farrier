@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07EA007_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07EA007", "NameNom": "AKIE RIVER NEAR THE 760 M CONTOUR", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13903897.908452136442065, 7799149.143705008551478 ] } }
+]
+}

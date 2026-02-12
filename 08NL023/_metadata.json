@@ -1,0 +1,12 @@
+{
+  "station_id": "08NL023",
+  "station_name": "OTTER CREEK AT TULAMEEN",
+  "latitude": 49.54555892944336,
+  "longitude": -120.75332641601562,
+  "drainage_area_gross_km2": 673.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:27.540984"
+}

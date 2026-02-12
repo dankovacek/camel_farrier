@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08LE006_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08LE006", "NameNom": "PRINGLE CREEK NEAR WESTWOLD", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13338301.386850038543344, 6529627.950564780272543 ] } }
-]
-}

@@ -1,0 +1,12 @@
+{
+  "station_id": "08NA020",
+  "station_name": "STODDART CREEK NEAR ATHALMER",
+  "latitude": 50.56832885742188,
+  "longitude": -115.99138641357422,
+  "drainage_area_gross_km2": 21.200000762939453,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:22.481353"
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LE037_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LE037", "NameNom": "CAMPBELL CREEK NEAR BARNHART VALE (UPPER STATION)", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13381838.439699288457632, 6545824.924127242527902 ] } }
+]
+}

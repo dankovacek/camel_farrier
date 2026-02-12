@@ -1,0 +1,12 @@
+{
+  "station_id": "08NJ066",
+  "station_name": "SMOKY CREEK NEAR SOUTH SLOCAN",
+  "latitude": 49.459999084472656,
+  "longitude": -117.51222229003906,
+  "drainage_area_gross_km2": 4.400000095367432,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:26.285068"
+}

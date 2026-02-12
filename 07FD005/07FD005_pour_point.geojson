@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07FD005_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07FD005", "NameNom": "ALCES RIVER AT SECTION 20", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13377954.502665512263775, 7635634.193528917618096 ] } }
+]
+}

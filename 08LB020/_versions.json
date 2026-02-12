@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Version history for station data",
+  "station_id": "08LB020",
+  "versions": [
+    {
+      "semantic_tag": "v1.0.0",
+      "timestamp": "2026-02-11T17:18:15.415659",
+      "data_source": "WSC_basins",
+      "polygon_file": "08LB020_polygon_v1.0.0.geojson",
+      "source_metadata": {
+        "StationNum": "08LB020",
+        "NameNom": "BARRIERE RIVER AT THE MOUTH",
+        "Status": "active",
+        "Etat": "en service",
+        "Area_km2": "1160.75",
+        "Aire_km2": "1160.75",
+        "Version": "Prerelease/Pr\u00e9liminaire",
+        "Date": "2021-12-17"
+      }
+    },
+    {
+      "semantic_tag": "v1.1.0",
+      "timestamp": "2026-02-11T17:19:54.639932",
+      "data_source": "HYDAT_polygons",
+      "polygon_file": "08LB020_polygon_v1.1.0.geojson",
+      "source_metadata": {
+        "StationNum": "08LB020",
+        "NameNom": "BARRIERE RIVER AT THE MOUTH",
+        "Status": "active",
+        "Etat": "en service",
+        "Area_km2": 1160.86,
+        "Aire_km2": 1160.86,
+        "Remark": null,
+        "Remarque": null,
+        "Version": "June 2024 / juin 2024",
+        "Date_rev": "2024-06-01",
+        "Shape_Leng": 258900.0,
+        "Shape_Area": 1160862300.0
+      }
+    }
+  ],
+  "schema_version": "1.0.0",
+  "current_version": "v1.1.0",
+  "version_count": 2,
+  "first_committed": "2026-02-11T17:18:15.415659",
+  "last_updated": "2026-02-11T17:19:54.639932",
+  "comparisons": {
+    "v1.0.0_vs_v1.1.0": {
+      "computed_at": "2026-02-11T17:19:54.639932",
+      "jaccard_index": 0.9997,
+      "old_area_km2": 1160.7498,
+      "new_area_km2": 1160.861,
+      "absolute_area_diff_km2": 0.1112,
+      "percent_area_diff": 0.01
+    }
+  }
+}

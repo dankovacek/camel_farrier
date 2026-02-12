@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "07BK005_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "07BK005", "NameNom": "SAULTEAUX RIVER NEAR SPURFIELD", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -12717123.043494861572981, 7392484.106911418028176 ] } }
-]
-}

@@ -1,0 +1,12 @@
+{
+  "station_id": "07DB003",
+  "station_name": "DUNKIRK RIVER NEAR FORT MACKAY",
+  "latitude": 56.85074996948242,
+  "longitude": -112.70831298828124,
+  "drainage_area_gross_km2": 1570.0,
+  "drainage_area_effect_km2": 1570.0,
+  "province_territory": "AB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:01.714631"
+}

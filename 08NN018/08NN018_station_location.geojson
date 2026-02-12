@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NN018_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NN018", "NameNom": "JULY CREEK NEAR GRAND FORKS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13195934.890074521303177, 6277311.915158367715776 ] } }
+]
+}

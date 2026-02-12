@@ -1,0 +1,12 @@
+{
+  "station_id": "08MH068",
+  "station_name": "CLAYBURN CREEK AT CLAYBURN ROAD, MATSQUI",
+  "latitude": 49.081939697265625,
+  "longitude": -122.2772216796875,
+  "drainage_area_gross_km2": 37.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:21.818053"
+}

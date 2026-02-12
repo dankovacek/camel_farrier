@@ -1,0 +1,12 @@
+{
+  "station_id": "08HD003",
+  "station_name": "CAMPBELL RIVER NEAR CAMPBELL RIVER",
+  "latitude": 50.03805923461914,
+  "longitude": -125.2947235107422,
+  "drainage_area_gross_km2": 1470.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:13.247079"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "08GE003",
+  "station_name": "ICY CREEK NEAR THE MOUTH",
+  "latitude": 51.22761154174805,
+  "longitude": -125.67146301269533,
+  "drainage_area_gross_km2": 23.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:11.164772"
+}

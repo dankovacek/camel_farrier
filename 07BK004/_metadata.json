@@ -1,0 +1,12 @@
+{
+  "station_id": "07BK004",
+  "station_name": "OTAUWAU RIVER NEAR SLAVE LAKE",
+  "latitude": 55.275001525878906,
+  "longitude": -114.40972137451172,
+  "drainage_area_gross_km2": 515.0,
+  "drainage_area_effect_km2": 515.0,
+  "province_territory": "AB",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:00.659816"
+}

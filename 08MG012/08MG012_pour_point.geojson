@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MG012_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MG012", "NameNom": "HARRISON LAKE NEAR HARRISON HOT SPRINGS", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13559153.690609354525805, 6327843.392363993450999 ] } }
+]
+}

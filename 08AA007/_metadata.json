@@ -1,0 +1,12 @@
+{
+  "station_id": "08AA007",
+  "station_name": "SEKULMUN LAKE NEAR WHITEHORSE",
+  "latitude": 61.5359992980957,
+  "longitude": -137.5904998779297,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "YT",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:06.292146"
+}

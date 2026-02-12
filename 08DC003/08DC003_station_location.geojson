@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08DC003_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08DC003", "NameNom": "GEORGIE RIVER NEAR STEWART", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -14480628.605523375794291, 7501558.148147243075073 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MH055_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MH055", "NameNom": "CHILLIWACK RIVER BELOW SLESSE CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13550119.000736571848392, 6288319.174763760529459 ] } }
+]
+}

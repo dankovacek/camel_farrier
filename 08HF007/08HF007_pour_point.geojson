@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HF007_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HF007", "NameNom": "RUSSELL CREEK NEAR THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -14072991.101772211492062, 6502734.086711377836764 ] } }
+]
+}

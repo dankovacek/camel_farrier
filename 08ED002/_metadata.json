@@ -1,0 +1,12 @@
+{
+  "station_id": "08ED002",
+  "station_name": "MORICE RIVER NEAR HOUSTON",
+  "latitude": 54.11682891845703,
+  "longitude": -127.42658233642578,
+  "drainage_area_gross_km2": 1900.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:08.582008"
+}

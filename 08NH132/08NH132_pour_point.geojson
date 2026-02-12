@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH132_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NH132", "NameNom": "KEEN CREEK BELOW KYAWATS CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13038000.362511564046144, 6424284.7501963628456 ] } }
+]
+}

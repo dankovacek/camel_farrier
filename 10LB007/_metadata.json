@@ -1,0 +1,12 @@
+{
+  "station_id": "10LB007",
+  "station_name": "TIEDA RIVER NEAR THE MOUTH",
+  "latitude": 66.69322204589844,
+  "longitude": -129.28587341308594,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "NT",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:34.455002"
+}

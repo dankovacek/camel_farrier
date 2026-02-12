@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07DA045_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07DA045", "NameNom": "TAR RIVER NEAR THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12433362.982293358072639, 7826120.492925141938031 ] } }
+]
+}

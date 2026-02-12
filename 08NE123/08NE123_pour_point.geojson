@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE123_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NE123", "NameNom": "CRANBERRY CREEK ABOVE B.C. HYDRO INTAKE", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13144672.264564219862223, 6584882.452197973616421 ] } }
+]
+}

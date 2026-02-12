@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08GA012_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08GA012", "NameNom": "LYNN CREEK NEAR NORTH VANCOUVER", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13695147.146536955609918, 6336215.952753754332662 ] } }
+]
+}

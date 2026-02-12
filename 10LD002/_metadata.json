@@ -1,0 +1,12 @@
+{
+  "station_id": "10LD002",
+  "station_name": "JACKFISH CREEK NEAR FORT GOOD HOPE",
+  "latitude": 66.25639343261719,
+  "longitude": -128.6397247314453,
+  "drainage_area_gross_km2": 62.900001525878906,
+  "drainage_area_effect_km2": null,
+  "province_territory": "NT",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:34.658384"
+}

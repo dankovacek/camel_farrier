@@ -1,0 +1,26 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07EA007,31.00,created with Aug 2022 - June 2025 open water measurements.  High end defined with 2021 and 1999 highwater measurements.  Upper grade based on 2021 measurement.  lower grade based on 2022 measurement,LogarithmicTable,Provisional/Provisoire,(6.8);
+07EA007,30.00,Fits all open water measurements conducted in 2021.,LogarithmicTable,Final/Finales,(6.571);
+07EA007,29.00,Fits all open water measurements conducted in 2019,LogarithmicTable,Final/Finales,(6.714);
+07EA007,28.000,"created using open water measurements from 2017, 2018, historical high water measurements from 1999 and 1981, and historical low water measurement from 2013.",LogarithmicTable,Final/Finales,(7.86:6.739);(7.265);
+07EA007,27.100,CLONE OF 27 TO AVOID CONFLICT WITH APPROVAL LEVELS,LogarithmicTable,Final/Finales,(6.739);
+07EA007,27,,LogarithmicTable,Final/Finales,(6.739);
+07EA007,26,First curve created in HWS,LogarithmicTable,Final/Finales,(6.612);
+07EA007,25,"First curve created in HWS, Period approved by Russ Gregory Dec 13, 2012",LogarithmicTable,Final/Finales,(6.88);
+07EA007,24.1,Extension of curve #24 to cover higher gauge heights from 2011,LogarithmicTable,Final/Finales,(0);
+07EA007,24.000,coincident with Curve 23 from 7.70 m to 8.10 m,LinearTable,Final/Finales,
+07EA007,23.000,,LinearTable,Final/Finales,
+07EA007,22.000,coincident to # 2 -below 7.650m and -above7.8,LinearTable,Final/Finales,
+07EA007,21.000,,LinearTable,Final/Finales,
+07EA007,20.000,Same as Table 19 from 8.400 to 10.300,LinearTable,Final/Finales,
+07EA007,19.000,Same as curve 19 from 7.15 to 7.20 and 8.4 to 10.3,LinearTable,Final/Finales,
+07EA007,18.000,,LinearTable,Final/Finales,
+07EA007,17.000,,LinearTable,Final/Finales,
+07EA007,16.000,,LinearTable,Final/Finales,
+07EA007,15.000,,LinearTable,Final/Finales,
+07EA007,14.100-SC1,,LinearTable,Final/Finales,
+07EA007,14.100,,LinearTable,Final/Finales,
+07EA007,13.100,,LinearTable,Final/Finales,
+07EA007,14.000,,LinearTable,Final/Finales,
+07EA007,13.000,,LinearTable,Final/Finales,
+07EA007,12.000,,LinearTable,Final/Finales,

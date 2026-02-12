@@ -1,0 +1,21 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08LB069,39.01,Low end extension,LogarithmicTable,Provisional/Provisoire,(-0.332);
+08LB069,39.0,,LogarithmicTable,Final/Finales,(-0.332);
+08LB069,38.0,,LogarithmicTable,Final/Finales,(-0.218);
+08LB069,37.0,,LogarithmicTable,Final/Finales,(-0.2);
+08LB069,36.0,co-incident # 35 0.800 m >.,LinearTable,Final/Finales,
+08LB069,35.0,refinement no. 33. Co-incid. .500 m >.,LinearTable,Final/Finales,
+08LB069,34.0,,LinearTable,Final/Finales,
+08LB069,33.0,,LinearTable,Final/Finales,
+08LB069,32.0,,LinearTable,Final/Finales,
+08LB069,31.0,,LinearTable,Final/Finales,
+08LB069,30.0,,LinearTable,Final/Finales,
+08LB069,29.0,,LinearTable,Final/Finales,
+08LB069,28.0,,LinearTable,Final/Finales,
+08LB069,27.0,,LinearTable,Final/Finales,
+08LB069,26.0,,LinearTable,Final/Finales,
+08LB069,25.0,,LinearTable,Final/Finales,
+08LB069,24.0,,LinearTable,Final/Finales,
+08LB069,23.0,,LinearTable,Final/Finales,
+08LB069,22.0,,LinearTable,Final/Finales,
+08LB069,21.0,,LinearTable,Final/Finales,

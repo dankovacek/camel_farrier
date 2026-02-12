@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08NH049_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08NH049", "NameNom": "BIRKBECK CREEK NEAR GRAY CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -12998780.279515279456973, 6378946.54217635653913 ] } }
-]
-}

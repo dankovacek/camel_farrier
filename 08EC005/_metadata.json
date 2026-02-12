@@ -1,0 +1,12 @@
+{
+  "station_id": "08EC005",
+  "station_name": "FULTON RIVER AT FULTON LAKE NARROWS",
+  "latitude": 54.80693817138672,
+  "longitude": -126.3000030517578,
+  "drainage_area_gross_km2": 1340.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:08.482665"
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08JA019_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08JA019", "NameNom": "CHEDAKUZ CREEK AT THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13911719.215875271707773, 7057384.849198887124658 ] } }
+]
+}

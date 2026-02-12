@@ -1,0 +1,12 @@
+{
+  "station_id": "07BB002",
+  "station_name": "PEMBINA RIVER NEAR ENTWISTLE",
+  "latitude": 53.60025024414063,
+  "longitude": -115.00435638427734,
+  "drainage_area_gross_km2": 4400.0,
+  "drainage_area_effect_km2": 4330.0,
+  "province_territory": "AB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:17:59.881243"
+}

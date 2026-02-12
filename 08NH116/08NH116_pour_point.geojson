@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH116_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NH116", "NameNom": "GLASER CREEK NEAR CRESTON", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -12970460.601057469844818, 6292990.683957657776773 ] } }
+]
+}

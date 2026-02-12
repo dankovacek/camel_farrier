@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LF063_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LF063", "NameNom": "GLADWIN CREEK NEAR LYTTON", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13522856.857441300526261, 6489358.995188246481121 ] } }
+]
+}

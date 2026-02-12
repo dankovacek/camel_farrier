@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07EE004_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07EE004", "NameNom": "CHICHOUYENILY CREEK NEAR MACKENZIE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13703083.11303560808301, 7423743.570035106502473 ] } }
+]
+}

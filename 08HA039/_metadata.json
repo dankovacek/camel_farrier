@@ -1,0 +1,12 @@
+{
+  "station_id": "08HA039",
+  "station_name": "GOLDSTREAM RIVER IN GOLDSTREAM PROVINCIAL PARK",
+  "latitude": 48.46110916137695,
+  "longitude": -123.55249786376952,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:11.817641"
+}

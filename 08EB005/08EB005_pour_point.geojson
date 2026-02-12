@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08EB005_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08EB005", "NameNom": "SKEENA RIVER ABOVE BABINE RIVER", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -14214096.348717039451003, 7502172.73469168599695 ] } }
+]
+}

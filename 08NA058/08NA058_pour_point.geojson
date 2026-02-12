@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NA058_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NA058", "NameNom": "HOTSPRING CREEK NEAR FAIRMONT HOT SPRINGS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -12895221.98362011089921, 6503319.968840648420155 ] } }
+]
+}

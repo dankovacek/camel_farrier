@@ -1,0 +1,12 @@
+{
+  "station_id": "08MC036",
+  "station_name": "CHIMNEY CREEK AT DOG CREEK ROAD",
+  "latitude": 52.05833053588867,
+  "longitude": -122.1116714477539,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:19.734642"
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Version history for station data",
+  "station_id": "07FD009",
+  "versions": [
+    {
+      "semantic_tag": "v1.0.0",
+      "timestamp": "2026-02-11T17:18:03.153611",
+      "data_source": "WSC_basins",
+      "polygon_file": "07FD009_polygon_v1.0.0.geojson",
+      "source_metadata": {
+        "StationNum": "07FD009",
+        "NameNom": "CLEAR RIVER NEAR BEAR CANYON",
+        "Status": "active",
+        "Etat": "en service",
+        "Area_km2": "2871.83",
+        "Aire_km2": "2871.83",
+        "Version": "Prerelease/Pr\u00e9liminaire",
+        "Date": "2021-12-17"
+      }
+    },
+    {
+      "semantic_tag": "v1.1.0",
+      "timestamp": "2026-02-11T17:19:28.949432",
+      "data_source": "HYDAT_polygons",
+      "polygon_file": "07FD009_polygon_v1.1.0.geojson",
+      "source_metadata": {
+        "StationNum": "07FD009",
+        "NameNom": "CLEAR RIVER NEAR BEAR CANYON",
+        "Status": "active",
+        "Etat": "en service",
+        "Area_km2": 2871.69,
+        "Aire_km2": 2871.69,
+        "Remark": null,
+        "Remarque": null,
+        "Version": "June 2024 / juin 2024",
+        "Date_rev": "2024-06-01",
+        "Shape_Leng": 407100.0,
+        "Shape_Area": 2871685800.0
+      }
+    }
+  ],
+  "schema_version": "1.0.0",
+  "current_version": "v1.1.0",
+  "version_count": 2,
+  "first_committed": "2026-02-11T17:18:03.153611",
+  "last_updated": "2026-02-11T17:19:28.949432",
+  "comparisons": {
+    "v1.0.0_vs_v1.1.0": {
+      "computed_at": "2026-02-11T17:19:28.949432",
+      "jaccard_index": 0.9997,
+      "old_area_km2": 2871.8316,
+      "new_area_km2": 2871.6885,
+      "absolute_area_diff_km2": 0.1431,
+      "percent_area_diff": -0.0
+    }
+  }
+}

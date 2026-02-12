@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08MF036_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08MF036", "NameNom": "HOPE SLOUGH NEAR ROSEDALE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13564769.758919874206185, 6304655.245610344223678 ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "07HC002_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "07HC002", "NameNom": "BUCHANAN CREEK NEAR MANNING", "Status": "active", "Etat": "en service", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13078759.994065521284938, 7738691.872970293276012 ] } }
-]
-}

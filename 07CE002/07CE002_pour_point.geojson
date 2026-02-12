@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07CE002_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07CE002", "NameNom": "CHRISTINA RIVER NEAR CHARD", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -12341846.115717301145196, 7526053.002059041522443 ] } }
+]
+}

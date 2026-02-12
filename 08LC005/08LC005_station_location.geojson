@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LC005_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LC005", "NameNom": "BESSETTE CREEK NEAR LUMBY", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13243468.312643248587847, 6487024.877597060985863 ] } }
+]
+}

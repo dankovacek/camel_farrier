@@ -1,0 +1,12 @@
+{
+  "station_id": "08LF020",
+  "station_name": "PENDLETON CREEK NEAR CHERRY CREEK",
+  "latitude": 50.67499923706055,
+  "longitude": -120.5749969482422,
+  "drainage_area_gross_km2": 10.399999618530272,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:18.221825"
+}

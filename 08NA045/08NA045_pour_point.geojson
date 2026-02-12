@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NA045_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NA045", "NameNom": "COLUMBIA RIVER NEAR FAIRMONT HOT SPRINGS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -12897858.029162095859647, 6502469.058403133414686 ] } }
+]
+}

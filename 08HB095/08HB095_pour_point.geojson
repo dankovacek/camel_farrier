@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HB095_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HB095", "NameNom": "NAHMINT RIVER SOUTH TRIBUTARY MID VALLEY", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13942491.262715255841613, 6310083.789308401755989 ] } }
+]
+}

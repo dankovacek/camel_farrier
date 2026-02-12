@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MC009_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MC009", "NameNom": "LAC LA HACHE NEAR LAC LA HACHE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13543922.957879019901156, 6777117.190222040750086 ] } }
+]
+}

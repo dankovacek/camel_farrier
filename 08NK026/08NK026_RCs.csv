@@ -1,0 +1,14 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08NK026,24.0,,LogarithmicTable,Provisional/Provisoire,(2.174:1.865);(1.955);
+08NK026,23.0,,LogarithmicTable,Final/Finales,(0.86);
+08NK026,22.0,"redid upper end of curve to plot 2019, 2018 and 2017.  added a rating point above the BP to make adjusting easier.",LogarithmicTable,Final/Finales,(1.2:1);(1.055);
+08NK026,21.0,New Weir pool and face constructed,LogarithmicTable,Final/Finales,(1.2:1);(1.09);
+08NK026,20.0,New Weir pool and face constructed,LogarithmicTable,Final/Finales,(1.2:1);(0.4);
+08NK026,19.1,Coincident with #18 below 1.24 and above 1.5.,LinearTable,Final/Finales,
+08NK026,19.0,Coincident with #18 below 1.24 and above 1.5.,LinearTable,Final/Finales,
+08NK026,18.0,,LinearTable,Final/Finales,
+08NK026,17.0,,LinearTable,Final/Finales,
+08NK026,16.0,,LinearTable,Final/Finales,
+08NK026,14.1,,LinearTable,Final/Finales,
+08NK026,15.0,,LinearTable,Final/Finales,
+08NK026,14.0,,LinearTable,Final/Finales,

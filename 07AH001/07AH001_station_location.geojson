@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07AH001_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07AH001", "NameNom": "FREEMAN RIVER NEAR FORT ASSINIBOINE", "Status": "active", "Etat": "en service", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12791143.825702941045165, 7239574.863292274065316 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM070_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NM070", "NameNom": "RIDDLE CREEK NEAR WEST SUMMERLAND", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13335151.045260589569807, 6361558.676992712542415 ] } }
+]
+}

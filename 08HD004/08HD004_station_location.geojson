@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HD004_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HD004", "NameNom": "CAMPBELL RIVER NEAR QUINSAM", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13980180.702713133767247, 6440216.662468689493835 ] } }
+]
+}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08ME023_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08ME023", "NameNom": "BRIDGE RIVER (SOUTH BRANCH) BELOW BRIDGE GLACIER", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13742758.492749240249395, 6595900.004741748794913 ] } }
-]
-}

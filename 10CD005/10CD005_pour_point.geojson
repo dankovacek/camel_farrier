@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10CD005_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10CD005", "NameNom": "ADSETT CREEK AT KILOMETRE 386.0 ALASKA HIGHWAY", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13660700.443305887281895, 7989647.363566202111542 ] } }
+]
+}

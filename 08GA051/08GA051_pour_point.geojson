@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08GA051_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08GA051", "NameNom": "LANGDALE CREEK AT HIGHWAY NO. 101 NEAR GIBSONS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13745521.442510729655623, 6348632.118162848055363 ] } }
+]
+}

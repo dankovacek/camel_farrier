@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08KC003_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08KC003", "NameNom": "MUSKEG RIVER NORTH OF JOANNE LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13718702.350788814947009, 7285632.816086699254811 ] } }
-]
-}

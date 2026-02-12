@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NG027_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NG027", "NameNom": "LAKIT CREEK AT THE UPPER FORKS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12872830.068047044798732, 6390753.508710847236216 ] } }
+]
+}

@@ -1,0 +1,8 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07BJ001,27.00,Control changed in 2022. Two segment curve for channel control and floodplain. See RMD for more details.,LogarithmicTable,Provisional/Provisoire,(588.2442:582.464);(585.375);
+07BJ001,26.0,,LogarithmicTable,Final/Finales,(588.2442:582.61);(585.4);
+07BJ001,25.000,,LinearTable,Final/Finales,
+07BJ001,24.000,,LinearTable,Final/Finales,
+07BJ001,23.000,Same as Curve#22 converted to GSC datum,LinearTable,Final/Finales,
+07BJ001,22.000,,LinearTable,Final/Finales,
+07BJ001,22.000-SC1,,LinearTable,Final/Finales,

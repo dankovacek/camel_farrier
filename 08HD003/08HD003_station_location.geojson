@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HD003_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HD003", "NameNom": "CAMPBELL RIVER NEAR CAMPBELL RIVER", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13947742.20309597440064, 6452869.773429878987372 ] } }
+]
+}

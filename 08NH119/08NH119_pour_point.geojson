@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH119_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NH119", "NameNom": "DUNCAN RIVER BELOW B.B. CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13029739.343099795281887, 6557329.170689455233514 ] } }
+]
+}

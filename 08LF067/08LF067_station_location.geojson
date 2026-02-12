@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LF067_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LF067", "NameNom": "BARNARD CREEK NEAR ASHCROFT", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13500638.600273869931698, 6562882.695193500258029 ] } }
+]
+}

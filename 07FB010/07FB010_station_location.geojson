@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07FB010_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07FB010", "NameNom": "PINE RIVER ABOVE MOUNTAIN CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13644953.188138272613287, 7461154.263487993739545 ] } }
+]
+}

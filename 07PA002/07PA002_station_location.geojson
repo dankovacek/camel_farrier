@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07PA002_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07PA002", "NameNom": "WHITESAND RIVER NEAR ALTA/NWT BOUNDARY", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NT", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12866184.294446688145399, 8400788.820790750905871 ] } }
+]
+}

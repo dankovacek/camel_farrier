@@ -1,0 +1,12 @@
+{
+  "station_id": "08NJ143",
+  "station_name": "EAGLE CREEK (WEST FORK) NEAR BLEWETT",
+  "latitude": 49.46028137207031,
+  "longitude": -117.37889099121094,
+  "drainage_area_gross_km2": 2.069999933242798,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:26.560514"
+}

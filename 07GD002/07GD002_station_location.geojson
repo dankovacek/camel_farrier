@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07GD002_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07GD002", "NameNom": "BEAVERTAIL CREEK NEAR HYTHE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13318542.17723423242569, 7423471.647548470646143 ] } }
+]
+}

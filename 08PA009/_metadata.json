@@ -1,0 +1,12 @@
+{
+  "station_id": "08PA009",
+  "station_name": "ROSS RESERVOIR NEAR NEWHALEM",
+  "latitude": 48.73278045654297,
+  "longitude": -121.06722259521484,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "WA",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:30.195645"
+}

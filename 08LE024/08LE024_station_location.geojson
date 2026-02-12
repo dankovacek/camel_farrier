@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LE024_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LE024", "NameNom": "EAGLE RIVER NEAR MALAKWA", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13224944.749375248327851, 6610040.721654673106968 ] } }
+]
+}

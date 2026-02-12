@@ -1,0 +1,17 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08NE006,61.0,"new curve for trend to the right, extend lower end",LogarithmicTable,Provisional/Provisoire,(-0.085);
+08NE006,60.0,,LogarithmicTable,Final/Finales,(-0.04);
+08NE006,59.0,,LogarithmicTable,Final/Finales,(-0.3);
+08NE006,58.0,,LogarithmicTable,Final/Finales,(-0.3);
+08NE006,58.0,,LogarithmicTable,Final/Finales,(-0.3);
+08NE006,57.0,,LogarithmicTable,Final/Finales,(-0.138);
+08NE006,56.0,,LogarithmicTable,Final/Finales,(-0.149);
+08NE006,55.0,,LogarithmicTable,Final/Finales,(-0.11);
+08NE006,54.0,,LinearTable,Final/Finales,
+08NE006,53.0,COINCIDENT WITH TABLE 52  ABOVE .9000m,LinearTable,Final/Finales,
+08NE006,52.0,COINCIDENT WITH TABLE 51 AT AND ABOVE 1.000m,LinearTable,Final/Finales,
+08NE006,51.0,,LinearTable,Final/Finales,
+08NE006,50.0,,LinearTable,Final/Finales,
+08NE006,49.0,,LinearTable,Final/Finales,
+08NE006,48.0,,LinearTable,Final/Finales,
+08NE006,47.0,,LinearTable,Final/Finales,

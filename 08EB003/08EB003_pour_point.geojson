@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08EB003_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08EB003", "NameNom": "SKEENA RIVER AT GLEN VOWELL", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -14212453.273032931610942, 7420330.558010015636683 ] } }
+]
+}

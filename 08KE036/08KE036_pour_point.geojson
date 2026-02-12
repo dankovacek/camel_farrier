@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08KE036_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08KE036", "NameNom": "NARCOSLI CREEK BELOW RAMSEY CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13656492.56655390188098, 6892718.745724305510521 ] } }
+]
+}

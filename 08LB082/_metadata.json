@@ -1,0 +1,12 @@
+{
+  "station_id": "08LB082",
+  "station_name": "MCQUEEN LAKE AT THE OUTLET",
+  "latitude": 50.83028030395508,
+  "longitude": -120.4375,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:16.166022"
+}

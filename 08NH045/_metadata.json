@@ -1,0 +1,12 @@
+{
+  "station_id": "08NH045",
+  "station_name": "SIRDAR CREEK AT SIRDAR",
+  "latitude": 49.24388885498047,
+  "longitude": -116.61943817138672,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:25.221771"
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HA039_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HA039", "NameNom": "GOLDSTREAM RIVER IN GOLDSTREAM PROVINCIAL PARK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13753801.386235931888223, 6183912.833338272757828 ] } }
+]
+}

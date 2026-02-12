@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07BB903_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07BB903", "NameNom": "ROMEO CREEK ABOVE ROMEO LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -12790837.697103261947632, 7183950.124709127470851 ] } }
+]
+}

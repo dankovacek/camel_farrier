@@ -1,0 +1,12 @@
+{
+  "station_id": "08JC014",
+  "station_name": "BEAVERLEY CREEK NEAR THE MOUTH",
+  "latitude": 53.81193923950195,
+  "longitude": -122.9680633544922,
+  "drainage_area_gross_km2": 145.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:14.229039"
+}

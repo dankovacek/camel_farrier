@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08NN017_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08NN017", "NameNom": "CHRISTINA LAKE NEAR GRAND FORKS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13159134.892808079719543, 6282323.780680799856782 ] } }
-]
-}

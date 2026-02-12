@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08LG028_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08LG028", "NameNom": "NICOLA RIVER AT OUTLET OF DOUGLAS LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13390030.441026763990521, 6470680.089123732410371 ] } }
-]
-}

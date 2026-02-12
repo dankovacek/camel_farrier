@@ -1,0 +1,12 @@
+{
+  "station_id": "08NK007",
+  "station_name": "QUAIL CREEK NEAR HOSMER",
+  "latitude": 49.570560455322266,
+  "longitude": -114.98999786376952,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:26.757792"
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ130_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NJ130", "NameNom": "ANDERSON CREEK NEAR NELSON", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13053506.054384160786867, 6360475.274672071449459 ] } }
+]
+}

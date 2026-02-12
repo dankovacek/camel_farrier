@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07SB013_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07SB013", "NameNom": "BAKER CREEK AT OUTLET OF LOWER MARTIN LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "NT", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12736040.67776027135551, 8981956.140852442011237 ] } }
+]
+}

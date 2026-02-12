@@ -1,0 +1,17 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08ED002,21.00,Shift at Highwater,LogarithmicTable,Provisional/Provisoire,(0.101);
+08ED002,18.000,Shifted to new logarithmic curve on Jan 10/2011 visit. Bank erosion occurring at site.,LogarithmicTable,Final/Finales,(0.05);
+08ED002,20.000,Shift at Highwater,LogarithmicTable,Final/Finales,(0.16);
+08ED002,19.000,Shift at Highwater July 26/2012.,LogarithmicTable,Final/Finales,(0.145);
+08ED002,17.010,Approved: Shift @ HW,LinearTable,Final/Finales,
+08ED002,16.010,APPROVED-BACK TO CURVE NO. 16 AFTER HIGH WATER,LinearTable,Final/Finales,
+08ED002,17.000,APPROVED-To the right of #16 following June HW,LinearTable,Final/Finales,
+08ED002,16.000,,LinearTable,Final/Finales,
+08ED002,15.000-SC2,,LinearTable,Final/Finales,
+08ED002,15.000,,LinearTable,Final/Finales,
+08ED002,14.000,,LinearTable,Final/Finales,
+08ED002,13.000,,LinearTable,Final/Finales,
+08ED002,12.000,,LinearTable,Final/Finales,
+08ED002,11.000,,LinearTable,Final/Finales,
+08ED002,11.000-SC1,,LinearTable,Final/Finales,
+08ED002,10.000,,LinearTable,Final/Finales,

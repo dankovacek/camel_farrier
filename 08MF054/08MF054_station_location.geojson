@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MF054_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MF054", "NameNom": "MOUNTAIN SLOUGH NEAR AGASSIZ", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13563968.258586162701249, 6318099.28598450217396 ] } }
+]
+}

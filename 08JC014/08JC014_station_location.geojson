@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08JC014_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08JC014", "NameNom": "BEAVERLEY CREEK NEAR THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13688746.275816343724728, 7134620.127119895070791 ] } }
+]
+}

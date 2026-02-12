@@ -1,0 +1,12 @@
+{
+  "station_id": "08NM122",
+  "station_name": "ELLIS CREEK NORTH MAIN DIVERSION",
+  "latitude": 49.480560302734375,
+  "longitude": -119.5625,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:28.859424"
+}

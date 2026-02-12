@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10UH006_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10UH006", "NameNom": "ARMSHOW NORTH RIVER AT OUTLET ARMSHOW NORTH LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NU", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -7685344.023470311425626, 9256638.251715123653412 ] } }
+]
+}

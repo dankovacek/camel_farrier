@@ -1,0 +1,12 @@
+{
+  "station_id": "08KE036",
+  "station_name": "NARCOSLI CREEK BELOW RAMSEY CREEK",
+  "latitude": 52.508060455322266,
+  "longitude": -122.6786117553711,
+  "drainage_area_gross_km2": 629.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:14.941855"
+}

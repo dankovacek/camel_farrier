@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "07BJ003_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "07BJ003", "NameNom": "SWAN RIVER NEAR SWAN HILLS", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -12854019.300492798909545, 7323577.209732146933675 ] } }
-]
-}

@@ -1,0 +1,12 @@
+{
+  "station_id": "10JE001",
+  "station_name": "SLOAN RIVER NEAR THE MOUTH",
+  "latitude": 66.52194213867188,
+  "longitude": -117.27388763427734,
+  "drainage_area_gross_km2": 2040.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "NT",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:33.833004"
+}

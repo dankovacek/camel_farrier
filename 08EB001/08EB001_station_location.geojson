@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08EB001_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08EB001", "NameNom": "SKEENA RIVER AT HAZELTON", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -14212782.778725679963827, 7411893.466428698040545 ] } }
+]
+}

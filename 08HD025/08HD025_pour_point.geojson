@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HD025_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HD025", "NameNom": "WOKAS LAKE NEAR CAMPBELL RIVER", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13975731.262666128575802, 6430799.063756985589862 ] } }
+]
+}

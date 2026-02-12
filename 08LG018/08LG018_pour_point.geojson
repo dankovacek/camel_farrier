@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LG018_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LG018", "NameNom": "SPAHOMIN CREEK NEAR DOUGLAS LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13390253.08000835031271, 6466241.72593789268285 ] } }
+]
+}

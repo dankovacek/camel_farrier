@@ -1,0 +1,9 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07AF010,14.00,2 Segment curve. Covers stage from 0.843 m to 3.102 m. Discharge graded as estimated below 0.091 m^3/s . Adjusted floodplain segment for high water measurements in 2023. Adjusted lower portion to account for backwater build-up caused by vegetation.,LogarithmicTable,Provisional/Provisoire,(1.3788401409205862:0.802);(0.802);
+07AF010,13.000,Modernize previous Compumod curve.,LogarithmicTable,Final/Finales,(1.371:0.802);(0.91);
+07AF010,12.000,Same as Curve #11 above GHT 1.025m,LinearTable,Final/Finales,
+07AF010,12.000-SC1,,LinearTable,Final/Finales,
+07AF010,11.000,Same as Curve #10 above GHT 1.690m.,LinearTable,Final/Finales,
+07AF010,10.000,,LinearTable,Final/Finales,
+07AF010,9.000,,LinearTable,Final/Finales,
+07AF010,8.000,,LinearTable,Final/Finales,

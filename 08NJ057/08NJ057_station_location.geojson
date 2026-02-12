@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NJ057_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NJ057", "NameNom": "PERRY CREEK NEAR PERRY SIDING", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13079884.320922534912825, 6389081.50468500610441 ] } }
+]
+}

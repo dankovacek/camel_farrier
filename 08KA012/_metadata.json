@@ -1,0 +1,12 @@
+{
+  "station_id": "08KA012",
+  "station_name": "SWIFT CREEK NEAR THE MOUTH",
+  "latitude": 52.83832931518555,
+  "longitude": -119.26667022705078,
+  "drainage_area_gross_km2": 132.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:14.537481"
+}

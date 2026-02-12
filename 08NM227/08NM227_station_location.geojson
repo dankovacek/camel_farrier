@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM227_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NM227", "NameNom": "GARNET LAKE NEAR SUMMERLAND", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13333258.613917103037238, 6392140.218210519291461 ] } }
+]
+}

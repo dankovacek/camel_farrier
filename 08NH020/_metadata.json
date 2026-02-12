@@ -1,0 +1,12 @@
+{
+  "station_id": "08NH020",
+  "station_name": "MCGREGOR CREEK NEAR CRAWFORD BAY",
+  "latitude": 49.44667053222656,
+  "longitude": -116.7633285522461,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:25.151985"
+}

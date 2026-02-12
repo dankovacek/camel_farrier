@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MD002_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MD002", "NameNom": "PAVILION CREEK NEAR PAVILION (LOWER STATION)", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13558402.284046499058604, 6602399.030591168440878 ] } }
+]
+}

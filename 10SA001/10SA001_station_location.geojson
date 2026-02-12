@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10SA001_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10SA001", "NameNom": "UNNAMED RIVER AT OUTLET OF LAKE JEKYL", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NU", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -10408372.389171078801155, 10998558.35225142352283 ] } }
+]
+}

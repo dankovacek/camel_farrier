@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08MG017_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08MG017", "NameNom": "MIAMI CREEK NEAR HARRISON HOT SPRINGS (LOWER STATION)", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13556940.65913238376379, 6322823.171234323643148 ] } }
-]
-}

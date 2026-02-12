@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NK020_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NK020", "NameNom": "MICHEL CREEK BELOW NATAL", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12785789.358195785433054, 6399695.456939333118498 ] } }
+]
+}

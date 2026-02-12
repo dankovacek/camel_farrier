@@ -1,0 +1,12 @@
+{
+  "station_id": "08NA068",
+  "station_name": "PAGLIARO CREEK NEAR GOLDEN",
+  "latitude": 51.19778060913086,
+  "longitude": -116.85305786132812,
+  "drainage_area_gross_km2": 4.400000095367432,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:22.900654"
+}

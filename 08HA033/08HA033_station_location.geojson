@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HA033_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HA033", "NameNom": "SHAWNIGAN CREEK NEAR MILL BAY", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13755627.025884943082929, 6217039.246613617055118 ] } }
+]
+}

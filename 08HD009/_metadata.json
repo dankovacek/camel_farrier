@@ -1,0 +1,12 @@
+{
+  "station_id": "08HD009",
+  "station_name": "STOWE CREEK NEAR SAYWARD",
+  "latitude": 50.29888916015625,
+  "longitude": -125.8847198486328,
+  "drainage_area_gross_km2": 17.100000381469727,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:13.458926"
+}

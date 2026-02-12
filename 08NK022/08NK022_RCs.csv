@@ -1,0 +1,34 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08NK022,57.0,"Curve 57.00 was created based on 11 measurements post 2020 high water and pre 2022 high water, all but one measurement plot on. The lower end of the model is similar to curve 55.00 but the higher end is built more to the left. It is believed there was a change in the upper end of the rating or due to a lack of high end measurements the previous curves where biased to the right.",LogarithmicTable,Provisional/Provisoire,(0.361);
+08NK022,56.01,CLONE 56.0 WITH NAMING CONVENTION & CC ESTIMATES,LogarithmicTable,Final/Finales,(0.18);
+08NK022,56.0,,LogarithmicTable,Final/Finales,(0.18);
+08NK022,55.01,clone curve to add curve conf limits,LogarithmicTable,Final/Finales,(0.31);
+08NK022,55.0,,LogarithmicTable,Final/Finales,(0.31);
+08NK022,54.001,"extended lower end  of 54.000, now 54.001",LogarithmicTable,Final/Finales,(0.2);
+08NK022,54.0,New curve plots right of #52 due to evidence of Scour after flood event and measurements on June 21 and July 3,LogarithmicTable,Final/Finales,(0.2);
+08NK022,53.0,Same as 52.1 with extend top end following same equation,LogarithmicTable,Final/Finales,(0.2);
+08NK022,52.1,Extended bottom end,LogarithmicTable,Final/Finales,(0.2);
+08NK022,52.0,,LogarithmicTable,Final/Finales,(0.2);
+08NK022,51.0,C#51 is coincident with C#50 at & abv  GH= 0.860m,LinearTable,Final/Finales,
+08NK022,50.0,C#50 is coincident with C#49 at & abv  GH= 0.980m,LinearTable,Final/Finales,
+08NK022,49.0,C#49 is coincident with C#48 at  GH=1.200m,LinearTable,Final/Finales,
+08NK022,48.0,C#48 is coincident with C#47 at & abv  GH=0.960m,LinearTable,Final/Finales,
+08NK022,47.0,,LinearTable,Final/Finales,
+08NK022,46.0,,LinearTable,Final/Finales,
+08NK022,45.0,,LinearTable,Final/Finales,
+08NK022,44.0,,LinearTable,Final/Finales,
+08NK022,43.0,,LinearTable,Final/Finales,
+08NK022,42.0,,LinearTable,Final/Finales,
+08NK022,41.0,,LinearTable,Final/Finales,
+08NK022,40.0,,LinearTable,Final/Finales,
+08NK022,39.0,,LinearTable,Final/Finales,
+08NK022,38.0,,LinearTable,Final/Finales,
+08NK022,37.0,,LinearTable,Final/Finales,
+08NK022,36.0,,LinearTable,Final/Finales,
+08NK022,35.0,,LinearTable,Final/Finales,
+08NK022,34.0,,LinearTable,Final/Finales,
+08NK022,33.0,,LinearTable,Final/Finales,
+08NK022,32.0,,LinearTable,Final/Finales,
+08NK022,31.0,,LinearTable,Final/Finales,
+08NK022,30.0,,LinearTable,Final/Finales,
+08NK022,29.0,,LinearTable,Final/Finales,

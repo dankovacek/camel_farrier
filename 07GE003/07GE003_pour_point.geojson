@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07GE003_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07GE003", "NameNom": "GRANDE PRAIRIE CREEK NEAR SEXSMITH", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -13237639.624105313792825, 7434871.222972770221531 ] } }
+]
+}

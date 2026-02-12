@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LF089_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LF089", "NameNom": "SCOTTIE CREEK ABOVE CHROME CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13513996.939169062301517, 6618395.033423662185669 ] } }
+]
+}

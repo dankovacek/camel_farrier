@@ -1,0 +1,12 @@
+{
+  "station_id": "07HA002",
+  "station_name": "HEART RIVER AT PEACE RIVER",
+  "latitude": 56.230560302734375,
+  "longitude": -117.2861099243164,
+  "drainage_area_gross_km2": 2250.0,
+  "drainage_area_effect_km2": 2240.0,
+  "province_territory": "AB",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:04.180542"
+}

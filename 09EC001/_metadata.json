@@ -1,0 +1,12 @@
+{
+  "station_id": "09EC001",
+  "station_name": "CLINTON CREEK ABOVE WOLVERINE CREEK",
+  "latitude": 64.44833374023438,
+  "longitude": -140.7066650390625,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "YT",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:32.052090"
+}

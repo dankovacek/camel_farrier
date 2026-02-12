@@ -1,0 +1,12 @@
+{
+  "station_id": "08NE117",
+  "station_name": "KUSKANAX CREEK AT 1040 M CONTOUR",
+  "latitude": 50.34333038330078,
+  "longitude": -117.51805877685548,
+  "drainage_area_gross_km2": 113.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:23.840110"
+}

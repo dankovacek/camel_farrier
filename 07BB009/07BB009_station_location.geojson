@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "07BB009_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "07BB009", "NameNom": "CONNOR CREEK NEAR SANGUDO", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12795529.813640194013715, 7174524.792172431945801 ] } }
-]
-}

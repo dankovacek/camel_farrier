@@ -1,0 +1,12 @@
+{
+  "station_id": "07DA006",
+  "station_name": "STEEPBANK RIVER NEAR FORT MCMURRAY",
+  "latitude": 56.99934005737305,
+  "longitude": -111.40699768066406,
+  "drainage_area_gross_km2": 1320.0,
+  "drainage_area_effect_km2": 1320.0,
+  "province_territory": "AB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:01.104633"
+}

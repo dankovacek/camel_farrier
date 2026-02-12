@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE028_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NE028", "NameNom": "RENATA CREEK NEAR RENATA", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13147856.002000905573368, 6346571.464879622682929 ] } }
+]
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "10BC001",
+  "station_name": "COAL RIVER AT THE MOUTH",
+  "latitude": 59.69139099121094,
+  "longitude": -126.9505615234375,
+  "drainage_area_gross_km2": 9190.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:32.417156"
+}

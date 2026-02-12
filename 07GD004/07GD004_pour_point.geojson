@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07GD004_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07GD004", "NameNom": "REDWILLOW RIVER NEAR RIO GRANDE", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -13325180.158470237627625, 7377262.138500657863915 ] } }
+]
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "08GA070",
+  "station_name": "KILLARNEY LAKE ON BOWEN ISLAND",
+  "latitude": 49.38888931274414,
+  "longitude": -123.35138702392578,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:10.966212"
+}

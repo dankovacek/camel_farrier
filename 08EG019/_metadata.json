@@ -1,0 +1,12 @@
+{
+  "station_id": "08EG019",
+  "station_name": "KITSUMKALUM RIVER BELOW ALICE CREEK",
+  "latitude": 54.679298400878906,
+  "longitude": -128.74395751953125,
+  "drainage_area_gross_km2": 2070.0,
+  "drainage_area_effect_km2": 2070.0,
+  "province_territory": "BC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:09.767933"
+}

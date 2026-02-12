@@ -1,0 +1,15 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08NH007,48.0,,LogarithmicTable,Provisional/Provisoire,(0.065);
+08NH007,47.02,,LogarithmicTable,Final/Finales,(0.237);
+08NH007,47.001,,LogarithmicTable,Final/Finales,(0.237);
+08NH007,47.0,,LogarithmicTable,Final/Finales,(0.237);
+08NH007,46.0,,LogarithmicTable,Final/Finales,(1.08717:0.25);(0.5);
+08NH007,45.0,,LogarithmicTable,Final/Finales,(0.38);
+08NH007,44.0,Conincident with 43 @ & above 1.7m.,LinearTable,Final/Finales,
+08NH007,43.0,Conincident with 42 @ & above 2.4m.,LinearTable,Final/Finales,
+08NH007,42.0,Conincident with 41 @ & above 1.7m.,LinearTable,Final/Finales,
+08NH007,41.0,Conincident with 40 above 1.3m. Extended Feb 2007,LinearTable,Final/Finales,
+08NH007,40.0,,LinearTable,Final/Finales,
+08NH007,39.0,,LinearTable,Final/Finales,
+08NH007,38.0,,LinearTable,Final/Finales,
+08NH007,37.0,,LinearTable,Final/Finales,

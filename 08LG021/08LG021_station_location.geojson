@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LG021_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LG021", "NameNom": "REY CREEK NEAR MAMETTE LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13446904.682067956775427, 6508856.50767525844276 ] } }
+]
+}

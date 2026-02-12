@@ -1,0 +1,12 @@
+{
+  "station_id": "10SA001",
+  "station_name": "UNNAMED RIVER AT OUTLET OF LAKE JEKYL",
+  "latitude": 69.78333282470703,
+  "longitude": -93.5,
+  "drainage_area_gross_km2": 502.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "NU",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:35.221717"
+}

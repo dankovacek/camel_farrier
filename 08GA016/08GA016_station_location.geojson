@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08GA016_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08GA016", "NameNom": "BRANDYWINE CREEK NEAR BREW", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13705655.706467842683196, 6452628.862630409188569 ] } }
-]
-}

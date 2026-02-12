@@ -1,0 +1,23 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08NH119,48.000,curve starts after small peak in may.  mmts all plotting to right of old rating,LogarithmicTable,Provisional/Provisoire,(0.875);
+08NH119,47.000,,LogarithmicTable,Final/Finales,(0.805);
+08NH119,46.001,,LogarithmicTable,Final/Finales,(0.805);
+08NH119,46.0,,LogarithmicTable,Final/Finales,(0.805);
+08NH119,45.0,CLONE OF 44.0 WITH UPPPER END EXTENSION,LogarithmicTable,Final/Finales,(0.81);
+08NH119,44.0,extend lower end,LogarithmicTable,Final/Finales,(0.81);
+08NH119,43.0,,LogarithmicTable,Final/Finales,(0.81);
+08NH119,42.01C,"clone of 42 ,",LinearTable,Final/Finales,
+08NH119,42.000,,LinearTable,Final/Finales,
+08NH119,41.000,Ice movement co-incident  with #40 @ 2.1m,LinearTable,Final/Finales,
+08NH119,40.000,Ice out (1.2m) co-incident @ 2.0m with #39,LinearTable,Final/Finales,
+08NH119,39.000,,LinearTable,Final/Finales,
+08NH119,38.000,,LinearTable,Final/Finales,
+08NH119,37.000,,LinearTable,Final/Finales,
+08NH119,36.000,Low end revision.,LinearTable,Final/Finales,
+08NH119,35.000,,LinearTable,Final/Finales,
+08NH119,34.000,,LinearTable,Final/Finales,
+08NH119,33.000,,LinearTable,Final/Finales,
+08NH119,32.000,,LinearTable,Final/Finales,
+08NH119,31.000,,LinearTable,Final/Finales,
+08NH119,30.000,,LinearTable,Final/Finales,
+08NH119,28.000,,LinearTable,Final/Finales,

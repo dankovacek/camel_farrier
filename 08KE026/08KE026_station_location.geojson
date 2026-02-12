@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08KE026_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08KE026", "NameNom": "GENERAL CREEK IN ALEXANDRIA I.R. NO. 3", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13636081.024722047150135, 6907668.290948904119432 ] } }
+]
+}

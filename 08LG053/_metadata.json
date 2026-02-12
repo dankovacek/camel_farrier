@@ -1,0 +1,12 @@
+{
+  "station_id": "08LG053",
+  "station_name": "WALLOPER CREEK ABOVE WALLOPER LAKE",
+  "latitude": 50.48556137084961,
+  "longitude": -120.54444122314452,
+  "drainage_area_gross_km2": 19.399999618530277,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:19.400817"
+}

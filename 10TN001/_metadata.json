@@ -1,0 +1,12 @@
+{
+  "station_id": "10TN001",
+  "station_name": "LANG RIVER ABOVE PRINCE REGENT INLET",
+  "latitude": 72.28333282470703,
+  "longitude": -94.1999969482422,
+  "drainage_area_gross_km2": 134.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "NU",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:35.274580"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "08LE037",
+  "station_name": "CAMPBELL CREEK NEAR BARNHART VALE (UPPER STATION)",
+  "latitude": 50.571388244628906,
+  "longitude": -120.21111297607422,
+  "drainage_area_gross_km2": 285.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:17.211353"
+}

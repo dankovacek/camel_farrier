@@ -1,0 +1,12 @@
+{
+  "station_id": "07GE003",
+  "station_name": "GRANDE PRAIRIE CREEK NEAR SEXSMITH",
+  "latitude": 55.3745002746582,
+  "longitude": -118.916259765625,
+  "drainage_area_gross_km2": 140.0,
+  "drainage_area_effect_km2": 140.0,
+  "province_territory": "AB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:03.919647"
+}

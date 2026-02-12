@@ -1,0 +1,27 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+10CD005,41.0,Based on 2017/2018 mmts.  After a 2016 scour event,LogarithmicTable,Provisional/Provisoire,(0.65);
+10CD005,42.0,Curve 42.00 was created for the 2023 review period because all 2023 open water measurements plotted >5% off of previous curve 41.00. Curve 42.00 was built using 2023 open-water measurements. The upper end of the curve was defined using high-water measurements from 2022 and 2023. The low-end of the curve was defined using a low water measurement from 2023. A breakpoint was added at a stage of 1.07m because this was the estimated stage when a gravel bar downstream of the gauge is completely submerged. All 2023 open-water measurements plotted within 5% of the new curve except for the September measurement which plotted >5% right. This was likely caused by a combination of the sensitivity of the curve at low flows and measurement locations. The September measurement was collected 20 meters further upstream than the October measurement and there may have been some pooling between these two wading sections. A time-based shift was applied from the July measurement to the September measurement to bring the September measurement within 5% of the curve.,LogarithmicTable,Final/Finales,(1.07:0.778);(0.88);
+10CD005,40.0,,LogarithmicTable,Final/Finales,(1.095);
+10CD005,39.0,,LogarithmicTable,Final/Finales,(1.112);
+10CD005,38.0,,LogarithmicTable,Final/Finales,(1.119);
+10CD005,37.0,FIRST LOG STAGE-DISCHARGE TABLE FOR ADSETT CREEK,LogarithmicTable,Final/Finales,(1.141:1.045);(1.107);
+10CD005,36.0,APPROVED Coinc w/ table #35. at & above 1.7 M,LinearTable,Final/Finales,
+10CD005,35.0,Coincident with table #34. at & above 1.7 M,LinearTable,Final/Finales,
+10CD005,34.0,Coincident with table #33. at & above 1.6 M,LinearTable,Final/Finales,
+10CD005,33.0,Coincident to table #32 at & above 2.10 M,LinearTable,Final/Finales,
+10CD005,32.0,coincident to table #31 at and above 1.800 m,LinearTable,Final/Finales,
+10CD005,31.0,COINCIDENT#30 BELOW GH 1.125  ABV 1.800,LinearTable,Final/Finales,
+10CD005,30.0,,LinearTable,Final/Finales,
+10CD005,29.0,,LinearTable,Final/Finales,
+10CD005,28.0,,LinearTable,Final/Finales,
+10CD005,27.0,,LinearTable,Final/Finales,
+10CD005,26.0,,LinearTable,Final/Finales,
+10CD005,25.0,,LinearTable,Final/Finales,
+10CD005,24.0,,LinearTable,Final/Finales,
+10CD005,23.0,,LinearTable,Final/Finales,
+10CD005,22.0,,LinearTable,Final/Finales,
+10CD005,21.0,,LinearTable,Final/Finales,
+10CD005,20.0,,LinearTable,Final/Finales,
+10CD005,19.0,,LinearTable,Final/Finales,
+10CD005,18.0,,LinearTable,Final/Finales,
+10CD005,17.0,,LinearTable,Final/Finales,

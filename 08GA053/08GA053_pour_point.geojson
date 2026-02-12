@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08GA053_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08GA053", "NameNom": "SQUAMISH RIVER BELOW MAMQUAM RIVER", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13711025.758703710511327, 6398338.48828836530447 ] } }
+]
+}

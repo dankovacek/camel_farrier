@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MC047_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MC047", "NameNom": "KNIFE CREEK ABOVE DIVERSIONS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13543474.340331122279167, 6800125.454397306777537 ] } }
+]
+}

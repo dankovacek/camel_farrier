@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07FB002_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07FB002", "NameNom": "MURRAY RIVER NEAR THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13492311.90236253477633, 7469836.088634028099477 ] } }
+]
+}

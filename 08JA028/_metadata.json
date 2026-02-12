@@ -1,0 +1,12 @@
+{
+  "station_id": "08JA028",
+  "station_name": "EUTSUK RIVER AT OUTLET OF EUTSUK LAKE",
+  "latitude": 53.234169006347656,
+  "longitude": -126.1119384765625,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:14.142802"
+}

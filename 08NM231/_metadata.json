@@ -1,0 +1,12 @@
+{
+  "station_id": "08NM231",
+  "station_name": "IDEAL LAKE NEAR THE OUTLET",
+  "latitude": 50.01082992553711,
+  "longitude": -119.09610748291016,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:29.296861"
+}

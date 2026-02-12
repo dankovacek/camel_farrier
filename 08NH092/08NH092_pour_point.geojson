@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH092_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NH092", "NameNom": "KOOTENAY RIVER AT DUCK SLOUGH (INSIDE DYKE)", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -12975570.165684880688787, 6304100.153946583159268 ] } }
+]
+}

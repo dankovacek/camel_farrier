@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Version history for station data",
+  "station_id": "07HA914",
+  "versions": [
+    {
+      "semantic_tag": "v1.0.0",
+      "timestamp": "2026-02-11T17:18:04.242063",
+      "data_source": "WSC_basins",
+      "polygon_file": "07HA914_polygon_v1.0.0.geojson",
+      "source_metadata": {
+        "StationNum": "07HA914",
+        "NameNom": "NAMPA (SOUTH) DRAINAGE NEAR NAMPA",
+        "Status": "active",
+        "Etat": "en service",
+        "Area_km2": "33.7338",
+        "Aire_km2": "33.7338",
+        "Version": "Prerelease/Pr\u00e9liminaire",
+        "Date": "2021-12-17"
+      }
+    },
+    {
+      "semantic_tag": "v1.1.0",
+      "timestamp": "2026-02-11T17:19:29.726516",
+      "data_source": "HYDAT_polygons",
+      "polygon_file": "07HA914_polygon_v1.1.0.geojson",
+      "source_metadata": {
+        "StationNum": "07HA914",
+        "NameNom": "NAMPA (SOUTH) DRAINAGE NEAR NAMPA",
+        "Status": "active",
+        "Etat": "en service",
+        "Area_km2": 46.6209,
+        "Aire_km2": 46.6209,
+        "Remark": null,
+        "Remarque": null,
+        "Version": "June 2024 / juin 2024",
+        "Date_rev": "2024-06-01",
+        "Shape_Leng": 43140.0,
+        "Shape_Area": 46620900.0
+      }
+    }
+  ],
+  "schema_version": "1.0.0",
+  "current_version": "v1.1.0",
+  "version_count": 2,
+  "first_committed": "2026-02-11T17:18:04.242063",
+  "last_updated": "2026-02-11T17:19:29.726516",
+  "comparisons": {
+    "v1.0.0_vs_v1.1.0": {
+      "computed_at": "2026-02-11T17:19:29.726516",
+      "jaccard_index": 0.7229,
+      "old_area_km2": 33.7338,
+      "new_area_km2": 46.6205,
+      "absolute_area_diff_km2": 12.8867,
+      "percent_area_diff": 38.2
+    }
+  }
+}

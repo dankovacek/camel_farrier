@@ -1,0 +1,13 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+09EB003,17.0,,LogarithmicTable,Provisional/Provisoire,(1.263);
+09EB003,16.0,Mean Curve approach. Historical mmnt scatter at this location. Using statistical strength of all open water measurements to build the rating. Channel control. Rectangular-shaped channel.,LogarithmicTable,Final/Finales,(1.263);
+09EB003,15.0,,LogarithmicTable,Final/Finales,(1.12);
+09EB003,14.0,Coincides with #13 above 2.25m.,LinearTable,Final/Finales,
+09EB003,13.0,APPROVED,LinearTable,Final/Finales,
+09EB003,12.0,APPROVED.  Coincident to #11 @ & above 1.860 m,LinearTable,Final/Finales,
+09EB003,11.0,"APPROVED, #9 re-named to #11",LinearTable,Final/Finales,
+09EB003,10.0,Coincides with Table #9 at and above 1.68M,LinearTable,Final/Finales,
+09EB003,9.0,Coincides with #7 @ <1.630 & >2.972,LinearTable,Final/Finales,
+09EB003,8.0,coincides w/table # 7 @=<1.630m & =>2.972m,LinearTable,Final/Finales,
+09EB003,7.0,,LinearTable,Final/Finales,
+09EB003,6.0,,LinearTable,Final/Finales,

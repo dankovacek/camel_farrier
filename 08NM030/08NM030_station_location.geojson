@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM030_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NM030", "NameNom": "PEACHLAND CREEK MUNICIPAL IRRIGATION DIVERSION", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13337867.240835946053267, 6404432.797573626041412 ] } }
+]
+}

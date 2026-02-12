@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HD030_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HD030", "NameNom": "PIGGOTT CREEK AT MOUNT WASHINGTON", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13952818.371876148506999, 6403092.288424937985837 ] } }
+]
+}

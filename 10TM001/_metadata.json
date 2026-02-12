@@ -1,0 +1,12 @@
+{
+  "station_id": "10TM001",
+  "station_name": "ASTON RIVER ABOVE ASTON BAY",
+  "latitude": 73.5,
+  "longitude": -94.13333129882812,
+  "drainage_area_gross_km2": 961.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "NU",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:35.244773"
+}

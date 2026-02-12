@@ -1,0 +1,12 @@
+{
+  "station_id": "07SB012",
+  "station_name": "DUNCAN LAKE NEAR YELLOWKNIFE",
+  "latitude": 62.80781173706055,
+  "longitude": -114.03336334228516,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "NT",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:06.009998"
+}

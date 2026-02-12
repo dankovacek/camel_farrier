@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NL013_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NL013", "NameNom": "SUMMERS CREEK AT THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13415701.828798601403832, 6366228.165239600464702 ] } }
+]
+}

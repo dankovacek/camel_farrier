@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MF006_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MF006", "NameNom": "WAHLEACH CREEK NEAR LAIDLAW (UPPER STATION)", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13536939.886221557855606, 6317483.619021634571254 ] } }
+]
+}

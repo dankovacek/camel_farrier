@@ -1,0 +1,12 @@
+{
+  "station_id": "08GA053",
+  "station_name": "SQUAMISH RIVER BELOW MAMQUAM RIVER",
+  "latitude": 49.72222137451172,
+  "longitude": -123.16500091552734,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:10.834958"
+}

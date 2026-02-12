@@ -1,0 +1,12 @@
+{
+  "station_id": "08NJ171",
+  "station_name": "KITTO CREEK ABOVE DIVERSIONS",
+  "latitude": 49.61471939086914,
+  "longitude": -117.10472106933594,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:26.735534"
+}

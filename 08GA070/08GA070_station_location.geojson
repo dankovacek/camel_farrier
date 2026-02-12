@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08GA070_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08GA070", "NameNom": "KILLARNEY LAKE ON BOWEN ISLAND", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13731415.036637404933572, 6341107.362992935813963 ] } }
+]
+}

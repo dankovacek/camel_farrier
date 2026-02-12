@@ -1,0 +1,12 @@
+{
+  "station_id": "08NE023",
+  "station_name": "MAUCHLINE CREEK NEAR ARROW PARK",
+  "latitude": 50.081668853759766,
+  "longitude": -117.9713897705078,
+  "drainage_area_gross_km2": 0.3400000035762787,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:23.492270"
+}

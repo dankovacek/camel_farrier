@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07AF009_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07AF009", "NameNom": "NORTH ANDERSON CREEK NEAR HINTON", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -13068401.715447207912803, 7043328.804925356991589 ] } }
+]
+}

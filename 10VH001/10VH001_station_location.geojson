@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10VH001_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10VH001", "NameNom": "FALLS RIVER NEAR D'IBERVILLE FIORD", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NU", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -8840004.328528633341193, 15936765.111766872927547 ] } }
+]
+}

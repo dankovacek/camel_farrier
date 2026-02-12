@@ -1,0 +1,14 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07JA003,15.00,"In 2024, a new rating model was implemented at the site to address a general trend of positive (scour) shifts that was occurring. In 2025, the pattern and trend of increased scour shifts persisted at the site, with all measurements obtained in 2025 plotting on the positive side of the rating model. Although stability in the channel may not have occurred, curve refinement was needed to address the scour pattern.  The Willow River is dominated by channel control conditions which have been present for several years. Rating curve 15.00 has been designed as a two-segment curve to better model both an upper, and a lower, channel control. Stability on the upper end of the segment appears to be present, while variability on the low end is continuing, which is why breaking them into two segments was deemed a better approach.",LogarithmicTable,Provisional/Provisoire,(1.9680927718684602:1.275);(1.21);
+07JA003,14.00 ,Work Objective and Rationale: In both 2022 and 2023 most open water measurements plotted as scour when compared to rating curve # 13.000. The channel banks at this location have eroded since curve 13.000 was developed and a new curve is required to model discharge at this station.   Modeling Assumptions: The Willow River is dominated by channel control conditions and does not have a defined section control. Variability at the low end is still expected due to scour and fill cycles,LogarithmicTable,Final/Finales,(1.375);
+07JA003,13.000,The gauge pool was noticeably lower after the June 2018 high water event and has remained lower in 2019. It took the rest of the 2018 season for the channel to clear deposited debris and return to an equilibrium in 2019. Offset obtained from subtracting the max measured depth during the 2018/10/24 measurement from the stage.,LogarithmicTable,Final/Finales,(1.39);
+07JA003,12.0,,LogarithmicTable,Final/Finales,(2.3:1.4);(1.2);
+07JA003,11.000,NEW CURVE PRODUCED IN RDT,LogarithmicTable,Final/Finales,(-0.4);
+07JA003,10.001,Same as curve No. 10 Renamed cloned curve C10. 10.001,LinearTable,Final/Finales,
+07JA003,10.000,Same as curve No. 9 above 3.449m,LinearTable,Final/Finales,
+07JA003,9.000,HQFIT1.0,LinearTable,Final/Finales,
+07JA003,9.000-SC2,,LinearTable,Final/Finales,
+07JA003,8.000,Same as curve#7 below 3.28m. Extended Apr.24/08,LinearTable,Final/Finales,
+07JA003,7.000,extended curve to 5.52 m 2003-12-17,LinearTable,Final/Finales,
+07JA003,7.000-SC1,,LinearTable,Final/Finales,
+07JA003,6.000,,LinearTable,Final/Finales,

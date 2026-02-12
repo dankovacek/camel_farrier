@@ -1,0 +1,12 @@
+{
+  "station_id": "08GA002",
+  "station_name": "BRANDT CREEK NEAR VANCOUVER (LOWER STATION)",
+  "latitude": 49.526668548583984,
+  "longitude": -122.89666748046876,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:10.321308"
+}

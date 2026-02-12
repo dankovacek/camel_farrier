@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LE053_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LE053", "NameNom": "SHUSWAP LAKE NEAR SICAMOUS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13248344.106339994817972, 6595048.314516086131334 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HA019_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HA019", "NameNom": "PATROLAS CREEK NEAR COWICHAN STATION", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13765523.32861646451056, 6228093.257712895050645 ] } }
+]
+}

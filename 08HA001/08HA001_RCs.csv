@@ -1,0 +1,33 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+08HA001,60.00,,LogarithmicTable,Provisional/Provisoire,(0.48);
+08HA001,59.00,,LogarithmicTable,Final/Finales,(0.585);
+08HA001,58.00,"Best mean stats using all historic measurements except those indicating debris, vegetation, or altered status.",LogarithmicTable,Final/Finales,(0.15231);
+08HA001,57.01,Extended high end of curve 57 due to event Feb 2020. Curve accomodates record high measurement 20180129. Curve has lower offset based on observations 2018 field season.,LogarithmicTable,Final/Finales,(0.105);
+08HA001,57.00,Curve accomodates record high measurement 20180129. Curve has lower offset based on observations 2018 field season.,LogarithmicTable,Final/Finales,(0.105);
+08HA001,56.000,Best fit using measurements over the past 3 years.,LogarithmicTable,Final/Finales,(0.165);
+08HA001,55.000,,LogarithmicTable,Final/Finales,(0.149);
+08HA001,54.000,,LogarithmicTable,Final/Finales,(1.6:0.13);(0.13);
+08HA001,53.000-SC6,,LinearTable,Final/Finales,
+08HA001,53.000,Approved  Coincident w/ table #52 above 0.850m,LinearTable,Final/Finales,
+08HA001,52.000,Approved;coincident #51 >3.46m &<0.44m,LinearTable,Final/Finales,
+08HA001,51.000,Approved; coincident with #50 >0.45m & <0.35m,LinearTable,Final/Finales,
+08HA001,50.000,Approved - Coincident with table 49 above .750m,LinearTable,Final/Finales,
+08HA001,49.000,Approved - Coincident to #48 above 3.50 m.,LinearTable,Final/Finales,
+08HA001,48.000-SC5,,LinearTable,Final/Finales,
+08HA001,48.000,APPROVED moved significantly to left after Mar HW,LinearTable,Final/Finales,
+08HA001,47.000-SC4,,LinearTable,Final/Finales,
+08HA001,47.000-SC3,,LinearTable,Final/Finales,
+08HA001,47.000,APPROVED Coincident w/46 at/abv GH=2.5 m,LinearTable,Final/Finales,
+08HA001,46.000,Coincident with 44 at/abvGH=2.0m.  Xtndd GH=4.55m,LinearTable,Final/Finales,
+08HA001,45.000,,LinearTable,Final/Finales,
+08HA001,45.000-SC2,,LinearTable,Final/Finales,
+08HA001,44.000,Co-incident with Table 43 at/above GH= 1.18 m,LinearTable,Final/Finales,
+08HA001,43.000,Coincient with Table # 42 at & above GH = 3.0m,LinearTable,Final/Finales,
+08HA001,42.000,,LinearTable,Final/Finales,
+08HA001,41.000,,LinearTable,Final/Finales,
+08HA001,40.000,,LinearTable,Final/Finales,
+08HA001,39.000-SC1,,LinearTable,Final/Finales,
+08HA001,39.000,,LinearTable,Final/Finales,
+08HA001,38.000,,LinearTable,Final/Finales,
+08HA001,37.000,,LinearTable,Final/Finales,
+08HA001,36.000,,LinearTable,Final/Finales,

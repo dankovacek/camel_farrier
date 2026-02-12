@@ -1,0 +1,9 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07AH003,11.0,Rating curve 11.00 was generated to reflect channel changes that occurred due to a 2023 high water event. The lower segment of the curve experienced scour effect following the 2023 high water event while updates to the upper curve segment better reflected found measurements in 2024.,LogarithmicTable,Provisional/Provisoire,(0.9494516894759006:0);(0.025);
+07AH003,10.0,Revised curve due to low-end scour.,LogarithmicTable,Final/Finales,(1.068:0);(0.025);
+07AH003,9.0,Modernize previous CompuMod Curve and adjust for scour on low end.,LogarithmicTable,Final/Finales,(1.07:0.07);(0.22);
+07AH003,8.1,Extended Curve 8.000 to 3.520 m in Aquarius,LinearTable,Final/Finales,
+07AH003,8.0,Same as Curve No. 7 above 0.790 m.,LinearTable,Final/Finales,
+07AH003,7.0,,LinearTable,Final/Finales,
+07AH003,6.0,,LinearTable,Final/Finales,
+07AH003,5.0,,LinearTable,Final/Finales,

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Quality control status for station data during review (pre-commit)",
+  "station_id": "08EB003",
+  "qc_date": "2026-02-11T17:18:07.964071",
+  "reviewed_by": "automated_setup",
+  "validation_checks": {
+    "data_completeness": {
+      "status": "warning",
+      "rating_curves_present": false,
+      "corrections_present": true,
+      "field_visits_present": true,
+      "missing_files": [
+        "RCs"
+      ],
+      "notes": ""
+    },
+    "polygon_bounds": {
+      "status": "passed",
+      "polygon_file_present": true,
+      "crs_valid": true,
+      "geometry_valid": true,
+      "area_km2": 81855.1,
+      "notes": ""
+    },
+    "hydrometric_continuity": {
+      "status": "passed",
+      "temporal_gaps": [],
+      "data_quality_flags": [],
+      "notes": "9,223 daily observations, continuous record | 34.8% flagged (backwater: 2808, estimated: 383, partial day: 21)",
+      "record_length_years": 25.2
+    },
+    "metadata_completeness": {
+      "status": "passed",
+      "required_fields_present": true,
+      "station_name": true,
+      "drainage_area": true,
+      "coordinates": true,
+      "notes": ""
+    }
+  },
+  "overall_status": "needs_revision",
+  "qc_notes": "Issues: RCs",
+  "next_steps": "Address missing data",
+  "validator_version": "1.0.0",
+  "created_timestamp": "2026-02-11T17:18:07.964071",
+  "last_modified": "2026-02-11T17:18:07.964071"
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "09DC003_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "09DC003", "NameNom": "STEWART RIVER ABOVE FRASER FALLS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "YT" }, "geometry": { "type": "Point", "coordinates": [ -15043751.608040044084191, 9220685.566097917035222 ] } }
+]
+}

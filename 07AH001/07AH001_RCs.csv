@@ -1,0 +1,12 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07AH001,24.0,"Discharge measurements were collected in 2024 to collect enough information to build a preliminary curve, however additional information was collected in 2025 allowing for further curve refinement to occur. Seeing as most measurements in 2025 were found to be significantly off the initial rating curve, model refinement was needed for 2025. It is expected that a 2-segment curve is most appropriate at this station. During low flow, a cross sectional (section) control exists downstream of the gauge which is comprised of shifting gravel and cobbles that dictate the flow. The section control is quite variable and tends to change in response to higher flow events that move the bed material around. During higher flow events, bank-full or channel control conditions exist in which the channel edges form the primary control.",LogarithmicTable,Provisional/Provisoire,(1.5479407020816534:0.892);(1);
+07AH001,23.0,New rating curve developed following highwater even in June/July-2023 resulting in significant channel changes. River bed elevation raised approximately 20cm following event. 3 segment curve: 2 segments section control and one segment channel control.,LogarithmicTable,Final/Finales,(1.5833197310389382:0.52);(0.75);
+07AH001,22.0,Control Change. New Curve Includes Historic High Water Measuements and Measurements Taken Since the High Water Event of 2011.,LogarithmicTable,Final/Finales,(0.52);
+07AH001,21.0,NEW CURVE DRAWN IN AQUARIUS,LogarithmicTable,Final/Finales,(1.2907:0.39);(0.64);
+07AH001,20.1,Same as curve # 20.0 below 2.69 Changed number  from C20.1 to 20.1,LinearTable,Final/Finales,
+07AH001,20.0,HQFIT1.0,LinearTable,Final/Finales,
+07AH001,19.0,,LinearTable,Final/Finales,
+07AH001,18.0,Same as Curve No. 17 above 0.700 metres.,LinearTable,Final/Finales,
+07AH001,17.0,,LinearTable,Final/Finales,
+07AH001,16.0,,LinearTable,Final/Finales,
+07AH001,15.0,,LinearTable,Final/Finales,

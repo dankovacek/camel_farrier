@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07BJ001_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07BJ001", "NameNom": "SWAN RIVER NEAR KINUSO", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -12848117.141090938821435, 7423305.368710537441075 ] } }
+]
+}

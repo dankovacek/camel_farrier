@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE117_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NE117", "NameNom": "KUSKANAX CREEK AT 1040 M CONTOUR", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13082055.050993002951145, 6505948.229636362753808 ] } }
+]
+}

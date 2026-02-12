@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07FD009_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07FD009", "NameNom": "CLEAR RIVER NEAR BEAR CANYON", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -13322831.31721449829638, 7619925.507169699296355 ] } }
+]
+}

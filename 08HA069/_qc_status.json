@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Quality control status for station data during review (pre-commit)",
+  "station_id": "08HA069",
+  "qc_date": "2026-02-11T17:18:12.000554",
+  "reviewed_by": "automated_setup",
+  "validation_checks": {
+    "data_completeness": {
+      "status": "passed",
+      "rating_curves_present": true,
+      "corrections_present": true,
+      "field_visits_present": true,
+      "missing_files": [],
+      "notes": ""
+    },
+    "polygon_bounds": {
+      "status": "passed",
+      "polygon_file_present": true,
+      "crs_valid": true,
+      "geometry_valid": true,
+      "area_km2": 23.3,
+      "notes": ""
+    },
+    "hydrometric_continuity": {
+      "status": "passed",
+      "temporal_gaps": [],
+      "data_quality_flags": [],
+      "notes": "10,196 daily observations, minor gaps: 31 days avg (N=1) | 3.9% flagged (estimated: 330, partial day: 62, backwater: 5)",
+      "record_length_years": 28.0
+    },
+    "metadata_completeness": {
+      "status": "passed",
+      "required_fields_present": true,
+      "station_name": true,
+      "drainage_area": true,
+      "coordinates": true,
+      "notes": ""
+    }
+  },
+  "overall_status": "qa_passed",
+  "qc_notes": "All required data present",
+  "next_steps": "Ready for review",
+  "validator_version": "1.0.0",
+  "created_timestamp": "2026-02-11T17:18:12.000554",
+  "last_modified": "2026-02-11T17:18:12.000554"
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07GD001_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07GD001", "NameNom": "BEAVERLODGE RIVER NEAR BEAVERLODGE", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -13295715.002452164888382, 7398700.200598019175231 ] } }
+]
+}

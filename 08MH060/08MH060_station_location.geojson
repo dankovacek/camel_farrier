@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MH060_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MH060", "NameNom": "SERPENTINE RIVER NEAR PORT KELLS", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13665090.884022774174809, 6304277.234432984143496 ] } }
+]
+}

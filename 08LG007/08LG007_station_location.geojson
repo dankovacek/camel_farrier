@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LG007_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LG007", "NameNom": "NICOLA RIVER NEAR MERRITT", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13456856.644544877111912, 6471327.982791029848158 ] } }
+]
+}

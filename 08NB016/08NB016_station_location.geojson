@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08NB016_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08NB016", "NameNom": "SPLIT CREEK AT THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13013126.022293807938695, 6714959.252223063260317 ] } }
-]
-}

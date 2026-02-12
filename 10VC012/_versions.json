@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Version history for station data",
+  "station_id": "10VC012",
+  "versions": [
+    {
+      "semantic_tag": "v1.0.0",
+      "timestamp": "2026-02-11T17:18:35.420197",
+      "data_source": "WSC_basins",
+      "polygon_file": "10VC012_polygon_v1.0.0.geojson",
+      "source_metadata": {
+        "StationNum": "10VC012",
+        "NameNom": "UNNAMED RIVER NEAR CAPE GELL",
+        "Status": "discontinued",
+        "Etat": "ferm\u00e9e",
+        "Area_km2": "95.7852",
+        "Aire_km2": "95.7852",
+        "Version": "Prerelease/Pr\u00e9liminaire",
+        "Date": "2021-12-17"
+      }
+    },
+    {
+      "semantic_tag": "v1.1.0",
+      "timestamp": "2026-02-11T17:20:30.560493",
+      "data_source": "HYDAT_polygons",
+      "polygon_file": "10VC012_polygon_v1.1.0.geojson",
+      "source_metadata": {
+        "StationNum": "10VC012",
+        "NameNom": "UNNAMED RIVER NEAR CAPE GELL",
+        "Status": "discontinued",
+        "Etat": "ferm\u00e9e",
+        "Area_km2": 95.7888,
+        "Aire_km2": 95.7888,
+        "Remark": null,
+        "Remarque": null,
+        "Version": "June 2024 / juin 2024",
+        "Date_rev": "2024-06-01",
+        "Shape_Leng": 64020.0,
+        "Shape_Area": 95788800.0
+      }
+    }
+  ],
+  "schema_version": "1.0.0",
+  "current_version": "v1.1.0",
+  "version_count": 2,
+  "first_committed": "2026-02-11T17:18:35.420197",
+  "last_updated": "2026-02-11T17:20:30.560493",
+  "comparisons": {
+    "v1.0.0_vs_v1.1.0": {
+      "computed_at": "2026-02-11T17:20:30.560493",
+      "jaccard_index": 0.9997,
+      "old_area_km2": 95.7852,
+      "new_area_km2": 95.7877,
+      "absolute_area_diff_km2": 0.0025,
+      "percent_area_diff": 0.0
+    }
+  }
+}

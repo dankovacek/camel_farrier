@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH127_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NH127", "NameNom": "DUNCAN RESERVOIR AT DUNCAN DAM", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13018658.600986231118441, 6490626.412402081303298 ] } }
+]
+}

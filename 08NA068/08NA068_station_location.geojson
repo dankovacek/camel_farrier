@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NA068_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NA068", "NameNom": "PAGLIARO CREEK NEAR GOLDEN", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13008027.589615475386381, 6656353.563495862297714 ] } }
+]
+}

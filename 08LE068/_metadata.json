@@ -1,0 +1,12 @@
+{
+  "station_id": "08LE068",
+  "station_name": "MONTE LAKE NEAR MONTE LAKE",
+  "latitude": 50.49166870117188,
+  "longitude": -119.83332824707033,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:17.605331"
+}

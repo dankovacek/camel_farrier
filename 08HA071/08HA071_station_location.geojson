@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HA071_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HA071", "NameNom": "GRAHAM CREEK AT STELLY'S CROSS ROAD", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13740376.255646266043186, 6204175.354955635033548 ] } }
+]
+}

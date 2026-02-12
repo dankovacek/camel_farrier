@@ -1,0 +1,18 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+07FB002,30.0,"Curve created using 2023 open water measurements. All measurements since the cableway was restored plot within 5% except the low measurement in October 2022. A breakpoint may be needed at the low end but there's not enough information to define one at this point. The historic high measurements from 1997 and 2011 were used to define previous curve 29.00, but plot negative on Curve 30.00, indicating a control change since 2011 that has affected the high end of the curve (e.g. scour, bank erosion).",LogarithmicTable,Provisional/Provisoire,(6.984);
+07FB002,29.0,"Curve created using 2021 and 2022 open water measurements since cableway restoration, and record high measurements from 2011 and 1997. Curve is best fit through these measurements. Previous curve 28/28.0 had been applied since 2013, and the 2021/2022 measurements were plotting positive on it, indicating scour in the gauge reach in the years since the cableway was condemned in 2015. Low estimated range based on measurement from October 2022.",LogarithmicTable,Final/Finales,(6.978);
+07FB002,28.01,"Extended the upper end of curve 28 to plot 2017 data, and added the grading at the low end.",LogarithmicTable,Final/Finales,(7.042);
+07FB002,28.0,,LogarithmicTable,Final/Finales,(7.042);
+07FB002,27.0,,LogarithmicTable,Final/Finales,(7.06);
+07FB002,26.0,coincident with table 25 below 7.523 and above 9.1,LinearTable,Provisional/Provisoire,
+07FB002,25.0,coincident with table 24 below 7.7 and above 8.1,LinearTable,Final/Finales,
+07FB002,24.0,Coincident with table #23 below 7.44 & above9.3 GH,LinearTable,Final/Finales,
+07FB002,23.0,Coincident with table #22 at and above 8.900m,LinearTable,Final/Finales,
+07FB002,22.0,,LinearTable,Final/Finales,
+07FB002,21.0,,LinearTable,Final/Finales,
+07FB002,20.0,,LinearTable,Final/Finales,
+07FB002,19.0,,LinearTable,Final/Finales,
+07FB002,18.0,,LinearTable,Final/Finales,
+07FB002,17.0,,LinearTable,Final/Finales,
+07FB002,16.0,,LinearTable,Final/Finales,
+07FB002,15.0,,LinearTable,Final/Finales,

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HB060_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HB060", "NameNom": "NAHMINT LAKE NEAR PORT ALBERNI", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13913823.154251262545586, 6295720.32780356425792 ] } }
+]
+}

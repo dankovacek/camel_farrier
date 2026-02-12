@@ -1,0 +1,12 @@
+{
+  "station_id": "08NH057",
+  "station_name": "BJERKNESS CREEK AT MIRROR LAKE",
+  "latitude": 49.87166976928711,
+  "longitude": -116.91056060791016,
+  "drainage_area_gross_km2": 25.100000381469727,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:25.318408"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "07DA007",
+  "station_name": "POPLAR CREEK NEAR FORT MCMURRAY",
+  "latitude": 56.910888671875,
+  "longitude": -111.4626693725586,
+  "drainage_area_gross_km2": 136.0,
+  "drainage_area_effect_km2": 136.0,
+  "province_territory": "AB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:01.240734"
+}

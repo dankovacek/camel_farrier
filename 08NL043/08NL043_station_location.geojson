@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NL043_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NL043", "NameNom": "SUMMERS CREEK AT OUTLET OF MISSEZULA LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13413531.098728133365512, 6405964.825200892984867 ] } }
+]
+}

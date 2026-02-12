@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08KE024_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08KE024", "NameNom": "LITTLE SWIFT RIVER AT THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13555130.604212084785104, 6967279.595079273916781 ] } }
+]
+}

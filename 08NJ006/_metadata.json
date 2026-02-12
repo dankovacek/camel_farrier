@@ -1,0 +1,12 @@
+{
+  "station_id": "08NJ006",
+  "station_name": "SILVERTON CREEK NEAR SILVERTON (UPPER STATION)",
+  "latitude": 49.93333053588867,
+  "longitude": -117.28028106689452,
+  "drainage_area_gross_km2": 97.5999984741211,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:26.059120"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "08HA034",
+  "station_name": "CRAIGFLOWER CREEK BELOW BURNSIDE ROAD, VICTORIA",
+  "latitude": 48.46305847167969,
+  "longitude": -123.43860626220705,
+  "drainage_area_gross_km2": 13.5,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:11.754076"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "08NL042",
+  "station_name": "ISSITZ LAKE NEAR PRINCETON",
+  "latitude": 49.42832946777344,
+  "longitude": -120.34667205810548,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:27.637377"
+}

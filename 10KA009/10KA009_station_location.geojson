@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10KA009_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10KA009", "NameNom": "CANYON CREEK AT PIPELINE CROSSING", "Status": "active", "Etat": "en service", "ProvTerr": "NT", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -14083941.600081544369459, 9669727.100432600826025 ] } }
+]
+}

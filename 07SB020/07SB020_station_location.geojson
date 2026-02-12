@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "07SB020_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "07SB020", "NameNom": "YELLOWKNIFE RIVER ABOVE QUYTA LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "NT", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12720912.358961464837193, 9058085.242549490183592 ] } }
-]
-}

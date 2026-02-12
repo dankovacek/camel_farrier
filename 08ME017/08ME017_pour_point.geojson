@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08ME017_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08ME017", "NameNom": "SETON LAKE NEAR SHALALTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13579696.58944034576416, 6562938.89918916951865 ] } }
+]
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "08NH044",
+  "station_name": "WILDS CREEK (NORTH FORK) NEAR WYNNDEL",
+  "latitude": 49.20832824707031,
+  "longitude": -116.5666732788086,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:25.199548"
+}

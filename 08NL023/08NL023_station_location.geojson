@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NL023_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NL023", "NameNom": "OTTER CREEK AT TULAMEEN", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13442195.867607399821281, 6367943.65061738807708 ] } }
+]
+}

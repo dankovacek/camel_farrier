@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LB008_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LB008", "NameNom": "JAMIESON CREEK ABOVE BRITISH COLUMBIA FRUITLANDS DIVERSION", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13390621.547522878274322, 6600976.709058303385973 ] } }
+]
+}

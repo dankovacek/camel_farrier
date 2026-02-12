@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10KD009_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10KD009", "NameNom": "CHICK CREEK ABOVE CHICK LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "NT" }, "geometry": { "type": "Point", "coordinates": [ -14263966.367397518828511, 9837169.844278892502189 ] } }
+]
+}

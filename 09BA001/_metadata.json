@@ -1,0 +1,12 @@
+{
+  "station_id": "09BA001",
+  "station_name": "ROSS RIVER AT ROSS RIVER",
+  "latitude": 61.9887809753418,
+  "longitude": -132.40716552734375,
+  "drainage_area_gross_km2": 7310.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "YT",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:31.198270"
+}

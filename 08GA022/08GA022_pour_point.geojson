@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08GA022_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08GA022", "NameNom": "SQUAMISH RIVER NEAR BRACKENDALE", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13714849.583212459459901, 6410960.945669561624527 ] } }
-]
-}

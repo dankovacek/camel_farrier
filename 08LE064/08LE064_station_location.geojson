@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LE064_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LE064", "NameNom": "SALMON RIVER NEAR FALKLAND", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13299272.773377915844321, 6524138.690359654836357 ] } }
+]
+}

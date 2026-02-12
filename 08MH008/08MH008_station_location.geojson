@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MH008_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MH008", "NameNom": "GURNEY CREEK NEAR PORT COQUITLAM", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13640467.01265930198133, 6357273.884335751645267 ] } }
+]
+}

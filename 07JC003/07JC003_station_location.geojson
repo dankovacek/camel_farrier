@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07JC003_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07JC003", "NameNom": "LOON RIVER NEAR THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12810212.854475827887654, 7776041.066650781780481 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HD003_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HD003", "NameNom": "CAMPBELL RIVER NEAR CAMPBELL RIVER", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13947780.051722843199968, 6452845.508716950193048 ] } }
+]
+}

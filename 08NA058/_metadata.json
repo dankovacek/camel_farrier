@@ -1,0 +1,12 @@
+{
+  "station_id": "08NA058",
+  "station_name": "HOTSPRING CREEK NEAR FAIRMONT HOT SPRINGS",
+  "latitude": 50.32833099365234,
+  "longitude": -115.83917236328124,
+  "drainage_area_gross_km2": 10.399999618530272,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:22.816778"
+}

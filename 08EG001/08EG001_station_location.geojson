@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08EG001_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08EG001", "NameNom": "BROWN CREEK NEAR PORT ESSINGTON", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -14453878.531885750591755, 7175260.059370153583586 ] } }
+]
+}

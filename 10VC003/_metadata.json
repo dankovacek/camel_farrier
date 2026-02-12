@@ -1,0 +1,12 @@
+{
+  "station_id": "10VC003",
+  "station_name": "CALEDONIAN RIVER ABOVE BRACEBRIDGE INLET",
+  "latitude": 75.61666870117188,
+  "longitude": -98.58332824707033,
+  "drainage_area_gross_km2": 246.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "NU",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:35.360634"
+}

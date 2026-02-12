@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08GA014_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08GA014", "NameNom": "CHEAKAMUS RIVER NEAR CHEEKYE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13709640.944238241761923, 6411614.558583337813616 ] } }
+]
+}

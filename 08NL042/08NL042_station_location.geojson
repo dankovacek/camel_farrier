@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NL042_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NL042", "NameNom": "ISSITZ LAKE NEAR PRINCETON", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13396933.362650856375694, 6347855.035023765638471 ] } }
+]
+}

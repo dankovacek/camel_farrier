@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08LC044_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08LC044", "NameNom": "HADDO LAKE AT THE OUTLET", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13256611.804921209812164, 6462720.157901723869145 ] } }
-]
-}

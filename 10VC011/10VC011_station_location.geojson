@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10VC011_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10VC011", "NameNom": "ABBOTT RIVER ABOVE MIDSHIPMAN BAY", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NU", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -10651419.573004756122828, 13033370.348727595061064 ] } }
+]
+}

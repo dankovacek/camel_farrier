@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07BK009_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07BK009", "NameNom": "SAWRIDGE CREEK NEAR SLAVE LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -12776779.158610979095101, 7414704.811183381825686 ] } }
+]
+}

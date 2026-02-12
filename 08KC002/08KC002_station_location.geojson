@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08KC002_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08KC002", "NameNom": "WRIGHT CREEK AT THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13657354.179412640631199, 7188062.426921240054071 ] } }
+]
+}

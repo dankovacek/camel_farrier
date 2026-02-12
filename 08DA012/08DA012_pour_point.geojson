@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08DA012_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08DA012", "NameNom": "KELLY CREEK NEAR STEWART", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -14385704.249334136024117, 7616914.003018625080585 ] } }
+]
+}

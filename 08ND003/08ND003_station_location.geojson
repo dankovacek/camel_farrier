@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08ND003_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08ND003", "NameNom": "ILLECILLEWAET RIVER NEAR REVELSTOKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13155926.665083419531584, 6618787.596451320685446 ] } }
+]
+}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "07BE003_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "07BE003", "NameNom": "PORTER CREEK ABOVE BAPTISTE LAKE", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -12644351.26597348228097, 7308651.048772567883134 ] } }
-]
-}

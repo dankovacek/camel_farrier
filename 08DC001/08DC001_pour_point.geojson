@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08DC001_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08DC001", "NameNom": "AMERICAN CREEK NEAR STEWART", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -14458670.835964400321245, 7579622.117727424949408 ] } }
+]
+}

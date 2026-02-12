@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10PB003_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10PB003", "NameNom": "POINT LAKE NEAR THE OUTLET", "Status": "active", "Etat": "en service", "ProvTerr": "NT", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12689854.22103014215827, 9715718.217130199074745 ] } }
+]
+}

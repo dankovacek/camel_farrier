@@ -1,0 +1,12 @@
+{
+  "station_id": "08JD006",
+  "station_name": "DRIFTWOOD RIVER ABOVE KASTBERG CREEK",
+  "latitude": 55.97613906860352,
+  "longitude": -126.67767333984376,
+  "drainage_area_gross_km2": 403.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:14.263806"
+}

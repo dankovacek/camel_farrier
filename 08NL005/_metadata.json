@@ -1,0 +1,12 @@
+{
+  "station_id": "08NL005",
+  "station_name": "TULAMEEN RIVER NEAR PRINCETON",
+  "latitude": 49.44832992553711,
+  "longitude": -120.53166961669922,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:27.299706"
+}

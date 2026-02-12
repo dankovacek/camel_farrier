@@ -1,0 +1,12 @@
+{
+  "station_id": "10HC006",
+  "station_name": "BLACKWATER RIVER AT OUTLET OF BLACKWATER LAKE",
+  "latitude": 63.9002799987793,
+  "longitude": -123.3227767944336,
+  "drainage_area_gross_km2": 7850.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "NT",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:33.738144"
+}

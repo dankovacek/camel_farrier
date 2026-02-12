@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08GA071_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08GA071", "NameNom": "ELAHO RIVER NEAR THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13739986.637428486719728, 6466047.297864611260593 ] } }
+]
+}

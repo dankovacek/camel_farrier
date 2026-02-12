@@ -1,0 +1,12 @@
+{
+  "station_id": "08NA063",
+  "station_name": "MARION CREEK (WEST FORK) NEAR CANAL FLATS",
+  "latitude": 50.21194076538086,
+  "longitude": -115.8861083984375,
+  "drainage_area_gross_km2": 9.06999969482422,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:22.874627"
+}

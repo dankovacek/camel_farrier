@@ -1,0 +1,12 @@
+{
+  "station_id": "08HA071",
+  "station_name": "GRAHAM CREEK AT STELLY'S CROSS ROAD",
+  "latitude": 48.581668853759766,
+  "longitude": -123.43193817138672,
+  "drainage_area_gross_km2": 5.769999980926514,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:12.130656"
+}

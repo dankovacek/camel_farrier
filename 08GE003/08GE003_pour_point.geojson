@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08GE003_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08GE003", "NameNom": "ICY CREEK NEAR THE MOUTH", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13989704.085150498896837, 6661709.588773832656443 ] } }
+]
+}

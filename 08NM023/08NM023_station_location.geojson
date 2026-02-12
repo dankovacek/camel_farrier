@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08NM023_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08NM023", "NameNom": "DARKE CREEK NORTHWEST FORK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13343500.007070085033774, 6396394.687269073911011 ] } }
-]
-}

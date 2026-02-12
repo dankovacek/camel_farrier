@@ -1,0 +1,12 @@
+{
+  "station_id": "08NJ108",
+  "station_name": "TROZZO CREEK NEAR APPLEDALE",
+  "latitude": 49.63888931274414,
+  "longitude": -117.52916717529295,
+  "drainage_area_gross_km2": 27.200000762939453,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:26.333915"
+}

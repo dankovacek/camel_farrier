@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08HB034_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08HB034", "NameNom": "NANAIMO RIVER NEAR CASSIDY", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13791006.586448861286044, 6286521.298865798860788 ] } }
-]
-}

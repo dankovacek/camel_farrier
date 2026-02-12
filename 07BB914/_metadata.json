@@ -1,0 +1,12 @@
+{
+  "station_id": "07BB914",
+  "station_name": "PADDLE RIVER RESERVOIR NEAR ROCHFORT BRIDGE",
+  "latitude": 53.89332962036133,
+  "longitude": -115.06749725341795,
+  "drainage_area_gross_km2": 612.0,
+  "drainage_area_effect_km2": 612.0,
+  "province_territory": "AB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:00.212496"
+}

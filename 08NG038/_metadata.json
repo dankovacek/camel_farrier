@@ -1,0 +1,12 @@
+{
+  "station_id": "08NG038",
+  "station_name": "ANGUS CREEK NEAR CRANBROOK",
+  "latitude": 49.4858283996582,
+  "longitude": -115.84806060791016,
+  "drainage_area_gross_km2": 6.21999979019165,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:24.395470"
+}

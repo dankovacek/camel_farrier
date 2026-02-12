@@ -1,0 +1,12 @@
+{
+  "station_id": "08NG076",
+  "station_name": "MATHER CREEK BELOW HOULE CREEK",
+  "latitude": 49.713661193847656,
+  "longitude": -115.896728515625,
+  "drainage_area_gross_km2": 135.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:24.677021"
+}

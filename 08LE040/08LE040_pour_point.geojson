@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LE040_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LE040", "NameNom": "BLAIR CREEK NEAR FALKLAND (UPPER STATION)", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13312520.905977223068476, 6547176.398697323165834 ] } }
+]
+}

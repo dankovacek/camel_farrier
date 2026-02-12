@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HB068_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HB068", "NameNom": "MCCOY CREEK NEAR ALBERNI", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13900064.065189216285944, 6319898.792420320212841 ] } }
+]
+}

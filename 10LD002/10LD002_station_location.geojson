@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10LD002_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10LD002", "NameNom": "JACKFISH CREEK NEAR FORT GOOD HOPE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NT", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -14320105.899799473583698, 9947372.362370377406478 ] } }
+]
+}

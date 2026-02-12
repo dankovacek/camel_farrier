@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE086_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NE086", "NameNom": "GIBSON CREEK NEAR BRILLIANT", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13097662.043602220714092, 6337070.590235078707337 ] } }
+]
+}

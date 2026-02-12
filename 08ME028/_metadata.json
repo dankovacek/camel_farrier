@@ -1,0 +1,12 @@
+{
+  "station_id": "08ME028",
+  "station_name": "BRIDGE RIVER ABOVE DOWNTON LAKE",
+  "latitude": 50.82093811035156,
+  "longitude": -123.2034912109375,
+  "drainage_area_gross_km2": 708.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:20.257692"
+}

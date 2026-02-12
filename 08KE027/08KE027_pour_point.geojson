@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08KE027_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08KE027", "NameNom": "TWAN CREEK BELOW STORAGE DAM", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13648151.397108761593699, 6896714.283633029088378 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LB069_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LB069", "NameNom": "BARRIERE RIVER BELOW SPRAGUE CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13351353.597145551815629, 6664801.472689253278077 ] } }
+]
+}

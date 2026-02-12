@@ -1,0 +1,12 @@
+{
+  "station_id": "08KE027",
+  "station_name": "TWAN CREEK BELOW STORAGE DAM",
+  "latitude": 52.53055953979492,
+  "longitude": -122.60556030273438,
+  "drainage_area_gross_km2": 218.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:14.880159"
+}

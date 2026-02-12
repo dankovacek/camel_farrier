@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HA049_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HA049", "NameNom": "FORD LAKE ON SALTSPRING ISLAND", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13745090.636081358417869, 6240581.109887568280101 ] } }
+]
+}

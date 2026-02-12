@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NH007_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NH007", "NameNom": "LARDEAU RIVER AT MARBLEHEAD", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13020891.669971546158195, 6491831.334686719812453 ] } }
+]
+}

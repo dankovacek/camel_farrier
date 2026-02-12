@@ -1,0 +1,12 @@
+{
+  "station_id": "08HA044",
+  "station_name": "ST.MARY LAKE AT THE PUMPHOUSE",
+  "latitude": 48.89305877685547,
+  "longitude": -123.5486068725586,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:11.847382"
+}

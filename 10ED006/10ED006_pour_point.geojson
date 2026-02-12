@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10ED006_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10ED006", "NameNom": "RABBIT CREEK AT HIGHWAY NO. 7", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NT" }, "geometry": { "type": "Point", "coordinates": [ -13733039.188008079305291, 8503395.52764355391264 ] } }
+]
+}

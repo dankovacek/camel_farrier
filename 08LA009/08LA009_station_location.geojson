@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08LA009_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08LA009", "NameNom": "CLEARWATER RIVER AT INLET TO CLEARWATER LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13387716.108813174068928, 6863405.728556655347347 ] } }
-]
-}

@@ -1,0 +1,12 @@
+{
+  "station_id": "08MH008",
+  "station_name": "GURNEY CREEK NEAR PORT COQUITLAM",
+  "latitude": 49.48332977294922,
+  "longitude": -122.53443908691406,
+  "drainage_area_gross_km2": 38.900001525878906,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:21.539525"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "10LC007",
+  "station_name": "CARIBOU CREEK ABOVE HIGHWAY NO. 8 (DEMPSTER HIGHWAY)",
+  "latitude": 68.0872802734375,
+  "longitude": -133.49232482910156,
+  "drainage_area_gross_km2": 590.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "NT",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:34.532380"
+}

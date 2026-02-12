@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08NM238_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08NM238", "NameNom": "THIRSK LAKE NEAR THE OUTLET", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13368546.892498573288321, 6400220.738712130114436 ] } }
-]
-}

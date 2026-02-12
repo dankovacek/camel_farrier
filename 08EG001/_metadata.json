@@ -1,0 +1,12 @@
+{
+  "station_id": "08EG001",
+  "station_name": "BROWN CREEK NEAR PORT ESSINGTON",
+  "latitude": 54.02693939208984,
+  "longitude": -129.8413848876953,
+  "drainage_area_gross_km2": 56.20000076293945,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:09.623212"
+}

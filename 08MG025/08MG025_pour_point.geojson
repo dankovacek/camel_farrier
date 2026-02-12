@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08MG025_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08MG025", "NameNom": "PEMBERTON CREEK NEAR PEMBERTON", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13670512.143224405124784, 6501091.745128009468317 ] } }
-]
-}

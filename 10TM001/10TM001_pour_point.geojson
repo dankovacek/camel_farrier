@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10TM001_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10TM001", "NameNom": "ASTON RIVER ABOVE ASTON BAY", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NU" }, "geometry": { "type": "Point", "coordinates": [ -10478046.145263681188226, 12317180.041738482192159 ] } }
+]
+}

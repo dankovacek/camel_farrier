@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HD031_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HD031", "NameNom": "UPPER CAMPBELL LAKE AT STRATHCONA DAM", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13979821.14075787179172, 6445427.290574887767434 ] } }
+]
+}

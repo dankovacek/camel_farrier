@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07JA001_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07JA001", "NameNom": "UTIKUMA LAKE NEAR NIPISI", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -12843702.210086077451706, 7544389.907959529198706 ] } }
+]
+}

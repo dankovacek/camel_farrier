@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08LF020_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08LF020", "NameNom": "PENDLETON CREEK NEAR CHERRY CREEK", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13422347.602398961782455, 6564005.091293947771192 ] } }
+]
+}

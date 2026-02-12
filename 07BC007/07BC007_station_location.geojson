@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "07BC007_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "07BC007", "NameNom": "WABASH CREEK NEAR PIBROCH", "Status": "active", "Etat": "en service", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12681783.557947628200054, 7210119.89449589047581 ] } }
-]
-}

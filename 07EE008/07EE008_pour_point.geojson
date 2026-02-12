@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07EE008_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07EE008", "NameNom": "WILLISTON LAKE NEAR MACKENZIE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13715113.410405637696385, 7426410.480631848797202 ] } }
+]
+}

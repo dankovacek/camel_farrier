@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08EF005_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08EF005", "NameNom": "ZYMOETZ RIVER ABOVE O.K. CREEK", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -14285330.804070563986897, 7264512.390053880400956 ] } }
+]
+}

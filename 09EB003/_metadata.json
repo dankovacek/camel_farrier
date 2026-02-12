@@ -1,0 +1,12 @@
+{
+  "station_id": "09EB003",
+  "station_name": "INDIAN RIVER ABOVE THE MOUTH",
+  "latitude": 63.77000045776367,
+  "longitude": -139.62957763671875,
+  "drainage_area_gross_km2": 2210.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "YT",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:31.904975"
+}

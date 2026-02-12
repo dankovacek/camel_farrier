@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "10GC002_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "10GC002", "NameNom": "HARRIS RIVER NEAR THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NT" }, "geometry": { "type": "Point", "coordinates": [ -13502478.711456682533026, 8829946.416401207447052 ] } }
-]
-}

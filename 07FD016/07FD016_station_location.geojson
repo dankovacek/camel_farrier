@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07FD016_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07FD016", "NameNom": "SOUTH DAWSON CREEK AT THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13386168.767891146242619, 7510071.859089688397944 ] } }
+]
+}

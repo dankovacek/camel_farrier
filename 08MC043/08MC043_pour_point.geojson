@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08MC043_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08MC043", "NameNom": "MELDRUM CREEK BELOW MCTAGGART LAKE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13642880.419219698756933, 6827764.661550869233906 ] } }
+]
+}

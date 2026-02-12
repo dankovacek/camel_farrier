@@ -1,0 +1,12 @@
+{
+  "station_id": "08NA045",
+  "station_name": "COLUMBIA RIVER NEAR FAIRMONT HOT SPRINGS",
+  "latitude": 50.3236083984375,
+  "longitude": -115.8625030517578,
+  "drainage_area_gross_km2": 891.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:22.623424"
+}

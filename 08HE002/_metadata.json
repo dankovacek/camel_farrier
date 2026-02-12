@@ -1,0 +1,12 @@
+{
+  "station_id": "08HE002",
+  "station_name": "MARBLE RIVER AT OUTLET OF VICTORIA LAKE",
+  "latitude": 50.43027877807617,
+  "longitude": -127.40389251708984,
+  "drainage_area_gross_km2": 122.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:13.693463"
+}

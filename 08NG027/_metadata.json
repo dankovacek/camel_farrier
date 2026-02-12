@@ -1,0 +1,12 @@
+{
+  "station_id": "08NG027",
+  "station_name": "LAKIT CREEK AT THE UPPER FORKS",
+  "latitude": 49.67832946777344,
+  "longitude": -115.63861083984376,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:24.320117"
+}

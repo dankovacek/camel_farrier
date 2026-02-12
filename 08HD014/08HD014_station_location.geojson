@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08HD014_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08HD014", "NameNom": "BLACK CREEK AT STURGESS ROAD", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13930799.376597236841917, 6413101.330464139580727 ] } }
+]
+}

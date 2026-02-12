@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NE025_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NE025", "NameNom": "BATH CREEK NEAR FRUITVALE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13088856.671880472451448, 6290901.104922745376825 ] } }
+]
+}

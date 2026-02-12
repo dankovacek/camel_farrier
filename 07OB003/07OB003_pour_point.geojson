@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07OB003_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07OB003", "NameNom": "HAY RIVER NEAR MEANDER RIVER", "Status": "active", "Etat": "en service", "ProvTerr": "AB" }, "geometry": { "type": "Point", "coordinates": [ -13095256.429406177252531, 8212611.504829746671021 ] } }
+]
+}

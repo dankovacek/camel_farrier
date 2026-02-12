@@ -1,0 +1,12 @@
+{
+  "station_id": "08JA024",
+  "station_name": "ENTIAKO RIVER NEAR THE MOUTH",
+  "latitude": 53.3477783203125,
+  "longitude": -125.35138702392578,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:14.085391"
+}

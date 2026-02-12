@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NA020_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NA020", "NameNom": "STODDART CREEK NEAR ATHALMER", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12912103.584398912265897, 6545288.602535028941929 ] } }
+]
+}

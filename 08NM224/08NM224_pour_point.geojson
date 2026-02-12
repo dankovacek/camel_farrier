@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "08NM224_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "08NM224", "NameNom": "OYAMA LAKE AT THE OUTLET", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13277997.392297506332397, 6466453.518835802562535 ] } }
+]
+}

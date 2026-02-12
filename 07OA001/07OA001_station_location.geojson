@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "07OA001_station_location",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "07OA001", "NameNom": "SOUSA CREEK NEAR HIGH LEVEL", "Status": "active", "Etat": "en service", "ProvTerr": "AB", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13190357.783585777506232, 8092600.529426304623485 ] } }
+]
+}

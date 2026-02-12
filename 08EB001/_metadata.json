@@ -1,0 +1,12 @@
+{
+  "station_id": "08EB001",
+  "station_name": "SKEENA RIVER AT HAZELTON",
+  "latitude": 55.25693893432617,
+  "longitude": -127.6755599975586,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:07.574012"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "08LE109",
+  "station_name": "SHUSWAP LAKE AT CANOE",
+  "latitude": 50.75471878051758,
+  "longitude": -119.22860717773438,
+  "drainage_area_gross_km2": null,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:17.743526"
+}

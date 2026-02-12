@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10VC003_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10VC003", "NameNom": "CALEDONIAN RIVER ABOVE BRACEBRIDGE INLET", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "NU" }, "geometry": { "type": "Point", "coordinates": [ -10974270.586593225598335, 13205124.964500315487385 ] } }
+]
+}

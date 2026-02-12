@@ -1,5 +1,0 @@
-Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
-09EA005,11.0,Newly created curve made to more accurately model upper end. Based on discharge measurements obtained from 2022-2025.,LogarithmicTable,Provisional/Provisoire,(3.405);
-09EA005,10.0,See documentation at SHAREPOINT/09EA005/2023/09EA005_20230101_10.00_RMD.,LogarithmicTable,Final/Finales,(3.3);
-09EA005,9.0,"This curve is an segimented equation with multiple rating points. Although it has been used for 2019 and is adequate for 2019, SUGGEST NEW SINGLE EQUATION CURVE MOVING FORWARD FROM 2020.",LogarithmicTable,Final/Finales,(3.596);
-09EA005,8.0,,LinearTable,Final/Finales,

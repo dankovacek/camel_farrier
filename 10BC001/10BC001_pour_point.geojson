@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "10BC001_pour_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "StationNum": "10BC001", "NameNom": "COAL RIVER AT THE MOUTH", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -14132132.920840861275792, 8331131.29720557294786 ] } }
+]
+}

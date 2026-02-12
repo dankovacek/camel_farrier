@@ -1,0 +1,12 @@
+{
+  "station_id": "08LC019",
+  "station_name": "SHUSWAP RIVER AT OUTLET OF MABEL LAKE",
+  "latitude": 50.60277938842773,
+  "longitude": -118.7383270263672,
+  "drainage_area_gross_km2": 4040.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:16.258712"
+}

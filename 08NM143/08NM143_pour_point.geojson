@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08NM143_pour_point",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08NM143", "NameNom": "KALAMALKA LAKE AT VERNON PUMPHOUSE", "Status": "active", "Etat": "en service", "ProvTerr": "BC" }, "geometry": { "type": "Point", "coordinates": [ -13276968.800202578306198, 6486504.533731472678483 ] } }
-]
-}

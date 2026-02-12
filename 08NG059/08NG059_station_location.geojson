@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08NG059_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08NG059", "NameNom": "LAKIT CREEK NEAR FORT STEELE", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -12873909.867107739672065, 6395342.916060126386583 ] } }
-]
-}

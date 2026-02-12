@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "08LE079_station_location",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "StationNum": "08LE079", "NameNom": "NISKONLITH LAKE NEAR SHUSWAP", "Status": "discontinued", "Etat": "fermée", "ProvTerr": "BC", "HYDAT_ver": "2021-01" }, "geometry": { "type": "Point", "coordinates": [ -13334193.697639767080545, 6579683.668335310183465 ] } }
-]
-}

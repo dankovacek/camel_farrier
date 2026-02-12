@@ -1,0 +1,12 @@
+{
+  "station_id": "08NL006",
+  "station_name": "SIMILKAMEEN RIVER NEAR KEREMEOS",
+  "latitude": 49.22111129760742,
+  "longitude": -119.95777893066406,
+  "drainage_area_gross_km2": 5960.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "D",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:18:27.348644"
+}

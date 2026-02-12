@@ -1,0 +1,12 @@
+{
+  "station_id": "07AF010",
+  "station_name": "SUNDANCE CREEK NEAR BICKERDIKE",
+  "latitude": 53.56652069091797,
+  "longitude": -116.70330810546876,
+  "drainage_area_gross_km2": 178.0,
+  "drainage_area_effect_km2": 178.0,
+  "province_territory": "AB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-02-11T17:17:59.051348"
+}
