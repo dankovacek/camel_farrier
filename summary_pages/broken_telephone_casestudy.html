@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/tufte_table.css?v=0ecb9985" />
@@ -1363,7 +1363,7 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="broken-telephone-caravan-divergence">
 <h1>Broken Telephone: Caravan divergence<a class="headerlink" href="#broken-telephone-caravan-divergence" title="Link to this heading">#</a></h1>
-<p>Caravan re-published HYSETS catchment polygons in 2023 using the 2021 HYDAT drainage basin archive. Meanwhile, Water Survey of Canada (WSC) released 8,000+ polygon revisions between 2022 and late 2024. There are no DOIs to verify if these updates propagated downstream. This case study quantifies how far Caravan’s polygons are from the current WSC geometry to make the case for automated provenance checks for derived datasets.</p>
+<p>Caravan re-published HYSETS catchment polygons in 2023 using the 2021 HYDAT drainage basin archive. Meanwhile, Water Survey of Canada (WSC) released 8,000+ polygon revisions between 2022 and late 2024. There are no DOIs to verify if these updates propagated downstream. This case study quantifies the difference between Caravan’s polygons and the current WSC geometry, and how these differences translate to catchment descriptor values.</p>
 <section id="why-polygons-matter">
 <h2>Why polygons matter<a class="headerlink" href="#why-polygons-matter" title="Link to this heading">#</a></h2>
 <p>When stale polygons remain into hydrologic workflows, runoff statistics inherit the bias.  A 5% drainage-area error instantly becomes a 5% bias in area-normalized discharge and any flow statistics derived from it.</p>
@@ -1375,7 +1375,7 @@ document.write(`
 <p><strong>Linked selection.</strong> Use box-select or lasso-select tools on the CDF to highlight stations on the map (and vice versa). Toggle legend entries to isolate specific area-change bins.</p>
 <p>Warm colors highlight basins where Caravan’s inherited geometry deviates most from the latest WSC polygons.</p>
 </aside>
-<div style="height:900px;"><script src="bokeh-content-aae76cf965494bca8c4a92f16685661f-summary_pages-broken_telephone_casestudy.js" id="e8e9ad0d-c805-4a2f-800e-20931f805e33"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:900px;"><script src="bokeh-content-b8b39146aaa04eaebe6ca8c17b4d9148-summary_pages-broken_telephone_casestudy.js" id="acaac8c6-1184-4cae-a521-5afba3c706a4"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -1408,7 +1408,7 @@ flowchart TD
 </section>
 <section id="network-wide-summary">
 <h2>Network-wide summary<a class="headerlink" href="#network-wide-summary" title="Link to this heading">#</a></h2>
-<div style="height:230px;"><script src="bokeh-content-99c7876e32654bafa6e603fd1cfa83ed-summary_pages-broken_telephone_casestudy.js" id="d3b6388b-a99a-4551-9780-51d992996a40"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:230px;"><script src="bokeh-content-bf81868523384574b2d6b1ffb76450c9-summary_pages-broken_telephone_casestudy.js" id="d141869f-e6ca-4b2b-bed6-b7760828148f"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -1428,7 +1428,7 @@ flowchart TD
 </section>
 <section id="distribution-of-geometric-match">
 <h2>Distribution of geometric match<a class="headerlink" href="#distribution-of-geometric-match" title="Link to this heading">#</a></h2>
-<div style="height:400px;"><script src="bokeh-content-befb36de643e4761b2e94f915518c9bc-summary_pages-broken_telephone_casestudy.js" id="ba27a5fe-bdfb-412a-bd31-220b284ee86a"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:400px;"><script src="bokeh-content-3efd151e250f4a5786eaf14980f993dd-summary_pages-broken_telephone_casestudy.js" id="a46f8842-3b61-4342-9505-8a03094376e6"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -1443,7 +1443,7 @@ flowchart TD
 <p class="sidebar-title"></p>
 <p>Sort by Jaccard similarity or |Δarea| to find the basins most impacted by the HYDAT→HYSETS→Caravan lag (closer to zero is less overlap). Station links activate when a diagnostic page already exists in this repository.</p>
 </aside>
-<div style="height:450px;"><script src="bokeh-content-c3cc479d1ec64e089c527d47d6eee138-summary_pages-broken_telephone_casestudy.js" id="c292d84a-4c15-4763-8a9f-0e58f1dfe0b3"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:450px;"><script src="bokeh-content-ed1ec7fd9d2d44f794a69b85d85f78aa-summary_pages-broken_telephone_casestudy.js" id="e151a5f8-c895-4586-8e68-6b8b2f448b25"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -1454,14 +1454,13 @@ flowchart TD
 </section>
 <section id="per-station-polygon-comparison-summary">
 <h2>Per-station polygon comparison summary<a class="headerlink" href="#per-station-polygon-comparison-summary" title="Link to this heading">#</a></h2>
-<p>Running the <code class="docutils literal notranslate"><span class="pre">compare_caravan_polygons.py</span></code> script generates station-level comparison tables with all metrics and source metadata, but to avoid excessive computaton, these do not generate visualizations. A function is provided to generate polygon overlay plots between the Caravan and current WSC polygons for a station on demand so long
-as there are polygons in the source data.</p>
+<p>Running the <code class="docutils literal notranslate"><span class="pre">compare_caravan_polygons.py</span></code> script generates station-level comparison tables with all metrics and source metadata, but to avoid excessive computaton, these do not generate visualizations. A function is provided to generate polygon overlay plots between the Caravan and current WSC polygons for a station on demand so long as there are polygons in the source data.</p>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <p>In the example below, the drainage areas are close, but the catchment polygon is non-overlapping!</p>
 <p>The example station ID is 07DB005.</p>
 </aside>
-<script src="bokeh-content-b5a12995a7ec4dca8d6a718d95a47d4c-summary_pages-broken_telephone_casestudy.js" id="f01102a8-cd6c-405a-8d3e-5419cf583e53"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<script src="bokeh-content-83adf0230b4448028cd1d6589924240e-summary_pages-broken_telephone_casestudy.js" id="ce005a71-8fa9-402b-a5ee-9725b3637ddb"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -1486,7 +1485,8 @@ as there are polygons in the source data.</p>
 <p class="sidebar-title"></p>
 <p>The set of stations represented in the plot are those whose polygons changed by at least  <span class="math notranslate nohighlight">\(\pm\)</span>10% area or had a Jaccard similarity index below 0.9 indicating significant geometric divergence that could impact derived descriptors.</p>
 </aside>
-<script src="bokeh-content-5e20328430fc48aaa39160e1f493a8be-summary_pages-broken_telephone_casestudy.js" id="ad762801-1905-4090-9dd8-aaec9153b2dd"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<p>a</p>
+<script src="bokeh-content-d38aae33910048d7b0cb604d72d05b21-summary_pages-broken_telephone_casestudy.js" id="e21d5db2-13ab-4ecf-88eb-2d5e09114601"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>

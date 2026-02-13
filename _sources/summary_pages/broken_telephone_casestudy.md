@@ -1,6 +1,6 @@
 # Broken Telephone: Caravan divergence
 
-Caravan re-published HYSETS catchment polygons in 2023 using the 2021 HYDAT drainage basin archive. Meanwhile, Water Survey of Canada (WSC) released 8,000+ polygon revisions between 2022 and late 2024. There are no DOIs to verify if these updates propagated downstream. This case study quantifies how far Caravan's polygons are from the current WSC geometry to make the case for automated provenance checks for derived datasets.
+Caravan re-published HYSETS catchment polygons in 2023 using the 2021 HYDAT drainage basin archive. Meanwhile, Water Survey of Canada (WSC) released 8,000+ polygon revisions between 2022 and late 2024. There are no DOIs to verify if these updates propagated downstream. This case study quantifies the difference between Caravan's polygons and the current WSC geometry, and how these differences translate to catchment descriptor values.
 
 ## Why polygons matter
 
@@ -97,8 +97,7 @@ show(generate_caravan_comparison_table())
 
 ## Per-station polygon comparison summary
 
-Running the `compare_caravan_polygons.py` script generates station-level comparison tables with all metrics and source metadata, but to avoid excessive computaton, these do not generate visualizations. A function is provided to generate polygon overlay plots between the Caravan and current WSC polygons for a station on demand so long
-as there are polygons in the source data.
+Running the `compare_caravan_polygons.py` script generates station-level comparison tables with all metrics and source metadata, but to avoid excessive computaton, these do not generate visualizations. A function is provided to generate polygon overlay plots between the Caravan and current WSC polygons for a station on demand so long as there are polygons in the source data.
 
 :::{margin}
 In the example below, the drainage areas are close, but the catchment polygon is non-overlapping!
@@ -130,7 +129,7 @@ For all polygons in common between Caravan and the current WSC set, we reprocess
 :::{margin}
 The set of stations represented in the plot are those whose polygons changed by at least  $\pm$10% area or had a Jaccard similarity index below 0.9 indicating significant geometric divergence that could impact derived descriptors.
 :::
-
+a
 :::{bokeh-plot}
 import sys
 from pathlib import Path

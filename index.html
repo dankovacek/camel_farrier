@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="_static/tufte_table.css?v=0ecb9985" />
@@ -921,7 +921,7 @@ document.write(`
 <p><span class="term">Camel Farrier</span>
 <span class="definition">A caretaker who trims, shoes, and maintains the hooves of camels.</span></p>
 </div>
-<p>Hydrometric data produced by the Water Survey of Canada (WSC) are critical inputs to many decisions in water resources practice and research. This supplementary material provides data summary pages with interactive visualizations of estimated streamflow timeseries with supporting information (rating curve calibration points), as well as a “changelog” of polygons representing the upstream contributing area of hydrometric monitoring stations, and some diagnostic information for helping assess data quality and changes over time.</p>
+<p>Hydrometric data produced by the Water Survey of Canada (WSC) are critical inputs to many decisions in water resources practice and research. This supplementary material provides data summary pages with interactive visualizations of estimated streamflow timeseries with supporting information (rating curve calibration points), as well as a “changelog” of polygons representing the upstream contributing area of hydrometric monitoring stations.  The goal is to organize information to help downstream users assess data quality and changes over time.</p>
 <section id="reporting-backlog-example">
 <h2>Reporting Backlog Example<a class="headerlink" href="#reporting-backlog-example" title="Link to this heading">#</a></h2>
 <p>The map below shows the reporting backlog for daily streamflow data in HYDAT, defined as the time since the most recent flow record for each station. Hovering over points shows station metadata and backlog duration. Clicking on map points takes you to the station summary page.</p>
@@ -930,7 +930,7 @@ document.write(`
 <p><strong>Linked selection.</strong> Use box-select or lasso-select tools on the CDF to highlight stations on the map (and vice versa). Toggle legend entries to isolate specific area-change bins.</p>
 <p>Warm colors highlight basins where Caravan’s inherited geometry deviates most from the latest WSC polygons.</p>
 </aside>
-<div style="height:850px;"><script src="bokeh-content-dc348bc75f454d83bb6edbfca9be4fec-index.js" id="b0e0fc32-2830-4a14-8c49-89fda19f4ffa"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:850px;"><script src="bokeh-content-88ef700201aa4d7a9402e350a7d0d0c8-index.js" id="dff19adb-9be7-4152-a067-306b0b10bc4b"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -941,7 +941,7 @@ document.write(`
 </section>
 <section id="large-sample-hydrology-impact">
 <h2>Large-Sample Hydrology Impact<a class="headerlink" href="#large-sample-hydrology-impact" title="Link to this heading">#</a></h2>
-<p>WSC hydrometric data underpin large-sample hydrology (LSH) studies, which rely on catchment boundaries to derive physiographic attributes and climate forcings. However, as this repository shows, the national monitoring network drainage basins have been updated in recent years. As a result, old polygons remain in current versions of LSH datasets like HYSETS and Caravan. The Camel Farrier framework helps quantify the degree of change between the current polygon set and those included in other datasets.</p>
+<p>WSC hydrometric data underpin large-sample hydrology (LSH) studies, which rely on catchment boundaries to derive physiographic attributes and climate forcings. This repository examines changes to the national monitoring network drainage basins polygons: how this information is transmitted and how it propagates downstream. There is a delay between when information is updated by the producer and when these changes are integrated into downstream applications. As a result, old polygons remain in current versions of LSH datasets like HYSETS and Caravan. The Camel Farrier framework summarizes these changes and their potential impacts.</p>
 <p>See the <a class="reference internal" href="summary_pages/broken_telephone_casestudy.html"><span class="std std-doc">Broken Telephone case study</span></a> for a detailed analysis of how polygon versioning gaps propagate through derived datasets.</p>
 </section>
 <section id="opportunities-for-improvement">
@@ -951,13 +951,13 @@ document.write(`
 <li><p>High-resolution DEM delineation</p></li>
 <li><p>Field validation</p></li>
 <li><p>Cross-dataset and delineation methodology comparison</p></li>
-<li><p>Community contributions with local knowledge and experience</p></li>
+<li><p>Community contributions based on local knowledge and experience</p></li>
 </ol>
 <p>See <a class="reference internal" href="CONTRIBUTING.html"><span class="std std-doc">Contributing</span></a> for guidelines on proposing polygon improvements.</p>
 </section>
 <section id="contents">
 <h2>Contents<a class="headerlink" href="#contents" title="Link to this heading">#</a></h2>
-<p>Station pages provide catchment polygons (GeoJSON), metadata, rating curves, field visit records, and revision history. The validation framework includes automated tests for data completeness, temporal continuity, and geometric validity. Version control workflows use Git-based tracking with semantic versioning and metadata schemas. Interactive visualizations show polygon evolution and data availability.</p>
+<p>Station catchment summary pages provide catchment polygons (GeoJSON), metadata, rating curves, field visit records, and revision history. The validation framework includes automated tests for data completeness, temporal continuity, and geometric validity. Version control workflows use Git-based tracking with semantic versioning and metadata schemas. Interactive visualizations show polygon evolution and data availability.</p>
 <p>All data provided in open formats (GeoJSON, CSV, JSON).</p>
 </section>
 <section id="theme">

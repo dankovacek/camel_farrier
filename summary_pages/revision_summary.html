@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/tufte_table.css?v=0ecb9985" />
@@ -932,7 +932,7 @@ document.write(`
 Click on a dot to navigate to the corresponding station summary page.</p>
 <p>Warm colors highlight basins where a previous polygon version (December 2021) deviates most from the latest WSC polygons.</p>
 </aside>
-<div style="height:600px;"><script src="bokeh-content-c54e1bd82832410984d608908d677150-summary_pages-revision_summary.js" id="b89d57c0-2fbc-4670-bc3d-086fe48061b3"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:600px;"><script src="bokeh-content-9234b272af894f00957322923da7d8a4-summary_pages-revision_summary.js" id="b5d6bc86-b74b-4cb3-87ee-22dc5482b270"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -947,7 +947,7 @@ Click on a dot to navigate to the corresponding station summary page.</p>
 <h3>Jaccard Similarity Index<a class="headerlink" href="#jaccard-similarity-index" title="Link to this heading">#</a></h3>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
-<p><strong>Interpreting JSI:</strong> Values near 1.0 indicate nearly perfect overlap of polygons; a value of 0 indicates no overlap.</p>
+<p><strong>JSI interpretation:</strong> Values near 1.0 indicate nearly perfect overlap of polygons; a value of 0 indicates no overlap.</p>
 </aside>
 <p>The <strong>Jaccard Similarity Index</strong> (JSI) quantifies geometric overlap between polygon versions. For geometries <span class="math notranslate nohighlight">\(A\)</span> and <span class="math notranslate nohighlight">\(B\)</span>:</p>
 <div class="math notranslate nohighlight">
@@ -960,7 +960,7 @@ J(A, B) = \frac{|A \cap B|}{|A \cup B|}
 <h3>Area Change<a class="headerlink" href="#area-change" title="Link to this heading">#</a></h3>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
-<p><strong>Area Change Context:</strong> Changes reflect unique DEM inputs or hyraulic conditioning steps, or detailed site information.</p>
+<p><strong>Area change causes:</strong> Differences in catchment delineation can reflect unique DEM inputs or hyraulic conditioning steps, or detailed site information.</p>
 </aside>
 <p>Percent area difference between versions:</p>
 <div class="math notranslate nohighlight">
@@ -974,7 +974,7 @@ J(A, B) = \frac{|A \cap B|}{|A \cup B|}
 <h2>Sample distributions<a class="headerlink" href="#sample-distributions" title="Link to this heading">#</a></h2>
 <section id="jaccard-similarity-index-distribution">
 <h3>Jaccard similarity index distribution<a class="headerlink" href="#jaccard-similarity-index-distribution" title="Link to this heading">#</a></h3>
-<div style="height:400px;"><script src="bokeh-content-542d68080e904b1aab99a59bb19433f1-summary_pages-revision_summary.js" id="bb308e5e-36ec-4a9b-b8fe-052aec40b003"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:400px;"><script src="bokeh-content-6056ed25d0ec47369b468d5e6ce19501-summary_pages-revision_summary.js" id="eecfe704-92c0-4eb4-8687-105dd423bb06"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -985,7 +985,7 @@ J(A, B) = \frac{|A \cap B|}{|A \cup B|}
 </section>
 <section id="area-change-distribution">
 <h3>Area change distribution<a class="headerlink" href="#area-change-distribution" title="Link to this heading">#</a></h3>
-<div style="height:400px;"><script src="bokeh-content-67dee76ee92c427cb338539cdc1b4568-summary_pages-revision_summary.js" id="fd18d004-cf3a-4735-965d-7feec4ecd739"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:400px;"><script src="bokeh-content-5c6458a66c3d4cc8a8cc0c361756a454-summary_pages-revision_summary.js" id="cd3f25f9-ff0d-48fe-9cb3-307f65d01168"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -1001,7 +1001,7 @@ J(A, B) = \frac{|A \cap B|}{|A \cup B|}
 <p class="sidebar-title"></p>
 <p>Sort the table by clicking on the column headers.  Click station links to navigate to the station summary page.</p>
 </aside>
-<div style="height:400px;"><script src="bokeh-content-9c21b141850a4410a3ab14c0e4dce26f-summary_pages-revision_summary.js" id="b686a5a3-cb50-4f7e-b548-2856eb474cb2"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:400px;"><script src="bokeh-content-7ee4fe728d794302b186582fdd71cf89-summary_pages-revision_summary.js" id="f50ae48d-4b28-4d2e-8e74-88736c8def56"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>

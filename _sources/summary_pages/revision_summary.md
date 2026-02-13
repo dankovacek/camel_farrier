@@ -24,7 +24,7 @@ show(plot_revision_map())
 
 ### Jaccard Similarity Index
 :::{margin}
-**Interpreting JSI:** Values near 1.0 indicate nearly perfect overlap of polygons; a value of 0 indicates no overlap.
+**JSI interpretation:** Values near 1.0 indicate nearly perfect overlap of polygons; a value of 0 indicates no overlap.
 :::
 
 The **Jaccard Similarity Index** (JSI) quantifies geometric overlap between polygon versions. For geometries $A$ and $B$:
@@ -39,7 +39,7 @@ Where $|A \cap B|$ is the intersection area and $|A \cup B|$ is the union area.
 
 ### Area Change
 :::{margin}
-**Area Change Context:** Changes reflect unique DEM inputs or hyraulic conditioning steps, or detailed site information.
+**Area change causes:** Differences in catchment delineation can reflect unique DEM inputs or hyraulic conditioning steps, or detailed site information.
 :::
 
 Percent area difference between versions:

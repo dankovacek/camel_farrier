@@ -6,7 +6,7 @@
 <span class="definition">A caretaker who trims, shoes, and maintains the hooves of camels.</span>
 :::
 
-Hydrometric data produced by the Water Survey of Canada (WSC) are critical inputs to many decisions in water resources practice and research. This supplementary material provides data summary pages with interactive visualizations of estimated streamflow timeseries with supporting information (rating curve calibration points), as well as a "changelog" of polygons representing the upstream contributing area of hydrometric monitoring stations, and some diagnostic information for helping assess data quality and changes over time.
+Hydrometric data produced by the Water Survey of Canada (WSC) are critical inputs to many decisions in water resources practice and research. This supplementary material provides data summary pages with interactive visualizations of estimated streamflow timeseries with supporting information (rating curve calibration points), as well as a "changelog" of polygons representing the upstream contributing area of hydrometric monitoring stations.  The goal is to organize information to help downstream users assess data quality and changes over time.
 
 ## Reporting Backlog Example
 
@@ -29,7 +29,7 @@ show(plot_network_backlog())
 
 ## Large-Sample Hydrology Impact
 
-WSC hydrometric data underpin large-sample hydrology (LSH) studies, which rely on catchment boundaries to derive physiographic attributes and climate forcings. However, as this repository shows, the national monitoring network drainage basins have been updated in recent years. As a result, old polygons remain in current versions of LSH datasets like HYSETS and Caravan. The Camel Farrier framework helps quantify the degree of change between the current polygon set and those included in other datasets.
+WSC hydrometric data underpin large-sample hydrology (LSH) studies, which rely on catchment boundaries to derive physiographic attributes and climate forcings. This repository examines changes to the national monitoring network drainage basins polygons: how this information is transmitted and how it propagates downstream. There is a delay between when information is updated by the producer and when these changes are integrated into downstream applications. As a result, old polygons remain in current versions of LSH datasets like HYSETS and Caravan. The Camel Farrier framework summarizes these changes and their potential impacts.
 
 See the [Broken Telephone case study](summary_pages/broken_telephone_casestudy.md) for a detailed analysis of how polygon versioning gaps propagate through derived datasets.
 
@@ -40,13 +40,13 @@ Catchment delineation is challenging when basin size decreases relative to DEM r
 1. High-resolution DEM delineation
 2. Field validation
 3. Cross-dataset and delineation methodology comparison
-4. Community contributions with local knowledge and experience
+4. Community contributions based on local knowledge and experience
 
 See [Contributing](CONTRIBUTING.md) for guidelines on proposing polygon improvements.
 
 ## Contents
 
-Station pages provide catchment polygons (GeoJSON), metadata, rating curves, field visit records, and revision history. The validation framework includes automated tests for data completeness, temporal continuity, and geometric validity. Version control workflows use Git-based tracking with semantic versioning and metadata schemas. Interactive visualizations show polygon evolution and data availability.
+Station catchment summary pages provide catchment polygons (GeoJSON), metadata, rating curves, field visit records, and revision history. The validation framework includes automated tests for data completeness, temporal continuity, and geometric validity. Version control workflows use Git-based tracking with semantic versioning and metadata schemas. Interactive visualizations show polygon evolution and data availability.
 
 All data provided in open formats (GeoJSON, CSV, JSON).
 
