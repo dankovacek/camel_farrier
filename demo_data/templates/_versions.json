@@ -1,0 +1,18 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "Version history for station data",
+    "station_id": "STATION_ID_HERE",
+    "current_version": "v1.0.0",
+    "versions": [
+        {
+            "semantic_tag": "v1.0.0",
+            "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+            "data_source": "WSC_basins",
+            "polygon_file": "STATION_ID_polygon_v1.0.0.geojson"
+        }
+    ],
+    "version_count": 1,
+    "first_committed": "YYYY-MM-DDTHH:MM:SSZ",
+    "last_updated": "YYYY-MM-DDTHH:MM:SSZ",
+    "schema_version": "1.0.0"
+}

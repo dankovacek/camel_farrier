@@ -35,69 +35,56 @@ Next: Implement the above outline as code, starting with querying the STATIONS t
 
 # INGEST HYDAT DATASET
 import os
+import sys
 from pathlib import Path
 import sqlite3
-from turtle import pd
 import geopandas as gpd
 import shutil
 
-from setup_utilities import (
-    retrieve_HYDAT,
-    query_all_stations,
-    query_station_metadata,
-    query_stn_datum,
-    query_stn_data_ranges,
-    query_stn_remarks,
-    batch_retrieve_station_geometries,
-    query_hydat_database,
-    query_annual_instant_peaks,
-    query_hydat_version,
-    query_quality_codes,
-    query_precision_codes,
-    check_for_rc_data,
-)
+# Add project root to path
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
-BASE_DIR = Path(__file__).resolve().parent
-BOOK_DIR = BASE_DIR / "book_docs"
-STATION_DATA_DIR = BOOK_DIR / "stations"
+from scripts.config.paths import (
+    PROJECT_ROOT,
+    BOOK_DOCS_DIR,
+    HYDAT_DB_PATH,
+    WSC_BASINS_DIR,
+    WATEROFFICE_DIR,
+    COMMON_DATA_DIR
+)
+from scripts.demo_setup.setup_utilities import *
+
+STATION_DATA_DIR = BOOK_DOCS_DIR / "stations"
 if not os.path.exists(STATION_DATA_DIR):
     os.makedirs(STATION_DATA_DIR)
 
 # define data folders
-DATA_DIR = BASE_DIR / "input_data"
+DATA_DIR = PROJECT_ROOT / "input_data"
 
-# define HYDAT database folder
-LARGE_FILE_DIR = Path("/home/danbot/Documents/common_data")
+if not os.path.exists(HYDAT_DB_PATH):
+    retrieve_HYDAT(HYDAT_DB_PATH.parent, HYDAT_DB_PATH)
 
-HYDAT_DIR = LARGE_FILE_DIR / "HYDAT"
-HYDAT_fpath = HYDAT_DIR / "Hydat.sqlite3"
+assert os.path.exists(HYDAT_DB_PATH), f"HYDAT database not found at {HYDAT_DB_PATH}"
 
-CATCHMENT_POLYGON_DIR = HYDAT_DIR / "WSC_basin_polygons_20240905"
-
-WATER_LICENSE_FILE = (
-    LARGE_FILE_DIR / "BC_water_extraction_licenses" / "Dam_Points_20240103.gpkg"
-)
-
-if not os.path.exists(HYDAT_fpath):
-    retrieve_HYDAT(HYDAT_DIR, HYDAT_fpath)
-
-conn = sqlite3.connect(HYDAT_fpath)
+conn = sqlite3.connect(HYDAT_DB_PATH)
 
 station_df = query_all_stations(conn)
 
-rc_stations = check_for_rc_data(station_df, BASE_DIR)
+rc_stations = check_for_rc_data(WATEROFFICE_DIR=WATEROFFICE_DIR)
 
 station_df = station_df[station_df["STATION_NUMBER"].isin(rc_stations)]
 station_df = station_df.reset_index(drop=True)
-water_license_df = gpd.read_file(WATER_LICENSE_FILE)
-# convert to the same crs as the catchment polygons
-water_license_df = water_license_df.to_crs("EPSG:3857")
+# water_license_df = gpd.read_file(WATER_LICENSE_FILE)
+# # convert to the same crs as the catchment polygons
+# water_license_df = water_license_df.to_crs("EPSG:3857")
 
-n_to_generate = 1000
+n_to_generate = 20
 random_idxs = station_df.sample(n=n_to_generate, random_state=42).index
 
-query_quality_codes(conn, BOOK_DIR / "station_pages")
-query_precision_codes(conn, BOOK_DIR / "station_pages")
+query_quality_codes(conn, BOOK_DOCS_DIR / "station_pages")
+query_precision_codes(conn, BOOK_DOCS_DIR / "station_pages")
 
 selected_stns = station_df.iloc[random_idxs].copy().sort_values("STATION_NUMBER")
 
@@ -115,13 +102,15 @@ n = 0
 for region_code, stn_list in region_groups.items():
     stn_ids = [row["STATION_NUMBER"] for i, row in stn_list]
     # Retrieve and save geometries for all stations in this region
-    batch_retrieve_station_geometries(stn_ids, STATION_DATA_DIR, CATCHMENT_POLYGON_DIR)
+    batch_retrieve_station_geometries(stn_ids, STATION_DATA_DIR, WSC_BASINS_DIR)
     for i, row in stn_list:
         n += 1
         station_id = row["STATION_NUMBER"]
         station_name = row["STATION_NAME"]
         print(f"Processing station {n}/{n_to_generate}: {station_name} ({station_id})")
         stn_output_folder = STATION_DATA_DIR / f"{station_id}"
+        if not os.path.exists(stn_output_folder):
+            os.makedirs(stn_output_folder)
 
         # create a dict from the row data
         data = row.to_dict()
@@ -139,17 +128,17 @@ for region_code, stn_list in region_groups.items():
         )
         if os.path.exists(catchment_path):
             catchment_gdf = gpd.read_file(catchment_path)
-            licenses = gpd.sjoin(
-                water_license_df,
-                catchment_gdf,
-                predicate="within",
-            )
-            licenses = licenses[water_license_df.columns]
-            if not licenses.empty:
-                licenses.to_file(
-                    stn_output_folder / f"{station_id}_water_licenses.geojson",
-                    driver="GeoJSON",
-                )
+            # licenses = gpd.sjoin(
+            #     water_license_df,
+            #     catchment_gdf,
+            #     predicate="within",
+            # )
+            # licenses = licenses[water_license_df.columns]
+            # if not licenses.empty:
+            #     licenses.to_file(
+            #         stn_output_folder / f"{station_id}_water_licenses.geojson",
+            #         driver="GeoJSON",
+            #     )
 
         # query the daily flows and water level data
         output_flow_path = stn_output_folder / f"{station_id}_daily_flows.csv"

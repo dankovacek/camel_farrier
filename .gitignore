@@ -6,6 +6,7 @@ __pycache__/
 _static/
 .book_docs/
 book_docs/
+.cache/
 data/corrections/
 data/field_visits/
 data/RCs/
@@ -16,9 +17,29 @@ input_data/WSC_basin_polygons_20240905.zip
 superseded/
 WORKFLOW_REQUIREMENTS.md
 AGENT_REQUIREMENTS.md
+.backup
+.claude
+.env
+.credentials
 book_docs/catchments/
 .vscode/
-station_pages/
 bfg.jar
 allfiles.txt
 
+# Station geospatial data (large files, managed locally)
+# Metadata IS tracked, but polygon files are NOT
+demo_data/stations/*/*.geojson
+demo_data/stations/*/*.gpkg
+demo_data/stations/*/*.shp
+demo_data/stations/*/*.shx
+# Generated diagnostic pages (markdown and HTML)
+book_docs/stations/*.md
+book_docs/stations/*.html
+demo_data/stations/*/*.dbf
+demo_data/stations/*/*.prj
+
+# DO track station metadata files
+!demo_data/stations/*/_versions.json
+!demo_data/stations/*/_metadata.json
+!demo_data/stations/*/_qc_status.json
+!demo_data/stations/*/*.csv

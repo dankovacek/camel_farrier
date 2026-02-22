@@ -297,7 +297,7 @@ def reshape_hydat_wide(input_df, table):
     # Filter out invalid days (e.g., day > NO_DAYS)
     merged = merged[merged["day"] <= merged["NO_DAYS"]]
     formatted_df = merged[["STATION_NUMBER", "date", value_name, "quality_symbol"]]
-    formatted_df.set_index("date", inplace=True)
+    # formatted_df.set_index("date", inplace=True)
     return formatted_df
 
 
@@ -333,8 +333,12 @@ def query_hydat_database(stn, conn, output_path, table="DLY_FLOWS"):
     if df.empty:
         print(f"No {table} data found for {stn} in HYDAT.")
         return pd.DataFrame()
+
     df = reshape_hydat_wide(df, table)
-    df.to_csv(output_path)
+    df.to_csv(output_path, index=False)
+    if os.path.exists(output_path):
+        print(f"  ✓ Wrote {len(df)} rows to {output_path}")
+    return df
 
 
 def find_symbol_segments(symbol_df, target_symbol):
@@ -410,12 +414,12 @@ def query_hydat_version(conn):
     return version, version_date
 
 
-def check_for_rc_data(df, BASE_DIR):
-    rc_stations = [e.split("_")[0] for e in os.listdir(BASE_DIR / "data" / "RCs")]
+def check_for_rc_data(WATEROFFICE_DIR):
+    rc_stations = [e.split("_")[0] for e in os.listdir(WATEROFFICE_DIR / 'rating_curves')]
 
     stations_with_rc_data = []
     for stn in rc_stations:
-        fpath = BASE_DIR / "data" / "RCs" / f"{stn}_RCs.csv"
+        fpath = WATEROFFICE_DIR / "rating_curves" / f"{stn}_RCs.csv"
         rcdf = pd.read_csv(fpath)
         if not rcdf.empty:
             stations_with_rc_data.append(stn)

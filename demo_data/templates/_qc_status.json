@@ -1,0 +1,45 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "Quality control status for station data during review (pre-commit)",
+    "station_id": "STATION_ID_HERE",
+    "qc_date": "YYYY-MM-DD",
+    "reviewed_by": "reviewer_name_or_automated",
+    "validation_checks": {
+        "data_completeness": {
+            "status": "passed|failed|warning",
+            "rating_curves_present": true,
+            "corrections_present": true,
+            "field_visits_present": true,
+            "missing_files": [],
+            "notes": ""
+        },
+        "polygon_bounds": {
+            "status": "passed|failed|warning",
+            "polygon_file_present": true,
+            "crs_valid": true,
+            "geometry_valid": true,
+            "area_km2": null,
+            "notes": ""
+        },
+        "hydrometric_continuity": {
+            "status": "passed|failed|warning",
+            "temporal_gaps": [],
+            "data_quality_flags": [],
+            "notes": ""
+        },
+        "metadata_completeness": {
+            "status": "passed|failed|warning",
+            "required_fields_present": true,
+            "station_name": true,
+            "drainage_area": true,
+            "coordinates": true,
+            "notes": ""
+        }
+    },
+    "overall_status": "pending_review|needs_revision|qa_passed|qa_failed",
+    "qc_notes": "General notes about quality control review",
+    "next_steps": "Actions required before promotion to committed version",
+    "validator_version": "1.0.0",
+    "created_timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+    "last_modified": "YYYY-MM-DDTHH:MM:SSZ"
+}
