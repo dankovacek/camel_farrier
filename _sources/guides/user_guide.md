@@ -93,6 +93,9 @@ python scripts/demo_setup/process_station_pages.py
 cd book_docs/
 jupyter book build .
 open _build/html/index.html
+
+# Deploy to GitHub Pages
+ghp-import -n -p -f book_docs/_build/html
 ```
 
 ## Station Data Initialization
