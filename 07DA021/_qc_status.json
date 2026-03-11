@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "description": "Quality control status for station data during review (pre-commit)",
   "station_id": "07DA021",
-  "qc_date": "2026-03-10T21:50:35.969579",
+  "qc_date": "2026-03-10T22:24:10.414603",
   "reviewed_by": "automated_setup",
   "validation_checks": {
     "data_completeness": {
@@ -44,6 +44,6 @@
   "qc_notes": "Issues: RCs, corrections, field_visits, No timeseries data",
   "next_steps": "Address missing data",
   "validator_version": "1.0.0",
-  "created_timestamp": "2026-03-10T21:50:35.969579",
-  "last_modified": "2026-03-10T21:50:35.969579"
+  "created_timestamp": "2026-03-10T22:24:10.414603",
+  "last_modified": "2026-03-10T22:24:10.414603"
 }
