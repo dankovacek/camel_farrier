@@ -22,8 +22,8 @@ import numpy as np
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(PROJECT_ROOT))
 
-# Import existing comparison function - REUSE!
-from scripts.demo_setup.integrate_hydat_polygons import compare_polygons
+# Import existing comparison function and CRS helper - REUSE!
+from scripts.demo_setup.integrate_hydat_polygons import compare_polygons, get_laea_crs
 from scripts.generation.revision_plots import summarize_caravan_comparison, categorize_jsi, jsi_colors
 
 # Import plotting dependencies
@@ -181,12 +181,12 @@ def compare_all_stations(
     return pd.DataFrame(results)
 
 
-def filter_small_geometries(geom, min_area_m2=10, debug=False):
+def filter_small_geometries(geom, min_area_m2=10, debug=False, crs='EPSG:3857'):
     """Filter out small vestigial geometries and ensure validity.
 
     Reused utility to avoid duplication.
     """
-    gdf = gpd.GeoDataFrame(geometry=[geom], crs='EPSG:3857').explode(index_parts=False).reset_index(drop=True)
+    gdf = gpd.GeoDataFrame(geometry=[geom], crs=crs).explode(index_parts=False).reset_index(drop=True)
 
     if debug and len(gdf) > 0:
         areas = gdf.geometry.area.values
@@ -254,17 +254,43 @@ def plot_caravan_wsc_comparison(station_id: str, width: int = 800, print_metrics
             'context': 'Station directory exists but contains no polygons.'
         }
 
-    wsc_gdf = gpd.read_file(polygon_files[-1]).to_crs("EPSG:3857")
+    wsc_gdf = gpd.read_file(polygon_files[-1])
 
     caravan_gdf = load_caravan_polygons(filter_ids=[station_id])
     caravan_gdf = caravan_gdf[caravan_gdf['station_id'] == station_id]
-    caravan_gdf.to_crs("EPSG:3857", inplace=True)
+    if caravan_gdf.empty:
+        return {
+            'status': 'warning',
+            'message': f'No Caravan polygon found for station {station_id}.',
+            'context': 'Station exists in WSC records but is missing from Caravan/HYSETS polygons.'
+        }
+
+    # Compare metrics in equal-area CRS (handled in compare_polygons helper).
+    comparison_metrics = compare_polygons(caravan_gdf, wsc_gdf)
+
+    # Build local LAEA for area-preserving spatial set operations.
+    wsc_wgs84 = wsc_gdf.to_crs('EPSG:4326')
+    caravan_wgs84 = caravan_gdf.to_crs('EPSG:4326')
+    combined_wgs84 = gpd.GeoDataFrame(
+        geometry=pd.concat([caravan_wgs84.geometry, wsc_wgs84.geometry]),
+        crs='EPSG:4326'
+    )
+    laea_crs = get_laea_crs(combined_wgs84)
+
+    # Use local equal-area CRS for intersection/difference and any area thresholds.
+    wsc_area_gdf = wsc_wgs84.to_crs(laea_crs)
+    caravan_area_gdf = caravan_wgs84.to_crs(laea_crs)
+
+    # Keep EPSG:3857 versions for plotting on web tiles.
+    wsc_plot_gdf = wsc_wgs84.to_crs('EPSG:3857')
+    caravan_plot_gdf = caravan_wgs84.to_crs('EPSG:3857')
 
     # Get geometries
-    caravan_geom = caravan_gdf.geometry.iloc[0]
-    wsc_geom = wsc_gdf.geometry.iloc[0]
+    caravan_area_geom = caravan_area_gdf.geometry.iloc[0]
+    wsc_area_geom = wsc_area_gdf.geometry.iloc[0]
+    caravan_plot_geom = caravan_plot_gdf.geometry.iloc[0]
+    wsc_plot_geom = wsc_plot_gdf.geometry.iloc[0]
 
-    comparison_metrics = compare_polygons(caravan_gdf, wsc_gdf)
     if print_metrics:
         print(
             f"{station_id} | JSI: {comparison_metrics['jaccard_index']:.4f} | "
@@ -272,22 +298,28 @@ def plot_caravan_wsc_comparison(station_id: str, width: int = 800, print_metrics
         )
 
     # Compute spatial differences (WSC 2024 is ground truth)
-    intersection = caravan_geom.intersection(wsc_geom)  # Light green: areas that match
-    false_positive = caravan_geom.difference(wsc_geom)  # Red: Caravan had it, WSC doesn't (error in Caravan)
-    false_negative = wsc_geom.difference(caravan_geom)  # Purple: WSC has it, Caravan didn't (Caravan missed it)
+    intersection = caravan_area_geom.intersection(wsc_area_geom)  # Light green: areas that match
+    false_positive = caravan_area_geom.difference(wsc_area_geom)  # Red: Caravan had it, WSC doesn't
+    false_negative = wsc_area_geom.difference(caravan_area_geom)  # Purple: WSC has it, Caravan didn't
 
     # Filter out small vestigial geometries
-    wsc_area_m2 = wsc_geom.area
+    wsc_area_m2 = wsc_area_geom.area
     min_area_m2 = min(1000, 0.0001 * wsc_area_m2)
-    intersection = filter_small_geometries(intersection, min_area_m2=min_area_m2, debug=False)
-    false_positive = filter_small_geometries(false_positive, min_area_m2=min_area_m2, debug=False)
-    false_negative = filter_small_geometries(false_negative, min_area_m2=min_area_m2, debug=False)
+    intersection = filter_small_geometries(intersection, min_area_m2=min_area_m2, debug=False, crs=laea_crs)
+    false_positive = filter_small_geometries(false_positive, min_area_m2=min_area_m2, debug=False, crs=laea_crs)
+    false_negative = filter_small_geometries(false_negative, min_area_m2=min_area_m2, debug=False, crs=laea_crs)
 
-    jsi = intersection.area / (intersection.area + false_positive.area + false_negative.area) if (intersection.area + false_positive.area + false_negative.area) > 0 else 0
+    # Convert filtered difference layers back to EPSG:3857 for web-map plotting.
+    intersection = intersection.to_crs('EPSG:3857')
+    false_positive = false_positive.to_crs('EPSG:3857')
+    false_negative = false_negative.to_crs('EPSG:3857')
+
+    # total_area = intersection.area.sum() + false_positive.area.sum() + false_negative.area.sum()
+    # jsi = intersection.area.sum() / (total_area) if (total_area) > 0 else 0
 
     # Combined bounds for view
     combined_bounds = gpd.GeoDataFrame(
-        geometry=pd.concat([caravan_gdf.geometry, wsc_gdf.geometry])
+        geometry=pd.concat([caravan_plot_gdf.geometry, wsc_plot_gdf.geometry])
     ).total_bounds
 
     # Create figure
@@ -339,14 +371,14 @@ def plot_caravan_wsc_comparison(station_id: str, width: int = 800, print_metrics
 
     # 4. Boundary outlines - separate lines for each polygon
     # Caravan boundary (firebrick dashed)
-    caravan_boundary = GeoJSONDataSource(geojson=gpd.GeoDataFrame(geometry=[caravan_geom], crs='EPSG:3857').to_json())
+    caravan_boundary = GeoJSONDataSource(geojson=gpd.GeoDataFrame(geometry=[caravan_plot_geom], crs='EPSG:3857').to_json())
     p.patches('xs', 'ys', source=caravan_boundary,
              fill_color=None, fill_alpha=0,
              line_color='#B22222', line_width=3, line_dash='dashed',
              legend_label='Caravan boundary')
 
     # WSC 2024 boundary (dark purple solid)
-    wsc_boundary = GeoJSONDataSource(geojson=gpd.GeoDataFrame(geometry=[wsc_geom], crs='EPSG:3857').to_json())
+    wsc_boundary = GeoJSONDataSource(geojson=gpd.GeoDataFrame(geometry=[wsc_plot_geom], crs='EPSG:3857').to_json())
     p.patches('xs', 'ys', source=wsc_boundary,
              fill_color=None, fill_alpha=0,
              line_color='#6A0DAD', line_width=3,

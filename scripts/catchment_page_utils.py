@@ -25,6 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 logger = logging.getLogger(__name__)
 
 import xyzservices.providers as xyz
+from scripts.demo_setup.integrate_hydat_polygons import get_laea_crs
 
 tiles = xyz.OpenStreetMap.Mapnik
 
@@ -456,11 +457,11 @@ def process_static_catchment_page_html(
     }
 
 
-def filter_small_geometries(geom, min_area_m2=10, debug=False):
+def filter_small_geometries(geom, min_area_m2=10, debug=False, crs='EPSG:3857'):
     """Filter out small vestigial geometries and ensure validity."""
     from shapely.geometry import Polygon
 
-    gdf = gpd.GeoDataFrame(geometry=[geom], crs='EPSG:3857').explode(index_parts=False).reset_index(drop=True)
+    gdf = gpd.GeoDataFrame(geometry=[geom], crs=crs).explode(index_parts=False).reset_index(drop=True)
 
     if debug and len(gdf) > 0:
         areas = gdf.geometry.area.values
@@ -554,8 +555,8 @@ def plot_station_polygon(station_id: str, width: int = 800):
             'message': f'No polygon features found for {station_id}.'
         }
 
-    latest_gdf = latest_gdf.to_crs("EPSG:3857")
-    latest_gdf = round_coordinates(latest_gdf, precision_m=1.0)
+    # Keep WGS84 copy for robust local-CRS construction.
+    latest_wgs84 = latest_gdf.to_crs('EPSG:4326')
 
     # Get version info from latest
     latest_version = latest_gdf.get('Version', ['Unknown']).values[0] if 'Version' in latest_gdf.columns else 'Unknown'
@@ -586,8 +587,7 @@ def plot_station_polygon(station_id: str, width: int = 800):
                     'message': f'Previous polygon version missing for {station_id}.'
                 }
 
-            previous_gdf = previous_gdf.to_crs("EPSG:3857")
-            previous_gdf = round_coordinates(previous_gdf, precision_m=1.0)
+            previous_wgs84 = previous_gdf.to_crs('EPSG:4326')
 
             # Get previous version info
             prev_version = previous_gdf.get('Version', ['Unknown']).values[0] if 'Version' in previous_gdf.columns else 'Unknown'
@@ -597,10 +597,28 @@ def plot_station_polygon(station_id: str, width: int = 800):
             else:
                 prev_date = 'Not found'
 
+    # Build a local equal-area projection for accurate area calculations.
     if show_comparison:
-        # Get geometries
-        old_geom = previous_gdf.geometry.iloc[0]
-        new_geom = latest_gdf.geometry.iloc[0]
+        combined_wgs84 = gpd.GeoDataFrame(
+            geometry=pd.concat([previous_wgs84.geometry, latest_wgs84.geometry]),
+            crs='EPSG:4326'
+        )
+    else:
+        combined_wgs84 = latest_wgs84.copy()
+
+    laea_crs = get_laea_crs(combined_wgs84)
+
+    # Analysis geometries (equal-area) and plotting geometries (web mercator).
+    latest_area_gdf = latest_wgs84.to_crs(laea_crs)
+    latest_plot_gdf = round_coordinates(latest_wgs84.to_crs('EPSG:3857'), precision_m=1.0)
+
+    if show_comparison:
+        previous_area_gdf = previous_wgs84.to_crs(laea_crs)
+        previous_plot_gdf = round_coordinates(previous_wgs84.to_crs('EPSG:3857'), precision_m=1.0)
+
+        # Get geometries in local equal-area CRS.
+        old_geom = previous_area_gdf.geometry.iloc[0]
+        new_geom = latest_area_gdf.geometry.iloc[0]
 
         # Compute spatial differences (semantic: latest is ground truth)
         intersection = old_geom.intersection(new_geom)  # Light green: areas that match
@@ -611,17 +629,24 @@ def plot_station_polygon(station_id: str, width: int = 800):
         # Use either 100 m² or 0.01% of new polygon area, whichever is smaller
         new_area_m2 = new_geom.area
         min_area_m2 = min(1000, 0.0001 * new_area_m2)
-        intersection = filter_small_geometries(intersection, min_area_m2=min_area_m2, debug=False)
-        false_positive = filter_small_geometries(false_positive, min_area_m2=min_area_m2, debug=False)
-        false_negative = filter_small_geometries(false_negative, min_area_m2=min_area_m2, debug=False)
+        intersection = filter_small_geometries(intersection, min_area_m2=min_area_m2, debug=False, crs=laea_crs)
+        false_positive = filter_small_geometries(false_positive, min_area_m2=min_area_m2, debug=False, crs=laea_crs)
+        false_negative = filter_small_geometries(false_negative, min_area_m2=min_area_m2, debug=False, crs=laea_crs)
+
+        # Convert comparison layers to web mercator for plotting.
+        intersection = intersection.to_crs('EPSG:3857')
+        false_positive = false_positive.to_crs('EPSG:3857')
+        false_negative = false_negative.to_crs('EPSG:3857')
 
         # Combined bounds
         combined_bounds = gpd.GeoDataFrame(
-            geometry=pd.concat([previous_gdf.geometry, latest_gdf.geometry])
+            geometry=pd.concat([previous_plot_gdf.geometry, latest_plot_gdf.geometry])
         ).total_bounds
     else:
         # Single version mode
-        combined_bounds = latest_gdf.total_bounds
+        # Compute accurate area once in local equal-area CRS, then keep for hover.
+        latest_plot_gdf['area_km2'] = latest_area_gdf.geometry.area / 1e6
+        combined_bounds = latest_plot_gdf.total_bounds
 
     # Create figure
     height = int(width * 0.625)  # Maintain aspect ratio
@@ -674,10 +699,10 @@ def plot_station_polygon(station_id: str, width: int = 800):
     else:
         # Single version - standard blue polygon
         from bokeh.models import HoverTool
-        latest_gdf['area_km2'] = latest_gdf.geometry.area / 1e6
+        # Keep LAEA-derived area values; do not recompute in web mercator.
         # remove date columns from latest_gdf
-        latest_gdf = latest_gdf.drop(columns=[col for col in latest_gdf.columns if col in ['Date', 'Date_rev', 'date']], errors='ignore')
-        geo_source = GeoJSONDataSource(geojson=latest_gdf.to_json())
+        latest_plot_gdf = latest_plot_gdf.drop(columns=[col for col in latest_plot_gdf.columns if col in ['Date', 'Date_rev', 'date']], errors='ignore')
+        geo_source = GeoJSONDataSource(geojson=latest_plot_gdf.to_json())
         r = p.patches('xs', 'ys', source=geo_source,
                  fill_color='dodgerblue', fill_alpha=0.5,
                  line_color='navy', line_width=2,
@@ -705,7 +730,7 @@ def plot_station_polygon(station_id: str, width: int = 800):
         'items': [
             "**Coordinate Precision**: Coordinates rounded to 1m after reprojection to EPSG:3857 (Web Mercator) to reduce floating point errors in geometric operations",
             "**Small Geometry Filter**: Sub-polygons smaller than min(1000 m², 0.01% of new polygon area) are filtered as vestigial artifacts",
-            "**Area Calculations**: Displayed areas are computed in EPSG:3857 and may differ slightly (~0.01-0.1%) from LAEA-based values in _versions.json due to projection distortion"
+            "**Area Calculations**: Displayed areas are computed in a local Lambert Azimuthal Equal Area CRS; polygons are converted to EPSG:3857 only for web-map rendering"
         ]
     }
 
