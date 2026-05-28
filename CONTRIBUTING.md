@@ -27,12 +27,12 @@ This project is committed to providing a welcoming and inclusive environment. We
 
 We welcome several types of contributions:
 
-1. **Data Corrections** — Corrections to hydrometric data, rating curves, or field visit records
-2. **Polygon Revisions** — Improved catchment boundary delineations with documented rationale
-3. **New Station Data** — Addition of new monitoring stations with complete metadata
-4. **Documentation** — Improvements to guides, specifications, or examples
-5. **Code Improvements** — Bug fixes, feature enhancements, or workflow optimizations
-6. **Quality Assurance** — Validation improvements or test enhancements
+1. **Data Corrections** - Corrections to hydrometric data, rating curves, or field visit records
+2. **Polygon Revisions** - Improved catchment boundary delineations with documented rationale
+3. **New Station Data** - Addition of new monitoring stations with complete metadata
+4. **Documentation** - Improvements to guides, specifications, or examples
+5. **Code Improvements** - Bug fixes, feature enhancements, or workflow optimizations
+6. **Quality Assurance** - Validation improvements or test enhancements
 
 ### Getting Started
 
@@ -107,18 +107,18 @@ For station metadata changes:
 
 When creating a pull request, please use the provided template and include:
 
-1. **Summary of changes** — What was modified and why
-2. **Type of change** — Data correction, new feature, documentation, etc.
-3. **Quality assurance checklist** — Validation results, testing performed
-4. **Related issues** — Link to any related GitHub issues
-5. **Additional context** — Screenshots, external references, or methodology notes
+1. **Summary of changes** - What was modified and why
+2. **Type of change** - Data correction, new feature, documentation, etc.
+3. **Quality assurance checklist** - Validation results, testing performed
+4. **Related issues** - Link to any related GitHub issues
+5. **Additional context** - Screenshots, external references, or methodology notes
 
 ### Review Process
 
 1. **Automated checks** will run on your PR (linting, tests, validation)
 2. **Maintainer review** will assess data quality and adherence to standards
-3. **Feedback incorporation** — Address any requested changes
-4. **Approval and merge** — Once approved, your contribution will be merged
+3. **Feedback incorporation** - Address any requested changes
+4. **Approval and merge** - Once approved, your contribution will be merged
 
 ### After Merge
 
@@ -182,23 +182,23 @@ Changes
 ```
 
 **Types:**
-- `data:` — Data corrections or additions
-- `polygon:` — Catchment boundary revisions
-- `docs:` — Documentation changes
-- `feat:` — New features
-- `fix:` — Bug fixes
-- `test:` — Test additions or modifications
-- `refactor:` — Code restructuring without behavior changes
+- `data:` - Data corrections or additions
+- `polygon:` - Catchment boundary revisions
+- `docs:` - Documentation changes
+- `feat:` - New features
+- `fix:` - Bug fixes
+- `test:` - Test additions or modifications
+- `refactor:` - Code restructuring without behavior changes
 
 ## Issue Reporting
 
 Found a problem? Please open an issue using the appropriate template:
 
-- **[Data Correction](/.github/ISSUE_TEMPLATE/data_correction.md)** — Errors in hydrometric data
-- **[Polygon Revision](/.github/ISSUE_TEMPLATE/polygon_revision.md)** — Catchment boundary improvements
-- **[Data Quality](/.github/ISSUE_TEMPLATE/data-quality.md)** — Quality concerns or validation failures
-- **[Bug Report](/.github/ISSUE_TEMPLATE/bug_report.md)** — Code or workflow issues
-- **[Documentation](/.github/ISSUE_TEMPLATE/documentation.md)** — Documentation improvements
+- **[Data Correction](/.github/ISSUE_TEMPLATE/data_correction.md)** - Errors in hydrometric data
+- **[Polygon Revision](/.github/ISSUE_TEMPLATE/polygon_revision.md)** - Catchment boundary improvements
+- **[Data Quality](/.github/ISSUE_TEMPLATE/data-quality.md)** - Quality concerns or validation failures
+- **[Bug Report](/.github/ISSUE_TEMPLATE/bug_report.md)** - Code or workflow issues
+- **[Documentation](/.github/ISSUE_TEMPLATE/documentation.md)** - Documentation improvements
 
 ## Development Workflow
 

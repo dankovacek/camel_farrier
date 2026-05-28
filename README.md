@@ -4,10 +4,7 @@ A demonstration of version control workflows for hydrometric monitoring stations
 
 ## Documentation
 
-- [Getting Started](book_docs/guides/user_guide.md) — setup, initialization, workflow
-- [Data Specification](book_docs/guides/data_specification.md) — CSV schemas and validation rules
-- [Data Sources](book_docs/guides/DATA_SOURCES.md) — dataset provenance and download links
-- [Data Governance](book_docs/guides/DATA_GOVERNANCE.md) — versioning and QA policies
+See the documentation live at [https://dankovacek.github.io/camel_farrier/](https://dankovacek.github.io/camel_farrier/)
 
 ## Quick Start
 
@@ -73,4 +70,4 @@ See [Data Sources](book_docs/guides/DATA_SOURCES.md) for download links.
 
 ## License
 
-[CC BY-SA 4.0]( https://creativecommons.org/licenses/by-sa/4.0/) — Attribution-ShareAlike for all code, documentation, and generated content.
+[CC BY-SA 4.0]( https://creativecommons.org/licenses/by-sa/4.0/) - Attribution-ShareAlike for all code, documentation, and generated content.
