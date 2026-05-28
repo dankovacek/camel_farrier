@@ -12,11 +12,23 @@ This guide covers environment configuration and dependencies, data initializatio
 
 ## Environment Setup
 
-### Clone Repository and Install Dependencies
+### Clone Repository
 
 ```bash
 git clone https://github.com/dankovacek/camel_farrier.git
 cd camel_farrier
+```
+
+### Create and Activate Virtual Environment
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```
+
+### Install Dependencies
+
+```bash
 pip install -r book_docs/requirements.txt
 ```
 
@@ -254,12 +266,12 @@ Plots execute at build time using MyST `bokeh-plot` directives.
 
 Automated checks include:
 
-- **Data Completeness** — Required CSV/JSON files present
-- **CSV Format** — Valid column structure and data types
-- **Discharge Values** — No negative streamflow (≥0)
-- **Timestamps** — Valid ISO 8601 format
-- **Polygon Geometry** — Valid GeoJSON, no self-intersections
-- **Metadata Quality** — Required fields populated
+- **Data Completeness** - Required CSV/JSON files present
+- **CSV Format** - Valid column structure and data types
+- **Discharge Values** - No negative streamflow (≥0)
+- **Timestamps** - Valid ISO 8601 format
+- **Polygon Geometry** - Valid GeoJSON, no self-intersections
+- **Metadata Quality** - Required fields populated
 
 Results stored in `_qc_status.json` per station.
 
@@ -304,14 +316,14 @@ The workflow uses modular, reusable scripts organized into layers:
 
 ### Configuration Layer (`scripts/config/`)
 
-- **`paths.py`** — Centralized path resolution (single source of truth)
+- **`paths.py`** - Centralized path resolution (single source of truth)
 
 ### Utilities Layer (`scripts/utils/`)
 
-- **`bokeh.py`** — Bokeh visualization utilities
-- **`geometry.py`** — Geospatial operations (Jaccard, projections)
-- **`markdown.py`** — Template rendering and table generation
-- **`data_loaders.py`** — Unified data loading with caching
+- **`bokeh.py`** - Bokeh visualization utilities
+- **`geometry.py`** - Geospatial operations (Jaccard, projections)
+- **`markdown.py`** - Template rendering and table generation
+- **`data_loaders.py`** - Unified data loading with caching
 
 ### Generation Layer (`scripts/generation/`)
 
@@ -374,6 +386,6 @@ jupyter book build .
 
 ## Next Steps
 
-- **[Data Specification](data_specification.md)** — Detailed CSV schemas and JSON metadata formats
-- **[Data Sources](DATA_SOURCES.md)** — Dataset provenance and citation information
-- **[CONTRIBUTING](../CONTRIBUTING.md)** — Guidelines for contributing to the project
+- **[Data Specification](data_specification.md)** - Detailed CSV schemas and JSON metadata formats
+- **[Data Sources](DATA_SOURCES.md)** - Dataset provenance and citation information
+- **[CONTRIBUTING](../CONTRIBUTING.md)** - Guidelines for contributing to the project
