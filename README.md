@@ -4,7 +4,7 @@ A demonstration of version control workflows for hydrometric monitoring stations
 
 ## Documentation
 
-See the documentation live at [https://dankovacek.github.io/camel_farrier/](https://dankovacek.github.io/camel_farrier/)
+See the documentation live at [https://dankovacek.github.io/camel_farrier/](https://dankovacek.github.io/camel_farrier/), or build locally following the instructions below.
 
 ## Quick Start
 
