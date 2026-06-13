@@ -13,13 +13,10 @@ Station pages are generated automatically from version-controlled data files and
 :::
 
 :::{div} cf-section
-## Browse Stations
+## Search Hydrometric Stations
 
 Use the navigation menu at left or the search bar below to find station summary pages.
-:::
 
-:::{div} cf-section
-## Search Hydrometric Stations
 
 <div class="search-container">
     <input type="text" id="stationSearch" placeholder="Search by ID or name..." onkeyup="filterStations()">
