@@ -41,7 +41,7 @@ show(generate_dmc_summary_table())
 
 ## Interpretation
 
-The long-term RC displayed here is the **final value** of cumulative runoff / cumulative precipitation across all qualifying hydrological years. This is equivalent to the slope of a straight line from the origin to the last point on the DMC. It is distinct from the OLS slope shown in per-station plots, which minimises residuals across all years. @cite{searcy1960double} used the OLS slope to detect changes in the runoff-precipitation relationship over time, but the overall cumulative RC is a more intuitive summary statistic for cross-station comparison and is more robust to noisy data in individual years.
+The long-term RC displayed here is the **final value** of cumulative runoff / cumulative precipitation across all qualifying hydrological years. This is equivalent to the slope of a straight line from the origin to the last point on the DMC, and distinct from the OLS slope shown in per-station plots, which minimises residuals across all years. @cite{searcy1960double} used the OLS slope to detect changes in the runoff-precipitation relationship over time, but the overall cumulative RC is a more intuitive summary statistic for cross-station comparison and is more robust to noisy data in individual years.
 
 A DMC slope break may indicate:
 - A catchment boundary issue (drainage area)
