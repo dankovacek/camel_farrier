@@ -7,12 +7,6 @@ This page maps all stations for which Daymet precipitation data and gap-filled d
 ## Station map
 
 :::{margin}
-**Colour key:**
-- Red: RC > 1.0 — runoff exceeds precipitation (data error or poor gap-fill)
-- Orange: RC 0.7–1.0 — high but plausible in wet maritime catchments
-- Yellow: RC 0.4–0.7 — typical mid-range
-- Light green: RC 0.2–0.4 — drier catchments
-- Dark green: RC < 0.2 — semi-arid or heavily regulated
 
 Use **lasso-select** on the map or CDF to highlight subsets. Click a point to open the station diagnostic page.
 :::
@@ -67,16 +61,3 @@ Only hydrological years with 12 complete months (missing < 5 days) of both flow 
 
 See [Data Sources](../guides/DATA_SOURCES) for download instructions.
 
-
-## Reproduction
-
-```bash
-# Generate gap-filled flows and double mass CSVs for all demo stations
-uv run python scripts/demo_setup/populate_demo_data.py
-
-# Regenerate station pages (picks up new double mass data)
-uv run python scripts/demo_setup/process_station_pages.py
-
-# Rebuild the book
-cd book_docs && uv run jupyter-book build .
-```

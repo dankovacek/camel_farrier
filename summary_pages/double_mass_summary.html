@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css?v=8cd3d715" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/tufte_table.css?v=0ecb9985" />
@@ -886,7 +886,6 @@
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#per-station-summary">Per-station summary</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interpretation">Interpretation</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-requirements">Data requirements</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reproduction">Reproduction</a></li>
 </ul>
             </nav>
         </div>
@@ -906,17 +905,9 @@
 <h2>Station map<a class="headerlink" href="#station-map" title="Link to this heading">#</a></h2>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
-<p><strong>Colour key:</strong></p>
-<ul class="simple">
-<li><p>Red: RC &gt; 1.0 — runoff exceeds precipitation (data error or poor gap-fill)</p></li>
-<li><p>Orange: RC 0.7–1.0 — high but plausible in wet maritime catchments</p></li>
-<li><p>Yellow: RC 0.4–0.7 — typical mid-range</p></li>
-<li><p>Light green: RC 0.2–0.4 — drier catchments</p></li>
-<li><p>Dark green: RC &lt; 0.2 — semi-arid or heavily regulated</p></li>
-</ul>
 <p>Use <strong>lasso-select</strong> on the map or CDF to highlight subsets. Click a point to open the station diagnostic page.</p>
 </aside>
-<div style="height:860px;"><script src="bokeh-content-aac62f25cc8a4f51b0dc56d79be35117-summary_pages-double_mass_summary.js" id="e6c2c077-8c37-4e7a-9c03-16b7625868ee"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:860px;"><script src="bokeh-content-154d596538b8461eb41c5d0757533f14-summary_pages-double_mass_summary.js" id="fa05f2ae-62c4-4568-ad21-46c9e9bbfed5"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -931,7 +922,7 @@
 <p class="sidebar-title"></p>
 <p>Sort by <strong>RC (final)</strong> to quickly identify outliers. The ⚠ flag marks stations where cumulative runoff exceeds cumulative precipitation over the full record.</p>
 </aside>
-<div style="height:400px;"><script src="bokeh-content-c3b2ca94c67e4b8e83c917b6ae4622c6-summary_pages-double_mass_summary.js" id="c31276e9-2570-41b9-9dfd-a5054031e705"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:400px;"><script src="bokeh-content-8d935000f3a94668992ff1d79be23895-summary_pages-double_mass_summary.js" id="d02a0a8d-d3a7-45c3-9b83-2e4d5baf7589"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -962,19 +953,6 @@
 </ol>
 <p>Only hydrological years with 12 complete months (missing &lt; 5 days) of both flow and precipitation pass the completeness filter and contribute to the curve.</p>
 <p>See <a class="reference internal" href="../guides/DATA_SOURCES.html"><span class="doc std std-doc">Data Sources</span></a> for download instructions.</p>
-</section>
-<section id="reproduction">
-<h2>Reproduction<a class="headerlink" href="#reproduction" title="Link to this heading">#</a></h2>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Generate gap-filled flows and double mass CSVs for all demo stations</span>
-uv<span class="w"> </span>run<span class="w"> </span>python<span class="w"> </span>scripts/demo_setup/populate_demo_data.py
-
-<span class="c1"># Regenerate station pages (picks up new double mass data)</span>
-uv<span class="w"> </span>run<span class="w"> </span>python<span class="w"> </span>scripts/demo_setup/process_station_pages.py
-
-<span class="c1"># Rebuild the book</span>
-<span class="nb">cd</span><span class="w"> </span>book_docs<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>uv<span class="w"> </span>run<span class="w"> </span>jupyter-book<span class="w"> </span>build<span class="w"> </span>.
-</pre></div>
-</div>
 </section>
 </section>
 
@@ -1048,7 +1026,6 @@ uv<span class="w"> </span>run<span class="w"> </span>python<span class="w"> </sp
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#per-station-summary">Per-station summary</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interpretation">Interpretation</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-requirements">Data requirements</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reproduction">Reproduction</a></li>
 </ul>
   </nav></div>
 
