@@ -114,15 +114,7 @@ ghp-import -n -p -f book_docs/_build/html
 
 ### Demo Stations
 
-The repository includes 10 demonstration stations from across Canada:
-
-```
-07AF010, 07DB005, 07EE009, 07FD014, 07GA002
-07JC003, 07QC005, 08GA065, 08LB053, 08LE067
-08NE067, 08NJ134, 08NM133, 08NM134, 09DA001
-09DC004, 09EA005, 09FA001, 09FC001, 10CD003
-10ED009, 10FB005, 10JA004, 10KC001, 10LA002
-```
+The repository includes a number of demonstration stations from across Canada:
 
 Station IDs are defined in `demo_data/DEMO_STATIONS.txt`.
 
@@ -137,6 +129,7 @@ This script:
 2. Queries HYDAT for station metadata
 3. Extracts catchment polygons from WSC basins
 4. Generates JSON metadata files
+5. Retrieves Daymet timeseries meteorology
 
 **Output files per station:**
 
@@ -153,7 +146,9 @@ book_docs/stations/{STATION_ID}/
 ├── {STATION_ID}_daily_flows.csv   # Daily flow timeseries (local only)
 ├── {STATION_ID}_daily_levels.csv  # Daily level timeseries (local only)
 ├── {STATION_ID}_annual_peaks.csv  # Annual peak flows (local only)
+├── {STATION_ID}_daymet.csv         # Daymet meteorology timeseries (local only)
 └── {STATION_ID}_polygon_v*.geojson # Catchment polygons (local only, not in git)
+
 ```
 
 ### Git Tracking Philosophy

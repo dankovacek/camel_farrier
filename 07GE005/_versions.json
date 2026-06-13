@@ -5,7 +5,7 @@
   "versions": [
     {
       "semantic_tag": "v1.0.0",
-      "timestamp": "2026-03-10T22:24:13.081126",
+      "timestamp": "2026-06-12T19:00:48.933826",
       "data_source": "WSC_basins",
       "polygon_file": "07GE005_polygon_v1.0.0.geojson",
       "source_metadata": {
@@ -21,7 +21,7 @@
     },
     {
       "semantic_tag": "v1.1.0",
-      "timestamp": "2026-03-10T22:25:36.044593",
+      "timestamp": "2026-06-12T19:11:55.444539",
       "data_source": "HYDAT_polygons",
       "polygon_file": "07GE005_polygon_v1.1.0.geojson",
       "source_metadata": {
@@ -43,11 +43,11 @@
   "schema_version": "1.0.0",
   "current_version": "v1.1.0",
   "version_count": 2,
-  "first_committed": "2026-03-10T22:24:13.081126",
-  "last_updated": "2026-03-10T22:25:36.044593",
+  "first_committed": "2026-06-12T19:00:48.933826",
+  "last_updated": "2026-06-12T19:11:55.444539",
   "comparisons": {
     "v1.0.0_vs_v1.1.0": {
-      "computed_at": "2026-03-10T22:25:36.044593",
+      "computed_at": "2026-06-12T19:11:55.444539",
       "jaccard_index": 0.9977,
       "old_area_km2": 1599.7311,
       "new_area_km2": 1596.1417,

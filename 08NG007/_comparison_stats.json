@@ -4,7 +4,7 @@
     "v1.0.0_vs_v1.1.0": {
       "from_version": "v1.0.0",
       "to_version": "v1.1.0",
-      "timestamp": "2026-03-10T22:26:09.368943",
+      "timestamp": "2026-06-12T19:12:34.360655",
       "jaccard_index": 0.9973,
       "old_area_km2": 155.4597,
       "new_area_km2": 155.4643,

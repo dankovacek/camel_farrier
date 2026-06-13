@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "description": "Data source attribution for station files (git-controlled metadata)",
   "station_id": "07FB002",
-  "extraction_date": "2026-03-10",
+  "extraction_date": "2026-06-12",
   "data_sources": [
     {
       "data_type": "corrections",
