@@ -899,15 +899,17 @@
                   
   <section class="tex2jax_ignore mathjax_ignore" id="double-mass-curve-overview">
 <h1>Double Mass Curve Overview<a class="headerlink" href="#double-mass-curve-overview" title="Link to this heading">#</a></h1>
-<p>A double mass curve (DMC) plots cumulative precipitation against cumulative runoff for a catchment over time. Under stationary conditions the relationship is linear; a change in slope indicates a shift in the precipitation-runoff ratio.  Changes can result from land-cover change, gauge error, or a flow estimation problem.</p>
-<p>This page maps all stations for which Daymet precipitation data and gap-filled daily flow records are both available. Points are coloured by the long-term runoff coefficient (RC = cumulative runoff / cumulative precipitation over the full record). Stations flagged <strong>RC &gt; 1</strong> are physically implausible and warrant closer inspection.</p>
+<p>The plot below maps all stations for which precipitation data (Daymet) and daily flow records (HYDAT) are both available. Points are coloured by the long-term runoff coefficient (RC = cumulative runoff / cumulative precipitation over the full record).</p>
 <section id="station-map">
 <h2>Station map<a class="headerlink" href="#station-map" title="Link to this heading">#</a></h2>
+<p>The long-term runoff coefficient (RC) is the ratio of cumulative runoff to cumulative
+precipitation across the full record. Except where glacier melt contributes significantly, an RC &gt; 1 is physically implausible by conservation of mass, and it indicates a data issue such as drainage area estimation, systematic bias in
+precipitation and/or flow estimation.</p>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <p>Use <strong>lasso-select</strong> on the map or CDF to highlight subsets. Click a point to open the station diagnostic page.</p>
 </aside>
-<div style="height:860px;"><script src="bokeh-content-154d596538b8461eb41c5d0757533f14-summary_pages-double_mass_summary.js" id="fa05f2ae-62c4-4568-ad21-46c9e9bbfed5"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:860px;"><script src="bokeh-content-e48ff75f3c444efd9a414cb2baf018ac-summary_pages-double_mass_summary.js" id="f362437d-59c6-4782-a65d-42c29c113d6a"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -920,9 +922,9 @@
 <h2>Per-station summary<a class="headerlink" href="#per-station-summary" title="Link to this heading">#</a></h2>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
-<p>Sort by <strong>RC (final)</strong> to quickly identify outliers. The ⚠ flag marks stations where cumulative runoff exceeds cumulative precipitation over the full record.</p>
+<p>Sort by <strong>RC (final)</strong> to quickly identify outliers by clicking on the column header.</p>
 </aside>
-<div style="height:400px;"><script src="bokeh-content-8d935000f3a94668992ff1d79be23895-summary_pages-double_mass_summary.js" id="d02a0a8d-d3a7-45c3-9b83-2e4d5baf7589"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<div style="height:400px;"><script src="bokeh-content-d7584efc4dfa4297af66fcc4e202062d-summary_pages-double_mass_summary.js" id="eea1ba58-0931-41c6-b07a-2700f5210033"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -933,12 +935,14 @@
 </section>
 <section id="interpretation">
 <h2>Interpretation<a class="headerlink" href="#interpretation" title="Link to this heading">#</a></h2>
-<p>The long-term RC displayed here is the <strong>final value</strong> of cumulative runoff / cumulative precipitation across all qualifying hydrological years. This is equivalent to the slope of a straight line from the origin to the last point on the DMC. It is distinct from the OLS slope shown in per-station plots, which minimises residuals across all years.</p>
+<p>The long-term RC displayed here is the <strong>final value</strong> of cumulative runoff / cumulative precipitation across all qualifying hydrological years. This is equivalent to the slope of a straight line from the origin to the last point on the DMC. It is distinct from the OLS slope shown in per-station plots, which minimises residuals across all years. &#64;cite{searcy1960double} used the OLS slope to detect changes in the runoff-precipitation relationship over time, but the overall cumulative RC is a more intuitive summary statistic for cross-station comparison and is more robust to noisy data in individual years.</p>
 <p>A DMC slope break may indicate:</p>
 <ul class="simple">
-<li><p>A catchment boundary revision (polygon change alters effective drainage area)</p></li>
-<li><p>A rating curve update that shifted estimated flows systematically</p></li>
+<li><p>A catchment boundary issue (drainage area)</p></li>
+<li><p>A systematic bias in precipitation estimation (e.g. interpolation issues, station relocations, gauge under-catch)</p></li>
+<li><p>A rating curve issue (systematic bias in daily flow estimation)</p></li>
 <li><p>A land-use change (deforestation, reservoir impoundment, irrigation expansion)</p></li>
+<li><p>A change in storage (e.g. wetland drainage, urbanisation, glacier melt, soil )</p></li>
 <li><p>A gauge datum shift or sensor replacement</p></li>
 </ul>
 <p>An RC &gt; 1 signals a data issue.  Either the drainage area is underestimated, the flow record includes diversions into the basin, the precipitation data is overestimated, or the gap-fill introduced a systematic positive bias.</p>

@@ -1,10 +1,12 @@
 # Double Mass Curve Overview
 
-A double mass curve (DMC) plots cumulative precipitation against cumulative runoff for a catchment over time. Under stationary conditions the relationship is linear; a change in slope indicates a shift in the precipitation-runoff ratio.  Changes can result from land-cover change, gauge error, or a flow estimation problem.
-
-This page maps all stations for which Daymet precipitation data and gap-filled daily flow records are both available. Points are coloured by the long-term runoff coefficient (RC = cumulative runoff / cumulative precipitation over the full record). Stations flagged **RC > 1** are physically implausible and warrant closer inspection.
+The plot below maps all stations for which precipitation data (Daymet) and daily flow records (HYDAT) are both available. Points are coloured by the long-term runoff coefficient (RC = cumulative runoff / cumulative precipitation over the full record).
 
 ## Station map
+
+The long-term runoff coefficient (RC) is the ratio of cumulative runoff to cumulative
+precipitation across the full record. Except where glacier melt contributes significantly, an RC > 1 is physically implausible by conservation of mass, and it indicates a data issue such as drainage area estimation, systematic bias in
+precipitation and/or flow estimation.
 
 :::{margin}
 
@@ -24,7 +26,7 @@ show(plot_dmc_overview_map())
 ## Per-station summary
 
 :::{margin}
-Sort by **RC (final)** to quickly identify outliers. The ⚠ flag marks stations where cumulative runoff exceeds cumulative precipitation over the full record.
+Sort by **RC (final)** to quickly identify outliers by clicking on the column header.
 :::
 
 :::{bokeh-plot}
@@ -39,12 +41,14 @@ show(generate_dmc_summary_table())
 
 ## Interpretation
 
-The long-term RC displayed here is the **final value** of cumulative runoff / cumulative precipitation across all qualifying hydrological years. This is equivalent to the slope of a straight line from the origin to the last point on the DMC. It is distinct from the OLS slope shown in per-station plots, which minimises residuals across all years.
+The long-term RC displayed here is the **final value** of cumulative runoff / cumulative precipitation across all qualifying hydrological years. This is equivalent to the slope of a straight line from the origin to the last point on the DMC. It is distinct from the OLS slope shown in per-station plots, which minimises residuals across all years. @cite{searcy1960double} used the OLS slope to detect changes in the runoff-precipitation relationship over time, but the overall cumulative RC is a more intuitive summary statistic for cross-station comparison and is more robust to noisy data in individual years.
 
 A DMC slope break may indicate:
-- A catchment boundary revision (polygon change alters effective drainage area)
-- A rating curve update that shifted estimated flows systematically
+- A catchment boundary issue (drainage area)
+- A systematic bias in precipitation estimation (e.g. interpolation issues, station relocations, gauge under-catch)
+- A rating curve issue (systematic bias in daily flow estimation)
 - A land-use change (deforestation, reservoir impoundment, irrigation expansion)
+- A change in storage (e.g. wetland drainage, urbanisation, glacier melt, soil )
 - A gauge datum shift or sensor replacement
 
 An RC > 1 signals a data issue.  Either the drainage area is underestimated, the flow record includes diversions into the basin, the precipitation data is overestimated, or the gap-fill introduced a systematic positive bias.
