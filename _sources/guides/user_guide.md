@@ -355,7 +355,7 @@ python scripts/demo_setup/populate_demo_data.py
 
 ### CRS/Projection Warnings
 
-Non-fatal warnings indicate potential data updates needed. Safe to ignore for most operations.
+Non-fatal warnings indicate potential data updates are needed.  See the `DATA_SOURCES.md` guide for instructions on updating geospatial datasets and regenerating station data.
 
 ## Full Rebuild Workflow
 
