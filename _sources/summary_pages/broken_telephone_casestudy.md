@@ -149,7 +149,7 @@ This repository maintains `compare_caravan_polygons.py` in the `scripts/generati
 
 ### 1. Polygon comparison (quick)
 
-Compare Caravan polygons with current WSC 2024 polygons:
+Compare Caravan polygons with latest polygons (WSC 2024):
 
 **Quick test (sub-sample of catchments):**
 ```bash
