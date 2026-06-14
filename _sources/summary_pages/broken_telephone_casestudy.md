@@ -129,7 +129,7 @@ For all polygons in common between Caravan and the current WSC set, we reprocess
 :::{margin}
 The set of stations represented in the plot are those whose polygons changed by at least  $\pm$10% area or had a Jaccard similarity index below 0.9 indicating significant geometric divergence that could impact derived descriptors.
 :::
-a
+
 :::{bokeh-plot}
 import sys
 from pathlib import Path
