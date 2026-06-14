@@ -127,7 +127,7 @@ show(show_with_notes(result))
 For all polygons in common between Caravan and the current WSC set, we reprocessed catchment descriptors using the more recent WSC polygons using the Caravan workflow computed through Google Earth Engine. See the [Caravan github repository](https://github.com/kratzert/Caravan) for details.
 
 :::{margin}
-The set of stations represented in the plot are those whose polygons changed by at least  $\pm$10% area or had a Jaccard similarity index below 0.9 indicating significant geometric divergence that could impact derived descriptors.
+The set of stations represented in the plot are those whose polygons changed by at least  $\pm$10% area or had a Jaccard similarity index below 0.9 indicating geometric disagreement that could impact derived descriptors.
 :::
 
 :::{bokeh-plot}
