@@ -485,6 +485,9 @@ def generate_station_page(
     annual_peaks_available = (stn_dir / f"{station_id}_annual_instant_peaks.csv").exists()
     field_visits_available = (stn_dir / f"{station_id}_field_visits.csv").exists()
 
+    # Check if double mass curve data is available for plotting
+    double_mass_curves_available = (stn_dir / f"{station_id}_double_mass.csv").exists()
+
     context = {
         "official_id": metadata.get("station_id", station_id),
         "stn": {"STATION_NAME": metadata.get("station_name", "Unknown")},
@@ -497,7 +500,8 @@ def generate_station_page(
         "daily_flows_available": daily_flows_available,
         "daily_levels_available": daily_levels_available,
         "annual_peaks_available": annual_peaks_available,
-        "field_visits_available": field_visits_available
+        "field_visits_available": field_visits_available,
+        "double_mass_curves_available": double_mass_curves_available,
     }
 
     output_path = output_dir / f"{station_id}.md"

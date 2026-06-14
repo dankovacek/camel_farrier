@@ -301,7 +301,7 @@ def reshape_hydat_wide(input_df, table):
     return formatted_df
 
 
-def query_hydat_database(stn, conn, output_path, table="DLY_FLOWS"):
+def query_hydat_database(stn, conn, output_path=None, table="DLY_FLOWS"):
     """Query the HYDAT database for a given station and date range."""
     station_in_hydat = check_if_station_in_hydat(stn, conn)
     if station_in_hydat is False:
@@ -335,9 +335,10 @@ def query_hydat_database(stn, conn, output_path, table="DLY_FLOWS"):
         return pd.DataFrame()
 
     df = reshape_hydat_wide(df, table)
-    df.to_csv(output_path, index=False)
-    if os.path.exists(output_path):
-        print(f"  ✓ Wrote {len(df)} rows to {output_path}")
+    if output_path is not None:
+        df.to_csv(output_path, index=False)
+        if os.path.exists(output_path):
+            print(f"  ✓ Wrote {len(df)} rows to {output_path}")
     return df
 
 

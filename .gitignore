@@ -25,6 +25,8 @@ book_docs/catchments/
 .vscode/
 bfg.jar
 allfiles.txt
+.github
+
 
 # Station geospatial data (large files, managed locally)
 # Metadata IS tracked, but polygon files are NOT

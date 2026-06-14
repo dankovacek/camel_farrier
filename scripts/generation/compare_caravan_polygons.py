@@ -6,8 +6,7 @@ Generates comparison metrics and saves to book_docs/data/polygon_comparisons/
 for visualization in documentation.
 
 Usage:
-    source /home/danbot/code/data_analysis/bin/activate
-    python scripts/generation/compare_caravan_polygons.py
+    uv run python scripts/generation/compare_caravan_polygons.py
 """
 
 import sys
@@ -25,18 +24,18 @@ sys.path.insert(0, str(PROJECT_ROOT))
 # Import existing comparison function and CRS helper - REUSE!
 from scripts.demo_setup.integrate_hydat_polygons import compare_polygons, get_laea_crs
 from scripts.generation.revision_plots import summarize_caravan_comparison, categorize_jsi, jsi_colors
+from scripts.config.paths import (
+    HYDAT_POLYGONS_DIR,
+    CARAVAN_POLYGONS_DIR,
+    CARAVAN_ATTRIBUTES_DIR,
+    CARAVAN_COMPARISON_OUTPUT_DIR,
+)
 
 # Import plotting dependencies
 from bokeh.plotting import figure
 from bokeh.models import GeoJSONDataSource, HoverTool, Div, ColumnDataSource, Label, CDSView, GroupFilter
 from bokeh.layouts import column
 import xyzservices.providers as xyz
-
-# Data paths
-CARAVAN_POLYGONS = Path("/home/danbot/code/common_data/Caravan/hysets_shapefiles/hysets_basin_shapes.shp")
-CARAVAN_ATTRIBUTES_DIR = Path("/home/danbot/code/common_data/Caravan/attributes/hysets")
-WSC_POLYGONS_BASE = Path("/home/danbot/code/common_data/HYDAT/polygons/")
-OUTPUT_DIR = PROJECT_ROOT / "book_docs/data/polygon_comparisons/caravan_vs_wsc2024"
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -55,8 +54,11 @@ def load_caravan_polygons(filter_ids: Optional[Set[str]] = None) -> gpd.GeoDataF
     Returns:
         GeoDataFrame with station_id and geometry columns
     """
-    logger.info(f"Loading Caravan polygons from {CARAVAN_POLYGONS}")
-    gdf = gpd.read_file(CARAVAN_POLYGONS)
+    logger.info(f"Loading Caravan polygons from {CARAVAN_POLYGONS_DIR}")
+    if not CARAVAN_POLYGONS_DIR.exists():
+        logger.warning(f"Caravan polygons file not found: {CARAVAN_POLYGONS_DIR}")
+        return gpd.GeoDataFrame(columns=['station_id', 'geometry'])
+    gdf = gpd.read_file(CARAVAN_POLYGONS_DIR)
     gdf.set_crs(epsg=4326, inplace=True)  # Ensure consistent CRS
     gdf['source'] = gdf['gauge_id'].apply(lambda x: x.split('_')[0])  # Extract source from gauge_id
     # filter to only HYSETS sources (if needed)
@@ -87,7 +89,7 @@ def load_wsc_current_polygons(filter_ids: Optional[Set[str]] = None,
     Returns:
         GeoDataFrame with station_id and geometry columns
     """
-    logger.info(f"Loading WSC polygons from {WSC_POLYGONS_BASE}")
+    logger.info(f"Loading WSC polygons from {HYDAT_POLYGONS_DIR}")
     if test_region:
         logger.info(f"  TEST MODE: Loading only {test_region} region")
     if filter_ids:
@@ -95,7 +97,7 @@ def load_wsc_current_polygons(filter_ids: Optional[Set[str]] = None,
 
     all_polygons = []
 
-    for mda_dir in sorted(WSC_POLYGONS_BASE.glob("MDA_ADP_*")):
+    for mda_dir in sorted(HYDAT_POLYGONS_DIR.glob("MDA_ADP_*")):
         if not mda_dir.is_dir():
             continue
 
@@ -477,16 +479,19 @@ def run_diagnostics(df: pd.DataFrame) -> bool:
     return checks_passed
 
 
-def load_caravan_attributes() -> pd.DataFrame:
+def load_caravan_attributes() -> Optional[pd.DataFrame]:
     """Load original Caravan attributes for HYSETS stations.
 
     Returns:
-        DataFrame with gauge_id and all attributes
+        DataFrame with gauge_id and all attributes, or None if files are missing.
     """
-    # Load all three attribute files
-    caravan_attrs = pd.read_csv(CARAVAN_ATTRIBUTES_DIR / "attributes_caravan_hysets.csv")
-    hydroatlas_attrs = pd.read_csv(CARAVAN_ATTRIBUTES_DIR / "attributes_hydroatlas_hysets.csv")
-    other_attrs = pd.read_csv(CARAVAN_ATTRIBUTES_DIR / "attributes_other_hysets.csv")
+    try:
+        caravan_attrs = pd.read_csv(CARAVAN_ATTRIBUTES_DIR / "attributes_caravan_hysets.csv")
+        hydroatlas_attrs = pd.read_csv(CARAVAN_ATTRIBUTES_DIR / "attributes_hydroatlas_hysets.csv")
+        other_attrs = pd.read_csv(CARAVAN_ATTRIBUTES_DIR / "attributes_other_hysets.csv")
+    except FileNotFoundError as e:
+        logger.warning(f"Caravan attribute files not found: {e}")
+        return None
 
     # Merge on gauge_id
     df = caravan_attrs.merge(hydroatlas_attrs, on='gauge_id', how='outer')
@@ -521,7 +526,7 @@ def _load_comparison_metrics_and_filter():
         Tuple of (comparison_df, filter_gauge_ids, n_significant, n_jsi, n_area, error_dict)
         error_dict is None on success, or contains error info on failure
     """
-    comparison_file = OUTPUT_DIR / "comparison_metrics.csv"
+    comparison_file = CARAVAN_COMPARISON_OUTPUT_DIR / "comparison_metrics.csv"
 
     if not comparison_file.exists():
         error = {
@@ -656,6 +661,12 @@ def plot_caravan_descriptor_regressions(width: int = 900):
 
     # Load original Caravan attributes
     caravan_df = load_caravan_attributes()
+    if caravan_df is None:
+        return {
+            'status': 'warning',
+            'message': 'Caravan attribute files not found.',
+            'context': f'Expected in {CARAVAN_ATTRIBUTES_DIR}. See Data Sources guide for download instructions.'
+        }
     reprocessed_df = load_reprocessed_attributes()
 
     if reprocessed_df is not None:
@@ -809,7 +820,7 @@ def main():
 
     # Save
     logger.info("\n4. Saving outputs...")
-    output_dir = OUTPUT_DIR if not test_mode else OUTPUT_DIR.parent / "caravan_vs_wsc2024_TEST"
+    output_dir = CARAVAN_COMPARISON_OUTPUT_DIR if not test_mode else CARAVAN_COMPARISON_OUTPUT_DIR.parent / "caravan_vs_wsc2024_TEST"
     save_comparison_metrics(comparison_df, output_dir)
 
     # Generate summary metrics CSV for documentation

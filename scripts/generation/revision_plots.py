@@ -184,9 +184,16 @@ def _fetch_station_coordinates(station_ids: List[str]) -> pd.DataFrame:
 
 
 def _station_page_url(station_id: str) -> str:
-    """Return relative station page link when HTML exists, else empty string."""
-    html_path = STATION_PAGES_DIR / f"{station_id}.html"
-    if html_path.exists():
+    """Return relative station page link.
+
+    Checks the built HTML in _build/html first; falls back to checking the
+    source .md file.  Returns empty string only if neither exists.
+    """
+    built_html = BASE_DIR / "book_docs" / "_build" / "html" / "station_pages" / "stations" / f"{station_id}.html"
+    if built_html.exists():
+        return f"../station_pages/stations/{station_id}.html"
+    source_md = STATION_PAGES_DIR / f"{station_id}.md"
+    if source_md.exists():
         return f"../station_pages/stations/{station_id}.html"
     return ""
 
@@ -266,8 +273,7 @@ def _build_caravan_map(df: pd.DataFrame, source: ColumnDataSource):
 
     tap = TapTool()
     p.add_tools(tap)
-    taptool = p.select(type=TapTool)
-    taptool.callback = OpenURL(url='@map_url')
+    p.select(type=TapTool).callback = OpenURL(url='@map_url')
 
     p.legend.location = "top_right"
     p.legend.title = "Area Change"
@@ -517,7 +523,8 @@ def plot_revision_map(data: pd.DataFrame = None):
     )
     p.add_tile("CartoDB Positron", retina=True)
 
-    df['url'] = df['station_id'].apply(lambda sid: f"../station_pages/stations/{sid}.html")
+    df['url'] = df['station_id'].apply(_station_page_url)
+    df['map_url'] = df['url'].apply(lambda v: v if v else '#')
 
     # Create per-category renderers for interactive legend
     legend_items = []
@@ -555,8 +562,7 @@ def plot_revision_map(data: pd.DataFrame = None):
     # Add tap tool for clickable links to station pages
     tap = TapTool()
     p.add_tools(tap)
-    taptool = p.select(type=TapTool)
-    taptool.callback = OpenURL(url="@url")
+    p.select(type=TapTool).callback = OpenURL(url='@map_url')
 
     # Configure legend
     p.legend.location = "top_right"
@@ -888,9 +894,6 @@ def collect_backlog_data():
         if df.empty:
             return None
 
-        # Get set of processed stations (those with station pages)
-        processed_stations = {d.name for d in STATIONS_DIR.iterdir() if d.is_dir() and len(d.name) == 7}
-
         # Add derived columns
         gdf = gpd.GeoDataFrame(
             df,
@@ -903,10 +906,8 @@ def collect_backlog_data():
         df['y'] = gdf.geometry.y
         df['category'] = df['backlog_days'].apply(categorize_backlog_duration)
         df['color'] = df['category'].map(backlog_colors)
-        # Set URL to '#' for stations without processed pages, normal link for processed stations
-        df['url'] = df['station_id'].apply(
-            lambda sid: f"station_pages/stations/{sid}.html" if sid in processed_stations else "#"
-        )
+        df['url'] = df['station_id'].apply(_station_page_url)
+        df['map_url'] = df['url'].apply(lambda v: v if v else '#')
         df['backlog_display'] = df['backlog_days'].apply(
             lambda d: f"{d} days ({d/365.25:.1f} years)" if d >= 365 else f"{d} days"
         )
@@ -990,8 +991,7 @@ def plot_backlog_map(df, shared_source=None):
     # Add tap tool for clickable links
     tap = TapTool()
     p.add_tools(tap)
-    taptool = p.select(type=TapTool)
-    taptool.callback = OpenURL(url="@url")
+    p.select(type=TapTool).callback = OpenURL(url='@map_url')
 
     return p
 
@@ -1107,4 +1107,251 @@ def plot_network_backlog():
     # Return linked plots
     return column(map_plot, cdf_plot)
 
+
+def load_dmc_summary() -> pd.DataFrame:
+    """Aggregate per-station double mass curve summary metrics.
+
+    Scans all stations under STATIONS_DIR for *_double_mass.csv files and
+    returns one row per station with the final cumulative runoff coefficient
+    and record span.  Coordinates are merged from HYDAT.
+
+    Returns:
+        DataFrame with columns:
+            station_id, latitude, longitude, x, y,
+            rc_final, rc_flag, record_start, record_end, n_years,
+            color, url, map_url
+    """
+    from bokeh.models import Div
+
+    rows = []
+    for dmc_path in sorted(STATIONS_DIR.glob("*/*_double_mass.csv")):
+        station_id = dmc_path.stem.replace("_double_mass", "")
+        try:
+            df = pd.read_csv(dmc_path, parse_dates=["date"])
+            if df.empty or "cumulative_precip_mm" not in df.columns:
+                continue
+            df = df.sort_values("date").dropna(subset=["cumulative_precip_mm", "cumulative_flow_mm"])
+            if df.empty:
+                continue
+            rc_final = float(df["runoff_coefficient"].iloc[-1]) if "runoff_coefficient" in df.columns else float("nan")
+            rows.append({
+                "station_id": station_id,
+                "rc_final": rc_final,
+                "record_start": df["date"].dt.year.min(),
+                "record_end": df["date"].dt.year.max(),
+                "n_years": int(df["hyd_year"].nunique()) if "hyd_year" in df.columns else None,
+            })
+        except Exception:
+            continue
+
+    if not rows:
+        return pd.DataFrame()
+
+    df = pd.DataFrame(rows)
+
+    # Fetch coordinates from HYDAT
+    coords = _fetch_station_coordinates(df["station_id"].tolist())
+    if not coords.empty:
+        df = df.merge(coords, on="station_id", how="left")
+    else:
+        df["latitude"] = float("nan")
+        df["longitude"] = float("nan")
+
+    df = df.dropna(subset=["latitude", "longitude"]).copy()
+    if df.empty:
+        return df
+
+    # Project to Web Mercator
+    gdf = gpd.GeoDataFrame(
+        df, geometry=gpd.points_from_xy(df["longitude"], df["latitude"]), crs="EPSG:4326"
+    )
+    gdf = gdf.to_crs(epsg=3857)
+    df["x"] = gdf.geometry.x
+    df["y"] = gdf.geometry.y
+
+    # Colour by RC category
+    def _rc_color(rc):
+        if pd.isna(rc):
+            return "#888888"
+        if rc > 1.0:
+            return "#dc2626"   # red  — RC > 1 (physically implausible)
+        if rc > 0.7:
+            return "#f97316"   # orange  — high RC
+        if rc > 0.4:
+            return "#fbbf24"   # yellow  — moderate
+        if rc > 0.2:
+            return "#a3e635"   # light green
+        return "#018a33"       # dark green — low RC
+
+    def _rc_label(rc):
+        if pd.isna(rc):
+            return "No data"
+        if rc > 1.0:
+            return "RC > 1.0 (implausible)"
+        if rc > 0.7:
+            return "RC 0.7–1.0"
+        if rc > 0.4:
+            return "RC 0.4–0.7"
+        if rc > 0.2:
+            return "RC 0.2–0.4"
+        return "RC < 0.2"
+
+    df["color"] = df["rc_final"].apply(_rc_color)
+    df["rc_flag"] = df["rc_final"].apply(_rc_label)
+    df["url"] = df["station_id"].apply(_station_page_url)
+    df["map_url"] = df["url"].apply(lambda v: v if v else "#")
+    df["rc_final_str"] = df["rc_final"].apply(lambda v: f"{v:.3f}" if not pd.isna(v) else "—")
+
+    return df
+
+
+def plot_dmc_overview_map():
+    """Interactive map of stations with double mass curves, coloured by runoff coefficient.
+
+    Stations with RC > 1.0 (physically implausible annual water balance) are
+    highlighted in red.  Click a point to navigate to its station page.
+
+    Returns:
+        Bokeh column layout (map + summary table), or Div if no data found.
+    """
+    from bokeh.models import Div, DataTable, TableColumn, InlineStyleSheet
+
+    df = load_dmc_summary()
+    if df.empty:
+        return Div(text="<p><em>No double mass curve data found. Run "
+                        "<code>populate_demo_data.py</code> first.</em></p>")
+
+    df_sorted = df.sort_values("rc_final").reset_index(drop=True)
+    df_sorted["cdf_y"] = (np.arange(len(df_sorted)) + 1) / len(df_sorted)
+
+    source = ColumnDataSource(df_sorted)
+
+    # --- Map ---
+    rc_bins = [
+        ("RC < 0.2",               "#018a33"),
+        ("RC 0.2–0.4",             "#a3e635"),
+        ("RC 0.4–0.7",             "#fbbf24"),
+        ("RC 0.7–1.0",             "#f97316"),
+        ("RC > 1.0 (implausible)", "#dc2626"),
+        ("No data",                "#888888"),
+    ]
+
+    map_plot = figure(
+        title="Stations with double mass curves (coloured by long-term runoff coefficient)",
+        x_axis_type="mercator",
+        y_axis_type="mercator",
+        width=800,
+        height=580,
+        tools="pan,wheel_zoom,lasso_select,box_select,reset,save",
+        toolbar_location="above",
+        match_aspect=True,
+    )
+    map_plot.add_tile("CartoDB Positron", retina=True)
+
+    renderers = []
+    for label, color in rc_bins:
+        mask = df_sorted["rc_flag"] == label
+        if not mask.any():
+            continue
+        view = CDSView(filter=GroupFilter(column_name="rc_flag", group=label))
+        r = map_plot.scatter(
+            "x", "y",
+            source=source,
+            view=view,
+            size=10,
+            color=color,
+            line_color="black",
+            line_width=0.8,
+            alpha=0.85,
+            selection_color=color,
+            nonselection_alpha=0.2,
+            legend_label=label,
+        )
+        renderers.append(r)
+
+    hover = HoverTool(
+        renderers=renderers,
+        tooltips=[
+            ("Station",       "@station_id"),
+            ("RC (final)",    "@rc_final_str"),
+            ("Record",        "@record_start – @record_end"),
+            ("Hydro years",   "@n_years"),
+            ("",              "Click to view station page"),
+        ],
+    )
+    map_plot.add_tools(hover)
+    tap = TapTool()
+    map_plot.add_tools(tap)
+    map_plot.select(type=TapTool).callback = OpenURL(url='@map_url')
+
+    map_plot.legend.location = "top_right"
+    map_plot.legend.title = "Runoff coefficient"
+    map_plot.legend.title_text_font_style = "bold"
+    map_plot.legend.click_policy = "hide"
+
+    # --- CDF of RC ---
+    cdf_plot = figure(
+        title="Cumulative distribution of long-term runoff coefficients",
+        x_axis_label="Long-term runoff coefficient (RC)",
+        y_axis_label="Cumulative probability",
+        width=860,
+        height=280,
+        tools="pan,box_select,lasso_select,wheel_zoom,reset,save",
+        toolbar_location="right",
+    )
+    cdf_plot.line("rc_final", "cdf_y", source=source, line_width=2, color="gray", alpha=0.6)
+    cdf_scatter = cdf_plot.scatter(
+        "rc_final", "cdf_y", source=source, size=7, color="color", alpha=0.85
+    )
+    # RC = 1 reference
+    cdf_plot.line([1, 1], [0, 1], line_dash="dashed", color="firebrick",
+                  line_width=1.5, legend_label="RC = 1")
+    cdf_plot.legend.location = "top_left"
+    cdf_plot.y_range.start = -0.01
+    cdf_plot.y_range.end = 1.01
+
+    cdf_plot.add_tools(HoverTool(renderers=[cdf_scatter], tooltips=[
+        ("Station",    "@station_id"),
+        ("RC (final)", "@rc_final_str"),
+    ]))
+
+    return column(map_plot, cdf_plot)
+
+
+def generate_dmc_summary_table():
+    """Bokeh DataTable of per-station double mass curve summary metrics.
+
+    Returns:
+        Bokeh DataTable or Div fallback.
+    """
+    from bokeh.models import Div, DataTable, TableColumn, InlineStyleSheet
+
+    df = load_dmc_summary()
+    if df.empty:
+        return Div(text="<p><em>No double mass curve data found.</em></p>")
+
+    display = df[["station_id", "rc_final", "record_start", "record_end", "n_years"]].copy()
+    display = display.sort_values("rc_final")
+    source = ColumnDataSource(display)
+
+    columns = [
+        TableColumn(field="station_id", title="Station",    width=120),
+        TableColumn(field="rc_final",   title="RC (final)", width=100,
+                    formatter=NumberFormatter(format="0.00")),
+        TableColumn(field="record_start", title="Start year",    width=90),
+        TableColumn(field="record_end",   title="End year",      width=90),
+        TableColumn(field="n_years",      title="Hydro years",   width=100),
+    ]
+
+    tufte_css = TUFTE_TABLE_CSS
+    table = DataTable(
+        source=source,
+        columns=columns,
+        width=640,
+        height=400,
+        sortable=True,
+        index_position=None,
+        stylesheets=[InlineStyleSheet(css=tufte_css)],
+    )
+    return table
 

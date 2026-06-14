@@ -31,6 +31,18 @@ SYMBOL_COLOURS = {
 }
 
 
+def _map_quality_symbols(dates: pd.Series, flow_df: pd.DataFrame) -> pd.Series:
+    """Map HYDAT quality symbols onto a series of field-visit dates.
+
+    Returns a NaN series when the column is absent (e.g. gap-filled demo data).
+    """
+    if not flow_df.empty and "quality_symbol" in flow_df.columns:
+        flow_df = flow_df.copy()
+        flow_df.index = pd.to_datetime(flow_df.index).normalize()
+        return dates.map(flow_df["quality_symbol"])
+    return pd.Series(np.nan, index=dates.index)
+
+
 def find_symbol_segments(symbol_df, target_symbol, label="symbol"):
     """Return (start, end) date pairs for each continuous period of target_symbol."""
     # Filter for matching symbol only
@@ -340,6 +352,7 @@ def plot_station_timeseries(official_id):
         x_axis_type="datetime",
         width=1000,
         height=350,
+        # y_axis_type='log',
         toolbar_location="above",
         tools="pan,wheel_zoom,box_zoom,lasso_select,box_select,reset,save",
     )
@@ -393,12 +406,7 @@ def plot_station_timeseries(official_id):
         # Ensure both are datetime (normalized to date only)
         q_df[rc_labels_dict["date"]] = pd.to_datetime(q_df[rc_labels_dict["date"]]).dt.normalize()
 
-        if not flow_df.empty:
-            flow_df.index = pd.to_datetime(flow_df.index).normalize()
-            q_df["quality_symbol"] = q_df[rc_labels_dict["date"]].map(flow_df["quality_symbol"])
-        else:
-            q_df["quality_symbol"] = np.nan
-
+        q_df["quality_symbol"] = _map_quality_symbols(q_df[rc_labels_dict["date"]], flow_df)
         q_df["quality_label"] = q_df["quality_symbol"].map(symbol_dict)
 
         # Format date and time strings
@@ -428,9 +436,9 @@ def plot_station_timeseries(official_id):
             rc_plot = plot_rc_points(rc_labels_dict, q_source)
             rc_table = create_rc_table(rc_labels_dict, q_source)
 
-    # Set axis labels
+    # Set axis labels — index [0] to avoid overwriting the secondary water level axis
     ts_plot.xaxis.axis_label = "Date"
-    ts_plot.yaxis.axis_label = "Flow (m³/s)"
+    ts_plot.yaxis[0].axis_label = "Flow (m³/s)"
 
     # Configure legend if it exists (only created when glyphs have legend_label)
     if ts_plot.legend:
@@ -476,12 +484,11 @@ def generate_field_visits_table(official_id: str):
     station_dir = get_station_dir(official_id)
     daily_flow_fpath = station_dir / f"{official_id}_daily_flows.csv"
 
-    if daily_flow_fpath.exists():
-        flow_df = pd.read_csv(daily_flow_fpath, parse_dates=["date"], index_col="date")
-        flow_df.index = pd.to_datetime(flow_df.index).normalize()
-        q_df["quality_symbol"] = q_df[rc_labels_dict["date"]].map(flow_df["quality_symbol"])
-    else:
-        q_df["quality_symbol"] = np.nan
+    flow_df = (
+        pd.read_csv(daily_flow_fpath, parse_dates=["date"], index_col="date")
+        if daily_flow_fpath.exists() else pd.DataFrame()
+    )
+    q_df["quality_symbol"] = _map_quality_symbols(q_df[rc_labels_dict["date"]], flow_df)
 
     q_df["quality_label"] = q_df["quality_symbol"].map(symbol_dict)
 
@@ -518,3 +525,96 @@ def generate_field_visits_table(official_id: str):
     )
 
     return data_table
+
+
+def plot_double_mass_curve(official_id: str):
+    """Plot the daily double mass curve (cumulative precip vs. cumulative flow).
+
+    Reads {official_id}_double_mass.csv produced by calculate_double_mass_curve().
+    Points coloured by infill_flag: observed = steel blue, infilled = orange.
+    Includes a 1:1 reference line and an OLS slope line.
+
+    Returns a Bokeh figure, or a Div placeholder if no data file exists.
+    """
+    station_dir = get_station_dir(official_id)
+    dmc_path = station_dir / f"{official_id}_double_mass.csv"
+
+    if not dmc_path.exists():
+        return Div(text="<p><em>Double mass curve data not available for this station.</em></p>")
+
+    df = pd.read_csv(dmc_path, parse_dates=["date"])
+    if df.empty or "cumulative_precip_mm" not in df.columns:
+        return Div(text="<p><em>Double mass curve data is empty or malformed.</em></p>")
+
+    df = df.sort_values("date").dropna(subset=["cumulative_precip_mm", "cumulative_flow_mm"])
+
+    x_max    = float(df["cumulative_precip_mm"].max())
+    y_max    = float(df["cumulative_flow_mm"].max())
+    rc_final = float(df["runoff_coefficient"].iloc[-1]) if "runoff_coefficient" in df.columns else np.nan
+
+    p = figure(
+        title=f"{official_id} \u2014 Double Mass Curve  (RC\u00a0=\u00a0{rc_final:.3f})",
+        x_axis_label="Cumulative precipitation (mm)",
+        y_axis_label="Cumulative runoff (mm)",
+        width=700, height=480,
+        tools="pan,wheel_zoom,box_zoom,reset,save",
+    )
+
+    infill_flag = (
+        df["infill_flag"]
+        if "infill_flag" in df.columns
+        else pd.Series("observed", index=df.index)
+    )
+    for mask, color, legend_label in [
+        (infill_flag == "observed", "steelblue",  "Observed"),
+        (infill_flag != "observed", "darkorange", "Infilled"),
+    ]:
+        seg = df[mask]
+        if seg.empty:
+            continue
+        src = ColumnDataSource({
+            "x":    seg["cumulative_precip_mm"].tolist(),
+            "y":    seg["cumulative_flow_mm"].tolist(),
+            "date": seg["date"].dt.strftime("%Y-%m-%d").tolist(),
+            "rc":   (
+                seg["runoff_coefficient"].tolist()
+                if "runoff_coefficient" in seg.columns
+                else [np.nan] * len(seg)
+            ),
+        })
+        p.scatter("x", "y", source=src, size=3, color=color, alpha=0.6,
+                  legend_label=legend_label)
+
+    # Overall line connecting all retained days
+    p.line(
+        df["cumulative_precip_mm"].tolist(),
+        df["cumulative_flow_mm"].tolist(),
+        line_width=1.5, color="steelblue", alpha=0.7,
+    )
+
+    # OLS best-fit line
+    xv = df["cumulative_precip_mm"].values
+    yv = df["cumulative_flow_mm"].values
+    slope, intercept = np.polyfit(xv, yv, 1)
+    p.line(
+        [float(xv[0]), float(xv[-1])],
+        [float(slope * xv[0] + intercept), float(slope * xv[-1] + intercept)],
+        line_width=1.5, color="firebrick", line_dash="dashed",
+        legend_label=f"OLS slope\u00a0=\u00a0{slope:.3f}",
+    )
+
+    # 1:1 reference line
+    ref_max = max(x_max, y_max)
+    p.line([0, ref_max], [0, ref_max],
+           line_dash="dotted", color="black", line_width=1.0, legend_label="1:1")
+
+    p.add_tools(HoverTool(tooltips=[
+        ("Date",         "@date"),
+        ("Cum. P (mm)",  "@x{0,0}"),
+        ("Cum. Q (mm)",  "@y{0,0}"),
+        ("RC",           "@rc{0.3f}"),
+    ]))
+    p.legend.location = "top_left"
+    p.legend.click_policy = "hide"
+
+    return p

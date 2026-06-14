@@ -25,8 +25,11 @@ python scripts/demo_setup/unpack_wateroffice_data.py \
 python scripts/demo_setup/populate_demo_data.py
 
 # Generate station diagnostic pages and build the book
-python scripts/generation/page_generator.py --all
-cd book_docs/ && jupyter-book build .
+uv run python scripts/demo_setup/process_station_pages.py
+cd book_docs/ && uv run jupyter-book build .  # requires jupyter-book v1 (v2 uses an incompatible CLI)
+
+# push changes to github pages
+ghp-import -n -p -f book_docs/_build/html
 ```
 
 ## Repository Structure
@@ -65,6 +68,7 @@ Configure via `COMMON_DATA_DIR` (default: `~/data/hydrometric/`):
 | HYDAT SQLite | Discharge/level timeseries and station metadata |
 | WSC basin polygons | Catchment boundary delineations |
 | HYDAT drainage basins | Polygon version comparison (optional) |
+| Daymet catchment-average NetCDF | Precipitation input for double mass curves — one `.nc` per station under `COMMON_DATA_DIR/BC_Monitored_catchment_mean_met_forcings_20260203/catchment_daily/` |
 
 See [Data Sources](book_docs/guides/DATA_SOURCES.md) for download links.
 

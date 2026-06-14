@@ -26,11 +26,26 @@ QUALITY_CODES_FILE = BOOK_DOCS_DIR / "station_pages" / "HYDAT_quality_codes.csv"
 # WSC catchment polygons
 WSC_BASINS_DIR = COMMON_DATA_DIR / "WSC_basin_polygons"
 
+# Catchment attributes file
+CATCHMENT_ATTRIBUTES_FILE = DATA_DIR / "Watershed_descriptors_20260203_with_stats.csv"
+# CATCHMENT_ATTRIBUTES_FILE = DATA_DIR / "HYSETS_watershed_properties.txt"
+
 # HYDAT catchment polygons (new source)
 HYDAT_POLYGONS_DIR = COMMON_DATA_DIR / "HYDAT" / "polygons"
 
+# Caravan / HYSETS data (external drive; override with CARAVAN_DIR env var)
+CARAVAN_DIR = Path(os.getenv('CARAVAN_DIR', '/media/danbot/Samsung_T5/geospatial_data/Caravan'))
+CARAVAN_POLYGONS_DIR = CARAVAN_DIR / "shapefiles" / "hysets"
+CARAVAN_ATTRIBUTES_DIR = CARAVAN_DIR / "attributes" / "hysets"
+
+# Caravan comparison output
+CARAVAN_COMPARISON_OUTPUT_DIR = BOOK_DOCS_DIR / "data" / "polygon_comparisons" / "caravan_vs_wsc2024"
+
 # WaterOffice data export
 WATEROFFICE_DIR = COMMON_DATA_DIR / "WaterOffice_RC_Export_20260203"
+
+# Daymet meteorology data
+DAYMET_DIR = COMMON_DATA_DIR / "BC_Monitored_catchment_mean_met_forcings_20260203"
 
 # Conditional assertions - only if running as main script
 if __name__ != '__main__':

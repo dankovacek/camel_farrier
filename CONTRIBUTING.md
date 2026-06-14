@@ -204,28 +204,31 @@ Found a problem? Please open an issue using the appropriate template:
 
 ### Local Development
 
-1. **Create a virtual environment:**
+1. **Install dependencies** (uses [uv](https://docs.astral.sh/uv/)):
    ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   uv sync
    ```
 
-2. **Install dependencies:**
+2. **Run tests:**
    ```bash
-   pip install -r book_docs/requirements.txt
+   uv run pytest -q
    ```
 
-3. **Run tests:**
+3. **Build documentation locally:**
    ```bash
-   pytest -q
-   ```
-
-4. **Build documentation locally:**
-   ```bash
+   uv run python scripts/demo_setup/process_station_pages.py
    cd book_docs/
-   jupyter-book build .
+   uv run jupyter-book build .  # requires jupyter-book v1 (v2 uses an incompatible CLI and config format)
    open _build/html/index.html
    ```
+
+   The **Double Mass Curve Overview** page requires per-station Daymet NetCDF files
+   (`{station_id}_catchment_daily.nc`) under
+   `COMMON_DATA_DIR/BC_Monitored_catchment_mean_met_forcings_20260203/catchment_daily/`.
+   Without these files `populate_demo_data.py` skips the DMC step and the page renders
+   placeholder text — all other pages build normally.
+
+   The files can be accessed at https://doi.org/10.5683/SP3/65FXAS
 
 ### Code Style
 
