@@ -34,6 +34,7 @@ from bokeh.models import (
     InlineStyleSheet
 )
 from bokeh.palettes import RdYlGn11
+import xyzservices.providers as xyz
 
 # Project paths
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
@@ -237,7 +238,7 @@ def _build_caravan_map(df: pd.DataFrame, source: ColumnDataSource):
         toolbar_location="above",
         match_aspect=True, # keep aspect ratio
     )
-    p.add_tile("CartoDB Positron", retina=True)
+    p.add_tile(xyz.Esri.WorldTopoMap, retina=True)
 
     renderers = []
     for cat in ['0-2%', '2-5%', '5-10%', '10-20%', '20%+']:
@@ -521,7 +522,7 @@ def plot_revision_map(data: pd.DataFrame = None):
         toolbar_location="above",
         match_aspect=True, # keep aspect ratio
     )
-    p.add_tile("CartoDB Positron", retina=True)
+    p.add_tile(xyz.Esri.WorldTopoMap, retina=True)
 
     df['url'] = df['station_id'].apply(_station_page_url)
     df['map_url'] = df['url'].apply(lambda v: v if v else '#')
@@ -944,7 +945,7 @@ def plot_backlog_map(df, shared_source=None):
         toolbar_location="above",
         match_aspect=True
     )
-    p.add_tile("CartoDB Positron", retina=True)
+    p.add_tile(xyz.Esri.WorldTopoMap, retina=True)
 
     # Plot each category separately for legend toggle using CDSView
     all_renderers = []
@@ -1246,7 +1247,7 @@ def plot_dmc_overview_map():
         toolbar_location="above",
         match_aspect=True,
     )
-    map_plot.add_tile("CartoDB Positron", retina=True)
+    map_plot.add_tile(xyz.Esri.WorldTopoMap, retina=True)
 
     renderers = []
     for label, color in rc_bins:
@@ -1354,4 +1355,3 @@ def generate_dmc_summary_table():
         stylesheets=[InlineStyleSheet(css=tufte_css)],
     )
     return table
-

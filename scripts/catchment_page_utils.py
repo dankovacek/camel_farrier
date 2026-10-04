@@ -27,7 +27,7 @@ logger = logging.getLogger(__name__)
 import xyzservices.providers as xyz
 from scripts.demo_setup.integrate_hydat_polygons import get_laea_crs
 
-tiles = xyz.OpenStreetMap.Mapnik
+tiles = xyz.Esri.WorldTopoMap
 
 
 def add_pour_point_and_station_markers(p, station_dir: Path, station_id: str):
@@ -497,7 +497,7 @@ def round_coordinates(gdf: gpd.GeoDataFrame, precision_m: float = 1.0) -> gpd.Ge
     return gdf
 
 
-def plot_station_polygon(station_id: str, width: int = 800):
+def plot_station_polygon(station_id: str, width: int = 800, font='Helvetica') -> dict:
     """
     Plot station catchment polygon on basemap for Jupyter Book bokeh-plot directive.
     When multiple versions exist, shows comparison with latest as ground truth:
@@ -661,6 +661,8 @@ def plot_station_polygon(station_id: str, width: int = 800):
     )
 
     p.add_tile(tiles)
+    p.title.text_font_size = "20pt"
+    p.title.text_font = font
 
     area_string = "@area_km2{0.000} km²"
 
@@ -912,5 +914,3 @@ def plot_distributions(station_id: str):
         'figure': plots_grid,
         'notes': notes
     }
-
-

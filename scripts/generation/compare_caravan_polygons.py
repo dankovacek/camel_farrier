@@ -218,7 +218,8 @@ def round_coordinates(gdf: gpd.GeoDataFrame, precision_m: float = 1.0) -> gpd.Ge
     return gdf
 
 
-def plot_caravan_wsc_comparison(station_id: str, width: int = 800, print_metrics: bool = False):
+def plot_caravan_wsc_comparison(station_id: str, width: int = 800, print_metrics: bool = False,
+                                x_label: bool = True, y_label: bool = True, font='Helvetica') -> dict:
     """Plot Caravan vs WSC 2024 polygon comparison for a single station.
 
     Creates an overlay visualization showing:
@@ -325,7 +326,7 @@ def plot_caravan_wsc_comparison(station_id: str, width: int = 800, print_metrics
     ).total_bounds
 
     # Create figure
-    tiles = xyz.OpenStreetMap.Mapnik
+    tiles = xyz.Esri.WorldTopoMap
     height = int(width * 0.625)  # Maintain aspect ratio
 
     p = figure(
@@ -401,6 +402,13 @@ def plot_caravan_wsc_comparison(station_id: str, width: int = 800, print_metrics
 
     p.legend.location = "top_right"
     p.legend.click_policy = "hide"
+    p.title.text_font_size = "20pt"
+    p.title.text_font = font
+    if not x_label:
+        p.xaxis.axis_label = None
+    if not y_label:
+        p.yaxis.axis_label = None
+
 
     # Return success with figure and notes
     notes = [
@@ -493,9 +501,9 @@ def load_caravan_attributes() -> Optional[pd.DataFrame]:
         logger.warning(f"Caravan attribute files not found: {e}")
         return None
 
-    # Merge on gauge_id
+    # Merge on gauge_id; copy to defragment before adding columns
     df = caravan_attrs.merge(hydroatlas_attrs, on='gauge_id', how='outer')
-    df = df.merge(other_attrs, on='gauge_id', how='outer')
+    df = df.merge(other_attrs, on='gauge_id', how='outer').copy()
 
     # Extract station_id from gauge_id (format: hysets_01010000 -> 01010000)
     df['station_id'] = df['gauge_id'].str.replace('hysets_', '')
@@ -574,13 +582,13 @@ def _create_descriptor_regression_plot(descriptor: str, plot_data: pd.DataFrame,
     r_squared = correlation ** 2
 
     # Create plot
+    descriptor_label = descriptor_labels.get(descriptor, descriptor)
     p = figure(
-        # title=descriptor_labels.get(descriptor, descriptor),
-        title="",
+        title=descriptor_label,
         x_axis_label=f"Caravan (2021 polygons)",
         y_axis_label=f"WSC 2024 polygons",
         width=width // 2 - 20,
-        height=width // 2 - 20,
+        height=width // 2 - 50,
         tools="pan,wheel_zoom,box_zoom,reset,save"
     )
 
@@ -618,7 +626,7 @@ def _create_descriptor_regression_plot(descriptor: str, plot_data: pd.DataFrame,
     # Add RMSE and R² text
     stats_text = f"RMSE: {rmse:.2f}\nR²: {r_squared:.3f}"
     label_annotation = Label(
-        x=5, y=250, x_units='screen', y_units='screen',
+        x=10, y=250, x_units='screen', y_units='screen',
         text=stats_text,
         text_font_size='14pt',
         text_color='#333333',
@@ -838,4 +846,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
