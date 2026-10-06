@@ -1,0 +1,20 @@
+{
+  "station_number": "08EE005",
+  "station_name": "BULKLEY RIVER NEAR SMITHERS",
+  "latitude": 54.769718170166016,
+  "longitude": -127.13333129882812,
+  "revised_days": 86,
+  "removed_days": 0,
+  "eligible_days": 6717,
+  "changed_percent": 1.2803334822093195,
+  "first_affected_date": "2023-01-01",
+  "last_affected_date": "2023-03-31",
+  "span_days": 90,
+  "longest_revised_run": 47,
+  "median_abs_delta_cms": 1.3000011444091797,
+  "max_abs_delta_cms": 7.20000076293945,
+  "median_abs_delta_percent": 5.098036223766851,
+  "percent_change_days": 86,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

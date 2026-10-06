@@ -1,0 +1,20 @@
+{
+  "station_number": "02OE032",
+  "station_name": "SAUMON (RIVIERE AU) A 1,9 KM EN AMONT DE LA MOFFAT",
+  "latitude": 45.58055877685547,
+  "longitude": -71.38667297363281,
+  "revised_days": 1,
+  "removed_days": 0,
+  "eligible_days": 17723,
+  "changed_percent": 0.005642385600631948,
+  "first_affected_date": "2023-09-30",
+  "last_affected_date": "2023-09-30",
+  "span_days": 1,
+  "longest_revised_run": 1,
+  "median_abs_delta_cms": 0.23000001907348633,
+  "max_abs_delta_cms": 0.23000001907348633,
+  "median_abs_delta_percent": 4.618474260895226,
+  "percent_change_days": 1,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

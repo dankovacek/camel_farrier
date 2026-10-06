@@ -1,0 +1,20 @@
+{
+  "station_number": "02LC070",
+  "station_name": "DECHARGE DU LAC LUDGER (RUISSEAU) EN AVAL DU BARRAGE LUDGER",
+  "latitude": 46.11806106567383,
+  "longitude": -74.2763900756836,
+  "revised_days": 667,
+  "removed_days": 0,
+  "eligible_days": 10583,
+  "changed_percent": 6.3025607105735615,
+  "first_affected_date": "2019-12-21",
+  "last_affected_date": "2023-09-30",
+  "span_days": 1380,
+  "longest_revised_run": 267,
+  "median_abs_delta_cms": 0.019999980926513672,
+  "max_abs_delta_cms": 0.36000001430511475,
+  "median_abs_delta_percent": 3.821663668084903,
+  "percent_change_days": 667,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

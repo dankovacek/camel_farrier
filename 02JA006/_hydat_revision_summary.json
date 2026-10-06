@@ -1,0 +1,20 @@
+{
+  "station_number": "02JA006",
+  "station_name": "CAPITACHOUANE (RIVIERE) DANS LA ZEC CAPITACHOUANE",
+  "latitude": 47.72880172729492,
+  "longitude": -76.714599609375,
+  "revised_days": 1033,
+  "removed_days": 0,
+  "eligible_days": 2710,
+  "changed_percent": 38.11808118081181,
+  "first_affected_date": "2012-03-18",
+  "last_affected_date": "2018-09-28",
+  "span_days": 2386,
+  "longest_revised_run": 113,
+  "median_abs_delta_cms": 0.3000001907348633,
+  "max_abs_delta_cms": 1.0999984741210938,
+  "median_abs_delta_percent": 1.3888942238726925,
+  "percent_change_days": 1033,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

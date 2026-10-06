@@ -1,0 +1,12 @@
+{
+  "station_id": "02OH013",
+  "station_name": "AUX BROCHETS (RIVIERE) A NOTRE-DAME-DE-STANBRIDGE",
+  "latitude": 45.15869903564453,
+  "longitude": -73.05069732666016,
+  "drainage_area_gross_km2": 579.7000122070312,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:36.621209"
+}

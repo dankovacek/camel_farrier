@@ -1,0 +1,12 @@
+{
+  "station_id": "02OE027",
+  "station_name": "EATON (RIVIERE) PRES DE LA RIVIERE SAINT-FRANCOIS-3",
+  "latitude": 45.46722030639648,
+  "longitude": -71.65528106689453,
+  "drainage_area_gross_km2": 641.7000122070312,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:35.312794"
+}

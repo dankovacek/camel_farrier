@@ -1,0 +1,20 @@
+{
+  "station_number": "02PJ030",
+  "station_name": "FAMINE (RIVIERE) A SAINT-GEORGES",
+  "latitude": 46.16416931152344,
+  "longitude": -70.63971710205078,
+  "revised_days": 270,
+  "removed_days": 0,
+  "eligible_days": 21173,
+  "changed_percent": 1.275208992584896,
+  "first_affected_date": "2020-09-30",
+  "last_affected_date": "2021-09-30",
+  "span_days": 366,
+  "longest_revised_run": 188,
+  "median_abs_delta_cms": 0.23999977111816406,
+  "max_abs_delta_cms": 1.0,
+  "median_abs_delta_percent": 4.2818947279497195,
+  "percent_change_days": 270,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

@@ -1,0 +1,20 @@
+{
+  "station_number": "02OE062",
+  "station_name": "SAINT-FRANCOIS (RIVIERE) A 0,5 KM EN AVAL DE LA CENTRALE WEEDON",
+  "latitude": 45.65861129760742,
+  "longitude": -71.46861267089844,
+  "revised_days": 2058,
+  "removed_days": 0,
+  "eligible_days": 15887,
+  "changed_percent": 12.953987536979922,
+  "first_affected_date": "2012-01-01",
+  "last_affected_date": "2023-09-30",
+  "span_days": 4291,
+  "longest_revised_run": 134,
+  "median_abs_delta_cms": 0.5,
+  "max_abs_delta_cms": 1.6000022888183594,
+  "median_abs_delta_percent": 1.9607840081781471,
+  "percent_change_days": 2058,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

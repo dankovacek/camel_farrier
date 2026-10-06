@@ -618,3 +618,25 @@ code {
 .cf-link:hover {
   text-decoration: underline;
 }
+
+/* Mermaid diagrams: site typography, no code-block chrome */
+pre.mermaid {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  font-family: 'Source Sans 3', system-ui, sans-serif;
+}
+
+pre.mermaid svg,
+pre.mermaid svg .label,
+pre.mermaid svg .nodeLabel,
+pre.mermaid svg .edgeLabel,
+pre.mermaid svg .cluster-label {
+  font-family: 'Computer Modern Serif', 'CMU Serif', 'Latin Modern Roman', serif !important;
+}
+
+/* Lower-case roman numeral lists: wrap a numbered list in :::{div} roman-list */
+.roman-list ol {
+  list-style-type: lower-roman;
+}

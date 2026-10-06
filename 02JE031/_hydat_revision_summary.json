@@ -1,0 +1,20 @@
+{
+  "station_number": "02JE031",
+  "station_name": "GORDON (RUISSEAU) A LA DECHARGE DU LAC TEE A KIPAWA",
+  "latitude": 46.766998291015625,
+  "longitude": -79.02790069580078,
+  "revised_days": 4280,
+  "removed_days": 0,
+  "eligible_days": 4291,
+  "changed_percent": 99.7436494989513,
+  "first_affected_date": "2012-01-01",
+  "last_affected_date": "2023-09-30",
+  "span_days": 4291,
+  "longest_revised_run": 2255,
+  "median_abs_delta_cms": 0.5,
+  "max_abs_delta_cms": 0.6000003814697283,
+  "median_abs_delta_percent": 3.968253848113594,
+  "percent_change_days": 4280,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

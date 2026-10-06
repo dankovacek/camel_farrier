@@ -1,0 +1,20 @@
+{
+  "station_number": "02JB009",
+  "station_name": "OUTAOUAIS (RIVIERE DES) A LA SORTIE DU LAC GRANET",
+  "latitude": 47.84249877929688,
+  "longitude": -77.54888916015625,
+  "revised_days": 293,
+  "removed_days": 0,
+  "eligible_days": 16442,
+  "changed_percent": 1.7820216518671694,
+  "first_affected_date": "2022-10-16",
+  "last_affected_date": "2023-09-26",
+  "span_days": 346,
+  "longest_revised_run": 185,
+  "median_abs_delta_cms": 1.0,
+  "max_abs_delta_cms": 4.0,
+  "median_abs_delta_percent": 0.7194244604316546,
+  "percent_change_days": 293,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

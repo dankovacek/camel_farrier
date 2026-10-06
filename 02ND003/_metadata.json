@@ -1,0 +1,12 @@
+{
+  "station_id": "02ND003",
+  "station_name": "VERMILLON (RIVIERE) EN AVAL DE LA RIVIERE DES PRAIRIES",
+  "latitude": 47.6763916015625,
+  "longitude": -73.04277801513672,
+  "drainage_area_gross_km2": 2666.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:34.354401"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "02RF009",
+  "station_name": "SAUMONS (RIVIERE AUX) PRES DE L'EMBOUCHURE",
+  "latitude": 48.68360900878906,
+  "longitude": -72.5138931274414,
+  "drainage_area_gross_km2": 587.7000122070312,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:40.144722"
+}

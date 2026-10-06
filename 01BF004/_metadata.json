@@ -1,0 +1,12 @@
+{
+  "station_id": "01BF004",
+  "station_name": "NOUVELLE (RIVIERE) A 0,2 KM EN AMONT DU PONT-ROUTE 132 A NOUVELLE",
+  "latitude": 48.15879821777344,
+  "longitude": -66.34880065917969,
+  "drainage_area_gross_km2": 1138.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:32.560388"
+}

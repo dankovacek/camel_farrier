@@ -1,0 +1,20 @@
+{
+  "station_number": "02PL016",
+  "station_name": "BECANCOUR (RIVIERE) A 6 KM  EN AVAL DU PONT DE L'AUTOROUTE 20",
+  "latitude": 46.19900131225586,
+  "longitude": -72.09819793701172,
+  "revised_days": 17,
+  "removed_days": 0,
+  "eligible_days": 5960,
+  "changed_percent": 0.28523489932885904,
+  "first_affected_date": "2023-09-12",
+  "last_affected_date": "2023-09-30",
+  "span_days": 19,
+  "longest_revised_run": 10,
+  "median_abs_delta_cms": 0.20000076293945312,
+  "max_abs_delta_cms": 0.3000030517578125,
+  "median_abs_delta_percent": 0.4819295492516943,
+  "percent_change_days": 17,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

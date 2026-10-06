@@ -1,0 +1,20 @@
+{
+  "station_number": "02RF001",
+  "station_name": "ASHUAPMUSHUAN (RIVIERE) A LA TETE DE LA CHUTE AUX SAUMONS",
+  "latitude": 48.6863899230957,
+  "longitude": -72.4880599975586,
+  "revised_days": 1633,
+  "removed_days": 0,
+  "eligible_days": 24306,
+  "changed_percent": 6.718505718752572,
+  "first_affected_date": "2015-05-17",
+  "last_affected_date": "2023-09-30",
+  "span_days": 3059,
+  "longest_revised_run": 195,
+  "median_abs_delta_cms": 7.0,
+  "max_abs_delta_cms": 10.0,
+  "median_abs_delta_percent": 2.5787965616045847,
+  "percent_change_days": 1633,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

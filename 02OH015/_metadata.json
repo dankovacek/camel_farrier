@@ -1,0 +1,12 @@
+{
+  "station_id": "02OH015",
+  "station_name": "EWING (RIVIERE) A SAINT-PIERRE-DE-VERONNE-A PIKE-RIVER",
+  "latitude": 45.125301361083984,
+  "longitude": -73.07730102539062,
+  "drainage_area_gross_km2": 26.950000762939453,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:36.709713"
+}

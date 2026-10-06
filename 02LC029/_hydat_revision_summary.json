@@ -1,0 +1,20 @@
+{
+  "station_number": "02LC029",
+  "station_name": "ROUGE (RIVIERE) EN AMONT DE LA CHUTE MCNEIL",
+  "latitude": 45.73638916015625,
+  "longitude": -74.6897201538086,
+  "revised_days": 3,
+  "removed_days": 0,
+  "eligible_days": 21351,
+  "changed_percent": 0.01405086412814388,
+  "first_affected_date": "2012-08-03",
+  "last_affected_date": "2014-11-22",
+  "span_days": 842,
+  "longest_revised_run": 1,
+  "median_abs_delta_cms": 4.0,
+  "max_abs_delta_cms": 8.0,
+  "median_abs_delta_percent": 1.7964025350603785,
+  "percent_change_days": 3,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

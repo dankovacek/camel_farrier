@@ -1,0 +1,20 @@
+{
+  "station_number": "05OF014",
+  "station_name": "SHANNON CREEK NEAR MORRIS",
+  "latitude": 49.35483932495117,
+  "longitude": -97.42247009277344,
+  "revised_days": 2,
+  "removed_days": 0,
+  "eligible_days": 15347,
+  "changed_percent": 0.013031862904802242,
+  "first_affected_date": "2021-03-20",
+  "last_affected_date": "2021-03-21",
+  "span_days": 2,
+  "longest_revised_run": 2,
+  "median_abs_delta_cms": 0.07100000232458119,
+  "max_abs_delta_cms": 0.13799999654293063,
+  "median_abs_delta_percent": 29.00867505933368,
+  "percent_change_days": 2,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

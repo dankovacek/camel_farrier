@@ -1,0 +1,20 @@
+{
+  "station_number": "02OE027",
+  "station_name": "EATON (RIVIERE) PRES DE LA RIVIERE SAINT-FRANCOIS-3",
+  "latitude": 45.46722030639648,
+  "longitude": -71.65528106689453,
+  "revised_days": 2482,
+  "removed_days": 0,
+  "eligible_days": 25664,
+  "changed_percent": 9.671134663341645,
+  "first_affected_date": "2012-01-01",
+  "last_affected_date": "2023-09-30",
+  "span_days": 4291,
+  "longest_revised_run": 77,
+  "median_abs_delta_cms": 0.11999988555908203,
+  "max_abs_delta_cms": 1.7000007629394567,
+  "median_abs_delta_percent": 1.9999980926513672,
+  "percent_change_days": 2482,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

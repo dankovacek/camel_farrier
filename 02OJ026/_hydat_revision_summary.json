@@ -1,0 +1,20 @@
+{
+  "station_number": "02OJ026",
+  "station_name": "L'ACADIE (RIVIERE) PRES DE L'AUTOROUTE NO. 10",
+  "latitude": 45.38972091674805,
+  "longitude": -73.3708267211914,
+  "revised_days": 1511,
+  "removed_days": 0,
+  "eligible_days": 15715,
+  "changed_percent": 9.615017499204582,
+  "first_affected_date": "2018-03-13",
+  "last_affected_date": "2023-09-30",
+  "span_days": 2028,
+  "longest_revised_run": 239,
+  "median_abs_delta_cms": 0.10000038146972656,
+  "max_abs_delta_cms": 1.362999975681305,
+  "median_abs_delta_percent": 6.666674117247418,
+  "percent_change_days": 1511,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

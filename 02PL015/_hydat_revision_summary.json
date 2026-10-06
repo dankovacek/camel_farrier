@@ -1,0 +1,20 @@
+{
+  "station_number": "02PL015",
+  "station_name": "BOURBON (RIVIERE) SUR LE 11IE RANG A PLESSISVILLE",
+  "latitude": 46.18399810791016,
+  "longitude": -71.75420379638672,
+  "revised_days": 2372,
+  "removed_days": 0,
+  "eligible_days": 4676,
+  "changed_percent": 50.727117194183066,
+  "first_affected_date": "2013-11-22",
+  "last_affected_date": "2023-09-30",
+  "span_days": 3600,
+  "longest_revised_run": 108,
+  "median_abs_delta_cms": 0.01199999451637268,
+  "max_abs_delta_cms": 3.700000762939453,
+  "median_abs_delta_percent": 3.3333384107659514,
+  "percent_change_days": 2372,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

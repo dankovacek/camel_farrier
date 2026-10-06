@@ -1,0 +1,20 @@
+{
+  "station_number": "02RH072",
+  "station_name": "SABLES (RIVIERE AUX) A SAGUENAY",
+  "latitude": 48.37189865112305,
+  "longitude": -71.2844009399414,
+  "revised_days": 543,
+  "removed_days": 0,
+  "eligible_days": 5472,
+  "changed_percent": 9.923245614035087,
+  "first_affected_date": "2017-11-09",
+  "last_affected_date": "2023-09-30",
+  "span_days": 2152,
+  "longest_revised_run": 115,
+  "median_abs_delta_cms": 0.6000003814697266,
+  "max_abs_delta_cms": 1.0,
+  "median_abs_delta_percent": 2.7173913606849394,
+  "percent_change_days": 543,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

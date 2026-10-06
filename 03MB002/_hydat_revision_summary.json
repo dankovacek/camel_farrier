@@ -1,0 +1,20 @@
+{
+  "station_number": "03MB002",
+  "station_name": "BALEINE (RIVIERE A LA) A 40,2 KM DE L'EMBOUCHURE",
+  "latitude": 57.883331298828125,
+  "longitude": -67.58332824707031,
+  "revised_days": 956,
+  "removed_days": 0,
+  "eligible_days": 17149,
+  "changed_percent": 5.574669076914105,
+  "first_affected_date": "2012-06-06",
+  "last_affected_date": "2023-09-30",
+  "span_days": 4134,
+  "longest_revised_run": 118,
+  "median_abs_delta_cms": 1.0,
+  "max_abs_delta_cms": 14.0,
+  "median_abs_delta_percent": 0.1953125,
+  "percent_change_days": 956,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

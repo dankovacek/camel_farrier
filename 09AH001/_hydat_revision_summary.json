@@ -1,0 +1,20 @@
+{
+  "station_number": "09AH001",
+  "station_name": "YUKON RIVER AT CARMACKS",
+  "latitude": 62.09444046020508,
+  "longitude": -136.272216796875,
+  "revised_days": 42,
+  "removed_days": 0,
+  "eligible_days": 16437,
+  "changed_percent": 0.25552108048914035,
+  "first_affected_date": "2023-11-20",
+  "last_affected_date": "2023-12-31",
+  "span_days": 42,
+  "longest_revised_run": 42,
+  "median_abs_delta_cms": 85.0,
+  "max_abs_delta_cms": 142.0,
+  "median_abs_delta_percent": 17.58712597650401,
+  "percent_change_days": 42,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

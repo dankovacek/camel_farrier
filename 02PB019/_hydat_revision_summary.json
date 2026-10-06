@@ -1,0 +1,20 @@
+{
+  "station_number": "02PB019",
+  "station_name": "SAINTE-ANNE (RIVIERE) A 1,3 KM EN AVAL DU BARRAGE A CHUTE-PANET",
+  "latitude": 46.85277938842773,
+  "longitude": -71.87750244140625,
+  "revised_days": 14,
+  "removed_days": 0,
+  "eligible_days": 21164,
+  "changed_percent": 0.06615006615006615,
+  "first_affected_date": "2023-09-13",
+  "last_affected_date": "2023-09-30",
+  "span_days": 18,
+  "longest_revised_run": 6,
+  "median_abs_delta_cms": 0.09999942779541016,
+  "max_abs_delta_cms": 0.10000228881835938,
+  "median_abs_delta_percent": 0.3879031304939796,
+  "percent_change_days": 14,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

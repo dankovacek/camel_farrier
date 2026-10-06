@@ -1,0 +1,20 @@
+{
+  "station_number": "02OH013",
+  "station_name": "AUX BROCHETS (RIVIERE) A NOTRE-DAME-DE-STANBRIDGE",
+  "latitude": 45.15869903564453,
+  "longitude": -73.05069732666016,
+  "revised_days": 2308,
+  "removed_days": 0,
+  "eligible_days": 4085,
+  "changed_percent": 56.49938800489596,
+  "first_affected_date": "2012-07-24",
+  "last_affected_date": "2023-09-28",
+  "span_days": 4084,
+  "longest_revised_run": 55,
+  "median_abs_delta_cms": 0.017000004649162292,
+  "max_abs_delta_cms": 1.0,
+  "median_abs_delta_percent": 0.6322439348806348,
+  "percent_change_days": 2308,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

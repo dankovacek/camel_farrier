@@ -1,0 +1,12 @@
+{
+  "station_id": "08JA013",
+  "station_name": "SKINS LAKE SPILLWAY, NECHAKO RESERVOIR",
+  "latitude": 53.77082824707031,
+  "longitude": -125.9705581665039,
+  "drainage_area_gross_km2": 14000.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "BC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:42.858754"
+}

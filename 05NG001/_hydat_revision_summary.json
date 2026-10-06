@@ -1,0 +1,20 @@
+{
+  "station_number": "05NG001",
+  "station_name": "SOURIS RIVER AT WAWANESA",
+  "latitude": 49.59693908691406,
+  "longitude": -99.67864227294922,
+  "revised_days": 65,
+  "removed_days": 0,
+  "eligible_days": 36811,
+  "changed_percent": 0.17657765341881504,
+  "first_affected_date": "2023-10-28",
+  "last_affected_date": "2023-12-31",
+  "span_days": 65,
+  "longest_revised_run": 65,
+  "median_abs_delta_cms": 2.2890000343322754,
+  "max_abs_delta_cms": 2.871999889612198,
+  "median_abs_delta_percent": 66.45569892442289,
+  "percent_change_days": 65,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

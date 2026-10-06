@@ -1,0 +1,20 @@
+{
+  "station_number": "02RH071",
+  "station_name": "PIKAUBA (RIVIERE) A 3,6 KM DE L'EMBOUCHURE",
+  "latitude": 48.30590057373047,
+  "longitude": -71.44059753417969,
+  "revised_days": 2193,
+  "removed_days": 0,
+  "eligible_days": 6330,
+  "changed_percent": 34.644549763033176,
+  "first_affected_date": "2012-04-18",
+  "last_affected_date": "2023-09-30",
+  "span_days": 4183,
+  "longest_revised_run": 109,
+  "median_abs_delta_cms": 0.8000030517578196,
+  "max_abs_delta_cms": 2.9000005722045916,
+  "median_abs_delta_percent": 1.3986013986013985,
+  "percent_change_days": 2193,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

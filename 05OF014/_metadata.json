@@ -1,0 +1,12 @@
+{
+  "station_id": "05OF014",
+  "station_name": "SHANNON CREEK NEAR MORRIS",
+  "latitude": 49.35483932495117,
+  "longitude": -97.42247009277344,
+  "drainage_area_gross_km2": 687.9000244140625,
+  "drainage_area_effect_km2": 687.7999877929688,
+  "province_territory": "MB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:42.725126"
+}

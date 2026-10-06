@@ -34,11 +34,11 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css?v=8cd3d715" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="_static/tufte_table.css?v=0ecb9985" />
-    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=082d7782" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=378f5bc4" />
   
   <!-- So that users can add custom icons -->
   <script src="_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
@@ -64,11 +64,448 @@
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+    <script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.12.1/dist/mermaid.esm.min.mjs";
+
+
+
+
+
+const initStyles = () => {
+    const defaultStyle = document.createElement('style');
+    defaultStyle.textContent = `pre.mermaid {
+    /* Same as .mermaid-container > pre */
+    display: block;
+    width: 100%;
+}
+
+pre.mermaid > svg {
+    /* Same as .mermaid-container > pre > svg */
+    height: auto;
+    width: 100%;
+    max-width: 100% !important;
+}`;
+    document.head.appendChild(defaultStyle);
+
+    const fullscreenStyle = document.createElement('style');
+    fullscreenStyle.textContent = `.mermaid-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.mermaid-container > pre {
+    display: block;
+    width: 100%;
+}
+
+.mermaid-container > pre > svg {
+    height: auto;
+    width: 100%;
+    max-width: 100% !important;
+}
+
+.mermaid-fullscreen-btn {
+    width: 28px;
+    height: 28px;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    line-height: 1;
+    padding: 0;
+    color: #333;
+}
+
+.mermaid-fullscreen-btn:hover {
+    opacity: 100% !important;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+.mermaid-fullscreen-btn.dark-theme {
+    background: rgba(50, 50, 50, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #e0e0e0;
+}
+
+.mermaid-fullscreen-btn.dark-theme:hover {
+    background: rgba(60, 60, 60, 1);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.2);
+}
+
+.mermaid-fullscreen-modal {
+    display: none;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 95vw;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.98);
+    z-index: 9999;
+    padding: 20px;
+    overflow: auto;
+}
+
+.mermaid-fullscreen-modal.dark-theme {
+    background: rgba(0, 0, 0, 0.98);
+}
+
+.mermaid-fullscreen-modal.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mermaid-container-fullscreen {
+    position: relative;
+    width: 95vw;
+    height: 90vh;
+    max-width: 95vw;
+    max-height: 90vh;
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mermaid-container-fullscreen.dark-theme {
+    background: #1a1a1a;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+}
+
+.mermaid-container-fullscreen pre.mermaid {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mermaid-container-fullscreen .mermaid svg {
+    height: 100% !important;
+    width: 100% !important;
+    cursor: grab;
+}
+
+.mermaid-fullscreen-close {
+    position: fixed !important;
+    top: 20px !important;
+    right: 20px !important;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s;
+    font-size: 24px;
+    line-height: 1;
+    color: #333;
+}
+
+.mermaid-fullscreen-close:hover {
+    background: white;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    transform: scale(1.1);
+}
+
+.mermaid-fullscreen-close.dark-theme {
+    background: rgba(50, 50, 50, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #e0e0e0;
+}
+
+.mermaid-fullscreen-close.dark-theme:hover {
+    background: rgba(60, 60, 60, 1);
+    box-shadow: 0 6px 16px rgba(255, 255, 255, 0.2);
+}
+
+.mermaid-fullscreen-modal .mermaid-fullscreen-btn {
+    display: none !important;
+}`;
+    document.head.appendChild(fullscreenStyle);
+}
+
+// Detect if page has dark background
+const isDarkTheme = () => {
+    // We use a set of heuristics:
+    // 1. Check for common dark mode classes or attributes
+    // 2. Check computed background color brightness
+    if (document.documentElement.classList.contains('dark') ||
+        document.documentElement.getAttribute('data-theme') === 'dark' ||
+        document.body.classList.contains('dark') ||
+        document.body.getAttribute('data-theme') === 'dark') {
+        // console.log("Dark theme detected via class/attribute");
+        return true;
+    }
+    if (document.documentElement.classList.contains('light') ||
+        document.documentElement.getAttribute('data-theme') === 'light' ||
+        document.body.classList.contains('light') ||
+        document.body.getAttribute('data-theme') === 'light') {
+        // console.log("Light theme detected via class/attribute");
+        return false;
+    }
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        // console.log("Dark theme detected via prefers-color-scheme");
+        return true;
+    }
+    const bgColor = window.getComputedStyle(document.body).backgroundColor;
+    const match = bgColor.match(/rgb\((\d+),\s*(\d+),\s*(\d+)/);
+    if (match) {
+        const r = parseInt(match[1]);
+        const g = parseInt(match[2]);
+        const b = parseInt(match[3]);
+        const brightness = (r * 299 + g * 587 + b * 114) / 1000;
+        // console.log("Background color brightness:", brightness);
+        return brightness < 128;
+    }
+    // console.log("No dark or light theme detected, defaulting to light theme");
+    return false;
+};
+
+let darkTheme = isDarkTheme();
+let modal = null;
+let modalContent = null;
+let previousScrollOffset = [window.scrollX, window.scrollY];
+
+const runMermaid = async (rerun) => {
+    console.log("Running mermaid diagrams, rerun =", rerun);
+    // clear all existing mermaid charts
+    let all_mermaids = document.querySelectorAll(".mermaid");
+
+    if (rerun) {
+        all_mermaids.forEach((el) => {
+            if(!el.hasAttribute("data-original-code")) {
+                // store original code
+                // console.log(`Storing original code for first run: `, el.innerHTML);
+                el.setAttribute('data-original-code', el.innerHTML);
+            }
+            if(el.getAttribute("data-processed") === "true") {
+                // remove and restore original
+                el.removeAttribute("data-processed");
+                // console.log(`Restoring original code for re-run: `, el.getAttribute('data-original-code'));
+                el.innerHTML = el.getAttribute('data-original-code');
+            } else {
+                // store original code
+                // console.log(`Storing original code for re-run: `, el.innerHTML);
+                el.setAttribute('data-original-code', el.innerHTML);
+            }
+        });
+        await mermaid.run();
+    }
+
+    all_mermaids = document.querySelectorAll(".mermaid");
+    const mermaids_processed = document.querySelectorAll(".mermaid[data-processed='true']");
+
+    if ("False" === "True") {
+        const mermaids_to_add_zoom = -1 === -1 ? all_mermaids.length : -1;
+        if(mermaids_to_add_zoom > 0) {
+            var svgs = d3.selectAll("");
+            if(all_mermaids.length !== mermaids_processed.length) {
+                setTimeout(() => runMermaid(false), 200);
+                return;
+            } else if(svgs.size() !== mermaids_to_add_zoom) {
+                setTimeout(() => runMermaid(false), 200);
+                return;
+            } else {
+                svgs.each(function() {
+                    var svg = d3.select(this);
+                    svg.html("<g class='wrapper'>" + svg.html() + "</g>");
+                    var inner = svg.select("g");
+                    var zoom = d3.zoom().on("zoom", function(event) {
+                        inner.attr("transform", event.transform);
+                    });
+                    svg.call(zoom);
+                });
+            }
+        }
+    } else if(all_mermaids.length !== mermaids_processed.length) {
+        // Wait for mermaid to process all diagrams
+        setTimeout(() => runMermaid(false), 200);
+        return;
+    }
+
+    // Stop here if not adding fullscreen capability
+    if ("True" !== "True") return;
+
+    if (modal !== null ) {
+        // Destroy existing modal
+        modal.remove();
+        modal = null;
+        modalContent = null;
+    }
+
+    modal = document.createElement('div');
+    modal.className = 'mermaid-fullscreen-modal' + (darkTheme ? ' dark-theme' : '');
+    modal.setAttribute('role', 'dialog');
+    modal.setAttribute('aria-modal', 'true');
+    modal.setAttribute('aria-label', 'Fullscreen diagram viewer');
+    modal.innerHTML = `
+        <button class="mermaid-fullscreen-close${darkTheme ? ' dark-theme' : ''}" aria-label="Close fullscreen">✕</button>
+        <div class="mermaid-container-fullscreen${darkTheme ? ' dark-theme' : ''}"></div>
+    `;
+    document.body.appendChild(modal);
+
+    modalContent = modal.querySelector('.mermaid-container-fullscreen');
+    const closeBtn = modal.querySelector('.mermaid-fullscreen-close');
+
+    const closeModal = () => {
+        modal.classList.remove('active');
+        modalContent.innerHTML = '';
+        document.body.style.overflow = ''
+        window.scrollTo({left: previousScrollOffset[0], top: previousScrollOffset[1], behavior: 'instant'});
+    };
+
+    closeBtn.addEventListener('click', closeModal);
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal();
+    });
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.classList.contains('active')) {
+            closeModal();
+        }
+    });
+
+    document.querySelectorAll('.mermaid').forEach((mermaidDiv) => {
+        if (mermaidDiv.parentNode.classList.contains('mermaid-container') ||
+            mermaidDiv.closest('.mermaid-fullscreen-modal')) {
+            // Already processed, adjust button class if needed
+            const existingBtn = mermaidDiv.parentNode.querySelector('.mermaid-fullscreen-btn');
+            if (existingBtn) {
+                existingBtn.className = 'mermaid-fullscreen-btn' + (darkTheme ? ' dark-theme' : '');
+            }
+            return;
+        }
+
+        const container = document.createElement('div');
+        container.className = 'mermaid-container';
+        mermaidDiv.parentNode.insertBefore(container, mermaidDiv);
+        container.appendChild(mermaidDiv);
+
+        const fullscreenBtn = document.createElement('button');
+        fullscreenBtn.className = 'mermaid-fullscreen-btn' + (darkTheme ? ' dark-theme' : '');
+        fullscreenBtn.setAttribute('aria-label', 'View diagram in fullscreen');
+        fullscreenBtn.textContent = '⛶';
+        fullscreenBtn.style.opacity = '50%';
+
+        // Calculate dynamic position based on diagram's margin and padding
+        const diagramStyle = window.getComputedStyle(mermaidDiv);
+        const marginTop = parseFloat(diagramStyle.marginTop) || 0;
+        const marginRight = parseFloat(diagramStyle.marginRight) || 0;
+        const paddingTop = parseFloat(diagramStyle.paddingTop) || 0;
+        const paddingRight = parseFloat(diagramStyle.paddingRight) || 0;
+        fullscreenBtn.style.top = `${marginTop + paddingTop + 4}px`;
+        fullscreenBtn.style.right = `${marginRight + paddingRight + 4}px`;
+
+        fullscreenBtn.addEventListener('click', () => {
+            previousScrollOffset = [window.scroll, window.scrollY];
+            const clone = mermaidDiv.cloneNode(true);
+            modalContent.innerHTML = '';
+            modalContent.appendChild(clone);
+
+            const svg = clone.querySelector('svg');
+            if (svg) {
+                svg.removeAttribute('width');
+                svg.removeAttribute('height');
+                svg.style.width = '100%';
+                svg.style.height = 'auto';
+                svg.style.maxWidth = '100%';
+                svg.style.sdisplay = 'block';
+
+                if ("False" === "True") {
+                    setTimeout(() => {
+                        const g = svg.querySelector('g');
+                        if (g) {
+                            var svgD3 = d3.select(svg);
+                            svgD3.html("<g class='wrapper'>" + svgD3.html() + "</g>");
+                            var inner = svgD3.select("g");
+                            var zoom = d3.zoom().on("zoom", function(event) {
+                                inner.attr("transform", event.transform);
+                            });
+                            svgD3.call(zoom);
+                        }
+                    }, 100);
+                }
+            }
+
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+        container.appendChild(fullscreenBtn);
+    });
+};
+
+const load = async () => {
+    initStyles();
+
+    await runMermaid(true);
+
+    const reRunIfThemeChanges = async () => {
+        const newDarkTheme = isDarkTheme();
+        if (newDarkTheme !== darkTheme) {
+            darkTheme = newDarkTheme;
+            console.log("Theme change detected, re-running mermaid with", darkTheme ? "dark" : "default", "theme");
+            await mermaid.initialize(
+                {...JSON.parse(
+                    `{"startOnLoad": false}`
+                ),
+                ...{ darkMode: darkTheme, theme: darkTheme ? 'dark' : 'default' },
+                }
+            );
+            await runMermaid(true);
+        }
+    };
+
+    // Update theme classes when theme changes
+    const themeObserver = new MutationObserver(reRunIfThemeChanges);
+    themeObserver.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ['class', 'style', 'data-theme']
+    });
+    themeObserver.observe(document.body, {
+        attributes: true,
+        attributeFilter: ['class', 'style', 'data-theme']
+    });
+};
+
+
+
+
+
+console.log("Initializing mermaid with", darkTheme ? "dark" : "default", "theme");
+mermaid.initialize(
+    {...JSON.parse(
+        `{"startOnLoad": false}`
+    ),
+    ...{ darkMode: darkTheme, theme: darkTheme ? 'dark' : 'default' },
+    }
+);
+
+window.addEventListener("load", load);
+window.runMermaid = runMermaid;</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
     <script src="_static/searchindex.js?v=4891b222"></script>
+    <script src="_static/mermaid_arrows.js?v=0a4b9151"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Polygon Revision Summary" href="summary_pages/revision_summary.html" />
+    <link rel="next" title="Historical Daily-Flow Revisions" href="summary_pages/hydat_revision_summary.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -176,6 +613,7 @@
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Summary &amp; Diagnostics</span></p>
 <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="summary_pages/hydat_revision_summary.html">Historical Daily-Flow Revisions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="summary_pages/revision_summary.html">Polygon Revision Summary</a></li>
 <li class="toctree-l1"><a class="reference internal" href="summary_pages/broken_telephone_casestudy.html">Broken Telephone: Caravan Divergence</a></li>
 <li class="toctree-l1"><a class="reference internal" href="summary_pages/double_mass_summary.html">Double Mass Curve Overview</a></li>
@@ -193,6 +631,92 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Station Pages</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="guides/station_directory.html">Station Directory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/01AD015.html">01AD015: MADAWASKA (RIVIERE) A 6 KM EN AVAL DU BARRAGE TEMISCOUATA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/01BD008.html">01BD008: MATAPEDIA (RIVIERE) PRES DE AMQUI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/01BD009.html">01BD009: MATAPEDIA (RIVIERE) A 4 KM EN AMONT DE L’ASSEMETQUAGAN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/01BF004.html">01BF004: NOUVELLE (RIVIERE) A 0,2 KM EN AMONT DU PONT-ROUTE 132 A NOUVELLE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/01BG005.html">01BG005: CASCAPEDIA (RIVIERE) EN AVAL DU RUISSEAU BERRY</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/01BG008.html">01BG008: CASCAPEDIA (PETITE RIVIERE) A SAINT-EDGAR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/01BG009.html">01BG009: BONAVENTURE (RIVIERE) EN AMONT DU RUISSEAU CREUX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/01BH005.html">01BH005: DARTMOUTH (RIVIERE) EN AMONT DU RUISSEAU DU PAS DE DAME</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/01BH010.html">01BH010: YORK (RIVIERE) A 1,4 KM EN AVAL DU RUISSEAU DINNER ISLAND</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02JA006.html">02JA006: CAPITACHOUANE (RIVIERE) DANS LA ZEC CAPITACHOUANE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02JB009.html">02JB009: OUTAOUAIS (RIVIERE DES) A LA SORTIE DU LAC GRANET</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02JE029.html">02JE029: KIPAWA (RIVIERE) A 0.2 KM EN AVAL DU BARRAGE LANIEL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02JE031.html">02JE031: GORDON (RUISSEAU) A LA DECHARGE DU LAC TEE A KIPAWA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02LC021.html">02LC021: NORD (RIVIERE DU) PRES DE SAINT-AGATHE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02LC027.html">02LC027: DONCASTER (RIVIERE) AU LAC ELEVE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02LC029.html">02LC029: ROUGE (RIVIERE) EN AMONT DE LA CHUTE MCNEIL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02LC070.html">02LC070: DECHARGE DU LAC LUDGER (RUISSEAU) EN AVAL DU BARRAGE LUDGER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02LD005.html">02LD005: PETITE NATION (RIVIERE DE LA) AU PONT A 1,6 KM EN AMONT DE RIPON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02LE013.html">02LE013: MITCHINAMECUS (RIVIERE) A LA TETE DE LA CHUTE RASCAS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02ND003.html">02ND003: VERMILLON (RIVIERE) EN AVAL DE LA RIVIERE DES PRAIRIES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02OA057.html">02OA057: ANGLAIS (RIVIERE DES) A 1,1 KM EN AVAL DU PONT-ROUTE A TRES-SAINT-SACREMENT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02OB008.html">02OB008: L’ASSOMPTION (RIVIERE) AU PONT-ROUTE 158 A JOLIETTE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02OB032.html">02OB032: NOIRE (RIVIERE) A SAINTE EMELIE DE L’ENERGIE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02OB037.html">02OB037: ACHIGAN (RIVIERE DE L’) A L’EPIPHANIE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02OB046.html">02OB046: BAYONNE (RIVIERE) A ST-FELIX-DE-VALOIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02OD010.html">02OD010: BULSTRODE (RIVIERE) A SAINT-VALERE-1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02OE022.html">02OE022: COATICOOK (RIVIERE) A 1,3 KM EN AVAL DU PONT-ROUTE 143 A WATERVILLE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02OE027.html">02OE027: EATON (RIVIERE) PRES DE LA RIVIERE SAINT-FRANCOIS-3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02OE032.html">02OE032: SAUMON (RIVIERE AU) A 1,9 KM EN AMONT DE LA MOFFAT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02OE062.html">02OE062: SAINT-FRANCOIS (RIVIERE) A 0,5 KM EN AVAL DE LA CENTRALE WEEDON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02OG002.html">02OG002: YAMASKA (RIVIERE) A FARNHAM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02OG007.html">02OG007: YAMASKA NORD (RIVIERE) A VAL-SHEFFORD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02OG014.html">02OG014: YAMASKA SUD-EST (RIVIERE) AU PONT-ROUTE 202 A COWANSVILLE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02OG019.html">02OG019: NOIRE (RIVIERE) A 7,6 KM DE LA YAMASKA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02OG047.html">02OG047: YAMASKA (RIVIERE) A 1,8 KM EN AVAL DU BARRAGE A SAINT-HYACINTHE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02OH012.html">02OH012: MORPIONS (RIVIERE) A 3,1 KM EN AMONT DE LA RIVIERE AUX BROCHETS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02OH013.html">02OH013: AUX BROCHETS (RIVIERE) A NOTRE-DAME-DE-STANBRIDGE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02OH014.html">02OH014: DE LA ROCHE (RIVIERE) A SAINT-ARMAND</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02OH015.html">02OH015: EWING (RIVIERE) A SAINT-PIERRE-DE-VERONNE-A PIKE-RIVER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02OJ026.html">02OJ026: L’ACADIE (RIVIERE) PRES DE L’AUTOROUTE NO. 10</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02PA007.html">02PA007: BATISCAN (RIVIERE) A 3,4 KM EN AVAL DE LA RIVIERE DES ENVIES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02PB019.html">02PB019: SAINTE-ANNE (RIVIERE) A 1,3 KM EN AVAL DU BARRAGE A CHUTE-PANET</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02PC002.html">02PC002: JACQUES-CARTIER (RIVIERE) EN AVAL DU PONT DU CHEMIN GOSFORD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02PC017.html">02PC017: PORTNEUF (RIVIERE) A 7,5 KM DE SON EMBOUCHURE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02PC019.html">02PC019: AUX POMMES  (RIVIERE) A 1.6KM EN AVAL DE LA NOIRE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02PC020.html">02PC020: LA CHEVROTIERE (RIVIERE) SUR LA ROUTE DU MOULIN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02PD004.html">02PD004: MONTMORENCY (RIVIERE) EN AMONT DE LA RIVIERE BLANCHE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02PD014.html">02PD014: AULNAIES OUEST (RUISSEAU DES) EN AMONT DU CHEMIN DU BELVEDERE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02PH010.html">02PH010: DU SUD (RIVIERE) A 1,0 KM EN AMONT DU PONT-ROUTE A ARTHURVILLE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02PH014.html">02PH014: BOYER (RIVIERE) A 0,1 KM EN AVAL DU PONT DE TRAIN A SAINT-CHARLES DE BELLECHASSE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02PJ007.html">02PJ007: BEAURIVAGE (RIVIERE) A SAINTE-ETIENNE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02PJ014.html">02PJ014: CHAUDIERE (RIVIERE) EN AVAL DU BARRAGE SARTIGAN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02PJ030.html">02PJ030: FAMINE (RIVIERE) A SAINT-GEORGES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02PK009.html">02PK009: DU CHENE (PETITE RIVIERE) A 250 M DU PONT-ROUTE 265 A DESCHAILLONS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02PL015.html">02PL015: BOURBON (RIVIERE) SUR LE 11IE RANG A PLESSISVILLE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02PL016.html">02PL016: BECANCOUR (RIVIERE) A 6 KM  EN AVAL DU PONT DE L’AUTOROUTE 20</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02QA002.html">02QA002: RIMOUSKI (RIVIERE) A 3,7 KM EN AMONT DU PONT-ROUTE 132</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02QA036.html">02QA036: NEIGETTE (PETITE RIVIERE) A 0,5 KM EN AVAL  DU LAC A LA PEINTURE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02QB001.html">02QB001: MATANE (RIVIERE) A 8,5 KM EN AMONT DU PONT-ROUTE 132 A MATANE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02QB005.html">02QB005: BLANCHE (RIVIERE) A 3,5 KM EN AMONT DU PONT-ROUTE 132</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02QC009.html">02QC009: SAINTE-ANNE (RIVIERE) A 9,7 KM EN AMONT DU PONT-ROUTE 132</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02RC011.html">02RC011: PERIBONCA (PETITE RIVIERE)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02RD003.html">02RD003: MISTASSINI (RIVIERE) EN AMONT DE LA RIVIERE MISTASSIBI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02RF001.html">02RF001: ASHUAPMUSHUAN (RIVIERE) A LA TETE DE LA CHUTE AUX SAUMONS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02RF009.html">02RF009: SAUMONS (RIVIERE AUX) PRES DE L’EMBOUCHURE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02RF010.html">02RF010: ROUGE (RIVIERE) EN AMONT DU PONCEAU SUR LA ROUTE 373</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02RG005.html">02RG005: METABETCHOUANE (RIVIERE) EN AMONT DE LA CENTRALE S.R.P.C.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02RH015.html">02RH015: CHICOUTIMI (RIVIERE) EN AVAL DU BARRAGE PORTAGE DES ROCHES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02RH045.html">02RH045: VALIN (RIVIERE) A 3,5 KM DE L’EMBOUCHURE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02RH066.html">02RH066: CYRIAC (RIVIERE) A 9KM EN AMONT DE SON EMBOUCHURE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02RH069.html">02RH069: A MARS (RIVIERE) A LA FOSSE 80 DANS LA ZEC DE LA RIVIERE A MARS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02RH070.html">02RH070: DU MOULIN (RIVIERE) EN AMONT DU SEUIL A L’ENTRE DU PARC DU MOULIN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02RH071.html">02RH071: PIKAUBA (RIVIERE) A 3,6 KM DE L’EMBOUCHURE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02RH072.html">02RH072: SABLES (RIVIERE AUX) A SAGUENAY</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02UA003.html">02UA003: GODBOUT (RIVIERE) A 1,6 KM EN AMONT DU PONT-ROUTE 138</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/02WB003.html">02WB003: NATASHQUAN (RIVIERE) A 0,6 KM EN AVAL DE LA DECHARGE DU LAC ALIESTE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/03AC004.html">03AC004: BELL (RIVIERE) EN AMONT DU LAC MATAGAMI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/03BF001.html">03BF001: PONTAX (RIVIERE) A 60,4 KM DE L’EMBOUCHURE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/03ED001.html">03ED001: BALEINE (GRANDE RIVIERE DE LA) EN AMONT DE LA RIVIERE DENYS-1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/03JB004.html">03JB004: FEUILLES (RIVIERE AUX) EN AMONT DU RUISSEAU DUFREBOY</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/03LF002.html">03LF002: CANIAPISCAU (RIVIERE) A 1,0 KM EN AMONT DE LA CHUTE DE LA PYRITE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/03MB002.html">03MB002: BALEINE (RIVIERE A LA) A 40,2 KM DE L’EMBOUCHURE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/05LH005.html">05LH005: WATERHEN RIVER NEAR WATERHEN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/05ND010.html">05ND010: MOOSE MOUNTAIN CREEK ABOVE GRANT DEVINE LAKE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/05NG001.html">05NG001: SOURIS RIVER AT WAWANESA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/05OF014.html">05OF014: SHANNON CREEK NEAR MORRIS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/07AF009.html">07AF009: NORTH ANDERSON CREEK NEAR HINTON</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/07AF010.html">07AF010: SUNDANCE CREEK NEAR BICKERDIKE</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/07AG003.html">07AG003: WOLF CREEK AT HIGHWAY NO. 16A</a></li>
@@ -354,6 +878,7 @@
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/08HE002.html">08HE002: MARBLE RIVER AT OUTLET OF VICTORIA LAKE</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/08HE004.html">08HE004: RAGING RIVER NEAR PORT ALICE</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/08HF007.html">08HF007: RUSSELL CREEK NEAR THE MOUTH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/08JA013.html">08JA013: SKINS LAKE SPILLWAY, NECHAKO RESERVOIR</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/08JA016.html">08JA016: MACIVOR CREEK NEAR THE MOUTH</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/08JA019.html">08JA019: CHEDAKUZ CREEK AT THE MOUTH</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/08JA023.html">08JA023: NECHAKO RESERVOIR AT SKINS LAKE SPILLWAY</a></li>
@@ -649,6 +1174,7 @@
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/09AC004.html">09AC004: TAKHINI RIVER AT OUTLET OF KUSAWA LAKE</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/09AC005.html">09AC005: KUSAWA LAKE NEAR WHITEHORSE</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/09AC007.html">09AC007: IBEX RIVER NEAR WHITEHORSE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="station_pages/stations/09AH001.html">09AH001: YUKON RIVER AT CARMACKS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/09BA001.html">09BA001: ROSS RIVER AT ROSS RIVER</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/09DC002.html">09DC002: STEWART RIVER AT MAYO</a></li>
 <li class="toctree-l1"><a class="reference internal" href="station_pages/stations/09DC003.html">09DC003: STEWART RIVER ABOVE FRASER FALLS</a></li>
@@ -885,6 +1411,7 @@
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#where-camel-farrier-fits">Where Camel Farrier fits</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reporting-backlog-example">Reporting Backlog Example</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#large-sample-hydrology-impact">Large-Sample Hydrology Impact</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#opportunities-for-improvement">Opportunities for Improvement</a></li>
@@ -908,7 +1435,67 @@
 <p><span class="term">Camel Farrier</span>
 <span class="definition">A caretaker who trims, shoes, and maintains the hooves of camels.</span></p>
 </div>
-<p>Hydrometric data produced by the Water Survey of Canada (WSC) are critical inputs to many decisions in water resources practice and research. This supplementary material provides data summary pages with interactive visualizations of estimated streamflow timeseries with supporting information (rating curve calibration points), as well as a “changelog” of polygons representing the upstream contributing area of hydrometric monitoring stations.  The goal is to organize information to help downstream users assess data quality and changes over time.</p>
+<p>Hydrometric data from the Water Survey of Canada (WSC) inform many decisions in water resources practice and research. Camel Farrier is a demonstration of how current open-source tools could enhance delivery of the wide array of information that supports hydrometric data use.</p>
+<p>Here, information is organized around the hydrometric station.  Each station page contains the catchment boundary and its version history, daily streamflow from HYDAT, and field measurements used to calibrate rating curves where available. A variety of data related to a streamflow monitoring station and the information that supports daily flow estimates can be downloaded from the same location. Summaries of data quality checks highlight completeness, and external data sources provide important context for related analyses, e.g. double mass curves, flow duration curves and monthly hydrographs. Summary pages compare stations across the network, for example catchment polygons changes between releases at the network level. The goal is to help data users assess quality, track how the data change over time, and troubleshoot and share findings with the broader community.</p>
+<section id="where-camel-farrier-fits">
+<h2>Where Camel Farrier fits<a class="headerlink" href="#where-camel-farrier-fits" title="Link to this heading">#</a></h2>
+<pre  class="mermaid">
+        %%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'fontSize': '20px',
+    'primaryColor': '#fdfbf7',
+    'primaryTextColor': '#1f1e1b',
+    'primaryBorderColor': '#b9b2a2',
+    'lineColor': '#464646',
+    'clusterBkg': '#f6f3ec',
+    'clusterBorder': '#d5cfc0',
+    'edgeLabelBackground': '#fdfbf7'
+  },
+  'flowchart': {
+    'wrappingWidth': 420,
+    'diagramPadding': 16,
+    'rankSpacing': 56,
+    'nodeSpacing': 24,
+    'padding': 16,
+    'subGraphTitleMargin': {
+      'top': 10,
+      'bottom': 14
+    }
+  }
+}}%%
+flowchart TB
+    subgraph source[&quot;A.#nbsp;Source#nbsp;information#nbsp;(WSC)&quot;]
+        flow[&quot;&lt;b&gt;HYDAT streamflow&lt;/b&gt;&lt;br/&gt;Quarterly file + OGC API,&lt;br/&gt;Categorical flags, no version IDs&quot;]
+        curves[&quot;&lt;b&gt;Rating curves&lt;/b&gt;&lt;br/&gt;Available by request,&lt;br/&gt;No public API&quot;]
+        basins[&quot;&lt;b&gt;Catchment polygons&lt;/b&gt;&lt;br/&gt;Release date stamped,&lt;br/&gt;No DOI or change log&quot;]
+    end
+
+    stewardship[&quot;&lt;b&gt;B. Camel Farrier: source-side stewardship&lt;/b&gt;&lt;br/&gt;Station-centric access, Automated documentation,&lt;br/&gt;Interactive version and change-impact views,&lt;br/&gt;Open and publicly documented feedback.&quot;]
+
+    lsh[&quot;&lt;b&gt;C. Downstream large-sample&lt;br/&gt;hydrology (LSH) datasets&lt;/b&gt;&lt;br/&gt;e.g., Caravan, HYSETS&quot;]
+
+    fair[&quot;&lt;b&gt;FAIR infrastructure&lt;/b&gt;&lt;br/&gt;e.g., CUAHSI HydroShare&lt;br/&gt;Data sharing, discovery, access&quot;]
+
+    flow --&gt; stewardship
+    curves --&gt; stewardship
+    basins --&gt; stewardship
+    stewardship -. &quot;changes impact&quot; .-&gt; lsh
+    stewardship &lt;-. &quot;complementary to&quot; .-&gt; fair
+    linkStyle default stroke-width: 2.5px
+    style stewardship fill:#f6f3ec,stroke:#464646,stroke-width:2px
+    </pre><p><strong>A. Source information.</strong> WSC daily streamflow is published as HYDAT, a database file released quarterly, and the same values are served through the standards-based MSC GeoMet <a class="reference external" href="https://eccc-msc.github.io/open-data/msc-geomet/ogc_api_en/">OGC API</a>. In both, data quality is described only by categorical flags (e.g., ice conditions, estimated), and neither identifies which release a value belongs to.  Stage–discharge rating curves and field measurements used to derive daily values are not published and are available only on request. Catchment polygons are distributed separately as regional files with a date stamp but no DOI, and neither rating curves nor catchment polygons are served by the API.</p>
+<p><strong>B. Camel Farrier</strong> illustrates how source-side stewardship could use existing open-source tools, building on existing standards-based services such as the MSC GeoMet OGC API (not duplicating them), and in line with practices such as those of the USGS to:</p>
+<div class="roman-list docutils">
+<ol class="arabic simple">
+<li><p><em>organize data around the monitoring station</em>: Water Office provides a <a class="reference external" href="https://wateroffice.ec.gc.ca/report/historical_e.html?stn=07AG003">page per station</a>, but related information is spread across many views and downloads; here, streamflow, rating curves and catchment boundaries share one page,</p></li>
+<li><p><em>generate rich, interactive data documentation</em> automatically,</p></li>
+<li><p><em>quantify the effect of data revisions</em> in interactive views that support navigation between network and station levels, and</p></li>
+<li><p><em>host open, publicly documented feedback</em>, in place of the current closed, generic <a class="reference external" href="https://weather.gc.ca/mainmenu/water_contact_us_e.html">web form</a> and <a class="reference external" href="https://wateroffice.ec.gc.ca/contactus/faq_e.html">FAQ</a>.</p></li>
+</ol>
+</div>
+<p><strong>C. Downstream datasets</strong> such as Caravan and HYSETS reuse source information directly, so source updates can propagate slowly or not at all. Camel Farrier is a stewardship pattern and an opportunity, not a replacement for data providers, downstream LSH datasets, or FAIR repositories such as HydroShare. Its aim is to make source information easier to access, document, compare, and discuss openly.</p>
+</section>
 <section id="reporting-backlog-example">
 <h2>Reporting Backlog Example<a class="headerlink" href="#reporting-backlog-example" title="Link to this heading">#</a></h2>
 <p>The map below shows the reporting backlog for daily streamflow data in HYDAT, defined as the time since the most recent flow record for each station. Hovering over points shows station metadata and backlog duration. Clicking on map points takes you to the station summary page.</p>
@@ -917,7 +1504,7 @@
 <p><strong>Linked selection.</strong> Use box-select or lasso-select tools on the CDF to highlight stations on the map (and vice versa). Toggle legend entries to isolate specific area-change bins.</p>
 <p>Warm colors highlight basins where Caravan’s inherited geometry deviates most from the latest WSC polygons.</p>
 </aside>
-<div style="height:850px;"><script src="bokeh-content-90bbc8f2dbe242d480a3737b87928365-index.js" id="c86561fd-d211-4955-824c-e8f019a5f695"></script></div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<script src="bokeh-content-a5be981bb02d49aea41a1f1879688afd-index.js" id="a04f5345-7044-41ca-8fe9-7c9c55a07f7a"></script><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">3</span><span class="p">]))</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bokeh.io</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
@@ -995,11 +1582,11 @@
                   
 <div class="prev-next-area">
     <a class="right-next"
-       href="summary_pages/revision_summary.html"
+       href="summary_pages/hydat_revision_summary.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Polygon Revision Summary</p>
+        <p class="prev-next-title">Historical Daily-Flow Revisions</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -1021,6 +1608,7 @@
   </div>
   <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#where-camel-farrier-fits">Where Camel Farrier fits</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reporting-backlog-example">Reporting Backlog Example</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#large-sample-hydrology-impact">Large-Sample Hydrology Impact</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#opportunities-for-improvement">Opportunities for Improvement</a></li>

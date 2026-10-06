@@ -1,0 +1,20 @@
+{
+  "station_number": "03JB004",
+  "station_name": "FEUILLES (RIVIERE AUX) EN AMONT DU RUISSEAU DUFREBOY",
+  "latitude": 58.2841682434082,
+  "longitude": -71.28250122070312,
+  "revised_days": 237,
+  "removed_days": 0,
+  "eligible_days": 4845,
+  "changed_percent": 4.891640866873065,
+  "first_affected_date": "2018-08-15",
+  "last_affected_date": "2023-09-30",
+  "span_days": 1873,
+  "longest_revised_run": 80,
+  "median_abs_delta_cms": 7.0,
+  "max_abs_delta_cms": 13.0,
+  "median_abs_delta_percent": 1.1308562197092085,
+  "percent_change_days": 237,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

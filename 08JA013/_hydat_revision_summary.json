@@ -1,0 +1,20 @@
+{
+  "station_number": "08JA013",
+  "station_name": "SKINS LAKE SPILLWAY, NECHAKO RESERVOIR",
+  "latitude": 53.77082824707031,
+  "longitude": -125.9705581665039,
+  "revised_days": 5,
+  "removed_days": 0,
+  "eligible_days": 23389,
+  "changed_percent": 0.02137757065287101,
+  "first_affected_date": "2019-03-24",
+  "last_affected_date": "2019-11-12",
+  "span_days": 234,
+  "longest_revised_run": 2,
+  "median_abs_delta_cms": 0.09999847412109375,
+  "max_abs_delta_cms": 0.10000038146972301,
+  "median_abs_delta_percent": 0.3134808234030014,
+  "percent_change_days": 5,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

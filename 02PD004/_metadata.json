@@ -1,0 +1,12 @@
+{
+  "station_id": "02PD004",
+  "station_name": "MONTMORENCY (RIVIERE) EN AMONT DE LA RIVIERE BLANCHE",
+  "latitude": 47.25917053222656,
+  "longitude": -71.1369400024414,
+  "drainage_area_gross_km2": 266.5,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:37.594901"
+}

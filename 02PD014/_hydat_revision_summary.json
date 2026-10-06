@@ -1,0 +1,20 @@
+{
+  "station_number": "02PD014",
+  "station_name": "AULNAIES OUEST (RUISSEAU DES) EN AMONT DU CHEMIN DU BELVEDERE",
+  "latitude": 47.2894401550293,
+  "longitude": -71.16166687011719,
+  "revised_days": 1275,
+  "removed_days": 0,
+  "eligible_days": 18729,
+  "changed_percent": 6.807624539484222,
+  "first_affected_date": "2012-01-01",
+  "last_affected_date": "2023-09-30",
+  "span_days": 4291,
+  "longest_revised_run": 16,
+  "median_abs_delta_cms": 0.0010000001639127731,
+  "max_abs_delta_cms": 0.0040000081062316895,
+  "median_abs_delta_percent": 4.878049445322462,
+  "percent_change_days": 1275,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

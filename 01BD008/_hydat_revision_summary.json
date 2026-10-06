@@ -1,0 +1,20 @@
+{
+  "station_number": "01BD008",
+  "station_name": "MATAPEDIA (RIVIERE) PRES DE AMQUI",
+  "latitude": 48.49166870117188,
+  "longitude": -67.44999694824219,
+  "revised_days": 267,
+  "removed_days": 0,
+  "eligible_days": 13356,
+  "changed_percent": 1.9991015274034143,
+  "first_affected_date": "2019-10-28",
+  "last_affected_date": "2021-06-25",
+  "span_days": 607,
+  "longest_revised_run": 96,
+  "median_abs_delta_cms": 0.2999992370605433,
+  "max_abs_delta_cms": 0.5,
+  "median_abs_delta_percent": 1.5999984741210938,
+  "percent_change_days": 267,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "03ED001",
+  "station_name": "BALEINE (GRANDE RIVIERE DE LA) EN AMONT DE LA RIVIERE DENYS-1",
+  "latitude": 55.23749923706055,
+  "longitude": -76.98388671875,
+  "drainage_area_gross_km2": 30950.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:41.629494"
+}

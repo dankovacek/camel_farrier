@@ -1,0 +1,20 @@
+{
+  "station_number": "02RF010",
+  "station_name": "ROUGE (RIVIERE) EN AMONT DU PONCEAU SUR LA ROUTE 373",
+  "latitude": 48.80390167236328,
+  "longitude": -72.49199676513672,
+  "revised_days": 153,
+  "removed_days": 0,
+  "eligible_days": 4127,
+  "changed_percent": 3.7072934334867944,
+  "first_affected_date": "2015-10-10",
+  "last_affected_date": "2023-09-30",
+  "span_days": 2913,
+  "longest_revised_run": 60,
+  "median_abs_delta_cms": 0.03400000929832453,
+  "max_abs_delta_cms": 0.041999995708465576,
+  "median_abs_delta_percent": 12.17949250657872,
+  "percent_change_days": 153,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "02OG007",
+  "station_name": "YAMASKA NORD (RIVIERE) A VAL-SHEFFORD",
+  "latitude": 45.415828704833984,
+  "longitude": -72.62222290039062,
+  "drainage_area_gross_km2": 134.39999389648438,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:35.983596"
+}

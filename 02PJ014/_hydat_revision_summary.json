@@ -1,0 +1,20 @@
+{
+  "station_number": "02PJ014",
+  "station_name": "CHAUDIERE (RIVIERE) EN AVAL DU BARRAGE SARTIGAN",
+  "latitude": 46.0977783203125,
+  "longitude": -70.65611267089844,
+  "revised_days": 248,
+  "removed_days": 0,
+  "eligible_days": 14478,
+  "changed_percent": 1.7129437767647464,
+  "first_affected_date": "2013-09-25",
+  "last_affected_date": "2023-09-30",
+  "span_days": 3658,
+  "longest_revised_run": 177,
+  "median_abs_delta_cms": 0.7999992370605469,
+  "max_abs_delta_cms": 5.0,
+  "median_abs_delta_percent": 1.6463624533079546,
+  "percent_change_days": 248,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

@@ -1,0 +1,20 @@
+{
+  "station_number": "03ED001",
+  "station_name": "BALEINE (GRANDE RIVIERE DE LA) EN AMONT DE LA RIVIERE DENYS-1",
+  "latitude": 55.23749923706055,
+  "longitude": -76.98388671875,
+  "revised_days": 108,
+  "removed_days": 0,
+  "eligible_days": 18941,
+  "changed_percent": 0.5701916477482709,
+  "first_affected_date": "2022-07-29",
+  "last_affected_date": "2023-09-27",
+  "span_days": 426,
+  "longest_revised_run": 6,
+  "median_abs_delta_cms": 1.0,
+  "max_abs_delta_cms": 1.0,
+  "median_abs_delta_percent": 0.15325679497176786,
+  "percent_change_days": 108,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

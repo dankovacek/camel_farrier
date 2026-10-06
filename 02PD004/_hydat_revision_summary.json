@@ -1,0 +1,20 @@
+{
+  "station_number": "02PD004",
+  "station_name": "MONTMORENCY (RIVIERE) EN AMONT DE LA RIVIERE BLANCHE",
+  "latitude": 47.25917053222656,
+  "longitude": -71.1369400024414,
+  "revised_days": 29,
+  "removed_days": 0,
+  "eligible_days": 15423,
+  "changed_percent": 0.18803086299682292,
+  "first_affected_date": "2023-09-02",
+  "last_affected_date": "2023-09-30",
+  "span_days": 29,
+  "longest_revised_run": 29,
+  "median_abs_delta_cms": 0.09000015258789062,
+  "max_abs_delta_cms": 0.30000019073486506,
+  "median_abs_delta_percent": 2.6011604507406547,
+  "percent_change_days": 29,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

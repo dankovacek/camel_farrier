@@ -1,0 +1,20 @@
+{
+  "station_number": "02PC017",
+  "station_name": "PORTNEUF (RIVIERE) A 7,5 KM DE SON EMBOUCHURE",
+  "latitude": 46.72774887084961,
+  "longitude": -71.84104919433594,
+  "revised_days": 180,
+  "removed_days": 0,
+  "eligible_days": 7599,
+  "changed_percent": 2.3687327279905253,
+  "first_affected_date": "2022-10-05",
+  "last_affected_date": "2023-09-30",
+  "span_days": 361,
+  "longest_revised_run": 66,
+  "median_abs_delta_cms": 0.04999971389770508,
+  "max_abs_delta_cms": 0.10000228881835938,
+  "median_abs_delta_percent": 0.9469732717430737,
+  "percent_change_days": 180,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

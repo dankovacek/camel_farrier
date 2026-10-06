@@ -1,0 +1,20 @@
+{
+  "station_number": "02RC011",
+  "station_name": "PERIBONCA (PETITE RIVIERE)",
+  "latitude": 48.81417083740234,
+  "longitude": -72.04778289794922,
+  "revised_days": 2467,
+  "removed_days": 0,
+  "eligible_days": 17837,
+  "changed_percent": 13.830801143690083,
+  "first_affected_date": "2012-03-27",
+  "last_affected_date": "2023-09-30",
+  "span_days": 4205,
+  "longest_revised_run": 226,
+  "median_abs_delta_cms": 0.6000003814697283,
+  "max_abs_delta_cms": 7.0,
+  "median_abs_delta_percent": 2.7777794947839753,
+  "percent_change_days": 2467,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

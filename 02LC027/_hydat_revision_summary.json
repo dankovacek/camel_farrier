@@ -1,0 +1,20 @@
+{
+  "station_number": "02LC027",
+  "station_name": "DONCASTER (RIVIERE) AU LAC ELEVE",
+  "latitude": 46.095829010009766,
+  "longitude": -74.12194061279297,
+  "revised_days": 2521,
+  "removed_days": 0,
+  "eligible_days": 15423,
+  "changed_percent": 16.345717434999674,
+  "first_affected_date": "2012-02-25",
+  "last_affected_date": "2023-09-30",
+  "span_days": 4236,
+  "longest_revised_run": 100,
+  "median_abs_delta_cms": 0.019999980926513672,
+  "max_abs_delta_cms": 0.6000003814697266,
+  "median_abs_delta_percent": 1.734102373353568,
+  "percent_change_days": 2521,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

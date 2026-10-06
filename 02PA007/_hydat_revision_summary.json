@@ -1,0 +1,20 @@
+{
+  "station_number": "02PA007",
+  "station_name": "BATISCAN (RIVIERE) A 3,4 KM EN AVAL DE LA RIVIERE DES ENVIES",
+  "latitude": 46.58361053466797,
+  "longitude": -72.40471649169922,
+  "revised_days": 6,
+  "removed_days": 0,
+  "eligible_days": 20409,
+  "changed_percent": 0.029398794649419375,
+  "first_affected_date": "2023-09-25",
+  "last_affected_date": "2023-09-30",
+  "span_days": 6,
+  "longest_revised_run": 6,
+  "median_abs_delta_cms": 0.10000038146972656,
+  "max_abs_delta_cms": 0.10000228881836648,
+  "median_abs_delta_percent": 0.20961438386576098,
+  "percent_change_days": 6,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

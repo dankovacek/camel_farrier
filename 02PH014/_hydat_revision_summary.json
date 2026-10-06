@@ -1,0 +1,20 @@
+{
+  "station_number": "02PH014",
+  "station_name": "BOYER (RIVIERE) A 0,1 KM EN AVAL DU PONT DE TRAIN A SAINT-CHARLES DE BELLECHASSE",
+  "latitude": 46.815799713134766,
+  "longitude": -70.90059661865234,
+  "revised_days": 652,
+  "removed_days": 0,
+  "eligible_days": 9615,
+  "changed_percent": 6.781071242849714,
+  "first_affected_date": "2019-04-21",
+  "last_affected_date": "2023-09-25",
+  "span_days": 1619,
+  "longest_revised_run": 74,
+  "median_abs_delta_cms": 0.039999961853027344,
+  "max_abs_delta_cms": 15.699996948242188,
+  "median_abs_delta_percent": 1.0020555527254587,
+  "percent_change_days": 652,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

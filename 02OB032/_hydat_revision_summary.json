@@ -1,0 +1,20 @@
+{
+  "station_number": "02OB032",
+  "station_name": "NOIRE (RIVIERE) A SAINTE EMELIE DE L'ENERGIE",
+  "latitude": 46.33943939208984,
+  "longitude": -73.65193939208984,
+  "revised_days": 2712,
+  "removed_days": 0,
+  "eligible_days": 13428,
+  "changed_percent": 20.196604110813226,
+  "first_affected_date": "2012-03-18",
+  "last_affected_date": "2023-09-30",
+  "span_days": 4214,
+  "longest_revised_run": 262,
+  "median_abs_delta_cms": 0.039999961853027344,
+  "max_abs_delta_cms": 1.7999992370605469,
+  "median_abs_delta_percent": 1.9047600882394142,
+  "percent_change_days": 2712,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

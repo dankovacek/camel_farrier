@@ -1,0 +1,8 @@
+Station ID/Identification de la station,Curve Number/Numéro de courbe,Remarks/Remarques,Type/Catégorie,Approval/Approbation,Offset/Décalage
+05OF014,18.000,"New log log curve to replace old linear curve , poor relationship KSP Approved",LogarithmicTable,Provisional/Provisoire,(233.278);
+05OF014,17.000,Same as Curve #15,LinearTable,Final/Finales,
+05OF014,16.000,Same as curve #15 with a -0.050 corr. (Datum Rev),LinearTable,Final/Finales,
+05OF014,15.000,,LinearTable,Final/Finales,
+05OF014,15.000-SC2,,LinearTable,Final/Finales,
+05OF014,14.000,,LinearTable,Final/Finales,
+05OF014,14.000-SC1,,LinearTable,Final/Finales,

@@ -1,0 +1,20 @@
+{
+  "station_number": "02LE013",
+  "station_name": "MITCHINAMECUS (RIVIERE) A LA TETE DE LA CHUTE RASCAS",
+  "latitude": 47.18444061279297,
+  "longitude": -75.14360809326172,
+  "revised_days": 744,
+  "removed_days": 0,
+  "eligible_days": 16718,
+  "changed_percent": 4.450293097260438,
+  "first_affected_date": "2012-01-13",
+  "last_affected_date": "2018-09-30",
+  "span_days": 2453,
+  "longest_revised_run": 84,
+  "median_abs_delta_cms": 0.10000038146973012,
+  "max_abs_delta_cms": 1.8000011444091797,
+  "median_abs_delta_percent": 0.6849341017596657,
+  "percent_change_days": 744,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "05ND010",
+  "station_name": "MOOSE MOUNTAIN CREEK ABOVE GRANT DEVINE LAKE",
+  "latitude": 49.52278137207031,
+  "longitude": -102.17194366455078,
+  "drainage_area_gross_km2": 4869.0,
+  "drainage_area_effect_km2": 1726.0,
+  "province_territory": "SK",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:42.286401"
+}

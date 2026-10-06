@@ -1,0 +1,12 @@
+{
+  "station_id": "02LC021",
+  "station_name": "NORD (RIVIERE DU) PRES DE SAINT-AGATHE",
+  "latitude": 46.04582977294922,
+  "longitude": -74.25277709960938,
+  "drainage_area_gross_km2": 309.6000061035156,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:33.609732"
+}

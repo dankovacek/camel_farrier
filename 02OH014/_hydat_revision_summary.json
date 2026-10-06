@@ -1,0 +1,20 @@
+{
+  "station_number": "02OH014",
+  "station_name": "DE LA ROCHE (RIVIERE) A SAINT-ARMAND",
+  "latitude": 45.02190017700195,
+  "longitude": -73.01619720458984,
+  "revised_days": 171,
+  "removed_days": 0,
+  "eligible_days": 4291,
+  "changed_percent": 3.9850850617571663,
+  "first_affected_date": "2023-04-12",
+  "last_affected_date": "2023-09-30",
+  "span_days": 172,
+  "longest_revised_run": 117,
+  "median_abs_delta_cms": 0.009999990463256836,
+  "max_abs_delta_cms": 0.10000038146972656,
+  "median_abs_delta_percent": 2.9629688498412254,
+  "percent_change_days": 171,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

@@ -1,0 +1,20 @@
+{
+  "station_number": "02RH045",
+  "station_name": "VALIN (RIVIERE) A 3,5 KM DE L'EMBOUCHURE",
+  "latitude": 48.4888916015625,
+  "longitude": -70.97416687011719,
+  "revised_days": 1864,
+  "removed_days": 0,
+  "eligible_days": 17870,
+  "changed_percent": 10.430889759373251,
+  "first_affected_date": "2012-04-16",
+  "last_affected_date": "2023-09-24",
+  "span_days": 4179,
+  "longest_revised_run": 78,
+  "median_abs_delta_cms": 0.2999992370605469,
+  "max_abs_delta_cms": 2.0,
+  "median_abs_delta_percent": 0.7100605987975952,
+  "percent_change_days": 1864,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

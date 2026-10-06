@@ -1,0 +1,20 @@
+{
+  "station_number": "01BG005",
+  "station_name": "CASCAPEDIA (RIVIERE) EN AVAL DU RUISSEAU BERRY",
+  "latitude": 48.62833023071289,
+  "longitude": -66.16806030273438,
+  "revised_days": 1183,
+  "removed_days": 0,
+  "eligible_days": 16296,
+  "changed_percent": 7.259450171821306,
+  "first_affected_date": "2012-03-22",
+  "last_affected_date": "2018-09-30",
+  "span_days": 2384,
+  "longest_revised_run": 67,
+  "median_abs_delta_cms": 0.39999961853027344,
+  "max_abs_delta_cms": 3.0,
+  "median_abs_delta_percent": 1.4285677955264138,
+  "percent_change_days": 1183,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

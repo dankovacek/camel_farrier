@@ -1,0 +1,20 @@
+{
+  "station_number": "02PC020",
+  "station_name": "LA CHEVROTIERE (RIVIERE) SUR LA ROUTE DU MOULIN",
+  "latitude": 46.73749923706055,
+  "longitude": -72.00129699707031,
+  "revised_days": 1226,
+  "removed_days": 0,
+  "eligible_days": 3915,
+  "changed_percent": 31.315453384418902,
+  "first_affected_date": "2017-05-03",
+  "last_affected_date": "2023-09-30",
+  "span_days": 2342,
+  "longest_revised_run": 75,
+  "median_abs_delta_cms": 0.005000002682209015,
+  "max_abs_delta_cms": 1.1999998092651367,
+  "median_abs_delta_percent": 3.5634893134179184,
+  "percent_change_days": 1226,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

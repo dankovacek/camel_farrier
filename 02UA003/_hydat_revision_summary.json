@@ -1,0 +1,20 @@
+{
+  "station_number": "02UA003",
+  "station_name": "GODBOUT (RIVIERE) A 1,6 KM EN AMONT DU PONT-ROUTE 138",
+  "latitude": 49.33055877685547,
+  "longitude": -67.65583038330078,
+  "revised_days": 1318,
+  "removed_days": 0,
+  "eligible_days": 17857,
+  "changed_percent": 7.380859046872375,
+  "first_affected_date": "2013-11-19",
+  "last_affected_date": "2023-09-26",
+  "span_days": 3599,
+  "longest_revised_run": 34,
+  "median_abs_delta_cms": 0.20000076293945312,
+  "max_abs_delta_cms": 2.0,
+  "median_abs_delta_percent": 0.4944354883460461,
+  "percent_change_days": 1318,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

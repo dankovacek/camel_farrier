@@ -1,0 +1,20 @@
+{
+  "station_number": "02OB008",
+  "station_name": "L'ASSOMPTION (RIVIERE) AU PONT-ROUTE 158 A JOLIETTE",
+  "latitude": 46.01028060913086,
+  "longitude": -73.42749786376953,
+  "revised_days": 1,
+  "removed_days": 0,
+  "eligible_days": 19624,
+  "changed_percent": 0.005095801059926621,
+  "first_affected_date": "2012-04-28",
+  "last_affected_date": "2012-04-28",
+  "span_days": 1,
+  "longest_revised_run": 1,
+  "median_abs_delta_cms": 0.09999847412108664,
+  "max_abs_delta_cms": 0.09999847412108664,
+  "median_abs_delta_percent": 0.15999755859373863,
+  "percent_change_days": 1,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "02JE031",
+  "station_name": "GORDON (RUISSEAU) A LA DECHARGE DU LAC TEE A KIPAWA",
+  "latitude": 46.766998291015625,
+  "longitude": -79.02790069580078,
+  "drainage_area_gross_km2": 6032.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:33.532450"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "02OE022",
+  "station_name": "COATICOOK (RIVIERE) A 1,3 KM EN AVAL DU PONT-ROUTE 143 A WATERVILLE",
+  "latitude": 45.28499984741211,
+  "longitude": -71.8994369506836,
+  "drainage_area_gross_km2": 521.2999877929688,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:35.169727"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "02LE013",
+  "station_name": "MITCHINAMECUS (RIVIERE) A LA TETE DE LA CHUTE RASCAS",
+  "latitude": 47.18444061279297,
+  "longitude": -75.14360809326172,
+  "drainage_area_gross_km2": 1058.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:34.242272"
+}

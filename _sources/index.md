@@ -6,7 +6,72 @@
 <span class="definition">A caretaker who trims, shoes, and maintains the hooves of camels.</span>
 :::
 
-Hydrometric data produced by the Water Survey of Canada (WSC) are critical inputs to many decisions in water resources practice and research. This supplementary material provides data summary pages with interactive visualizations of estimated streamflow timeseries with supporting information (rating curve calibration points), as well as a "changelog" of polygons representing the upstream contributing area of hydrometric monitoring stations.  The goal is to organize information to help downstream users assess data quality and changes over time.
+Hydrometric data from the Water Survey of Canada (WSC) inform many decisions in water resources practice and research. Camel Farrier is a demonstration of how current open-source tools could enhance delivery of the wide array of information that supports hydrometric data use.
+
+Here, information is organized around the hydrometric station.  Each station page contains the catchment boundary and its version history, daily streamflow from HYDAT, and field measurements used to calibrate rating curves where available. A variety of data related to a streamflow monitoring station and the information that supports daily flow estimates can be downloaded from the same location. Summaries of data quality checks highlight completeness, and external data sources provide important context for related analyses, e.g. double mass curves, flow duration curves and monthly hydrographs. Summary pages compare stations across the network, for example catchment polygons changes between releases at the network level. The goal is to help data users assess quality, track how the data change over time, and troubleshoot and share findings with the broader community.
+
+## Where Camel Farrier fits
+
+```{mermaid}
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'fontSize': '20px',
+    'primaryColor': '#fdfbf7',
+    'primaryTextColor': '#1f1e1b',
+    'primaryBorderColor': '#b9b2a2',
+    'lineColor': '#464646',
+    'clusterBkg': '#f6f3ec',
+    'clusterBorder': '#d5cfc0',
+    'edgeLabelBackground': '#fdfbf7'
+  },
+  'flowchart': {
+    'wrappingWidth': 420,
+    'diagramPadding': 16,
+    'rankSpacing': 56,
+    'nodeSpacing': 24,
+    'padding': 16,
+    'subGraphTitleMargin': {
+      'top': 10,
+      'bottom': 14
+    }
+  }
+}}%%
+flowchart TB
+    subgraph source["A.#nbsp;Source#nbsp;information#nbsp;(WSC)"]
+        flow["<b>HYDAT streamflow</b><br/>Quarterly file + OGC API,<br/>Categorical flags, no version IDs"]
+        curves["<b>Rating curves</b><br/>Available by request,<br/>No public API"]
+        basins["<b>Catchment polygons</b><br/>Release date stamped,<br/>No DOI or change log"]
+    end
+
+    stewardship["<b>B. Camel Farrier: source-side stewardship</b><br/>Station-centric access, Automated documentation,<br/>Interactive version and change-impact views,<br/>Open and publicly documented feedback."]
+
+    lsh["<b>C. Downstream large-sample<br/>hydrology (LSH) datasets</b><br/>e.g., Caravan, HYSETS"]
+
+    fair["<b>FAIR infrastructure</b><br/>e.g., CUAHSI HydroShare<br/>Data sharing, discovery, access"]
+
+    flow --> stewardship
+    curves --> stewardship
+    basins --> stewardship
+    stewardship -. "changes impact" .-> lsh
+    stewardship <-. "complementary to" .-> fair
+    linkStyle default stroke-width: 2.5px
+    style stewardship fill:#f6f3ec,stroke:#464646,stroke-width:2px
+```
+
+**A. Source information.** WSC daily streamflow is published as HYDAT, a database file released quarterly, and the same values are served through the standards-based MSC GeoMet [OGC API](https://eccc-msc.github.io/open-data/msc-geomet/ogc_api_en/). In both, data quality is described only by categorical flags (e.g., ice conditions, estimated), and neither identifies which release a value belongs to.  Stage–discharge rating curves and field measurements used to derive daily values are not published and are available only on request. Catchment polygons are distributed separately as regional files with a date stamp but no DOI, and neither rating curves nor catchment polygons are served by the API.
+
+**B. Camel Farrier** illustrates how source-side stewardship could use existing open-source tools, building on existing standards-based services such as the MSC GeoMet OGC API (not duplicating them), and in line with practices such as those of the USGS to:
+
+:::{div} roman-list
+1. *organize data around the monitoring station*: Water Office provides a [page per station](https://wateroffice.ec.gc.ca/report/historical_e.html?stn=07AG003), but related information is spread across many views and downloads; here, streamflow, rating curves and catchment boundaries share one page,
+2. *generate rich, interactive data documentation* automatically,
+3. *quantify the effect of data revisions* in interactive views that support navigation between network and station levels, and
+4. *host open, publicly documented feedback*, in place of the current closed, generic [web form](https://weather.gc.ca/mainmenu/water_contact_us_e.html) and [FAQ](https://wateroffice.ec.gc.ca/contactus/faq_e.html).
+:::
+
+**C. Downstream datasets** such as Caravan and HYSETS reuse source information directly, so source updates can propagate slowly or not at all. Camel Farrier is a stewardship pattern and an opportunity, not a replacement for data providers, downstream LSH datasets, or FAIR repositories such as HydroShare. Its aim is to make source information easier to access, document, compare, and discuss openly.
+
 
 ## Reporting Backlog Example
 
@@ -60,4 +125,3 @@ The theme of this book is adapted from the [Tufte CSS](https://github.com/edward
 :style: unsrt
 :filter: docname in docnames
 ```
-

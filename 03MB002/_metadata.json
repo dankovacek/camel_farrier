@@ -1,0 +1,12 @@
+{
+  "station_id": "03MB002",
+  "station_name": "BALEINE (RIVIERE A LA) A 40,2 KM DE L'EMBOUCHURE",
+  "latitude": 57.883331298828125,
+  "longitude": -67.58332824707031,
+  "drainage_area_gross_km2": 29690.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:41.939746"
+}

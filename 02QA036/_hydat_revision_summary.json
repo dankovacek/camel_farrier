@@ -1,0 +1,20 @@
+{
+  "station_number": "02QA036",
+  "station_name": "NEIGETTE (PETITE RIVIERE) A 0,5 KM EN AVAL  DU LAC A LA PEINTURE",
+  "latitude": 48.419700622558594,
+  "longitude": -68.3561019897461,
+  "revised_days": 696,
+  "removed_days": 0,
+  "eligible_days": 7564,
+  "changed_percent": 9.201480698043364,
+  "first_affected_date": "2020-05-05",
+  "last_affected_date": "2023-09-30",
+  "span_days": 1244,
+  "longest_revised_run": 183,
+  "median_abs_delta_cms": 0.02199999988079071,
+  "max_abs_delta_cms": 0.30000114440918146,
+  "median_abs_delta_percent": 4.274911779848647,
+  "percent_change_days": 696,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

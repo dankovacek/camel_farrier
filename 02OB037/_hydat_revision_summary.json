@@ -1,0 +1,20 @@
+{
+  "station_number": "02OB037",
+  "station_name": "ACHIGAN (RIVIERE DE L') A L'EPIPHANIE",
+  "latitude": 45.84638977050781,
+  "longitude": -73.49305725097656,
+  "revised_days": 160,
+  "removed_days": 0,
+  "eligible_days": 16014,
+  "changed_percent": 0.9991257649556637,
+  "first_affected_date": "2022-11-21",
+  "last_affected_date": "2023-09-30",
+  "span_days": 314,
+  "longest_revised_run": 41,
+  "median_abs_delta_cms": 0.10000038146972656,
+  "max_abs_delta_cms": 3.1999969482422017,
+  "median_abs_delta_percent": 0.548279383457992,
+  "percent_change_days": 160,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

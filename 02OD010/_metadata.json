@@ -1,0 +1,12 @@
+{
+  "station_id": "02OD010",
+  "station_name": "BULSTRODE (RIVIERE) A SAINT-VALERE-1",
+  "latitude": 46.06999969482422,
+  "longitude": -71.97888946533203,
+  "drainage_area_gross_km2": 340.70001220703125,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:35.057976"
+}

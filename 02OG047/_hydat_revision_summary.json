@@ -1,0 +1,20 @@
+{
+  "station_number": "02OG047",
+  "station_name": "YAMASKA (RIVIERE) A 1,8 KM EN AVAL DU BARRAGE A SAINT-HYACINTHE",
+  "latitude": 45.62194061279297,
+  "longitude": -72.93611145019531,
+  "revised_days": 459,
+  "removed_days": 0,
+  "eligible_days": 10021,
+  "changed_percent": 4.5803811994810895,
+  "first_affected_date": "2022-05-02",
+  "last_affected_date": "2023-09-30",
+  "span_days": 517,
+  "longest_revised_run": 152,
+  "median_abs_delta_cms": 0.5,
+  "max_abs_delta_cms": 2.0,
+  "median_abs_delta_percent": 1.1299477645120668,
+  "percent_change_days": 459,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

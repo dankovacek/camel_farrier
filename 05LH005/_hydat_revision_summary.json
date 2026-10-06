@@ -1,0 +1,20 @@
+{
+  "station_number": "05LH005",
+  "station_name": "WATERHEN RIVER NEAR WATERHEN",
+  "latitude": 51.8484992980957,
+  "longitude": -99.54617309570312,
+  "revised_days": 28,
+  "removed_days": 0,
+  "eligible_days": 26843,
+  "changed_percent": 0.10431024848191335,
+  "first_affected_date": "2024-12-04",
+  "last_affected_date": "2024-12-31",
+  "span_days": 28,
+  "longest_revised_run": 28,
+  "median_abs_delta_cms": 3.3000011444091797,
+  "max_abs_delta_cms": 4.5,
+  "median_abs_delta_percent": 7.75490216059818,
+  "percent_change_days": 28,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

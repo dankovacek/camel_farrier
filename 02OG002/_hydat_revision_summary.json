@@ -1,0 +1,20 @@
+{
+  "station_number": "02OG002",
+  "station_name": "YAMASKA (RIVIERE) A FARNHAM",
+  "latitude": 45.282501220703125,
+  "longitude": -72.96582794189453,
+  "revised_days": 2097,
+  "removed_days": 0,
+  "eligible_days": 30579,
+  "changed_percent": 6.857647405081919,
+  "first_affected_date": "2012-03-22",
+  "last_affected_date": "2023-09-30",
+  "span_days": 4210,
+  "longest_revised_run": 82,
+  "median_abs_delta_cms": 0.18000006675720215,
+  "max_abs_delta_cms": 3.0,
+  "median_abs_delta_percent": 2.354150308436025,
+  "percent_change_days": 2097,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

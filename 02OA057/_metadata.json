@@ -1,0 +1,12 @@
+{
+  "station_id": "02OA057",
+  "station_name": "ANGLAIS (RIVIERE DES) A 1,1 KM EN AVAL DU PONT-ROUTE A TRES-SAINT-SACREMENT",
+  "latitude": 45.17499923706055,
+  "longitude": -73.84500122070312,
+  "drainage_area_gross_km2": 678.0999755859375,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:34.492339"
+}

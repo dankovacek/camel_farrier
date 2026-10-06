@@ -270,6 +270,32 @@ Automated checks include:
 
 Results stored in `_qc_status.json` per station.
 
+## Howto: compare HYDAT releases
+
+1. In `scripts/hydat_version_comparison.py`, set
+   `EARLIER_FOLDER` and `LATER_FOLDER` to the two release folders.
+   Each must contain `Hydat.sqlite3`.
+2. From the repository root, run:
+
+   ```bash
+   python scripts/hydat_version_comparison.py
+   ```
+
+Results go to `data/<earlier folder name>_to_<later folder name>/`:
+`affected_stations.csv` lists stations with revised or removed daily flows;
+`comparison_summary.json` records totals and release metadata.
+Inputs are read-only; new observations and quality-symbol changes are excluded.
+Existing output files are replaced on subsequent runs.
+
+The [historical daily-flow revision summary](../summary_pages/hydat_revision_summary.md)
+maps the example comparison and reports flow-change magnitude and consecutive
+revision duration. Its reproduction instructions augment `DEMO_STATIONS.txt`
+with every affected station, populate data through the normal demo setup, and
+regenerate station pages with changed-day diagnostics. Use `--comparison-dir`
+on both list generation and population for a different comparison output folder.
+The diagnostic preparation uses the source paths in `comparison_summary.json`;
+if moved, it looks under `COMMON_DATA_DIR/HYDAT/<release folder>/Hydat.sqlite3`.
+
 ## Caravan vs WSC Polygon Comparison
 
 Benchmark Caravan's inherited HYSETS polygons against the current WSC drainage basins. Start with the test region so you can validate dependencies and CRS handling before launching the full computation.

@@ -1,0 +1,12 @@
+{
+  "station_id": "02PJ014",
+  "station_name": "CHAUDIERE (RIVIERE) EN AVAL DU BARRAGE SARTIGAN",
+  "latitude": 46.0977783203125,
+  "longitude": -70.65611267089844,
+  "drainage_area_gross_km2": 3079.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:38.451487"
+}

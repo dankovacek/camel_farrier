@@ -1,0 +1,20 @@
+{
+  "station_number": "02QB005",
+  "station_name": "BLANCHE (RIVIERE) A 3,5 KM EN AMONT DU PONT-ROUTE 132",
+  "latitude": 48.76667022705078,
+  "longitude": -67.66610717773438,
+  "revised_days": 1392,
+  "removed_days": 0,
+  "eligible_days": 20446,
+  "changed_percent": 6.808177638657928,
+  "first_affected_date": "2012-03-22",
+  "last_affected_date": "2023-09-24",
+  "span_days": 4204,
+  "longest_revised_run": 76,
+  "median_abs_delta_cms": 0.010999992489814758,
+  "max_abs_delta_cms": 8.400001525878906,
+  "median_abs_delta_percent": 0.9909227708759687,
+  "percent_change_days": 1392,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

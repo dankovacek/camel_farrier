@@ -1,0 +1,20 @@
+{
+  "station_number": "02RH066",
+  "station_name": "CYRIAC (RIVIERE) A 9KM EN AMONT DE SON EMBOUCHURE",
+  "latitude": 48.23527908325195,
+  "longitude": -71.28971862792969,
+  "revised_days": 4,
+  "removed_days": 0,
+  "eligible_days": 9733,
+  "changed_percent": 0.041097297852666186,
+  "first_affected_date": "2023-09-27",
+  "last_affected_date": "2023-09-30",
+  "span_days": 4,
+  "longest_revised_run": 4,
+  "median_abs_delta_cms": 0.019999980926513672,
+  "max_abs_delta_cms": 0.019999980926514116,
+  "median_abs_delta_percent": 0.5701748956705601,
+  "percent_change_days": 4,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

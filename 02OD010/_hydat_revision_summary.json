@@ -1,0 +1,20 @@
+{
+  "station_number": "02OD010",
+  "station_name": "BULSTRODE (RIVIERE) A SAINT-VALERE-1",
+  "latitude": 46.06999969482422,
+  "longitude": -71.97888946533203,
+  "revised_days": 641,
+  "removed_days": 0,
+  "eligible_days": 17427,
+  "changed_percent": 3.6782004934871178,
+  "first_affected_date": "2016-03-15",
+  "last_affected_date": "2023-09-21",
+  "span_days": 2747,
+  "longest_revised_run": 15,
+  "median_abs_delta_cms": 0.09999942779540838,
+  "max_abs_delta_cms": 17.0,
+  "median_abs_delta_percent": 0.515465894000394,
+  "percent_change_days": 641,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "02RH071",
+  "station_name": "PIKAUBA (RIVIERE) A 3,6 KM DE L'EMBOUCHURE",
+  "latitude": 48.30590057373047,
+  "longitude": -71.44059753417969,
+  "drainage_area_gross_km2": 2638.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:41.015627"
+}

@@ -1,0 +1,20 @@
+{
+  "station_number": "01BH010",
+  "station_name": "YORK (RIVIERE) A 1,4 KM EN AVAL DU RUISSEAU DINNER ISLAND",
+  "latitude": 48.806671142578125,
+  "longitude": -64.92111206054688,
+  "revised_days": 789,
+  "removed_days": 0,
+  "eligible_days": 13043,
+  "changed_percent": 6.049221804799509,
+  "first_affected_date": "2013-11-28",
+  "last_affected_date": "2023-09-16",
+  "span_days": 3580,
+  "longest_revised_run": 116,
+  "median_abs_delta_cms": 0.049999952316283736,
+  "max_abs_delta_cms": 3.6999969482421804,
+  "median_abs_delta_percent": 1.5936239842632338,
+  "percent_change_days": 789,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

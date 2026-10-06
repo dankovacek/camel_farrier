@@ -1,0 +1,20 @@
+{
+  "station_number": "02PK009",
+  "station_name": "DU CHENE (PETITE RIVIERE) A 250 M DU PONT-ROUTE 265 A DESCHAILLONS",
+  "latitude": 46.54056167602539,
+  "longitude": -72.09343719482422,
+  "revised_days": 1,
+  "removed_days": 0,
+  "eligible_days": 6106,
+  "changed_percent": 0.016377333770062234,
+  "first_affected_date": "2021-10-01",
+  "last_affected_date": "2021-10-01",
+  "span_days": 1,
+  "longest_revised_run": 1,
+  "median_abs_delta_cms": 0.0009999871253967285,
+  "max_abs_delta_cms": 0.0009999871253967285,
+  "median_abs_delta_percent": 0.1579758451477018,
+  "percent_change_days": 1,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

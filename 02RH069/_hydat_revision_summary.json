@@ -1,0 +1,20 @@
+{
+  "station_number": "02RH069",
+  "station_name": "A MARS (RIVIERE) A LA FOSSE 80 DANS LA ZEC DE LA RIVIERE A MARS",
+  "latitude": 48.20500183105469,
+  "longitude": -70.9979019165039,
+  "revised_days": 763,
+  "removed_days": 0,
+  "eligible_days": 4168,
+  "changed_percent": 18.306142034548945,
+  "first_affected_date": "2020-05-29",
+  "last_affected_date": "2023-09-30",
+  "span_days": 1220,
+  "longest_revised_run": 221,
+  "median_abs_delta_cms": 0.26999950408935547,
+  "max_abs_delta_cms": 3.0,
+  "median_abs_delta_percent": 3.6890609662994875,
+  "percent_change_days": 763,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

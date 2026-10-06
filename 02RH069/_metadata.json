@@ -1,0 +1,12 @@
+{
+  "station_id": "02RH069",
+  "station_name": "A MARS (RIVIERE) A LA FOSSE 80 DANS LA ZEC DE LA RIVIERE A MARS",
+  "latitude": 48.20500183105469,
+  "longitude": -70.9979019165039,
+  "drainage_area_gross_km2": 449.7000122070313,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:40.930714"
+}

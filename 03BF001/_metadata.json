@@ -1,0 +1,12 @@
+{
+  "station_id": "03BF001",
+  "station_name": "PONTAX (RIVIERE) A 60,4 KM DE L'EMBOUCHURE",
+  "latitude": 51.53361129760742,
+  "longitude": -78.09667205810547,
+  "drainage_area_gross_km2": 5969.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:41.533859"
+}

@@ -1,0 +1,20 @@
+{
+  "station_number": "03AC004",
+  "station_name": "BELL (RIVIERE) EN AMONT DU LAC MATAGAMI",
+  "latitude": 49.75305938720703,
+  "longitude": -77.61444091796875,
+  "revised_days": 1,
+  "removed_days": 0,
+  "eligible_days": 20814,
+  "changed_percent": 0.0048044585375228216,
+  "first_affected_date": "2014-05-07",
+  "last_affected_date": "2014-05-07",
+  "span_days": 1,
+  "longest_revised_run": 1,
+  "median_abs_delta_cms": 380.0,
+  "max_abs_delta_cms": 380.0,
+  "median_abs_delta_percent": 21.11111111111111,
+  "percent_change_days": 1,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

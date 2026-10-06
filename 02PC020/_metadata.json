@@ -1,0 +1,12 @@
+{
+  "station_id": "02PC020",
+  "station_name": "LA CHEVROTIERE (RIVIERE) SUR LA ROUTE DU MOULIN",
+  "latitude": 46.73749923706055,
+  "longitude": -72.00129699707031,
+  "drainage_area_gross_km2": 17.770000457763672,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:37.554161"
+}

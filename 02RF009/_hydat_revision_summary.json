@@ -1,0 +1,20 @@
+{
+  "station_number": "02RF009",
+  "station_name": "SAUMONS (RIVIERE AUX) PRES DE L'EMBOUCHURE",
+  "latitude": 48.68360900878906,
+  "longitude": -72.5138931274414,
+  "revised_days": 1,
+  "removed_days": 0,
+  "eligible_days": 13848,
+  "changed_percent": 0.007221259387637204,
+  "first_affected_date": "2013-04-23",
+  "last_affected_date": "2013-04-23",
+  "span_days": 1,
+  "longest_revised_run": 1,
+  "median_abs_delta_cms": 0.09999847412109375,
+  "max_abs_delta_cms": 0.09999847412109375,
+  "median_abs_delta_percent": 0.18552592076102573,
+  "percent_change_days": 1,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

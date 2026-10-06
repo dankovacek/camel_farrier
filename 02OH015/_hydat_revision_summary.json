@@ -1,0 +1,20 @@
+{
+  "station_number": "02OH015",
+  "station_name": "EWING (RIVIERE) A SAINT-PIERRE-DE-VERONNE-A PIKE-RIVER",
+  "latitude": 45.125301361083984,
+  "longitude": -73.07730102539062,
+  "revised_days": 371,
+  "removed_days": 0,
+  "eligible_days": 4230,
+  "changed_percent": 8.770685579196217,
+  "first_affected_date": "2021-09-22",
+  "last_affected_date": "2023-09-30",
+  "span_days": 739,
+  "longest_revised_run": 194,
+  "median_abs_delta_cms": 0.008000001311302157,
+  "max_abs_delta_cms": 0.059999942779541016,
+  "median_abs_delta_percent": 2.793301670170382,
+  "percent_change_days": 371,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

@@ -1,0 +1,20 @@
+{
+  "station_number": "02OG019",
+  "station_name": "NOIRE (RIVIERE) A 7,6 KM DE LA YAMASKA",
+  "latitude": 45.49972152709961,
+  "longitude": -72.90638732910156,
+  "revised_days": 1359,
+  "removed_days": 0,
+  "eligible_days": 20954,
+  "changed_percent": 6.485635200916293,
+  "first_affected_date": "2018-02-25",
+  "last_affected_date": "2023-09-30",
+  "span_days": 2044,
+  "longest_revised_run": 172,
+  "median_abs_delta_cms": 0.14999961853027344,
+  "max_abs_delta_cms": 3.0,
+  "median_abs_delta_percent": 2.017289125811147,
+  "percent_change_days": 1359,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

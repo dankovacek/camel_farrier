@@ -1,0 +1,20 @@
+{
+  "station_number": "03BF001",
+  "station_name": "PONTAX (RIVIERE) A 60,4 KM DE L'EMBOUCHURE",
+  "latitude": 51.53361129760742,
+  "longitude": -78.09667205810547,
+  "revised_days": 878,
+  "removed_days": 0,
+  "eligible_days": 14494,
+  "changed_percent": 6.057679039602594,
+  "first_affected_date": "2012-04-02",
+  "last_affected_date": "2023-07-14",
+  "span_days": 4121,
+  "longest_revised_run": 49,
+  "median_abs_delta_cms": 0.5,
+  "max_abs_delta_cms": 1.0999984741210938,
+  "median_abs_delta_percent": 0.5376337286401089,
+  "percent_change_days": 878,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

@@ -1,0 +1,20 @@
+{
+  "station_number": "02PC019",
+  "station_name": "AUX POMMES  (RIVIERE) A 1.6KM EN AVAL DE LA NOIRE",
+  "latitude": 46.695831298828125,
+  "longitude": -71.68888854980469,
+  "revised_days": 1689,
+  "removed_days": 0,
+  "eligible_days": 12618,
+  "changed_percent": 13.38563956252972,
+  "first_affected_date": "2015-09-16",
+  "last_affected_date": "2023-09-30",
+  "span_days": 2937,
+  "longest_revised_run": 120,
+  "median_abs_delta_cms": 0.03000009059906028,
+  "max_abs_delta_cms": 0.1100001335144043,
+  "median_abs_delta_percent": 2.2508094541019306,
+  "percent_change_days": 1689,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

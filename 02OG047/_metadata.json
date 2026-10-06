@@ -1,0 +1,12 @@
+{
+  "station_id": "02OG047",
+  "station_name": "YAMASKA (RIVIERE) A 1,8 KM EN AVAL DU BARRAGE A SAINT-HYACINTHE",
+  "latitude": 45.62194061279297,
+  "longitude": -72.93611145019531,
+  "drainage_area_gross_km2": 3342.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:36.437785"
+}

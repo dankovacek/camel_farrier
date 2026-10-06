@@ -1,0 +1,20 @@
+{
+  "station_number": "02QC009",
+  "station_name": "SAINTE-ANNE (RIVIERE) A 9,7 KM EN AMONT DU PONT-ROUTE 132",
+  "latitude": 49.05889129638672,
+  "longitude": -66.4866714477539,
+  "revised_days": 714,
+  "removed_days": 0,
+  "eligible_days": 18088,
+  "changed_percent": 3.9473684210526314,
+  "first_affected_date": "2020-12-04",
+  "last_affected_date": "2023-09-30",
+  "span_days": 1031,
+  "longest_revised_run": 147,
+  "median_abs_delta_cms": 1.0,
+  "max_abs_delta_cms": 2.8000011444091815,
+  "median_abs_delta_percent": 6.1720776053148745,
+  "percent_change_days": 714,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

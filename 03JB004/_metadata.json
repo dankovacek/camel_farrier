@@ -1,0 +1,12 @@
+{
+  "station_id": "03JB004",
+  "station_name": "FEUILLES (RIVIERE AUX) EN AMONT DU RUISSEAU DUFREBOY",
+  "latitude": 58.2841682434082,
+  "longitude": -71.28250122070312,
+  "drainage_area_gross_km2": 32040.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:41.741807"
+}

@@ -1,0 +1,20 @@
+{
+  "station_number": "02RH015",
+  "station_name": "CHICOUTIMI (RIVIERE) EN AVAL DU BARRAGE PORTAGE DES ROCHES",
+  "latitude": 48.30416870117188,
+  "longitude": -71.19444274902344,
+  "revised_days": 423,
+  "removed_days": 0,
+  "eligible_days": 40640,
+  "changed_percent": 1.0408464566929134,
+  "first_affected_date": "2013-12-10",
+  "last_affected_date": "2021-09-30",
+  "span_days": 2852,
+  "longest_revised_run": 245,
+  "median_abs_delta_cms": 3.3000030517578196,
+  "max_abs_delta_cms": 3.9000015258789062,
+  "median_abs_delta_percent": 8.026024014554423,
+  "percent_change_days": 423,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

@@ -1,0 +1,20 @@
+{
+  "station_number": "02PH010",
+  "station_name": "DU SUD (RIVIERE) A 1,0 KM EN AMONT DU PONT-ROUTE A ARTHURVILLE",
+  "latitude": 46.820560455322266,
+  "longitude": -70.75694274902344,
+  "revised_days": 4,
+  "removed_days": 0,
+  "eligible_days": 20751,
+  "changed_percent": 0.019276179461230784,
+  "first_affected_date": "2020-10-13",
+  "last_affected_date": "2021-01-03",
+  "span_days": 83,
+  "longest_revised_run": 2,
+  "median_abs_delta_cms": 0.05500030517578125,
+  "max_abs_delta_cms": 0.2999992370605469,
+  "median_abs_delta_percent": 0.5438421396018635,
+  "percent_change_days": 4,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

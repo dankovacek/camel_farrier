@@ -1,0 +1,20 @@
+{
+  "station_number": "02OH012",
+  "station_name": "MORPIONS (RIVIERE) A 3,1 KM EN AMONT DE LA RIVIERE AUX BROCHETS",
+  "latitude": 45.19839859008789,
+  "longitude": -73.03279876708984,
+  "revised_days": 626,
+  "removed_days": 0,
+  "eligible_days": 8505,
+  "changed_percent": 7.360376249265138,
+  "first_affected_date": "2019-04-04",
+  "last_affected_date": "2023-09-30",
+  "span_days": 1641,
+  "longest_revised_run": 196,
+  "median_abs_delta_cms": 0.030000008642673506,
+  "max_abs_delta_cms": 0.4000005722045916,
+  "median_abs_delta_percent": 12.887744215819826,
+  "percent_change_days": 626,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

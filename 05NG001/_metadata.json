@@ -1,0 +1,12 @@
+{
+  "station_id": "05NG001",
+  "station_name": "SOURIS RIVER AT WAWANESA",
+  "latitude": 49.59693908691406,
+  "longitude": -99.67864227294922,
+  "drainage_area_gross_km2": 59850.0,
+  "drainage_area_effect_km2": 21810.0,
+  "province_territory": "MB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:42.437302"
+}

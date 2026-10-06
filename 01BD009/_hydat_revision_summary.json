@@ -1,0 +1,20 @@
+{
+  "station_number": "01BD009",
+  "station_name": "MATAPEDIA (RIVIERE) A 4 KM EN AMONT DE L'ASSEMETQUAGAN",
+  "latitude": 48.1078987121582,
+  "longitude": -67.13020324707031,
+  "revised_days": 163,
+  "removed_days": 0,
+  "eligible_days": 9299,
+  "changed_percent": 1.7528766534035918,
+  "first_affected_date": "2018-05-08",
+  "last_affected_date": "2023-09-30",
+  "span_days": 1972,
+  "longest_revised_run": 56,
+  "median_abs_delta_cms": 0.20000076293945668,
+  "max_abs_delta_cms": 4.900001525878906,
+  "median_abs_delta_percent": 0.8333365122477362,
+  "percent_change_days": 163,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

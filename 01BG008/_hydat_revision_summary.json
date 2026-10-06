@@ -1,0 +1,20 @@
+{
+  "station_number": "01BG008",
+  "station_name": "CASCAPEDIA (PETITE RIVIERE) A SAINT-EDGAR",
+  "latitude": 48.23083114624024,
+  "longitude": -65.73500061035156,
+  "revised_days": 393,
+  "removed_days": 0,
+  "eligible_days": 11716,
+  "changed_percent": 3.3543871628542163,
+  "first_affected_date": "2016-10-27",
+  "last_affected_date": "2018-09-30",
+  "span_days": 704,
+  "longest_revised_run": 112,
+  "median_abs_delta_cms": 0.3000001907348633,
+  "max_abs_delta_cms": 22.0,
+  "median_abs_delta_percent": 2.2556404994930244,
+  "percent_change_days": 393,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

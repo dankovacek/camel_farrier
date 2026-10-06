@@ -1,0 +1,12 @@
+{
+  "station_id": "02OE032",
+  "station_name": "SAUMON (RIVIERE AU) A 1,9 KM EN AMONT DE LA MOFFAT",
+  "latitude": 45.58055877685547,
+  "longitude": -71.38667297363281,
+  "drainage_area_gross_km2": 740.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:35.510154"
+}

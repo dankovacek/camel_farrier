@@ -1,0 +1,12 @@
+{
+  "station_id": "02LC029",
+  "station_name": "ROUGE (RIVIERE) EN AMONT DE LA CHUTE MCNEIL",
+  "latitude": 45.73638916015625,
+  "longitude": -74.6897201538086,
+  "drainage_area_gross_km2": 5478.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:33.876669"
+}

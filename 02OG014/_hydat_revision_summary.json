@@ -1,0 +1,20 @@
+{
+  "station_number": "02OG014",
+  "station_name": "YAMASKA SUD-EST (RIVIERE) AU PONT-ROUTE 202 A COWANSVILLE",
+  "latitude": 45.206668853759766,
+  "longitude": -72.74806213378906,
+  "revised_days": 1109,
+  "removed_days": 0,
+  "eligible_days": 16485,
+  "changed_percent": 6.727327873824689,
+  "first_affected_date": "2019-11-03",
+  "last_affected_date": "2023-09-30",
+  "span_days": 1428,
+  "longest_revised_run": 304,
+  "median_abs_delta_cms": 0.019999995827674852,
+  "max_abs_delta_cms": 0.8299999237060547,
+  "median_abs_delta_percent": 2.6315786525294396,
+  "percent_change_days": 1109,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

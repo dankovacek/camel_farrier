@@ -1,0 +1,12 @@
+{
+  "station_id": "02OG019",
+  "station_name": "NOIRE (RIVIERE) A 7,6 KM DE LA YAMASKA",
+  "latitude": 45.49972152709961,
+  "longitude": -72.90638732910156,
+  "drainage_area_gross_km2": 1503.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:36.309070"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "02QC009",
+  "station_name": "SAINTE-ANNE (RIVIERE) A 9,7 KM EN AMONT DU PONT-ROUTE 132",
+  "latitude": 49.05889129638672,
+  "longitude": -66.4866714477539,
+  "drainage_area_gross_km2": 779.9000244140625,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:39.562351"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "02PH010",
+  "station_name": "DU SUD (RIVIERE) A 1,0 KM EN AMONT DU PONT-ROUTE A ARTHURVILLE",
+  "latitude": 46.820560455322266,
+  "longitude": -70.75694274902344,
+  "drainage_area_gross_km2": 823.5999755859375,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:37.865245"
+}

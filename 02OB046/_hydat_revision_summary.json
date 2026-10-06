@@ -1,0 +1,20 @@
+{
+  "station_number": "02OB046",
+  "station_name": "BAYONNE (RIVIERE) A ST-FELIX-DE-VALOIS",
+  "latitude": 46.15169906616211,
+  "longitude": -73.39080047607422,
+  "revised_days": 283,
+  "removed_days": 0,
+  "eligible_days": 4229,
+  "changed_percent": 6.691889335540317,
+  "first_affected_date": "2017-04-08",
+  "last_affected_date": "2021-05-17",
+  "span_days": 1501,
+  "longest_revised_run": 135,
+  "median_abs_delta_cms": 0.11999988555908181,
+  "max_abs_delta_cms": 1.7000007629394531,
+  "median_abs_delta_percent": 5.537461745596763,
+  "percent_change_days": 283,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

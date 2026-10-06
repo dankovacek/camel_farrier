@@ -1,0 +1,20 @@
+{
+  "station_number": "02RD003",
+  "station_name": "MISTASSINI (RIVIERE) EN AMONT DE LA RIVIERE MISTASSIBI",
+  "latitude": 48.88777923583984,
+  "longitude": -72.26361083984375,
+  "revised_days": 1790,
+  "removed_days": 0,
+  "eligible_days": 23104,
+  "changed_percent": 7.747576177285318,
+  "first_affected_date": "2012-03-25",
+  "last_affected_date": "2023-09-30",
+  "span_days": 4207,
+  "longest_revised_run": 41,
+  "median_abs_delta_cms": 2.0,
+  "max_abs_delta_cms": 10.0,
+  "median_abs_delta_percent": 0.8928571428571429,
+  "percent_change_days": 1790,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

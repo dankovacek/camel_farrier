@@ -1,0 +1,20 @@
+{
+  "station_number": "01BF004",
+  "station_name": "NOUVELLE (RIVIERE) A 0,2 KM EN AMONT DU PONT-ROUTE 132 A NOUVELLE",
+  "latitude": 48.15879821777344,
+  "longitude": -66.34880065917969,
+  "revised_days": 151,
+  "removed_days": 0,
+  "eligible_days": 7492,
+  "changed_percent": 2.0154831820608647,
+  "first_affected_date": "2018-05-01",
+  "last_affected_date": "2018-09-30",
+  "span_days": 153,
+  "longest_revised_run": 146,
+  "median_abs_delta_cms": 1.0,
+  "max_abs_delta_cms": 3.0,
+  "median_abs_delta_percent": 11.987377503996708,
+  "percent_change_days": 151,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

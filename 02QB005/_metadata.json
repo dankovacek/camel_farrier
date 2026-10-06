@@ -1,0 +1,12 @@
+{
+  "station_id": "02QB005",
+  "station_name": "BLANCHE (RIVIERE) A 3,5 KM EN AMONT DU PONT-ROUTE 132",
+  "latitude": 48.76667022705078,
+  "longitude": -67.66610717773438,
+  "drainage_area_gross_km2": 208.5,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:39.434608"
+}

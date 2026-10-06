@@ -1,0 +1,12 @@
+{
+  "station_id": "05LH005",
+  "station_name": "WATERHEN RIVER NEAR WATERHEN",
+  "latitude": 51.8484992980957,
+  "longitude": -99.54617309570312,
+  "drainage_area_gross_km2": 55120.0,
+  "drainage_area_effect_km2": 47970.0,
+  "province_territory": "MB",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:42.048206"
+}

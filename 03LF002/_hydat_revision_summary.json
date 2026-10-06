@@ -1,0 +1,20 @@
+{
+  "station_number": "03LF002",
+  "station_name": "CANIAPISCAU (RIVIERE) A 1,0 KM EN AMONT DE LA CHUTE DE LA PYRITE",
+  "latitude": 57.42916870117188,
+  "longitude": -69.20832824707031,
+  "revised_days": 35,
+  "removed_days": 0,
+  "eligible_days": 17143,
+  "changed_percent": 0.2041649652919559,
+  "first_affected_date": "2022-10-21",
+  "last_affected_date": "2023-09-30",
+  "span_days": 345,
+  "longest_revised_run": 6,
+  "median_abs_delta_cms": 1.0,
+  "max_abs_delta_cms": 10.0,
+  "median_abs_delta_percent": 0.1721170395869191,
+  "percent_change_days": 35,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

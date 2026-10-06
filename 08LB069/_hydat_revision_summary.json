@@ -1,0 +1,20 @@
+{
+  "station_number": "08LB069",
+  "station_name": "BARRIERE RIVER BELOW SPRAGUE CREEK",
+  "latitude": 51.24533081054688,
+  "longitude": -119.9376983642578,
+  "revised_days": 64,
+  "removed_days": 0,
+  "eligible_days": 21694,
+  "changed_percent": 0.29501244583755876,
+  "first_affected_date": "2023-10-23",
+  "last_affected_date": "2023-12-31",
+  "span_days": 70,
+  "longest_revised_run": 63,
+  "median_abs_delta_cms": 0.07999992370605469,
+  "max_abs_delta_cms": 0.14999985694885254,
+  "median_abs_delta_percent": 3.3755893072535725,
+  "percent_change_days": 64,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

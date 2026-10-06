@@ -1,0 +1,12 @@
+{
+  "station_id": "01BG009",
+  "station_name": "BONAVENTURE (RIVIERE) EN AMONT DU RUISSEAU CREUX",
+  "latitude": 48.18611145019531,
+  "longitude": -65.55860900878906,
+  "drainage_area_gross_km2": 1911.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:32.872108"
+}

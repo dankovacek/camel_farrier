@@ -1,0 +1,20 @@
+{
+  "station_number": "02PJ007",
+  "station_name": "BEAURIVAGE (RIVIERE) A SAINTE-ETIENNE",
+  "latitude": 46.6591682434082,
+  "longitude": -71.28861236572266,
+  "revised_days": 249,
+  "removed_days": 0,
+  "eligible_days": 33147,
+  "changed_percent": 0.7511992035478324,
+  "first_affected_date": "2020-09-30",
+  "last_affected_date": "2021-09-06",
+  "span_days": 342,
+  "longest_revised_run": 159,
+  "median_abs_delta_cms": 0.600006103515625,
+  "max_abs_delta_cms": 2.0,
+  "median_abs_delta_percent": 10.294116486933815,
+  "percent_change_days": 249,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

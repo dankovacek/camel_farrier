@@ -1,0 +1,20 @@
+{
+  "station_number": "02QA002",
+  "station_name": "RIMOUSKI (RIVIERE) A 3,7 KM EN AMONT DU PONT-ROUTE 132",
+  "latitude": 48.413330078125,
+  "longitude": -68.55610656738281,
+  "revised_days": 498,
+  "removed_days": 0,
+  "eligible_days": 18571,
+  "changed_percent": 2.6816003446233374,
+  "first_affected_date": "2012-01-01",
+  "last_affected_date": "2013-10-21",
+  "span_days": 660,
+  "longest_revised_run": 79,
+  "median_abs_delta_cms": 0.30000019073486417,
+  "max_abs_delta_cms": 1.2999992370605469,
+  "median_abs_delta_percent": 1.3314121021512013,
+  "percent_change_days": 498,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

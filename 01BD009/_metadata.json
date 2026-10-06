@@ -1,0 +1,12 @@
+{
+  "station_id": "01BD009",
+  "station_name": "MATAPEDIA (RIVIERE) A 4 KM EN AMONT DE L'ASSEMETQUAGAN",
+  "latitude": 48.1078987121582,
+  "longitude": -67.13020324707031,
+  "drainage_area_gross_km2": 2751.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:32.483645"
+}

@@ -1,0 +1,20 @@
+{
+  "station_number": "02RH070",
+  "station_name": "DU MOULIN (RIVIERE) EN AMONT DU SEUIL A L'ENTRE DU PARC DU MOULIN",
+  "latitude": 48.39440155029297,
+  "longitude": -71.04239654541016,
+  "revised_days": 288,
+  "removed_days": 0,
+  "eligible_days": 4185,
+  "changed_percent": 6.881720430107527,
+  "first_affected_date": "2014-11-26",
+  "last_affected_date": "2023-09-30",
+  "span_days": 3231,
+  "longest_revised_run": 80,
+  "median_abs_delta_cms": 0.4500000476837158,
+  "max_abs_delta_cms": 3.3600001335144043,
+  "median_abs_delta_percent": 6.620081122663757,
+  "percent_change_days": 288,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

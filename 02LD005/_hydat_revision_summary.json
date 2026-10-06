@@ -1,0 +1,20 @@
+{
+  "station_number": "02LD005",
+  "station_name": "PETITE NATION (RIVIERE DE LA) AU PONT A 1,6 KM EN AMONT DE RIPON",
+  "latitude": 45.79167175292969,
+  "longitude": -75.09139251708984,
+  "revised_days": 3,
+  "removed_days": 0,
+  "eligible_days": 19902,
+  "changed_percent": 0.015073861923424782,
+  "first_affected_date": "2017-01-09",
+  "last_affected_date": "2017-02-09",
+  "span_days": 32,
+  "longest_revised_run": 1,
+  "median_abs_delta_cms": 0.3000001907348633,
+  "max_abs_delta_cms": 0.39999961853027166,
+  "median_abs_delta_percent": 2.0689668326542296,
+  "percent_change_days": 3,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

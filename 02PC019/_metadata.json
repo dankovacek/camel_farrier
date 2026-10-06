@@ -1,0 +1,12 @@
+{
+  "station_id": "02PC019",
+  "station_name": "AUX POMMES  (RIVIERE) A 1.6KM EN AVAL DE LA NOIRE",
+  "latitude": 46.695831298828125,
+  "longitude": -71.68888854980469,
+  "drainage_area_gross_km2": 101.4000015258789,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:37.435732"
+}

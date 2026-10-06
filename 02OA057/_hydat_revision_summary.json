@@ -1,0 +1,20 @@
+{
+  "station_number": "02OA057",
+  "station_name": "ANGLAIS (RIVIERE DES) A 1,1 KM EN AVAL DU PONT-ROUTE A TRES-SAINT-SACREMENT",
+  "latitude": 45.17499923706055,
+  "longitude": -73.84500122070312,
+  "revised_days": 215,
+  "removed_days": 0,
+  "eligible_days": 18111,
+  "changed_percent": 1.1871238473855668,
+  "first_affected_date": "2022-03-12",
+  "last_affected_date": "2022-10-13",
+  "span_days": 216,
+  "longest_revised_run": 197,
+  "median_abs_delta_cms": 0.08999967575073242,
+  "max_abs_delta_cms": 0.40000152587891336,
+  "median_abs_delta_percent": 2.0661235189477742,
+  "percent_change_days": 215,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

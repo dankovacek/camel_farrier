@@ -1,0 +1,12 @@
+{
+  "station_id": "02PC002",
+  "station_name": "JACQUES-CARTIER (RIVIERE) EN AVAL DU PONT DU CHEMIN GOSFORD",
+  "latitude": 46.88972091674805,
+  "longitude": -71.5272216796875,
+  "drainage_area_gross_km2": 1989.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:37.147050"
+}

@@ -1,0 +1,12 @@
+{
+  "station_id": "03LF002",
+  "station_name": "CANIAPISCAU (RIVIERE) A 1,0 KM EN AMONT DE LA CHUTE DE LA PYRITE",
+  "latitude": 57.42916870117188,
+  "longitude": -69.20832824707031,
+  "drainage_area_gross_km2": 49090.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:41.837405"
+}

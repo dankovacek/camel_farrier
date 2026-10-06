@@ -1,0 +1,20 @@
+{
+  "station_number": "02RG005",
+  "station_name": "METABETCHOUANE (RIVIERE) EN AMONT DE LA CENTRALE S.R.P.C.",
+  "latitude": 48.375,
+  "longitude": -71.99360656738281,
+  "revised_days": 1983,
+  "removed_days": 0,
+  "eligible_days": 18482,
+  "changed_percent": 10.729358294556866,
+  "first_affected_date": "2012-03-25",
+  "last_affected_date": "2023-09-29",
+  "span_days": 4206,
+  "longest_revised_run": 85,
+  "median_abs_delta_cms": 0.5,
+  "max_abs_delta_cms": 2.0999984741210866,
+  "median_abs_delta_percent": 1.4962651163330682,
+  "percent_change_days": 1983,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

@@ -1,0 +1,20 @@
+{
+  "station_number": "01AD015",
+  "station_name": "MADAWASKA (RIVIERE) A 6 KM EN AVAL DU BARRAGE TEMISCOUATA",
+  "latitude": 47.53850173950195,
+  "longitude": -68.591796875,
+  "revised_days": 1775,
+  "removed_days": 0,
+  "eligible_days": 5402,
+  "changed_percent": 32.85820066641985,
+  "first_affected_date": "2012-01-01",
+  "last_affected_date": "2018-09-30",
+  "span_days": 2465,
+  "longest_revised_run": 119,
+  "median_abs_delta_cms": 0.1400003433227539,
+  "max_abs_delta_cms": 1.0,
+  "median_abs_delta_percent": 0.7662864368440567,
+  "percent_change_days": 1775,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

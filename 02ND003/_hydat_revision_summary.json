@@ -1,0 +1,20 @@
+{
+  "station_number": "02ND003",
+  "station_name": "VERMILLON (RIVIERE) EN AVAL DE LA RIVIERE DES PRAIRIES",
+  "latitude": 47.6763916015625,
+  "longitude": -73.04277801513672,
+  "revised_days": 1090,
+  "removed_days": 0,
+  "eligible_days": 14818,
+  "changed_percent": 7.355918477527331,
+  "first_affected_date": "2019-04-28",
+  "last_affected_date": "2023-09-30",
+  "span_days": 1617,
+  "longest_revised_run": 250,
+  "median_abs_delta_cms": 2.300001144409176,
+  "max_abs_delta_cms": 3.5000000000000018,
+  "median_abs_delta_percent": 7.8994897640892585,
+  "percent_change_days": 1090,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

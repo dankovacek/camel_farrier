@@ -1,0 +1,20 @@
+{
+  "station_number": "05ND010",
+  "station_name": "MOOSE MOUNTAIN CREEK ABOVE GRANT DEVINE LAKE",
+  "latitude": 49.52278137207031,
+  "longitude": -102.17194366455078,
+  "revised_days": 30,
+  "removed_days": 0,
+  "eligible_days": 12054,
+  "changed_percent": 0.24888003982080636,
+  "first_affected_date": "2024-06-24",
+  "last_affected_date": "2024-09-25",
+  "span_days": 94,
+  "longest_revised_run": 11,
+  "median_abs_delta_cms": 0.0010000001639127731,
+  "max_abs_delta_cms": 0.001000046730041504,
+  "median_abs_delta_percent": 0.48965716229757084,
+  "percent_change_days": 30,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

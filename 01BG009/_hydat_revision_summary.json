@@ -1,0 +1,20 @@
+{
+  "station_number": "01BG009",
+  "station_name": "BONAVENTURE (RIVIERE) EN AMONT DU RUISSEAU CREUX",
+  "latitude": 48.18611145019531,
+  "longitude": -65.55860900878906,
+  "revised_days": 710,
+  "removed_days": 0,
+  "eligible_days": 14678,
+  "changed_percent": 4.8371712767407,
+  "first_affected_date": "2018-06-01",
+  "last_affected_date": "2023-09-30",
+  "span_days": 1948,
+  "longest_revised_run": 120,
+  "median_abs_delta_cms": 0.39999961853027344,
+  "max_abs_delta_cms": 7.0,
+  "median_abs_delta_percent": 2.7777794947839753,
+  "percent_change_days": 710,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

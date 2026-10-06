@@ -1,0 +1,20 @@
+{
+  "station_number": "02LC021",
+  "station_name": "NORD (RIVIERE DU) PRES DE SAINT-AGATHE",
+  "latitude": 46.04582977294922,
+  "longitude": -74.25277709960938,
+  "revised_days": 418,
+  "removed_days": 0,
+  "eligible_days": 19242,
+  "changed_percent": 2.1723313584866437,
+  "first_affected_date": "2012-06-27",
+  "last_affected_date": "2023-09-30",
+  "span_days": 4113,
+  "longest_revised_run": 16,
+  "median_abs_delta_cms": 0.009999990463256836,
+  "max_abs_delta_cms": 0.8000001907348651,
+  "median_abs_delta_percent": 0.5763731084453654,
+  "percent_change_days": 418,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

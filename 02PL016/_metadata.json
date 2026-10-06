@@ -1,0 +1,12 @@
+{
+  "station_id": "02PL016",
+  "station_name": "BECANCOUR (RIVIERE) A 6 KM  EN AVAL DU PONT DE L'AUTOROUTE 20",
+  "latitude": 46.19900131225586,
+  "longitude": -72.09819793701172,
+  "drainage_area_gross_km2": 2169.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:38.904252"
+}

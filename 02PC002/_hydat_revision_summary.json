@@ -1,0 +1,20 @@
+{
+  "station_number": "02PC002",
+  "station_name": "JACQUES-CARTIER (RIVIERE) EN AVAL DU PONT DU CHEMIN GOSFORD",
+  "latitude": 46.88972091674805,
+  "longitude": -71.5272216796875,
+  "revised_days": 89,
+  "removed_days": 0,
+  "eligible_days": 33757,
+  "changed_percent": 0.26364902094380427,
+  "first_affected_date": "2020-11-08",
+  "last_affected_date": "2023-09-29",
+  "span_days": 1056,
+  "longest_revised_run": 28,
+  "median_abs_delta_cms": 0.10000038146973012,
+  "max_abs_delta_cms": 1.0,
+  "median_abs_delta_percent": 0.3690050924800142,
+  "percent_change_days": 89,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

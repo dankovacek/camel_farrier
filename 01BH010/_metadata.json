@@ -1,0 +1,12 @@
+{
+  "station_id": "01BH010",
+  "station_name": "YORK (RIVIERE) A 1,4 KM EN AVAL DU RUISSEAU DINNER ISLAND",
+  "latitude": 48.806671142578125,
+  "longitude": -64.92111206054688,
+  "drainage_area_gross_km2": 668.4000244140625,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:33.148361"
+}

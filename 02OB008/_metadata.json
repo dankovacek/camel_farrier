@@ -1,0 +1,12 @@
+{
+  "station_id": "02OB008",
+  "station_name": "L'ASSOMPTION (RIVIERE) AU PONT-ROUTE 158 A JOLIETTE",
+  "latitude": 46.01028060913086,
+  "longitude": -73.42749786376953,
+  "drainage_area_gross_km2": 1291.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:34.609688"
+}

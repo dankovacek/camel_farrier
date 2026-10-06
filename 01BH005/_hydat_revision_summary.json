@@ -1,0 +1,20 @@
+{
+  "station_number": "01BH005",
+  "station_name": "DARTMOUTH (RIVIERE) EN AMONT DU RUISSEAU DU PAS DE DAME",
+  "latitude": 48.97972106933594,
+  "longitude": -64.6986083984375,
+  "revised_days": 836,
+  "removed_days": 0,
+  "eligible_days": 16975,
+  "changed_percent": 4.924889543446245,
+  "first_affected_date": "2012-01-01",
+  "last_affected_date": "2023-08-26",
+  "span_days": 4256,
+  "longest_revised_run": 54,
+  "median_abs_delta_cms": 0.00999999046325728,
+  "max_abs_delta_cms": 8.599998474121094,
+  "median_abs_delta_percent": 0.5952375461590091,
+  "percent_change_days": 836,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

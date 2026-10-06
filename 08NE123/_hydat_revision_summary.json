@@ -1,0 +1,20 @@
+{
+  "station_number": "08NE123",
+  "station_name": "CRANBERRY CREEK ABOVE B.C. HYDRO INTAKE",
+  "latitude": 50.79475021362305,
+  "longitude": -118.0780792236328,
+  "revised_days": 278,
+  "removed_days": 0,
+  "eligible_days": 6898,
+  "changed_percent": 4.030153667729777,
+  "first_affected_date": "2023-03-29",
+  "last_affected_date": "2023-12-31",
+  "span_days": 278,
+  "longest_revised_run": 278,
+  "median_abs_delta_cms": 0.15999984741210915,
+  "max_abs_delta_cms": 8.100000381469723,
+  "median_abs_delta_percent": 7.779598590772984,
+  "percent_change_days": 278,
+  "earlier_release": "Hydat_sqlite3_20250715",
+  "later_release": "Hydat_sqlite3_20260717"
+}

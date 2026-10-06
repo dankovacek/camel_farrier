@@ -1,0 +1,12 @@
+{
+  "station_id": "02RD003",
+  "station_name": "MISTASSINI (RIVIERE) EN AMONT DE LA RIVIERE MISTASSIBI",
+  "latitude": 48.88777923583984,
+  "longitude": -72.26361083984375,
+  "drainage_area_gross_km2": 9640.0,
+  "drainage_area_effect_km2": null,
+  "province_territory": "QC",
+  "hyd_status": "A",
+  "source": "HYDAT",
+  "retrieval_date": "2026-10-05T20:33:39.834487"
+}
